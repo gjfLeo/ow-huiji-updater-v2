@@ -1,15 +1,9 @@
 # wiki-editor
 
-To install dependencies:
+需要配置环境变量，可在项目根目录创建 `.env.local` 文件，需要的环境变量见 `env.d.ts`。
 
-```bash
-bun install
-```
+在项目根目录运行 `bun run packages/wiki-editor/src/index.ts` 启动。
 
-To run:
+各模块功能：
 
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.2.21. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
+- `editPage`：下载Wiki页面至本地编辑，实时保存至Wiki。

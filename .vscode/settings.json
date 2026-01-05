@@ -12,11 +12,9 @@
     "overfast",
     "overwatch",
     "owlib",
+    "Scribunto",
     "ustring",
     "wikitable",
-  ],
-  "Lua.diagnostics.globals": [
-    "mw",
   ],
   "Lua.format.defaultConfig": {
     "quote_style": "double",
@@ -27,8 +25,5 @@
   // "[css]": {
   //   "editor.minimap.markSectionHeaderRegex": "^/\\* #region (?<label>.+) \\*/",
   // },
-  "javascript.preferences.autoImportFileExcludePatterns": [
-    "/data",
-  ],
   "typescript.implementationsCodeLens.enabled": true,
 }

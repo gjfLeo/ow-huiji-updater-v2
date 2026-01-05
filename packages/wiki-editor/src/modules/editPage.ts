@@ -58,6 +58,7 @@ export default async function editPage() {
   }
   await fse.writeFile(localFilepath, page?.content ?? "", "utf-8");
   console.info(`${chalk.blue("  文件已创建：")}\n    ${localFilepath}`);
+  Bun.openInEditor(localFilepath);
 
   async function checkAndUpload() {
     const timestamp = dayjs().format("HH:mm:ss");
