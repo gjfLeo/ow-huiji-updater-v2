@@ -12,8 +12,9 @@ interface WikiEditorModule {
 
 const spinner = ora();
 
+// #region 加载模块
+
 spinner.start("加载模块");
-// const moduleFiles = await fse.readdir("src/modules");
 const moduleFiles = await fse.readdir(path.join(__dirname, "modules"));
 const modulePromises = moduleFiles
   .filter(file => file.endsWith(".ts"))
@@ -33,8 +34,11 @@ const modules = (await Promise.all(modulePromises))
   .filter(module => module !== null);
 spinner.succeed();
 
-const lastOperation = await getStorage("lastOperation");
+// #endregion
 
+// #region 选择操作
+
+const lastOperation = await getStorage("lastOperation");
 const operation = await search(
   {
     message: "请选择操作：",
@@ -65,25 +69,25 @@ const operation = await search(
 ).catch((error) => {
   if (error instanceof Error) {
     if (error.name === "AbortPromptError" || error.name === "ExitPromptError") {
-      console.info(chalk.gray("已取消"));
+      console.info(chalk.gray("  已取消"));
       process.exit(0);
     }
   }
   throw error;
 });
-
 await setStorage("lastOperation", operation);
-const displayModulePath = path.relative(process.cwd(), path.join(__dirname, "modules", `${operation}.ts`));
-console.info(chalk.gray(`执行模块：\n  ${displayModulePath}`));
-// await fse.writeFile("output/last-operation", operation);
 
+// #endregion
+
+const displayModulePath = path.relative(process.cwd(), path.join(__dirname, "modules", `${operation}.ts`));
+console.info(chalk.gray(`  执行模块: ${displayModulePath}`));
 try {
   await modules.find(module => module.name === operation)!.exec();
 }
 catch (error) {
   if (error instanceof Error) {
     if (error.name === "AbortPromptError" || error.name === "ExitPromptError") {
-      console.info(chalk.gray("已取消"));
+      console.info(chalk.gray("  已取消"));
       process.exit(0);
     }
   }

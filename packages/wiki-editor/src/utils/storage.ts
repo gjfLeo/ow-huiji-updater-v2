@@ -43,6 +43,7 @@ export async function getStorage<K extends keyof WikiEditorStorage>(key: K) {
 export async function setStorage<K extends keyof WikiEditorStorage>(key: K, value: WikiEditorStorage[K]) {
   const storage = await readStorage();
   storage[key] = value;
+  await fse.ensureFile(STORAGE_PATH);
   await fse.writeFile(STORAGE_PATH, JSON.stringify(storage, null, 2));
 }
 
