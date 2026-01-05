@@ -1,0 +1,25 @@
+{
+  "name": "@ow-huiji-updater/wiki-editor",
+  "type": "module",
+  "private": true,
+  "module": "index.ts",
+  "scripts": {
+    "wiki-editor": "bun run src/index.ts"
+  },
+  "devDependencies": {
+    "@inquirer/prompts": "^8.1.0",
+    "@posva/prompts": "^2.4.4",
+    "@types/cli-progress": "^3.11.6",
+    "@types/fs-extra": "^11.0.4",
+    "chalk": "^5.6.2",
+    "chokidar": "^5.0.0",
+    "cli-progress": "^3.12.0",
+    "dayjs": "^1.11.19",
+    "destr": "^2.0.5",
+    "fs-extra": "^11.3.3",
+    "huijiwiki-api": "^0.8.1",
+    "ofetch": "^1.5.1",
+    "ora": "^9.0.0",
+    "sass": "^1.97.1"
+  }
+}
