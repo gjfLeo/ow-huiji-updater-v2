@@ -3,7 +3,7 @@ import gjfleo from "@gjfleo/eslint-config";
 export default gjfleo(
   {},
   {
-    files: ["packages/wiki-editor/assets/pages/零件_*.js"],
+    files: ["packages/wiki-editor/assets/pages/零件_*Entries.js"],
     rules: {
       "style/comma-dangle": ["warn", {
         functions: "never",
@@ -18,6 +18,11 @@ export default gjfleo(
     },
     languageOptions: {
       ecmaVersion: 5,
+    },
+  },
+  {
+    files: ["packages/wiki-editor/assets/pages/零件_*.js"],
+    languageOptions: {
       globals: { $: "readonly", mw: "readonly" },
     },
   },
