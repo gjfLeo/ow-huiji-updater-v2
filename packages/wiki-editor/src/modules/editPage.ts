@@ -32,7 +32,7 @@ export default async function editPage() {
     }
   }
   const pageTitle = page?.pageTitle ?? inputPageTitle;
-  console.info(`${chalk.blue("  正在编辑：")}\n    https://overwatch.huijiwiki.com/wiki/${pageTitle}`);
+  console.info(`${chalk.blue("  正在编辑： ")}https://overwatch.huijiwiki.com/wiki/${pageTitle}`);
 
   let localFilename = pageTitle.replaceAll(/[:/ ]/g, "_");
   if (!localFilename.includes(".")) {
@@ -57,7 +57,7 @@ export default async function editPage() {
     }
   }
   await fse.writeFile(localFilepath, page?.content ?? "", "utf-8");
-  console.info(`${chalk.blue("  文件已创建：")}\n    ${localFilepath}`);
+  console.info(`${chalk.blue("  文件已创建： ")}${localFilepath}`);
   Bun.openInEditor(localFilepath);
 
   async function checkAndUpload() {
