@@ -7,3 +7,4 @@
 各模块功能：
 
 - `editPage`：下载Wiki页面至本地编辑，实时保存至Wiki。
+- `copyFandomImage`：从英文Wiki（Fandom）下载图片，上传至Wiki。
