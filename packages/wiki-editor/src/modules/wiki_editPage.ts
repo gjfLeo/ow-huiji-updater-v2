@@ -20,7 +20,7 @@ export default async function editPage() {
   await setStorage("lastEditPageTitle", inputPageTitle);
 
   const spinner = ora();
-  const wiki = await wikiLogin({ developer: true });
+  const wiki = await wikiLogin({ userType: "developer" });
   spinner.start("下载页面内容");
   const page = await wiki.getPageRawTextByTitle(inputPageTitle);
   spinner.succeed();
@@ -79,7 +79,12 @@ export default async function editPage() {
       console.error(editError);
     }
     else {
-      spinner.succeed(`${chalk.gray(timestamp)} 已上传 ${chalk.gray(edit.newrevid)}`);
+      if (edit.nochange !== undefined) {
+        spinner.info(chalk.gray(`${timestamp} 未改变`));
+      }
+      else {
+        spinner.succeed(`${chalk.gray(timestamp)} 已上传 ${chalk.gray(edit.newrevid)}`);
+      }
     }
   }
 

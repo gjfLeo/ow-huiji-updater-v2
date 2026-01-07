@@ -745,7 +745,7 @@
 
     "html-entities": ["html-entities@2.6.0", "", {}, "sha512-kig+rMn/QOVRvr7c86gQ8lWXq+Hkv6CbAH1hLu+RG338StTpE8Z0b44SDVaqVu7HGKf27frdmUYEs9hTUX/cLQ=="],
 
-    "huijiwiki-api": ["huijiwiki-api@0.8.1", "", { "dependencies": { "ajv": "^8.17.1", "axios": "^1.13.2", "form-data": "^4.0.5", "json-schema-to-ts": "^3.1.1", "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz" } }, "sha512-PBd6WdbfptUYFCHTC2aptLbAuUjVkVi515ZsPTAeGS1F6ImdyWZ1n89pIPSSxoAdVCsNUHVltBIxCx5Y6Yju9w=="],
+    "huijiwiki-api": ["huijiwiki-api@0.8.3", "", { "dependencies": { "ajv": "^8.17.1", "axios": "^1.13.2", "form-data": "^4.0.5", "json-schema-to-ts": "^3.1.1", "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz" } }, "sha512-nEYIKdeKlE6x287dCCIQGJxA8HsPAaAeyKHpN7ePkZESLJwPf8IMDGKMBLg+y9ptYCMidstqkRD1RejvfgzFTw=="],
 
     "iconv-lite": ["iconv-lite@0.7.1", "", { "dependencies": { "safer-buffer": ">= 2.1.2 < 3.0.0" } }, "sha512-2Tth85cXwGFHfvRgZWszZSvdo+0Xsqmw8k8ZwxScfcBneNUraK+dxRxRm24nszx80Y0TVio8kKLt5sLE7ZCLlw=="],
 
