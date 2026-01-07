@@ -2,6 +2,7 @@ import path from "node:path";
 import { search } from "@inquirer/prompts";
 import chalk from "chalk";
 import fse from "fs-extra";
+import Fuse from "fuse.js";
 import ora from "ora";
 import { getStorage, setStorage } from "./utils/storage";
 
@@ -31,7 +32,9 @@ const modulePromises = moduleFiles
     };
   });
 const modules = (await Promise.all(modulePromises))
-  .filter(module => module !== null);
+  .filter(module => module !== null)
+  .toSorted((a, b) => a.name.localeCompare(b.name));
+const fuse = new Fuse(modules, { keys: ["name"] });
 spinner.succeed();
 
 // #endregion
@@ -43,29 +46,27 @@ const operation = await search(
   {
     message: "请选择操作：",
     source: (term) => {
-      return modules
-        .filter(module => module.name.toLowerCase().includes(term?.toLowerCase() || ""))
-        .map((module) => {
-          const choice = {
-            name: module.name,
-            value: module.name,
-            isLastOperation: module.name === lastOperation,
-          };
-          if (module.name === lastOperation) {
-            choice.name += ` ${chalk.gray("(上次操作)")}`;
-          }
-          return choice;
-        })
-        .sort((a, b) => {
-          if (!term) {
-            if (a.isLastOperation) return -1;
-            if (b.isLastOperation) return 1;
-          }
-          return a.value.localeCompare(b.value);
-        });
+      if (!term) {
+        const choices = modules
+          .map(module => ({ name: module.name, value: module.name }));
+        const lastChoice = choices.find(choice => choice.value === lastOperation);
+        if (lastChoice) {
+          lastChoice.name += ` ${chalk.gray("(上次操作)")}`;
+          choices.unshift(lastChoice);
+        }
+        return choices;
+      }
+      else {
+        const results = fuse.search(term);
+        const choices = results.map(result => ({ name: result.item.name, value: result.item.name }));
+        const lastChoice = choices.find(choice => choice.value === lastOperation);
+        if (lastChoice) {
+          lastChoice.name += ` ${chalk.gray("(上次操作)")}`;
+        }
+        return choices;
+      }
     },
   },
-  // { clearPromptOnDone: false },
 ).catch((error) => {
   if (error instanceof Error) {
     if (error.name === "AbortPromptError" || error.name === "ExitPromptError") {
@@ -79,7 +80,12 @@ await setStorage("lastOperation", operation);
 
 // #endregion
 
-const displayModulePath = path.relative(process.cwd(), path.join(__dirname, "modules", `${operation}.ts`));
+// #region 执行操作
+
+const displayModulePath = path.relative(
+  process.cwd(),
+  path.join(__dirname, "modules", `${operation}.ts`),
+);
 console.info(chalk.gray(`  执行模块: ${displayModulePath}`));
 try {
   await modules.find(module => module.name === operation)!.exec();
@@ -91,6 +97,8 @@ catch (error) {
       process.exit(0);
     }
   }
-  console.error(chalk.red(`Failed to execute module ${operation}`), error);
+  console.error(chalk.red(`  执行模块 ${operation} 失败`), error);
   process.exit(1);
 }
+
+// #endregion

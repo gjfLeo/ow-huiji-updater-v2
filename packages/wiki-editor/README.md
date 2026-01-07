@@ -6,5 +6,8 @@
 
 各模块功能：
 
-- `editPage`：下载Wiki页面至本地编辑，实时保存至Wiki。
-- `copyFandomImage`：从英文Wiki（Fandom）下载图片，上传至Wiki。
+- wiki
+  - [`editPage`](./src/modules/wiki_editPage.ts)：下载Wiki页面至本地编辑，实时保存至Wiki。
+  - [`copyFandomImage`](./src/modules/wiki_copyFandomImage.ts)：从英文Wiki（Fandom）下载图片，上传至Wiki。
+- workshop
+  - [`openWorkshopLog`](./src/modules/workshop_openWorkshopLog.ts)：打开本机的地图工坊日志。
