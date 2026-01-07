@@ -11,9 +11,11 @@
     "build": "run-p type-check \"build-only {@}\" --",
     "preview": "vite preview",
     "build-only": "vite build",
-    "type-check": "vue-tsc --build"
+    "type-check": "vue-tsc --build",
+    "upload": "bun run scripts/upload.ts"
   },
   "dependencies": {
+    "chalk": "^5.6.2",
     "vue": "^3.5.26"
   },
   "devDependencies": {
