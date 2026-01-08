@@ -1,0 +1,22 @@
+body {
+  background: rgba(11 16 27);
+  color: #e4e4e4;
+}
+
+a {
+  color: #428bca;
+}
+
+[data-vue-entry-name] {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+:root {
+  --font-regular: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  --font-monospace: "Maple Mono NF SC", "Cascadia Code", monospace;
+  --font-quote: "霞鹜文楷", "思源宋体", "Times New Roman", "楷体", serif;
+  --font-quote-en: "Times New Roman", serif;
+  word-break: break-all;
+  scroll-padding-top: 88px;
+}
