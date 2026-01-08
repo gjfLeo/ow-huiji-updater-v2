@@ -1,11 +1,22 @@
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <NConfigProvider
+    :theme="darkTheme"
+    :theme-overrides="themeOverrides"
+    :locale="zhCN"
+    :inline-theme-disabled="true"
+  >
+    <NMessageProvider>
+      <Content />
+    </NMessageProvider>
+  </NConfigProvider>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { darkTheme, NConfigProvider, NMessageProvider, zhCN } from "naive-ui";
+import themeOverrides from "../shared/theme-overrides";
 
-<style scoped></style>
+import Content from "./Content.vue";
+</script>
+
+<style scoped>
+</style>

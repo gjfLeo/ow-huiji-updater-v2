@@ -1,42 +1,43 @@
 import path from "node:path";
-// import { wikiEditPage } from "@ow-huiji-updater/wiki-utils";
 import chalk from "chalk";
+import { HuijiWiki } from "huijiwiki-api";
+
+const wiki = new HuijiWiki(process.env.HUIJI_PREFIX!, process.env.HUIJI_AUTH_KEY!, { logLevel: 20 });
+await wiki.apiLogin(process.env.HUIJI_USERNAME_DEVELOPER!, process.env.HUIJI_PASSWORD_DEVELOPER!);
 
 const jsFile = Bun.file(path.join(__dirname, "../dist/Vue_Sandbox.js"));
 const cssFile = Bun.file(path.join(__dirname, "../dist/Vue_Sandbox.css"));
 
-// if (await jsFile.exists()) {
-//   const { edit: jsEditResult, error: jsEditError } = await wikiEditPage({
-//     title: "零件:Vue_Sandbox.js",
-//     content: await jsFile.text(),
-//     summary: "上传自ow-huiji-updater",
-//     isDeveloper: true,
-//   });
-//   if (jsEditResult) {
-//     const pageUrl = `https://overwatch.huijiwiki.com/wiki/${jsEditResult.title.replaceAll(" ", "_")}`;
-//     const statusText = jsEditResult.nochange !== undefined ? "无变化" : "上传成功";
-//     console.info(`Vue_Sandbox.js ${statusText} ${chalk.gray(pageUrl)}`);
-//   }
-//   else {
-//     console.error("Vue_Sandbox.js 上传失败");
-//     console.error(jsEditError);
-//   }
-// }
+if (await jsFile.exists()) {
+  const { edit: jsEditResult, error: jsEditError } = await wiki.apiEdit(
+    "零件:Vue_Sandbox.js",
+    await jsFile.text(),
+    { summary: "上传自ow-huiji-updater" },
+  );
+  if (jsEditResult) {
+    const pageUrl = `https://${process.env.HUIJI_PREFIX}.huijiwiki.com/wiki/${jsEditResult.title.replaceAll(" ", "_")}`;
+    const statusText = jsEditResult.nochange !== undefined ? "无变化" : "上传成功";
+    console.info(`Vue_Sandbox.js ${statusText} ${chalk.gray(pageUrl)}`);
+  }
+  else {
+    console.error("Vue_Sandbox.js 上传失败");
+    console.error(jsEditError);
+  }
+}
 
-// if (await cssFile.exists()) {
-//   const { edit: cssEditResult, error: cssEditError } = await wikiEditPage({
-//     title: "零件:Vue_Sandbox.css",
-//     content: await cssFile.text(),
-//     summary: "上传自ow-huiji-updater",
-//     isDeveloper: true,
-//   });
-//   if (cssEditResult) {
-//     const pageUrl = `https://overwatch.huijiwiki.com/wiki/${cssEditResult.title.replaceAll(" ", "_")}`;
-//     const statusText = cssEditResult.nochange !== undefined ? "无变化" : "上传成功";
-//     console.info(`Vue_Sandbox.css ${statusText} ${chalk.gray(pageUrl)}`);
-//   }
-//   else {
-//     console.error("Vue_Sandbox.css 上传失败");
-//     console.error(cssEditError);
-//   }
-// }
+if (await cssFile.exists()) {
+  const { edit: cssEditResult, error: cssEditError } = await wiki.apiEdit(
+    "零件:Vue_Sandbox.css",
+    await cssFile.text(),
+    { summary: "上传自ow-huiji-updater" },
+  );
+  if (cssEditResult) {
+    const pageUrl = `https://${process.env.HUIJI_PREFIX}.huijiwiki.com/wiki/${cssEditResult.title.replaceAll(" ", "_")}`;
+    const statusText = cssEditResult.nochange !== undefined ? "无变化" : "上传成功";
+    console.info(`Vue_Sandbox.css ${statusText} ${chalk.gray(pageUrl)}`);
+  }
+  else {
+    console.error("Vue_Sandbox.css 上传失败");
+    console.error(cssEditError);
+  }
+}
