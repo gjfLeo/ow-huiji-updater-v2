@@ -20,20 +20,24 @@ playervar speedMax = 0
 playervar hSpeedMax = 0
 playervar vSpeedMax = 0
 playervar vSpeedMin = 0
+playervar fSpeedMax = 0
+playervar altitudeMax = 0
 
 rule "Add Hud Text":
     @Event eachPlayer
-    hudSubheader(eventPlayer, "位置：{}，朝向：{}，高度：{}".format(
+    hudSubheader(eventPlayer, "位置：{}，朝向：{}，高度：{} [{}]".format(
         updateEveryFrame(eventPlayer.getPosition()),
         updateEveryFrame(eventPlayer.getFacingDirection()),
-        updateEveryFrame(eventPlayer.getAltitude())
+        updateEveryFrame(eventPlayer.getAltitude()),
+        updateEveryFrame(eventPlayer.altitudeMax)
     ), HudPosition.ACTUALLY_LEFT)
-    hudSubheader(eventPlayer, "速度：{} ({}%) [{}]，朝向速度：{} ({}%)，基础速度：{}".format(
+    hudSubheader(eventPlayer, "速度：{} ({}%) [{}]，朝向速度：{} ({}%) [{}]，基础速度：{}".format(
         updateEveryFrame(eventPlayer.getSpeed()),
         updateEveryFrame(eventPlayer.getSpeed() / eventPlayer.basicSpeed * 100),
         updateEveryFrame(eventPlayer.speedMax),
         updateEveryFrame(eventPlayer.getSpeedInDirection(eventPlayer.getFacingDirection())),
         updateEveryFrame(eventPlayer.getSpeedInDirection(eventPlayer.getFacingDirection()) / eventPlayer.basicSpeed * 100),
+        updateEveryFrame(eventPlayer.fSpeedMax),
         updateEveryFrame(eventPlayer.basicSpeed)
     ), HudPosition.ACTUALLY_LEFT)
     hudSubheader(eventPlayer, "水平速度：{} ({}%) [{}]，垂直速度：{} [{}~{}]".format(
@@ -53,6 +57,8 @@ rule "Reset Statistics":
     eventPlayer.hSpeedMax = 0
     eventPlayer.vSpeedMax = 0
     eventPlayer.vSpeedMin = 0
+    eventPlayer.fSpeedMax = 0
+    eventPlayer.altitudeMax = 0
 
 rule "Calculate Speed":
     @Event eachPlayer
@@ -62,11 +68,21 @@ rule "Calculate Speed":
     eventPlayer.hSpeedMax = 0
     eventPlayer.vSpeedMax = 0
     eventPlayer.vSpeedMin = 0
+    eventPlayer.fSpeedMax = 0
     while ruleCondition:
         eventPlayer.speedMax = max(eventPlayer.speedMax, updateEveryFrame(eventPlayer.getSpeed()))
         eventPlayer.hSpeedMax = max(eventPlayer.hSpeedMax, updateEveryFrame(eventPlayer.getHorizontalSpeed()))
         eventPlayer.vSpeedMax = max(eventPlayer.vSpeedMax, updateEveryFrame(eventPlayer.getVerticalSpeed()))
         eventPlayer.vSpeedMin = min(eventPlayer.vSpeedMin, updateEveryFrame(eventPlayer.getVerticalSpeed()))
+        eventPlayer.fSpeedMax = max(eventPlayer.fSpeedMax, updateEveryFrame(eventPlayer.getSpeedInDirection(eventPlayer.getFacingDirection())))
+        wait()
+
+rule "Calculate Altitude":
+    @Event eachPlayer
+    @Condition eventPlayer.hasSpawned()
+    eventPlayer.altitudeMax = 0
+    while ruleCondition:
+        eventPlayer.altitudeMax = max(eventPlayer.altitudeMax, updateEveryFrame(eventPlayer.getAltitude()))
         wait()
 
 globalvar LucioDummy
@@ -81,6 +97,17 @@ rule "Lucio Dummy Toggle":
     @Condition eventPlayer.isHoldingButton(Button.INTERACT)
     @Condition raycast(eventPlayer.getEyePosition(), eventPlayer.getEyePosition() + eventPlayer.getFacingDirection() * 100, getAllPlayers(), eventPlayer, true).getPlayerHit() == LucioDummy
     LucioDummy.forceButtonPress(Button.ABILITY_1)
+
+rule "Remove Cooldown":
+    @Event eachPlayer
+    @Condition eventPlayer.isHoldingButton(Button.ABILITY_1) or eventPlayer.isHoldingButton(Button.ABILITY_2) or eventPlayer.isHoldingButton(Button.JUMP) or eventPlayer.isHoldingButton(Button.CROUCH) or eventPlayer.isHoldingButton(Button.SECONDARY_FIRE) or eventPlayer.isHoldingButton(Button.ULTIMATE)
+    wait(1)
+    eventPlayer.setAbilityCooldown(Button.ABILITY_1, 0)
+    eventPlayer.setAbilityCooldown(Button.ABILITY_2, 0)
+    eventPlayer.setAbilityCooldown(Button.JUMP, 0)
+    eventPlayer.setAbilityCooldown(Button.CROUCH, 0)
+    eventPlayer.setAbilityCooldown(Button.SECONDARY_FIRE, 0)
+    eventPlayer.setUltCharge(100)
 
 # rule "Log movement":
 #     @Event eachPlayer
@@ -121,3 +148,10 @@ rule "Change Hero":
     eventPlayer.setAllowedHeroes(getAllHeroes().exclude(eventPlayer.getHero()))
     wait()
     eventPlayer.setAllowedHeroes(getAllHeroes())
+
+# rule "":
+#     @Event eachPlayer
+#     @Hero cassidy
+#     @Condition eventPlayer.getAltitude() > 0 and updateEveryFrame(eventPlayer.getVerticalSpeed()) < 0
+#     eventPlayer.vSpeedMax = 0
+#     eventPlayer.forceButtonPress(Button.ABILITY_1)
