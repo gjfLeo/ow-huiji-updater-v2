@@ -17,11 +17,9 @@ export default defineConfig({
     },
   },
   build: {
-    minify: false,
     rollupOptions: {
       output: {
         format: "iife",
-        indent: true,
         entryFileNames: "Vue_DamageCalculator.js",
         assetFileNames: "Vue_DamageCalculator.css",
         globals: {
