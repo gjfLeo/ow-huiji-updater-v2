@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "毛加/烈火奔踏",
+  "name": "烈火奔踏",
+  "hero": "毛加",
+  "category": "Perk",
+  "button": null,
+  "description": "蛮力冲撞会点燃被击中的敌人",
+  "basicStats": {
+    "perkIndex": "3A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

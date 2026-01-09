@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "渣客女王/战斗怒吼",
+  "name": "战斗怒吼",
+  "hero": "渣客女王",
+  "category": "Perk",
+  "button": null,
+  "description": "命令怒吼会完全装填散弹枪，并使盟友的装填速度加快50%",
+  "basicStats": {
+    "perkIndex": "2B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

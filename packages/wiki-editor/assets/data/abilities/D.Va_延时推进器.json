@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "D.Va/延时推进器",
+  "name": "延时推进器",
+  "hero": "D.Va",
+  "category": "Perk",
+  "button": null,
+  "description": "使用推进器撞击一名敌人会使造成的伤害提高100%并使推进器持续时间延长0.5秒",
+  "basicStats": {
+    "perkIndex": "2B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

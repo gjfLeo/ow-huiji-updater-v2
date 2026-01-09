@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "黑百合/撤离计划",
+  "name": "撤离计划",
+  "hero": "黑百合",
+  "category": "Perk",
+  "button": null,
+  "description": "开镜射击命中会使抓钩的冷却时间缩短最多4秒",
+  "basicStats": {
+    "perkIndex": "3B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

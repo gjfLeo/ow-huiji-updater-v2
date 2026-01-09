@@ -1,0 +1,57 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "艾什/延时雷管",
+  "name": "延时雷管",
+  "hero": "艾什",
+  "category": "Ability",
+  "button": "技能 2",
+  "description": "投出一捆炸药，在短暂的延迟后爆炸，或者射击炸药立即将其引爆",
+  "basicStats": {
+    "cooldown": 12
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>球形</mark>范围内的目标"
+    },
+    {
+      "name": "护甲贯穿",
+      "value": "此攻击<mark>施加的效果</mark>对护甲造成伤害时将其视同生命值"
+    },
+    {
+      "name": "燃烧",
+      "value": ""
+    },
+    {
+      "name": "自我伤害",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "爆炸伤害量",
+      "value": "50-20"
+    },
+    {
+      "name": "总持续伤害量",
+      "value": "100"
+    },
+    {
+      "name": "持续时间",
+      "value": "5秒"
+    },
+    {
+      "name": "最小-最大半径",
+      "value": "1.5-5米"
+    },
+    {
+      "name": "爆炸延迟",
+      "value": "2秒"
+    }
+  ]
+}

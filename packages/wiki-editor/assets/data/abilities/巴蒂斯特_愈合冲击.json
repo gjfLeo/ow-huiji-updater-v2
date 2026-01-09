@@ -1,0 +1,41 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "巴蒂斯特/愈合冲击",
+  "name": "愈合冲击",
+  "hero": "巴蒂斯特",
+  "category": "Ability",
+  "button": "技能 1",
+  "description": "激活后立即治疗自己和周围盟友，并额外提供持续治疗效果<br />对生命值低于一半的目标，瞬间治疗量翻倍",
+  "basicStats": {
+    "cooldown": 14
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>球形</mark>范围内的目标"
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "对生命值高于一半目标治疗量",
+      "value": "40"
+    },
+    {
+      "name": "对生命值低于一半目标治疗量",
+      "value": "80"
+    },
+    {
+      "name": "半径",
+      "value": "12米"
+    },
+    {
+      "name": "总持续治疗量",
+      "value": "40"
+    },
+    {
+      "name": "持续治疗持续时间",
+      "value": "4秒"
+    }
+  ]
+}

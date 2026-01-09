@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "天使/连锁强化",
+  "name": "连锁强化",
+  "hero": "天使",
+  "category": "Perk",
+  "button": null,
+  "description": "天使之杖的辅助攻击模式会连接周围的第二个盟友",
+  "basicStats": {
+    "perkIndex": "3A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

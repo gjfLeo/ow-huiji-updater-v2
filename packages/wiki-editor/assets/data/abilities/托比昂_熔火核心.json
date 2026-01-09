@@ -1,0 +1,65 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "托比昂/熔火核心",
+  "name": "熔火核心",
+  "hero": "托比昂",
+  "category": "UltimateAbility",
+  "button": "技能 3",
+  "description": "在地上制造熔渣池，对敌人造成伤害。对护甲造成额外伤害",
+  "basicStats": {
+    "ultimateCharge": 2350
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": ""
+    },
+    {
+      "name": "护甲贯穿",
+      "value": ""
+    },
+    {
+      "name": "燃烧",
+      "value": ""
+    },
+    {
+      "name": "固定数值",
+      "value": ""
+    },
+    {
+      "name": "装填",
+      "value": ""
+    },
+    {
+      "name": "变身",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "命中伤害量",
+      "value": "25"
+    },
+    {
+      "name": "持续伤害量",
+      "value": "190/秒<br />+100/秒（对护甲）"
+    },
+    {
+      "name": "熔渣池持续时间",
+      "value": "10秒"
+    },
+    {
+      "name": "熔渣池半径",
+      "value": "2.4米"
+    },
+    {
+      "name": "最大技能持续时间",
+      "value": "6秒"
+    }
+  ]
+}

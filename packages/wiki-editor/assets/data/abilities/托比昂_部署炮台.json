@@ -1,0 +1,53 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "托比昂/部署炮台",
+  "name": "部署炮台",
+  "hero": "托比昂",
+  "category": "Ability",
+  "button": "技能 1",
+  "description": "部署一个自动建造的炮台",
+  "basicStats": {
+    "cooldown": 12
+  },
+  "keywords": [
+    {
+      "name": "可部署",
+      "value": "一种具有独立生命池的非玩家实体，由<mark>强射弹部署</mark>"
+    },
+    {
+      "name": "固定数值",
+      "value": "<mark>给此可部署物的拥有者施加</mark>增伤时，此可部署物的伤害不受影响"
+    },
+    {
+      "name": "即时命中",
+      "value": "<mark>此可部署物</mark>的射弹攻击和治疗没有飞行时间，立即命中目标"
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "生命值",
+      "value": "225"
+    },
+    {
+      "name": "伤害量",
+      "value": "12"
+    },
+    {
+      "name": "炮台攻击射程",
+      "value": "40米"
+    },
+    {
+      "name": "脱离战斗冷却时间",
+      "value": "6秒"
+    },
+    {
+      "name": "炮台建造时间",
+      "value": "2.5秒"
+    },
+    {
+      "name": "战斗中锁定时间",
+      "value": "3秒"
+    }
+  ]
+}

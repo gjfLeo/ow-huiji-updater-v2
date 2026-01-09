@@ -1,0 +1,45 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "死神/幽灵形态",
+  "name": "幽灵形态",
+  "hero": "死神",
+  "category": "Ability",
+  "button": "技能 1",
+  "description": "移动更快且变为无敌状态，但无法射击",
+  "basicStats": {
+    "cooldown": 8
+  },
+  "keywords": [
+    {
+      "name": "净化",
+      "value": ""
+    },
+    {
+      "name": "无敌",
+      "value": ""
+    },
+    {
+      "name": "相移",
+      "value": ""
+    },
+    {
+      "name": "装填",
+      "value": ""
+    },
+    {
+      "name": "强位移",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "持续时间",
+      "value": "3秒"
+    },
+    {
+      "name": "移动速度加成",
+      "value": "+50%移动速度"
+    }
+  ]
+}

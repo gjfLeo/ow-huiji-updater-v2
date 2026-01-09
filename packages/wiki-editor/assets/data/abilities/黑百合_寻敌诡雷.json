@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "黑百合/寻敌诡雷",
+  "name": "寻敌诡雷",
+  "hero": "黑百合",
+  "category": "Perk",
+  "button": null,
+  "description": "剧毒诡雷会对10米内的所有敌人发射剧毒镖，且触发后依然处于激活状态",
+  "basicStats": {
+    "perkIndex": "3A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

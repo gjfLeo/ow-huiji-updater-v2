@@ -1,0 +1,61 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "回声/人格复制",
+  "name": "人格复制",
+  "hero": "回声",
+  "category": "UltimateAbility",
+  "button": "技能 3",
+  "description": "选择一个敌方英雄，成为其复制。技能持续期间该目标无法更换英雄",
+  "basicStats": {
+    "ultimateCharge": 1850
+  },
+  "keywords": [
+    {
+      "name": "净化",
+      "value": ""
+    },
+    {
+      "name": "无敌",
+      "value": ""
+    },
+    {
+      "name": "相移",
+      "value": ""
+    },
+    {
+      "name": "装填",
+      "value": ""
+    },
+    {
+      "name": "变身",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "持续时间",
+      "value": "15秒"
+    },
+    {
+      "name": "终极技能充能速度加成",
+      "value": "+450%"
+    },
+    {
+      "name": "射程",
+      "value": "40米"
+    },
+    {
+      "name": "最大生命值",
+      "value": "350"
+    },
+    {
+      "name": "人格复制后最小生命值",
+      "value": "112.5"
+    },
+    {
+      "name": "无敌状态持续时间",
+      "value": "1.3秒（施放时）<br />1秒（被摧毁时）"
+    }
+  ]
+}

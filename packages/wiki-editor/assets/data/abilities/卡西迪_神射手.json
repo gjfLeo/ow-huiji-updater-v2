@@ -1,0 +1,49 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "卡西迪/神射手",
+  "name": "神射手",
+  "hero": "卡西迪",
+  "category": "UltimateAbility",
+  "button": "技能 3",
+  "description": "面对你的敌人。按下 <kbd>Q</kbd> 锁定目标<br />随后按下 <kbd>Q</kbd> 或 <kbd>鼠标左键</kbd> 开枪",
+  "basicStats": {
+    "ultimateCharge": 1800
+  },
+  "keywords": [
+    {
+      "name": "引导",
+      "value": ""
+    },
+    {
+      "name": "即时命中",
+      "value": ""
+    },
+    {
+      "name": "装填",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "示警时间",
+      "value": "2秒"
+    },
+    {
+      "name": "伤害累积速度",
+      "value": "150/秒（示警阶段）<br />300/秒（示警后）"
+    },
+    {
+      "name": "受伤减免",
+      "value": "-40%承受伤害量（示警阶段）<br />在最后5秒内逐渐降低至0%"
+    },
+    {
+      "name": "自身移动速度惩罚",
+      "value": "-70%移动速度（示警阶段）<br />在最后5秒内逐渐降低至-35%"
+    },
+    {
+      "name": "持续时间",
+      "value": "7秒"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "堡垒/抗击装甲",
+  "name": "抗击装甲",
+  "hero": "堡垒",
+  "category": "PassiveAbility",
+  "button": null,
+  "description": "降低切换模式后受到的伤害",
+  "basicStats": {},
+  "keywords": [],
+  "detailStats": [
+    {
+      "name": "受伤减免",
+      "value": "-20%承受伤害量"
+    }
+  ]
+}

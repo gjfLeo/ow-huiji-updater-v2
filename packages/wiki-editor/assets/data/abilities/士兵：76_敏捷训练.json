@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "士兵：76/敏捷训练",
+  "name": "敏捷训练",
+  "hero": "士兵：76",
+  "category": "Perk",
+  "button": null,
+  "description": "疾跑的速度提高20%并可在疾跑激活时装填",
+  "basicStats": {
+    "perkIndex": "3A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

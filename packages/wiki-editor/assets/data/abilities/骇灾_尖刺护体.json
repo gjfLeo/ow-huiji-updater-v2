@@ -1,0 +1,69 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "骇灾/尖刺护体",
+  "name": "尖刺护体",
+  "hero": "骇灾",
+  "category": "Ability",
+  "button": "辅助攻击模式",
+  "description": "格挡前方的攻击，向附近敌人发射追踪尖刺<br />激活时降低受到的伤害并恢复弹药",
+  "basicStats": {
+    "cooldown": 1
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": ""
+    },
+    {
+      "name": "引导",
+      "value": ""
+    },
+    {
+      "name": "能量",
+      "value": ""
+    },
+    {
+      "name": "贯穿",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "持续伤害量",
+      "value": "70/秒"
+    },
+    {
+      "name": "受伤减免",
+      "value": "-60%承受伤害量"
+    },
+    {
+      "name": "最大持续时间",
+      "value": "3秒"
+    },
+    {
+      "name": "格挡受伤减免角度",
+      "value": "180度"
+    },
+    {
+      "name": "能量",
+      "value": "33.3%/秒（消耗）<br />23.3%/秒（恢复速度）<br />0.75秒（恢复延迟）"
+    },
+    {
+      "name": "射程",
+      "value": "7米"
+    },
+    {
+      "name": "水平散布",
+      "value": "79度"
+    },
+    {
+      "name": "自身移动速度惩罚",
+      "value": "-50%移动速度"
+    }
+  ]
+}

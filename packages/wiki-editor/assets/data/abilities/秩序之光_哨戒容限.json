@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "秩序之光/哨戒容限",
+  "name": "哨戒容限",
+  "hero": "秩序之光",
+  "category": "Perk",
+  "button": null,
+  "description": "哨戒炮获得一次额外充能",
+  "basicStats": {
+    "perkIndex": "2A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

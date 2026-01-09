@@ -1,0 +1,57 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "路霸/链钩",
+  "name": "链钩",
+  "hero": "路霸",
+  "category": "Ability",
+  "button": "技能 1",
+  "description": "将一个目标拉向身边",
+  "basicStats": {
+    "cooldown": 6
+  },
+  "keywords": [
+    {
+      "name": "广义近身攻击",
+      "value": ""
+    },
+    {
+      "name": "闪避",
+      "value": "<mark>受此技能影响的目标</mark>可穿过敌方英雄且不会阻挡位移"
+    },
+    {
+      "name": "击晕",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "射程",
+      "value": "20米"
+    },
+    {
+      "name": "伤害量",
+      "value": "25"
+    },
+    {
+      "name": "击晕持续时间",
+      "value": "0.3秒（初始）<br />0.4秒（最终）"
+    },
+    {
+      "name": "拖拽速度",
+      "value": "40米/秒"
+    },
+    {
+      "name": "拖拽最终距离",
+      "value": "3米"
+    },
+    {
+      "name": "最大转动角度",
+      "value": "70度"
+    },
+    {
+      "name": "自身移动速度惩罚",
+      "value": "-50%移动速度"
+    }
+  ]
+}

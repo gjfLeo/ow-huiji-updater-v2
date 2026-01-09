@@ -1,0 +1,41 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "拉玛刹/天罚形态",
+  "name": "天罚形态",
+  "hero": "拉玛刹",
+  "category": "Ability",
+  "button": "技能 1",
+  "description": "变为天罚形态，改变攻击方式并获得额外护甲",
+  "basicStats": {
+    "cooldown": 8
+  },
+  "keywords": [
+    {
+      "name": "护甲",
+      "value": ""
+    },
+    {
+      "name": "装填",
+      "value": ""
+    },
+    {
+      "name": "变身",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "最大持续时间",
+      "value": "8秒"
+    },
+    {
+      "name": "移动速度加成",
+      "value": "+20%移动速度"
+    },
+    {
+      "name": "额外护甲",
+      "value": "275"
+    }
+  ]
+}

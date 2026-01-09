@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "奥丽莎/防护屏障",
+  "name": "防护屏障",
+  "hero": "奥丽莎",
+  "category": "Perk",
+  "button": null,
+  "description": "标枪旋击变为发射一面屏障",
+  "basicStats": {
+    "perkIndex": "3B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

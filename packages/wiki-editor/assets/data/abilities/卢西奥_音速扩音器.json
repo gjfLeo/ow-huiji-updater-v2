@@ -1,0 +1,34 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "卢西奥/音速扩音器",
+  "name": "音速扩音器",
+  "hero": "卢西奥",
+  "category": "Weapon",
+  "button": "主要攻击模式",
+  "description": "超音速飞弹发射器",
+  "basicStats": {
+    "ammo": 20,
+    "reloadTime": 1.5
+  },
+  "keywords": [
+    {
+      "name": "暴击",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "单发齐射伤害量",
+      "value": "80"
+    },
+    {
+      "name": "单发齐射弹丸数",
+      "value": "4"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "奥丽莎/撼地猛刺",
+  "name": "撼地猛刺",
+  "hero": "奥丽莎",
+  "category": "UltimateAbility",
+  "button": "技能 3",
+  "description": "困住并横扫敌人获得强固防御效果<br />猛刺伤害随蓄力提升<br />按下 <kbd>鼠标左键</kbd> 可提前施放猛刺",
+  "basicStats": {
+    "ultimateCharge": 2150
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>球形</mark>范围内的目标"
+    },
+    {
+      "name": "屏障贯穿",
+      "value": ""
+    },
+    {
+      "name": "暴击免疫",
+      "value": ""
+    },
+    {
+      "name": "过量生命值",
+      "value": ""
+    },
+    {
+      "name": "变身",
+      "value": ""
+    },
+    {
+      "name": "不可阻挡",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "500（基础）<br />19（最大衰减）"
+    },
+    {
+      "name": "半径",
+      "value": "10.5米（拖拽）<br />8.5米（伤害）"
+    },
+    {
+      "name": "受伤减免",
+      "value": "-45%承受伤害量"
+    },
+    {
+      "name": "过量生命值",
+      "value": "100"
+    },
+    {
+      "name": "敌方移动速度惩罚",
+      "value": "-30%移动速度"
+    },
+    {
+      "name": "最大蓄力持续时间",
+      "value": "4秒"
+    },
+    {
+      "name": "拖拽速度",
+      "value": "25米/秒"
+    },
+    {
+      "name": "最大击退",
+      "value": "11.7米/秒"
+    }
+  ]
+}

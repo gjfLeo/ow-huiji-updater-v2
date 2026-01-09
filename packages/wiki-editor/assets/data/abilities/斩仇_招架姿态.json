@@ -1,0 +1,45 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "斩仇/招架姿态",
+  "name": "招架姿态",
+  "hero": "斩仇",
+  "category": "Ability",
+  "button": "辅助攻击模式",
+  "description": "举剑格挡，降低前方受到的伤害并招架近身攻击。格挡伤害会消耗能量",
+  "basicStats": {
+    "cooldown": 0.5
+  },
+  "keywords": [
+    {
+      "name": "引导",
+      "value": ""
+    },
+    {
+      "name": "能量",
+      "value": ""
+    },
+    {
+      "name": "无视近身攻击",
+      "value": "无视近身攻击<mark>但无法无视</mark>广义近身攻击"
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "受伤减免",
+      "value": "-75%承受伤害量"
+    },
+    {
+      "name": "格挡受伤减免角度",
+      "value": "106.3度"
+    },
+    {
+      "name": "自身移动速度惩罚",
+      "value": "-30%移动速度"
+    },
+    {
+      "name": "能量",
+      "value": "承受伤害量的40%（消耗）<br />9%/秒（恢复速度）<br />0.75秒（恢复延迟）<br />格挡最少需要30%"
+    }
+  ]
+}

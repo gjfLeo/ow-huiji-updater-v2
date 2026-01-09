@@ -1,0 +1,34 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "美/冰锥",
+  "name": "冰锥",
+  "hero": "美",
+  "category": "Weapon",
+  "button": "辅助攻击模式",
+  "description": "射出远距离冰锥",
+  "basicStats": {
+    "ammo": 140,
+    "reloadTime": 1.5
+  },
+  "keywords": [
+    {
+      "name": "暴击",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "85"
+    },
+    {
+      "name": "单发射击弹药消耗量",
+      "value": "10"
+    }
+  ]
+}

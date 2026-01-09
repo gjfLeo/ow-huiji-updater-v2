@@ -1,0 +1,49 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "托比昂/热力过载",
+  "name": "热力过载",
+  "hero": "托比昂",
+  "category": "Ability",
+  "button": "技能 2",
+  "description": "获得额外生命值，同时提高攻击、移动<br />及装弹速度",
+  "basicStats": {
+    "cooldown": 10
+  },
+  "keywords": [
+    {
+      "name": "过量生命值",
+      "value": ""
+    },
+    {
+      "name": "变身",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "过量生命值",
+      "value": "100"
+    },
+    {
+      "name": "攻击速度加成",
+      "value": "+43%攻击速度"
+    },
+    {
+      "name": "移动速度加成",
+      "value": "+30%移动速度"
+    },
+    {
+      "name": "持续时间",
+      "value": "6秒"
+    },
+    {
+      "name": "缩短后的装填时间",
+      "value": "1.4秒（加快30%）"
+    },
+    {
+      "name": "弹药装填量",
+      "value": "6"
+    }
+  ]
+}

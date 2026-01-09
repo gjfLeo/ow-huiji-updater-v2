@@ -1,0 +1,30 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "托比昂/铆钉枪（主要攻击模式）",
+  "name": "铆钉枪（主要攻击模式）",
+  "hero": "托比昂",
+  "category": "Weapon",
+  "button": "主要攻击模式",
+  "description": "慢射速的远距离武器",
+  "basicStats": {
+    "ammo": 18,
+    "reloadTime": 2
+  },
+  "keywords": [
+    {
+      "name": "暴击",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "70"
+    }
+  ]
+}

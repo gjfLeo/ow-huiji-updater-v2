@@ -1,0 +1,53 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "骇灾/尖刺墙",
+  "name": "尖刺墙",
+  "hero": "骇灾",
+  "category": "Ability",
+  "button": "技能 2",
+  "description": "发射一堵尖刺墙，对附近的敌人造成伤害并将其击退",
+  "basicStats": {
+    "cooldown": 12
+  },
+  "keywords": [
+    {
+      "name": "可部署",
+      "value": ""
+    },
+    {
+      "name": "固定数值",
+      "value": "<mark>给此可部署物的拥有者施加</mark>增伤时，此可部署物的伤害不受影响"
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "50"
+    },
+    {
+      "name": "生命值",
+      "value": "400"
+    },
+    {
+      "name": "持续时间",
+      "value": "5秒"
+    },
+    {
+      "name": "穿刺冷却时间",
+      "value": "1.8秒"
+    },
+    {
+      "name": "最大击退",
+      "value": "10米/秒"
+    },
+    {
+      "name": "干扰炮台半径",
+      "value": "1.3米"
+    }
+  ]
+}

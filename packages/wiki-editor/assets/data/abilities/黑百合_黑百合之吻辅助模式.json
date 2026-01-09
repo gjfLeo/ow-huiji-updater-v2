@@ -1,0 +1,46 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "黑百合/黑百合之吻辅助模式",
+  "name": "黑百合之吻辅助模式",
+  "hero": "黑百合",
+  "category": "Weapon",
+  "button": "辅助攻击模式",
+  "description": "长按可以进行远距离狙击",
+  "basicStats": {
+    "ammo": 35,
+    "reloadTime": 1.5
+  },
+  "keywords": [
+    {
+      "name": "强效暴击",
+      "value": "命中暴击部位时造成<mark>2.5倍</mark>伤害"
+    },
+    {
+      "name": "即时命中",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "充能伤害",
+      "value": "12-6（最小充能）<br />120-60（最大充能）"
+    },
+    {
+      "name": "伤害衰减",
+      "value": "50-70米（衰减射程）<br />50%（衰减系数）"
+    },
+    {
+      "name": "充能时间",
+      "value": "0.9秒"
+    },
+    {
+      "name": "单发射击弹药消耗量",
+      "value": "5"
+    },
+    {
+      "name": "移动速度惩罚",
+      "value": "-65%移动速度"
+    }
+  ]
+}

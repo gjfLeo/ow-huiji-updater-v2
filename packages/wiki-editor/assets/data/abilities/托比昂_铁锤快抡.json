@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "托比昂/铁锤快抡",
+  "name": "铁锤快抡",
+  "hero": "托比昂",
+  "category": "Perk",
+  "button": null,
+  "description": "装备锻造锤时移动速度加快20%",
+  "basicStats": {
+    "perkIndex": "2A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

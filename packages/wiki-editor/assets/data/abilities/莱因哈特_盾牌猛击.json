@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "莱因哈特/盾牌猛击",
+  "name": "盾牌猛击",
+  "hero": "莱因哈特",
+  "category": "Perk",
+  "button": null,
+  "description": "屏障力场激活时，使用 <kbd>鼠标左键</kbd> 可以击退敌人并对其造成伤害",
+  "basicStats": {
+    "perkIndex": "3A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

@@ -1,0 +1,35 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "斩仇/锋锐剑气",
+  "name": "锋锐剑气",
+  "hero": "斩仇",
+  "category": "Ability",
+  "button": "主要攻击模式",
+  "description": "可在招架姿态激活时使用<br />消耗能量，发射一道宽幅能量波",
+  "basicStats": {},
+  "keywords": [
+    {
+      "name": "能量",
+      "value": ""
+    },
+    {
+      "name": "贯穿",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "80"
+    },
+    {
+      "name": "能量消耗",
+      "value": "30%"
+    }
+  ]
+}

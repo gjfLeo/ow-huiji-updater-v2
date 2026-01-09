@@ -1,0 +1,38 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "回声/三角射击",
+  "name": "三角射击",
+  "hero": "回声",
+  "category": "Weapon",
+  "button": "主要攻击模式",
+  "description": "同时发射三发子弹，以三角形分布",
+  "basicStats": {
+    "ammo": 12,
+    "reloadTime": 1.5
+  },
+  "keywords": [
+    {
+      "name": "暴击",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "单发齐射伤害量",
+      "value": "51"
+    },
+    {
+      "name": "散布",
+      "value": "1.1度"
+    },
+    {
+      "name": "单发齐射弹丸数",
+      "value": "3"
+    }
+  ]
+}

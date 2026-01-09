@@ -1,0 +1,35 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "职责：重装",
+  "name": "职责：重装",
+  "hero": "",
+  "role": "tank",
+  "category": "PassiveAbility",
+  "button": null,
+  "description": "降低受到的击退效果和暴击伤害<br />降低受到治疗和伤害时产生的终极技能充能<br />提高预设职责模式下的基础生命值",
+  "basicStats": {},
+  "keywords": [],
+  "detailStats": [
+    {
+      "name": "额外生命值",
+      "value": "150"
+    },
+    {
+      "name": "暴击受伤减免",
+      "value": "-25%承受暴击伤害量"
+    },
+    {
+      "name": "击退减免",
+      "value": "-25%击退"
+    },
+    {
+      "name": "敌方终极技能充能减免",
+      "value": "-40%终极技能充能"
+    },
+    {
+      "name": "输出职责被动减免",
+      "value": "-15%治疗量"
+    }
+  ]
+}

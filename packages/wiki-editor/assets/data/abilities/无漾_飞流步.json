@@ -1,0 +1,37 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "无漾/飞流步",
+  "name": "飞流步",
+  "hero": "无漾",
+  "category": "Ability",
+  "button": "技能 1",
+  "description": "乘波而行，提高移动速度和跳跃高度",
+  "basicStats": {
+    "cooldown": 8
+  },
+  "keywords": [
+    {
+      "name": "位移",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "持续时间",
+      "value": "4秒"
+    },
+    {
+      "name": "移动速度加成",
+      "value": "+40%移动速度"
+    },
+    {
+      "name": "跳跃速度",
+      "value": "6米/秒"
+    },
+    {
+      "name": "启动速度",
+      "value": "25米/秒"
+    }
+  ]
+}

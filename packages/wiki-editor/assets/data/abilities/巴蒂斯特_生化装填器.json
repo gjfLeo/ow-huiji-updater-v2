@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "巴蒂斯特/生化装填器",
+  "name": "生化装填器",
+  "hero": "巴蒂斯特",
+  "category": "Perk",
+  "button": null,
+  "description": "主要攻击模式的三连发全部命中会装填一发治疗榴弹。治疗榴弹直接命中会装填3发主要攻击模式弹药",
+  "basicStats": {
+    "perkIndex": "2A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

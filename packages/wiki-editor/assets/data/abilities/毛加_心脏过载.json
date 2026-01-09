@@ -1,0 +1,45 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "毛加/心脏过载",
+  "name": "心脏过载",
+  "hero": "毛加",
+  "category": "Ability",
+  "button": "技能 2",
+  "description": "获得受伤减免，周围盟友造成伤害会为其恢复生命值",
+  "basicStats": {
+    "cooldown": 15
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>球形</mark>范围内的目标"
+    },
+    {
+      "name": "无视屏障",
+      "value": "<mark>选定盟友时</mark>无视屏障"
+    },
+    {
+      "name": "变身",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "治疗量",
+      "value": "造成伤害的100%（自身）<br />造成伤害的50%（盟友）"
+    },
+    {
+      "name": "受伤减免",
+      "value": "40%承受伤害量"
+    },
+    {
+      "name": "半径",
+      "value": "10米"
+    },
+    {
+      "name": "持续时间",
+      "value": "3秒"
+    }
+  ]
+}

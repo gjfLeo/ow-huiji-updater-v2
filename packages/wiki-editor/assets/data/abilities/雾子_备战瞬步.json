@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "雾子/备战瞬步",
+  "name": "备战瞬步",
+  "hero": "雾子",
+  "category": "Perk",
+  "button": null,
+  "description": "“瞬”会使雾子的攻击速度和装填速度加快40%，持续3秒",
+  "basicStats": {
+    "perkIndex": "3A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

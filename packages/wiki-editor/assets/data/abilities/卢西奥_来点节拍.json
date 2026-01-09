@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "卢西奥/来点节拍",
+  "name": "来点节拍",
+  "hero": "卢西奥",
+  "category": "Perk",
+  "button": null,
+  "description": "音障持续期间激活强音",
+  "basicStats": {
+    "perkIndex": "2B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

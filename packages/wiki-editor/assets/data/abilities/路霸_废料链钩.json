@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "路霸/废料链钩",
+  "name": "废料链钩",
+  "hero": "路霸",
+  "category": "Perk",
+  "button": null,
+  "description": "链钩命中会装填2发弹药",
+  "basicStats": {
+    "perkIndex": "2A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

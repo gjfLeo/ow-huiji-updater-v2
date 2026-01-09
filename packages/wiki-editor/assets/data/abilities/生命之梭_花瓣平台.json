@@ -1,0 +1,37 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "生命之梭/花瓣平台",
+  "name": "花瓣平台",
+  "hero": "生命之梭",
+  "category": "Ability",
+  "button": "技能 1",
+  "description": "扔出一个平台，踩上后会向上升起<br />未使用时会归于原位",
+  "basicStats": {
+    "cooldown": 12
+  },
+  "keywords": [
+    {
+      "name": "可部署",
+      "value": "一种具有独立生命池的非玩家实体，由<mark>强射弹部署</mark>"
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "生命值",
+      "value": "300"
+    },
+    {
+      "name": "持续时间",
+      "value": "12秒（使用时）<br />无限（未使用时）"
+    },
+    {
+      "name": "抬升高度",
+      "value": "9米"
+    },
+    {
+      "name": "抬升速度",
+      "value": "10米/秒"
+    }
+  ]
+}

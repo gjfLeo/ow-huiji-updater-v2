@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "安娜/加速血清",
+  "name": "加速血清",
+  "hero": "安娜",
+  "category": "Perk",
+  "button": null,
+  "description": "纳米激素会为安娜和激素目标提供40%移动速度加成",
+  "basicStats": {
+    "perkIndex": "2B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

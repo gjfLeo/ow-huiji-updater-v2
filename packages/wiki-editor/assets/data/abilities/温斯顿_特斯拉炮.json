@@ -1,0 +1,42 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "温斯顿/特斯拉炮",
+  "name": "特斯拉炮",
+  "hero": "温斯顿",
+  "category": "Weapon",
+  "button": "主要攻击模式",
+  "description": "可攻击前方锥形范围的电能武器",
+  "basicStats": {
+    "ammo": 120,
+    "reloadTime": 1.5
+  },
+  "keywords": [
+    {
+      "name": "护甲贯穿",
+      "value": ""
+    },
+    {
+      "name": "屏障贯穿",
+      "value": ""
+    },
+    {
+      "name": "光束",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "持续伤害量",
+      "value": "70/秒"
+    },
+    {
+      "name": "射程",
+      "value": "8米"
+    },
+    {
+      "name": "散布",
+      "value": "40度"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "弗蕾娅/流星索",
+  "name": "流星索",
+  "hero": "弗蕾娅",
+  "category": "UltimateAbility",
+  "button": "技能 3",
+  "description": "发射一枚爆炸流星索，击中敌人后将其束缚并拖拽周围的其他敌人",
+  "basicStats": {
+    "ultimateCharge": 1750
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>球形</mark>范围内的目标"
+    },
+    {
+      "name": "限制",
+      "value": ""
+    },
+    {
+      "name": "装填",
+      "value": ""
+    },
+    {
+      "name": "自我伤害",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "125（直接命中）<br />100-60（范围伤害）<br />75（总持续伤害）"
+    },
+    {
+      "name": "爆炸延迟/持续时间",
+      "value": "1.2秒"
+    },
+    {
+      "name": "拖拽半径",
+      "value": "5米"
+    },
+    {
+      "name": "最小-最大爆炸半径",
+      "value": "2-5.5米"
+    },
+    {
+      "name": "敌方移动速度惩罚",
+      "value": "-105%移动速度（直接命中）<br />-45%移动速度（范围）<br />-70%移动速度（拖拽）"
+    },
+    {
+      "name": "击退",
+      "value": "2米/秒（命中）<br />20米/秒（拖拽）<br />1.8米/秒（爆炸）"
+    }
+  ]
+}

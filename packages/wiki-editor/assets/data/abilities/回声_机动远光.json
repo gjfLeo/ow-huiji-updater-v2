@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "回声/机动远光",
+  "name": "机动远光",
+  "hero": "回声",
+  "category": "Perk",
+  "button": null,
+  "description": "聚焦光线消灭敌人会重置飞行的冷却时间",
+  "basicStats": {
+    "perkIndex": "3B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

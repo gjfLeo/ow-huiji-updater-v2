@@ -1,0 +1,57 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "渣客女王/锯齿利刃",
+  "name": "锯齿利刃",
+  "hero": "渣客女王",
+  "category": "Ability",
+  "button": "辅助攻击模式",
+  "description": "主动：投掷飞刀。再次使用可将其召回，并拉回被穿刺的敌人<br />被动：快速近身攻击或投掷会创伤敌人，造成持续伤害",
+  "basicStats": {
+    "cooldown": 6
+  },
+  "keywords": [
+    {
+      "name": "护甲贯穿",
+      "value": "此攻击<mark>施加的效果</mark>对护甲造成伤害时将其视同生命值"
+    },
+    {
+      "name": "可净化",
+      "value": ""
+    },
+    {
+      "name": "近身攻击",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "穿刺伤害量",
+      "value": "65"
+    },
+    {
+      "name": "创伤伤害量",
+      "value": "30（投掷）<br />15（近身攻击/召回）"
+    },
+    {
+      "name": "穿刺持续时间",
+      "value": "3秒"
+    },
+    {
+      "name": "创伤持续时间",
+      "value": "3秒"
+    },
+    {
+      "name": "拖拽",
+      "value": "20米/秒"
+    },
+    {
+      "name": "飞行时间",
+      "value": "1.5秒"
+    }
+  ]
+}

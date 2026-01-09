@@ -1,0 +1,53 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "毛加/笼中斗",
+  "name": "笼中斗",
+  "hero": "毛加",
+  "category": "UltimateAbility",
+  "button": "技能 3",
+  "description": "部署一面屏障将自己和敌人困在其中",
+  "basicStats": {
+    "ultimateCharge": 2700
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>圆柱</mark>范围内的目标"
+    },
+    {
+      "name": "屏障",
+      "value": ""
+    },
+    {
+      "name": "可部署",
+      "value": "一种具有独立生命池的非玩家实体，由<mark>强射弹部署</mark>"
+    },
+    {
+      "name": "限制",
+      "value": ""
+    },
+    {
+      "name": "无视屏障",
+      "value": "此技能的<mark>一种效果</mark>无视屏障"
+    },
+    {
+      "name": "装填",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "生命值",
+      "value": "1200"
+    },
+    {
+      "name": "持续时间",
+      "value": "8秒"
+    },
+    {
+      "name": "效果范围",
+      "value": "半径7.2米<br />高度6.3米"
+    }
+  ]
+}

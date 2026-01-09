@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "禅雅塔/双音谐奏",
+  "name": "双音谐奏",
+  "hero": "禅雅塔",
+  "category": "Perk",
+  "button": null,
+  "description": "获得第二颗“谐”法球，但两颗法球的治疗效果均为70%",
+  "basicStats": {
+    "perkIndex": "3B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

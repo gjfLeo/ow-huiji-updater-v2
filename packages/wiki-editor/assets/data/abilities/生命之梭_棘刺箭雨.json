@@ -1,0 +1,38 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "生命之梭/棘刺箭雨",
+  "name": "棘刺箭雨",
+  "hero": "生命之梭",
+  "category": "Weapon",
+  "button": "辅助攻击模式",
+  "description": "快速发射成对棘刺",
+  "basicStats": {
+    "ammo": 100,
+    "reloadTime": 1.5
+  },
+  "keywords": [
+    {
+      "name": "暴击",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "单发齐射伤害量",
+      "value": "12"
+    },
+    {
+      "name": "单发齐射弹丸数",
+      "value": "2"
+    },
+    {
+      "name": "散布",
+      "value": "1.2度（最大）<br />射击10发后散布最大"
+    }
+  ]
+}

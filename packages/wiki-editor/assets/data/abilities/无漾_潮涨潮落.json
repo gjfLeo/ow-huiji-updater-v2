@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "无漾/潮涨潮落",
+  "name": "潮涨潮落",
+  "hero": "无漾",
+  "category": "Perk",
+  "button": null,
+  "description": "翻江浪会回流至出发点。回流时的效果降低50%",
+  "basicStats": {
+    "perkIndex": "3A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

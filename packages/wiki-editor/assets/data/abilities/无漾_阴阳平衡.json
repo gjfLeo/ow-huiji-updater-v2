@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "无漾/阴阳平衡",
+  "name": "阴阳平衡",
+  "hero": "无漾",
+  "category": "Perk",
+  "button": null,
+  "description": "用水珠造成伤害时，养神泉的被动治疗量提高30%，持续2秒",
+  "basicStats": {
+    "perkIndex": "2B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

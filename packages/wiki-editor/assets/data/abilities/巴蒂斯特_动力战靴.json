@@ -1,0 +1,27 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "巴蒂斯特/动力战靴",
+  "name": "动力战靴",
+  "hero": "巴蒂斯特",
+  "category": "PassiveAbility",
+  "button": "下蹲",
+  "description": "按住下蹲键可以跳得更高",
+  "basicStats": {},
+  "keywords": [
+    {
+      "name": "强位移",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "完全蓄力持续时间",
+      "value": "0.7秒"
+    },
+    {
+      "name": "完全蓄力跳跃速度",
+      "value": "18米/秒"
+    }
+  ]
+}

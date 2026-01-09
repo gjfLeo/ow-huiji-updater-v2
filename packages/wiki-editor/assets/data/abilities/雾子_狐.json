@@ -1,0 +1,57 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "雾子/狐",
+  "name": "狐",
+  "hero": "雾子",
+  "category": "UltimateAbility",
+  "button": "技能 3",
+  "description": "召唤一只灵狐冲向前方，为置身路径中的盟友提高移动速度、攻击速度和技能冷却速度",
+  "basicStats": {
+    "ultimateCharge": 2725
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": ""
+    },
+    {
+      "name": "无视屏障",
+      "value": ""
+    },
+    {
+      "name": "可部署",
+      "value": "此可部署物<mark>不会受到伤害</mark>"
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "移动速度加成",
+      "value": "+30%移动速度"
+    },
+    {
+      "name": "攻击速度加成",
+      "value": "+50%攻击速度"
+    },
+    {
+      "name": "冷却时间缩减",
+      "value": "+100%"
+    },
+    {
+      "name": "装填速度加成",
+      "value": "+50%"
+    },
+    {
+      "name": "持续时间",
+      "value": "8秒"
+    },
+    {
+      "name": "效果保留持续时间",
+      "value": "1秒"
+    },
+    {
+      "name": "最大范围",
+      "value": "32.2米（长度）<br />10米（宽度）"
+    }
+  ]
+}

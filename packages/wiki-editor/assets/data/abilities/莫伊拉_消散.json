@@ -1,0 +1,45 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "莫伊拉/消散",
+  "name": "消散",
+  "hero": "莫伊拉",
+  "category": "Ability",
+  "button": "技能 1",
+  "description": "消失，移动速度加快并变为无敌状态，但无法射击",
+  "basicStats": {
+    "cooldown": 6
+  },
+  "keywords": [
+    {
+      "name": "净化",
+      "value": ""
+    },
+    {
+      "name": "无敌",
+      "value": ""
+    },
+    {
+      "name": "相移",
+      "value": ""
+    },
+    {
+      "name": "强位移",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "持续时间",
+      "value": "0.75秒"
+    },
+    {
+      "name": "移动速度加成",
+      "value": "+250%移动速度"
+    },
+    {
+      "name": "跳跃速度",
+      "value": "6米/秒"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "死神/死亡绽放",
+  "name": "死亡绽放",
+  "hero": "死神",
+  "category": "UltimateAbility",
+  "button": "技能 3",
+  "description": "对附近所有敌人造成伤害",
+  "basicStats": {
+    "ultimateCharge": 2050
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>球形</mark>范围内的目标"
+    },
+    {
+      "name": "引导",
+      "value": ""
+    },
+    {
+      "name": "即时命中",
+      "value": ""
+    },
+    {
+      "name": "装填",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "185/秒"
+    },
+    {
+      "name": "持续时间",
+      "value": "3秒"
+    },
+    {
+      "name": "半径",
+      "value": "8米"
+    },
+    {
+      "name": "移动速度惩罚",
+      "value": "-50%移动速度"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "莱因哈特/屏障冲能",
+  "name": "屏障冲能",
+  "hero": "莱因哈特",
+  "category": "Perk",
+  "button": null,
+  "description": "使用冲锋行进会为屏障力场每秒恢复200点生命值",
+  "basicStats": {
+    "perkIndex": "2B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "安娜/头晕目眩",
+  "name": "头晕目眩",
+  "hero": "安娜",
+  "category": "Perk",
+  "button": null,
+  "description": "敌人从麻醉镖效果中苏醒后的2秒内会减速并受到50点持续伤害",
+  "basicStats": {
+    "perkIndex": "2A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "弗蕾娅/猎手直觉",
+  "name": "猎手直觉",
+  "hero": "弗蕾娅",
+  "category": "Perk",
+  "button": null,
+  "description": "瞄准射击直接命中会将敌人的位置显示给弗蕾娅，持续3秒",
+  "basicStats": {
+    "perkIndex": "2A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

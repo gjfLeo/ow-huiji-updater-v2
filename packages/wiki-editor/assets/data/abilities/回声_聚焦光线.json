@@ -1,0 +1,37 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "回声/聚焦光线",
+  "name": "聚焦光线",
+  "hero": "回声",
+  "category": "Ability",
+  "button": "技能 2",
+  "description": "引导一道光束，持续数秒时间，对生命值低于一半的敌人造成大量伤害",
+  "basicStats": {
+    "cooldown": 8
+  },
+  "keywords": [
+    {
+      "name": "光束",
+      "value": ""
+    },
+    {
+      "name": "引导",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "持续伤害量",
+      "value": "75/秒（基础）<br />175/秒（生命值低于一半目标）"
+    },
+    {
+      "name": "射程",
+      "value": "16米"
+    },
+    {
+      "name": "最大持续时间",
+      "value": "2秒"
+    }
+  ]
+}

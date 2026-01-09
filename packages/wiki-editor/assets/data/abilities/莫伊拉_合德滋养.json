@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "莫伊拉/合德滋养",
+  "name": "合德滋养",
+  "hero": "莫伊拉",
+  "category": "Perk",
+  "button": null,
+  "description": "生化之球的前30点治疗量会立即治疗其遇到的每一名盟友",
+  "basicStats": {
+    "perkIndex": "3A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

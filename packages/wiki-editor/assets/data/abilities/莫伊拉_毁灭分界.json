@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "莫伊拉/毁灭分界",
+  "name": "毁灭分界",
+  "hero": "莫伊拉",
+  "category": "Perk",
+  "button": null,
+  "description": "聚合射线可以完全造成治疗或伤害，此时效果提高25%",
+  "basicStats": {
+    "perkIndex": "2B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

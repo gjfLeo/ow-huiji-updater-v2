@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "生命之梭/花瓣之力",
+  "name": "花瓣之力",
+  "hero": "生命之梭",
+  "category": "Perk",
+  "button": null,
+  "description": "盟友站在升起的花瓣平台上时攻击速度加快30%",
+  "basicStats": {
+    "perkIndex": "3A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

@@ -1,0 +1,53 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "温斯顿/原始暴怒",
+  "name": "原始暴怒",
+  "hero": "温斯顿",
+  "category": "UltimateAbility",
+  "button": "技能 3",
+  "description": "额外获得大量生命值<br />但只能跳跃和拳击敌人",
+  "basicStats": {
+    "ultimateCharge": 2525
+  },
+  "keywords": [
+    {
+      "name": "近身攻击",
+      "value": ""
+    },
+    {
+      "name": "装填",
+      "value": ""
+    },
+    {
+      "name": "变身",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "额外生命值",
+      "value": "700"
+    },
+    {
+      "name": "拳击伤害量",
+      "value": "50"
+    },
+    {
+      "name": "拳击击退",
+      "value": "26米/秒"
+    },
+    {
+      "name": "持续时间",
+      "value": "10秒"
+    },
+    {
+      "name": "喷射背包冷却时间",
+      "value": "2秒"
+    },
+    {
+      "name": "近身攻击范围",
+      "value": "4米"
+    }
+  ]
+}

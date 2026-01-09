@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "黑百合/狙击手的直觉",
+  "name": "狙击手的直觉",
+  "hero": "黑百合",
+  "category": "Perk",
+  "button": null,
+  "description": "使用抓钩后，开镜射击充能加快100%，持续2秒",
+  "basicStats": {
+    "perkIndex": "2B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

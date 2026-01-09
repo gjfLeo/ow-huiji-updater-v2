@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "法老之鹰/空天鹰眼",
+  "name": "空天鹰眼",
+  "hero": "法老之鹰",
+  "category": "Perk",
+  "button": null,
+  "description": "震荡冲击会使目标对“法老之鹰”显示位置，持续3秒。在此期间，火箭发射器对每个目标的下一次直接命中均会造成30%额外伤害",
+  "basicStats": {
+    "perkIndex": "3B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

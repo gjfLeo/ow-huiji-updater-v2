@@ -1,0 +1,45 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "朱诺/超能环域",
+  "name": "超能环域",
+  "hero": "朱诺",
+  "category": "Ability",
+  "button": "技能 2",
+  "description": "部署一道环域<br />盟友穿过环域后，移动速度提升",
+  "basicStats": {
+    "cooldown": 14
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": ""
+    },
+    {
+      "name": "无视屏障",
+      "value": ""
+    },
+    {
+      "name": "强射弹",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "移动速度加成",
+      "value": "+50%移动速度"
+    },
+    {
+      "name": "移动速度加成持续时间",
+      "value": "3秒"
+    },
+    {
+      "name": "环域持续时间",
+      "value": "6秒"
+    },
+    {
+      "name": "射程",
+      "value": "17.5米"
+    }
+  ]
+}

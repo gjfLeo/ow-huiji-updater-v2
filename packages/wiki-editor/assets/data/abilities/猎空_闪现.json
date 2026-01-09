@@ -1,0 +1,30 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "猎空/闪现",
+  "name": "闪现",
+  "hero": "猎空",
+  "category": "Ability",
+  "button": "技能 1",
+  "description": "传送至移动方向",
+  "basicStats": {
+    "cooldown": 3,
+    "charges": 3
+  },
+  "keywords": [
+    {
+      "name": "闪避",
+      "value": ""
+    },
+    {
+      "name": "强位移",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "闪现距离",
+      "value": "7.5米"
+    }
+  ]
+}

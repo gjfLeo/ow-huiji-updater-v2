@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "布丽吉塔/士气高昂",
+  "name": "士气高昂",
+  "hero": "布丽吉塔",
+  "category": "Perk",
+  "button": null,
+  "description": "由流星飞锤激活的鼓舞士气持续时间延长3秒",
+  "basicStats": {
+    "perkIndex": "2B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

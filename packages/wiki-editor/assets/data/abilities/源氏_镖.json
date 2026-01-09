@@ -1,0 +1,34 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "源氏/镖",
+  "name": "镖",
+  "hero": "源氏",
+  "category": "Weapon",
+  "button": "主要攻击模式",
+  "description": "扔出3发精准的手里剑",
+  "basicStats": {
+    "ammo": 24,
+    "reloadTime": 1.5
+  },
+  "keywords": [
+    {
+      "name": "暴击",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "单发齐射伤害量",
+      "value": "81"
+    },
+    {
+      "name": "单发齐射弹丸数",
+      "value": "3"
+    }
+  ]
+}

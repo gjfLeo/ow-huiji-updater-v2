@@ -1,0 +1,61 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "破坏球/地雷禁区",
+  "name": "地雷禁区",
+  "hero": "破坏球",
+  "category": "UltimateAbility",
+  "button": "技能 3",
+  "description": "部署一大片感应地雷",
+  "basicStats": {
+    "ultimateCharge": 1850
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>球形</mark>范围内的目标"
+    },
+    {
+      "name": "无视屏障",
+      "value": "<mark>此可部署物部署期间</mark>无视屏障和英雄"
+    },
+    {
+      "name": "可部署",
+      "value": "一种具有独立生命池的非玩家实体，由<mark>强射弹部署</mark>"
+    },
+    {
+      "name": "固定数值",
+      "value": "<mark>给此可部署物的拥有者施加</mark>增伤时，此可部署物的伤害不受影响"
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "单颗地雷伤害量",
+      "value": "165"
+    },
+    {
+      "name": "单颗地雷生命值",
+      "value": "60"
+    },
+    {
+      "name": "持续时间",
+      "value": "16秒"
+    },
+    {
+      "name": "地雷总数",
+      "value": "15"
+    },
+    {
+      "name": "爆炸半径",
+      "value": "1.5米"
+    },
+    {
+      "name": "生效时间",
+      "value": "1.3秒"
+    },
+    {
+      "name": "击退",
+      "value": "10米/秒"
+    }
+  ]
+}

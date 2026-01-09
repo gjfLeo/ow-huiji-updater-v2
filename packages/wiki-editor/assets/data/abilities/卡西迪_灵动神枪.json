@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "卡西迪/灵动神枪",
+  "name": "灵动神枪",
+  "hero": "卡西迪",
+  "category": "Perk",
+  "button": null,
+  "description": "主要攻击模式造成暴击会使战术翻滚的冷却时间缩短3秒",
+  "basicStats": {
+    "perkIndex": "3A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

@@ -1,0 +1,18 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "渣客女王/狂血奔涌",
+  "name": "狂血奔涌",
+  "hero": "渣客女王",
+  "category": "PassiveAbility",
+  "button": null,
+  "description": "创伤效果的持续伤害会治疗你",
+  "basicStats": {},
+  "keywords": [],
+  "detailStats": [
+    {
+      "name": "治疗量",
+      "value": "造成创伤伤害的225%"
+    }
+  ]
+}

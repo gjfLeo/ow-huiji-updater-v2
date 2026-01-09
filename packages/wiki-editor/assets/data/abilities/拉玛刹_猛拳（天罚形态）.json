@@ -1,0 +1,37 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "拉玛刹/猛拳（天罚形态）",
+  "name": "猛拳（天罚形态）",
+  "hero": "拉玛刹",
+  "category": "Weapon",
+  "button": "主要攻击模式",
+  "description": "出拳捶击，每次挥拳都会产生一道贯穿能量波",
+  "basicStats": {
+    "ammo": -1
+  },
+  "keywords": [
+    {
+      "name": "近身攻击",
+      "value": ""
+    },
+    {
+      "name": "贯穿",
+      "value": ""
+    },
+    {
+      "name": "强射弹",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "65"
+    },
+    {
+      "name": "射程",
+      "value": "10米"
+    }
+  ]
+}

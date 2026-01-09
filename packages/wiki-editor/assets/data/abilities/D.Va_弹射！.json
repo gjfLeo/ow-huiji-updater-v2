@@ -1,0 +1,31 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "D.Va/弹射！",
+  "name": "弹射！",
+  "hero": "D.Va",
+  "category": "PassiveAbility",
+  "button": null,
+  "description": "当机甲被摧毁时D.Va从中弹出",
+  "basicStats": {},
+  "keywords": [
+    {
+      "name": "净化",
+      "value": ""
+    },
+    {
+      "name": "无敌",
+      "value": ""
+    },
+    {
+      "name": "装填",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "无敌状态持续时间",
+      "value": "1.8秒"
+    }
+  ]
+}

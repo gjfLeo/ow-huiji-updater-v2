@@ -1,0 +1,42 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "法老之鹰/火箭发射器",
+  "name": "火箭发射器",
+  "hero": "法老之鹰",
+  "category": "Weapon",
+  "button": "主要攻击模式",
+  "description": "远距离爆炸式弹道武器",
+  "basicStats": {
+    "ammo": 6,
+    "reloadTime": 1.5
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>球形</mark>范围内的目标"
+    },
+    {
+      "name": "自我伤害",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "120（直接命中）<br />80-25（范围伤害）"
+    },
+    {
+      "name": "爆炸半径",
+      "value": "0.8-2.5米"
+    },
+    {
+      "name": "击退",
+      "value": "14.2米/秒（自身）<br />7.5米/秒（敌人）"
+    }
+  ]
+}

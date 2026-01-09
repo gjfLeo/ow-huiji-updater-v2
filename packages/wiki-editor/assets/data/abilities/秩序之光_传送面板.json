@@ -1,0 +1,41 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "秩序之光/传送面板",
+  "name": "传送面板",
+  "hero": "秩序之光",
+  "category": "Ability",
+  "button": "技能 2",
+  "description": "制造两个临时传送面板，可以在它们之间进行瞬间传送",
+  "basicStats": {
+    "cooldown": 12
+  },
+  "keywords": [
+    {
+      "name": "可部署",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "生命值",
+      "value": "100（基础）<br />250（护盾）"
+    },
+    {
+      "name": "范围",
+      "value": "30米"
+    },
+    {
+      "name": "最大持续时间",
+      "value": "10秒"
+    },
+    {
+      "name": "传送半径",
+      "value": "1.5米"
+    },
+    {
+      "name": "传送冷却时间",
+      "value": "1秒"
+    }
+  ]
+}

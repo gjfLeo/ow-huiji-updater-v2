@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "朱诺/飞上新高",
+  "name": "飞上新高",
+  "hero": "朱诺",
+  "category": "Perk",
+  "button": null,
+  "description": "火星套靴现在可以三段跳",
+  "basicStats": {
+    "perkIndex": "3A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

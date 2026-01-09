@@ -1,0 +1,45 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "黑影/病毒侵染",
+  "name": "病毒侵染",
+  "hero": "黑影",
+  "category": "Ability",
+  "button": "技能 1",
+  "description": "用一枚智能体侵染敌人，造成持续伤害<br />病毒对被侵入的敌人造成伤害更快",
+  "basicStats": {
+    "cooldown": 6
+  },
+  "keywords": [
+    {
+      "name": "护甲贯穿",
+      "value": "此攻击<mark>施加的效果</mark>对护甲造成伤害时将其视同生命值"
+    },
+    {
+      "name": "可净化",
+      "value": ""
+    },
+    {
+      "name": "技能暴击",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "总持续伤害量",
+      "value": "75"
+    },
+    {
+      "name": "击中伤害量",
+      "value": "35（基础）<br />70（被侵入）"
+    },
+    {
+      "name": "效果持续时间",
+      "value": "4秒（基础）<br />2秒（被侵入）"
+    }
+  ]
+}

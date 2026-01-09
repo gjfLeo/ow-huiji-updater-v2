@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "D.Va/精准聚变",
+  "name": "精准聚变",
+  "hero": "D.Va",
+  "category": "Perk",
+  "button": null,
+  "description": "按下 <kbd>R</kbd> 可使聚变机炮的散布降低75%，持续3秒",
+  "basicStats": {
+    "perkIndex": "3B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "伊拉锐/烈日燎灼",
+  "name": "烈日燎灼",
+  "hero": "伊拉锐",
+  "category": "Perk",
+  "button": null,
+  "description": "烈日冲击会点燃敌人，额外造成70点伤害，持续3秒",
+  "basicStats": {
+    "perkIndex": "3B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

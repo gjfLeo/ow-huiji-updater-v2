@@ -1,0 +1,29 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "弗蕾娅/上升气流",
+  "name": "上升气流",
+  "hero": "弗蕾娅",
+  "category": "Ability",
+  "button": "技能 2",
+  "description": "乘风向上飞起",
+  "basicStats": {
+    "cooldown": 12
+  },
+  "keywords": [
+    {
+      "name": "闪避",
+      "value": ""
+    },
+    {
+      "name": "强位移",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "移动速度",
+      "value": "17米/秒"
+    }
+  ]
+}

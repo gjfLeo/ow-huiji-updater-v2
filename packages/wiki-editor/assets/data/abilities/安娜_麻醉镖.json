@@ -1,0 +1,41 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "安娜/麻醉镖",
+  "name": "麻醉镖",
+  "hero": "安娜",
+  "category": "Ability",
+  "button": "技能 1",
+  "description": "射出飞镖让敌人入眠",
+  "basicStats": {
+    "cooldown": 14
+  },
+  "keywords": [
+    {
+      "name": "可净化",
+      "value": ""
+    },
+    {
+      "name": "沉睡",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "沉睡持续时间",
+      "value": "5秒（基础）<br />3.5秒（重装）<br />0.5秒（起身前最小持续时间）"
+    },
+    {
+      "name": "伤害量",
+      "value": "5"
+    },
+    {
+      "name": "起身持续时间",
+      "value": "0.5秒"
+    }
+  ]
+}

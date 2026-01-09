@@ -1,0 +1,53 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "天使/女武神",
+  "name": "女武神",
+  "hero": "天使",
+  "category": "UltimateAbility",
+  "button": "技能 3",
+  "description": "获得飞行能力并强化各技能",
+  "basicStats": {
+    "ultimateCharge": 2000
+  },
+  "keywords": [
+    {
+      "name": "飞行",
+      "value": ""
+    },
+    {
+      "name": "显示生命值",
+      "value": ""
+    },
+    {
+      "name": "装填",
+      "value": ""
+    },
+    {
+      "name": "变身",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "持续时间",
+      "value": "15秒"
+    },
+    {
+      "name": "移动速度加成",
+      "value": "+63.6%移动速度"
+    },
+    {
+      "name": "天使之杖链接射程",
+      "value": "10米"
+    },
+    {
+      "name": "取消守护天使移动速度加成",
+      "value": "+30%"
+    },
+    {
+      "name": "飞行击退抗性",
+      "value": "+50%击退抗性"
+    }
+  ]
+}

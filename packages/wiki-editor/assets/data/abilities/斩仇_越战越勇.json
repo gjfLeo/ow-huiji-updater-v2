@@ -1,0 +1,30 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "斩仇/越战越勇",
+  "name": "越战越勇",
+  "hero": "斩仇",
+  "category": "PassiveAbility",
+  "button": null,
+  "description": "斩击敌人会加快移动速度和攻击速度",
+  "basicStats": {},
+  "keywords": [],
+  "detailStats": [
+    {
+      "name": "攻击速度加成",
+      "value": "+5%攻击速度/次"
+    },
+    {
+      "name": "移动速度加成",
+      "value": "+4%移动速度/次"
+    },
+    {
+      "name": "最大叠加次数",
+      "value": "5"
+    },
+    {
+      "name": "持续时间",
+      "value": "5.5秒"
+    }
+  ]
+}

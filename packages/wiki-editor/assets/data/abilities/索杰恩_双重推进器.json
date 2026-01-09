@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "索杰恩/双重推进器",
+  "name": "双重推进器",
+  "hero": "索杰恩",
+  "category": "Perk",
+  "button": null,
+  "description": "机动滑铲获得一次额外充能，且跳跃高度转为横向位移",
+  "basicStats": {
+    "perkIndex": "3A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "拉玛刹/纳米修复",
+  "name": "纳米修复",
+  "hero": "拉玛刹",
+  "category": "Perk",
+  "button": null,
+  "description": "拉玛刹在吞噬漩涡内每秒恢复75点生命值",
+  "basicStats": {
+    "perkIndex": "3A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

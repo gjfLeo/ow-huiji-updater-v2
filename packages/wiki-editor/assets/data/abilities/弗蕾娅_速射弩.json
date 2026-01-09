@@ -1,0 +1,34 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "弗蕾娅/速射弩",
+  "name": "速射弩",
+  "hero": "弗蕾娅",
+  "category": "Weapon",
+  "button": "主要攻击模式",
+  "description": "快速发射自动弩箭",
+  "basicStats": {
+    "ammo": 15,
+    "reloadTime": 1.6
+  },
+  "keywords": [
+    {
+      "name": "暴击",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "30"
+    },
+    {
+      "name": "散布",
+      "value": "2度（最大）<br />射击12发后散布最大"
+    }
+  ]
+}

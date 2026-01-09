@@ -1,0 +1,37 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "索杰恩/机动滑铲",
+  "name": "机动滑铲",
+  "hero": "索杰恩",
+  "category": "Ability",
+  "button": "技能 1",
+  "description": "贴地滑铲猛冲<br />可提前高高跳起结束滑铲",
+  "basicStats": {
+    "cooldown": 7
+  },
+  "keywords": [
+    {
+      "name": "闪避",
+      "value": ""
+    },
+    {
+      "name": "位移",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "移动速度加成",
+      "value": "+160%移动速度（滑铲）<br />+280%移动速度（空中滑铲）"
+    },
+    {
+      "name": "跳跃取消速度",
+      "value": "17米/秒"
+    },
+    {
+      "name": "最大持续时间",
+      "value": "1秒"
+    }
+  ]
+}

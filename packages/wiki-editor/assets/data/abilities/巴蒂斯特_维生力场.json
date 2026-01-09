@@ -1,0 +1,45 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "巴蒂斯特/维生力场",
+  "name": "维生力场",
+  "hero": "巴蒂斯特",
+  "category": "Ability",
+  "button": "技能 2",
+  "description": "投出力场装置，使周围盟友不会死亡。此装置可被摧毁",
+  "basicStats": {
+    "cooldown": 22
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>圆柱</mark>范围内的目标"
+    },
+    {
+      "name": "可部署",
+      "value": "一种具有独立生命池的非玩家实体，由<mark>强射弹部署</mark>"
+    },
+    {
+      "name": "无视屏障",
+      "value": "<mark>选定盟友时</mark>无视屏障"
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "生命值",
+      "value": "125"
+    },
+    {
+      "name": "持续时间",
+      "value": "5秒"
+    },
+    {
+      "name": "最低生命值百分比",
+      "value": "20%"
+    },
+    {
+      "name": "效果范围",
+      "value": "半径6米<br />高度10米"
+    }
+  ]
+}

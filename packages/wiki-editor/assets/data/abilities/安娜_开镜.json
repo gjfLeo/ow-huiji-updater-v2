@@ -1,0 +1,43 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "安娜/开镜",
+  "name": "开镜",
+  "hero": "安娜",
+  "category": "Weapon",
+  "button": "辅助攻击模式",
+  "description": "长按可以开镜瞄准",
+  "basicStats": {},
+  "keywords": [
+    {
+      "name": "护甲贯穿",
+      "value": ""
+    },
+    {
+      "name": "可净化",
+      "value": ""
+    },
+    {
+      "name": "即时命中",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "总持续伤害量",
+      "value": "75"
+    },
+    {
+      "name": "总持续治疗量",
+      "value": "75"
+    },
+    {
+      "name": "效果持续时间",
+      "value": "0.6秒"
+    },
+    {
+      "name": "移动速度惩罚",
+      "value": "-65%移动速度"
+    }
+  ]
+}

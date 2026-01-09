@@ -1,0 +1,42 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "温斯顿/特斯拉炮辅助模式",
+  "name": "特斯拉炮辅助模式",
+  "hero": "温斯顿",
+  "category": "Weapon",
+  "button": null,
+  "description": "",
+  "basicStats": {
+    "ammo": 120,
+    "reloadTime": 1.5
+  },
+  "keywords": [
+    {
+      "name": "护甲贯穿",
+      "value": ""
+    },
+    {
+      "name": "光束",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "60（最大充能）<br />15（最小充能）"
+    },
+    {
+      "name": "射程",
+      "value": "40米"
+    },
+    {
+      "name": "单发射击弹药消耗量",
+      "value": "12"
+    },
+    {
+      "name": "充能持续时间",
+      "value": "1.5秒"
+    }
+  ]
+}

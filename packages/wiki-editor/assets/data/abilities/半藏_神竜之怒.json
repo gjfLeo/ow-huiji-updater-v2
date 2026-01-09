@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "半藏/神竜之怒",
+  "name": "神竜之怒",
+  "hero": "半藏",
+  "category": "Perk",
+  "button": null,
+  "description": "主要攻击模式命中敌人后，获得25%攻击速度，持续2秒",
+  "basicStats": {
+    "perkIndex": "3A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

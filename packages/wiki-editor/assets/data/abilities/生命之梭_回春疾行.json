@@ -1,0 +1,33 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "生命之梭/回春疾行",
+  "name": "回春疾行",
+  "hero": "生命之梭",
+  "category": "Ability",
+  "button": "跳跃",
+  "description": "向行进方向疾冲，并轻微治疗自己",
+  "basicStats": {
+    "cooldown": 5
+  },
+  "keywords": [
+    {
+      "name": "位移",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "总持续治疗量",
+      "value": "45"
+    },
+    {
+      "name": "移动速度加成",
+      "value": "525%"
+    },
+    {
+      "name": "持续时间",
+      "value": "0.3秒"
+    }
+  ]
+}

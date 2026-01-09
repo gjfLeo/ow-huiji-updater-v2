@@ -1,0 +1,35 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "破坏球/动力铁球",
+  "name": "动力铁球",
+  "hero": "破坏球",
+  "category": "Ability",
+  "button": "技能 1",
+  "description": "变成球形，提高最大移动速度",
+  "basicStats": {},
+  "keywords": [
+    {
+      "name": "引导",
+      "value": ""
+    },
+    {
+      "name": "装填",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "火球伤害量",
+      "value": "60"
+    },
+    {
+      "name": "速度",
+      "value": "10米/秒（基础）<br />15米/秒（火球阈值）"
+    },
+    {
+      "name": "火球击退",
+      "value": "30米/秒"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "艾什/瞄准射击",
+  "name": "瞄准射击",
+  "hero": "艾什",
+  "category": "Weapon",
+  "button": "辅助攻击模式",
+  "description": "长按可以开镜瞄准，提高射击的伤害与精度，但射速会变慢",
+  "basicStats": {
+    "ammo": 12,
+    "reloadTime": 3.5
+  },
+  "keywords": [
+    {
+      "name": "暴击",
+      "value": ""
+    },
+    {
+      "name": "即时命中",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "75（基础）<br />22.5（最大衰减）"
+    },
+    {
+      "name": "最小-最大衰减射程",
+      "value": "40-60米"
+    },
+    {
+      "name": "移动速度惩罚",
+      "value": "-25%移动速度"
+    }
+  ]
+}

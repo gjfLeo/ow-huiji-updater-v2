@@ -1,0 +1,41 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "半藏/岚",
+  "name": "岚",
+  "hero": "半藏",
+  "category": "Ability",
+  "button": "技能 2",
+  "description": "接下来的5发箭矢可以弹射<br />瞬间发出但伤害降低",
+  "basicStats": {
+    "cooldown": 8
+  },
+  "keywords": [
+    {
+      "name": "暴击",
+      "value": ""
+    },
+    {
+      "name": "变身",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "75"
+    },
+    {
+      "name": "最大持续时间",
+      "value": "5秒"
+    },
+    {
+      "name": "弹射次数",
+      "value": "1"
+    }
+  ]
+}

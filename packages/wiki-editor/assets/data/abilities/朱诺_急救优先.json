@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "朱诺/急救优先",
+  "name": "急救优先",
+  "hero": "朱诺",
+  "category": "Perk",
+  "button": null,
+  "description": "脉冲星飞雷对盟友的锁定速度加快35%",
+  "basicStats": {
+    "perkIndex": "2A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

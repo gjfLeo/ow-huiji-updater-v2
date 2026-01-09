@@ -1,0 +1,53 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "艾什/召唤鲍勃",
+  "name": "召唤鲍勃",
+  "hero": "艾什",
+  "category": "UltimateAbility",
+  "button": "技能 3",
+  "description": "派出鲍勃向前冲锋，将敌人击飞到空中，然后用手臂上的火炮攻击他们",
+  "basicStats": {
+    "ultimateCharge": 2450
+  },
+  "keywords": [
+    {
+      "name": "碰撞",
+      "value": "具有此属性的两个技能撞在一起时，英雄<mark>和可部署物</mark>均被击倒"
+    },
+    {
+      "name": "可部署",
+      "value": ""
+    },
+    {
+      "name": "即时命中",
+      "value": "<mark>此可部署物</mark>的射弹攻击和治疗没有飞行时间，立即命中目标"
+    },
+    {
+      "name": "位移",
+      "value": "<mark>此可部署物</mark>具有被侵入、限制、沉睡和击晕效果打断时会提前结束的强化位移"
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "生命值",
+      "value": "1000"
+    },
+    {
+      "name": "射击伤害量",
+      "value": "17"
+    },
+    {
+      "name": "冲锋伤害",
+      "value": "120"
+    },
+    {
+      "name": "冲锋持续时间",
+      "value": "4秒"
+    },
+    {
+      "name": "射击持续时间",
+      "value": "10秒"
+    }
+  ]
+}

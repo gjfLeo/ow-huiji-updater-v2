@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "死神/萦绕幽灵",
+  "name": "萦绕幽灵",
+  "hero": "死神",
+  "category": "Perk",
+  "button": null,
+  "description": "离开幽灵形态后移动速度加快40%，持续2秒",
+  "basicStats": {
+    "perkIndex": "2B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

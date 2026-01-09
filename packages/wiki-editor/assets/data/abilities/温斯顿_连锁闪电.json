@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "温斯顿/连锁闪电",
+  "name": "连锁闪电",
+  "hero": "温斯顿",
+  "category": "Perk",
+  "button": null,
+  "description": "完全充能的辅助攻击模式命中后会弹跳向最多2个额外目标",
+  "basicStats": {
+    "perkIndex": "3A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

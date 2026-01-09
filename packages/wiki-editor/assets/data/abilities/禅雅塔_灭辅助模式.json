@@ -1,0 +1,38 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "禅雅塔/灭辅助模式",
+  "name": "灭辅助模式",
+  "hero": "禅雅塔",
+  "category": "Weapon",
+  "button": "辅助攻击模式",
+  "description": "蓄力后可以射出一连串法球",
+  "basicStats": {
+    "ammo": 25,
+    "reloadTime": 1.5
+  },
+  "keywords": [
+    {
+      "name": "暴击",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "单发弹丸伤害量",
+      "value": "50"
+    },
+    {
+      "name": "最大单发齐射弹丸数",
+      "value": "5"
+    },
+    {
+      "name": "蓄力时间",
+      "value": "0.52秒（每发弹丸）<br />2.6秒（完全蓄力）<br />1秒（额外蓄力）"
+    }
+  ]
+}

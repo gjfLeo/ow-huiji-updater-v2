@@ -1,0 +1,33 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "秩序之光/光子屏障",
+  "name": "光子屏障",
+  "hero": "秩序之光",
+  "category": "UltimateAbility",
+  "button": "技能 3",
+  "description": "部署一个大型能量屏障",
+  "basicStats": {
+    "ultimateCharge": 2025
+  },
+  "keywords": [
+    {
+      "name": "屏障",
+      "value": ""
+    },
+    {
+      "name": "可部署",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "生命值",
+      "value": "4000"
+    },
+    {
+      "name": "持续时间",
+      "value": "12秒"
+    }
+  ]
+}

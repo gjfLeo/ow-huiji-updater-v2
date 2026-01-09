@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "布丽吉塔/流星重鞭",
+  "name": "流星重鞭",
+  "hero": "布丽吉塔",
+  "category": "Perk",
+  "button": null,
+  "description": "流星飞锤的击退可将敌人重击至墙面上，额外造成50点伤害",
+  "basicStats": {
+    "perkIndex": "3B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

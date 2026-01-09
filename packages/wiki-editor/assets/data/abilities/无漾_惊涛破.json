@@ -1,0 +1,61 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "无漾/惊涛破",
+  "name": "惊涛破",
+  "hero": "无漾",
+  "category": "UltimateAbility",
+  "button": "技能 3",
+  "description": "水流聚合成球，保护一名盟友或自身，一小段时间后水球爆炸，击倒敌人并为受保护的目标提供大量治疗",
+  "basicStats": {
+    "ultimateCharge": 2800
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>球形</mark>范围内的目标"
+    },
+    {
+      "name": "无视屏障",
+      "value": "<mark>选定盟友</mark>时无视屏障"
+    },
+    {
+      "name": "击倒",
+      "value": ""
+    },
+    {
+      "name": "过量生命值",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "过量生命值",
+      "value": "400"
+    },
+    {
+      "name": "爆炸治疗量",
+      "value": "250"
+    },
+    {
+      "name": "伤害量",
+      "value": "100"
+    },
+    {
+      "name": "最小-最大移动速度加成",
+      "value": "+20%-50%移动速度"
+    },
+    {
+      "name": "爆炸半径",
+      "value": "7.5米"
+    },
+    {
+      "name": "持续时间",
+      "value": "3.5秒"
+    },
+    {
+      "name": "击倒持续时间",
+      "value": "1.5秒"
+    }
+  ]
+}

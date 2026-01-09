@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "骇灾/尖刺重构",
+  "name": "尖刺重构",
+  "hero": "骇灾",
+  "category": "Perk",
+  "button": null,
+  "description": "尖刺墙命中会为尖刺护体充能25点能量，最多额外充能50点",
+  "basicStats": {
+    "perkIndex": "3A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

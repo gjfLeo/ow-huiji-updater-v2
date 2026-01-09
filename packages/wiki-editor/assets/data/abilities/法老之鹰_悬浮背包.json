@@ -1,0 +1,39 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "法老之鹰/悬浮背包",
+  "name": "悬浮背包",
+  "hero": "法老之鹰",
+  "category": "PassiveAbility",
+  "button": "跳跃",
+  "description": "长按可以悬浮在空中<br />燃料消耗完后会缓慢降落<br />落地时才能恢复燃料",
+  "basicStats": {},
+  "keywords": [
+    {
+      "name": "能量",
+      "value": ""
+    },
+    {
+      "name": "飞行",
+      "value": ""
+    },
+    {
+      "name": "位移",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "能量",
+      "value": "50%/秒（消耗）<br />45%/秒（恢复速度）<br />0.3秒（恢复延迟）"
+    },
+    {
+      "name": "移动速度加成",
+      "value": "+40%移动速度"
+    },
+    {
+      "name": "缓落速度",
+      "value": "8米/秒"
+    }
+  ]
+}

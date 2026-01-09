@@ -1,0 +1,27 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "源氏/灵",
+  "name": "灵",
+  "hero": "源氏",
+  "category": "PassiveAbility",
+  "button": "跳跃",
+  "description": "可以爬墙和二段跳",
+  "basicStats": {},
+  "keywords": [
+    {
+      "name": "位移",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "爬墙速度",
+      "value": "7.8米/秒"
+    },
+    {
+      "name": "二段跳速度",
+      "value": "1.3米/秒"
+    }
+  ]
+}

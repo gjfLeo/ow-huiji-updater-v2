@@ -1,0 +1,38 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "巴蒂斯特/生化榴弹枪",
+  "name": "生化榴弹枪",
+  "hero": "巴蒂斯特",
+  "category": "Weapon",
+  "button": "主要攻击模式",
+  "description": "三连发冲锋枪",
+  "basicStats": {
+    "ammo": 36,
+    "reloadTime": 1.5
+  },
+  "keywords": [
+    {
+      "name": "暴击",
+      "value": ""
+    },
+    {
+      "name": "即时命中",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "单发齐射伤害量",
+      "value": "75（基础）<br />22.5（最大衰减）"
+    },
+    {
+      "name": "最小-最大衰减射程",
+      "value": "25-40米"
+    },
+    {
+      "name": "单发齐射弹丸数",
+      "value": "3"
+    }
+  ]
+}

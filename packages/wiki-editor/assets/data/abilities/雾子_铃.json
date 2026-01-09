@@ -1,0 +1,53 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "雾子/铃",
+  "name": "铃",
+  "hero": "雾子",
+  "category": "Ability",
+  "button": "技能 2",
+  "description": "投出一枚护身铃铛，使盟友在短时间内变为无敌状态，并净化大部分负面效果",
+  "basicStats": {
+    "cooldown": 14
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>球形</mark>范围内的目标"
+    },
+    {
+      "name": "净化",
+      "value": ""
+    },
+    {
+      "name": "无敌",
+      "value": ""
+    },
+    {
+      "name": "相移",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "总持续治疗量",
+      "value": "80"
+    },
+    {
+      "name": "净化时治疗量",
+      "value": "30"
+    },
+    {
+      "name": "效果持续时间",
+      "value": "0.65秒"
+    },
+    {
+      "name": "效果半径",
+      "value": "5米"
+    }
+  ]
+}

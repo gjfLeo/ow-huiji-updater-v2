@@ -1,0 +1,41 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "探奇/钻头突刺",
+  "name": "钻头突刺",
+  "hero": "探奇",
+  "category": "Ability",
+  "button": "辅助攻击模式",
+  "description": "在地上或地下向前突刺击退敌人<br />钻地激活时加快冷却速度",
+  "basicStats": {
+    "cooldown": 8
+  },
+  "keywords": [
+    {
+      "name": "近身攻击",
+      "value": ""
+    },
+    {
+      "name": "位移",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "30（基础）<br />60（持续伤害量）<br />5（钻地时击中）"
+    },
+    {
+      "name": "移动速度",
+      "value": "20米/秒（基础）<br />16米/秒（钻地）"
+    },
+    {
+      "name": "持续时间",
+      "value": "0.45秒"
+    },
+    {
+      "name": "击退",
+      "value": "13米/秒"
+    }
+  ]
+}

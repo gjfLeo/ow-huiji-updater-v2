@@ -1,0 +1,41 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "源氏/闪",
+  "name": "闪",
+  "hero": "源氏",
+  "category": "Ability",
+  "button": "技能 2",
+  "description": "格挡向你射来的飞弹并将其向你瞄准方向反弹回去，同时还能招架近战攻击",
+  "basicStats": {
+    "cooldown": 10
+  },
+  "keywords": [
+    {
+      "name": "引导",
+      "value": ""
+    },
+    {
+      "name": "拦截射弹",
+      "value": "<mark>反弹</mark>大部分射弹攻击和范围治疗。可被光束贯穿"
+    },
+    {
+      "name": "暴击",
+      "value": "命中暴击部位时<mark>沿用被反弹攻击的暴击伤害倍率</mark>"
+    },
+    {
+      "name": "无视近身攻击",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "持续时间",
+      "value": "2秒"
+    },
+    {
+      "name": "格挡角度",
+      "value": "90度"
+    }
+  ]
+}

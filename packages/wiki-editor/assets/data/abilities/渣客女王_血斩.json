@@ -1,0 +1,53 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "渣客女王/血斩",
+  "name": "血斩",
+  "hero": "渣客女王",
+  "category": "Ability",
+  "button": "技能 2",
+  "description": "创伤前方的所有敌人，造成持续伤害<br />每命中一名敌人都会缩短冷却时间",
+  "basicStats": {
+    "cooldown": 9
+  },
+  "keywords": [
+    {
+      "name": "护甲贯穿",
+      "value": "此攻击<mark>施加的效果</mark>对护甲造成伤害时将其视同生命值"
+    },
+    {
+      "name": "引导",
+      "value": ""
+    },
+    {
+      "name": "可净化",
+      "value": ""
+    },
+    {
+      "name": "近身攻击",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "击中伤害量",
+      "value": "105"
+    },
+    {
+      "name": "创伤伤害量",
+      "value": "40"
+    },
+    {
+      "name": "创伤持续时间",
+      "value": "3秒"
+    },
+    {
+      "name": "范围",
+      "value": "4.5米"
+    },
+    {
+      "name": "冷却时间缩减",
+      "value": "每击中一名敌人缩短-2秒"
+    }
+  ]
+}

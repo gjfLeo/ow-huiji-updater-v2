@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "艾什/响尾蛇行",
+  "name": "响尾蛇行",
+  "hero": "艾什",
+  "category": "Perk",
+  "button": null,
+  "description": "短筒猎枪对艾什和敌人的击退距离扩大12%",
+  "basicStats": {
+    "perkIndex": "2B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

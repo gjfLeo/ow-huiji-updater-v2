@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "安娜/弹跳手雷",
+  "name": "弹跳手雷",
+  "hero": "安娜",
+  "category": "Perk",
+  "button": null,
+  "description": "生物手雷爆炸后会反弹并再次爆炸，造成60点伤害量和治疗量",
+  "basicStats": {
+    "perkIndex": "3A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

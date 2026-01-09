@@ -1,0 +1,53 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "禅雅塔/圣",
+  "name": "圣",
+  "hero": "禅雅塔",
+  "category": "UltimateAbility",
+  "button": "技能 3",
+  "description": "变为无敌状态，加速并治疗附近的盟友",
+  "basicStats": {
+    "ultimateCharge": 2500
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>球形</mark>范围内的目标"
+    },
+    {
+      "name": "净化",
+      "value": ""
+    },
+    {
+      "name": "无敌",
+      "value": ""
+    },
+    {
+      "name": "装填",
+      "value": ""
+    },
+    {
+      "name": "变身",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "持续治疗量",
+      "value": "400/秒"
+    },
+    {
+      "name": "移动速度加成",
+      "value": "+100%移动速度"
+    },
+    {
+      "name": "持续时间",
+      "value": "6秒"
+    },
+    {
+      "name": "半径",
+      "value": "10米"
+    }
+  ]
+}

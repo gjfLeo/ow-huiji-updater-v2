@@ -1,0 +1,41 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "路霸/呼吸器",
+  "name": "呼吸器",
+  "hero": "路霸",
+  "category": "Ability",
+  "button": "技能 2",
+  "description": "治疗自己并降低受到的伤害",
+  "basicStats": {
+    "cooldown": 1.25
+  },
+  "keywords": [
+    {
+      "name": "引导",
+      "value": ""
+    },
+    {
+      "name": "能量",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "持续治疗量",
+      "value": "180/秒"
+    },
+    {
+      "name": "受伤减免",
+      "value": "-40%承受伤害量"
+    },
+    {
+      "name": "最大持续时间",
+      "value": "2.5秒"
+    },
+    {
+      "name": "能量",
+      "value": "40%/秒（消耗）<br />12.5%/秒（恢复速度）<br />1.3秒（恢复延迟）"
+    }
+  ]
+}

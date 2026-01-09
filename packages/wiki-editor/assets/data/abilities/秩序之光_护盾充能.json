@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "秩序之光/护盾充能",
+  "name": "护盾充能",
+  "hero": "秩序之光",
+  "category": "Perk",
+  "button": null,
+  "description": "位于自己的传送面板10米内时，“秩序之光”每秒恢复20点护盾",
+  "basicStats": {
+    "perkIndex": "3B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

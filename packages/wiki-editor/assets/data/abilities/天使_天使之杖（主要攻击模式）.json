@@ -1,0 +1,41 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "天使/天使之杖（主要攻击模式）",
+  "name": "天使之杖（主要攻击模式）",
+  "hero": "天使",
+  "category": "Weapon",
+  "button": "主要攻击模式",
+  "description": "长按可以治疗队友",
+  "basicStats": {
+    "ammo": -1
+  },
+  "keywords": [
+    {
+      "name": "光束",
+      "value": "无视拦截射弹技能且无法暴击"
+    },
+    {
+      "name": "无视屏障",
+      "value": "<mark>选定盟友时</mark>无视屏障"
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "持续治疗量",
+      "value": "60/秒（基础）<br />65/秒（女武神）"
+    },
+    {
+      "name": "射程",
+      "value": "15米（基础）<br />30米（女武神）"
+    },
+    {
+      "name": "视线丢失后光束持续时间",
+      "value": "1秒"
+    },
+    {
+      "name": "射程",
+      "value": "15米（基础）<br />30米（女武神）"
+    }
+  ]
+}

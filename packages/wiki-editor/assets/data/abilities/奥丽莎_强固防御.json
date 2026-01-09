@@ -1,0 +1,49 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "奥丽莎/强固防御",
+  "name": "强固防御",
+  "hero": "奥丽莎",
+  "category": "Ability",
+  "button": "技能 1",
+  "description": "获得临时生命值，降低受到的伤害并且不可阻挡",
+  "basicStats": {
+    "cooldown": 15.5
+  },
+  "keywords": [
+    {
+      "name": "暴击免疫",
+      "value": ""
+    },
+    {
+      "name": "过量生命值",
+      "value": ""
+    },
+    {
+      "name": "变身",
+      "value": ""
+    },
+    {
+      "name": "不可阻挡",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "受伤减免",
+      "value": "-45%承受伤害量"
+    },
+    {
+      "name": "过量生命值",
+      "value": "100"
+    },
+    {
+      "name": "最大持续时间",
+      "value": "4秒"
+    },
+    {
+      "name": "自身移动速度惩罚",
+      "value": "-10%移动速度"
+    }
+  ]
+}

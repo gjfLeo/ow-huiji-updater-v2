@@ -1,0 +1,30 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "禅雅塔/灭",
+  "name": "灭",
+  "hero": "禅雅塔",
+  "category": "Weapon",
+  "button": "主要攻击模式",
+  "description": "弹道能量武器",
+  "basicStats": {
+    "ammo": 25,
+    "reloadTime": 1.5
+  },
+  "keywords": [
+    {
+      "name": "暴击",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "单发弹丸伤害量",
+      "value": "50"
+    }
+  ]
+}

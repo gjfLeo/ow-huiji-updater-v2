@@ -1,0 +1,30 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "托比昂/锻造锤",
+  "name": "锻造锤",
+  "hero": "托比昂",
+  "category": "Weapon",
+  "button": "主要攻击模式",
+  "description": "挥动锻造锤可以修理炮台或攻击敌人",
+  "basicStats": {
+    "ammo": -1,
+    "isSecondWeapon": true
+  },
+  "keywords": [
+    {
+      "name": "近身攻击",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "70"
+    },
+    {
+      "name": "对炮台治疗量",
+      "value": "50"
+    }
+  ]
+}

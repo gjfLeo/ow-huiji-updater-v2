@@ -1,0 +1,53 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "骇灾/千针雨",
+  "name": "千针雨",
+  "hero": "骇灾",
+  "category": "UltimateAbility",
+  "button": "技能 3",
+  "description": "降下一片尖刺雨，定身敌人",
+  "basicStats": {
+    "ultimateCharge": 2150
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": ""
+    },
+    {
+      "name": "限制",
+      "value": ""
+    },
+    {
+      "name": "装填",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "总持续伤害量",
+      "value": "90"
+    },
+    {
+      "name": "限制持续时间",
+      "value": "2.8秒"
+    },
+    {
+      "name": "范围",
+      "value": "30米"
+    },
+    {
+      "name": "宽度",
+      "value": "11.5米"
+    },
+    {
+      "name": "持续伤害持续时间",
+      "value": "0.3秒"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "奥丽莎/强化聚变驱动器",
+  "name": "强化聚变驱动器",
+  "hero": "奥丽莎",
+  "category": "Weapon",
+  "button": "主要攻击模式",
+  "description": "全自动热量式武器",
+  "basicStats": {
+    "ammo": -1
+  },
+  "keywords": [
+    {
+      "name": "暴击",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "14"
+    },
+    {
+      "name": "持续散热",
+      "value": "53%/秒"
+    },
+    {
+      "name": "过热前可射击次数",
+      "value": "50"
+    },
+    {
+      "name": "过热冷却时间",
+      "value": "3秒"
+    },
+    {
+      "name": "散布",
+      "value": "0.75度（最大）<br />射击21发后散布最大"
+    }
+  ]
+}

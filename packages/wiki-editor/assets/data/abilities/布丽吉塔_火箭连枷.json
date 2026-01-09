@@ -1,0 +1,29 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "布丽吉塔/火箭连枷",
+  "name": "火箭连枷",
+  "hero": "布丽吉塔",
+  "category": "Weapon",
+  "button": "主要攻击模式",
+  "description": "较大范围的近战攻击",
+  "basicStats": {
+    "ammo": -1
+  },
+  "keywords": [
+    {
+      "name": "近身攻击",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "45"
+    },
+    {
+      "name": "范围",
+      "value": "6米"
+    }
+  ]
+}

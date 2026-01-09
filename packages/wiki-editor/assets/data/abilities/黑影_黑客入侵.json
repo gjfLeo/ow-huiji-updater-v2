@@ -1,0 +1,41 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "黑影/黑客入侵",
+  "name": "黑客入侵",
+  "hero": "黑影",
+  "category": "Ability",
+  "button": "辅助攻击模式",
+  "description": "长按后侵入目标。被侵入的敌人无法使用技能且隔墙可见。被侵入的急救包刷新速度更快且无法被敌人使用<br />受到伤害会打断侵入过程",
+  "basicStats": {
+    "cooldown": 6
+  },
+  "keywords": [
+    {
+      "name": "可净化",
+      "value": ""
+    },
+    {
+      "name": "侵入",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "侵入持续时间",
+      "value": "1秒（沉默）<br />8秒（显示位置）<br />10秒（可部署物）<br />45秒（急救包）<br />3秒（鲍勃）"
+    },
+    {
+      "name": "射程",
+      "value": "15米"
+    },
+    {
+      "name": "可部署目标冷却时间",
+      "value": "3秒"
+    },
+    {
+      "name": "急救包刷新速度",
+      "value": "4倍"
+    }
+  ]
+}

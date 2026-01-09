@@ -1,0 +1,34 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "堡垒/侦察模式",
+  "name": "侦察模式",
+  "hero": "堡垒",
+  "category": "Weapon",
+  "button": "主要攻击模式",
+  "description": "配有轻型高精度武器的机动模式",
+  "basicStats": {
+    "ammo": 25,
+    "reloadTime": 1.2
+  },
+  "keywords": [
+    {
+      "name": "暴击",
+      "value": ""
+    },
+    {
+      "name": "即时命中",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "25（基础）<br />7.5（最大衰减）"
+    },
+    {
+      "name": "最小-最大衰减射程",
+      "value": "30-50米"
+    }
+  ]
+}

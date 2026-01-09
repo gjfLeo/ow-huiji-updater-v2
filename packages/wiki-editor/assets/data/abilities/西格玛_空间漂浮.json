@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "西格玛/空间漂浮",
+  "name": "空间漂浮",
+  "hero": "西格玛",
+  "category": "Perk",
+  "button": null,
+  "description": "跳起时长按跳跃可在短时间内向上漂浮",
+  "basicStats": {
+    "perkIndex": "3B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

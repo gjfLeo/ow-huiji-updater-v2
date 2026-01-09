@@ -1,0 +1,23 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "天使/天使降临",
+  "name": "天使降临",
+  "hero": "天使",
+  "category": "PassiveAbility",
+  "button": "跳跃",
+  "description": "减缓下降速度",
+  "basicStats": {},
+  "keywords": [
+    {
+      "name": "位移",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "缓落速度",
+      "value": "2米/秒"
+    }
+  ]
+}

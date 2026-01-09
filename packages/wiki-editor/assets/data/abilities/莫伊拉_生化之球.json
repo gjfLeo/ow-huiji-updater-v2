@@ -1,0 +1,53 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "莫伊拉/生化之球",
+  "name": "生化之球",
+  "hero": "莫伊拉",
+  "category": "Ability",
+  "button": "技能 2",
+  "description": "发射来回弹射的能量球，为附近的盟友恢复生命，或对附近的敌人造成伤害",
+  "basicStats": {
+    "cooldown": 8
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": ""
+    },
+    {
+      "name": "屏障贯穿",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "持续治疗量",
+      "value": "30/秒"
+    },
+    {
+      "name": "持续伤害量",
+      "value": "65/秒"
+    },
+    {
+      "name": "能量",
+      "value": "300（治疗）<br />200（伤害）"
+    },
+    {
+      "name": "范围",
+      "value": "5米（治疗）<br />4米（伤害）"
+    },
+    {
+      "name": "命中恢复速度",
+      "value": "每个目标5%/秒"
+    },
+    {
+      "name": "最大持续时间",
+      "value": "7秒"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "狂鼠/捕兽夹",
+  "name": "捕兽夹",
+  "hero": "狂鼠",
+  "category": "Ability",
+  "button": "技能 2",
+  "description": "放置一个可暂时使敌人失去行动能力的陷阱",
+  "basicStats": {
+    "cooldown": 10
+  },
+  "keywords": [
+    {
+      "name": "可部署",
+      "value": "一种具有独立生命池的非玩家实体，由<mark>强射弹部署</mark>"
+    },
+    {
+      "name": "固定数值",
+      "value": ""
+    },
+    {
+      "name": "限制",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "诱捕持续时间",
+      "value": "2.5秒"
+    },
+    {
+      "name": "伤害量",
+      "value": "100"
+    },
+    {
+      "name": "生命值",
+      "value": "100"
+    },
+    {
+      "name": "半径",
+      "value": "1米"
+    }
+  ]
+}

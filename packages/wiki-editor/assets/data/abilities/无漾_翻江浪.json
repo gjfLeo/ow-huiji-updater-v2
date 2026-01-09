@@ -1,0 +1,57 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "无漾/翻江浪",
+  "name": "翻江浪",
+  "hero": "无漾",
+  "category": "Ability",
+  "button": "技能 2",
+  "description": "劈出一道向前的波浪，提高盟友受到的治疗量并击退敌人",
+  "basicStats": {
+    "cooldown": 14
+  },
+  "keywords": [
+    {
+      "name": "闪避",
+      "value": ""
+    },
+    {
+      "name": "冲击波",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "治疗量",
+      "value": "80"
+    },
+    {
+      "name": "提高治疗量",
+      "value": "+50%受到治疗量"
+    },
+    {
+      "name": "盟友效果持续时间",
+      "value": "3秒"
+    },
+    {
+      "name": "伤害量",
+      "value": "80（基础）<br />40（最大范围）"
+    },
+    {
+      "name": "最小-最大衰减射程",
+      "value": "4-17.5米"
+    },
+    {
+      "name": "冲击波",
+      "value": "3-10度（最小-最大）<br />30米（范围）<br />1.8米（高度）<br />30米/秒（速度）<br />1.8/20米（爬升/下降）"
+    },
+    {
+      "name": "额外养神泉恢复量",
+      "value": "33%"
+    },
+    {
+      "name": "击退",
+      "value": "15米/秒"
+    }
+  ]
+}

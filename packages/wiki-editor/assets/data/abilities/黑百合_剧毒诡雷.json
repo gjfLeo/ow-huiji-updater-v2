@@ -1,0 +1,53 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "黑百合/剧毒诡雷",
+  "name": "剧毒诡雷",
+  "hero": "黑百合",
+  "category": "Ability",
+  "button": "技能 2",
+  "description": "射出一个剧毒陷阱",
+  "basicStats": {
+    "cooldown": 15
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>球形</mark>范围内的目标"
+    },
+    {
+      "name": "护甲贯穿",
+      "value": "<mark>此可部署物的效果</mark>对护甲造成伤害时将其视同生命值"
+    },
+    {
+      "name": "可净化",
+      "value": "<mark>此可部署物</mark>会施加能被净化移除的负面状态效果"
+    },
+    {
+      "name": "可部署",
+      "value": "一种具有独立生命池的非玩家实体，由<mark>强射弹部署</mark>"
+    },
+    {
+      "name": "固定数值",
+      "value": "<mark>给此可部署物的拥有者施加</mark>增伤时，此可部署物的伤害不受影响"
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "总持续伤害量",
+      "value": "125"
+    },
+    {
+      "name": "半径",
+      "value": "3米（触发）<br />4米（爆炸）"
+    },
+    {
+      "name": "持续时间",
+      "value": "5秒"
+    },
+    {
+      "name": "生命值",
+      "value": "1"
+    }
+  ]
+}

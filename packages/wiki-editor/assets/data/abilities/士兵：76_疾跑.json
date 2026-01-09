@@ -1,0 +1,29 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "士兵：76/疾跑",
+  "name": "疾跑",
+  "hero": "士兵：76",
+  "category": "Ability",
+  "button": "技能 1",
+  "description": "快速向前移动",
+  "basicStats": {
+    "cooldown": 0.3
+  },
+  "keywords": [
+    {
+      "name": "引导",
+      "value": ""
+    },
+    {
+      "name": "位移",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "移动速度加成",
+      "value": "+50%移动速度"
+    }
+  ]
+}

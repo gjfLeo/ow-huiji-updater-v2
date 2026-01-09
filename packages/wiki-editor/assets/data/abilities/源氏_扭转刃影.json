@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "源氏/扭转刃影",
+  "name": "扭转刃影",
+  "hero": "源氏",
+  "category": "Perk",
+  "button": null,
+  "description": "对生命值低于一半的敌人使用“影”可额外造成25点持续伤害",
+  "basicStats": {
+    "perkIndex": "3A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

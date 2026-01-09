@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "渣客女王/凶残狂噬",
+  "name": "凶残狂噬",
+  "hero": "渣客女王",
+  "category": "Perk",
+  "button": null,
+  "description": "血斩的击中伤害获得100%生命汲取",
+  "basicStats": {
+    "perkIndex": "3B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

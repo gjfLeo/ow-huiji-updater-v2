@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "美/冰上畅滑",
+  "name": "冰上畅滑",
+  "hero": "美",
+  "category": "Perk",
+  "button": null,
+  "description": "在暴雪内的盟友移动速度提高25%，且每秒治疗50点生命值",
+  "basicStats": {
+    "perkIndex": "2A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

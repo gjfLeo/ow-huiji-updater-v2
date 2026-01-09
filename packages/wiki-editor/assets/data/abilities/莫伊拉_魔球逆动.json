@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "莫伊拉/魔球逆动",
+  "name": "魔球逆动",
+  "hero": "莫伊拉",
+  "category": "Perk",
+  "button": null,
+  "description": "再次激活生化之球会逆转其飞行方向",
+  "basicStats": {
+    "perkIndex": "2A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

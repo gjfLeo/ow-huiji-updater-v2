@@ -1,0 +1,31 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "探奇/探险家的决心",
+  "name": "探险家的决心",
+  "hero": "探奇",
+  "category": "PassiveAbility",
+  "button": null,
+  "description": "使用技能会提供临时护盾",
+  "basicStats": {},
+  "keywords": [
+    {
+      "name": "护盾",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "护盾",
+      "value": "25（技能）<br />75（终极技能）"
+    },
+    {
+      "name": "最大护盾",
+      "value": "75"
+    },
+    {
+      "name": "衰减延迟",
+      "value": "3秒"
+    }
+  ]
+}

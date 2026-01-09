@@ -1,0 +1,42 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "路霸/爆裂枪",
+  "name": "爆裂枪",
+  "hero": "路霸",
+  "category": "Weapon",
+  "button": "主要攻击模式",
+  "description": "近距离散射武器",
+  "basicStats": {
+    "ammo": 6,
+    "reloadTime": 1.5
+  },
+  "keywords": [
+    {
+      "name": "暴击",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "单发齐射伤害量",
+      "value": "162.5（基础）<br />48.8（最大衰减）"
+    },
+    {
+      "name": "散布",
+      "value": "8度"
+    },
+    {
+      "name": "最小-最大衰减射程",
+      "value": "30-50米"
+    },
+    {
+      "name": "单发齐射弹丸数",
+      "value": "25"
+    }
+  ]
+}

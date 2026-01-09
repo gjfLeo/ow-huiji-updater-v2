@@ -1,0 +1,49 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "骇灾/狂跃",
+  "name": "狂跃",
+  "hero": "骇灾",
+  "category": "Ability",
+  "button": "技能 1",
+  "description": "跃向前方。再次激活可劈砍敌人并将其击退",
+  "basicStats": {
+    "cooldown": 5.5
+  },
+  "keywords": [
+    {
+      "name": "强位移",
+      "value": ""
+    },
+    {
+      "name": "闪避",
+      "value": ""
+    },
+    {
+      "name": "近身攻击",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "70"
+    },
+    {
+      "name": "最小-最大跳跃速度",
+      "value": "6.5米/秒（最小-向上）<br />12米/秒（最大-向前）"
+    },
+    {
+      "name": "移动速度加成",
+      "value": "275%移动速度（最小-向上）<br />425%移动速度（最大-向前）<br />0.3秒持续时间"
+    },
+    {
+      "name": "近身攻击范围",
+      "value": "5.4米"
+    },
+    {
+      "name": "击退",
+      "value": "12.3米/秒"
+    }
+  ]
+}

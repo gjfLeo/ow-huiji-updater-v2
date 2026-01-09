@@ -1,0 +1,37 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "西格玛/实验屏障",
+  "name": "实验屏障",
+  "hero": "西格玛",
+  "category": "Ability",
+  "button": "辅助攻击模式",
+  "description": "按下按键可以制造出悬浮的屏障向外飞出，松开按键使其停止。再次按下会将屏障召回到你身边",
+  "basicStats": {
+    "cooldown": 1
+  },
+  "keywords": [
+    {
+      "name": "屏障",
+      "value": ""
+    },
+    {
+      "name": "可部署",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "屏障生命值",
+      "value": "700"
+    },
+    {
+      "name": "屏障充能速度",
+      "value": "85.4/秒"
+    },
+    {
+      "name": "屏障被摧毁后冷却时间",
+      "value": "5秒"
+    }
+  ]
+}

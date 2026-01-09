@@ -1,0 +1,45 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "奥丽莎/能量标枪",
+  "name": "能量标枪",
+  "hero": "奥丽莎",
+  "category": "Ability",
+  "button": "辅助攻击模式",
+  "description": "投出标枪，击晕并击退敌人<br />敌人撞墙时效果提升",
+  "basicStats": {
+    "cooldown": 7
+  },
+  "keywords": [
+    {
+      "name": "可净化",
+      "value": ""
+    },
+    {
+      "name": "击晕",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "70（基础）<br />40（撞墙）"
+    },
+    {
+      "name": "击晕持续时间",
+      "value": "0.45秒（基础）<br />0.4秒（撞墙）"
+    },
+    {
+      "name": "撞墙击晕撞击角度",
+      "value": "45度"
+    },
+    {
+      "name": "击退",
+      "value": "25米/秒"
+    }
+  ]
+}

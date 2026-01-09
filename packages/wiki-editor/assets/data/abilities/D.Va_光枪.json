@@ -1,0 +1,30 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "D.Va/光枪",
+  "name": "光枪",
+  "hero": "D.Va",
+  "category": "Weapon",
+  "button": "主要攻击模式",
+  "description": "自动武器",
+  "basicStats": {
+    "ammo": 20,
+    "reloadTime": 1.4
+  },
+  "keywords": [
+    {
+      "name": "暴击",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "14"
+    }
+  ]
+}

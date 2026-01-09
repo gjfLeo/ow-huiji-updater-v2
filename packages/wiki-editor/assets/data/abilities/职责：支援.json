@@ -1,0 +1,19 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "职责：支援",
+  "name": "职责：支援",
+  "hero": "",
+  "role": "support",
+  "category": "PassiveAbility",
+  "button": null,
+  "description": "快速激活生命恢复效果",
+  "basicStats": {},
+  "keywords": [],
+  "detailStats": [
+    {
+      "name": "生命恢复延迟",
+      "value": "3秒"
+    }
+  ]
+}

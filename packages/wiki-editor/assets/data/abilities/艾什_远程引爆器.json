@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "艾什/远程引爆器",
+  "name": "远程引爆器",
+  "hero": "艾什",
+  "category": "Perk",
+  "button": null,
+  "description": "使用延时雷管后，再次按下 <kbd>E</kbd> 可使其在0.5秒延迟后引爆",
+  "basicStats": {
+    "perkIndex": "2A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

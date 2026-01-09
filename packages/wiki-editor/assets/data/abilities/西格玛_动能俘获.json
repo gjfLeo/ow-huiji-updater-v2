@@ -1,0 +1,49 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "西格玛/动能俘获",
+  "name": "动能俘获",
+  "hero": "西格玛",
+  "category": "Ability",
+  "button": "技能 1",
+  "description": "阻挡从前方飞向你的子弹，并将它们转化成额外生命值",
+  "basicStats": {
+    "cooldown": 12
+  },
+  "keywords": [
+    {
+      "name": "引导",
+      "value": ""
+    },
+    {
+      "name": "拦截射弹",
+      "value": ""
+    },
+    {
+      "name": "无视屏障",
+      "value": ""
+    },
+    {
+      "name": "过量生命值",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "转化比例",
+      "value": "60%"
+    },
+    {
+      "name": "持续时间",
+      "value": "2秒"
+    },
+    {
+      "name": "最大过量生命值",
+      "value": "400"
+    },
+    {
+      "name": "衰减延迟",
+      "value": "3秒"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "莫伊拉/生化之触辅助模式",
+  "name": "生化之触辅助模式",
+  "hero": "莫伊拉",
+  "category": "Weapon",
+  "button": "辅助攻击模式",
+  "description": "远程光束武器。造成伤害时为你恢复生命并加速恢复生化能量",
+  "basicStats": {
+    "ammo": -1
+  },
+  "keywords": [
+    {
+      "name": "光束",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "持续伤害量",
+      "value": "65/秒"
+    },
+    {
+      "name": "持续治疗量",
+      "value": "30/秒"
+    },
+    {
+      "name": "射程",
+      "value": "19.3米"
+    }
+  ]
+}

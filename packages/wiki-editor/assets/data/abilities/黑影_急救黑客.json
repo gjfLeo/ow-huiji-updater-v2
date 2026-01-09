@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "黑影/急救黑客",
+  "name": "急救黑客",
+  "hero": "黑影",
+  "category": "Perk",
+  "button": null,
+  "description": "被侵入的急救包为“黑影”提供最多75点过量生命值",
+  "basicStats": {
+    "perkIndex": "3A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

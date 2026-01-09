@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "朱诺/高速冲击枪",
+  "name": "高速冲击枪",
+  "hero": "朱诺",
+  "category": "Perk",
+  "button": null,
+  "description": "滑翔推进激活时，医疗冲击枪可以连续射击",
+  "basicStats": {
+    "perkIndex": "3B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

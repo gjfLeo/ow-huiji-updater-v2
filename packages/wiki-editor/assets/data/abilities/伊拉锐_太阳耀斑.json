@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "伊拉锐/太阳耀斑",
+  "name": "太阳耀斑",
+  "hero": "伊拉锐",
+  "category": "Perk",
+  "button": null,
+  "description": "使用阳焰步枪的治疗光束时，按下 <kbd>鼠标左键</kbd> 会消耗50%能量，并为伊拉锐面前的盟友治疗100点生命值",
+  "basicStats": {
+    "perkIndex": "3A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

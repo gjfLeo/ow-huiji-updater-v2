@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "伊拉锐/快速建造",
+  "name": "快速建造",
+  "hero": "伊拉锐",
+  "category": "Perk",
+  "button": null,
+  "description": "治疗光塔的建造速度加快300%，冷却时间缩短1.5秒",
+  "basicStats": {
+    "perkIndex": "2A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

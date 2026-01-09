@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "生命之梭/梭织生命",
+  "name": "梭织生命",
+  "hero": "生命之梭",
+  "category": "Perk",
+  "button": null,
+  "description": "回春疾行会在3秒内使下一朵愈疗灵花的治疗量提高30点",
+  "basicStats": {
+    "perkIndex": "2B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

@@ -1,0 +1,65 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "黑影/位移传动",
+  "name": "位移传动",
+  "hero": "黑影",
+  "category": "Ability",
+  "button": "技能 2",
+  "description": "扔出一个信标并传送至信标位置<br />传送完成后隐身，隐身状态持续片刻",
+  "basicStats": {
+    "cooldown": 6
+  },
+  "keywords": [
+    {
+      "name": "无形",
+      "value": ""
+    },
+    {
+      "name": "净化",
+      "value": ""
+    },
+    {
+      "name": "无视屏障",
+      "value": ""
+    },
+    {
+      "name": "无敌",
+      "value": ""
+    },
+    {
+      "name": "强射弹",
+      "value": ""
+    },
+    {
+      "name": "相移",
+      "value": ""
+    },
+    {
+      "name": "强位移",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "潜行持续时间",
+      "value": "5秒（潜行）<br />0.25秒（散形）<br />0.3秒（聚形）"
+    },
+    {
+      "name": "移动速度加成",
+      "value": "+60%移动速度"
+    },
+    {
+      "name": "潜行侦测范围",
+      "value": "4米"
+    },
+    {
+      "name": "无敌状态持续时间",
+      "value": "0.4秒"
+    },
+    {
+      "name": "弹道持续时间",
+      "value": "0.25秒"
+    }
+  ]
+}

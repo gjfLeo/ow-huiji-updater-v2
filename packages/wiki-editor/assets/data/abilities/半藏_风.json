@@ -1,0 +1,37 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "半藏/风",
+  "name": "风",
+  "hero": "半藏",
+  "category": "Weapon",
+  "button": "主要攻击模式",
+  "description": "长按鼠标左键然后放开可以射得更远",
+  "basicStats": {
+    "ammo": -1
+  },
+  "keywords": [
+    {
+      "name": "暴击",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "125（最大蓄力）<br />25（最小蓄力）"
+    },
+    {
+      "name": "蓄力时间",
+      "value": "0.73秒"
+    },
+    {
+      "name": "自身移动速度惩罚",
+      "value": "-30%移动速度"
+    }
+  ]
+}

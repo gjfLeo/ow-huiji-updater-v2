@@ -1,0 +1,46 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "美/冰霜冲击枪",
+  "name": "冰霜冲击枪",
+  "hero": "美",
+  "category": "Weapon",
+  "button": "主要攻击模式",
+  "description": "可以减速敌人的近距离范围喷射武器",
+  "basicStats": {
+    "ammo": 140,
+    "reloadTime": 1.5
+  },
+  "keywords": [
+    {
+      "name": "光束",
+      "value": ""
+    },
+    {
+      "name": "可净化",
+      "value": ""
+    },
+    {
+      "name": "贯穿",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "持续伤害量",
+      "value": "110/秒"
+    },
+    {
+      "name": "射程",
+      "value": "10米"
+    },
+    {
+      "name": "敌方移动速度惩罚",
+      "value": "-30%移动速度"
+    },
+    {
+      "name": "移动速度惩罚持续时间",
+      "value": "1.3秒"
+    }
+  ]
+}

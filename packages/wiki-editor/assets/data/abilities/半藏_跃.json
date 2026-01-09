@@ -1,0 +1,25 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "半藏/跃",
+  "name": "跃",
+  "hero": "半藏",
+  "category": "Ability",
+  "button": "跳跃",
+  "description": "二段跳",
+  "basicStats": {
+    "cooldown": 4
+  },
+  "keywords": [
+    {
+      "name": "强位移",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "移动速度",
+      "value": "15米/秒"
+    }
+  ]
+}

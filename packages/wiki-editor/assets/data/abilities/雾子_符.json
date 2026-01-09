@@ -1,0 +1,34 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "雾子/符",
+  "name": "符",
+  "hero": "雾子",
+  "category": "Weapon",
+  "button": "主要攻击模式",
+  "description": "引导一串能自动飞向目标盟友的治疗护身符",
+  "basicStats": {
+    "ammo": 10,
+    "reloadTime": 0.9
+  },
+  "keywords": [
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "单发齐射治疗量",
+      "value": "130"
+    },
+    {
+      "name": "单张符纸治疗量",
+      "value": "13"
+    },
+    {
+      "name": "射程",
+      "value": "35米"
+    }
+  ]
+}

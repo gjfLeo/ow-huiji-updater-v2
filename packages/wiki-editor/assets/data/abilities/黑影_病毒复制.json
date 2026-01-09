@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "黑影/病毒复制",
+  "name": "病毒复制",
+  "hero": "黑影",
+  "category": "Perk",
+  "button": null,
+  "description": "病毒侵染命中被侵入的敌人时，病毒将传播给8米内的所有敌人",
+  "basicStats": {
+    "perkIndex": "3B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

@@ -1,0 +1,33 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "卢西奥/音波",
+  "name": "音波",
+  "hero": "卢西奥",
+  "category": "Ability",
+  "button": "辅助攻击模式",
+  "description": "射出近距离冲击波击退敌人",
+  "basicStats": {
+    "cooldown": 4
+  },
+  "keywords": [
+    {
+      "name": "贯穿",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "45"
+    },
+    {
+      "name": "击退",
+      "value": "17米/秒"
+    },
+    {
+      "name": "射程",
+      "value": "7米"
+    }
+  ]
+}

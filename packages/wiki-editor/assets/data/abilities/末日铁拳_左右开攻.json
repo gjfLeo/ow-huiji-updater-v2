@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "末日铁拳/左右开攻",
+  "name": "左右开攻",
+  "hero": "末日铁拳",
+  "category": "Perk",
+  "button": null,
+  "description": "用火箭重拳将一名敌人重击至墙面上会为手炮装填弹药并过量装填2发弹药",
+  "basicStats": {
+    "perkIndex": "2A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

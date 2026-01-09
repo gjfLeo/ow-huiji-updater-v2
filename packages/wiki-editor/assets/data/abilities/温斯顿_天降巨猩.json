@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "温斯顿/天降巨猩",
+  "name": "天降巨猩",
+  "hero": "温斯顿",
+  "category": "Perk",
+  "button": null,
+  "description": "原始暴怒期间，在空中时，喷射背包的伤害和范围最多提高75%",
+  "basicStats": {
+    "perkIndex": "2B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

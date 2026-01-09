@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "士兵：76/循环脉冲弹",
+  "name": "循环脉冲弹",
+  "hero": "士兵：76",
+  "category": "Perk",
+  "button": null,
+  "description": "螺旋飞弹对敌人造成伤害会装填15发弹药",
+  "basicStats": {
+    "perkIndex": "2A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

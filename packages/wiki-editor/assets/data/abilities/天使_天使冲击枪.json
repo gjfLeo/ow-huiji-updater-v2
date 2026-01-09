@@ -1,0 +1,31 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "天使/天使冲击枪",
+  "name": "天使冲击枪",
+  "hero": "天使",
+  "category": "Weapon",
+  "button": "主要攻击模式",
+  "description": "自动武器",
+  "basicStats": {
+    "ammo": 25,
+    "reloadTime": 1.4,
+    "isSecondWeapon": true
+  },
+  "keywords": [
+    {
+      "name": "暴击",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "20"
+    }
+  ]
+}

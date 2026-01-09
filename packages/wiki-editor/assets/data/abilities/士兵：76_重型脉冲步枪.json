@@ -1,0 +1,34 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "士兵：76/重型脉冲步枪",
+  "name": "重型脉冲步枪",
+  "hero": "士兵：76",
+  "category": "Weapon",
+  "button": "主要攻击模式",
+  "description": "全自动突击武器",
+  "basicStats": {
+    "ammo": 30,
+    "reloadTime": 1.5
+  },
+  "keywords": [
+    {
+      "name": "暴击",
+      "value": ""
+    },
+    {
+      "name": "即时命中",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "19（基础）<br />5.7（最大衰减）"
+    },
+    {
+      "name": "最小-最大衰减射程",
+      "value": "30-50米"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "法老之鹰/燃油储备",
+  "name": "燃油储备",
+  "hero": "法老之鹰",
+  "category": "Perk",
+  "button": null,
+  "description": "使用疾冲背包时获得50%燃料。过量燃料上限提高100%",
+  "basicStats": {
+    "perkIndex": "3A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

@@ -1,0 +1,61 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "路霸/鸡飞狗跳",
+  "name": "鸡飞狗跳",
+  "hero": "路霸",
+  "category": "UltimateAbility",
+  "button": "技能 3",
+  "description": "对面前的敌人造成伤害并将他们击退",
+  "basicStats": {
+    "ultimateCharge": 2700
+  },
+  "keywords": [
+    {
+      "name": "暴击",
+      "value": ""
+    },
+    {
+      "name": "即时命中",
+      "value": ""
+    },
+    {
+      "name": "装填",
+      "value": ""
+    },
+    {
+      "name": "变身",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "单发齐射伤害量",
+      "value": "96（基础）<br />28.8（最大衰减）"
+    },
+    {
+      "name": "散布",
+      "value": "20度（水平）<br />2度（垂直）"
+    },
+    {
+      "name": "最小-最大衰减射程",
+      "value": "20-40米"
+    },
+    {
+      "name": "持续时间",
+      "value": "8秒"
+    },
+    {
+      "name": "最大击退",
+      "value": "16米/秒"
+    },
+    {
+      "name": "单发齐射弹丸数",
+      "value": "16"
+    },
+    {
+      "name": "开火时移动速度惩罚",
+      "value": "-25%移动速度"
+    }
+  ]
+}

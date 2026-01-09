@@ -1,0 +1,45 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "温斯顿/喷射背包",
+  "name": "喷射背包",
+  "hero": "温斯顿",
+  "category": "Ability",
+  "button": "技能 1",
+  "description": "向前跃向空中，着陆后对附近的敌人造成伤害",
+  "basicStats": {
+    "cooldown": 5
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>球形</mark>范围内的目标"
+    },
+    {
+      "name": "闪避",
+      "value": ""
+    },
+    {
+      "name": "强位移",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "60（直接命中）<br />60-1（范围伤害）"
+    },
+    {
+      "name": "最小-最大半径",
+      "value": "1.3-5米"
+    },
+    {
+      "name": "跳跃速度",
+      "value": "30米/秒"
+    },
+    {
+      "name": "击退",
+      "value": "10.2米/秒（着陆）<br />7.3米/秒（空中）"
+    }
+  ]
+}

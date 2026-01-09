@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "巴蒂斯特/火箭战靴",
+  "name": "火箭战靴",
+  "hero": "巴蒂斯特",
+  "category": "Perk",
+  "button": null,
+  "description": "用动力战靴跳到空中时，使用 %1$s 可沿水平方向疾冲",
+  "basicStats": {
+    "perkIndex": "3B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

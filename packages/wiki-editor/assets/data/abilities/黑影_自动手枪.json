@@ -1,0 +1,38 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "黑影/自动手枪",
+  "name": "自动手枪",
+  "hero": "黑影",
+  "category": "Weapon",
+  "button": "主要攻击模式",
+  "description": "近距离自动武器",
+  "basicStats": {
+    "ammo": 60,
+    "reloadTime": 1.2
+  },
+  "keywords": [
+    {
+      "name": "暴击",
+      "value": ""
+    },
+    {
+      "name": "即时命中",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "8（基础）<br />2.4（最大衰减）"
+    },
+    {
+      "name": "最小-最大衰减射程",
+      "value": "15-35米"
+    },
+    {
+      "name": "散布",
+      "value": "2.3度（最大）<br />射击6发后散布最大"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "狂鼠/榴弹火炮",
+  "name": "榴弹火炮",
+  "hero": "狂鼠",
+  "category": "Perk",
+  "button": null,
+  "description": "榴弹发射器的弹道速度提高40%，但最大弹药降低1发",
+  "basicStats": {
+    "perkIndex": "3B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

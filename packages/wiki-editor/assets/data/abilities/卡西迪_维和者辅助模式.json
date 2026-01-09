@@ -1,0 +1,34 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "卡西迪/维和者辅助模式",
+  "name": "维和者辅助模式",
+  "hero": "卡西迪",
+  "category": "Weapon",
+  "button": "辅助攻击模式",
+  "description": "射光剩余的所有子弹",
+  "basicStats": {
+    "ammo": 6,
+    "reloadTime": 1.5
+  },
+  "keywords": [
+    {
+      "name": "即时命中",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "50（基础）<br />15.0（最大衰减）"
+    },
+    {
+      "name": "最小-最大衰减射程",
+      "value": "20-30米"
+    },
+    {
+      "name": "散布",
+      "value": "6度"
+    }
+  ]
+}

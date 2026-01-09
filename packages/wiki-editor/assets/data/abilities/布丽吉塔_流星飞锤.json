@@ -1,0 +1,33 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "布丽吉塔/流星飞锤",
+  "name": "流星飞锤",
+  "hero": "布丽吉塔",
+  "category": "Ability",
+  "button": "技能 1",
+  "description": "向前方甩出连枷，将一名敌人击退",
+  "basicStats": {
+    "cooldown": 4
+  },
+  "keywords": [
+    {
+      "name": "广义近身攻击",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "70"
+    },
+    {
+      "name": "射程",
+      "value": "20米"
+    },
+    {
+      "name": "击退",
+      "value": "25米/秒"
+    }
+  ]
+}

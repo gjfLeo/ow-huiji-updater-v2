@@ -1,0 +1,65 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "美/暴雪",
+  "name": "暴雪",
+  "hero": "美",
+  "category": "UltimateAbility",
+  "button": "技能 3",
+  "description": "发射一台气候控制无人机，可以冰冻大范围内的敌人",
+  "basicStats": {
+    "ultimateCharge": 1925
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>球形</mark>范围内的目标"
+    },
+    {
+      "name": "护甲贯穿",
+      "value": "<mark>此可部署物的效果</mark>对护甲造成伤害时将其视同生命值"
+    },
+    {
+      "name": "屏障贯穿",
+      "value": "<mark>此可部署物</mark>可贯穿屏障和英雄"
+    },
+    {
+      "name": "可净化",
+      "value": "<mark>此可部署物</mark>会施加能被净化移除的负面状态效果"
+    },
+    {
+      "name": "可部署",
+      "value": "此可部署物<mark>不会受到伤害</mark>"
+    },
+    {
+      "name": "击晕",
+      "value": "<mark>此可部署物</mark>会使英雄无法行动，并可打断引导技能"
+    },
+    {
+      "name": "延时飞行",
+      "value": "射弹攻击和治疗具有飞行时间。可被拦截"
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "持续伤害量",
+      "value": "20/秒"
+    },
+    {
+      "name": "持续时间",
+      "value": "4.25秒"
+    },
+    {
+      "name": "半径",
+      "value": "10米"
+    },
+    {
+      "name": "初始敌方移动速度惩罚",
+      "value": "-50%移动速度"
+    },
+    {
+      "name": "每秒额外移动速度惩罚",
+      "value": "-25%移动速度"
+    }
+  ]
+}

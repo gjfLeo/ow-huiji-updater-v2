@@ -1,0 +1,69 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "渣客女王/轰翻天",
+  "name": "轰翻天",
+  "hero": "渣客女王",
+  "category": "UltimateAbility",
+  "button": "技能 3",
+  "description": "向前冲锋。创伤敌人，造成持续伤害并使其无法受到治疗",
+  "basicStats": {
+    "ultimateCharge": 2700
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": ""
+    },
+    {
+      "name": "护甲贯穿",
+      "value": "此攻击<mark>施加的效果</mark>对护甲造成伤害时将其视同生命值"
+    },
+    {
+      "name": "引导",
+      "value": ""
+    },
+    {
+      "name": "可净化",
+      "value": ""
+    },
+    {
+      "name": "闪避",
+      "value": ""
+    },
+    {
+      "name": "位移",
+      "value": ""
+    },
+    {
+      "name": "装填",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "击中伤害量",
+      "value": "40"
+    },
+    {
+      "name": "创伤伤害量",
+      "value": "90"
+    },
+    {
+      "name": "创伤持续时间",
+      "value": "4.5秒"
+    },
+    {
+      "name": "冲刺持续时间",
+      "value": "0.7秒"
+    },
+    {
+      "name": "冲刺移动速度加成",
+      "value": "+500%移动速度"
+    },
+    {
+      "name": "半径",
+      "value": "5米"
+    }
+  ]
+}

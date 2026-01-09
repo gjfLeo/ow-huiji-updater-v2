@@ -1,0 +1,43 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "布丽吉塔/屏障护盾",
+  "name": "屏障护盾",
+  "hero": "布丽吉塔",
+  "category": "Ability",
+  "button": "辅助攻击模式",
+  "description": "按住 <kbd>鼠标右键</kbd> 可以在前方展开一道能量屏障",
+  "basicStats": {},
+  "keywords": [
+    {
+      "name": "屏障",
+      "value": ""
+    },
+    {
+      "name": "引导",
+      "value": ""
+    },
+    {
+      "name": "可部署",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "屏障生命值",
+      "value": "250"
+    },
+    {
+      "name": "屏障充能速度",
+      "value": "85/秒"
+    },
+    {
+      "name": "屏障被摧毁后的冷却时间",
+      "value": "5秒"
+    },
+    {
+      "name": "自身移动速度惩罚",
+      "value": "-30%移动速度"
+    }
+  ]
+}

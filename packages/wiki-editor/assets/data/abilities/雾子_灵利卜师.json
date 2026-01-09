@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "雾子/灵利卜师",
+  "name": "灵利卜师",
+  "hero": "雾子",
+  "category": "Perk",
+  "button": null,
+  "description": "“锥”命中时会对面前的一名盟友贴出2张“符”",
+  "basicStats": {
+    "perkIndex": "2B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

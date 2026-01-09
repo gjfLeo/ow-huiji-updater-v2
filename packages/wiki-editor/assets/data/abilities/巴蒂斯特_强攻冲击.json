@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "巴蒂斯特/强攻冲击",
+  "name": "强攻冲击",
+  "hero": "巴蒂斯特",
+  "category": "Perk",
+  "button": null,
+  "description": "愈合冲击会使巴蒂斯特的攻击速度加快25%，持续4秒",
+  "basicStats": {
+    "perkIndex": "3A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

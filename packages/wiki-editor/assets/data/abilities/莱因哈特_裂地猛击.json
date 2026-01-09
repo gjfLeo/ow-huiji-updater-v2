@@ -1,0 +1,49 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "莱因哈特/裂地猛击",
+  "name": "裂地猛击",
+  "hero": "莱因哈特",
+  "category": "UltimateAbility",
+  "button": "技能 3",
+  "description": "击倒前方所有敌人",
+  "basicStats": {
+    "ultimateCharge": 1960
+  },
+  "keywords": [
+    {
+      "name": "技能暴击",
+      "value": ""
+    },
+    {
+      "name": "击倒",
+      "value": ""
+    },
+    {
+      "name": "冲击波",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "基础伤害量",
+      "value": "50"
+    },
+    {
+      "name": "击倒持续时间",
+      "value": "3秒"
+    },
+    {
+      "name": "冲击波",
+      "value": "50度（角度）<br />25米（范围）<br />1.8米（高度）<br />40米/秒（速度）<br />1.8/1.8米（爬升/下降）"
+    },
+    {
+      "name": "暴击伤害量",
+      "value": "200"
+    },
+    {
+      "name": "暴击半径",
+      "value": "1.5米"
+    }
+  ]
+}

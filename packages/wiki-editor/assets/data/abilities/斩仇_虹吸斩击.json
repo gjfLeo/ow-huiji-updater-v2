@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "斩仇/虹吸斩击",
+  "name": "虹吸斩击",
+  "hero": "斩仇",
+  "category": "Perk",
+  "button": null,
+  "description": "竖直劈斩获得40%生命汲取",
+  "basicStats": {
+    "perkIndex": "2A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

@@ -1,0 +1,53 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "莫伊拉/聚合射线",
+  "name": "聚合射线",
+  "hero": "莫伊拉",
+  "category": "UltimateAbility",
+  "button": "技能 3",
+  "description": "发射一道光束，为盟友恢复生命并对敌人造成伤害",
+  "basicStats": {
+    "ultimateCharge": 2900
+  },
+  "keywords": [
+    {
+      "name": "屏障贯穿",
+      "value": ""
+    },
+    {
+      "name": "光束",
+      "value": ""
+    },
+    {
+      "name": "引导",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "持续治疗量",
+      "value": "55/秒（自身）<br />140/秒（盟友）"
+    },
+    {
+      "name": "持续伤害量",
+      "value": "85/秒"
+    },
+    {
+      "name": "持续时间",
+      "value": "8秒"
+    },
+    {
+      "name": "射程",
+      "value": "30米"
+    },
+    {
+      "name": "移动速度加成",
+      "value": "+40%移动速度"
+    },
+    {
+      "name": "能量被动恢复速度",
+      "value": "+200%"
+    }
+  ]
+}

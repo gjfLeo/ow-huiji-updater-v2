@@ -1,0 +1,49 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "探奇/地壳震击",
+  "name": "地壳震击",
+  "hero": "探奇",
+  "category": "UltimateAbility",
+  "button": "技能 3",
+  "description": "发射能造成伤害的冲击波",
+  "basicStats": {
+    "ultimateCharge": 2125
+  },
+  "keywords": [
+    {
+      "name": "装填",
+      "value": ""
+    },
+    {
+      "name": "变身",
+      "value": ""
+    },
+    {
+      "name": "冲击波",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "130"
+    },
+    {
+      "name": "持续时间",
+      "value": "7秒"
+    },
+    {
+      "name": "充能次数",
+      "value": "4"
+    },
+    {
+      "name": "冲击波",
+      "value": "23度（角度）<br />25米（范围）<br />2.5米（高度）<br />35米/秒（速度）<br />1.8/1.8米（爬升/下降）"
+    },
+    {
+      "name": "击退",
+      "value": "5米/秒"
+    }
+  ]
+}

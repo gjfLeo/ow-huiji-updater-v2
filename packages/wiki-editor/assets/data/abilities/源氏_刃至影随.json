@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "源氏/刃至影随",
+  "name": "刃至影随",
+  "hero": "源氏",
+  "category": "Perk",
+  "button": null,
+  "description": "快速近身攻击会使“影”的冷却时间缩短3秒",
+  "basicStats": {
+    "perkIndex": "2A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

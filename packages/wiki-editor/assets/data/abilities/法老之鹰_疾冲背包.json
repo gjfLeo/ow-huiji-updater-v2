@@ -1,0 +1,29 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "法老之鹰/疾冲背包",
+  "name": "疾冲背包",
+  "hero": "法老之鹰",
+  "category": "Ability",
+  "button": "辅助攻击模式",
+  "description": "沿水平方向推进",
+  "basicStats": {
+    "cooldown": 9
+  },
+  "keywords": [
+    {
+      "name": "闪避",
+      "value": ""
+    },
+    {
+      "name": "位移",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "移动速度",
+      "value": "20.6米/秒"
+    }
+  ]
+}

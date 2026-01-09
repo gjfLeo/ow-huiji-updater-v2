@@ -1,0 +1,37 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "天使/重生",
+  "name": "重生",
+  "hero": "天使",
+  "category": "Ability",
+  "button": "技能 2",
+  "description": "复活一名阵亡的队友",
+  "basicStats": {
+    "cooldown": 30
+  },
+  "keywords": [
+    {
+      "name": "无敌",
+      "value": "<mark>受此技能影响的目标</mark>不会受到伤害，可使目标机制进入争夺状态但无法占领"
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "施放时间",
+      "value": "1.8秒"
+    },
+    {
+      "name": "范围",
+      "value": "5米"
+    },
+    {
+      "name": "目标无敌时间",
+      "value": "2.3秒"
+    },
+    {
+      "name": "自身移动速度惩罚",
+      "value": "-75%移动速度"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "布丽吉塔/鼓舞盾击",
+  "name": "鼓舞盾击",
+  "hero": "布丽吉塔",
+  "category": "Perk",
+  "button": null,
+  "description": "能量盾击使移动速度加快30%，持续2秒。使用能量盾击触发的鼓舞士气会立刻治疗",
+  "basicStats": {
+    "perkIndex": "3A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

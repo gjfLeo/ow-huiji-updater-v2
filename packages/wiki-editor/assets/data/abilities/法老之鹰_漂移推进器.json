@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "法老之鹰/漂移推进器",
+  "name": "漂移推进器",
+  "hero": "法老之鹰",
+  "category": "Perk",
+  "button": null,
+  "description": "火箭弹幕激活期间“法老之鹰”可以移动",
+  "basicStats": {
+    "perkIndex": "2A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

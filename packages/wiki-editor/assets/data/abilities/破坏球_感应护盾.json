@@ -1,0 +1,45 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "破坏球/感应护盾",
+  "name": "感应护盾",
+  "hero": "破坏球",
+  "category": "Ability",
+  "button": "技能 2",
+  "description": "产生临时的额外生命值，附近敌人越多增加的生命值越多。可将部分额外生命值转移给盟友",
+  "basicStats": {
+    "cooldown": 15
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>球形</mark>范围内的目标"
+    },
+    {
+      "name": "过量生命值",
+      "value": ""
+    },
+    {
+      "name": "变身",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "过量生命值",
+      "value": "100（自身基础量）<br />+100（每个敌人对自身加成）"
+    },
+    {
+      "name": "转移过量生命值",
+      "value": "-50（自身最大转移量）<br />+75（每个盟友最大转移量）"
+    },
+    {
+      "name": "半径",
+      "value": "13米"
+    },
+    {
+      "name": "过量生命值持续时间",
+      "value": "7秒（自身）<br />4秒（盟友）"
+    }
+  ]
+}

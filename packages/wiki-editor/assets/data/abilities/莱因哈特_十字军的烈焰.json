@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "莱因哈特/十字军的烈焰",
+  "name": "十字军的烈焰",
+  "hero": "莱因哈特",
+  "category": "Perk",
+  "button": null,
+  "description": "击晕敌人时返还一次烈焰打击充能，可过量充能至3次",
+  "basicStats": {
+    "perkIndex": "2A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

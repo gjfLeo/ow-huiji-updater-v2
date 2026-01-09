@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "破坏球/爱包之鼠",
+  "name": "爱包之鼠",
+  "hero": "破坏球",
+  "category": "Perk",
+  "button": null,
+  "description": "从急救包中获得的治疗量提高100点",
+  "basicStats": {
+    "perkIndex": "2B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

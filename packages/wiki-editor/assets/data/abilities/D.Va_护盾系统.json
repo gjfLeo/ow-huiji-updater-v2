@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "D.Va/护盾系统",
+  "name": "护盾系统",
+  "hero": "D.Va",
+  "category": "Perk",
+  "button": null,
+  "description": "将150点生命值转化为护盾。防御矩阵会恢复护盾，恢复量为防御矩阵吸收伤害量的25%",
+  "basicStats": {
+    "perkIndex": "3A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

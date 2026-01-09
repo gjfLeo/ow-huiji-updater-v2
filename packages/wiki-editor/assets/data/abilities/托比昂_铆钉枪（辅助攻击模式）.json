@@ -1,0 +1,42 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "托比昂/铆钉枪（辅助攻击模式）",
+  "name": "铆钉枪（辅助攻击模式）",
+  "hero": "托比昂",
+  "category": "Weapon",
+  "button": "辅助攻击模式",
+  "description": "火力强大但命中率不佳的近距离武器",
+  "basicStats": {
+    "ammo": 18,
+    "reloadTime": 2
+  },
+  "keywords": [
+    {
+      "name": "暴击",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "单发齐射伤害量",
+      "value": "125（基础）<br />37.5（最大衰减）"
+    },
+    {
+      "name": "最小-最大衰减射程",
+      "value": "10-20米"
+    },
+    {
+      "name": "散布",
+      "value": "4.5度"
+    },
+    {
+      "name": "单发齐射弹药消耗量",
+      "value": "2"
+    }
+  ]
+}

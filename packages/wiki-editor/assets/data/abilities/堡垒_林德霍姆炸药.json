@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "堡垒/林德霍姆炸药",
+  "name": "林德霍姆炸药",
+  "hero": "堡垒",
+  "category": "Perk",
+  "button": null,
+  "description": "强攻模式的武器从旋转机枪变为慢速发射的爆炸火炮",
+  "basicStats": {
+    "perkIndex": "3A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

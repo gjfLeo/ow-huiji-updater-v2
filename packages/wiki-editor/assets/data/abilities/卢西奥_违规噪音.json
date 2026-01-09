@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "卢西奥/违规噪音",
+  "name": "违规噪音",
+  "hero": "卢西奥",
+  "category": "Perk",
+  "button": null,
+  "description": "强音激活时，切歌的范围扩大150%",
+  "basicStats": {
+    "perkIndex": "3A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

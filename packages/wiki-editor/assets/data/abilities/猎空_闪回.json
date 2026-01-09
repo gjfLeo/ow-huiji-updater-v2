@@ -1,0 +1,45 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "猎空/闪回",
+  "name": "闪回",
+  "hero": "猎空",
+  "category": "Ability",
+  "button": "技能 2",
+  "description": "回到传送前的位置并恢复至当时的生命值",
+  "basicStats": {
+    "cooldown": 13
+  },
+  "keywords": [
+    {
+      "name": "净化",
+      "value": ""
+    },
+    {
+      "name": "无敌",
+      "value": ""
+    },
+    {
+      "name": "相移",
+      "value": ""
+    },
+    {
+      "name": "装填",
+      "value": ""
+    },
+    {
+      "name": "强位移",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "闪回回溯至",
+      "value": "3秒前"
+    },
+    {
+      "name": "持续时间",
+      "value": "0.9秒"
+    }
+  ]
+}

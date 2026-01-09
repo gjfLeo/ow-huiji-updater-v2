@@ -1,0 +1,46 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "查莉娅/粒子炮辅助模式",
+  "name": "粒子炮辅助模式",
+  "hero": "查莉娅",
+  "category": "Weapon",
+  "button": "辅助攻击模式",
+  "description": "可以射出能量炸弹的武器",
+  "basicStats": {
+    "ammo": 100,
+    "reloadTime": 1.5
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>球形</mark>范围内的目标"
+    },
+    {
+      "name": "自我伤害",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "55-11（0%能量）<br />110-22（100%能量）"
+    },
+    {
+      "name": "最小-最大半径",
+      "value": "0.5-2.5米"
+    },
+    {
+      "name": "击退",
+      "value": "5米/秒"
+    },
+    {
+      "name": "弹药消耗量",
+      "value": "25"
+    }
+  ]
+}

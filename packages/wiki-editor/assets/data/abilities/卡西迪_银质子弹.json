@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "卡西迪/银质子弹",
+  "name": "银质子弹",
+  "hero": "卡西迪",
+  "category": "Perk",
+  "button": null,
+  "description": "维和者的辅助攻击模式变为一次能施加流血的贯穿射击。战术翻滚和神射手可重置其冷却时间",
+  "basicStats": {
+    "perkIndex": "3B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

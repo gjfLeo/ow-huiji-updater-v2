@@ -1,0 +1,46 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "秩序之光/光子发射器",
+  "name": "光子发射器",
+  "hero": "秩序之光",
+  "category": "Weapon",
+  "button": "主要攻击模式",
+  "description": "威力逐渐增强的近距离光束武器",
+  "basicStats": {
+    "ammo": 100,
+    "reloadTime": 1.5
+  },
+  "keywords": [
+    {
+      "name": "光束",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "持续伤害量",
+      "value": "60/秒（1级）<br />120/秒（2级）<br />180/秒（3级）"
+    },
+    {
+      "name": "护盾/屏障命中加成",
+      "value": "10治疗量/秒（1级）<br />20治疗量/秒（2级）<br />30治疗量/秒（3级）<br />10/秒（弹药获取）"
+    },
+    {
+      "name": "充能速度",
+      "value": "0.9秒/级"
+    },
+    {
+      "name": "充能衰减",
+      "value": "1.7秒/级<br />2秒衰减延迟"
+    },
+    {
+      "name": "射程",
+      "value": "12米"
+    },
+    {
+      "name": "弹药消耗量",
+      "value": "10/秒"
+    }
+  ]
+}

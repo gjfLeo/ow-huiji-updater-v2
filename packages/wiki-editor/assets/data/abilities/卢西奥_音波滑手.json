@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "卢西奥/音波滑手",
+  "name": "音波滑手",
+  "hero": "卢西奥",
+  "category": "Perk",
+  "button": null,
+  "description": "滑墙会强化下一次音波，使其击退效果提高25%，伤害提高50%",
+  "basicStats": {
+    "perkIndex": "2A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

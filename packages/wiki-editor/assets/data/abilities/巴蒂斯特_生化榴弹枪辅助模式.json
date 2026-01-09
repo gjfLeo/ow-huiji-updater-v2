@@ -1,0 +1,37 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "巴蒂斯特/生化榴弹枪辅助模式",
+  "name": "生化榴弹枪辅助模式",
+  "hero": "巴蒂斯特",
+  "category": "Weapon",
+  "button": "辅助攻击模式",
+  "description": "发射医疗飞弹，治疗落点周围的盟友",
+  "basicStats": {
+    "ammo": 10
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>球形</mark>范围内的目标"
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "范围治疗量",
+      "value": "60"
+    },
+    {
+      "name": "直接命中治疗量",
+      "value": "30"
+    },
+    {
+      "name": "半径",
+      "value": "3米"
+    }
+  ]
+}

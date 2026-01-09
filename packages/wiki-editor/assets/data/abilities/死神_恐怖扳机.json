@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "死神/恐怖扳机",
+  "name": "恐怖扳机",
+  "hero": "死神",
+  "category": "Perk",
+  "button": "辅助攻击模式",
+  "description": "使用 <kbd>鼠标右键</kbd> 让两把地狱火霰弹枪打出具有远距离精准度的齐射",
+  "basicStats": {
+    "perkIndex": "3B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

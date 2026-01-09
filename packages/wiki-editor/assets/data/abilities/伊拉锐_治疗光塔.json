@@ -1,0 +1,53 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "伊拉锐/治疗光塔",
+  "name": "治疗光塔",
+  "hero": "伊拉锐",
+  "category": "Ability",
+  "button": "技能 2",
+  "description": "部署一个可以治疗盟友的光塔",
+  "basicStats": {
+    "cooldown": 14
+  },
+  "keywords": [
+    {
+      "name": "无视屏障",
+      "value": "<mark>此可部署物部署期间</mark>无视屏障和英雄"
+    },
+    {
+      "name": "可部署",
+      "value": "一种具有独立生命池的非玩家实体，由<mark>强射弹部署</mark>"
+    },
+    {
+      "name": "延时飞行",
+      "value": "<mark>此可部署物</mark>的射弹攻击和治疗具有飞行时间。可被拦截"
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "生命值",
+      "value": "75（生命值）<br />50（护盾）"
+    },
+    {
+      "name": "治疗量",
+      "value": "40"
+    },
+    {
+      "name": "光塔治疗射程",
+      "value": "15米"
+    },
+    {
+      "name": "脱离战斗冷却时间",
+      "value": "7秒"
+    },
+    {
+      "name": "光塔建造时间",
+      "value": "1.3秒"
+    },
+    {
+      "name": "战斗中锁定时间",
+      "value": "3秒"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "莱因哈特/烈焰打击",
+  "name": "烈焰打击",
+  "hero": "莱因哈特",
+  "category": "Ability",
+  "button": "技能 2",
+  "description": "射出一道炽热能量波",
+  "basicStats": {
+    "cooldown": 6,
+    "charges": 2
+  },
+  "keywords": [
+    {
+      "name": "屏障贯穿",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "120"
+    }
+  ]
+}

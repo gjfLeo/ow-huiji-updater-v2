@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "查莉娅/弹跳训练",
+  "name": "弹跳训练",
+  "hero": "查莉娅",
+  "category": "Perk",
+  "button": null,
+  "description": "辅助攻击模式的自身击退效果提高75%",
+  "basicStats": {
+    "perkIndex": "2B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

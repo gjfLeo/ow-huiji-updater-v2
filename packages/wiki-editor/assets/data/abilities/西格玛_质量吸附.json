@@ -1,0 +1,49 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "西格玛/质量吸附",
+  "name": "质量吸附",
+  "hero": "西格玛",
+  "category": "Ability",
+  "button": "技能 2",
+  "description": "汇聚一团物质投向敌人，将对方击倒",
+  "basicStats": {
+    "cooldown": 10
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>球形</mark>范围内的目标"
+    },
+    {
+      "name": "强射弹",
+      "value": ""
+    },
+    {
+      "name": "击倒",
+      "value": ""
+    },
+    {
+      "name": "自我伤害",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "120（直接命中）<br />40-12（范围伤害）"
+    },
+    {
+      "name": "击倒持续时间",
+      "value": "1.1秒"
+    },
+    {
+      "name": "击退",
+      "value": "6.7米/秒（直接命中）<br />5.8米/秒（自身/间接命中）"
+    },
+    {
+      "name": "自身移动速度惩罚",
+      "value": "-75%移动速度"
+    }
+  ]
+}

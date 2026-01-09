@@ -1,0 +1,45 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "破坏球/工程抓钩",
+  "name": "工程抓钩",
+  "hero": "破坏球",
+  "category": "Ability",
+  "button": "辅助攻击模式",
+  "description": "发射抓钩令铁球在所处区域内高速摆动。可高速撞击敌人造成伤害和击退效果",
+  "basicStats": {
+    "cooldown": 5
+  },
+  "keywords": [
+    {
+      "name": "闪避",
+      "value": ""
+    },
+    {
+      "name": "位移",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "移动速度加成",
+      "value": "+100%移动速度（抓紧时最大值）<br />+80%移动速度（松开时最大值）"
+    },
+    {
+      "name": "范围",
+      "value": "22.2米（最大）<br />6米（收缩）"
+    },
+    {
+      "name": "最大持续时间",
+      "value": "8秒（火球开始后）"
+    },
+    {
+      "name": "脱离火球冷却时间",
+      "value": "1秒"
+    },
+    {
+      "name": "收缩移动速度",
+      "value": "9米/秒"
+    }
+  ]
+}

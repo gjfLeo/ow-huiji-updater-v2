@@ -1,0 +1,46 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "索杰恩/电磁炮",
+  "name": "电磁炮",
+  "hero": "索杰恩",
+  "category": "Weapon",
+  "button": "主要攻击模式",
+  "description": "快速射击子弹<br />命中后产生能量",
+  "basicStats": {
+    "ammo": 45,
+    "reloadTime": 1.2
+  },
+  "keywords": [
+    {
+      "name": "暴击",
+      "value": ""
+    },
+    {
+      "name": "能量",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "9"
+    },
+    {
+      "name": "能量获取上限",
+      "value": "5（命中英雄）<br />10（暴击）<br />1（命中可部署物）"
+    },
+    {
+      "name": "散布",
+      "value": "1.6度（最大）<br />射击12发后散布最大"
+    },
+    {
+      "name": "能量衰减延迟",
+      "value": "9秒"
+    }
+  ]
+}

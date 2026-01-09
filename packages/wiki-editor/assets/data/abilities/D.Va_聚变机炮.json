@@ -1,0 +1,45 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "D.Va/聚变机炮",
+  "name": "聚变机炮",
+  "hero": "D.Va",
+  "category": "Weapon",
+  "button": "主要攻击模式",
+  "description": "全自动近距离散射武器",
+  "basicStats": {
+    "ammo": -1
+  },
+  "keywords": [
+    {
+      "name": "暴击",
+      "value": ""
+    },
+    {
+      "name": "即时命中",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "单发齐射伤害量",
+      "value": "22（基础）<br />6.6（最大衰减）"
+    },
+    {
+      "name": "散布",
+      "value": "3.4度"
+    },
+    {
+      "name": "最小-最大衰减射程",
+      "value": "10-20米"
+    },
+    {
+      "name": "单发齐射弹丸数",
+      "value": "11"
+    },
+    {
+      "name": "自身移动速度惩罚",
+      "value": "-30%移动速度"
+    }
+  ]
+}

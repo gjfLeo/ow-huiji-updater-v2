@@ -1,0 +1,35 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "卢西奥/滑墙",
+  "name": "滑墙",
+  "hero": "卢西奥",
+  "category": "PassiveAbility",
+  "button": "跳跃",
+  "description": "跳向墙壁并在其表面滑行",
+  "basicStats": {},
+  "keywords": [
+    {
+      "name": "跳跃取消",
+      "value": ""
+    },
+    {
+      "name": "位移",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "移动速度加成",
+      "value": "+30%移动速度"
+    },
+    {
+      "name": "跳跃取消速度",
+      "value": "2.5米/秒"
+    },
+    {
+      "name": "跳跃禁用持续时间",
+      "value": "0.5秒"
+    }
+  ]
+}

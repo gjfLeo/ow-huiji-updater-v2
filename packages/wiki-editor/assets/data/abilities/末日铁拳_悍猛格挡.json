@@ -1,0 +1,41 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "末日铁拳/悍猛格挡",
+  "name": "悍猛格挡",
+  "hero": "末日铁拳",
+  "category": "Ability",
+  "button": "技能 2",
+  "description": "格挡前方的攻击<br />格挡大量伤害后，强化火箭重拳",
+  "basicStats": {
+    "cooldown": 7
+  },
+  "keywords": [
+    {
+      "name": "引导",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "受伤减免",
+      "value": "-75%承受伤害量"
+    },
+    {
+      "name": "强化重拳抵挡伤害量阈值",
+      "value": "100"
+    },
+    {
+      "name": "格挡受伤减免角度",
+      "value": "106度"
+    },
+    {
+      "name": "最大持续时间",
+      "value": "2.5秒"
+    },
+    {
+      "name": "自身移动速度惩罚",
+      "value": "-35%移动速度"
+    }
+  ]
+}

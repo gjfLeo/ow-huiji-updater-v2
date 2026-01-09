@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "托比昂/锚固螺栓",
+  "name": "锚固螺栓",
+  "hero": "托比昂",
+  "category": "Perk",
+  "button": null,
+  "description": "部署炮台的投掷范围扩大50%且炮台可以固定在墙壁和天花板上",
+  "basicStats": {
+    "perkIndex": "3A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

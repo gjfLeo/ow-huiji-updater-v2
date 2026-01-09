@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "探奇/智能延展器",
+  "name": "智能延展器",
+  "hero": "探奇",
+  "category": "Perk",
+  "button": null,
+  "description": "按下 <kbd>E</kbd> 强化智能挖掘钻，使其最大弹道射程扩大100%，持续4秒",
+  "basicStats": {
+    "perkIndex": "3A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

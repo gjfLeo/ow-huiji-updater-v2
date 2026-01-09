@@ -1,0 +1,18 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "死神/收割",
+  "name": "收割",
+  "hero": "死神",
+  "category": "PassiveAbility",
+  "button": null,
+  "description": "造成伤害可治疗自己",
+  "basicStats": {},
+  "keywords": [],
+  "detailStats": [
+    {
+      "name": "治疗量",
+      "value": "造成伤害的25%"
+    }
+  ]
+}

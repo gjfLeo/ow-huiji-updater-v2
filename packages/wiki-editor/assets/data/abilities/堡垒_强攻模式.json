@@ -1,0 +1,33 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "堡垒/强攻模式",
+  "name": "强攻模式",
+  "hero": "堡垒",
+  "category": "Weapon",
+  "button": "主要攻击模式",
+  "description": "配有大火力轮转机枪的慢速坦克模式",
+  "basicStats": {
+    "ammo": -1
+  },
+  "keywords": [
+    {
+      "name": "即时命中",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "12（基础）<br />3.6（最大衰减）"
+    },
+    {
+      "name": "最小-最大衰减射程",
+      "value": "30-50米"
+    },
+    {
+      "name": "散布",
+      "value": "2度"
+    }
+  ]
+}

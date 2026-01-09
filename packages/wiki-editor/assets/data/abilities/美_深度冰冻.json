@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "美/深度冰冻",
+  "name": "深度冰冻",
+  "hero": "美",
+  "category": "Perk",
+  "button": null,
+  "description": "主要攻击模式持续命中敌人会使其在短时间内冰冻",
+  "basicStats": {
+    "perkIndex": "3A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

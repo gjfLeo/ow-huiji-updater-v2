@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "托比昂/热力满载",
+  "name": "热力满载",
+  "hero": "托比昂",
+  "category": "Perk",
+  "button": null,
+  "description": "激活热力过载会完全装填铆钉枪的弹药",
+  "basicStats": {
+    "perkIndex": "2B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

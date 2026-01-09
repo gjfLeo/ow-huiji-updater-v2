@@ -1,0 +1,42 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "查莉娅/粒子屏障",
+  "name": "粒子屏障",
+  "hero": "查莉娅",
+  "category": "Ability",
+  "button": "技能 1",
+  "description": "在你周围生成伤害吸收屏障",
+  "basicStats": {
+    "cooldown": 11,
+    "charges": 2
+  },
+  "keywords": [
+    {
+      "name": "泡泡盾",
+      "value": ""
+    },
+    {
+      "name": "净化",
+      "value": ""
+    },
+    {
+      "name": "可部署",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "生命值",
+      "value": "225"
+    },
+    {
+      "name": "持续时间",
+      "value": "2.25秒"
+    },
+    {
+      "name": "能量获取上限",
+      "value": "45%"
+    }
+  ]
+}

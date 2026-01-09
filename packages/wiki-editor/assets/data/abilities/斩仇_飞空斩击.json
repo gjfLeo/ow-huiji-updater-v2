@@ -1,0 +1,61 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "斩仇/飞空斩击",
+  "name": "飞空斩击",
+  "hero": "斩仇",
+  "category": "Ability",
+  "button": "技能 2",
+  "description": "向面朝方向扔出大剑，接着飞到剑旁",
+  "basicStats": {
+    "cooldown": 6
+  },
+  "keywords": [
+    {
+      "name": "屏障碰撞",
+      "value": ""
+    },
+    {
+      "name": "闪避",
+      "value": ""
+    },
+    {
+      "name": "跳跃取消",
+      "value": ""
+    },
+    {
+      "name": "位移",
+      "value": ""
+    },
+    {
+      "name": "强射弹",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "50"
+    },
+    {
+      "name": "射程",
+      "value": "15米"
+    },
+    {
+      "name": "投掷持续时间",
+      "value": "0.50秒"
+    },
+    {
+      "name": "空中竖直劈斩起跳速度",
+      "value": "12.8米/秒"
+    },
+    {
+      "name": "空中竖直劈斩输入持续时间",
+      "value": "5秒"
+    },
+    {
+      "name": "跳跃取消速度",
+      "value": "5米/秒"
+    }
+  ]
+}

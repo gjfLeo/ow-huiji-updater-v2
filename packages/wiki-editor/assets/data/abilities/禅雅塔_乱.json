@@ -1,0 +1,39 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "禅雅塔/乱",
+  "name": "乱",
+  "hero": "禅雅塔",
+  "category": "Ability",
+  "button": "技能 2",
+  "description": "将纷乱法球射向一个敌人可以增加其受到的伤害",
+  "basicStats": {},
+  "keywords": [
+    {
+      "name": "可净化",
+      "value": ""
+    },
+    {
+      "name": "强射弹",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "提高伤害量",
+      "value": "+25%承受伤害量"
+    },
+    {
+      "name": "视线丢失后持续时间",
+      "value": "1.5秒"
+    },
+    {
+      "name": "射程",
+      "value": "40米"
+    },
+    {
+      "name": "对单个目标冷却时间",
+      "value": "6秒"
+    }
+  ]
+}

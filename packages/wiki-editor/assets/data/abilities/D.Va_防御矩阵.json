@@ -1,0 +1,45 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "D.Va/防御矩阵",
+  "name": "防御矩阵",
+  "hero": "D.Va",
+  "category": "Ability",
+  "button": "辅助攻击模式",
+  "description": "挡住前方射来的飞射物",
+  "basicStats": {
+    "cooldown": 1
+  },
+  "keywords": [
+    {
+      "name": "引导",
+      "value": ""
+    },
+    {
+      "name": "拦截射弹",
+      "value": ""
+    },
+    {
+      "name": "能量",
+      "value": ""
+    },
+    {
+      "name": "无视屏障",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "最大持续时间",
+      "value": "3秒"
+    },
+    {
+      "name": "范围",
+      "value": "10.3米"
+    },
+    {
+      "name": "能量",
+      "value": "33%/秒（消耗）<br />16%/秒（恢复速度）<br />0.75秒（恢复延迟）"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "毛加/战斗燃料",
+  "name": "战斗燃料",
+  "hero": "毛加",
+  "category": "Perk",
+  "button": null,
+  "description": "暴击会使下一次心脏过载为毛加提供3点临时过量生命值，可叠加150点过量生命值",
+  "basicStats": {
+    "perkIndex": "3B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

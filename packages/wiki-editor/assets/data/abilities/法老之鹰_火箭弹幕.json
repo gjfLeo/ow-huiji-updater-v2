@@ -1,0 +1,57 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "法老之鹰/火箭弹幕",
+  "name": "火箭弹幕",
+  "hero": "法老之鹰",
+  "category": "UltimateAbility",
+  "button": "技能 3",
+  "description": "原地悬浮，发射一连串致命的迷你火箭",
+  "basicStats": {
+    "ultimateCharge": 2200
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>球形</mark>范围内的目标"
+    },
+    {
+      "name": "引导",
+      "value": ""
+    },
+    {
+      "name": "装填",
+      "value": ""
+    },
+    {
+      "name": "自我伤害",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "40（直接命中）<br />30-9（范围伤害）"
+    },
+    {
+      "name": "爆炸半径",
+      "value": "0.5-1.5米"
+    },
+    {
+      "name": "散布",
+      "value": "8度"
+    },
+    {
+      "name": "持续时间",
+      "value": "2.5秒"
+    },
+    {
+      "name": "每秒射弹数量",
+      "value": "30枚火箭"
+    }
+  ]
+}

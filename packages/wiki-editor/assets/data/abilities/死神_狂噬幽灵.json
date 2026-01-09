@@ -1,0 +1,16 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "死神/狂噬幽灵",
+  "name": "狂噬幽灵",
+  "hero": "死神",
+  "category": "Perk",
+  "button": null,
+  "description": "离开幽灵形态后额外获得40%生命汲取，持续3秒",
+  "removed": true,
+  "basicStats": {
+    "perkIndex": "3B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

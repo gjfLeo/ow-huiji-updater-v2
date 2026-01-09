@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "半藏/干扰之音",
+  "name": "干扰之音",
+  "hero": "半藏",
+  "category": "Perk",
+  "button": null,
+  "description": "“音”会侵入附近的急救包，持续30秒",
+  "basicStats": {
+    "perkIndex": "2A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

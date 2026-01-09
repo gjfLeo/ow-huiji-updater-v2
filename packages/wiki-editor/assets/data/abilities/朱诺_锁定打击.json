@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "朱诺/锁定打击",
+  "name": "锁定打击",
+  "hero": "朱诺",
+  "category": "Perk",
+  "button": null,
+  "description": "脉冲星飞雷每命中一名敌人，冷却时间缩短1秒",
+  "basicStats": {
+    "perkIndex": "2B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

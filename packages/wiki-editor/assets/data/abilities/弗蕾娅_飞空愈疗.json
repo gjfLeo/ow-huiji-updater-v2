@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "弗蕾娅/飞空愈疗",
+  "name": "飞空愈疗",
+  "hero": "弗蕾娅",
+  "category": "Perk",
+  "button": null,
+  "description": "使用上升气流后，在落地前每秒为弗蕾娅治疗30点生命值",
+  "basicStats": {
+    "perkIndex": "3A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

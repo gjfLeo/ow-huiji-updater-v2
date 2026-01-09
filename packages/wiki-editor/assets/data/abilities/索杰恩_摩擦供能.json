@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "索杰恩/摩擦供能",
+  "name": "摩擦供能",
+  "hero": "索杰恩",
+  "category": "Perk",
+  "button": null,
+  "description": "机动滑铲行进过程中最多产生50点能量",
+  "basicStats": {
+    "perkIndex": "2A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

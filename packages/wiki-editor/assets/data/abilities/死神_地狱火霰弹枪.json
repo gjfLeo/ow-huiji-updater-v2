@@ -1,0 +1,42 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "死神/地狱火霰弹枪",
+  "name": "地狱火霰弹枪",
+  "hero": "死神",
+  "category": "Weapon",
+  "button": "主要攻击模式",
+  "description": "近距离散射武器",
+  "basicStats": {
+    "ammo": 8,
+    "reloadTime": 1.5
+  },
+  "keywords": [
+    {
+      "name": "暴击",
+      "value": ""
+    },
+    {
+      "name": "即时命中",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "单发齐射伤害量",
+      "value": "115（基础）<br />34.5（最大衰减）"
+    },
+    {
+      "name": "散布",
+      "value": "6度"
+    },
+    {
+      "name": "最小-最大衰减射程",
+      "value": "10-20米"
+    },
+    {
+      "name": "单发齐射弹丸数",
+      "value": "20"
+    }
+  ]
+}

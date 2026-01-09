@@ -1,0 +1,33 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "索杰恩/机体超频",
+  "name": "机体超频",
+  "hero": "索杰恩",
+  "category": "UltimateAbility",
+  "button": "技能 3",
+  "description": "电磁炮在短时间内自动充能",
+  "basicStats": {
+    "ultimateCharge": 2300
+  },
+  "keywords": [
+    {
+      "name": "装填",
+      "value": ""
+    },
+    {
+      "name": "变身",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "持续时间",
+      "value": "8秒"
+    },
+    {
+      "name": "能量恢复速度",
+      "value": "100/秒"
+    }
+  ]
+}

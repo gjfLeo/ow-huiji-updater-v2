@@ -1,0 +1,49 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "回声/黏性炸弹",
+  "name": "黏性炸弹",
+  "hero": "回声",
+  "category": "Ability",
+  "button": "辅助攻击模式",
+  "description": "发射出一连串黏性炸弹，一段时间之后爆炸",
+  "basicStats": {
+    "cooldown": 6
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>球形</mark>范围内的目标"
+    },
+    {
+      "name": "自我伤害",
+      "value": ""
+    },
+    {
+      "name": "附着",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "单发齐射伤害量",
+      "value": "180（直接命中）<br />150（范围伤害）"
+    },
+    {
+      "name": "半径",
+      "value": "2米"
+    },
+    {
+      "name": "附着后爆炸延迟",
+      "value": "1秒"
+    },
+    {
+      "name": "单发齐射弹丸数",
+      "value": "6"
+    }
+  ]
+}

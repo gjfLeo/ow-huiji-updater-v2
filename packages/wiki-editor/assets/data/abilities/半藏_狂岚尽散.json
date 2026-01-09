@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "半藏/狂岚尽散",
+  "name": "狂岚尽散",
+  "hero": "半藏",
+  "category": "Perk",
+  "button": null,
+  "description": "第一次弹射时，“岚”的箭矢会分散成5支能造成33%伤害的小箭头并额外反弹1次",
+  "basicStats": {
+    "perkIndex": "3B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

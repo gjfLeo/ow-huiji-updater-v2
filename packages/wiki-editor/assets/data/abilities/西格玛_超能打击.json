@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "西格玛/超能打击",
+  "name": "超能打击",
+  "hero": "西格玛",
+  "category": "Perk",
+  "button": null,
+  "description": "超能之球每5次直接命中后，下一次成功命中的快速近身攻击会击退敌人并使其漂浮",
+  "basicStats": {
+    "perkIndex": "3A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

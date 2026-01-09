@@ -1,0 +1,25 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "黑百合/红外侦测",
+  "name": "红外侦测",
+  "hero": "黑百合",
+  "category": "UltimateAbility",
+  "button": "技能 3",
+  "description": "为队友提供敌方位置情报",
+  "basicStats": {
+    "ultimateCharge": 1400
+  },
+  "keywords": [
+    {
+      "name": "显示生命值",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "持续时间",
+      "value": "15秒"
+    }
+  ]
+}

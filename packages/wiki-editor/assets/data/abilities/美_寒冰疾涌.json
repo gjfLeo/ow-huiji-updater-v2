@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "美/寒冰疾涌",
+  "name": "寒冰疾涌",
+  "hero": "美",
+  "category": "Perk",
+  "button": null,
+  "description": "二段跳会生成一根小型冰柱将美推至空中",
+  "basicStats": {
+    "perkIndex": "2B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

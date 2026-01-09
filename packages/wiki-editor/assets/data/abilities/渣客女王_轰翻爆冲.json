@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "渣客女王/轰翻爆冲",
+  "name": "轰翻爆冲",
+  "hero": "渣客女王",
+  "category": "Perk",
+  "button": null,
+  "description": "使用轰翻天时获得不可阻挡并使各项技能冷却时间缩短6秒",
+  "basicStats": {
+    "perkIndex": "2A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

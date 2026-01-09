@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "破坏球/重装压路机",
+  "name": "重装压路机",
+  "hero": "破坏球",
+  "category": "Perk",
+  "button": null,
+  "description": "动力铁球对重装英雄造成的撞击伤害提高100%",
+  "basicStats": {
+    "perkIndex": "2A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

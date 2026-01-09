@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "猎空/闪现急救包",
+  "name": "闪现急救包",
+  "hero": "猎空",
+  "category": "Perk",
+  "button": null,
+  "description": "急救包会为闪现恢复1次充能",
+  "basicStats": {
+    "perkIndex": "2A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

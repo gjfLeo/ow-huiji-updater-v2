@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "黑影/CTRL+ALT+ESC",
+  "name": "CTRL+ALT+ESC",
+  "hero": "黑影",
+  "category": "Perk",
+  "button": null,
+  "description": "在生命值低于一半时使用位移传动，可激活被动生命值恢复",
+  "basicStats": {
+    "perkIndex": "2B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

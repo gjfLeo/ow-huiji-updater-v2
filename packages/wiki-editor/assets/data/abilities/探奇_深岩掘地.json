@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "探奇/深岩掘地",
+  "name": "深岩掘地",
+  "hero": "探奇",
+  "category": "Perk",
+  "button": null,
+  "description": "钻地时，钻头突刺距离扩大50%",
+  "basicStats": {
+    "perkIndex": "2A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

@@ -1,0 +1,49 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "拉玛刹/诛",
+  "name": "诛",
+  "hero": "拉玛刹",
+  "category": "UltimateAbility",
+  "button": "技能 3",
+  "description": "进入天罚形态并生成致命的粒子簇，痛击周围的敌人，只要敌人受到此效果伤害，效果持续时间就会延长",
+  "basicStats": {
+    "ultimateCharge": 2300
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>球形</mark>范围内的目标"
+    },
+    {
+      "name": "光束",
+      "value": ""
+    },
+    {
+      "name": "装填",
+      "value": ""
+    },
+    {
+      "name": "变身",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "持续伤害量",
+      "value": "30/秒"
+    },
+    {
+      "name": "半径",
+      "value": "12米"
+    },
+    {
+      "name": "持续时间",
+      "value": "3秒（最小）<br />20秒（最大）"
+    },
+    {
+      "name": "持续时间消耗减速",
+      "value": "减慢85%"
+    }
+  ]
+}

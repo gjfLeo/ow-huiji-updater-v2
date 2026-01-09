@@ -1,0 +1,45 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "西格玛/超能之球",
+  "name": "超能之球",
+  "hero": "西格玛",
+  "category": "Weapon",
+  "button": "主要攻击模式",
+  "description": "发射两团引力电荷，在一小段时间后爆炸，造成范围伤害",
+  "basicStats": {
+    "ammo": -1
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "单发齐射伤害量",
+      "value": "120（直接命中）<br />80-40（范围伤害）"
+    },
+    {
+      "name": "射程",
+      "value": "21米"
+    },
+    {
+      "name": "最小-最大半径",
+      "value": "1-2.9米"
+    },
+    {
+      "name": "单发齐射弹丸数",
+      "value": "2"
+    },
+    {
+      "name": "反向击退",
+      "value": "1.3米/秒"
+    }
+  ]
+}

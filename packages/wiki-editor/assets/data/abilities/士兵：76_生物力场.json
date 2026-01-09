@@ -1,0 +1,37 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "士兵：76/生物力场",
+  "name": "生物力场",
+  "hero": "士兵：76",
+  "category": "Ability",
+  "button": "技能 2",
+  "description": "部署一个可以治疗自己和盟友的力场",
+  "basicStats": {
+    "cooldown": 15
+  },
+  "keywords": [
+    {
+      "name": "可部署",
+      "value": "此可部署物<mark>不会受到伤害</mark>"
+    },
+    {
+      "name": "无视屏障",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "持续治疗量",
+      "value": "40/秒"
+    },
+    {
+      "name": "持续时间",
+      "value": "5秒"
+    },
+    {
+      "name": "半径",
+      "value": "5米"
+    }
+  ]
+}

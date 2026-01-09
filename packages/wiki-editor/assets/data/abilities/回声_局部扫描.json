@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "回声/局部扫描",
+  "name": "局部扫描",
+  "hero": "回声",
+  "category": "Perk",
+  "button": null,
+  "description": "使用人格复制时具有50%初始终极技能充能",
+  "basicStats": {
+    "perkIndex": "2B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

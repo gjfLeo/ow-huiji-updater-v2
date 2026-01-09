@@ -1,0 +1,45 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "安娜/生物手雷",
+  "name": "生物手雷",
+  "hero": "安娜",
+  "category": "Ability",
+  "button": "技能 2",
+  "description": "扔出一枚手雷，治疗盟友并提高其受到的治疗量，同时还可以对敌人造成伤害并使其无法受到治疗",
+  "basicStats": {
+    "cooldown": 14
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>球形</mark>范围内的目标"
+    },
+    {
+      "name": "可净化",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量/治疗量",
+      "value": "75"
+    },
+    {
+      "name": "提高治疗量",
+      "value": "+50%受到治疗量"
+    },
+    {
+      "name": "效果持续时间",
+      "value": "3秒"
+    },
+    {
+      "name": "半径",
+      "value": "4米"
+    }
+  ]
+}

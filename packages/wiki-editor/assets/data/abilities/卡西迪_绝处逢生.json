@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "卡西迪/绝处逢生",
+  "name": "绝处逢生",
+  "hero": "卡西迪",
+  "category": "Perk",
+  "button": null,
+  "description": "每有一名敌人成为神射手的目标，每秒恢复30点生命值",
+  "basicStats": {
+    "perkIndex": "2B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

@@ -1,0 +1,38 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "路霸/爆裂枪辅助模式",
+  "name": "爆裂枪辅助模式",
+  "hero": "路霸",
+  "category": "Weapon",
+  "button": "辅助攻击模式",
+  "description": "发射能炸出此武器近距离主要攻击模式弹丸的中距离飞弹",
+  "basicStats": {
+    "ammo": 6,
+    "reloadTime": 1.5
+  },
+  "keywords": [
+    {
+      "name": "暴击",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "50"
+    },
+    {
+      "name": "最小-最大衰减射程",
+      "value": "15-30米"
+    },
+    {
+      "name": "射弹持续时间",
+      "value": "0.15秒"
+    }
+  ]
+}

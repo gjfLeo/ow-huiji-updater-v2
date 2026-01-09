@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "艾什/空爆雷管",
+  "name": "空爆雷管",
+  "hero": "艾什",
+  "category": "Perk",
+  "button": null,
+  "description": "延时雷管在空中引爆时，爆炸半径扩大40%，投出时返还3发弹药",
+  "basicStats": {
+    "perkIndex": "3B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

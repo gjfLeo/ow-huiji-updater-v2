@@ -1,0 +1,43 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "莱因哈特/屏障力场",
+  "name": "屏障力场",
+  "hero": "莱因哈特",
+  "category": "Ability",
+  "button": "辅助攻击模式",
+  "description": "长按 <kbd>鼠标右键</kbd> 可以展开一道正面能量屏障",
+  "basicStats": {},
+  "keywords": [
+    {
+      "name": "屏障",
+      "value": ""
+    },
+    {
+      "name": "引导",
+      "value": ""
+    },
+    {
+      "name": "可部署",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "屏障生命值",
+      "value": "1500"
+    },
+    {
+      "name": "屏障充能速度",
+      "value": "150/秒"
+    },
+    {
+      "name": "自身移动速度惩罚",
+      "value": "-30%移动速度"
+    },
+    {
+      "name": "屏障被摧毁后冷却时间",
+      "value": "5秒"
+    }
+  ]
+}

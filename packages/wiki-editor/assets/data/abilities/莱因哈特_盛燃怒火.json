@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "莱因哈特/盛燃怒火",
+  "name": "盛燃怒火",
+  "hero": "莱因哈特",
+  "category": "Perk",
+  "button": null,
+  "description": "用烈焰打击命中敌人会使攻击速度加快25%，命中的每名敌人都会使效果延长2秒",
+  "basicStats": {
+    "perkIndex": "3B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

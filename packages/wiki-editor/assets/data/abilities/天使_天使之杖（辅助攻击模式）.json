@@ -1,0 +1,37 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "天使/天使之杖（辅助攻击模式）",
+  "name": "天使之杖（辅助攻击模式）",
+  "hero": "天使",
+  "category": "Weapon",
+  "button": "辅助攻击模式",
+  "description": "长按可以治疗队友",
+  "basicStats": {
+    "ammo": -1
+  },
+  "keywords": [
+    {
+      "name": "增伤",
+      "value": ""
+    },
+    {
+      "name": "光束",
+      "value": "无视拦截射弹技能且无法暴击"
+    },
+    {
+      "name": "无视屏障",
+      "value": "<mark>选定盟友时</mark>无视屏障"
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害强化",
+      "value": "+30%伤害量"
+    },
+    {
+      "name": "视线丢失后光束持续时间",
+      "value": "1秒"
+    }
+  ]
+}

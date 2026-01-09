@@ -1,0 +1,27 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "回声/滑翔",
+  "name": "滑翔",
+  "hero": "回声",
+  "category": "PassiveAbility",
+  "button": "跳跃",
+  "description": "下落时按下跳跃键可以滑翔",
+  "basicStats": {},
+  "keywords": [
+    {
+      "name": "位移",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "移动速度加成",
+      "value": "+50%移动速度"
+    },
+    {
+      "name": "缓落速度",
+      "value": "4米/秒"
+    }
+  ]
+}

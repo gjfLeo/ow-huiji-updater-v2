@@ -1,0 +1,22 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "弗蕾娅/赏金狩猎",
+  "name": "赏金狩猎",
+  "hero": "弗蕾娅",
+  "category": "PassiveAbility",
+  "button": null,
+  "description": "每造成3次最后一击会额外获得终极技能充能",
+  "basicStats": {},
+  "keywords": [],
+  "detailStats": [
+    {
+      "name": "额外终极技能充能",
+      "value": "25%"
+    },
+    {
+      "name": "获得终极技能充能持续时间",
+      "value": "1.9秒"
+    }
+  ]
+}

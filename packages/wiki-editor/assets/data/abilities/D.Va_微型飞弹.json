@@ -1,0 +1,49 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "D.Va/微型飞弹",
+  "name": "微型飞弹",
+  "hero": "D.Va",
+  "category": "Ability",
+  "button": "技能 2",
+  "description": "射出一连串高爆飞弹",
+  "basicStats": {
+    "cooldown": 7
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>球形</mark>范围内的目标"
+    },
+    {
+      "name": "引导",
+      "value": ""
+    },
+    {
+      "name": "自我伤害",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "单发齐射伤害量",
+      "value": "153（直接命中）<br />99-24.8（范围伤害）"
+    },
+    {
+      "name": "最小-最大半径",
+      "value": "0.1-1.5米"
+    },
+    {
+      "name": "飞弹总数",
+      "value": "18"
+    },
+    {
+      "name": "持续时间",
+      "value": "1.6秒"
+    }
+  ]
+}

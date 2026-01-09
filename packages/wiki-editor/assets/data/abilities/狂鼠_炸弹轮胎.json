@@ -1,0 +1,57 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "狂鼠/炸弹轮胎",
+  "name": "炸弹轮胎",
+  "hero": "狂鼠",
+  "category": "UltimateAbility",
+  "button": "技能 3",
+  "description": "操控并引爆一个会爆炸的轮胎",
+  "basicStats": {
+    "ultimateCharge": 2100
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>球形</mark>范围内的目标"
+    },
+    {
+      "name": "可部署",
+      "value": ""
+    },
+    {
+      "name": "固定数值",
+      "value": ""
+    },
+    {
+      "name": "装填",
+      "value": ""
+    },
+    {
+      "name": "变身",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "600-50"
+    },
+    {
+      "name": "爆炸半径",
+      "value": "2-10米"
+    },
+    {
+      "name": "生命值",
+      "value": "100"
+    },
+    {
+      "name": "持续时间",
+      "value": "10秒"
+    },
+    {
+      "name": "击退",
+      "value": "8.5米/秒"
+    }
+  ]
+}

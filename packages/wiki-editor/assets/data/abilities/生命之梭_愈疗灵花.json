@@ -1,0 +1,42 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "生命之梭/愈疗灵花",
+  "name": "愈疗灵花",
+  "hero": "生命之梭",
+  "category": "Weapon",
+  "button": "主要攻击模式",
+  "description": "长按充能治疗冲击，松开后治疗目标盟友<br />不使用时会缓慢被动充能",
+  "basicStats": {
+    "ammo": 16,
+    "reloadTime": 1.75
+  },
+  "keywords": [
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "总持续治疗量",
+      "value": "10（最小充能）<br />80（最大充能）"
+    },
+    {
+      "name": "持续治疗持续时间",
+      "value": "0.3秒"
+    },
+    {
+      "name": "射程",
+      "value": "30米"
+    },
+    {
+      "name": "手动充能时间",
+      "value": "1.2秒"
+    },
+    {
+      "name": "自动充能时间",
+      "value": "5.2秒"
+    }
+  ]
+}

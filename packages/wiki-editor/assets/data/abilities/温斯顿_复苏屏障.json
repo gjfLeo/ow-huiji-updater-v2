@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "温斯顿/复苏屏障",
+  "name": "复苏屏障",
+  "hero": "温斯顿",
+  "category": "Perk",
+  "button": null,
+  "description": "屏障发射器会为效果范围内的盟友每秒治疗30点生命值",
+  "basicStats": {
+    "perkIndex": "3B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

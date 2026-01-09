@@ -1,0 +1,42 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "朱诺/医疗冲击枪",
+  "name": "医疗冲击枪",
+  "hero": "朱诺",
+  "category": "Weapon",
+  "button": "主要攻击模式",
+  "description": "可以治疗盟友并对敌人造成伤害的连发武器",
+  "basicStats": {
+    "ammo": 180,
+    "reloadTime": 1.5
+  },
+  "keywords": [
+    {
+      "name": "弱效暴击",
+      "value": ""
+    },
+    {
+      "name": "即时命中",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "单发齐射治疗量",
+      "value": "72（基础）<br />21.6（最大衰减）"
+    },
+    {
+      "name": "单发齐射伤害量",
+      "value": "90（基础）<br />27（最大衰减）"
+    },
+    {
+      "name": "单发齐射弹丸数",
+      "value": "12"
+    },
+    {
+      "name": "最小-最大衰减射程",
+      "value": "25-35米"
+    }
+  ]
+}

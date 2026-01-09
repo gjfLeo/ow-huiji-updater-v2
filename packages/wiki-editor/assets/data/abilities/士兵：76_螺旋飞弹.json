@@ -1,0 +1,41 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "士兵：76/螺旋飞弹",
+  "name": "螺旋飞弹",
+  "hero": "士兵：76",
+  "category": "Ability",
+  "button": "辅助攻击模式",
+  "description": "射出一连串高爆飞弹",
+  "basicStats": {
+    "cooldown": 6
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>球形</mark>范围内的目标"
+    },
+    {
+      "name": "自我伤害",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "120（直接命中）<br />80-40（范围伤害）"
+    },
+    {
+      "name": "最小-最大半径",
+      "value": "1-3米"
+    },
+    {
+      "name": "击退",
+      "value": "7.2米/秒（自身和敌人）"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "拉玛刹/吞噬漩涡",
+  "name": "吞噬漩涡",
+  "hero": "拉玛刹",
+  "category": "Ability",
+  "button": "技能 2",
+  "description": "发射一枚能量球，在地面上生成一股减速漩涡，处于其中的敌人会受到伤害并被拽向地面",
+  "basicStats": {
+    "cooldown": 11
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>圆柱</mark>范围内的目标"
+    },
+    {
+      "name": "护甲贯穿",
+      "value": ""
+    },
+    {
+      "name": "屏障碰撞",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "总伤害量",
+      "value": "70"
+    },
+    {
+      "name": "敌方移动速度惩罚",
+      "value": "-40%移动速度"
+    },
+    {
+      "name": "拖拽速度",
+      "value": "12米/秒"
+    },
+    {
+      "name": "持续时间",
+      "value": "3秒"
+    },
+    {
+      "name": "效果范围",
+      "value": "半径4米<br />高度10米"
+    }
+  ]
+}

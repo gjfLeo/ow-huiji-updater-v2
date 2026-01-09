@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "索杰恩/机体过载",
+  "name": "机体过载",
+  "hero": "索杰恩",
+  "category": "Perk",
+  "button": null,
+  "description": "机体超频激活时，电磁炮最大能量提高50点",
+  "basicStats": {
+    "perkIndex": "2B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

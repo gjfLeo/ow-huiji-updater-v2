@@ -1,0 +1,18 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "天使/同情愈疗",
+  "name": "同情愈疗",
+  "hero": "天使",
+  "category": "PassiveAbility",
+  "button": null,
+  "description": "使用天使之杖治疗盟友也会治疗自己",
+  "basicStats": {},
+  "keywords": [],
+  "detailStats": [
+    {
+      "name": "自我治疗量",
+      "value": "造成治疗的40%"
+    }
+  ]
+}

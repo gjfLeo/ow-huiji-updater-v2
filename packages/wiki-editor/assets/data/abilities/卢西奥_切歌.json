@@ -1,0 +1,31 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "卢西奥/切歌",
+  "name": "切歌",
+  "hero": "卢西奥",
+  "category": "Ability",
+  "button": "技能 1",
+  "description": "在两种音效之间切换：<br />治愈音效可治疗附近盟友<br />加速音效可让附近盟友更快地移动",
+  "basicStats": {},
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>球形</mark>范围内的目标"
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "持续治疗量",
+      "value": "14/秒（自身）<br />20/秒（盟友）"
+    },
+    {
+      "name": "半径",
+      "value": "12米"
+    },
+    {
+      "name": "移动速度加成",
+      "value": "+25%移动速度"
+    }
+  ]
+}

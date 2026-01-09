@@ -1,0 +1,38 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "探奇/智能挖掘钻",
+  "name": "智能挖掘钻",
+  "hero": "探奇",
+  "category": "Weapon",
+  "button": "主要攻击模式",
+  "description": "发射一枚震波弹，前进一小段距离后爆炸",
+  "basicStats": {
+    "ammo": 8,
+    "reloadTime": 1.75
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>球形</mark>范围内的目标"
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "75（直接命中）<br />40-12（范围伤害）"
+    },
+    {
+      "name": "射程",
+      "value": "16米"
+    },
+    {
+      "name": "击退",
+      "value": "1.5米/秒（自身和敌人）"
+    }
+  ]
+}

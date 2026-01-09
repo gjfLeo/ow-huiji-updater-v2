@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "查莉娅/前线哨兵",
+  "name": "前线哨兵",
+  "hero": "查莉娅",
+  "category": "Perk",
+  "button": null,
+  "description": "投射屏障会激活盟友的生命值自动恢复效果，并使其移动速度提高25%",
+  "basicStats": {
+    "perkIndex": "3B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "雾子/救死急符",
+  "name": "救死急符",
+  "hero": "雾子",
+  "category": "Perk",
+  "button": null,
+  "description": "“符”追踪生命值低于一半的盟友时，符纸速度提高50%",
+  "basicStats": {
+    "perkIndex": "2A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

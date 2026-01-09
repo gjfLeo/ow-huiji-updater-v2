@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "路霸/活力迸发",
+  "name": "活力迸发",
+  "hero": "路霸",
+  "category": "Perk",
+  "button": null,
+  "description": "呼吸器使“路霸”的移动速度快速提高30%",
+  "basicStats": {
+    "perkIndex": "3A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

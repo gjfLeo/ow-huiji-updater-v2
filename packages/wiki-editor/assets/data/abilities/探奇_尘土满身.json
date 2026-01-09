@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "探奇/尘土满身",
+  "name": "尘土满身",
+  "hero": "探奇",
+  "category": "Perk",
+  "button": null,
+  "description": "使用猛钻造成伤害可提供最多30点探险家的决心护盾",
+  "basicStats": {
+    "perkIndex": "3B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

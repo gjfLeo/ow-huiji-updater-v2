@@ -1,0 +1,45 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "士兵：76/战术目镜",
+  "name": "战术目镜",
+  "hero": "士兵：76",
+  "category": "UltimateAbility",
+  "button": "技能 3",
+  "description": "自动瞄准视野范围内的敌人",
+  "basicStats": {
+    "ultimateCharge": 2750
+  },
+  "keywords": [
+    {
+      "name": "暴击",
+      "value": ""
+    },
+    {
+      "name": "即时命中",
+      "value": ""
+    },
+    {
+      "name": "装填",
+      "value": ""
+    },
+    {
+      "name": "变身",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "持续时间",
+      "value": "6秒"
+    },
+    {
+      "name": "装填时间",
+      "value": "0.5秒"
+    },
+    {
+      "name": "自动瞄准角度",
+      "value": "45度"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "天使/神圣动能",
+  "name": "神圣动能",
+  "hero": "天使",
+  "category": "Perk",
+  "button": null,
+  "description": "取消守护天使后，“天使”的飞行速度加快15%",
+  "basicStats": {
+    "perkIndex": "2B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

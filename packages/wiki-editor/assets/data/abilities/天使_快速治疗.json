@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "天使/快速治疗",
+  "name": "快速治疗",
+  "hero": "天使",
+  "category": "Perk",
+  "button": null,
+  "description": "快速治疗可以对天使之杖的激活目标使用，为其恢复50点生命值，对生命值低于一半的盟友有三倍效果",
+  "basicStats": {
+    "perkIndex": "3B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

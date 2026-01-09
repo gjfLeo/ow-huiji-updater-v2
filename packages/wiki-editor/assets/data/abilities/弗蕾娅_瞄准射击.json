@@ -1,0 +1,66 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "弗蕾娅/瞄准射击",
+  "name": "瞄准射击",
+  "hero": "弗蕾娅",
+  "category": "Weapon",
+  "button": "辅助攻击模式",
+  "description": "减缓动势仔细瞄准，射出一支高速爆炸弩箭<br />使用疾冲可刷新瞄准射击",
+  "basicStats": {
+    "ammo": 1,
+    "reloadTime": 1.5
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>球形</mark>范围内的目标"
+    },
+    {
+      "name": "暴击",
+      "value": ""
+    },
+    {
+      "name": "自我伤害",
+      "value": ""
+    },
+    {
+      "name": "附着",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "110（直接命中）<br />80-30（范围伤害）"
+    },
+    {
+      "name": "减缓动势持续时间",
+      "value": "1秒"
+    },
+    {
+      "name": "爆炸延迟",
+      "value": "1秒"
+    },
+    {
+      "name": "最小-最大半径",
+      "value": "0.6-2.5米"
+    },
+    {
+      "name": "自身移动速度惩罚",
+      "value": "-80%移动速度（在地面）<br />-85%移动速度（在空中）<br />-35%移动速度（减速后）"
+    },
+    {
+      "name": "重力减少",
+      "value": "-90%重力"
+    },
+    {
+      "name": "击退",
+      "value": "1.1米/秒"
+    }
+  ]
+}

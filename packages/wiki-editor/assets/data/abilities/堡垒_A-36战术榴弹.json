@@ -1,0 +1,49 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "堡垒/A-36战术榴弹",
+  "name": "A-36战术榴弹",
+  "hero": "堡垒",
+  "category": "Ability",
+  "button": "辅助攻击模式",
+  "description": "发射一枚炸弹，能在墙壁间反弹<br />并在击中敌人或地面时爆炸",
+  "basicStats": {
+    "cooldown": 8
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>球形</mark>范围内的目标"
+    },
+    {
+      "name": "自我伤害",
+      "value": ""
+    },
+    {
+      "name": "附着",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "115（直接命中）<br />100-50（范围伤害）"
+    },
+    {
+      "name": "击退",
+      "value": "17.5米/秒（自身）<br />10.6米/秒（敌人）"
+    },
+    {
+      "name": "最小-最大半径",
+      "value": "2-4米"
+    },
+    {
+      "name": "爆炸延迟",
+      "value": "0.35秒"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "狂鼠/临别礼物",
+  "name": "临别礼物",
+  "hero": "狂鼠",
+  "category": "PassiveAbility",
+  "button": null,
+  "description": "爆炸不会对自己造成伤害<br />阵亡后丢下炸弹",
+  "basicStats": {},
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>球形</mark>范围内的目标"
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "50"
+    },
+    {
+      "name": "爆炸半径",
+      "value": "2米"
+    },
+    {
+      "name": "炸弹数量",
+      "value": "6"
+    }
+  ]
+}

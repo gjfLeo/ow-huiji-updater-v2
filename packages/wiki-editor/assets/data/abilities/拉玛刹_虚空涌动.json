@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "拉玛刹/虚空涌动",
+  "name": "虚空涌动",
+  "hero": "拉玛刹",
+  "category": "Perk",
+  "button": null,
+  "description": "虚空加速器持续射击时，周期性额外发射一簇包含6枚粒子的连射",
+  "basicStats": {
+    "perkIndex": "2A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

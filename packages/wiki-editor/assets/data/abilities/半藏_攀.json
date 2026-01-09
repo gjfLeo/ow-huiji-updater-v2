@@ -1,0 +1,23 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "半藏/攀",
+  "name": "攀",
+  "hero": "半藏",
+  "category": "PassiveAbility",
+  "button": "跳跃",
+  "description": "跃上并沿着墙壁攀爬",
+  "basicStats": {},
+  "keywords": [
+    {
+      "name": "位移",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "爬墙速度",
+      "value": "7.2米/秒"
+    }
+  ]
+}

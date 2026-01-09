@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "秩序之光/完美协同",
+  "name": "完美协同",
+  "hero": "秩序之光",
+  "category": "Perk",
+  "button": null,
+  "description": "光子发射器的主要攻击模式射程扩大20%",
+  "basicStats": {
+    "perkIndex": "2B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

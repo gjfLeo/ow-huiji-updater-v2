@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "卡西迪/双发连闪",
+  "name": "双发连闪",
+  "hero": "卡西迪",
+  "category": "Perk",
+  "button": null,
+  "description": "卡西迪会扔出第二枚飞得更远的闪光弹，但两枚闪光弹造成的伤害都降低40%",
+  "basicStats": {
+    "perkIndex": "2A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

@@ -1,0 +1,31 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "毛加/狂战士",
+  "name": "狂战士",
+  "hero": "毛加",
+  "category": "PassiveAbility",
+  "button": null,
+  "description": "造成暴击伤害会获得临时生命值",
+  "basicStats": {},
+  "keywords": [
+    {
+      "name": "过量生命值",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "暴击伤害到过量生命值转换率",
+      "value": "50%"
+    },
+    {
+      "name": "最大过量生命值",
+      "value": "150"
+    },
+    {
+      "name": "衰减延迟",
+      "value": "5秒"
+    }
+  ]
+}

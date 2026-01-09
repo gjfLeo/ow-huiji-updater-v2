@@ -1,0 +1,73 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "探奇/钻地",
+  "name": "钻地",
+  "hero": "探奇",
+  "category": "Ability",
+  "button": "技能 1",
+  "description": "钻入地下，变为无敌状态<br />按下或长按 <kbd>鼠标左键</kbd> 钻出并伤害敌人",
+  "basicStats": {
+    "cooldown": 8
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>球形</mark>范围内的目标"
+    },
+    {
+      "name": "净化",
+      "value": ""
+    },
+    {
+      "name": "显示生命值",
+      "value": ""
+    },
+    {
+      "name": "无敌",
+      "value": ""
+    },
+    {
+      "name": "位移",
+      "value": ""
+    },
+    {
+      "name": "相移",
+      "value": ""
+    },
+    {
+      "name": "装填",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "110-75（最大蓄力）<br />55-37.5（最小蓄力）"
+    },
+    {
+      "name": "半径",
+      "value": "7-2米（最大蓄力）<br />3.5-1米（最小蓄力）"
+    },
+    {
+      "name": "移动速度加成",
+      "value": "+40%移动速度"
+    },
+    {
+      "name": "钻头突刺冷却时间缩减",
+      "value": "90%"
+    },
+    {
+      "name": "击退",
+      "value": "7.1米/秒"
+    },
+    {
+      "name": "持续时间",
+      "value": "4秒"
+    },
+    {
+      "name": "蓄力时间",
+      "value": "0.65秒"
+    }
+  ]
+}

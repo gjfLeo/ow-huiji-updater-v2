@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "托比昂/过载炮台",
+  "name": "过载炮台",
+  "hero": "托比昂",
+  "category": "Perk",
+  "button": null,
+  "description": "热力过载会升级炮台，持续5秒，提高其生命值和伤害",
+  "basicStats": {
+    "perkIndex": "3B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

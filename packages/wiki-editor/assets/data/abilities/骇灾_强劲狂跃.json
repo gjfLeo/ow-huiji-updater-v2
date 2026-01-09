@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "骇灾/强劲狂跃",
+  "name": "强劲狂跃",
+  "hero": "骇灾",
+  "category": "Perk",
+  "button": null,
+  "description": "狂跃的范围扩大15%",
+  "basicStats": {
+    "perkIndex": "2A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

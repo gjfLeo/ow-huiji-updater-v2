@@ -1,0 +1,26 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "末日铁拳/最佳防守……",
+  "name": "最佳防守……",
+  "hero": "末日铁拳",
+  "category": "PassiveAbility",
+  "button": null,
+  "description": "技能造成伤害后，自身可生成临时生命值",
+  "basicStats": {},
+  "keywords": [],
+  "detailStats": [
+    {
+      "name": "命中过量生命值",
+      "value": "40（技能命中）<br />75（终极技能命中）"
+    },
+    {
+      "name": "最大过量生命值",
+      "value": "200"
+    },
+    {
+      "name": "衰减延迟",
+      "value": "3秒"
+    }
+  ]
+}

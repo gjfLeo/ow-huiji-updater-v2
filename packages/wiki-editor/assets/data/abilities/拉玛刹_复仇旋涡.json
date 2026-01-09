@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "拉玛刹/复仇旋涡",
+  "name": "复仇旋涡",
+  "hero": "拉玛刹",
+  "category": "Perk",
+  "button": null,
+  "description": "吞噬漩涡在空中时可再次使用 <kbd>E</kbd> 将其引爆，造成50点伤害并将敌人拽向地面",
+  "basicStats": {
+    "perkIndex": "3B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

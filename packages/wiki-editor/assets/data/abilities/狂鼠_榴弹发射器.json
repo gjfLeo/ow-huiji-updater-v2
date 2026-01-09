@@ -1,0 +1,38 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "狂鼠/榴弹发射器",
+  "name": "榴弹发射器",
+  "hero": "狂鼠",
+  "category": "Weapon",
+  "button": "主要攻击模式",
+  "description": "弹跳爆炸式弹道武器",
+  "basicStats": {
+    "ammo": 5,
+    "reloadTime": 1.5
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "125（直接命中）<br />80-10（范围伤害）"
+    },
+    {
+      "name": "爆炸半径",
+      "value": "0.5-2米"
+    },
+    {
+      "name": "击退",
+      "value": "9.4米/秒"
+    }
+  ]
+}

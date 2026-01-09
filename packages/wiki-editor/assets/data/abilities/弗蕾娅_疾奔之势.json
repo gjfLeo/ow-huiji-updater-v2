@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "弗蕾娅/疾奔之势",
+  "name": "疾奔之势",
+  "hero": "弗蕾娅",
+  "category": "Perk",
+  "button": null,
+  "description": "疾冲距离扩大20%",
+  "basicStats": {
+    "perkIndex": "2B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

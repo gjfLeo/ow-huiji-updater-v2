@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "路霸/弹片迸射枪",
+  "name": "弹片迸射枪",
+  "hero": "路霸",
+  "category": "Perk",
+  "button": null,
+  "description": "爆裂枪辅助攻击模式的射程扩大50%，炸裂扩散降低25%",
+  "basicStats": {
+    "perkIndex": "2B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

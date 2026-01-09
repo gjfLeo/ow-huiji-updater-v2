@@ -1,0 +1,37 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "天使/守护天使",
+  "name": "守护天使",
+  "hero": "天使",
+  "category": "Ability",
+  "button": "技能 1",
+  "description": "飞向一名队友。在飞行时，按跳跃可以向前飞，按下蹲可以向上飞",
+  "basicStats": {
+    "cooldown": 1.5
+  },
+  "keywords": [
+    {
+      "name": "位移",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "移动速度",
+      "value": "17米/秒（基础）<br />25米/秒（女武神）"
+    },
+    {
+      "name": "范围",
+      "value": "30米（基础）<br />60米（女武神）"
+    },
+    {
+      "name": "最小-最大取消速度加成",
+      "value": "11-20.4米/秒"
+    },
+    {
+      "name": "取消延长冷却时间",
+      "value": "1秒（基础）<br />0.5秒（女武神）"
+    }
+  ]
+}

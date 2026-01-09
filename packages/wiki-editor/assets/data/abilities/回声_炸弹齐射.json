@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "回声/炸弹齐射",
+  "name": "炸弹齐射",
+  "hero": "回声",
+  "category": "Perk",
+  "button": null,
+  "description": "黏性炸弹发射数量提高50%",
+  "basicStats": {
+    "perkIndex": "3A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

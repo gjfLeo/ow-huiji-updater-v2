@@ -1,0 +1,33 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "堡垒/切换模式",
+  "name": "切换模式",
+  "hero": "堡垒",
+  "category": "Ability",
+  "button": "技能 1",
+  "description": "切换不同的作战模式",
+  "basicStats": {
+    "cooldown": 12
+  },
+  "keywords": [
+    {
+      "name": "装填",
+      "value": ""
+    },
+    {
+      "name": "变身",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "最大持续时间",
+      "value": "6秒"
+    },
+    {
+      "name": "自身移动速度惩罚",
+      "value": "-35%移动速度"
+    }
+  ]
+}

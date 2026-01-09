@@ -1,0 +1,45 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "莱因哈特/冲锋",
+  "name": "冲锋",
+  "hero": "莱因哈特",
+  "category": "Ability",
+  "button": "技能 1",
+  "description": "向前冲锋并将一名敌人重击到墙上",
+  "basicStats": {
+    "cooldown": 7
+  },
+  "keywords": [
+    {
+      "name": "碰撞",
+      "value": ""
+    },
+    {
+      "name": "闪避",
+      "value": "<mark>可穿过</mark>非不可阻挡状态的<mark>敌方英雄</mark>且不会阻挡位移"
+    },
+    {
+      "name": "位移",
+      "value": ""
+    },
+    {
+      "name": "击晕",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "300（撞击）<br />50（击中）"
+    },
+    {
+      "name": "移动速度加成",
+      "value": "+200%移动速度"
+    },
+    {
+      "name": "击退",
+      "value": "31.6米/秒（击中）<br />11.2米/秒（取消）"
+    }
+  ]
+}

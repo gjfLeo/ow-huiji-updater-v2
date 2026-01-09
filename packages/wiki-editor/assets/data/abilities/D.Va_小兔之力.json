@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "D.Va/小兔之力",
+  "name": "小兔之力",
+  "hero": "D.Va",
+  "category": "Perk",
+  "button": null,
+  "description": "弹射提供75点临时过量生命值，且呼叫机甲的伤害半径扩大50%",
+  "basicStats": {
+    "perkIndex": "2A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

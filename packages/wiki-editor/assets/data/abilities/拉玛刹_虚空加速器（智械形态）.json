@@ -1,0 +1,30 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "拉玛刹/虚空加速器（智械形态）",
+  "name": "虚空加速器（智械形态）",
+  "hero": "拉玛刹",
+  "category": "Weapon",
+  "button": "主要攻击模式",
+  "description": "发射一串粒子",
+  "basicStats": {
+    "ammo": 100,
+    "reloadTime": 1
+  },
+  "keywords": [
+    {
+      "name": "暴击",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "5"
+    }
+  ]
+}

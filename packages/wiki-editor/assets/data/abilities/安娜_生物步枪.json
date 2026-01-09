@@ -1,0 +1,42 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "安娜/生物步枪",
+  "name": "生物步枪",
+  "hero": "安娜",
+  "category": "Weapon",
+  "button": "主要攻击模式",
+  "description": "可以治疗盟友并对敌人造成伤害的远距离步枪",
+  "basicStats": {
+    "ammo": 15,
+    "reloadTime": 1.5
+  },
+  "keywords": [
+    {
+      "name": "护甲贯穿",
+      "value": ""
+    },
+    {
+      "name": "可净化",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "总持续伤害量",
+      "value": "75"
+    },
+    {
+      "name": "总持续治疗量",
+      "value": "75"
+    },
+    {
+      "name": "效果持续时间",
+      "value": "0.6秒"
+    }
+  ]
+}

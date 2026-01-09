@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "无漾/水满则溢",
+  "name": "水满则溢",
+  "hero": "无漾",
+  "category": "Perk",
+  "button": null,
+  "description": "飞流步激活时，获得10发弹药和50%治疗资源",
+  "basicStats": {
+    "perkIndex": "2A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

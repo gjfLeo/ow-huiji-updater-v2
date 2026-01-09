@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "破坏球/滞空时间",
+  "name": "滞空时间",
+  "hero": "破坏球",
+  "category": "Perk",
+  "button": null,
+  "description": "重力坠击滞空时间延长，可在空中控制，造成的伤害最多提高50%",
+  "basicStats": {
+    "perkIndex": "3A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

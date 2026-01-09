@@ -1,0 +1,73 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "伊拉锐/桎梏灼日",
+  "name": "桎梏灼日",
+  "hero": "伊拉锐",
+  "category": "UltimateAbility",
+  "button": "技能 3",
+  "description": "发射一颗会爆炸的太阳能量球<br />被击中的敌人会减速，并在受到大量伤害后爆炸",
+  "basicStats": {
+    "ultimateCharge": 2975
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>球形</mark>范围内的目标"
+    },
+    {
+      "name": "引导",
+      "value": ""
+    },
+    {
+      "name": "可净化",
+      "value": ""
+    },
+    {
+      "name": "飞行",
+      "value": ""
+    },
+    {
+      "name": "装填",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "射弹伤害量",
+      "value": "55（直接命中）<br />50（范围伤害）"
+    },
+    {
+      "name": "日灼伤害量",
+      "value": "160-120（范围伤害）"
+    },
+    {
+      "name": "日灼伤害阈值",
+      "value": "90（伤害阈值）<br />6秒（持续时间）"
+    },
+    {
+      "name": "半径",
+      "value": "8米（射弹爆炸）<br />1-5米（日灼爆炸）"
+    },
+    {
+      "name": "飞行持续时间",
+      "value": "4秒"
+    },
+    {
+      "name": "移动速度加成",
+      "value": "+45%移动速度"
+    },
+    {
+      "name": "敌方移动速度惩罚",
+      "value": "-40%-0%移动速度"
+    },
+    {
+      "name": "飞行击退抗性",
+      "value": "+50%击退抗性"
+    }
+  ]
+}

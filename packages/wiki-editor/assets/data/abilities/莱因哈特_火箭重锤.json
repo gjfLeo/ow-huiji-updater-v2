@@ -1,0 +1,29 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "莱因哈特/火箭重锤",
+  "name": "火箭重锤",
+  "hero": "莱因哈特",
+  "category": "Weapon",
+  "button": "主要攻击模式",
+  "description": "毁灭性的近战武器",
+  "basicStats": {
+    "ammo": -1
+  },
+  "keywords": [
+    {
+      "name": "近身攻击",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "100"
+    },
+    {
+      "name": "范围",
+      "value": "4米"
+    }
+  ]
+}

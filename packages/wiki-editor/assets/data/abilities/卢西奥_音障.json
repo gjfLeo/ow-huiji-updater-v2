@@ -1,0 +1,37 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "卢西奥/音障",
+  "name": "音障",
+  "hero": "卢西奥",
+  "category": "UltimateAbility",
+  "button": "技能 3",
+  "description": "为附近盟友提供临时的额外生命值",
+  "basicStats": {
+    "ultimateCharge": 2900
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>球形</mark>范围内的目标"
+    },
+    {
+      "name": "过量生命值",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "初始过量生命值",
+      "value": "750"
+    },
+    {
+      "name": "半径",
+      "value": "30米"
+    },
+    {
+      "name": "持续时间",
+      "value": "6秒"
+    }
+  ]
+}

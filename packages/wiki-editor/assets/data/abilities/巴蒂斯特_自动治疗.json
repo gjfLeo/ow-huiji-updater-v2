@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "巴蒂斯特/自动治疗",
+  "name": "自动治疗",
+  "hero": "巴蒂斯特",
+  "category": "Perk",
+  "button": null,
+  "description": "使用任意技能会触发巴蒂斯特的肩负炮台，周期性对盟友发射最多3发治疗弹，每发恢复25点生命值",
+  "basicStats": {
+    "perkIndex": "2B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

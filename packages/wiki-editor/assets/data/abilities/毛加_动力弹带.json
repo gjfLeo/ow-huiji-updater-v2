@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "毛加/动力弹带",
+  "name": "动力弹带",
+  "hero": "毛加",
+  "category": "Perk",
+  "button": null,
+  "description": "蛮力冲撞冲锋期间会装填最多150发弹药",
+  "basicStats": {
+    "perkIndex": "2A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

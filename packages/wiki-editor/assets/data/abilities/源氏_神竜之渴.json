@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "源氏/神竜之渴",
+  "name": "神竜之渴",
+  "hero": "源氏",
+  "category": "Perk",
+  "button": null,
+  "description": "“斩”的挥击获得30%生命汲取效果",
+  "basicStats": {
+    "perkIndex": "2B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

@@ -1,0 +1,41 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "生命之梭/生命之握",
+  "name": "生命之握",
+  "hero": "生命之梭",
+  "category": "Ability",
+  "button": "技能 2",
+  "description": "把一名盟友拉到你的位置，在飞行过程中提供保护",
+  "basicStats": {
+    "cooldown": 18
+  },
+  "keywords": [
+    {
+      "name": "闪避",
+      "value": "<mark>受此技能影响的目标</mark>可穿过敌方英雄且不会阻挡位移"
+    },
+    {
+      "name": "无视屏障",
+      "value": "<mark>选定盟友时</mark>无视屏障"
+    },
+    {
+      "name": "无敌",
+      "value": "<mark>受此技能影响的目标</mark>不会受到伤害，可使目标机制进入争夺状态但无法占领"
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "射程",
+      "value": "30米"
+    },
+    {
+      "name": "治疗量",
+      "value": "75"
+    },
+    {
+      "name": "拖拽速度",
+      "value": "30米/秒"
+    }
+  ]
+}

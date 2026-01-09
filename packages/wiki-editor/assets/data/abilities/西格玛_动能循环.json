@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "西格玛/动能循环",
+  "name": "动能循环",
+  "hero": "西格玛",
+  "category": "Perk",
+  "button": null,
+  "description": "使用动能俘获吸收子弹还会缩短质量吸附的冷却时间",
+  "basicStats": {
+    "perkIndex": "2A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "狂鼠/一炸冲天",
+  "name": "一炸冲天",
+  "hero": "狂鼠",
+  "category": "Perk",
+  "button": null,
+  "description": "使用震荡地雷炸飞自己后，“狂鼠”的攻击速度加快35%，持续3秒",
+  "basicStats": {
+    "perkIndex": "3A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

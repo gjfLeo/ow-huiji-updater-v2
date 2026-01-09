@@ -1,0 +1,25 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "黑百合/抓钩",
+  "name": "抓钩",
+  "hero": "黑百合",
+  "category": "Ability",
+  "button": "技能 1",
+  "description": "射出抓钩并把自己拉向目标位置",
+  "basicStats": {
+    "cooldown": 10
+  },
+  "keywords": [
+    {
+      "name": "位移",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "射程",
+      "value": "20米"
+    }
+  ]
+}

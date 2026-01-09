@@ -1,0 +1,45 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "美/急冻",
+  "name": "急冻",
+  "hero": "美",
+  "category": "Ability",
+  "button": "技能 1",
+  "description": "变为无敌并恢复生命值",
+  "basicStats": {
+    "cooldown": 12
+  },
+  "keywords": [
+    {
+      "name": "净化",
+      "value": ""
+    },
+    {
+      "name": "无敌",
+      "value": ""
+    },
+    {
+      "name": "变身",
+      "value": ""
+    },
+    {
+      "name": "不可阻挡",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "持续治疗量",
+      "value": "62.5/秒"
+    },
+    {
+      "name": "持续时间",
+      "value": "4秒"
+    },
+    {
+      "name": "每秒装填量",
+      "value": "15/秒"
+    }
+  ]
+}

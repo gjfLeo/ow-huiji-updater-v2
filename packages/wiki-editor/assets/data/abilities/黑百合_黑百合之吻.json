@@ -1,0 +1,38 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "黑百合/黑百合之吻",
+  "name": "黑百合之吻",
+  "hero": "黑百合",
+  "category": "Weapon",
+  "button": "主要攻击模式",
+  "description": "全自动突击武器",
+  "basicStats": {
+    "ammo": 35,
+    "reloadTime": 1.5
+  },
+  "keywords": [
+    {
+      "name": "暴击",
+      "value": ""
+    },
+    {
+      "name": "即时命中",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "14（基础）<br />4.2（最大衰减）"
+    },
+    {
+      "name": "最小-最大衰减射程",
+      "value": "20-40米"
+    },
+    {
+      "name": "散布",
+      "value": "3.0度（最大）<br />射击11发后散布最大"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "查莉娅/粒子炮",
+  "name": "粒子炮",
+  "hero": "查莉娅",
+  "category": "Weapon",
+  "button": "主要攻击模式",
+  "description": "近距离线性光束武器",
+  "basicStats": {
+    "ammo": 100,
+    "reloadTime": 1.5
+  },
+  "keywords": [
+    {
+      "name": "光束",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "持续伤害量",
+      "value": "95/秒（0%能量）<br />190/秒（100%能量）"
+    },
+    {
+      "name": "射程",
+      "value": "15米"
+    },
+    {
+      "name": "弹药消耗量",
+      "value": "20/秒"
+    }
+  ]
+}

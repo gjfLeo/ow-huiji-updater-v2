@@ -1,0 +1,50 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "毛加/燃火链式机枪（老枪）",
+  "name": "燃火链式机枪（老枪）",
+  "hero": "毛加",
+  "category": "Weapon",
+  "button": "主要攻击模式",
+  "description": "自动武器，多次命中可点燃敌人",
+  "basicStats": {
+    "ammo": 300,
+    "reloadTime": 2
+  },
+  "keywords": [
+    {
+      "name": "燃烧",
+      "value": ""
+    },
+    {
+      "name": "暴击",
+      "value": ""
+    },
+    {
+      "name": "即时命中",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "4（基础）<br />1.2（最大衰减）"
+    },
+    {
+      "name": "燃烧",
+      "value": "命中10次可点燃<br />4秒持续时间<br />伤害量15/秒"
+    },
+    {
+      "name": "最小-最大衰减射程",
+      "value": "30-40米（基础）<br />15-20米（双枪）"
+    },
+    {
+      "name": "散布",
+      "value": "1度（基础）<br />4度（双枪）"
+    },
+    {
+      "name": "自身移动速度惩罚",
+      "value": "-15%移动速度（基础）<br />-30%移动速度（双枪）"
+    }
+  ]
+}

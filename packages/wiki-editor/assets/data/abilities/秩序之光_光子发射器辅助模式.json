@@ -1,0 +1,42 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "秩序之光/光子发射器辅助模式",
+  "name": "光子发射器辅助模式",
+  "hero": "秩序之光",
+  "category": "Weapon",
+  "button": "辅助攻击模式",
+  "description": "长按充能，松开后射出会爆炸的能量球",
+  "basicStats": {
+    "ammo": 100,
+    "reloadTime": 1.5
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "100-5（直接命中）<br />50-2.5（范围伤害）"
+    },
+    {
+      "name": "最大充能时间",
+      "value": "1秒"
+    },
+    {
+      "name": "最大弹药消耗量",
+      "value": "10"
+    },
+    {
+      "name": "最小-最大半径",
+      "value": "0.5-2米"
+    }
+  ]
+}

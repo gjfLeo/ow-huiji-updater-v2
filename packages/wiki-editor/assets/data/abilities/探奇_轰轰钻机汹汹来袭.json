@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "探奇/轰轰钻机汹汹来袭",
+  "name": "轰轰钻机汹汹来袭",
+  "hero": "探奇",
+  "category": "Perk",
+  "button": null,
+  "description": "地壳震击激活时，各项冷却刷新速度加快300%",
+  "basicStats": {
+    "perkIndex": "2B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

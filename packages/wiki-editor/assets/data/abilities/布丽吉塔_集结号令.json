@@ -1,0 +1,61 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "布丽吉塔/集结号令",
+  "name": "集结号令",
+  "hero": "布丽吉塔",
+  "category": "UltimateAbility",
+  "button": "技能 3",
+  "description": "获得护甲，强化屏障护盾，并为周围的盟友提供额外生命值",
+  "basicStats": {
+    "ultimateCharge": 2700
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>球形</mark>范围内的目标"
+    },
+    {
+      "name": "护甲",
+      "value": ""
+    },
+    {
+      "name": "过量生命值",
+      "value": ""
+    },
+    {
+      "name": "击晕",
+      "value": ""
+    },
+    {
+      "name": "变身",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "额外护甲",
+      "value": "100（自身）"
+    },
+    {
+      "name": "屏障额外生命值",
+      "value": "450"
+    },
+    {
+      "name": "持续时间",
+      "value": "10秒（技能）"
+    },
+    {
+      "name": "半径",
+      "value": "8米"
+    },
+    {
+      "name": "盟友过量生命值",
+      "value": "最多100<br />30/秒<br />30秒（衰减延迟）"
+    },
+    {
+      "name": "盾击击晕持续时间",
+      "value": "0.75秒"
+    }
+  ]
+}

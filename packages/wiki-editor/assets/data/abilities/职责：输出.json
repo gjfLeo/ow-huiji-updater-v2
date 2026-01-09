@@ -1,0 +1,27 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "职责：输出",
+  "name": "职责：输出",
+  "hero": "",
+  "category": "PassiveAbility",
+  "button": null,
+  "description": "对敌人造成伤害，会暂时降低其受到的治疗效果",
+  "basicStats": {},
+  "keywords": [
+    {
+      "name": "可净化",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "治疗量降低",
+      "value": "-30%治疗量（基础）<br />-15%治疗量（重装）"
+    },
+    {
+      "name": "治疗量降低持续时间",
+      "value": "3秒"
+    }
+  ]
+}

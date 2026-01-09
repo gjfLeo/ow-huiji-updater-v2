@@ -1,0 +1,53 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "查莉娅/重力喷涌",
+  "name": "重力喷涌",
+  "hero": "查莉娅",
+  "category": "UltimateAbility",
+  "button": "技能 3",
+  "description": "生成重力漩涡将敌人拉向中心",
+  "basicStats": {
+    "ultimateCharge": 2500
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>球形</mark>范围内的目标"
+    },
+    {
+      "name": "护甲贯穿",
+      "value": ""
+    },
+    {
+      "name": "屏障碰撞",
+      "value": ""
+    },
+    {
+      "name": "固定数值",
+      "value": ""
+    },
+    {
+      "name": "限制",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "半径",
+      "value": "7米"
+    },
+    {
+      "name": "持续时间",
+      "value": "4秒"
+    },
+    {
+      "name": "伤害量",
+      "value": "5（命中）<br />5/秒（持续）"
+    }
+  ]
+}

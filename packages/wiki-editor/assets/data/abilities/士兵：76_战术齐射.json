@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "士兵：76/战术齐射",
+  "name": "战术齐射",
+  "hero": "士兵：76",
+  "category": "Perk",
+  "button": null,
+  "description": "战术目镜持续期间，螺旋飞弹的冷却时间缩短80%",
+  "basicStats": {
+    "perkIndex": "2B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

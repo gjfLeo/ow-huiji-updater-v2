@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "秩序之光/悬浮屏障",
+  "name": "悬浮屏障",
+  "hero": "秩序之光",
+  "category": "Perk",
+  "button": null,
+  "description": "使用传送面板时可选择改为制造一面向前移动的屏障。再次按下 <kbd>E</kbd> 可减慢屏障的移动速度",
+  "basicStats": {
+    "perkIndex": "3A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

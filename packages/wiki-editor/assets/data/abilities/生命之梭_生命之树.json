@@ -1,0 +1,61 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "生命之梭/生命之树",
+  "name": "生命之树",
+  "hero": "生命之梭",
+  "category": "UltimateAbility",
+  "button": "技能 3",
+  "description": "种植一棵树，发芽时立即治疗盟友，<br />树木存活时会持续产生周期性治疗",
+  "basicStats": {
+    "ultimateCharge": 2200
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>球形</mark>范围内的目标"
+    },
+    {
+      "name": "无视屏障",
+      "value": "<mark>选定盟友时</mark>无视屏障"
+    },
+    {
+      "name": "可部署",
+      "value": ""
+    },
+    {
+      "name": "过量生命值",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "治疗量",
+      "value": "150（初始）<br />90（脉冲）"
+    },
+    {
+      "name": "过量生命值",
+      "value": "过量治疗量的50%转换为过量生命值<br />最大过量生命值100"
+    },
+    {
+      "name": "治疗脉冲间隔",
+      "value": "1.8秒"
+    },
+    {
+      "name": "树生命值",
+      "value": "1200"
+    },
+    {
+      "name": "半径",
+      "value": "12米"
+    },
+    {
+      "name": "持续时间",
+      "value": "15秒（树）"
+    },
+    {
+      "name": "过量生命值衰减延迟",
+      "value": "6秒"
+    }
+  ]
+}

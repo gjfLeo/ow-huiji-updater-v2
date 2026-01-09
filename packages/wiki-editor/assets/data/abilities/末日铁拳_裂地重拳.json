@@ -1,0 +1,41 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "末日铁拳/裂地重拳",
+  "name": "裂地重拳",
+  "hero": "末日铁拳",
+  "category": "Ability",
+  "button": "技能 1",
+  "description": "跃起并重击地面",
+  "basicStats": {
+    "cooldown": 6.5
+  },
+  "keywords": [
+    {
+      "name": "闪避",
+      "value": ""
+    },
+    {
+      "name": "位移",
+      "value": ""
+    },
+    {
+      "name": "冲击波",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "50"
+    },
+    {
+      "name": "冲击波",
+      "value": "90度（角度）<br />15米（范围）<br />1.4米（高度）<br />45米/秒（速度）<br />1.4/1.4米（爬升/下降）"
+    },
+    {
+      "name": "跳跃速度",
+      "value": "30米/秒"
+    }
+  ]
+}

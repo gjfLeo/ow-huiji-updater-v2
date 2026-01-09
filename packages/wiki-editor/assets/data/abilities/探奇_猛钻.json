@@ -1,0 +1,31 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "探奇/猛钻",
+  "name": "猛钻",
+  "hero": "探奇",
+  "category": "PassiveAbility",
+  "button": "快速近身攻击",
+  "description": "快速近身攻击造成更高伤害",
+  "basicStats": {},
+  "keywords": [
+    {
+      "name": "近身攻击",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "30（基础）<br />40（持续伤害量）"
+    },
+    {
+      "name": "持续时间",
+      "value": "0.7秒"
+    },
+    {
+      "name": "范围",
+      "value": "3米"
+    }
+  ]
+}

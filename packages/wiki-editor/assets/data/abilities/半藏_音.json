@@ -1,0 +1,41 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "半藏/音",
+  "name": "音",
+  "hero": "半藏",
+  "category": "Ability",
+  "button": "技能 1",
+  "description": "击中后短时间内显示敌人位置",
+  "basicStats": {
+    "cooldown": 12
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>球形</mark>范围内的目标"
+    },
+    {
+      "name": "暴击",
+      "value": ""
+    },
+    {
+      "name": "附着",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "位置显示半径",
+      "value": "9米"
+    },
+    {
+      "name": "持续时间",
+      "value": "6秒"
+    }
+  ]
+}

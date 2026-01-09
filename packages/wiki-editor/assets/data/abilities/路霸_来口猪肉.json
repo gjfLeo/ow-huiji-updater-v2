@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "路霸/来口猪肉",
+  "name": "来口猪肉",
+  "hero": "路霸",
+  "category": "Perk",
+  "button": null,
+  "description": "使用链钩会获得过量生命值，拖拽敌人的距离越长，获得的过量生命值越多，最多250点",
+  "basicStats": {
+    "perkIndex": "3B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

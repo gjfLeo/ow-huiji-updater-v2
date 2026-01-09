@@ -1,0 +1,57 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "D.Va/自毁",
+  "name": "自毁",
+  "hero": "D.Va",
+  "category": "UltimateAbility",
+  "button": "技能 3",
+  "description": "使机甲过载并将自己弹射出去，机甲会在短时间后爆炸",
+  "basicStats": {
+    "ultimateCharge": 1700
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>球形</mark>范围内的目标"
+    },
+    {
+      "name": "净化",
+      "value": ""
+    },
+    {
+      "name": "固定数值",
+      "value": "<mark>给此可部署物的拥有者施加</mark>增伤时，此可部署物的伤害不受影响"
+    },
+    {
+      "name": "可部署",
+      "value": "此可部署物<mark>不会受到伤害</mark>"
+    },
+    {
+      "name": "位移",
+      "value": "<mark>此可部署物</mark>具有被<mark>限制和击晕</mark>效果打断时会提前结束的强化位移"
+    },
+    {
+      "name": "装填",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "1000-50"
+    },
+    {
+      "name": "最小-最大半径",
+      "value": "6-21米"
+    },
+    {
+      "name": "爆炸延迟",
+      "value": "3秒"
+    },
+    {
+      "name": "最小-最大击退",
+      "value": "7.8米-22.4米/秒"
+    }
+  ]
+}

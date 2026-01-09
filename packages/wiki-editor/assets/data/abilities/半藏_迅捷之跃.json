@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "半藏/迅捷之跃",
+  "name": "迅捷之跃",
+  "hero": "半藏",
+  "category": "Perk",
+  "button": null,
+  "description": "箭矢蓄力时间越长，命中时会使“跃”的冷却时间缩短量越长，最多缩短1秒",
+  "basicStats": {
+    "perkIndex": "2B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

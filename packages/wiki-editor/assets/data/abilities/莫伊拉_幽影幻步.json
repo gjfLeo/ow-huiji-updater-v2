@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "莫伊拉/幽影幻步",
+  "name": "幽影幻步",
+  "hero": "莫伊拉",
+  "category": "Perk",
+  "button": null,
+  "description": "消散持续时间延长0.5秒并使跳跃高度提高50%",
+  "basicStats": {
+    "perkIndex": "3B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

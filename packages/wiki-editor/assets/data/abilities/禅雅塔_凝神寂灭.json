@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "禅雅塔/凝神寂灭",
+  "name": "凝神寂灭",
+  "hero": "禅雅塔",
+  "category": "Perk",
+  "button": null,
+  "description": "辅助攻击模式蓄力速度提高20%并可以额外蓄力一发“灭”法球",
+  "basicStats": {
+    "perkIndex": "3A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

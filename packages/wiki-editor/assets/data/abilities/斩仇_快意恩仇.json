@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "斩仇/快意恩仇",
+  "name": "快意恩仇",
+  "hero": "斩仇",
+  "category": "Perk",
+  "button": null,
+  "description": "将上一位对你造成最后一击的敌人作为目标。消灭目标会获得150点过量生命值并重置各项技能的冷却时间",
+  "basicStats": {
+    "perkIndex": "3A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

@@ -1,0 +1,49 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "破坏球/重力坠击",
+  "name": "重力坠击",
+  "hero": "破坏球",
+  "category": "Ability",
+  "button": "下蹲",
+  "description": "从空中向下发动猛击，将敌人击飞",
+  "basicStats": {
+    "cooldown": 8
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>球形</mark>范围内的目标"
+    },
+    {
+      "name": "闪避",
+      "value": ""
+    },
+    {
+      "name": "位移",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "100（基础）<br />20（最大衰减）"
+    },
+    {
+      "name": "最小-最大半径",
+      "value": "1.5-8米"
+    },
+    {
+      "name": "施放所需高度阈值",
+      "value": "3.5米"
+    },
+    {
+      "name": "击退",
+      "value": "12.1米/秒"
+    },
+    {
+      "name": "移动速度",
+      "value": "5米/秒（向上）<br />98米/秒（向下）"
+    }
+  ]
+}

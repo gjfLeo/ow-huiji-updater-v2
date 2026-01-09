@@ -1,0 +1,41 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "雾子/瞬",
+  "name": "瞬",
+  "hero": "雾子",
+  "category": "Ability",
+  "button": "技能 1",
+  "description": "瞬移至一名盟友身旁",
+  "basicStats": {
+    "cooldown": 7
+  },
+  "keywords": [
+    {
+      "name": "净化",
+      "value": ""
+    },
+    {
+      "name": "闪避",
+      "value": ""
+    },
+    {
+      "name": "无敌",
+      "value": ""
+    },
+    {
+      "name": "强位移",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "范围",
+      "value": "35米"
+    },
+    {
+      "name": "相移时间",
+      "value": "0.25秒"
+    }
+  ]
+}

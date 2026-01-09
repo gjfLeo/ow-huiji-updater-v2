@@ -1,0 +1,49 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "回声/飞行",
+  "name": "飞行",
+  "hero": "回声",
+  "category": "Ability",
+  "button": "技能 1",
+  "description": "迅速向前飞行，然后可以在一小段时间内自由飞行",
+  "basicStats": {
+    "cooldown": 6
+  },
+  "keywords": [
+    {
+      "name": "飞行",
+      "value": ""
+    },
+    {
+      "name": "显示生命值",
+      "value": ""
+    },
+    {
+      "name": "强位移",
+      "value": ""
+    },
+    {
+      "name": "变身",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "最大持续时间",
+      "value": "3秒"
+    },
+    {
+      "name": "基础速度",
+      "value": "8米/秒"
+    },
+    {
+      "name": "启动速度",
+      "value": "28米/秒"
+    },
+    {
+      "name": "飞行击退抗性",
+      "value": "+50%击退抗性"
+    }
+  ]
+}

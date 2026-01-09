@@ -1,0 +1,61 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "斩仇/旋风疾步",
+  "name": "旋风疾步",
+  "hero": "斩仇",
+  "category": "Ability",
+  "button": "技能 1",
+  "description": "向前猛冲并回旋劈斩",
+  "basicStats": {
+    "cooldown": 10
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>圆柱</mark>范围内的目标"
+    },
+    {
+      "name": "碰撞",
+      "value": ""
+    },
+    {
+      "name": "闪避",
+      "value": ""
+    },
+    {
+      "name": "近身攻击",
+      "value": ""
+    },
+    {
+      "name": "位移",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "近身攻击伤害量",
+      "value": "80-40"
+    },
+    {
+      "name": "最小-最大近身攻击半径",
+      "value": "3.5-6.5米"
+    },
+    {
+      "name": "效果范围",
+      "value": "半径6.5米<br />高度4米"
+    },
+    {
+      "name": "移动速度加成",
+      "value": "+350%"
+    },
+    {
+      "name": "持续时间",
+      "value": "0.5秒"
+    },
+    {
+      "name": "击退",
+      "value": "17.7米/秒（击中）<br />5.8米/秒（旋风）"
+    }
+  ]
+}

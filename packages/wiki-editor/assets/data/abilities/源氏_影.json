@@ -1,0 +1,37 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "源氏/影",
+  "name": "影",
+  "hero": "源氏",
+  "category": "Ability",
+  "button": "技能 1",
+  "description": "快速向前冲刺，对遇到的敌人造成伤害。消灭敌人可以重置冷却时间",
+  "basicStats": {
+    "cooldown": 8
+  },
+  "keywords": [
+    {
+      "name": "闪避",
+      "value": ""
+    },
+    {
+      "name": "位移",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "50"
+    },
+    {
+      "name": "范围",
+      "value": "15米"
+    },
+    {
+      "name": "速度",
+      "value": "50米/秒"
+    }
+  ]
+}

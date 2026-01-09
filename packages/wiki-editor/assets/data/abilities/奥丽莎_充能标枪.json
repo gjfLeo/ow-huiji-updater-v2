@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "奥丽莎/充能标枪",
+  "name": "充能标枪",
+  "hero": "奥丽莎",
+  "category": "Perk",
+  "button": null,
+  "description": "长按 <kbd>鼠标右键</kbd> 可为能量标枪充能，充能使标枪击退效果提高最多25%，弹道速度加快最多100%。充满后可贯穿敌人",
+  "basicStats": {
+    "perkIndex": "3A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

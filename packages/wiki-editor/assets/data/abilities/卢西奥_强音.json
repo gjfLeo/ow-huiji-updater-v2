@@ -1,0 +1,41 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "卢西奥/强音",
+  "name": "强音",
+  "hero": "卢西奥",
+  "category": "Ability",
+  "button": "技能 2",
+  "description": "强化当前歌曲的效果",
+  "basicStats": {
+    "cooldown": 12
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>球形</mark>范围内的目标"
+    },
+    {
+      "name": "强位移",
+      "value": "<mark>使用加速音效时</mark>，只会被限制效果沉默"
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "持续治疗量",
+      "value": "56/秒"
+    },
+    {
+      "name": "移动速度加成",
+      "value": "+60%移动速度"
+    },
+    {
+      "name": "半径",
+      "value": "12米"
+    },
+    {
+      "name": "持续时间",
+      "value": "3秒"
+    }
+  ]
+}

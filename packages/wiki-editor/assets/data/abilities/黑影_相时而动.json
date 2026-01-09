@@ -1,0 +1,18 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "黑影/相时而动",
+  "name": "相时而动",
+  "hero": "黑影",
+  "category": "PassiveAbility",
+  "button": null,
+  "description": "你可以透过墙体侦测到生命值低于一半的敌人，且对被侵入敌人造成更高伤害",
+  "basicStats": {},
+  "keywords": [],
+  "detailStats": [
+    {
+      "name": "提高伤害量",
+      "value": "+20%"
+    }
+  ]
+}

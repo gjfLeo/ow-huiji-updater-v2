@@ -1,0 +1,49 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "狂鼠/震荡地雷",
+  "name": "震荡地雷",
+  "hero": "狂鼠",
+  "category": "Ability",
+  "button": "技能 1",
+  "description": "按下 <kbd>LShift</kbd> 扔出一个可以击退敌人的地雷然后按下 <kbd>鼠标右键</kbd> 引爆",
+  "basicStats": {
+    "cooldown": 8
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>球形</mark>范围内的目标"
+    },
+    {
+      "name": "可部署",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "120-55"
+    },
+    {
+      "name": "爆炸半径",
+      "value": "1-3米"
+    },
+    {
+      "name": "生命值",
+      "value": "25"
+    },
+    {
+      "name": "充能次数",
+      "value": "2"
+    },
+    {
+      "name": "击退",
+      "value": "21.2米/秒"
+    }
+  ]
+}

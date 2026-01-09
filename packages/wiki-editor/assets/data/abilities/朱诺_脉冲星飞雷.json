@@ -1,0 +1,49 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "朱诺/脉冲星飞雷",
+  "name": "脉冲星飞雷",
+  "hero": "朱诺",
+  "category": "Ability",
+  "button": "辅助攻击模式",
+  "description": "按下 <kbd>鼠标右键</kbd> 锁定目标，随后按下 <kbd>鼠标左键</kbd> 发射追踪飞雷<br />持续治疗盟友并对敌人造成伤害",
+  "basicStats": {
+    "cooldown": 10
+  },
+  "keywords": [
+    {
+      "name": "引导",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "命中治疗量",
+      "value": "85"
+    },
+    {
+      "name": "总持续治疗量",
+      "value": "50"
+    },
+    {
+      "name": "持续治疗持续时间",
+      "value": "2.5秒"
+    },
+    {
+      "name": "命中伤害量",
+      "value": "85"
+    },
+    {
+      "name": "锁定射程",
+      "value": "40米"
+    },
+    {
+      "name": "最大持续时间",
+      "value": "4秒"
+    }
+  ]
+}

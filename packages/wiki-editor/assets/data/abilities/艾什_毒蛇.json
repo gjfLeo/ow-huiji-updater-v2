@@ -1,0 +1,42 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "艾什/毒蛇",
+  "name": "毒蛇",
+  "hero": "艾什",
+  "category": "Weapon",
+  "button": "主要攻击模式",
+  "description": "半自动步枪",
+  "basicStats": {
+    "ammo": 12,
+    "reloadTime": 3.5
+  },
+  "keywords": [
+    {
+      "name": "暴击",
+      "value": ""
+    },
+    {
+      "name": "即时命中",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "35（基础）<br />10.5（最大衰减）"
+    },
+    {
+      "name": "最小-最大衰减射程",
+      "value": "20-40米"
+    },
+    {
+      "name": "特殊装填时间",
+      "value": "0.5秒（启动）<br />0.3秒（单发子弹）"
+    },
+    {
+      "name": "最小-最大散布",
+      "value": "0-2度"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "艾什/毒蛇之刺",
+  "name": "毒蛇之刺",
+  "hero": "艾什",
+  "category": "Perk",
+  "button": null,
+  "description": "开镜射击对一名目标连续命中2次时会额外造成25点伤害并装填2发弹药",
+  "basicStats": {
+    "perkIndex": "3A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

@@ -1,0 +1,37 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "巴蒂斯特/增幅矩阵",
+  "name": "增幅矩阵",
+  "hero": "巴蒂斯特",
+  "category": "UltimateAbility",
+  "button": "技能 3",
+  "description": "投出一面矩阵，友方弹药穿过矩阵后伤害和治疗翻倍",
+  "basicStats": {
+    "ultimateCharge": 2550
+  },
+  "keywords": [
+    {
+      "name": "增伤",
+      "value": ""
+    },
+    {
+      "name": "可部署",
+      "value": "此可部署物<mark>不会受到伤害</mark>"
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害强化",
+      "value": "+100%伤害量"
+    },
+    {
+      "name": "治疗强化",
+      "value": "+100%治疗量"
+    },
+    {
+      "name": "持续时间",
+      "value": "10秒"
+    }
+  ]
+}

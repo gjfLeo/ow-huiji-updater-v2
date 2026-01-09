@@ -1,0 +1,50 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "秩序之光/哨戒炮",
+  "name": "哨戒炮",
+  "hero": "秩序之光",
+  "category": "Ability",
+  "button": "技能 1",
+  "description": "部署一个小型炮台对敌人造成伤害并使其减速",
+  "basicStats": {
+    "cooldown": 10,
+    "charges": 3
+  },
+  "keywords": [
+    {
+      "name": "无视屏障",
+      "value": "<mark>此可部署物部署期间</mark>无视屏障和英雄"
+    },
+    {
+      "name": "光束",
+      "value": ""
+    },
+    {
+      "name": "可部署",
+      "value": ""
+    },
+    {
+      "name": "固定数值",
+      "value": "<mark>给此可部署物的拥有者施加</mark>增伤时，此可部署物的伤害不受影响"
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "持续伤害量",
+      "value": "30/秒"
+    },
+    {
+      "name": "生命值",
+      "value": "40"
+    },
+    {
+      "name": "炮台攻击射程",
+      "value": "10米"
+    },
+    {
+      "name": "显示位置保留持续时间",
+      "value": "1秒"
+    }
+  ]
+}

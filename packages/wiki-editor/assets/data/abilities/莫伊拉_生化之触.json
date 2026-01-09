@@ -1,0 +1,43 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "莫伊拉/生化之触",
+  "name": "生化之触",
+  "hero": "莫伊拉",
+  "category": "Weapon",
+  "button": "主要攻击模式",
+  "description": "长按治疗前方所有队友。会消耗生化能量",
+  "basicStats": {},
+  "keywords": [
+    {
+      "name": "光束",
+      "value": "无视拦截射弹技能且无法暴击"
+    },
+    {
+      "name": "能量",
+      "value": ""
+    },
+    {
+      "name": "贯穿",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "持续治疗量",
+      "value": "80/秒（命中）<br />17/秒（持续）"
+    },
+    {
+      "name": "能量",
+      "value": "12.5%/秒（消耗）<br />2.4%/秒（被动恢复速度）<br />15.6%/秒（辅助攻击模式恢复速度）<br />0.45秒（恢复延迟）"
+    },
+    {
+      "name": "持续治疗持续时间",
+      "value": "3秒"
+    },
+    {
+      "name": "射程",
+      "value": "15米"
+    }
+  ]
+}

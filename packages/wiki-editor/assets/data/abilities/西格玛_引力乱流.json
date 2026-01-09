@@ -1,0 +1,65 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "西格玛/引力乱流",
+  "name": "引力乱流",
+  "hero": "西格玛",
+  "category": "UltimateAbility",
+  "button": "技能 3",
+  "description": "操控引力，将敌人先举到空中然后砸向地面",
+  "basicStats": {
+    "ultimateCharge": 2300
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>圆柱</mark>范围内的目标"
+    },
+    {
+      "name": "屏障贯穿",
+      "value": ""
+    },
+    {
+      "name": "引导",
+      "value": ""
+    },
+    {
+      "name": "固定数值",
+      "value": "此技能的<mark>百分比</mark>伤害不受增伤影响"
+    },
+    {
+      "name": "飞行",
+      "value": ""
+    },
+    {
+      "name": "限制",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "最大生命值的50%<br />50（抬升）"
+    },
+    {
+      "name": "效果范围",
+      "value": "半径7.5米<br />高度15米"
+    },
+    {
+      "name": "移动速度加成",
+      "value": "30%移动速度"
+    },
+    {
+      "name": "持续时间",
+      "value": "5秒（目标选择）<br />2.5秒（抬升）"
+    },
+    {
+      "name": "高重力",
+      "value": "-50%移动速度<br />0.6秒"
+    },
+    {
+      "name": "飞行击退抗性",
+      "value": "+50%击退抗性"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "末日铁拳/优胜劣汰",
+  "name": "优胜劣汰",
+  "hero": "末日铁拳",
+  "category": "Perk",
+  "button": null,
+  "description": "造成消灭时，最佳防守提供25点过量生命值，且最佳防守的过量生命值上限提高50点",
+  "basicStats": {
+    "perkIndex": "2B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

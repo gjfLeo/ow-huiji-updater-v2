@@ -1,0 +1,42 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "渣客女王/散弹枪",
+  "name": "散弹枪",
+  "hero": "渣客女王",
+  "category": "Weapon",
+  "button": "主要攻击模式",
+  "description": "泵动式霰弹枪",
+  "basicStats": {
+    "ammo": 8,
+    "reloadTime": 1.5
+  },
+  "keywords": [
+    {
+      "name": "暴击",
+      "value": ""
+    },
+    {
+      "name": "即时命中",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "单发齐射伤害量",
+      "value": "80（基础）<br />24（最大衰减）"
+    },
+    {
+      "name": "散布",
+      "value": "2.75度"
+    },
+    {
+      "name": "最小-最大衰减射程",
+      "value": "15-25米"
+    },
+    {
+      "name": "单发齐射弹丸数",
+      "value": "10"
+    }
+  ]
+}

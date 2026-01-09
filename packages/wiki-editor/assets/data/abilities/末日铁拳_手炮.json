@@ -1,0 +1,46 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "末日铁拳/手炮",
+  "name": "手炮",
+  "hero": "末日铁拳",
+  "category": "Weapon",
+  "button": "主要攻击模式",
+  "description": "可自动装弹的近距离散射武器",
+  "basicStats": {
+    "ammo": 4,
+    "reloadTime": 1.6
+  },
+  "keywords": [
+    {
+      "name": "暴击",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "单发齐射伤害量",
+      "value": "55（基础）<br />16.5（最大衰减）"
+    },
+    {
+      "name": "散布",
+      "value": "2.5度"
+    },
+    {
+      "name": "最小-最大衰减射程",
+      "value": "15-30米"
+    },
+    {
+      "name": "单发齐射弹丸数",
+      "value": "11"
+    },
+    {
+      "name": "单发射击装填时间",
+      "value": "0.4秒"
+    }
+  ]
+}

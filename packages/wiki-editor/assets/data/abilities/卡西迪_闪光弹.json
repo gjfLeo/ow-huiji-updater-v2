@@ -1,0 +1,45 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "卡西迪/闪光弹",
+  "name": "闪光弹",
+  "hero": "卡西迪",
+  "category": "Ability",
+  "button": "技能 2",
+  "description": "限制前方的敌人<br />减速并禁用敌人的位移技能",
+  "basicStats": {
+    "cooldown": 12
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>球形</mark>范围内的目标"
+    },
+    {
+      "name": "可净化",
+      "value": ""
+    },
+    {
+      "name": "限制",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "75"
+    },
+    {
+      "name": "限制持续时间",
+      "value": "1.2秒"
+    },
+    {
+      "name": "半径",
+      "value": "3米"
+    }
+  ]
+}

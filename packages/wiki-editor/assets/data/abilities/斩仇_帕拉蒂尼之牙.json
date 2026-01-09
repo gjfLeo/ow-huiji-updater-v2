@@ -1,0 +1,45 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "斩仇/帕拉蒂尼之牙",
+  "name": "帕拉蒂尼之牙",
+  "hero": "斩仇",
+  "category": "Weapon",
+  "button": "主要攻击模式",
+  "description": "高强度光束巨剑<br />连击会以一记势大力沉的竖直劈斩收尾",
+  "basicStats": {
+    "ammo": -1
+  },
+  "keywords": [
+    {
+      "name": "技能暴击",
+      "value": ""
+    },
+    {
+      "name": "近身攻击",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "45（挥击）<br />130（竖直劈斩暴击）"
+    },
+    {
+      "name": "范围",
+      "value": "4.3米（挥击）<br />6.8米（竖直劈斩暴击）"
+    },
+    {
+      "name": "空中竖直劈斩起跳速度",
+      "value": "12.8米/秒"
+    },
+    {
+      "name": "空中竖直劈斩猛劈速度",
+      "value": "40米/秒"
+    },
+    {
+      "name": "连击输入延迟",
+      "value": "0.75秒"
+    }
+  ]
+}

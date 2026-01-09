@@ -1,0 +1,37 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "朱诺/滑翔推进",
+  "name": "滑翔推进",
+  "hero": "朱诺",
+  "category": "Ability",
+  "button": "技能 1",
+  "description": "提高移动速度并沿水平方向滑翔",
+  "basicStats": {
+    "cooldown": 6
+  },
+  "keywords": [
+    {
+      "name": "引导",
+      "value": ""
+    },
+    {
+      "name": "强位移",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "移动速度加成",
+      "value": "+50%移动速度"
+    },
+    {
+      "name": "最大持续时间",
+      "value": "4秒"
+    },
+    {
+      "name": "滑翔击退抗性",
+      "value": "+50%击退抗性"
+    }
+  ]
+}

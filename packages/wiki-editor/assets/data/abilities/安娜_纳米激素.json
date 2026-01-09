@@ -1,0 +1,45 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "安娜/纳米激素",
+  "name": "纳米激素",
+  "hero": "安娜",
+  "category": "UltimateAbility",
+  "button": "技能 3",
+  "description": "提高一名队友造成的伤害，同时降低其受到的伤害",
+  "basicStats": {
+    "ultimateCharge": 2300
+  },
+  "keywords": [
+    {
+      "name": "增伤",
+      "value": ""
+    },
+    {
+      "name": "无视屏障",
+      "value": "<mark>选定盟友时</mark>无视屏障"
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害强化",
+      "value": "+50%伤害量"
+    },
+    {
+      "name": "受伤减免",
+      "value": "-50%承受伤害量"
+    },
+    {
+      "name": "瞬发治疗量",
+      "value": "250"
+    },
+    {
+      "name": "持续时间",
+      "value": "8秒"
+    },
+    {
+      "name": "射程",
+      "value": "40米"
+    }
+  ]
+}

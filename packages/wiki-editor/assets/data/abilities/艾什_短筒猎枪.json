@@ -1,0 +1,41 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "艾什/短筒猎枪",
+  "name": "短筒猎枪",
+  "hero": "艾什",
+  "category": "Ability",
+  "button": "技能 1",
+  "description": "轰击你前方的敌人，同时使你自己后退",
+  "basicStats": {
+    "cooldown": 10
+  },
+  "keywords": [
+    {
+      "name": "即时命中",
+      "value": ""
+    },
+    {
+      "name": "强位移",
+      "value": "受限制时禁用<mark>自身击退</mark>"
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "单发齐射伤害量",
+      "value": "90"
+    },
+    {
+      "name": "击退",
+      "value": "18米/秒（自身）<br />20米/秒（敌人）"
+    },
+    {
+      "name": "散布",
+      "value": "20度"
+    },
+    {
+      "name": "单发齐射弹丸数",
+      "value": "15"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "骇灾/激进狂热",
+  "name": "激进狂热",
+  "hero": "骇灾",
+  "category": "Perk",
+  "button": null,
+  "description": "尖刺护体的尖刺获得30%生命汲取",
+  "basicStats": {
+    "perkIndex": "2B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

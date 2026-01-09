@@ -1,0 +1,49 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "D.Va/推进器",
+  "name": "推进器",
+  "hero": "D.Va",
+  "category": "Ability",
+  "button": "技能 1",
+  "description": "向你的正前方突进",
+  "basicStats": {
+    "cooldown": 3.5
+  },
+  "keywords": [
+    {
+      "name": "闪避",
+      "value": ""
+    },
+    {
+      "name": "飞行",
+      "value": ""
+    },
+    {
+      "name": "位移",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "移动速度加成",
+      "value": "+118%移动速度"
+    },
+    {
+      "name": "最大持续时间",
+      "value": "2秒"
+    },
+    {
+      "name": "伤害量",
+      "value": "25"
+    },
+    {
+      "name": "击退",
+      "value": "17.5米/秒"
+    },
+    {
+      "name": "飞行击退抗性",
+      "value": "+90%击退抗性"
+    }
+  ]
+}

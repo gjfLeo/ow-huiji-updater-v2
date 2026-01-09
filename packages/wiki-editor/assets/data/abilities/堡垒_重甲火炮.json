@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "堡垒/重甲火炮",
+  "name": "重甲火炮",
+  "hero": "堡垒",
+  "category": "Perk",
+  "button": null,
+  "description": "火炮模式提供300点临时过量生命值",
+  "basicStats": {
+    "perkIndex": "2A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

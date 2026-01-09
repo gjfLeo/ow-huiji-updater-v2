@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "毛加/纵情燃烧",
+  "name": "纵情燃烧",
+  "hero": "毛加",
+  "category": "Perk",
+  "button": null,
+  "description": "用燃火链式机枪点燃敌人会获得50点过量生命值",
+  "basicStats": {
+    "perkIndex": "2B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

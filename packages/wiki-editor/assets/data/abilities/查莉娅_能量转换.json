@@ -1,0 +1,26 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "查莉娅/能量转换",
+  "name": "能量转换",
+  "hero": "查莉娅",
+  "category": "PassiveAbility",
+  "button": null,
+  "description": "阻挡伤害可以提高粒子炮的伤害",
+  "basicStats": {},
+  "keywords": [],
+  "detailStats": [
+    {
+      "name": "能量积攒比率",
+      "value": "0.2%/承受伤害量"
+    },
+    {
+      "name": "能量衰减速度",
+      "value": "2.5%/秒"
+    },
+    {
+      "name": "能量衰减延迟",
+      "value": "2秒"
+    }
+  ]
+}

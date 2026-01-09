@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "末日铁拳/悍猛矩阵",
+  "name": "悍猛矩阵",
+  "hero": "末日铁拳",
+  "category": "Perk",
+  "button": null,
+  "description": "悍猛格挡会在持续期间的第一秒内吸收飞弹",
+  "basicStats": {
+    "perkIndex": "3B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

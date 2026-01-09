@@ -1,0 +1,37 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "法老之鹰/震荡冲击",
+  "name": "震荡冲击",
+  "hero": "法老之鹰",
+  "category": "Ability",
+  "button": "技能 2",
+  "description": "射出爆炸性冲击击退敌人",
+  "basicStats": {
+    "cooldown": 7
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>球形</mark>范围内的目标"
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "击退",
+      "value": "20.6米/秒（爆炸）<br />31.1米/秒（直接命中）"
+    },
+    {
+      "name": "爆炸半径",
+      "value": "8米"
+    },
+    {
+      "name": "直接命中伤害量",
+      "value": "30"
+    }
+  ]
+}

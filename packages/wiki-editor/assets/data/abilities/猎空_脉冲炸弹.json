@@ -1,0 +1,45 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "猎空/脉冲炸弹",
+  "name": "脉冲炸弹",
+  "hero": "猎空",
+  "category": "UltimateAbility",
+  "button": "技能 3",
+  "description": "扔出一枚威力巨大的粘性炸弹",
+  "basicStats": {
+    "ultimateCharge": 1375
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>球形</mark>范围内的目标"
+    },
+    {
+      "name": "自我伤害",
+      "value": ""
+    },
+    {
+      "name": "附着",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "爆炸伤害量",
+      "value": "355（直接命中）<br />350-70（范围伤害）"
+    },
+    {
+      "name": "最小-最大半径",
+      "value": "2-4米"
+    },
+    {
+      "name": "爆炸延迟",
+      "value": "1秒"
+    }
+  ]
+}

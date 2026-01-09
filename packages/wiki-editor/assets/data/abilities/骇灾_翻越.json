@@ -1,0 +1,23 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "骇灾/翻越",
+  "name": "翻越",
+  "hero": "骇灾",
+  "category": "PassiveAbility",
+  "button": "跳跃",
+  "description": "攀爬矮墙并扒住边缘登上",
+  "basicStats": {},
+  "keywords": [
+    {
+      "name": "位移",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "爬墙速度",
+      "value": "6.3米/秒（开始）<br />4.4米/秒（结束）"
+    }
+  ]
+}

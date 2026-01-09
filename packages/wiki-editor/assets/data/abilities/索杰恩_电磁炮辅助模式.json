@@ -1,0 +1,35 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "索杰恩/电磁炮辅助模式",
+  "name": "电磁炮辅助模式",
+  "hero": "索杰恩",
+  "category": "Weapon",
+  "button": "辅助攻击模式",
+  "description": "消耗存储的能量<br />射出可以穿透敌人的强力一击",
+  "basicStats": {},
+  "keywords": [
+    {
+      "name": "弱效暴击",
+      "value": "命中暴击部位时造成<mark>1.5倍</mark>伤害"
+    },
+    {
+      "name": "即时命中",
+      "value": ""
+    },
+    {
+      "name": "贯穿",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "21-10.5（1充能）<br />120-60（100充能）"
+    },
+    {
+      "name": "伤害衰减",
+      "value": "40-60米（衰减射程）<br />50%（衰减系数）"
+    }
+  ]
+}

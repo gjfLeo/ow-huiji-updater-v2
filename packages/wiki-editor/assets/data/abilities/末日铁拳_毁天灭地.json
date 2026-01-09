@@ -1,0 +1,73 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "末日铁拳/毁天灭地",
+  "name": "毁天灭地",
+  "hero": "末日铁拳",
+  "category": "UltimateAbility",
+  "button": "技能 3",
+  "description": "按下 <kbd>Q</kbd> 跃向空中。移动瞄准圈随后按下 <kbd>鼠标左键</kbd> 发动攻击",
+  "basicStats": {
+    "ultimateCharge": 1975
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>球形</mark>范围内的目标"
+    },
+    {
+      "name": "可净化",
+      "value": ""
+    },
+    {
+      "name": "净化",
+      "value": ""
+    },
+    {
+      "name": "显示生命值",
+      "value": ""
+    },
+    {
+      "name": "无敌",
+      "value": "不会受到伤害。<mark>无法争夺或占领目标机制</mark>"
+    },
+    {
+      "name": "相移",
+      "value": ""
+    },
+    {
+      "name": "强位移",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "300（直接命中）<br />100-50（范围伤害）"
+    },
+    {
+      "name": "最小-最大半径",
+      "value": "2-8米"
+    },
+    {
+      "name": "持续治疗量",
+      "value": "90/秒"
+    },
+    {
+      "name": "敌方移动速度惩罚",
+      "value": "-50%移动速度"
+    },
+    {
+      "name": "移动速度加成",
+      "value": "+200%移动速度"
+    },
+    {
+      "name": "最大持续时间",
+      "value": "4秒"
+    },
+    {
+      "name": "空中冷却时间缩减",
+      "value": "+100%"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "伊拉锐/阳焰步枪",
+  "name": "阳焰步枪",
+  "hero": "伊拉锐",
+  "category": "Weapon",
+  "button": "主要攻击模式",
+  "description": "远距离自动充能步枪",
+  "basicStats": {
+    "ammo": 14,
+    "reloadTime": 1.5
+  },
+  "keywords": [
+    {
+      "name": "弱效暴击",
+      "value": "命中暴击部位时造成<mark>1.5倍</mark>伤害"
+    },
+    {
+      "name": "即时命中",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "充能伤害",
+      "value": "20-6（最小充能）<br />70-21（最大充能）"
+    },
+    {
+      "name": "最小-最大衰减射程",
+      "value": "30-50米"
+    }
+  ]
+}

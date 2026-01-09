@@ -1,0 +1,27 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "禅雅塔/蹬",
+  "name": "蹬",
+  "hero": "禅雅塔",
+  "category": "PassiveAbility",
+  "button": "快速近身攻击",
+  "description": "快速近身攻击伤害提高50%<br />击退效果大幅提高",
+  "basicStats": {},
+  "keywords": [
+    {
+      "name": "近身攻击",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "60"
+    },
+    {
+      "name": "击退",
+      "value": "16.8米/秒"
+    }
+  ]
+}

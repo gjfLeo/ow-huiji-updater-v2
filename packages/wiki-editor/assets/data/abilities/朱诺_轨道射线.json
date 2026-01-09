@@ -1,0 +1,45 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "朱诺/轨道射线",
+  "name": "轨道射线",
+  "hero": "朱诺",
+  "category": "UltimateAbility",
+  "button": "技能 3",
+  "description": "召唤一道射线向前移动<br />治疗盟友并提高其造成的伤害",
+  "basicStats": {
+    "ultimateCharge": 2900
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": ""
+    },
+    {
+      "name": "增伤",
+      "value": ""
+    },
+    {
+      "name": "无视屏障",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "持续治疗量",
+      "value": "85/秒"
+    },
+    {
+      "name": "伤害强化",
+      "value": "+30%伤害量"
+    },
+    {
+      "name": "持续时间",
+      "value": "8秒"
+    },
+    {
+      "name": "半径",
+      "value": "8米"
+    }
+  ]
+}

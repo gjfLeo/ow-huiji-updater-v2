@@ -1,0 +1,33 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "法老之鹰/推进背包",
+  "name": "推进背包",
+  "hero": "法老之鹰",
+  "category": "Ability",
+  "button": "技能 1",
+  "description": "快速向上飞行<br />补充部分燃料",
+  "basicStats": {
+    "cooldown": 14
+  },
+  "keywords": [
+    {
+      "name": "强位移",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "移动速度",
+      "value": "18.4米/秒"
+    },
+    {
+      "name": "燃料恢复",
+      "value": "+燃料上限的50%"
+    },
+    {
+      "name": "燃料恢复持续时间",
+      "value": "0.9秒"
+    }
+  ]
+}

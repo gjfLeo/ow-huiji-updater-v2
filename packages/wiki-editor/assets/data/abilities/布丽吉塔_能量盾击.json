@@ -1,0 +1,41 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "布丽吉塔/能量盾击",
+  "name": "能量盾击",
+  "hero": "布丽吉塔",
+  "category": "Ability",
+  "button": "主要攻击模式",
+  "description": "展开屏障护盾后可以向前疾冲<br />击退一名敌人",
+  "basicStats": {
+    "cooldown": 5
+  },
+  "keywords": [
+    {
+      "name": "屏障贯穿",
+      "value": "贯穿屏障"
+    },
+    {
+      "name": "碰撞",
+      "value": ""
+    },
+    {
+      "name": "位移",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "70"
+    },
+    {
+      "name": "击退",
+      "value": "6米/秒"
+    },
+    {
+      "name": "移动速度",
+      "value": "400%移动速度"
+    }
+  ]
+}

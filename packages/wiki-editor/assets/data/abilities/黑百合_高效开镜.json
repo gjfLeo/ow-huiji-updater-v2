@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "黑百合/高效开镜",
+  "name": "高效开镜",
+  "hero": "黑百合",
+  "category": "Perk",
+  "button": null,
+  "description": "开镜射击消耗的弹药从5发变为3发",
+  "basicStats": {
+    "perkIndex": "2A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

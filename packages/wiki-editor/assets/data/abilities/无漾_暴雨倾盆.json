@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "无漾/暴雨倾盆",
+  "name": "暴雨倾盆",
+  "hero": "无漾",
+  "category": "Perk",
+  "button": null,
+  "description": "可同时控制3颗水珠，每颗水珠造成的伤害降低60%，爆炸范围强化缩小25%",
+  "basicStats": {
+    "perkIndex": "3B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

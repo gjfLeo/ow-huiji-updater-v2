@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "渣客女王/飞沙利刃",
+  "name": "飞沙利刃",
+  "hero": "渣客女王",
+  "category": "Perk",
+  "button": null,
+  "description": "召回锯齿利刃时，其半径扩大100%并额外造成30点击中伤害",
+  "basicStats": {
+    "perkIndex": "3A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

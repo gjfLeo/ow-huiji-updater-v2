@@ -1,0 +1,45 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "源氏/斩",
+  "name": "斩",
+  "hero": "源氏",
+  "category": "UltimateAbility",
+  "button": "技能 3",
+  "description": "致命的近战武器",
+  "basicStats": {
+    "ultimateCharge": 2125
+  },
+  "keywords": [
+    {
+      "name": "近身攻击",
+      "value": ""
+    },
+    {
+      "name": "变身",
+      "value": ""
+    },
+    {
+      "name": "装填",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "110"
+    },
+    {
+      "name": "持续时间",
+      "value": "6秒"
+    },
+    {
+      "name": "移动速度加成",
+      "value": "+30%移动速度"
+    },
+    {
+      "name": "范围",
+      "value": "5米"
+    }
+  ]
+}

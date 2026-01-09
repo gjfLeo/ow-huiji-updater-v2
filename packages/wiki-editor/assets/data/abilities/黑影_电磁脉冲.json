@@ -1,0 +1,61 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "黑影/电磁脉冲",
+  "name": "电磁脉冲",
+  "hero": "黑影",
+  "category": "UltimateAbility",
+  "button": "技能 3",
+  "description": "对周围所有敌人造成相当于其当前生命值一定比例的伤害，侵入敌人并摧毁附近的敌方屏障",
+  "basicStats": {
+    "ultimateCharge": 1850
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>球形</mark>范围内的目标"
+    },
+    {
+      "name": "护甲贯穿",
+      "value": ""
+    },
+    {
+      "name": "可净化",
+      "value": ""
+    },
+    {
+      "name": "摧毁屏障",
+      "value": ""
+    },
+    {
+      "name": "固定数值",
+      "value": ""
+    },
+    {
+      "name": "侵入",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "当前生命值的25%"
+    },
+    {
+      "name": "侵入持续时间",
+      "value": "3秒（沉默）<br />8秒（显示位置）<br />10秒（可部署物）<br />45秒（急救包）<br />3秒（鲍勃）"
+    },
+    {
+      "name": "半径",
+      "value": "15米"
+    },
+    {
+      "name": "急救包刷新速度",
+      "value": "4倍"
+    },
+    {
+      "name": "跳跃速度",
+      "value": "1.25米/秒"
+    }
+  ]
+}

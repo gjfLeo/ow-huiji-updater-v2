@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "猎空/飞速闪回",
+  "name": "飞速闪回",
+  "hero": "猎空",
+  "category": "Perk",
+  "button": null,
+  "description": "闪回会使闪现的恢复速度加快150%，持续3秒",
+  "basicStats": {
+    "perkIndex": "3A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

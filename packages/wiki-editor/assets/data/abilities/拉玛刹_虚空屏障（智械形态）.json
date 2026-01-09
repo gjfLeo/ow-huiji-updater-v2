@@ -1,0 +1,37 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "拉玛刹/虚空屏障（智械形态）",
+  "name": "虚空屏障（智械形态）",
+  "hero": "拉玛刹",
+  "category": "Ability",
+  "button": "辅助攻击模式",
+  "description": "在目标位置制造一面屏障",
+  "basicStats": {
+    "cooldown": 13
+  },
+  "keywords": [
+    {
+      "name": "屏障",
+      "value": ""
+    },
+    {
+      "name": "可部署",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "生命值",
+      "value": "1000"
+    },
+    {
+      "name": "持续时间",
+      "value": "4秒"
+    },
+    {
+      "name": "最大射程",
+      "value": "35米"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "美/冰墙",
+  "name": "冰墙",
+  "hero": "美",
+  "category": "Ability",
+  "button": "技能 2",
+  "description": "在前方生成一堵冰墙",
+  "basicStats": {
+    "cooldown": 12
+  },
+  "keywords": [
+    {
+      "name": "可部署",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "持续时间",
+      "value": "5秒"
+    },
+    {
+      "name": "单根冰柱生命值",
+      "value": "250"
+    },
+    {
+      "name": "单根冰柱冰冻炮台半径",
+      "value": "0.75米"
+    }
+  ]
+}

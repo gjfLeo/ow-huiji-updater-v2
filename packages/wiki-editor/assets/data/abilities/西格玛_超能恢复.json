@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "西格玛/超能恢复",
+  "name": "超能恢复",
+  "hero": "西格玛",
+  "category": "Perk",
+  "button": null,
+  "description": "超能之球会为实验屏障恢复生命值，数值为超能之球伤害量的50%",
+  "basicStats": {
+    "perkIndex": "2B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

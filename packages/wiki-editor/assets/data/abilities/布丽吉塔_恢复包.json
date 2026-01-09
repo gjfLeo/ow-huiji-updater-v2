@@ -1,0 +1,46 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "布丽吉塔/恢复包",
+  "name": "恢复包",
+  "hero": "布丽吉塔",
+  "category": "Ability",
+  "button": "技能 2",
+  "description": "较短的时间内持续治疗一名盟友。",
+  "basicStats": {
+    "cooldown": 5,
+    "charges": 3
+  },
+  "keywords": [
+    {
+      "name": "无视屏障",
+      "value": "<mark>选定盟友时</mark>无视屏障"
+    },
+    {
+      "name": "强射弹",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "瞬发治疗量",
+      "value": "25"
+    },
+    {
+      "name": "总持续治疗量",
+      "value": "100"
+    },
+    {
+      "name": "射程",
+      "value": "25米"
+    },
+    {
+      "name": "效果持续时间",
+      "value": "2秒"
+    },
+    {
+      "name": "充能次数",
+      "value": "3"
+    }
+  ]
+}

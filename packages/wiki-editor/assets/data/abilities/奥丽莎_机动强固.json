@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "奥丽莎/机动强固",
+  "name": "机动强固",
+  "hero": "奥丽莎",
+  "category": "Perk",
+  "button": null,
+  "description": "强固防御激活时，奥丽莎的移动速度不会降低且不会产生热量",
+  "basicStats": {
+    "perkIndex": "2B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

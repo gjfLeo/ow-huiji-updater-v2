@@ -1,0 +1,45 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "伊拉锐/烈日冲击",
+  "name": "烈日冲击",
+  "hero": "伊拉锐",
+  "category": "Ability",
+  "button": "技能 1",
+  "description": "向移动方向弹射而出，同时击退敌人。按住跳跃键弹射高度更高",
+  "basicStats": {
+    "cooldown": 7
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>球形</mark>范围内的目标"
+    },
+    {
+      "name": "闪避",
+      "value": ""
+    },
+    {
+      "name": "无形",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "25"
+    },
+    {
+      "name": "半径",
+      "value": "8米"
+    },
+    {
+      "name": "速度",
+      "value": "6.0米/秒（点击）<br />13.5米/秒（长按）"
+    },
+    {
+      "name": "击退",
+      "value": "18.7米/秒"
+    }
+  ]
+}

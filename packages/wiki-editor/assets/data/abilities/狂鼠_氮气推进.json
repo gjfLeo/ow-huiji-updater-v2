@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "狂鼠/氮气推进",
+  "name": "氮气推进",
+  "hero": "狂鼠",
+  "category": "Perk",
+  "button": null,
+  "description": "炸弹轮胎施放期间，使用 %1$s 可在短时间内加速。加速会使炸弹轮胎的伤害降低50%",
+  "basicStats": {
+    "perkIndex": "2B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

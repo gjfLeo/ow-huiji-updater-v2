@@ -1,0 +1,33 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "温斯顿/屏障发射器",
+  "name": "屏障发射器",
+  "hero": "温斯顿",
+  "category": "Ability",
+  "button": "技能 2",
+  "description": "部署一个保护性能量罩",
+  "basicStats": {
+    "cooldown": 12
+  },
+  "keywords": [
+    {
+      "name": "屏障",
+      "value": ""
+    },
+    {
+      "name": "可部署",
+      "value": "一种具有独立生命池的非玩家实体，由<mark>强射弹部署</mark>"
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "屏障生命值",
+      "value": "650"
+    },
+    {
+      "name": "屏障持续时间",
+      "value": "8秒"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "温斯顿/屏障投掷",
+  "name": "屏障投掷",
+  "hero": "温斯顿",
+  "category": "Perk",
+  "button": null,
+  "description": "温斯顿使用屏障发射器时会将其向前扔出",
+  "basicStats": {
+    "perkIndex": "2A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

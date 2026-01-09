@@ -1,0 +1,39 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "伊拉锐/阳焰步枪辅助模式",
+  "name": "阳焰步枪辅助模式",
+  "hero": "伊拉锐",
+  "category": "Weapon",
+  "button": "辅助攻击模式",
+  "description": "消耗太阳能的中距离治疗光束",
+  "basicStats": {},
+  "keywords": [
+    {
+      "name": "光束",
+      "value": "无视拦截射弹技能且无法暴击"
+    },
+    {
+      "name": "引导",
+      "value": ""
+    },
+    {
+      "name": "能量",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "持续治疗量",
+      "value": "115/秒"
+    },
+    {
+      "name": "能量",
+      "value": "28.5%/秒（消耗）<br />43%/秒（恢复速度）<br />0.6秒（恢复延迟）"
+    },
+    {
+      "name": "射程",
+      "value": "20米"
+    }
+  ]
+}

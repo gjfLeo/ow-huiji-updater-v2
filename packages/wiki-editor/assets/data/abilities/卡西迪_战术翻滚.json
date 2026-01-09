@@ -1,0 +1,37 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "卡西迪/战术翻滚",
+  "name": "战术翻滚",
+  "hero": "卡西迪",
+  "category": "Ability",
+  "button": "技能 1",
+  "description": "向移动方向翻滚，降低所受伤害<br />并装填子弹",
+  "basicStats": {
+    "cooldown": 6
+  },
+  "keywords": [
+    {
+      "name": "闪避",
+      "value": ""
+    },
+    {
+      "name": "位移",
+      "value": ""
+    },
+    {
+      "name": "装填",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "受伤减免",
+      "value": "-50%承受伤害量"
+    },
+    {
+      "name": "速度",
+      "value": "15米/秒"
+    }
+  ]
+}

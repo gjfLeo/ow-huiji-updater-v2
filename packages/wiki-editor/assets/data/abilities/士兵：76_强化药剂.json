@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "士兵：76/强化药剂",
+  "name": "强化药剂",
+  "hero": "士兵：76",
+  "category": "Perk",
+  "button": "下一武器",
+  "description": "强化药剂会替代生物力场。使用后，“士兵：76”每秒治疗30点生命值，攻击速度提高20%，持续5秒",
+  "basicStats": {
+    "perkIndex": "3B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

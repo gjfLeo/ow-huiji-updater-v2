@@ -1,0 +1,23 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "朱诺/火星套靴",
+  "name": "火星套靴",
+  "hero": "朱诺",
+  "category": "PassiveAbility",
+  "button": "跳跃",
+  "description": "在空中时，按下 <kbd>空格</kbd> 可以二段跳<br />按住 <kbd>空格</kbd> 可以悬浮在空中",
+  "basicStats": {},
+  "keywords": [
+    {
+      "name": "位移",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "缓落速度",
+      "value": "3米/秒"
+    }
+  ]
+}

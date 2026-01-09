@@ -1,0 +1,46 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "骇灾/骨刺",
+  "name": "骨刺",
+  "hero": "骇灾",
+  "category": "Weapon",
+  "button": "主要攻击模式",
+  "description": "发射一簇尖刺",
+  "basicStats": {
+    "ammo": 8,
+    "reloadTime": 1.75
+  },
+  "keywords": [
+    {
+      "name": "暴击",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "单发齐射伤害量",
+      "value": "75（基础）<br />22.5（最大衰减）"
+    },
+    {
+      "name": "散布",
+      "value": "0度（1发中心弹丸）<br />1.8度（5发内圈弹丸）<br />3.5度（4发边缘弹丸）"
+    },
+    {
+      "name": "最小-最大衰减射程",
+      "value": "15-35米"
+    },
+    {
+      "name": "单发齐射弹丸数",
+      "value": "10"
+    },
+    {
+      "name": "尖刺护体持续装填",
+      "value": "每发弹药0.44秒"
+    }
+  ]
+}

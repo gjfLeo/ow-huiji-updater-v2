@@ -1,0 +1,41 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "堡垒/火炮模式",
+  "name": "火炮模式",
+  "hero": "堡垒",
+  "category": "UltimateAbility",
+  "button": "技能 3",
+  "description": "进入固定状态，发射最多3枚火力强大的炮弹",
+  "basicStats": {
+    "ultimateCharge": 2050
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>球形</mark>范围内的目标"
+    },
+    {
+      "name": "装填",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "550（直接命中）<br />250-50（范围伤害）"
+    },
+    {
+      "name": "最大持续时间",
+      "value": "8秒"
+    },
+    {
+      "name": "最小-最大半径",
+      "value": "1-6米"
+    }
+  ]
+}

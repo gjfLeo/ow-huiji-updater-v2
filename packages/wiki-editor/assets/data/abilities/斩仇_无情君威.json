@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "斩仇/无情君威",
+  "name": "无情君威",
+  "hero": "斩仇",
+  "category": "Perk",
+  "button": null,
+  "description": "越战越勇可额外叠加3次，每次会使攻击速度加快5%，移动速度加快4%",
+  "basicStats": {
+    "perkIndex": "2B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

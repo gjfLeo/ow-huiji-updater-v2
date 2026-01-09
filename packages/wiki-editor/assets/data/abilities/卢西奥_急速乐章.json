@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "卢西奥/急速乐章",
+  "name": "急速乐章",
+  "hero": "卢西奥",
+  "category": "Perk",
+  "button": null,
+  "description": "强音激活时，卢西奥的攻击速度提高50%",
+  "basicStats": {
+    "perkIndex": "3B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

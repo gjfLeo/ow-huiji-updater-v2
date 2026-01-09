@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "法老之鹰/海力士护盾",
+  "name": "海力士护盾",
+  "hero": "法老之鹰",
+  "category": "Perk",
+  "button": null,
+  "description": "将125点生命值转化为护盾。火箭发射器直接命中会触发被动护盾恢复",
+  "basicStats": {
+    "perkIndex": "2B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

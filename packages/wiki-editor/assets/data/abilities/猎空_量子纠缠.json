@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "猎空/量子纠缠",
+  "name": "量子纠缠",
+  "hero": "猎空",
+  "category": "Perk",
+  "button": null,
+  "description": "闪回提供会持续衰减的50点过量生命值和20发弹药",
+  "basicStats": {
+    "perkIndex": "3B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

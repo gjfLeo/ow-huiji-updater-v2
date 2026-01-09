@@ -1,0 +1,31 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "布丽吉塔/鼓舞士气",
+  "name": "鼓舞士气",
+  "hero": "布丽吉塔",
+  "category": "PassiveAbility",
+  "button": null,
+  "description": "对敌人造成伤害会为周围的盟友恢复生命",
+  "basicStats": {},
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>球形</mark>范围内的目标"
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "总持续治疗量",
+      "value": "60"
+    },
+    {
+      "name": "半径",
+      "value": "20米"
+    },
+    {
+      "name": "持续时间",
+      "value": "4秒"
+    }
+  ]
+}

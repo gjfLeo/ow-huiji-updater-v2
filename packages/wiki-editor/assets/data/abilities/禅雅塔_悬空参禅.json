@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "禅雅塔/悬空参禅",
+  "name": "悬空参禅",
+  "hero": "禅雅塔",
+  "category": "Perk",
+  "button": null,
+  "description": "跳起时长按跳跃可悬浮最多3秒",
+  "basicStats": {
+    "perkIndex": "2B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

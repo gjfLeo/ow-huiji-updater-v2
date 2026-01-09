@@ -1,0 +1,33 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "拉玛刹/铁臂（天罚形态）",
+  "name": "铁臂（天罚形态）",
+  "hero": "拉玛刹",
+  "category": "Ability",
+  "button": "辅助攻击模式",
+  "description": "大幅降低来自前方的伤害并降低自身移动速度",
+  "basicStats": {
+    "cooldown": 1
+  },
+  "keywords": [
+    {
+      "name": "引导",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "受伤减免",
+      "value": "-75%承受伤害量"
+    },
+    {
+      "name": "格挡受伤减免角度",
+      "value": "106.3度"
+    },
+    {
+      "name": "自身移动速度惩罚",
+      "value": "-50%移动速度"
+    }
+  ]
+}

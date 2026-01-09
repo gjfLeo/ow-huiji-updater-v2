@@ -1,0 +1,55 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "无漾/养神泉",
+  "name": "养神泉",
+  "hero": "无漾",
+  "category": "Weapon",
+  "button": "辅助攻击模式",
+  "description": "用一股可以被动治疗的泉水环绕一名盟友。对目标按住会消耗资源并手动快速治疗",
+  "basicStats": {},
+  "keywords": [
+    {
+      "name": "无视屏障",
+      "value": "<mark>选定盟友时</mark>无视屏障"
+    },
+    {
+      "name": "光束",
+      "value": "无视拦截射弹技能且无法暴击"
+    },
+    {
+      "name": "引导",
+      "value": ""
+    },
+    {
+      "name": "能量",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "被动持续治疗量",
+      "value": "25/秒"
+    },
+    {
+      "name": "光束持续治疗量",
+      "value": "50/秒"
+    },
+    {
+      "name": "光束锁定射程",
+      "value": "20米"
+    },
+    {
+      "name": "能量",
+      "value": "33.3%/秒（消耗）<br />12.5%/秒（恢复速度）<br />2秒（恢复延迟）"
+    },
+    {
+      "name": "视线丢失后被动持续时间",
+      "value": "5秒"
+    },
+    {
+      "name": "视线丢失后光束持续时间",
+      "value": "1秒"
+    }
+  ]
+}
