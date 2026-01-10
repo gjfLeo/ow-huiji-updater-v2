@@ -6,7 +6,7 @@
   "hero": "斩仇",
   "category": "Perk",
   "button": null,
-  "description": "旋风疾步会持续旋转，在大范围内额外攻击3次，每次伤害量为40点",
+  "description": "旋风疾步会持续旋转，在大范围内额外攻击3次，每次伤害量为35点",
   "basicStats": {
     "perkIndex": "3B"
   },

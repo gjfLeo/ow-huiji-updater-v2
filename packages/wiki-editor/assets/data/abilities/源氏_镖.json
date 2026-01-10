@@ -8,7 +8,7 @@
   "button": "主要攻击模式",
   "description": "扔出3发精准的手里剑",
   "basicStats": {
-    "ammo": 24,
+    "ammo": 30,
     "reloadTime": 1.5
   },
   "keywords": [

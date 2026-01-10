@@ -8,7 +8,7 @@
   "button": "辅助攻击模式",
   "description": "射出近距离冲击波击退敌人",
   "basicStats": {
-    "cooldown": 4
+    "cooldown": 5
   },
   "keywords": [
     {

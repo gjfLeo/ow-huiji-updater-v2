@@ -8,7 +8,7 @@
   "button": "辅助攻击模式",
   "description": "向前方弧形范围扔出3发手里剑",
   "basicStats": {
-    "ammo": 24,
+    "ammo": 30,
     "reloadTime": 1.5
   },
   "keywords": [
