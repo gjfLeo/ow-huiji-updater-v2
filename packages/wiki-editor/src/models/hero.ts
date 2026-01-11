@@ -33,4 +33,4 @@ export const zWikiHero = z.object({
     accessDate: z.string().optional(),
   }),
 });
-export type WikiHeroData = z.infer<typeof zWikiHero>;
+export type WikiHero = z.infer<typeof zWikiHero>;

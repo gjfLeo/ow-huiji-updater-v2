@@ -1,8 +1,11 @@
 import chalk from "chalk";
 import { HuijiWiki } from "huijiwiki-api";
-import ora from "ora";
+import { spinner } from "../utils/logger";
 
-export async function wikiLogin(options: { userType?: "bot" | "developer" | "user" } = {}) {
+export interface WikiLoginOptions {
+  userType?: "bot" | "developer" | "user";
+}
+export async function wikiLogin(options: WikiLoginOptions = {}) {
   const { userType = "user" } = options;
 
   const prefix = process.env.HUIJI_PREFIX;
@@ -30,14 +33,20 @@ export async function wikiLogin(options: { userType?: "bot" | "developer" | "use
     process.exit(1);
   }
 
-  const spinner = ora(`登录Wiki ${chalk.gray(username)}`).start();
-  const wiki = new HuijiWiki(prefix, authKey, { logLevel: 20 });
-  const loginSuccess = await wiki.apiLogin(username, password);
-  if (!loginSuccess) {
+  spinner.start(`登录Wiki ${chalk.gray(username)}`);
+  try {
+    const wiki = new HuijiWiki(prefix, authKey);
+    const loginSuccess = await wiki.apiLogin(username, password);
+    if (!loginSuccess) {
+      spinner.fail();
+      process.exit(1);
+    }
+    spinner.succeed();
+    return wiki;
+  }
+  catch (error) {
     spinner.fail();
+    console.error(error);
     process.exit(1);
   }
-  spinner.succeed();
-
-  return wiki;
 }

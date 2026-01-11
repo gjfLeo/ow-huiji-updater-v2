@@ -26,7 +26,7 @@ export const zAbilityButton = z.enum([
   "蹲姿切换",
 ]);
 
-export const zWikiAbilityData = z.object({
+export const zWikiAbility = z.object({
   _hjschema: z.literal("Ability"),
   _dataType: z.literal("ability"),
   key: z.string(),
@@ -50,4 +50,4 @@ export const zWikiAbilityData = z.object({
   keywords: z.array(z.object({ name: z.string(), value: z.string() })),
   detailStats: z.array(z.object({ name: z.string(), value: z.string() })),
 }).strict();
-export type WikiAbilityData = z.infer<typeof zWikiAbilityData>;
+export type WikiAbility = z.infer<typeof zWikiAbility>;
