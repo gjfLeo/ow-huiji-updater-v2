@@ -16,9 +16,13 @@
     "@antfu/eslint-config": "^6.7.3",
     "@gjfleo/eslint-config": "^1.2.5",
     "@types/bun": "latest",
-    "eslint": "^9.39.2"
+    "eslint": "^9.39.2",
+    "huijiwiki-api": "^0.8.4"
   },
   "trustedDependencies": [
     "@parcel/watcher"
-  ]
+  ],
+  "patchedDependencies": {
+    "huijiwiki-api@0.8.4": "patches/huijiwiki-api@0.8.4.patch"
+  }
 }

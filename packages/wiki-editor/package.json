@@ -18,10 +18,10 @@
     "find-up": "^8.0.0",
     "fs-extra": "^11.3.3",
     "fuse.js": "^7.1.0",
-    "huijiwiki-api": "^0.8.1",
+    "huijiwiki-api": "^0.8.4",
     "ofetch": "^1.5.1",
     "ora": "^9.0.0",
-    "sass": "^1.97.1",
+    "sass": "^1.97.2",
     "tinyglobby": "^0.2.15",
     "zod": "^4.3.5"
   }

@@ -1,0 +1,26 @@
+diff --git a/dist/HuijiWiki/HuijiWiki.d.ts b/dist/HuijiWiki/HuijiWiki.d.ts
+index 57bbed4428f773f39b8b9c2a5cad90c31e2026d2..c6ebb0af3c950711f101026e9c74f44f69c2d322 100644
+--- a/dist/HuijiWiki/HuijiWiki.d.ts	
++++ b/dist/HuijiWiki/HuijiWiki.d.ts
+@@ -87,6 +87,7 @@ export declare class HuijiWiki {
+      */
+     apiQueryListAllPages(filter?: {
+         namespace?: number;
++        prefix?: string;
+     }, options?: {
+         limit?: number;
+         continue?: string;
+diff --git a/dist/HuijiWiki/HuijiWiki.js b/dist/HuijiWiki/HuijiWiki.js
+index 2725d9df9c3d505388dc9c8adc48ea143133cd60..b55c63634947f8241cba5ce66470bf9f987a9a40 100644
+--- a/dist/HuijiWiki/HuijiWiki.js	
++++ b/dist/HuijiWiki/HuijiWiki.js
+@@ -308,6 +308,9 @@ class HuijiWiki {
+         if (filter?.namespace !== undefined) {
+             finalFilter['apnamespace'] = filter.namespace;
+         }
++        if (filter?.prefix !== undefined) {
++            finalFilter['apprefix'] = filter.prefix;
++        }
+         return await this.requester.request({
+             action: 'query',
+             list: 'allpages',
