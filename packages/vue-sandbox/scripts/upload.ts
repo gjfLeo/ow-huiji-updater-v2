@@ -11,7 +11,7 @@ const cssFile = Bun.file(path.join(__dirname, "../dist/Vue_Sandbox.css"));
 if (await jsFile.exists()) {
   const { edit: jsEditResult, error: jsEditError } = await wiki.apiEdit(
     "零件:Vue_Sandbox.js",
-    await jsFile.text(),
+    `// [[分类:由浏览器加载的零件]]\n${await jsFile.text()}`,
     { summary: "上传自ow-huiji-updater" },
   );
   if (jsEditResult) {

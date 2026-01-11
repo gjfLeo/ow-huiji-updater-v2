@@ -21,7 +21,6 @@ export default defineConfig({
       output: {
         format: "iife",
         entryFileNames: "Vue_Sandbox.js",
-        assetFileNames: "Vue_Sandbox.css",
         globals: {
           "vue": "Vue",
           "naive-ui": "naive",

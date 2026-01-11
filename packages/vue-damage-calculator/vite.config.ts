@@ -21,7 +21,6 @@ export default defineConfig({
       output: {
         format: "iife",
         entryFileNames: "Vue_DamageCalculator.js",
-        assetFileNames: "Vue_DamageCalculator.css",
         globals: {
           "vue": "Vue",
           "naive-ui": "naive",
