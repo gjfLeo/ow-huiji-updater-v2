@@ -35,7 +35,7 @@ export async function wikiLogin(options: WikiLoginOptions = {}) {
 
   spinner.start(`登录Wiki ${chalk.gray(username)}`);
   try {
-    const wiki = new HuijiWiki(prefix, authKey);
+    const wiki = new HuijiWiki(prefix, authKey, { logLevel: 20 });
     const loginSuccess = await wiki.apiLogin(username, password);
     if (!loginSuccess) {
       spinner.fail();

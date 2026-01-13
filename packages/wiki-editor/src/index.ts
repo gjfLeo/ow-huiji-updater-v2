@@ -23,7 +23,6 @@ const modulePromises = moduleFiles
     const moduleName = file.replace(".ts", "");
     const module = await import(`./modules/${moduleName}`);
     if (!module.default) {
-      console.warn(chalk.yellow(`Module ${moduleName} does not export a default function`));
       return null;
     }
     return {

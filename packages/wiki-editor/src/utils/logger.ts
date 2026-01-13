@@ -1,5 +1,4 @@
 import type { Options, Params } from "cli-progress";
-import type { success } from "zod";
 import chalk from "chalk";
 import { Bar, Format } from "cli-progress";
 import ora from "ora";
@@ -16,7 +15,7 @@ const progress = new Bar({
     const completedLength = params.progress * barLength;
     const fullSquareLength = Math.floor(completedLength);
     const halfSquareLength = Math.round((completedLength - fullSquareLength) * 8);
-    const halfSquareChar = ["", "\u258F", "\u258E", "\u258D", "\u258C", "\u258B", "\u258A", "\u2589"][halfSquareLength];
+    const halfSquareChar = ["", "\u258F", "\u258E", "\u258D", "\u258C", "\u258B", "\u258A", "\u2589", "\u2588"][halfSquareLength];
     const bar = chalk.gray.bgHex("#444")(`${"\u2588".repeat(fullSquareLength)}${halfSquareChar}`.padEnd(barLength, " "));
 
     const percentage = Format.ValueFormat(Math.floor(params.progress * 100), options, "percentage");
