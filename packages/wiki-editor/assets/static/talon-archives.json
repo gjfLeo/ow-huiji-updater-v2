@@ -1,0 +1,4069 @@
+{
+  "version": 183,
+  "ccc-goods": {
+    "10000": {
+      "id": 10000,
+      "name": "1份传奇补给",
+      "reward_type": 2,
+      "rarity": 1,
+      "hero_id": -1,
+      "hero_name": "-1",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251230/1767090779269_c10f0678a6.png"
+    },
+    "10001": {
+      "id": 10001,
+      "name": "沼泽巨兽",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20004,
+      "hero_name": "末日铁拳",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373119890_11b8b8bd66.jpg"
+    },
+    "10002": {
+      "id": 10002,
+      "name": "化身",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20004,
+      "hero_name": "末日铁拳",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373115353_5de3bfe634.jpg"
+    },
+    "10003": {
+      "id": 10003,
+      "name": "黑手",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20004,
+      "hero_name": "末日铁拳",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373116503_86f7342eb7.jpg"
+    },
+    "10004": {
+      "id": 10004,
+      "name": "霸王拳",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20004,
+      "hero_name": "末日铁拳",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373115740_f665ef7437.jpg"
+    },
+    "10005": {
+      "id": 10005,
+      "name": "铁王拳",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20004,
+      "hero_name": "末日铁拳",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373115119_145fda2a00.jpg"
+    },
+    "10006": {
+      "id": 10006,
+      "name": "神灵",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20004,
+      "hero_name": "末日铁拳",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373114740_b6e29eacf6.jpg"
+    },
+    "10007": {
+      "id": 10007,
+      "name": "战地指挥官",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20004,
+      "hero_name": "末日铁拳",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373101873_049c89f773.jpg"
+    },
+    "10008": {
+      "id": 10008,
+      "name": "巴斯特",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20004,
+      "hero_name": "末日铁拳",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251218/1766039560646_738fcc1d21.jpg"
+    },
+    "10010": {
+      "id": 10010,
+      "name": "角斗士",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20004,
+      "hero_name": "末日铁拳",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373110026_f7ecdb4814.jpg"
+    },
+    "10011": {
+      "id": 10011,
+      "name": "黑爪",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20004,
+      "hero_name": "末日铁拳",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373116909_d89c1945db.jpg"
+    },
+    "10012": {
+      "id": 10012,
+      "name": "雷霆重拳",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20004,
+      "hero_name": "末日铁拳",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373121135_d5c2fad6bb.jpg"
+    },
+    "10013": {
+      "id": 10013,
+      "name": "冰雪巨人",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20004,
+      "hero_name": "末日铁拳",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373123264_6f50ef8d9b.jpg"
+    },
+    "10014": {
+      "id": 10014,
+      "name": "科学家",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20044,
+      "hero_name": "莫伊拉",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373121987_4129a88f70.jpg"
+    },
+    "10015": {
+      "id": 10015,
+      "name": "女妖",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20044,
+      "hero_name": "莫伊拉",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373120774_0d215b007a.jpg"
+    },
+    "10016": {
+      "id": 10016,
+      "name": "假面舞者",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20044,
+      "hero_name": "莫伊拉",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373124546_707827fc3f.jpg"
+    },
+    "10017": {
+      "id": 10017,
+      "name": "绿洲城官员",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20044,
+      "hero_name": "莫伊拉",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373118700_d15265b2bd.jpg"
+    },
+    "10018": {
+      "id": 10018,
+      "name": "赛博科学家",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20044,
+      "hero_name": "莫伊拉",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373102914_a3ac6e2b99.jpg"
+    },
+    "10019": {
+      "id": 10019,
+      "name": "吸血女妖",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20044,
+      "hero_name": "莫伊拉",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373105971_26bb80582e.jpg"
+    },
+    "10020": {
+      "id": 10020,
+      "name": "暗影守望",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20044,
+      "hero_name": "莫伊拉",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373119183_9b9c2f7fd7.jpg"
+    },
+    "10021": {
+      "id": 10021,
+      "name": "灿日金辉",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20044,
+      "hero_name": "莫伊拉",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373105029_fd9db8e26d.jpg"
+    },
+    "10022": {
+      "id": 10022,
+      "name": "恶毒王后",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20044,
+      "hero_name": "莫伊拉",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373099300_1dc01ef428.jpg"
+    },
+    "10023": {
+      "id": 10023,
+      "name": "毒后君临",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20044,
+      "hero_name": "莫伊拉",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373100118_bfe9ba4591.jpg"
+    },
+    "10024": {
+      "id": 10024,
+      "name": "莉莉丝",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20044,
+      "hero_name": "莫伊拉",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373100357_a9db2956f6.jpg"
+    },
+    "10025": {
+      "id": 10025,
+      "name": "士兵：24",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20023,
+      "hero_name": "死神",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373119533_4d44a2c976.jpg"
+    },
+    "10026": {
+      "id": 10026,
+      "name": "无头死神",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20023,
+      "hero_name": "死神",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373110882_4b33fa022e.jpg"
+    },
+    "10027": {
+      "id": 10027,
+      "name": "吕布",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20023,
+      "hero_name": "死神",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373121627_fb4bece5d0.jpg"
+    },
+    "10028": {
+      "id": 10028,
+      "name": "暗影守望莱耶斯",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20023,
+      "hero_name": "死神",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373109681_0d69310c0d.jpg"
+    },
+    "10029": {
+      "id": 10029,
+      "name": "老鼠国王",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20023,
+      "hero_name": "死神",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373124976_67747ca18b.jpg"
+    },
+    "10030": {
+      "id": 10030,
+      "name": "阴曹差使",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20023,
+      "hero_name": "死神",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373098881_f665ad7cbb.jpg"
+    },
+    "10031": {
+      "id": 10031,
+      "name": "吸血死神",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20023,
+      "hero_name": "死神",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373115981_29ba130b8c.jpg"
+    },
+    "10032": {
+      "id": 10032,
+      "name": "灿日金辉",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20023,
+      "hero_name": "死神",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373104773_b969e6035d.jpg"
+    },
+    "10033": {
+      "id": 10033,
+      "name": "链锁幽王",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20023,
+      "hero_name": "死神",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373099577_18949caceb.jpg"
+    },
+    "10034": {
+      "id": 10034,
+      "name": "雄狮蒙面摔角",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20023,
+      "hero_name": "死神",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373108887_24a79b1d8b.jpg"
+    },
+    "10035": {
+      "id": 10035,
+      "name": "蒙面摔角",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20023,
+      "hero_name": "死神",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373108398_e4b6bd9040.jpg"
+    },
+    "10036": {
+      "id": 10036,
+      "name": "猛虎蒙面摔角",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20023,
+      "hero_name": "死神",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373108147_e75d6a2da0.jpg"
+    },
+    "10037": {
+      "id": 10037,
+      "name": "摩托车手",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20023,
+      "hero_name": "死神",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373113686_4060d202eb.jpg"
+    },
+    "10038": {
+      "id": 10038,
+      "name": "黑爪特工",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20032,
+      "hero_name": "黑影",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373117279_b5f2f2c62c.jpg"
+    },
+    "10039": {
+      "id": 10039,
+      "name": "玄天烛龙",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20032,
+      "hero_name": "黑影",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373107800_7d3c034d7e.jpg"
+    },
+    "10040": {
+      "id": 10040,
+      "name": "影秘忍者",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20032,
+      "hero_name": "黑影",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373105497_8d8f9a7e1e.jpg"
+    },
+    "10041": {
+      "id": 10041,
+      "name": "猎魔人",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20032,
+      "hero_name": "黑影",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251218/1766039560584_436ec08c05.jpg"
+    },
+    "10042": {
+      "id": 10042,
+      "name": "潜泳选手",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20032,
+      "hero_name": "黑影",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373114030_098d5147e3.jpg"
+    },
+    "10043": {
+      "id": 10043,
+      "name": "骷髅帮",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20032,
+      "hero_name": "黑影",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373112728_6e3ad1d51a.jpg"
+    },
+    "10044": {
+      "id": 10044,
+      "name": "超能黑客",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20032,
+      "hero_name": "黑影",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373112513_7160eea06d.jpg"
+    },
+    "10045": {
+      "id": 10045,
+      "name": "糖果派",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20032,
+      "hero_name": "黑影",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373111578_9bd85afda6.jpg"
+    },
+    "10046": {
+      "id": 10046,
+      "name": "赛博骇客",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20032,
+      "hero_name": "黑影",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373112054_68b667f5c5.jpg"
+    },
+    "10047": {
+      "id": 10047,
+      "name": "黑爪特工",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20033,
+      "hero_name": "黑百合",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373113459_0eb887bbe4.jpg"
+    },
+    "10048": {
+      "id": 10048,
+      "name": "砂蝎美人",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20033,
+      "hero_name": "黑百合",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373126811_df039ae962.jpg"
+    },
+    "10049": {
+      "id": 10049,
+      "name": "午夜百合",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20033,
+      "hero_name": "黑百合",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373117987_5835db629e.jpg"
+    },
+    "10050": {
+      "id": 10050,
+      "name": "诺娃",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20033,
+      "hero_name": "黑百合",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373118353_041c3b7a27.jpg"
+    },
+    "10051": {
+      "id": 10051,
+      "name": "夺魂使者",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20033,
+      "hero_name": "黑百合",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373107450_9dc2dbbfaa.jpg"
+    },
+    "10052": {
+      "id": 10052,
+      "name": "蓝色海岸",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20033,
+      "hero_name": "黑百合",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373114251_8e15f93d91.jpg"
+    },
+    "10053": {
+      "id": 10053,
+      "name": "雪地越野",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20033,
+      "hero_name": "黑百合",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373120420_034ecf44b7.jpg"
+    },
+    "10054": {
+      "id": 10054,
+      "name": "拉克瓦上尉",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20033,
+      "hero_name": "黑百合",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373101347_d4f1eea765.jpg"
+    },
+    "10055": {
+      "id": 10055,
+      "name": "凯瑞甘",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20033,
+      "hero_name": "黑百合",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373117636_559802a905.jpg"
+    },
+    "10056": {
+      "id": 10056,
+      "name": "飞翔的荷兰人",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20011,
+      "hero_name": "西格玛",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373110408_ab171dc4fc.jpg"
+    },
+    "10057": {
+      "id": 10057,
+      "name": "音乐家",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20011,
+      "hero_name": "西格玛",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251218/1766039560617_1066a081e0.jpg"
+    },
+    "10058": {
+      "id": 10058,
+      "name": "汪洋船长",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20011,
+      "hero_name": "西格玛",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251218/1766039560635_118cc69ce5.jpg"
+    },
+    "10059": {
+      "id": 10059,
+      "name": "精神病患",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20011,
+      "hero_name": "西格玛",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373126093_ef42c5d216.jpg"
+    },
+    "10060": {
+      "id": 10060,
+      "name": "神谕",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20011,
+      "hero_name": "西格玛",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373126441_96d8e8f964.jpg"
+    },
+    "10061": {
+      "id": 10061,
+      "name": "先知",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20011,
+      "hero_name": "西格玛",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373125339_bc1d7f25f2.jpg"
+    },
+    "10062": {
+      "id": 10062,
+      "name": "实验体",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20011,
+      "hero_name": "西格玛",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373125834_3c55d7fadb.jpg"
+    },
+    "10063": {
+      "id": 10063,
+      "name": "和平港之旅",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20006,
+      "hero_name": "毛加",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373101072_0656c33e64.jpg"
+    },
+    "10064": {
+      "id": 10064,
+      "name": "碎骸猎人",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20006,
+      "hero_name": "毛加",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373100699_67890c1213.jpg"
+    },
+    "10065": {
+      "id": 10065,
+      "name": "摇滚恶魔",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20006,
+      "hero_name": "毛加",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251218/1766039560600_949137d48e.jpg"
+    },
+    "10066": {
+      "id": 10066,
+      "name": "黑爪特工",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20038,
+      "hero_name": "巴蒂斯特",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373122552_baa41c69a9.jpg"
+    },
+    "10067": {
+      "id": 10067,
+      "name": "海上霸主",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20038,
+      "hero_name": "巴蒂斯特",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373123646_27ae0a5c81.jpg"
+    },
+    "10068": {
+      "id": 10068,
+      "name": "沙漠风暴",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20038,
+      "hero_name": "巴蒂斯特",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373124207_c9f413e7ea.jpg"
+    },
+    "10069": {
+      "id": 10069,
+      "name": "掠夺者",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20038,
+      "hero_name": "巴蒂斯特",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373122916_dc4e9871e5.jpg"
+    },
+    "10070": {
+      "id": 10070,
+      "name": "特种部队",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20038,
+      "hero_name": "巴蒂斯特",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373122326_6ceb1b0b16.jpg"
+    },
+    "10071": {
+      "id": 10071,
+      "name": "毒蝎悍将",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20038,
+      "hero_name": "巴蒂斯特",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373102389_810a9d073e.jpg"
+    },
+    "10072": {
+      "id": 10072,
+      "name": "跃动单板",
+      "reward_type": 1,
+      "rarity": 1,
+      "hero_id": 20038,
+      "hero_name": "巴蒂斯特",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373113094_dc6feba92f.jpg"
+    },
+    "10073": {
+      "id": 10073,
+      "name": "山灰",
+      "reward_type": 1,
+      "rarity": 3,
+      "hero_id": 20022,
+      "hero_name": "斩仇",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373106233_f51bc81247.jpg"
+    },
+    "10074": {
+      "id": 10074,
+      "name": "云石",
+      "reward_type": 1,
+      "rarity": 3,
+      "hero_id": 20022,
+      "hero_name": "斩仇",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373106476_ae56b949d8.jpg"
+    },
+    "10075": {
+      "id": 10075,
+      "name": "钙华",
+      "reward_type": 1,
+      "rarity": 3,
+      "hero_id": 20022,
+      "hero_name": "斩仇",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373106694_6973bd8167.jpg"
+    },
+    "10076": {
+      "id": 10076,
+      "name": "铜绿",
+      "reward_type": 1,
+      "rarity": 3,
+      "hero_id": 20022,
+      "hero_name": "斩仇",
+      "bigpic_url": "https://ld5.res.netease.com/images/20251210/1765373106979_1189dc700e.jpg"
+    }
+  },
+  "ccc-task": {
+    "50001": {
+      "id": 50001,
+      "task_type": 3,
+      "task_name": "黑爪训练",
+      "task_mark": "使用末日铁拳每完成1次击杀+5密钥（仅快速比赛和角斗领域）",
+      "task_income": 5,
+      "task_target": 1
+    },
+    "50002": {
+      "id": 50002,
+      "task_type": 3,
+      "task_name": "黑爪训练",
+      "task_mark": "使用黑百合每完成1次击杀+5密钥（仅快速比赛和角斗领域）",
+      "task_income": 5,
+      "task_target": 1
+    },
+    "50003": {
+      "id": 50003,
+      "task_type": 3,
+      "task_name": "黑爪训练",
+      "task_mark": "使用死神每完成1次击杀+5密钥（仅快速比赛和角斗领域）",
+      "task_income": 5,
+      "task_target": 1
+    },
+    "50004": {
+      "id": 50004,
+      "task_type": 3,
+      "task_name": "黑爪训练",
+      "task_mark": "使用黑影每完成1次击杀+5密钥（仅快速比赛和角斗领域）",
+      "task_income": 5,
+      "task_target": 1
+    },
+    "50005": {
+      "id": 50005,
+      "task_type": 3,
+      "task_name": "黑爪训练",
+      "task_mark": "使用斩仇每完成1次击杀+5密钥（仅快速比赛和角斗领域）",
+      "task_income": 5,
+      "task_target": 1
+    },
+    "50006": {
+      "id": 50006,
+      "task_type": 3,
+      "task_name": "黑爪训练",
+      "task_mark": "使用莫伊拉每完成1次击杀+5密钥（仅快速比赛和角斗领域）",
+      "task_income": 5,
+      "task_target": 1
+    },
+    "50007": {
+      "id": 50007,
+      "task_type": 3,
+      "task_name": "黑爪训练",
+      "task_mark": "使用西格玛每完成1次击杀+5密钥（仅快速比赛和角斗领域）",
+      "task_income": 5,
+      "task_target": 1
+    },
+    "50008": {
+      "id": 50008,
+      "task_type": 3,
+      "task_name": "黑爪训练",
+      "task_mark": "使用毛加每完成1次击杀+5密钥（仅快速比赛和角斗领域）",
+      "task_income": 5,
+      "task_target": 1
+    },
+    "50009": {
+      "id": 50009,
+      "task_type": 3,
+      "task_name": "黑爪训练",
+      "task_mark": "使用巴蒂斯特每完成1次击杀+5密钥（仅快速比赛和角斗领域）",
+      "task_income": 5,
+      "task_target": 1
+    },
+    "50021": {
+      "id": 50021,
+      "task_type": 1,
+      "task_name": "快速训练",
+      "task_mark": "完成10场比赛（不含自定义游戏、英雄精通或电脑训练）",
+      "task_income": 50,
+      "task_target": 10
+    },
+    "50022": {
+      "id": 50022,
+      "task_type": 1,
+      "task_name": "快速训练",
+      "task_mark": "完成20场比赛（不含自定义游戏、英雄精通或电脑训练）",
+      "task_income": 100,
+      "task_target": 20
+    },
+    "50023": {
+      "id": 50023,
+      "task_type": 1,
+      "task_name": "快速训练",
+      "task_mark": "完成30场比赛（不含自定义游戏、英雄精通或电脑训练）",
+      "task_income": 150,
+      "task_target": 30
+    },
+    "50031": {
+      "id": 50031,
+      "task_type": 1,
+      "task_name": "结伴训练",
+      "task_mark": "和好友组队完成10场比赛（不含自定义游戏、英雄精通或电脑训练）",
+      "task_income": 50,
+      "task_target": 10
+    },
+    "50032": {
+      "id": 50032,
+      "task_type": 1,
+      "task_name": "结伴训练",
+      "task_mark": "和好友组队完成20场比赛（不含自定义游戏、英雄精通或电脑训练）",
+      "task_income": 100,
+      "task_target": 20
+    },
+    "50033": {
+      "id": 50033,
+      "task_type": 1,
+      "task_name": "结伴训练",
+      "task_mark": "和好友组队完成30场比赛（不含自定义游戏、英雄精通或电脑训练）",
+      "task_income": 150,
+      "task_target": 30
+    }
+  },
+  "ccc-milestone": {
+    "60001": {
+      "id": 60001,
+      "milestone_name": "1份传奇补给",
+      "self_select": 1,
+      "reward_mark": "自选1个守望先锋英雄，完成100击杀（仅快速比赛、竞技比赛、角斗领域）",
+      "milestone_target": 100,
+      "reward_type": 4,
+      "reward_name": "1份传奇补给",
+      "reward_cnt": 1,
+      "reward_pic": "https://ld5.res.netease.com/images/20251230/1767080747871_57cac5ec7f.png"
+    },
+    "60011": {
+      "id": 60011,
+      "milestone_name": "1份传奇补给",
+      "self_select": 1,
+      "reward_mark": "自选1个守望先锋英雄，完成100击杀（仅快速比赛、竞技比赛和角斗领域）",
+      "milestone_target": 100,
+      "reward_type": 4,
+      "reward_name": "1份传奇补给",
+      "reward_cnt": 1,
+      "reward_pic": "https://ld5.res.netease.com/images/20251230/1767080747871_57cac5ec7f.png"
+    },
+    "60021": {
+      "id": 60021,
+      "milestone_name": "1份传奇补给",
+      "self_select": 1,
+      "reward_mark": "自选1个守望先锋英雄，完成100击杀（仅快速比赛、竞技比赛和角斗领域）",
+      "milestone_target": 100,
+      "reward_type": 4,
+      "reward_name": "1份传奇补给",
+      "reward_cnt": 1,
+      "reward_pic": "https://ld5.res.netease.com/images/20251230/1767080747871_57cac5ec7f.png"
+    },
+    "60031": {
+      "id": 60031,
+      "milestone_name": "3份补给",
+      "self_select": 0,
+      "reward_mark": "解锁3名主要人物档案的所有内容",
+      "milestone_target": 3,
+      "reward_type": 1,
+      "reward_name": "3份补给",
+      "reward_cnt": 3,
+      "reward_pic": "https://ld5.res.netease.com/images/20251216/1765866596675_dcd0b748bc.png"
+    },
+    "60041": {
+      "id": 60041,
+      "milestone_name": "5份补给",
+      "self_select": 0,
+      "reward_mark": "解锁5名主要人物档案的所有内容",
+      "milestone_target": 5,
+      "reward_type": 1,
+      "reward_name": "5份补给",
+      "reward_cnt": 5,
+      "reward_pic": "https://ld5.res.netease.com/images/20251216/1765866596675_dcd0b748bc.png"
+    },
+    "60051": {
+      "id": 60051,
+      "milestone_name": "5份补给",
+      "self_select": 0,
+      "reward_mark": "解锁全部主要人物档案的所有内容",
+      "milestone_target": 8,
+      "reward_type": 1,
+      "reward_name": "5份补给",
+      "reward_cnt": 5,
+      "reward_pic": "https://ld5.res.netease.com/images/20251216/1765866596675_dcd0b748bc.png"
+    },
+    "60061": {
+      "id": 60061,
+      "milestone_name": "1次自选机会",
+      "self_select": 0,
+      "reward_mark": "解锁全部次要人物档案的所有内容",
+      "milestone_target": 4,
+      "reward_type": 5,
+      "reward_name": "1次自选机会",
+      "reward_cnt": 1,
+      "reward_pic": "https://ld5.res.netease.com/images/20251216/1765866596675_dcd0b748bc.png"
+    },
+    "60071": {
+      "id": 60071,
+      "milestone_name": "3份史诗补给",
+      "self_select": 0,
+      "reward_mark": "解锁全部人物档案的所有内容",
+      "milestone_target": 12,
+      "reward_type": 2,
+      "reward_name": "3份史诗补给",
+      "reward_cnt": 3,
+      "reward_pic": "https://ld5.res.netease.com/images/20251216/1765866596730_3e47f4739b.png"
+    },
+    "60081": {
+      "id": 60081,
+      "milestone_name": "5份史诗补给",
+      "self_select": 0,
+      "reward_mark": "解锁全部关键事件的所有内容",
+      "milestone_target": 13,
+      "reward_type": 2,
+      "reward_name": "5份史诗补给",
+      "reward_cnt": 5,
+      "reward_pic": "https://ld5.res.netease.com/images/20251216/1765866596730_3e47f4739b.png"
+    },
+    "60091": {
+      "id": 60091,
+      "milestone_name": "头衔：黑爪历史学家",
+      "self_select": 0,
+      "reward_mark": "解锁全部内容",
+      "milestone_target": 109,
+      "reward_type": 3,
+      "reward_name": "头衔：黑爪历史学家",
+      "reward_cnt": 1,
+      "reward_pic": "https://ld5.res.netease.com/images/20251216/1765866596691_6c3f4a6349.png"
+    }
+  },
+  "ccc-hero": {
+    "20001": {
+      "hero_id": 20001,
+      "name": "D.VA",
+      "en-name": "D.VA",
+      "hero_type": 1,
+      "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/ca114f72193e4d58a85c087e9409242f1a31e808cf4058678b8cbf767c2a9a0a.png",
+      "img": ""
+    },
+    "20002": {
+      "hero_id": 20002,
+      "name": "奥丽莎",
+      "en-name": "ORISA",
+      "hero_type": 1,
+      "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/71e96294617e81051d120b5d04b491bb1ea40e2933da44d6631aae149aac411d.png",
+      "img": ""
+    },
+    "20003": {
+      "hero_id": 20003,
+      "name": "拉玛刹",
+      "en-name": "RAMATTRA",
+      "hero_type": 1,
+      "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/3e0367155e1940a24da076c6f1f065aacede88dbc323631491aa0cd5a51e0b66.png",
+      "img": ""
+    },
+    "20004": {
+      "hero_id": 20004,
+      "name": "末日铁拳",
+      "en-name": "DOOMFIST",
+      "hero_type": 1,
+      "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/13750471c693c1a360eb19d5ace229c8599a729cd961d72ebee0e157657b7d18.png",
+      "img": "https://ld5.res.netease.com/images/20251128/1764316465508_cffed5770d.png"
+    },
+    "20005": {
+      "hero_id": 20005,
+      "name": "查莉娅",
+      "en-name": "ZARYA",
+      "hero_type": 1,
+      "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/8819ba85823136640d8eba2af6fd7b19d46b9ee8ab192a4e06f396d1e5231f7a.png",
+      "img": ""
+    },
+    "20006": {
+      "hero_id": 20006,
+      "name": "毛加",
+      "en-name": "MAUGA",
+      "hero_type": 1,
+      "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/9ee3f5a62893091d575ec0a0d66df878597086374202c6fc7da2d63320a7d02e.png",
+      "img": ""
+    },
+    "20007": {
+      "hero_id": 20007,
+      "name": "渣客女王",
+      "en-name": "JUNKER-QUEEN",
+      "hero_type": 1,
+      "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/b4fa5f937fe07ef56c78bca80be9602c062b8d4451692aecff50e2f68c5c6476.png",
+      "img": ""
+    },
+    "20008": {
+      "hero_id": 20008,
+      "name": "温斯顿",
+      "en-name": "WINSTON",
+      "hero_type": 1,
+      "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/bd9c8e634d89488459dfc1aeb21b602fa5c39aa05601a4167682f3a3fed4e0ee.png",
+      "img": ""
+    },
+    "20009": {
+      "hero_id": 20009,
+      "name": "破坏球",
+      "en-name": "WRECKING-BALL",
+      "hero_type": 1,
+      "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5c18e39ce567ee8a84078f775b9f76a2ba891de601c059a3d2b46b61ae4afb42.png",
+      "img": ""
+    },
+    "20010": {
+      "hero_id": 20010,
+      "name": "莱因哈特",
+      "en-name": "REINHARDT",
+      "hero_type": 1,
+      "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/490d2f79f8547d6e364306af60c8184fb8024b8e55809e4cc501126109981a65.png",
+      "img": ""
+    },
+    "20011": {
+      "hero_id": 20011,
+      "name": "西格玛",
+      "en-name": "SIGMA",
+      "hero_type": 1,
+      "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/cd7a4c0a0df8924afb2c9f6df864ed040f20250440c36ca2eb634acf6609c5e4.png",
+      "img": ""
+    },
+    "20012": {
+      "hero_id": 20012,
+      "name": "路霸",
+      "en-name": "ROADHOG",
+      "hero_type": 1,
+      "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/72e02e747b66b61fcbc02d35d350770b3ec7cbaabd0a7ca17c0d82743d43a7e8.png",
+      "img": ""
+    },
+    "20013": {
+      "hero_id": 20013,
+      "name": "骇灾",
+      "en-name": "HAZARD",
+      "hero_type": 1,
+      "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/612ae1e6d28125bd4d4d18c2c4e5b004936c094556239ed24a1c0a806410a020.png",
+      "img": ""
+    },
+    "20014": {
+      "hero_id": 20014,
+      "name": "半藏",
+      "en-name": "HANZO",
+      "hero_type": 2,
+      "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/aecd8fa677f0093344fab7ccb7c37516c764df3f5ff339a5a845a030a27ba7e0.png",
+      "img": ""
+    },
+    "20015": {
+      "hero_id": 20015,
+      "name": "卡西迪",
+      "en-name": "CASSIDY",
+      "hero_type": 2,
+      "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/6cfb48b5597b657c2eafb1277dc5eef4a07eae90c265fcd37ed798189619f0a5.png",
+      "img": ""
+    },
+    "20016": {
+      "hero_id": 20016,
+      "name": "回声",
+      "en-name": "ECHO",
+      "hero_type": 2,
+      "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/f086bf235cc6b7f138609594218a8385c8e5f6405a39eceb0deb9afb429619fe.png",
+      "img": ""
+    },
+    "20017": {
+      "hero_id": 20017,
+      "name": "堡垒",
+      "en-name": "BASTION",
+      "hero_type": 2,
+      "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/4d715f722c42215072b5dd0240904aaed7b5285df0b2b082d0a7f1865b5ea992.png",
+      "img": ""
+    },
+    "20018": {
+      "hero_id": 20018,
+      "name": "士兵：76",
+      "en-name": "SOLDIER-76",
+      "hero_type": 2,
+      "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/20b4ef00ed05d6dba75df228241ed528df7b6c9556f04c8070bad1e2f89e0ff5.png",
+      "img": ""
+    },
+    "20019": {
+      "hero_id": 20019,
+      "name": "弗蕾娅",
+      "en-name": "FREJA",
+      "hero_type": 2,
+      "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5d1a515607b70f87fd391d0478fb4d706e31a7aebfbcb0edd2cfce04efad256c.png",
+      "img": ""
+    },
+    "20020": {
+      "hero_id": 20020,
+      "name": "托比昂",
+      "en-name": "TORBJORN",
+      "hero_type": 2,
+      "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/1309ab1add1cc19189a2c8bc7b1471f88efa1073e9705d2397fdb37d45707d01.png",
+      "img": ""
+    },
+    "20021": {
+      "hero_id": 20021,
+      "name": "探奇",
+      "en-name": "VENTURE",
+      "hero_type": 2,
+      "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5d87623006ccc77578396831d4629f91b5162235a553b3f442e1a43161898e94.png",
+      "img": ""
+    },
+    "20022": {
+      "hero_id": 20022,
+      "name": "斩仇",
+      "en-name": "VENDETTA",
+      "hero_type": 2,
+      "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/62f32041c5bdcb11bdaff6581fee2a9a372d8f61e117b36a1dc8ff6d0c8a1ead.png",
+      "img": ""
+    },
+    "20023": {
+      "hero_id": 20023,
+      "name": "死神",
+      "en-name": "REAPER",
+      "hero_type": 2,
+      "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/2edb9af69d987bb503cd31f7013ae693640e692b321a73d175957b9e64394f40.png",
+      "img": "https://ld5.res.netease.com/images/20251225/1766645351478_99c5b25e40.png"
+    },
+    "20024": {
+      "hero_id": 20024,
+      "name": "法老之鹰",
+      "en-name": "PHARAH",
+      "hero_type": 2,
+      "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/f8261595eca3e43e3b37cadb8161902cc416e38b7e0caa855f4555001156d814.png",
+      "img": ""
+    },
+    "20025": {
+      "hero_id": 20025,
+      "name": "源氏",
+      "en-name": "GENJI",
+      "hero_type": 2,
+      "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/4edf5ea6d58c449a2aeb619a3fda9fff36a069dfbe4da8bc5d8ec1c758ddb8dc.png",
+      "img": ""
+    },
+    "20026": {
+      "hero_id": 20026,
+      "name": "狂鼠",
+      "en-name": "JUNKRAT",
+      "hero_type": 2,
+      "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/037e3df083624e5480f8996821287479a375f62b470572a22773da0eaf9441d0.png",
+      "img": ""
+    },
+    "20027": {
+      "hero_id": 20027,
+      "name": "猎空",
+      "en-name": "TRACER",
+      "hero_type": 2,
+      "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/a66413200e934da19540afac965cfe8a2de4ada593d9a52d53108bb28e8bbc9c.png",
+      "img": ""
+    },
+    "20028": {
+      "hero_id": 20028,
+      "name": "秩序之光",
+      "en-name": "SYMMETRA",
+      "hero_type": 2,
+      "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/7f2024c5387c9d76d944a5db021c2774d1e9d7cbf39e9b6a35b364d38ea250ac.png",
+      "img": ""
+    },
+    "20029": {
+      "hero_id": 20029,
+      "name": "索杰恩",
+      "en-name": "SOJOURN",
+      "hero_type": 2,
+      "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/a53bf7ad9d2f33aaf9199a00989f86d4ba1f67c281ba550312c7d96e70fec4ea.png",
+      "img": ""
+    },
+    "20030": {
+      "hero_id": 20030,
+      "name": "美",
+      "en-name": "MEI",
+      "hero_type": 2,
+      "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/1533fcb0ee1d3f9586f84b4067c6f63eca3322c1c661f69bfb41cd9e4f4bcc11.png",
+      "img": ""
+    },
+    "20031": {
+      "hero_id": 20031,
+      "name": "艾什",
+      "en-name": "ASHE",
+      "hero_type": 2,
+      "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/8dc2a024c9b7d95c7141b2ef065590dbc8d9018d12ad15f76b01923986702228.png",
+      "img": ""
+    },
+    "20032": {
+      "hero_id": 20032,
+      "name": "黑影",
+      "en-name": "SOMBRA",
+      "hero_type": 2,
+      "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/bca8532688f01b071806063b9472f1c0f9fc9c7948e6b59e210006e69cec9022.png",
+      "img": ""
+    },
+    "20033": {
+      "hero_id": 20033,
+      "name": "黑百合",
+      "en-name": "WIDOWMAKER",
+      "hero_type": 2,
+      "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/a714f1cb33cc91c6b5b3e89ffe7e325b99e7c89cc8e8feced594f81305147efe.png",
+      "img": ""
+    },
+    "20034": {
+      "hero_id": 20034,
+      "name": "伊拉锐",
+      "en-name": "ILLARI",
+      "hero_type": 3,
+      "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/5ea986038f9d307bd4613d5e6f2c4c8e7f15f30ceeeabbdd7a06637a38f17e1f.png",
+      "img": ""
+    },
+    "20035": {
+      "hero_id": 20035,
+      "name": "卢西奥",
+      "en-name": "LUCIO",
+      "hero_type": 3,
+      "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/e2ff2527610a0fbe0c9956f80925123ef3e66c213003e29d37436de30b90e4e1.png",
+      "img": ""
+    },
+    "20036": {
+      "hero_id": 20036,
+      "name": "天使",
+      "en-name": "MERCY",
+      "hero_type": 3,
+      "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/2508ddd39a178d5f6ae993ab43eeb3e7961e5a54a9507e6ae347381193f28943.png",
+      "img": ""
+    },
+    "20037": {
+      "hero_id": 20037,
+      "name": "安娜",
+      "en-name": "ANA",
+      "hero_type": 3,
+      "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/3429c394716364bbef802180e9763d04812757c205e1b4568bc321772096ed86.png",
+      "img": ""
+    },
+    "20038": {
+      "hero_id": 20038,
+      "name": "巴蒂斯特",
+      "en-name": "BAPTISTE",
+      "hero_type": 3,
+      "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/f979896f74ba22db2a92a85ae1260124ab0a26665957a624365e0f96e5ac5b5c.png",
+      "img": ""
+    },
+    "20039": {
+      "hero_id": 20039,
+      "name": "布丽吉塔",
+      "en-name": "BRIGITTE",
+      "hero_type": 3,
+      "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/48392820c6976ee1cd8dde13e71df85bf15560083ee5c8658fe7c298095d619a.png",
+      "img": ""
+    },
+    "20040": {
+      "hero_id": 20040,
+      "name": "无漾",
+      "en-name": "WUYANG",
+      "hero_type": 3,
+      "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/e4157a71bb307b4ca910d901773f43d187c22101c5f4284a0a5f3caba8ec4bdd.png",
+      "img": ""
+    },
+    "20041": {
+      "hero_id": 20041,
+      "name": "朱诺",
+      "en-name": "JUNO",
+      "hero_type": 3,
+      "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/585b2d60cbd3c271b6ad5ad0922537af0c6836fab6c89cb9979077f7bb0832b5.png",
+      "img": ""
+    },
+    "20042": {
+      "hero_id": 20042,
+      "name": "生命之梭",
+      "en-name": "LIFEWEAVER",
+      "hero_type": 3,
+      "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/39d4514f1b858bc228035b09d5a74ed41f8eeefc9a0d1873570b216ba04334df.png",
+      "img": ""
+    },
+    "20043": {
+      "hero_id": 20043,
+      "name": "禅雅塔",
+      "en-name": "ZENYATTA",
+      "hero_type": 3,
+      "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/71cabc939c577581f66b952f9c70891db779251e8e70f29de3c7bf494edacfe4.png",
+      "img": ""
+    },
+    "20044": {
+      "hero_id": 20044,
+      "name": "莫伊拉",
+      "en-name": "MOIRA",
+      "hero_type": 3,
+      "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/000beeb5606e01497897fa9210dd3b1e78e1159ebfd8afdc9e989047d7d3d08f.png",
+      "img": ""
+    },
+    "20045": {
+      "hero_id": 20045,
+      "name": "雾子",
+      "en-name": "KIRIKO",
+      "hero_type": 3,
+      "icon": "https://d15f34w2p8l1cc.cloudfront.net/overwatch/088aff2153bdfa426984b1d5c912f6af0ab313f0865a81be0edd114e9a2f79f9.png",
+      "img": ""
+    },
+    "20101": {
+      "hero_id": 20101,
+      "name": "莫里森",
+      "en-name": "-1",
+      "hero_type": -1,
+      "icon": "-1",
+      "img": "-1"
+    },
+    "20102": {
+      "hero_id": 20102,
+      "name": "安东尼奥",
+      "en-name": "-1",
+      "hero_type": -1,
+      "icon": "https://ld5.res.netease.com/images/20251226/1766757550191_ecdb4afb1e.png",
+      "img": "-1"
+    },
+    "20103": {
+      "hero_id": 20103,
+      "name": "维埃利",
+      "en-name": "-1",
+      "hero_type": -1,
+      "icon": "https://ld5.res.netease.com/images/20251226/1766757550201_5abf2d6084.png",
+      "img": "-1"
+    },
+    "20104": {
+      "hero_id": 20104,
+      "name": "马克西米里安",
+      "en-name": "-1",
+      "hero_type": -1,
+      "icon": "https://ld5.res.netease.com/images/20251226/1766757550210_b83a1539fb.png",
+      "img": "-1"
+    }
+  },
+  "ccc-archives": {
+    "30001": {
+      "id": 30001,
+      "order_id": 1,
+      "name": "末日铁拳",
+      "type": 1,
+      "hero_id": 20004,
+      "hero_name": 0,
+      "key_amount": 0,
+      "img_url": "https://ld5.res.netease.com/images/20251225/1766644278873_a8690f121b.png",
+      "bgm_url": "https://ld5.v.netease.com/2025/1224/bc8403430413023d65827339b841d6c9.mp3"
+    },
+    "30002": {
+      "id": 30002,
+      "order_id": 2,
+      "name": "黑百合",
+      "type": 1,
+      "hero_id": 20033,
+      "hero_name": 0,
+      "key_amount": 0,
+      "img_url": "https://ld5.res.netease.com/images/20251225/1766644282174_c19a4686ce.png",
+      "bgm_url": "https://ld5.v.netease.com/2025/1224/db635b732297e963bc621bee92ac9074.mp3"
+    },
+    "30003": {
+      "id": 30003,
+      "order_id": 3,
+      "name": "死神",
+      "type": 1,
+      "hero_id": 20023,
+      "hero_name": 0,
+      "key_amount": 0,
+      "img_url": "https://ld5.res.netease.com/images/20251225/1766645351478_99c5b25e40.png",
+      "bgm_url": "https://ld5.v.netease.com/2025/1224/3b5550f9b5815dca90551014e3664c32.mp3"
+    },
+    "30004": {
+      "id": 30004,
+      "order_id": 4,
+      "name": "黑影",
+      "type": 1,
+      "hero_id": 20032,
+      "hero_name": 0,
+      "key_amount": 0,
+      "img_url": "https://ld5.res.netease.com/images/20251225/1766644281298_93c673e484.png",
+      "bgm_url": "https://ld5.v.netease.com/2025/1224/a457dd88f8cd35ce2b3ecfef0b66dcdb.mp3"
+    },
+    "30005": {
+      "id": 30005,
+      "order_id": 5,
+      "name": "莫伊拉",
+      "type": 1,
+      "hero_id": 20044,
+      "hero_name": 0,
+      "key_amount": 0,
+      "img_url": "https://ld5.res.netease.com/images/20251225/1766644280421_350d0724ae.png",
+      "bgm_url": "https://ld5.v.netease.com/2025/1224/48ade80cfa14ccd62d6581180de99258.mp3"
+    },
+    "30011": {
+      "id": 30011,
+      "order_id": 6,
+      "name": "马克西米里安",
+      "type": 1,
+      "hero_id": 20104,
+      "hero_name": 0,
+      "key_amount": 0,
+      "img_url": "https://ld5.res.netease.com/images/20251225/1766644281009_c2039ad805.png",
+      "bgm_url": "https://ld5.v.netease.com/2025/0814/ab983000fe3ec55dc784e3da9478e095.mp3"
+    },
+    "30009": {
+      "id": 30009,
+      "order_id": 7,
+      "name": "巴蒂斯特",
+      "type": 1,
+      "hero_id": 20038,
+      "hero_name": 0,
+      "key_amount": 0,
+      "img_url": "https://ld5.res.netease.com/images/20251225/1766644278284_b45acbd60a.png",
+      "bgm_url": "https://ld5.v.netease.com/2025/1224/7061d8ad19ad8feb58434e8edb07d388.mp3"
+    },
+    "30008": {
+      "id": 30008,
+      "order_id": 8,
+      "name": "斩仇",
+      "type": 1,
+      "hero_id": 20022,
+      "hero_name": 0,
+      "key_amount": 0,
+      "img_url": "https://ld5.res.netease.com/images/20251225/1766644281692_d61327c3cf.png",
+      "bgm_url": "https://ld5.v.netease.com/2025/1224/456bd632ebb333c7bead5ab7c199a875.mp3"
+    },
+    "30010": {
+      "id": 30010,
+      "order_id": 9,
+      "name": "安东尼奥",
+      "type": 2,
+      "hero_id": 20102,
+      "hero_name": 0,
+      "key_amount": 3,
+      "img_url": "https://ld5.res.netease.com/images/20251225/1766644277637_356eeffe62.png",
+      "bgm_url": "-1"
+    },
+    "30012": {
+      "id": 30012,
+      "order_id": 10,
+      "name": "维埃利",
+      "type": 2,
+      "hero_id": 20103,
+      "hero_name": 0,
+      "key_amount": 3,
+      "img_url": "https://ld5.res.netease.com/images/20251225/1766644280039_dd2c29b7d9.png",
+      "bgm_url": "-1"
+    },
+    "30006": {
+      "id": 30006,
+      "order_id": 11,
+      "name": "西格玛",
+      "type": 2,
+      "hero_id": 20011,
+      "hero_name": 0,
+      "key_amount": 7,
+      "img_url": "https://ld5.res.netease.com/images/20251225/1766644280657_66b5bf5cb3.png",
+      "bgm_url": "https://ld5.v.netease.com/2025/1224/3ead9e547f2a90243872873219f6b475.mp3"
+    },
+    "30007": {
+      "id": 30007,
+      "order_id": 12,
+      "name": "毛加",
+      "type": 2,
+      "hero_id": 20006,
+      "hero_name": 0,
+      "key_amount": 5,
+      "img_url": "https://ld5.res.netease.com/images/20251225/1766644279681_6cd3f793e6.png",
+      "bgm_url": "https://ld5.v.netease.com/2025/1224/e5c33a14c4a654b557ab09b768ce26d5.mp3"
+    },
+    "30020": {
+      "id": 30020,
+      "order_id": 21,
+      "name": "智械危机",
+      "type": 3,
+      "hero_id": -1,
+      "hero_name": -1,
+      "key_amount": 1,
+      "img_url": "https://ld5.res.netease.com/images/20251226/1766755144003_436e7eb01e.png",
+      "bgm_url": "-1"
+    },
+    "30039": {
+      "id": 30039,
+      "order_id": 22,
+      "name": "档案编号B-7107 黑爪起源",
+      "type": 5,
+      "hero_id": -1,
+      "hero_name": -1,
+      "key_amount": 3,
+      "img_url": "https://ld5.res.netease.com/images/20251226/1766755145429_cd785a3e39.png",
+      "bgm_url": "-1"
+    },
+    "30040": {
+      "id": 30040,
+      "order_id": 23,
+      "name": "档案编号B-7111 奥斯陆",
+      "type": 5,
+      "hero_id": -1,
+      "hero_name": -1,
+      "key_amount": 10,
+      "img_url": "https://ld5.res.netease.com/images/20251226/1766755142524_9ce0de91dc.png",
+      "bgm_url": "-1"
+    },
+    "30022": {
+      "id": 30022,
+      "order_id": 24,
+      "name": "威尼斯事件",
+      "type": 3,
+      "hero_id": -1,
+      "hero_name": -1,
+      "key_amount": 2,
+      "img_url": "https://ld5.res.netease.com/images/20251226/1766755142868_d0fd9103d5.png",
+      "bgm_url": "https://ld5.v.netease.com/2025/1224/e8c9fbcb71bcab54b0bc0bb0f330a189.mp3"
+    },
+    "30041": {
+      "id": 30041,
+      "order_id": 25,
+      "name": "档案编号B-7110 末日铁拳的继承",
+      "type": 5,
+      "hero_id": -1,
+      "hero_name": -1,
+      "key_amount": 5,
+      "img_url": "https://ld5.res.netease.com/images/20251226/1766755144829_e76028b820.png",
+      "bgm_url": "-1"
+    },
+    "30024": {
+      "id": 30024,
+      "order_id": 26,
+      "name": "哈瓦那事件",
+      "type": 3,
+      "hero_id": -1,
+      "hero_name": -1,
+      "key_amount": 3,
+      "img_url": "https://ld5.res.netease.com/images/20251226/1766755142054_d3dacfc0b3.png",
+      "bgm_url": "https://ld5.v.netease.com/2025/1224/59ef53373e059fb8fd100ad0ae9de48c.mp3"
+    },
+    "30025": {
+      "id": 30025,
+      "order_id": 27,
+      "name": "“末日铁拳”入狱",
+      "type": 3,
+      "hero_id": -1,
+      "hero_name": -1,
+      "key_amount": 5,
+      "img_url": "https://ld5.res.netease.com/images/20251229/1766977323099_90da8dd2ff.png",
+      "bgm_url": "-1"
+    },
+    "30026": {
+      "id": 30026,
+      "order_id": 28,
+      "name": "守望先锋的解散",
+      "type": 3,
+      "hero_id": -1,
+      "hero_name": -1,
+      "key_amount": 10,
+      "img_url": "https://ld5.res.netease.com/images/20251226/1766755143667_dda5264783.png",
+      "bgm_url": "-1"
+    },
+    "30027": {
+      "id": 30027,
+      "order_id": 29,
+      "name": "孟达塔遇刺",
+      "type": 3,
+      "hero_id": -1,
+      "hero_name": -1,
+      "key_amount": 3,
+      "img_url": "https://ld5.res.netease.com/images/20251226/1766755143084_3262839a28.png",
+      "bgm_url": "-1"
+    },
+    "30028": {
+      "id": 30028,
+      "order_id": 30,
+      "name": "温斯顿重新召唤守望特工",
+      "type": 3,
+      "hero_id": -1,
+      "hero_name": -1,
+      "key_amount": 1,
+      "img_url": "https://ld5.res.netease.com/images/20251226/1766755143296_5e615ce579.png",
+      "bgm_url": "-1"
+    },
+    "30029": {
+      "id": 30029,
+      "order_id": 31,
+      "name": "刺杀沃斯卡娅",
+      "type": 3,
+      "hero_id": -1,
+      "hero_name": -1,
+      "key_amount": 2,
+      "img_url": "https://ld5.res.netease.com/images/20251226/1766755141587_ff93442897.png",
+      "bgm_url": "-1"
+    },
+    "30030": {
+      "id": 30030,
+      "order_id": 32,
+      "name": "“末日铁拳”回归",
+      "type": 3,
+      "hero_id": -1,
+      "hero_name": -1,
+      "key_amount": 1,
+      "img_url": "https://ld5.res.netease.com/images/20251226/1766755144358_a92a12c37d.png",
+      "bgm_url": "-1"
+    },
+    "30031": {
+      "id": 30031,
+      "order_id": 33,
+      "name": "全球冲突",
+      "type": 3,
+      "hero_id": -1,
+      "hero_name": -1,
+      "key_amount": 2,
+      "img_url": "https://ld5.res.netease.com/images/20251226/1766755141095_0e9e121eee.png",
+      "bgm_url": "-1"
+    },
+    "30033": {
+      "id": 30033,
+      "order_id": -1,
+      "name": "义肢技术发展事件",
+      "type": 4,
+      "hero_id": -1,
+      "hero_name": -1,
+      "key_amount": 1,
+      "img_url": "",
+      "bgm_url": "-1"
+    },
+    "30034": {
+      "id": 30034,
+      "order_id": -1,
+      "name": "努巴尼机场袭击事件",
+      "type": 4,
+      "hero_id": -1,
+      "hero_name": -1,
+      "key_amount": 3,
+      "img_url": "",
+      "bgm_url": "-1"
+    },
+    "30035": {
+      "id": 30035,
+      "order_id": -1,
+      "name": "劫持柯伊伯博士",
+      "type": 4,
+      "hero_id": -1,
+      "hero_name": -1,
+      "key_amount": 1,
+      "img_url": "",
+      "bgm_url": "-1"
+    },
+    "30036": {
+      "id": 30036,
+      "order_id": -1,
+      "name": "拉玛刹与禅雅塔会面",
+      "type": 4,
+      "hero_id": -1,
+      "hero_name": -1,
+      "key_amount": 1,
+      "img_url": "",
+      "bgm_url": "-1"
+    },
+    "30037": {
+      "id": 30037,
+      "order_id": -1,
+      "name": "国王行动",
+      "type": 4,
+      "hero_id": -1,
+      "hero_name": -1,
+      "key_amount": 3,
+      "img_url": "",
+      "bgm_url": "https://ld5.v.netease.com/2025/1224/53342cd88b8b45dfa0a58296f87f0652.mp3"
+    }
+  },
+  "ccc-medias": {
+    "40001": {
+      "id": 40001,
+      "media_name": "起源：破晓",
+      "media_type": 1,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40002": {
+      "id": 40002,
+      "media_name": "末日铁拳：英雄故事",
+      "media_type": 1,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40003": {
+      "id": 40003,
+      "media_name": "起源：重生",
+      "media_type": 1,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40004": {
+      "id": 40004,
+      "media_name": "起源：天真",
+      "media_type": 1,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40005": {
+      "id": 40005,
+      "media_name": "拉玛刹：英雄故事",
+      "media_type": 1,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40006": {
+      "id": 40006,
+      "media_name": "威尼斯行动",
+      "media_type": 1,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40007": {
+      "id": 40007,
+      "media_name": "哈瓦那行动",
+      "media_type": 1,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40008": {
+      "id": 40008,
+      "media_name": "行动档案-威尼斯行动-001",
+      "media_type": 1,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40009": {
+      "id": 40009,
+      "media_name": "行动档案-哈瓦那行动-001",
+      "media_type": 1,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40010": {
+      "id": 40010,
+      "media_name": "行动档案-哈瓦那行动-002",
+      "media_type": 1,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40011": {
+      "id": 40011,
+      "media_name": "行动档案-威尼斯行动-002",
+      "media_type": 1,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40012": {
+      "id": 40012,
+      "media_name": "审讯记录：马克西米里安",
+      "media_type": 1,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40013": {
+      "id": 40013,
+      "media_name": "新生",
+      "media_type": 1,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40014": {
+      "id": 40014,
+      "media_name": "渗透",
+      "media_type": 1,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40015": {
+      "id": 40015,
+      "media_name": "故事时间《和解》",
+      "media_type": 1,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40016": {
+      "id": 40016,
+      "media_name": "守望先锋博物馆",
+      "media_type": 1,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40017": {
+      "id": 40017,
+      "media_name": "守望先锋：归来",
+      "media_type": 1,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40018": {
+      "id": 40018,
+      "media_name": "莫伊拉：英雄故事",
+      "media_type": 1,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40019": {
+      "id": 40019,
+      "media_name": "巴蒂斯特：英雄故事",
+      "media_type": 1,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40020": {
+      "id": 40020,
+      "media_name": "好日子",
+      "media_type": 1,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40021": {
+      "id": 40021,
+      "media_name": "黑影：英雄故事",
+      "media_type": 1,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40022": {
+      "id": 40022,
+      "media_name": "回声：英雄故事",
+      "media_type": 1,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40023": {
+      "id": 40023,
+      "media_name": "毛加：英雄故事",
+      "media_type": 1,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40024": {
+      "id": 40024,
+      "media_name": "狩猎开始",
+      "media_type": 1,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40025": {
+      "id": 40025,
+      "media_name": "西格玛：英雄故事",
+      "media_type": 1,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40026": {
+      "id": 40026,
+      "media_name": "新的帝国",
+      "media_type": 1,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40027": {
+      "id": 40027,
+      "media_name": "斩仇",
+      "media_type": 1,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40028": {
+      "id": 40028,
+      "media_name": "逐风猎手",
+      "media_type": 1,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40029": {
+      "id": 40029,
+      "media_name": "守望先锋：动员令",
+      "media_type": 1,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40030": {
+      "id": 40030,
+      "media_name": "档案编号B-7106-视频1",
+      "media_type": 1,
+      "key_amount": 0,
+      "tag_url": "-1"
+    },
+    "40031": {
+      "id": 40031,
+      "media_name": "档案编号B-7106-视频2",
+      "media_type": 1,
+      "key_amount": 0,
+      "tag_url": "-1"
+    },
+    "40101": {
+      "id": 40101,
+      "media_name": "青年阿坎·奥古迪姆",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": "-1"
+    },
+    "40102": {
+      "id": 40102,
+      "media_name": "阿金吉·奥迪耶米",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": "-1"
+    },
+    "40103": {
+      "id": 40103,
+      "media_name": "三代末日铁拳",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": "-1"
+    },
+    "40104": {
+      "id": 40104,
+      "media_name": "杰哈·拉克瓦和艾米丽·拉克瓦",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": "-1"
+    },
+    "40105": {
+      "id": 40105,
+      "media_name": "莱耶斯探望杰哈",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": "-1"
+    },
+    "40106": {
+      "id": 40106,
+      "media_name": "黑百合在杰哈墓前",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": "-1"
+    },
+    "40107": {
+      "id": 40107,
+      "media_name": "「本地新闻」堂·朗博蒂科品牌享誉国际，但品牌创始人却正在淡出人们的视线-1",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": "-1"
+    },
+    "40108": {
+      "id": 40108,
+      "media_name": "哈瓦那事件-图1",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": "-1"
+    },
+    "40109": {
+      "id": 40109,
+      "media_name": "国王大道的冲突",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": "-1"
+    },
+    "40110": {
+      "id": 40110,
+      "media_name": "孟达塔参加奠基仪式",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": "-1"
+    },
+    "40111": {
+      "id": 40111,
+      "media_name": "“归零者”攻击国王大道-001",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": "-1"
+    },
+    "40112": {
+      "id": 40112,
+      "media_name": "“归零者”攻击国王大道-002",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": "-1"
+    },
+    "40113": {
+      "id": 40113,
+      "media_name": "国王行动",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": "-1"
+    },
+    "40114": {
+      "id": 40114,
+      "media_name": "孟达塔遇刺-图1",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": "-1"
+    },
+    "40115": {
+      "id": 40115,
+      "media_name": "孟达塔遇刺-图2",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": "-1"
+    },
+    "40116": {
+      "id": 40116,
+      "media_name": "孟达塔遇刺-图3",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": "-1"
+    },
+    "40117": {
+      "id": 40117,
+      "media_name": "孟达塔遇刺-图4",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": "-1"
+    },
+    "40118": {
+      "id": 40118,
+      "media_name": "黑爪狙击手",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": "-1"
+    },
+    "40119": {
+      "id": 40119,
+      "media_name": "末日铁拳-图1",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": "-1"
+    },
+    "40121": {
+      "id": 40121,
+      "media_name": "末日铁拳-图3",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": "-1"
+    },
+    "40122": {
+      "id": 40122,
+      "media_name": "末日铁拳-图4",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": "-1"
+    },
+    "40123": {
+      "id": 40123,
+      "media_name": "末日铁拳-图5",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": "-1"
+    },
+    "40124": {
+      "id": 40124,
+      "media_name": "莫伊拉-图1",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": "-1"
+    },
+    "40125": {
+      "id": 40125,
+      "media_name": "莫伊拉-图2",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": "-1"
+    },
+    "40126": {
+      "id": 40126,
+      "media_name": "莫伊拉-图3",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": "-1"
+    },
+    "40127": {
+      "id": 40127,
+      "media_name": "莫伊拉-图4",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": "-1"
+    },
+    "40128": {
+      "id": 40128,
+      "media_name": "莫伊拉-图5",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": "-1"
+    },
+    "40129": {
+      "id": 40129,
+      "media_name": "黑百合-图1",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": "-1"
+    },
+    "40130": {
+      "id": 40130,
+      "media_name": "黑百合-图2",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": "-1"
+    },
+    "40131": {
+      "id": 40131,
+      "media_name": "死神-图1",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": "-1"
+    },
+    "40132": {
+      "id": 40132,
+      "media_name": "死神-图2",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": "-1"
+    },
+    "40133": {
+      "id": 40133,
+      "media_name": "死神-图3",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": "-1"
+    },
+    "40134": {
+      "id": 40134,
+      "media_name": "死神-图4",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": "-1"
+    },
+    "40135": {
+      "id": 40135,
+      "media_name": "死神-图5",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": "-1"
+    },
+    "40136": {
+      "id": 40136,
+      "media_name": "黑影-图1",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": "-1"
+    },
+    "40137": {
+      "id": 40137,
+      "media_name": "马克西米里安-图1",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": "-1"
+    },
+    "40138": {
+      "id": 40138,
+      "media_name": "马克西米里安-图2",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": "-1"
+    },
+    "40139": {
+      "id": 40139,
+      "media_name": "马克西米里安-图3",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": "-1"
+    },
+    "40140": {
+      "id": 40140,
+      "media_name": "巴蒂斯特-图1",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": "-1"
+    },
+    "40141": {
+      "id": 40141,
+      "media_name": "巴蒂斯特-图2",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": "-1"
+    },
+    "40142": {
+      "id": 40142,
+      "media_name": "巴蒂斯特-图3",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": "-1"
+    },
+    "40143": {
+      "id": 40143,
+      "media_name": "巴蒂斯特-图4",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": "-1"
+    },
+    "40144": {
+      "id": 40144,
+      "media_name": "斩仇-图1",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": "-1"
+    },
+    "40145": {
+      "id": 40145,
+      "media_name": "斩仇-图2",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": "-1"
+    },
+    "40146": {
+      "id": 40146,
+      "media_name": "斩仇-图3",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": "-1"
+    },
+    "40147": {
+      "id": 40147,
+      "media_name": "守望先锋的覆灭-图1",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": "-1"
+    },
+    "40148": {
+      "id": 40148,
+      "media_name": "守望先锋的覆灭-图2",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": "-1"
+    },
+    "40149": {
+      "id": 40149,
+      "media_name": "守望先锋的覆灭-图3",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": "-1"
+    },
+    "40150": {
+      "id": 40150,
+      "media_name": "守望先锋的覆灭-图4",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": "-1"
+    },
+    "40151": {
+      "id": 40151,
+      "media_name": "守望先锋的覆灭-图5",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": "-1"
+    },
+    "40152": {
+      "id": 40152,
+      "media_name": "刺杀沃斯卡亚-图1",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": "-1"
+    },
+    "40153": {
+      "id": 40153,
+      "media_name": "刺杀沃斯卡亚-图2",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": "-1"
+    },
+    "40154": {
+      "id": 40154,
+      "media_name": "毛加-图1",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": ""
+    },
+    "40155": {
+      "id": 40155,
+      "media_name": "毛加-图2",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": ""
+    },
+    "40156": {
+      "id": 40156,
+      "media_name": "西格玛-图1",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": ""
+    },
+    "40157": {
+      "id": 40157,
+      "media_name": "西格玛-图2",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": ""
+    },
+    "40158": {
+      "id": 40158,
+      "media_name": "努巴尼机场袭击事件-图1",
+      "media_type": 2,
+      "key_amount": 0,
+      "tag_url": ""
+    },
+    "40301": {
+      "id": 40301,
+      "media_name": "我听说世界上没有你找不到的人。",
+      "media_type": 4,
+      "key_amount": 0,
+      "tag_url": "20006"
+    },
+    "40303": {
+      "id": 40303,
+      "media_name": "为什么我要忍受这样的痛苦？",
+      "media_type": 4,
+      "key_amount": 0,
+      "tag_url": "20023"
+    },
+    "40304": {
+      "id": 40304,
+      "media_name": "你得跟我们走，奥古斯汀。",
+      "media_type": 4,
+      "key_amount": 0,
+      "tag_url": "20023"
+    },
+    "40305": {
+      "id": 40305,
+      "media_name": "你就没什么办法缓解这股疼痛吗？",
+      "media_type": 4,
+      "key_amount": 0,
+      "tag_url": "20023"
+    },
+    "40306": {
+      "id": 40306,
+      "media_name": "“黑影”……他怎么样了？",
+      "media_type": 4,
+      "key_amount": 0,
+      "tag_url": "20038"
+    },
+    "40307": {
+      "id": 40307,
+      "media_name": "我和“黑爪”已经没关系了。不管谁都别想让我回心转意。你也不行。",
+      "media_type": 4,
+      "key_amount": 0,
+      "tag_url": "20038"
+    },
+    "40308": {
+      "id": 40308,
+      "media_name": "你就不怕这拳套荒废了你的本事吗？",
+      "media_type": 4,
+      "key_amount": 0,
+      "tag_url": "20006"
+    },
+    "40310": {
+      "id": 40310,
+      "media_name": "你怎么就跑了，而且居然还长了良心？",
+      "media_type": 4,
+      "key_amount": 0,
+      "tag_url": "20006"
+    },
+    "40311": {
+      "id": 40311,
+      "media_name": "想知道的话，等这局结束了跟我比一场？",
+      "media_type": 4,
+      "key_amount": 0,
+      "tag_url": "20004"
+    },
+    "40312": {
+      "id": 40312,
+      "media_name": "你得跟我们走，奥古斯汀。",
+      "media_type": 4,
+      "key_amount": 0,
+      "tag_url": "20004"
+    },
+    "40313": {
+      "id": 40313,
+      "media_name": "就当它是你心中复仇怒火的燃料吧。",
+      "media_type": 4,
+      "key_amount": 0,
+      "tag_url": "20044"
+    },
+    "40314": {
+      "id": 40314,
+      "media_name": "不用感谢我，只是救你一命而已。",
+      "media_type": 4,
+      "key_amount": 0,
+      "tag_url": "20044"
+    },
+    "40316": {
+      "id": 40316,
+      "media_name": "你们就不能放过我吗？",
+      "media_type": 4,
+      "key_amount": 0,
+      "tag_url": "20038"
+    },
+    "40317": {
+      "id": 40317,
+      "media_name": "忘性大呗，不过欠我的账我可牢牢记着呢。",
+      "media_type": 4,
+      "key_amount": 0,
+      "tag_url": "20006"
+    },
+    "40318": {
+      "id": 40318,
+      "media_name": "嘿，我知道你也很想他，咱们可以好好聚一聚！",
+      "media_type": 4,
+      "key_amount": 0,
+      "tag_url": "20006"
+    },
+    "40320": {
+      "id": 40320,
+      "media_name": "（嘟囔）",
+      "media_type": 4,
+      "key_amount": 0,
+      "tag_url": "20023"
+    },
+    "40321": {
+      "id": 40321,
+      "media_name": "呵，我们经历了那么多，你怎么能无动于衷呢？",
+      "media_type": 4,
+      "key_amount": 0,
+      "tag_url": "20038"
+    },
+    "40322": {
+      "id": 40322,
+      "media_name": "他特别想再见到你。小心点。",
+      "media_type": 4,
+      "key_amount": 0,
+      "tag_url": "20032"
+    },
+    "40323": {
+      "id": 40323,
+      "media_name": "没门儿，毛加。",
+      "media_type": 4,
+      "key_amount": 0,
+      "tag_url": "20032"
+    },
+    "40324": {
+      "id": 40324,
+      "media_name": "那我可省事了！直接把你拽回去更快。",
+      "media_type": 4,
+      "key_amount": 0,
+      "tag_url": "20006"
+    },
+    "40325": {
+      "id": 40325,
+      "media_name": "想知道的话，等这局结束了跟我比一场？1",
+      "media_type": 4,
+      "key_amount": 0,
+      "tag_url": "20004"
+    },
+    "40326": {
+      "id": 40326,
+      "media_name": "算你走运。我正想杀了你呢。",
+      "media_type": 4,
+      "key_amount": 0,
+      "tag_url": "20033"
+    },
+    "40327": {
+      "id": 40327,
+      "media_name": "你对他没有一丁点好处，只会害了他。",
+      "media_type": 4,
+      "key_amount": 0,
+      "tag_url": "20032"
+    },
+    "40329": {
+      "id": 40329,
+      "media_name": "你好，指挥官莱耶斯。你就这么想上头条吗？守望先锋竟然擅闯民宅，绑架商界巨头......就算我被关进去了，不出一周就会有人把我给弄出来。你们搞得这么大阵仗，只不过是在浪费时间。",
+      "media_type": 4,
+      "key_amount": 0,
+      "tag_url": "20102"
+    },
+    "40330": {
+      "id": 40330,
+      "media_name": "守望先锋设施遭到了袭击，我们不想忍气吞声，但守望先锋凡事都要按规矩来。好在…暗影守望有自己的玩法。我们都清楚谁是幕后黑手，据说没人动得了他一根毫毛。我们的任务是闯进去，把人带出来，再给他点苦头尝尝，至少一开始的计划是这样的。",
+      "media_type": 4,
+      "key_amount": 0,
+      "tag_url": "20015"
+    },
+    "40331": {
+      "id": 40331,
+      "media_name": "说得对。",
+      "media_type": 4,
+      "key_amount": 0,
+      "tag_url": "20023"
+    },
+    "40401": {
+      "id": 40401,
+      "media_name": "武力准则",
+      "media_type": 5,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40402": {
+      "id": 40402,
+      "media_name": "米娜·廖“回声”计划记录",
+      "media_type": 5,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40403": {
+      "id": 40403,
+      "media_name": "女武神",
+      "media_type": 5,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40404": {
+      "id": 40404,
+      "media_name": "最强底牌",
+      "media_type": 5,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40405": {
+      "id": 40405,
+      "media_name": "往事如烟",
+      "media_type": 5,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40501": {
+      "id": 40501,
+      "media_name": "伪装",
+      "media_type": 6,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40502": {
+      "id": 40502,
+      "media_name": "传承",
+      "media_type": 6,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40503": {
+      "id": 40503,
+      "media_name": "威尼斯行动",
+      "media_type": 6,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40504": {
+      "id": 40504,
+      "media_name": "新的帝国",
+      "media_type": 6,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40505": {
+      "id": 40505,
+      "media_name": "映象",
+      "media_type": 6,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40506": {
+      "id": 40506,
+      "media_name": "危机",
+      "media_type": 6,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40507": {
+      "id": 40507,
+      "media_name": "《“猎空”——伦敦来电》第2期",
+      "media_type": 6,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40508": {
+      "id": 40508,
+      "media_name": "老兵",
+      "media_type": 6,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40509": {
+      "id": 40509,
+      "media_name": "搜索",
+      "media_type": 6,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40510": {
+      "id": 40510,
+      "media_name": "新鲜血液-3",
+      "media_type": 6,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40511": {
+      "id": 40511,
+      "media_name": "新鲜血液-2",
+      "media_type": 6,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40201": {
+      "id": 40201,
+      "media_name": "“末日铁拳”",
+      "media_type": 3,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40202": {
+      "id": 40202,
+      "media_name": "档案编号B-7105",
+      "media_type": 3,
+      "key_amount": 1,
+      "tag_url": "-1"
+    },
+    "40203": {
+      "id": 40203,
+      "media_name": "努巴尼时报 - 《海力士设施遇袭事件确认与黑爪有关》",
+      "media_type": 3,
+      "key_amount": 3,
+      "tag_url": "-1"
+    },
+    "40204": {
+      "id": 40204,
+      "media_name": "档案编号B-7115 努巴尼团结日",
+      "media_type": 3,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40205": {
+      "id": 40205,
+      "media_name": "档案编号B-7101 奥尼卡集团",
+      "media_type": 3,
+      "key_amount": 1,
+      "tag_url": "-1"
+    },
+    "40206": {
+      "id": 40206,
+      "media_name": "档案编号B-7102 米娜·廖",
+      "media_type": 3,
+      "key_amount": 3,
+      "tag_url": "-1"
+    },
+    "40207": {
+      "id": 40207,
+      "media_name": "档案编号B-7100 神明计划",
+      "media_type": 3,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40208": {
+      "id": 40208,
+      "media_name": "[行动档案] 威尼斯行动备忘录解密",
+      "media_type": 3,
+      "key_amount": 3,
+      "tag_url": "-1"
+    },
+    "40209": {
+      "id": 40209,
+      "media_name": "「本地新闻」堂·朗博蒂科品牌享誉国际，但品牌创始人却正在淡出人们的视线",
+      "media_type": 3,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40210": {
+      "id": 40210,
+      "media_name": "档案编号B-7111 奥斯陆",
+      "media_type": 3,
+      "key_amount": 10,
+      "tag_url": "-1"
+    },
+    "40211": {
+      "id": 40211,
+      "media_name": "杰哈·拉克瓦之死",
+      "media_type": 3,
+      "key_amount": 2,
+      "tag_url": "-1"
+    },
+    "40212": {
+      "id": 40212,
+      "media_name": "守望先锋特工档案：加布里尔·莱耶斯",
+      "media_type": 3,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40213": {
+      "id": 40213,
+      "media_name": "记者报道《往日的荣耀：杰克·莫里森》",
+      "media_type": 3,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40214": {
+      "id": 40214,
+      "media_name": "档案编号B-7108 暗影守望",
+      "media_type": 3,
+      "key_amount": 10,
+      "tag_url": "-1"
+    },
+    "40215": {
+      "id": 40215,
+      "media_name": "目击报告：死神",
+      "media_type": 3,
+      "key_amount": 1,
+      "tag_url": "-1"
+    },
+    "40217": {
+      "id": 40217,
+      "media_name": "档案编号B-7107 黑爪起源",
+      "media_type": 3,
+      "key_amount": 3,
+      "tag_url": "-1"
+    },
+    "40218": {
+      "id": 40218,
+      "media_name": "档案编号B-7110 末日铁拳的继承",
+      "media_type": 3,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40219": {
+      "id": 40219,
+      "media_name": "档案编号B-7113 主题：库尔瓦突击小队日志——已寻回",
+      "media_type": 3,
+      "key_amount": 3,
+      "tag_url": "-1"
+    },
+    "40220": {
+      "id": 40220,
+      "media_name": "光明科创CEO下台",
+      "media_type": 3,
+      "key_amount": 3,
+      "tag_url": "-1"
+    },
+    "40221": {
+      "id": 40221,
+      "media_name": "档案编号B-7106",
+      "media_type": 3,
+      "key_amount": 10,
+      "tag_url": "-1"
+    },
+    "40222": {
+      "id": 40222,
+      "media_name": "光明科创公司简介",
+      "media_type": 3,
+      "key_amount": 3,
+      "tag_url": "-1"
+    },
+    "40223": {
+      "id": 40223,
+      "media_name": "Gonzalo Flores的邮箱数据",
+      "media_type": 3,
+      "key_amount": 10,
+      "tag_url": "-1"
+    },
+    "40224": {
+      "id": 40224,
+      "media_name": "吉列尔莫·伯特罗的邮箱数据",
+      "media_type": 3,
+      "key_amount": 10,
+      "tag_url": "-1"
+    },
+    "40226": {
+      "id": 40226,
+      "media_name": "光明科创内幕曝光：首席执行官吉列尔莫·伯特罗遭到质疑",
+      "media_type": 3,
+      "key_amount": 3,
+      "tag_url": "-1"
+    },
+    "40227": {
+      "id": 40227,
+      "media_name": "档案编号B-7114 嘉布丽埃尔·阿达维",
+      "media_type": 3,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40228": {
+      "id": 40228,
+      "media_name": "光明科创展望墨西哥新未来，但安全问题依旧突出",
+      "media_type": 3,
+      "key_amount": 3,
+      "tag_url": "-1"
+    },
+    "40229": {
+      "id": 40229,
+      "media_name": "光明科创官网新闻板块",
+      "media_type": 3,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40230": {
+      "id": 40230,
+      "media_name": "档案编号B-7109 回声计划",
+      "media_type": 3,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40231": {
+      "id": 40231,
+      "media_name": "档案编号B-7112 秘密行动",
+      "media_type": 3,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40232": {
+      "id": 40232,
+      "media_name": "《努巴尼的英雄》第五章",
+      "media_type": 3,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40233": {
+      "id": 40233,
+      "media_name": "《努巴尼的英雄》第六章",
+      "media_type": 3,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40234": {
+      "id": 40234,
+      "media_name": "《努巴尼的英雄》第七章节选之一",
+      "media_type": 3,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40235": {
+      "id": 40235,
+      "media_name": "《努巴尼的英雄》第七章节选之二",
+      "media_type": 3,
+      "key_amount": 5,
+      "tag_url": "-1"
+    },
+    "40236": {
+      "id": 40236,
+      "media_name": "《努巴尼的英雄》第十二章节选",
+      "media_type": 3,
+      "key_amount": 5,
+      "tag_url": "-1"
+    }
+  },
+  "ccc-relation-30001": [
+    {
+      "archive_id": 30001,
+      "table_name": "档案简介",
+      "table_title": "-1",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "姓名：阿坎·奥古迪姆\n年龄：47\n国籍：尼日利亚"
+    },
+    {
+      "archive_id": 30001,
+      "table_name": "档案简介",
+      "table_title": "-1",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "恐怖组织兼非法军事集团黑爪的实际领导人\n\n阿坎·奥古迪姆是经验丰富的战士和天生的领袖，他在智械危机中失去了右臂，随后加入了黑爪。他在组织中步步爬升，最终杀死了自己的头领——前任“末日铁拳”，并夺走了同名的武器与头衔。现在，为了实现全人类的进化，他决心令整个世界陷入新的冲突。"
+    },
+    {
+      "archive_id": 30001,
+      "table_name": "档案简介",
+      "table_title": "-1",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "<30022>\n<30024>\n<30034>"
+    },
+    {
+      "archive_id": 30001,
+      "table_name": "档案正文",
+      "table_title": "奥古迪姆家族",
+      "doc_display": 2,
+      "medium_id": "40101",
+      "medium_content": "奥古迪姆家族在尼日利亚声名赫赫。得益于仿生义肢技术的普及，奥古迪姆家族也看准时机，投身于这一行业并跻身前列。\n<30033>\n作为家族产业的继承人，阿坎·奥古迪姆出身阔绰，备受尊敬。除了帮助家族企业拓展业务，他还将自己的业余时间投入到他最爱的职业格斗领域。\n他接受过包括丹贝和吉迪博在内的传统非洲武术训练，也学习过摔跤和其他现代格斗体系，并融汇贯通创造了自己的格斗招式。他还在非洲各地参加格斗比赛，凭借敏锐的直觉、精准的判断力、惊人的速度和力量，他屡屡取胜。\n然而智械危机期间他失去了右臂，职业格斗领域的星途由此化为泡影。\n<30020>\n尽管家族利用义肢技术将他从伤痛中解放，但他也因此失去了继续参加职业格斗比赛的资格。他也曾试图继续将自己的精力转移到家族企业管理中，但这些始终让阿坎的内心空虚不已。直到他遇到“末日铁拳”。\n<40201>"
+    },
+    {
+      "archive_id": 30001,
+      "table_name": "档案正文",
+      "table_title": "“末日铁拳”",
+      "doc_display": 3,
+      "medium_id": "40102",
+      "medium_content": "阿金吉·奥迪耶米是是时任“末日铁拳”称号的拥有者，当时的他正在寻找一些精兵强将来壮大他的雇佣兵队伍。他向心灰意冷的阿坎抛出了橄榄枝，邀请这位渴望挑战和磨练的年轻人与他并肩作战。\n阿坎起初对此保持警惕，但最后还是向自己的欲望妥协了。渐渐地，他发现这是似乎是一个为他量身打造的舞台，他的格斗技术和义肢对能力的增强让他在战斗中如鱼得水。最终，奥迪耶米将他招募进了黑爪。"
+    },
+    {
+      "archive_id": 30001,
+      "table_name": "档案正文",
+      "table_title": "“继承者”",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "阿坎由奥迪耶米亲自训练，成为了后者的心腹，并很快脱颖而出，吸引了黑爪组织高层的注意。阿坎对黑爪的价值观高度认同，即“人类会在冲突中变得更加强大”。与此同时，他深谙恪守纪律、领导有方的重要性，拥有无可比拟的钢铁意志。这也使时任黑爪高层认为，阿坎是发扬组织事业的不二之选。\n奥迪耶米仅满足于通过区域性的袭击而获取利益，但阿坎则真正将“全人类进化”作为自己的使命和愿景。他才智过人，而且作为指挥官，他能激励人心。这也使得黑爪高层对阿坎更加亲睐。\n最终，在威尼斯事件前后，阿坎与奥迪耶米的冲突彻底爆发。这种志向上的差异最终导致阿坎杀死了自己的导师，继承了“末日铁拳”——不论是那件恶名昭著的武器还是那个令人胆寒的名号。\n<30022>\n<40202>\n黑爪高层深知新一代的“末日铁拳”是一位无人能比的顶尖战略家，他足智多谋，能担当统帅黑爪部队、引领幕后交易的重任。作为完美的替代者，整个组织都开始听命于他。\n末日铁拳在黑爪组织中步步高升，并参与策划了一场旨在席卷全球的冲突。在他的统治下，黑爪发生了翻天覆地的变化，不只是如影子般无处不在、遍布全球的秘密机构，更成为了一家私人军事组织。\n<40119>"
+    },
+    {
+      "archive_id": 30001,
+      "table_name": "档案正文",
+      "table_title": "与“归零者”的结盟",
+      "doc_display": 2,
+      "medium_id": "40005",
+      "medium_content": "{我的使命是带领智械踏上战场，但我的理想是为族人争取更好的生活。\n智械的存在是这世间的奇迹，我们研习宁静与和谐之道；我们冥思宇宙，找寻自己存在的意义。\n我们想和人类共存，可人类却并不愿意分享他们的世界。为了人类的梦想，还要把多少智械化为火烛？\n够了。我们智械一族只有这一代，宝贵的生命，不能再这样任人宰割。\n夺回我们的一席之地，不惜一切代价。\n加入我，和我一起为所有智械创造光明的未来！}\n智械危机结束20多年后，拉玛刹率领“归零者”对国王大道悍然发动袭击。他的目标是解放伦敦的智械 —— 这座智械生活条件最为艰苦的城市之一 —— 并检验“归零者”军队的战斗力。他的计划是在伦敦城内建立一个据点，使其成为智械同胞的根据地，并团结更多的智械族人支持“归零者”的行动。\n尽管这一军事行动最终被守望先锋挫败，但这也引起了黑爪的兴趣。一年后，末日铁拳主动联系了拉玛刹，邀请拉玛刹前往开罗秘密会面共商大计。末日铁拳高度赞扬了拉玛刹和“归零者”为族人而战的崇高理想，并主动提议结盟，来应对他们共同的敌人。拉玛刹对这一提议表现出强烈的兴趣。\n但于此同时，守望先锋早已注意到了黑爪高层内部剧烈的人事动荡。为了掌握黑爪内部的更多信息，守望先锋突击队在古巴展开了“哈瓦那行动”，成功逮捕了会计师马克西米里安。\n<30024>\n为了换取豁免权和匿名权，马克西米里安告发了他的雇主，并透露“末日铁拳”将在三周后前往新加坡。"
+    },
+    {
+      "archive_id": 30001,
+      "table_name": "档案正文",
+      "table_title": "被捕入狱",
+      "doc_display": 3,
+      "medium_id": "40002",
+      "medium_content": "由于马克西米里安的出卖，末日铁拳在新加坡遭遇了守望先锋突击队的阻击。在与温斯顿、猎空和源氏的猛烈进攻下，末日铁拳最终败下阵来，被守望先锋逮捕并最终被判有罪。\n庭审结束后，他的大部分植入装置立刻就被摘除了，由法庭指派的半机械手术医师取出了嵌在“末日铁拳”皮下的设备。\n在末日铁拳被关押入海力士最高安全级别的监狱后，时任暗影守望指挥官：莱耶斯前往监狱探视，并交谈了片刻。\n{他还记得，当时他在阿坎的囚室前嘲讽地笑着；被关押着的那个男人面无表情地回瞪他。他的脸上没有丝毫的情感，一双眼睛越过洋洋得意的收押者，穿透监牢的高强度光子墙，望向更为遥远的事物。除非必要，莱耶斯并不太记仇，但现在世界上的头号罪犯之一被关进了笼子，而他参与了抓捕，这还是让他倍感满足。\n“喜欢你的新住处吗？”莱耶斯问道。\n阿坎眨了眨眼，就像有人打断了一场只有他能听见的谈话。\n他耸了耸肩。“逆境会创造机遇……只要活得下来，也会让我们更加强大。”\n莱耶斯咬了咬牙，硬是把一长串咒骂吞回了肚子，手也紧紧攥成了拳头。阿坎了然一瞥，看穿了莱耶斯的肢体语言。\n“制度无法应对权力买办和暴徒，对此你感到恼火。”在阿坎的语气中，这句话不太像是提问，倒像是在确认。\n作为回应，莱耶斯皱了皱眉。\n阿坎身体前倾，作出戒备的神态，如同一个不清楚手牌够不够赢下整局的扑克牌手。“你我都身经百战。如今这虚假的和平肯定唬不到你。不过别担心，我正处于极端不利——”\n“你活该。”莱耶斯打断了他。\n“也许在你看来，的确如此。我不是第一个有眼光质疑全球秩序的人，也不会 是最后一个。许多人都已经意识到，这世界大有问题，我不过是其中之一。” “世上没有完美的制度。你想指出制度的瑕疵，并不用搞什么恐怖活动。” 阿坎点了点头以示敬意，随即转身背向莱耶斯。\n“太遗憾了，那些真正的恶棍永远也见不到牢房里是什么模样。”阿坎说 道，“你当过警官，也当过士兵。你这大半辈子都在追寻正义。到头来却发现，正义 有价，待贾而沽。”\n“别把我当傻子，我抓的也不是什么邪教教主，”莱耶斯起身打算离开，“别想操纵我。你来到这里来是有原因的。”\n“你也一样，莱耶斯。”\n两人之间过了一瞬，这种停顿之后，通常不是握手致礼，便是拔枪相向。 “请允许我问一句，”阿坎说道，“你觉得你的所作所为有所谓吗？当警官有 所谓吗？当士兵有所谓吗？当守望先锋特工有所谓吗？你的所作所为可曾让正义的 天平倾斜一分？”\n莱耶斯张嘴想要回答，但内心深处却有什么东西堵住了他的嘴。作为警察，莱耶斯抓捕过数百名犯罪分子，但街头犯罪依然层出不穷。作为士兵，他参与过推翻残酷极权统治的事业，却只能眼睁睁地看着一家巨型企业打着利润最大化的幌子，接管当地，延续着当初的暴行。与他的许多战友不同，莱耶斯相信，对付不义的源头，一定得斩草除根。如果不摧毁利益集团，光是抓捕毒贩又有什么用呢？如果不事先决定让谁上位，并持续巩固其权力，推翻暴君的统治又有什么意义？\n莱耶斯一次又一次目睹无辜者被富有的精英压迫而受难，后者却免于控诉；目睹制度无法为人民提供正义、救济和保护。阿坎用恭敬而不加判断的语气继续说道：“你不知疲倦地工作，甚至甘愿扭曲身体来服务世间的良善，而到头来你又剩下些什么？这制度不光是有瑕疵。从创造之初，它就有意奖励并保护那些犯罪分子，那些创造了社会部门并从中牟利的人。现在我问你，你究竟在保护谁？是从我手中保护人类吗？还是说，你在保护那些犯罪分子免遭我的制裁？”\n莱耶斯绞尽脑汁却想不出回应。阿坎道出了一个没人能否认的真相。联合国无法否认，国际刑警组织无法否认，美国司法系统无法否认，守望先锋当然也无法否认——他与这些人一起组建了一支秘密突击小队，来修正那些体制不允许他们修正的错误。\n此刻，莱耶斯的心中种下了一颗复仇的种子。这颗种子将会成就“死神”。一个不再囿于陈旧荣誉观的幽灵，一个武力准则的新信徒……这个世界只认这条准则。}\n即便被囚禁，末日铁拳仍在远程指挥着黑爪，并策划了一系列事件。他一边耐心地等待着自己一手策划的事件发生，联系并指挥着部分效忠于他的黑爪特工，一边密切关注着外界的动态，收集着关于他被温斯顿击败、守望先锋解散后可能重组、末日铁拳手套展览开幕以及蒙达塔被刺杀等新闻剪报。后来，黑百合和死神试图从博物馆取回末日拳套，但被温斯顿、猎空和游客齐心击退。\n<40016>"
+    },
+    {
+      "archive_id": 30001,
+      "table_name": "档案正文",
+      "table_title": "绑架柯伊伯博士",
+      "doc_display": 2,
+      "medium_id": "40401",
+      "medium_content": "在守望先锋解散一年后，末日铁拳命令他的追随者们从美国境内的一处秘密基地绑架希尔伯伦·德·柯伊伯博士。死神和黑影参与了行动的初期阶段，虽然末日铁拳对黑影有一定的信任，但他还是命令死神不能让他的同伴离开视线。死神并不知道，末日铁拳还派出了由黑百合率领的第二支队伍进入了基地。最终，任务成功，柯伊伯博士被黑爪带离。"
+    },
+    {
+      "archive_id": 30001,
+      "table_name": "档案正文",
+      "table_title": "越狱",
+      "doc_display": 2,
+      "medium_id": "40121",
+      "medium_content": "<40203>"
+    },
+    {
+      "archive_id": 30001,
+      "table_name": "档案正文",
+      "table_title": "内部清洗",
+      "doc_display": 6,
+      "medium_id": "-1",
+      "medium_content": "奥古斯托·维埃利曾是安东尼奥·巴塔罗蒂的同伙，是黑爪领导层成员之一。在安东尼奥·巴塔罗蒂被莱耶斯杀害后，黑爪冻结了安东尼奥名下的账户，吞并了他的所有财产并拉拢了他的所有盟友。在末日铁拳入狱后，维埃利逐渐掌握了黑爪的领导权力，并指挥了包括“刺杀沃斯卡娅”在内的多个行动。\n<30029>\n与末日铁拳的理念不同的是，维埃利希望将黑爪缔造成一个犯罪金融组织，走向以盈利为导向的新路线。\n越狱之后，末日铁拳通过死神了解了黑爪组织的现状，随后他与黑百合和黑影一起前往摩纳哥的一家赌场，与马克西米里安会面。马克西米里安重新向末日铁拳表示忠诚，并向他警告组织内部的反对势力会有所行动。随后，维埃利的几名手下向末日铁拳发起袭击，结果被轻松击败。\n随后，末日铁拳、死神、黑影和黑百合前往威尼斯参加一场化装舞会，这场舞会实际上是黑爪领导层秘密会议的掩护。伴随着死神、黑影和黑百合对黑爪其他敌对势力的清洗，末日铁拳与维埃利在晚会外的桥上对峙。维埃利解释称，自己与末日铁拳并无私人恩怨，二人只是理念分歧，但最终被末日铁拳从桥上推下身亡。至此，末日铁拳重新掌握了黑爪的领导权力。\n<40122>\n<40501>"
+    },
+    {
+      "archive_id": 30001,
+      "table_name": "档案正文",
+      "table_title": "袭击努巴尼",
+      "doc_display": 2,
+      "medium_id": "40123",
+      "medium_content": "末日铁拳重新取得黑爪权力后，他宣布自己要“挑起一场战争”，并发动了对多地的袭击。他首先回到了努巴尼，意欲取回他的拳套。这副拳套刚刚到达努巴尼机场，计划运往努巴尼文化遗产博物馆作为藏品展出，成为即将到来的努巴尼团结日庆典的一部分。\n<40204>\n<30034>"
+    }
+  ],
+  "ccc-relation-30002": [
+    {
+      "archive_id": 30002,
+      "table_name": "档案简介",
+      "table_title": "-1",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "姓名：艾米丽·拉克瓦\n年龄：35\n国籍：法国"
+    },
+    {
+      "archive_id": 30002,
+      "table_name": "档案简介",
+      "table_title": "-1",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "前守望先锋特工杰哈·拉克瓦的妻子，被“黑爪”通过高强度神经重构改造为潜伏特工“黑百合”。\n\n“黑百合”是“黑爪”的终极武器，一名耐心、冷酷而高效的特工，她没有任何情感和悔意，只会在夺命的时刻收获些许快意。 在人生被彻底改写前，艾米丽·拉克瓦的挚爱只有两者：丈夫与芭蕾舞。 但如今，只有杀戮才是她唯一的快乐源泉。她的准心所指或许是这世上最危险的地方。"
+    },
+    {
+      "archive_id": 30002,
+      "table_name": "档案简介",
+      "table_title": "-1",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "<30027>\n<30029>\n<30035>"
+    },
+    {
+      "archive_id": 30002,
+      "table_name": "档案正文",
+      "table_title": "吉拉德堡",
+      "doc_display": 2,
+      "medium_id": "40104",
+      "medium_content": "艾米丽成长于坐落在法国乡下的吉拉德堡祖宅中。在这座凋敝的庄园里，守旧的家人常常敦促她遵循贵族端庄传统的教条，能带她逃避这一切的只有舞蹈。\n后来她结识了杰哈·拉克瓦，他在守望先锋对抗恐怖组织黑爪的一系列行动中担任先锋特工，也是艾米丽的此生挚爱。与杰哈的婚姻让她的人生走上了一条更为有趣的道路。艾米丽对丈夫的事业毫不在意，至多不过是晚宴上的生趣话题。她丝毫没有意识到那份工作会给她带来怎样的危险。"
+    },
+    {
+      "archive_id": 30002,
+      "table_name": "档案正文",
+      "table_title": "“黑百合”",
+      "doc_display": 6,
+      "medium_id": "-1",
+      "medium_content": "为了应对黑爪针对守望先锋设施发动的一系列袭击，杰哈领导暗影守望在罗马建立了一个前哨基地。随后不久，这一基地被黑爪特工放置的炸弹摧毁，造成了多名守望工作人员死亡，杰哈·拉克瓦也受到重伤。\n在多次刺杀杰哈无果之后，黑爪决定将目标转向他的妻子。在夜深人静之时，黑爪特工绑架了艾米丽，随后对她实施了一项高强度神经重构计划，将她变成一名潜伏特工。为了救回妻子，杰哈出动了守望先锋的所有人手，行动很快有了结果。他手下的特工救回了艾米丽，经过一番医学和心理学评估，认定被绑架的她并无大碍。然而这份正式评估犯了致命错误。就在两周之后，艾米丽杀死了睡梦中的杰哈。守望先锋并未成功救回艾米丽·拉克瓦，他们只是把“黑百合”送到了她的第一个受害者身边。\n<40211>\n<40105>\n<40106>\n<40505>\n从那一天起，艾米丽成为了警察和守望先锋的追捕对象，除此之外，杀害丈夫那一瞬的感觉也让她无法忘怀。但在杀戮的那一瞬间，艾米丽如同新生。"
+    },
+    {
+      "archive_id": 30002,
+      "table_name": "档案正文",
+      "table_title": "成为黑爪特工",
+      "doc_display": 6,
+      "medium_id": "-1",
+      "medium_content": "艾米丽没有其他选择，只得最终回归了黑爪，追逐着让她既兴奋又恐惧的那股刺激。依照她本人的要求，她接受了高强度的秘密行动训练，并且同意参与一项试验性的神射手计划。为了强化她的瞄准能力，黑爪的基因科学家莫伊拉·奥德莱恩调整了艾米丽的生理结构，她的心跳速率大幅降低，体温骤降的同时皮肤也变成了冰冷的蓝色，并且再也无法感受到人类情感。这些改造麻痹了她对自己所为的痛苦，却强化了她对狩猎的渴望。\n现在的“黑百合”是黑爪最强大的杀手。在波兰的一次行动中，她命中了安娜·艾玛莉上尉，后者时任守望先锋副指挥官。\n她频繁参与黑爪指挥的多项行动，她协助死神、黑影为黑爪劫出希尔伯伦·德·柯伊伯博士；又曾有人在纽约守望先锋博物馆目击到她，试图盗走在此处陈列的末日铁拳的拳套；在俄罗斯，她和死神险些刺杀沃斯卡娅工业集团首脑；在威尼斯，参与了谋害奥古斯托·维埃利及其同伙的政变......\n<40502>\n<40118>\n<40016>\n<40129>"
+    },
+    {
+      "archive_id": 30002,
+      "table_name": "档案正文",
+      "table_title": "刺杀孟达塔",
+      "doc_display": 2,
+      "medium_id": "40130",
+      "medium_content": "要论黑百合最恶名昭彰的行动，或许还是在国王大道的和平集会上刺杀香巴里领袖泰哈撒孟达塔。虽然有前守望先锋特工“猎空”出手截击，但就算是英雄也无法阻止黑百合捕杀她的猎物。\n<30027>"
+    },
+    {
+      "archive_id": 30002,
+      "table_name": "档案正文",
+      "table_title": "刺杀沃斯卡娅",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "<30029>"
+    },
+    {
+      "archive_id": 30002,
+      "table_name": "档案正文",
+      "table_title": "劫持柯伊伯博士",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "<30035>"
+    },
+    {
+      "archive_id": 30002,
+      "table_name": "档案正文",
+      "table_title": "内部清洗",
+      "doc_display": 3,
+      "medium_id": "40501",
+      "medium_content": "越狱之后，末日铁拳通过死神了解了黑爪组织的现状，随后他与黑百合和黑影一起前往摩纳哥的一家赌场，与马克西米里安会面。马克西米里安重新向末日铁拳表示忠诚，并向他警告组织内部的反对势力会有所行动。随后，维埃利的几名手下向末日铁拳发起袭击，结果被轻松击败。\n随后，末日铁拳、死神、黑影和黑百合前往威尼斯参加一场化装舞会，这场舞会实际上是黑爪领导层秘密会议的掩护。伴随着他们对黑爪其他敌对势力的清洗，末日铁拳与维埃利在晚会外的桥上对峙。维埃利解释称，自己对末日铁拳并无私人恩怨，二人只是理念分歧，但最终被末日铁拳从桥上推下身亡。至此，末日铁拳重新掌握了黑爪的领导权力。"
+    },
+    {
+      "archive_id": 30002,
+      "table_name": "档案正文",
+      "table_title": "和解",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "<30036>"
+    }
+  ],
+  "ccc-relation-30003": [
+    {
+      "archive_id": 30003,
+      "table_name": "档案简介",
+      "table_title": "-1",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "姓名：加布里尔·莱耶斯\n年龄：60\n国籍：美国，加利福尼亚州，洛杉矶"
+    },
+    {
+      "archive_id": 30003,
+      "table_name": "档案简介",
+      "table_title": "-1",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "前“暗影守望”领袖加布里尔·莱耶斯，他从守望先锋总部的大爆炸中幸存后，成为了“黑爪”最致命的执行者之一。\n\n黑爪特工“死神”曾是守望先锋中德高望重的一员，先后担任过战地指挥官和“暗影守望”的领袖，统率着守望先锋的隐秘行动部门。人们都以为他在守望先锋总部的大爆炸中不幸丧生，但他逃过一死，现在成为了“黑爪”最致命的执行者之一。"
+    },
+    {
+      "archive_id": 30003,
+      "table_name": "档案简介",
+      "table_title": "-1",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "<30022>\n<30037>\n<30024>\n<30035>\n<30029>\n<30030>"
+    },
+    {
+      "archive_id": 30003,
+      "table_name": "档案正文",
+      "table_title": "早年经历",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "<40212>"
+    },
+    {
+      "archive_id": 30003,
+      "table_name": "档案正文",
+      "table_title": "守望先锋",
+      "doc_display": 6,
+      "medium_id": "-1",
+      "medium_content": "{在各国政府全力尝试但却未能消灭这些机器人的同时，联合国则忙于组建一支全球精锐部队——守望先锋。这支小规模实验性部队将集结全世界最优秀、最聪明的个人，对机器人展开势均力敌的反击。在守望先锋简短的特工名单中，包括两位“士兵强化计划”的成员：莫里森和一名高级军官加布里尔·莱耶斯。莱耶斯是一名久经沙场、受人敬佩的老兵，出生于与印第安纳乡村相距甚远的洛杉矶繁华市区。尽管两人有诸多差别，但两名士兵还是成为了好友。他们一起加入守望先锋的决定将会改变整个世界，无论是好还是坏。}\n<40213>\n<40131>\n<40132>\n莱耶斯是守望先锋的第一位正式成员，其好友莫里森紧随其后。莱耶斯出色地履行了职责，但当危机结束后需要确立组织长期领导时，他将指挥权转交给莫里森。\n<40133>\n但无论如何，这对莱耶斯来说还是如释重负，比起担任政治性更强的职位，他更愿意从事幕后工作。莫里森对莱耶斯说，他们做出了错误的选择，莱耶斯才更适合这个位置。"
+    },
+    {
+      "archive_id": 30003,
+      "table_name": "档案正文",
+      "table_title": "暗影守望",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "在卸任守望先锋指挥官后，莱耶斯转向幕后工作，成为了“暗影守望”的指挥官。“暗影守望”是守望先锋的秘密行动部门，作为守望先锋所属的一个重要分支，莫里森为暗影守望提供了额外的资金、人员和基础设施。暗影守望的许多特工是莱耶斯亲自招募的，包括死局帮的头目科尔·卡西迪，岛田家族次子岛田源氏和遗传学家莫伊拉·奥德莱恩。\n<40214>\n莫伊拉在暗影守望继续着自己的一些学界不认可的研究，为暗影守望开发出了全新的武器与技术，包括直接实施在莱耶斯身上的种种实验。 \n随着时间的推移，莱耶斯和莫里森之间的紧张关系日益加剧，他们之间因理念不同发生了多次激烈的争论。即便如此，莫里斯依然尽全力为莱耶斯的出格行为辩护。\n{我们的敌人自以为能逃脱惩罚。他们以为，作为世界的保护者，守望先锋的行为是受到限制的，因为我们必须遵守规则，而“黑爪”不用。但他们可不知道，规则对我是没用的。—— 加布里尔·莱耶斯}\n<30022>\n在威尼斯事件后，暗影守望的存在公之于众，全世界为此感到震惊。莫里森对莱耶斯武断的行为感到愤怒，他和安娜、康复后的杰哈一起对莱耶斯进行了审问。莫里森要求莱耶斯解释究竟发生了什么。莱耶斯对莫里森的要求冷嘲热讽，但还是交待了任务的经过。在审查中，他表示事情并非总能按计划进行，并对自己做出的决定十分坚持。最后，莱耶斯和其他参与行动的暗影守望特工被停职。\n随着“归零者”对伦敦发动袭击，孟达塔、市长内达尔及其他一百多名囚犯被关在发电厂里。暴乱已经持续了27天，伦敦有几千人需要医疗救助，但英国政府依旧禁止守望先锋干预此事。不过事实上，暗影守望特工卡西迪已经在国王大道展开了侦察。这一违规行为引起了安娜和莫里森的指责。\n{安娜：卡西迪在做什么，加布里尔？\n莱耶斯：他似乎在那边评估局势，也许在度假？\n安娜：加布里尔，我的意思是卡西迪为什么会在一个守望先锋行动范围意外的地方出现，更何况他和暗影守望其他特工都已经停职了？在伦敦度假？\n莫里森：小加，你还有什么事儿没告诉我吗？你还派谁潜伏在那儿了？\n莱耶斯：你不需要知道。\n安娜：说的可真好。}\n莫里森对是否派守望先锋前往伦敦执行任务犹豫不决。受威尼斯事件的影响，守望先锋正处于舆论的风口浪尖。他不确定守望先锋罔顾英国政府的反对、强行介入局势是否会引发更严重的公关危机。在安娜的鼓励下，莫里森最终还是做出了选择，他派遣了4名特工 —— 猎空、天使、莱因哈特和托比昂，归零者的攻势最终被挫败。\n<30037>\n与此同时，阿坎与奥迪耶米的冲突彻底爆发。这种志向上的差异最终导致阿坎杀死了自己的导师，继承了末日铁拳——不论是那件恶名昭著的武器还是那个令人胆寒的名号。末日铁拳在黑爪组织中步步高升，并参与策划了一场旨在席卷全球的冲突。在他的统治下，黑爪发生了翻天覆地的变化。而与此同时，拉玛刹领导的归零者袭击也引起了末日铁拳的关注。末日铁拳主动联系了拉玛刹，邀请拉玛刹前往开罗秘密会面共商大计。\n守望先锋也早已注意到了黑爪高层内部剧烈的人事动荡。为了掌握黑爪内部的更多信息，守望先锋突击队在古巴展开了“哈瓦那行动”，成功逮捕了会计师马克西米里安。\n<30024>\n为了换取豁免权和匿名权，马克西米里安告发了他的雇主，并透露末日铁拳将在三周后前往新加坡。随后末日铁拳被守望先锋逮捕，并最终被判有罪。\n在末日铁拳被关押入海力士最高安全级别的监狱后，莱耶斯前往监狱探视末日铁拳，并交谈了片刻。莱耶斯起初感到得意：现在世界上的头号罪犯之一被关进了笼子，而他参与了抓捕，这还是让他倍感满足。他在末日铁拳的囚室前嘲讽地笑着，但末日铁拳并不在意。他指出，世界秩序正在崩坏。现行制度从根源上其实是在保护那些身居高位的“罪犯”，莱耶斯一生作为警察、士兵和守望先锋特工的努力，实际上是在维护这些不义之人的既得利益而非真正推动正义。这些话直击莱耶斯的灵魂，一时令他无法反驳。"
+    },
+    {
+      "archive_id": 30003,
+      "table_name": "档案正文",
+      "table_title": "守望先锋的覆灭",
+      "doc_display": 2,
+      "medium_id": "40303,40305,40313,40314,40320",
+      "medium_content": "随着联合国调查的进行，守望先锋在瑞士的总部在一场“意外”中被摧毁，而莫里森和莱耶斯就在死伤名单中。有迹象表明，这一爆炸源自莱耶斯和莫里森的激烈冲突。\n<30026>\n{距离“守望先锋”瑞士总部被炸成碎片已经过去将近一年了。在他记忆的最后，是起爆时的闪光，一瞬间的可怖炙热，还有杰克那因恐惧而张大的双眼。然后是……漆黑一片。}\n莱耶斯从爆炸中幸存，醒来后发现莫伊拉正在对他进行救治。莫伊拉向他的体内注入了超量的化学制剂 —— 也就是让他最初可以改变形态的那种物质的强化版本 —— 以维持他的生命体征。\n莫伊拉声称，为了救他，她别无选择。莱耶斯的身体发生了巨大的变化，他感觉自己的身体似乎变成了柔滑的熔融金属，在不同的物质形态间变换。\n{这一刻，他还是血肉凡躯；下一刻，他就化作一团黑烟。他能感受到每一个分子，却又惧怕失去对它们的控制。莱耶斯看向他的手臂，一缕乌黑的雾气模糊地显出附肢的形状。他的内心惊叫起来，但大脑中却有一小部分对它感到好奇。}\n<40134>"
+    },
+    {
+      "archive_id": 30003,
+      "table_name": "档案正文",
+      "table_title": "成为“死神”",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "莱耶斯将自己的遭遇归咎于莫里森，他同样不相信莫里森已在爆炸中丧生。他踏上了寻找和追杀莫里森及其他前守望先锋特工的个人征程，要完成在瑞士未竟的事业 。\n{“有一个黑衣恐怖分子，大家都称他为“死神”。虽然没人知道他的真实身份和动机，但有一点是可以肯定的，他的出现意味着死亡。”}\n莱耶斯以雇佣兵“死神”的身份重新出现，他变得极其不稳定的雇佣兵，也更加残暴无情。\n<40215>"
+    },
+    {
+      "archive_id": 30003,
+      "table_name": "档案正文",
+      "table_title": "加入“黑爪”",
+      "doc_display": 2,
+      "medium_id": "40135",
+      "medium_content": "守望先锋逮捕末日铁拳后，莱耶斯对组织内的种种官僚作风颇为不满，守望先锋的繁文缛节一直在阻挠他实现真正的正义，他因此被黑爪动摇。"
+    },
+    {
+      "archive_id": 30003,
+      "table_name": "档案正文",
+      "table_title": "劫持柯伊伯博士",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "尽管身陷囹圄，末日铁拳在黑爪组织中依然拥有影响力。守望先锋解散一年后，他指派死神前往新墨西哥州的一处秘密监狱劫持希尔伯伦·德·柯伊伯博士。在这里他第一次遇见了黑影。黑百合也参与了此次行动，最终他们成功完成了任务。\n<30035>\n这场战斗过后，莱耶斯明白自己已经越过了英雄和罪犯之间的界限，加布里尔·莱耶斯再也不存在了。\n{如果他要修复这个崩坏的世界，就得让“末日铁拳”得到他需要的东西。\n\n这也是莱耶斯所能给予的一切。}"
+    },
+    {
+      "archive_id": 30003,
+      "table_name": "档案正文",
+      "table_title": "监测站：直布罗陀",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "死神带领一支黑爪突击小队对前守望先锋监测站：直布罗陀发动了攻击，试图获取一份前守望先锋特工的名单。在这里他与温斯顿发生了战斗，仅管最后死神被迫撤退，但他依然下载了部分数据库。\n<30028>\n利用这些信息，他成功消灭了几个目标。"
+    },
+    {
+      "archive_id": 30003,
+      "table_name": "档案正文",
+      "table_title": "老兵",
+      "doc_display": 2,
+      "medium_id": "40508",
+      "medium_content": "莱耶斯在埃及见到了另外两个阴魂不散的昔日战友：杰克·莫里森和安娜·艾玛莉。三位老兵虽然相视无言，但他们的道路或许还会再度交会。\n毕竟，和其他人一样，他们的名字也在死神的清单上。"
+    },
+    {
+      "archive_id": 30003,
+      "table_name": "档案正文",
+      "table_title": "袭击阿努比斯",
+      "doc_display": 2,
+      "medium_id": "40403",
+      "medium_content": "在和埃及和莫里森交战过后，死神和其他黑爪部队对阿努比斯神殿发动了袭击。此时莫里森正在接受齐格勒的治疗，为了保护当地受灾的民众，莫里森、安娜和齐格勒依然决定投入自己的力量。此时黑爪正在与海力士安保公司交货，莫里森再次看到了莱耶斯。\n{“那是什么？”我怔怔道。\n\n“是加布里尔。”\n\n耳中杰克的话音带着紧张，让我皱起了眉头。我的脑海中冒出了十几个问题，然而眼下，我必须把它们抛在脑后。“那不关我们的事，莫里森。我们是来救人的。”\n\n“那是你的工作，医生。而这，是我们的工作。”我们的通讯陷入了沉默。}\n第二天，莫里森和安娜前往开罗郊外的一个营地探望齐格勒，那里正在治疗黑爪袭击的受害者。莫里森表示自己和安娜打算追捕莱耶斯。他们推断莱耶斯正前往欧洲，询问齐格勒是否愿意同行，但齐格勒拒绝了，说她应该留在开罗。\n{“就让温斯顿去扮英雄吧，”杰克不屑地说道，“我来做该做的事。莱耶斯、奥古迪姆、马克西米里安、维埃利、‘黑影’、奥德莱恩，还有其余的所有人。我去收拾他们。”\n\n莱耶斯。只是提起他的名字就让人颤抖。莫里森、艾玛莉、莱耶斯，我本以为这三个人已经被埋葬了，可他们的鬼魂依然存活于世。\n\n“我们都有责任，杰克。守望先锋已经不在了。你个人的复仇什么都改变不了。”\n\n“必须有人让他们付出代价。我会让正义得到伸张的。”\n“正义，”我嘲笑道。看得出来，那股痛意吞噬着他，折磨着他。“如果你继续这样下去，反而是在向世界证明，守望先锋的确变成了让他们恐惧的东西。希望你能认识到这一点。”}"
+    },
+    {
+      "archive_id": 30003,
+      "table_name": "档案正文",
+      "table_title": "刺杀沃斯卡娅",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "死神与黑百合和黑影合作，受维埃利的命令前往俄罗斯刺杀沃斯卡娅工业集团的首席执行官\n<30029>"
+    },
+    {
+      "archive_id": 30003,
+      "table_name": "档案正文",
+      "table_title": "协助末日铁拳回归",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "<30030>"
+    }
+  ],
+  "ccc-relation-30004": [
+    {
+      "archive_id": 30004,
+      "table_name": "档案简介",
+      "table_title": "-1",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "姓名：奥利维娅·科罗玛\n年龄：32\n国籍：墨西哥，多拉多"
+    },
+    {
+      "archive_id": 30004,
+      "table_name": "档案简介",
+      "table_title": "-1",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "世界上最危险的特工之一。\n\n作为全世界最臭名昭著的黑客，黑影利用信息与情报操控权贵。为了揭露一个遍及全球的鬼祟阴谋，黑影加入了黑爪组织，并利用他们的资源来实现自己的目的。"
+    },
+    {
+      "archive_id": 30004,
+      "table_name": "档案简介",
+      "table_title": "-1",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "<30035>\n<30029>\n<30030>\n<30034>"
+    },
+    {
+      "archive_id": 30004,
+      "table_name": "档案正文",
+      "table_title": "",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "<40221>"
+    },
+    {
+      "archive_id": 30004,
+      "table_name": "档案正文",
+      "table_title": "骷髅帮",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "早在她称自己为黑影之前，奥利维娅·科罗玛和其他数百万孩子一样，在智械危机后变成了孤儿。在家乡大部分基础设施都被摧毁的情况下，她依靠自己在黑客以及计算机方面的天赋活了下来。\n在加入墨西哥的骷髅帮之后，奥利维娅协助该帮派用其所谓的革命对抗政府。骷髅帮相信墨西哥的重建工作实际上造福的是有钱人和有权人，而真正需要帮助的人却被遗忘。\n她逐渐意识到“信息就是力量”。于是她像上了瘾一样入侵政客、集团和政府系统。同时许多名人也成为了她的目标。"
+    },
+    {
+      "archive_id": 30004,
+      "table_name": "档案正文",
+      "table_title": "“黑影”",
+      "doc_display": 6,
+      "medium_id": "-1",
+      "medium_content": "一连串的胜利让奥利维娅对自己的实力过度自信，最终她在毫无防备的情况下，陷入了一张覆盖全球的阴谋网—— 并且也因此被这个“阴谋”盯上。由于自己的安全面临严重威胁，奥利维娅不得不删除关于自己的全部信息。\n随后奥利维娅接受了义肢移植手术，以“黑影”的身份重生。改造后的她能够通过指尖触碰来入侵其他智能系统，这一切仿佛是她身体的延伸。【SOMBRA】\n经过改造的她决心查出那张阴谋网背后的真相。黑影发动了一系列比以往更加大胆的黑客攻击，这些行动也让许多人成了她的仰慕者，其中就包括黑爪。她随后加入了黑爪，有了“黑爪”的丰厚资源做后盾，黑影终于可以专注于她真正的目的：揭开阴谋背后的真相并利用这些信息为自己服务。\n\n{我要看看是谁在控制这个世界。找到他们的弱点，利用他们的弱点，然后成为真正的操控者。}\n<40021>\n<40136>"
+    },
+    {
+      "archive_id": 30004,
+      "table_name": "档案正文",
+      "table_title": "劫持柯伊伯博士",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "加入黑爪后，她协助死神绑架了希尔伯伦·德·柯伊伯博士，并参与了一系列大规模网络攻击，目标均为带有政府背景的集团。"
+    },
+    {
+      "archive_id": 30004,
+      "table_name": "档案正文",
+      "table_title": "侵入光明科创",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "<40222>\n<40228>\n黑影入侵了光明科创的网站，宣称其CEO吉列尔莫·伯特罗正在将墨西哥的财富据为己有，他贿赂了政府，最终目标是控制整个国家。黑影窃取了伯特罗的个人电子邮箱，在后者不知情的状态下发送了一封邮件，承诺将其“不可告人的秘密”公之于众。\n<40223>\n<40224>\n黑影成功地向公众曝光了一系列内部文件，引起了墨西哥执法部门和阿特拉斯新闻的关注。这些文件显示伯特罗将公司资金当作自己的小金库，他个人涉嫌贿赂政府官员、建立对光明科创有利的回扣和报酬规则，而且他还觊觎私人持有的土地，想通过政府之手强行征用，以便扩大光明科创在全墨西哥的规模和影响力。邮件还披露了显示光明科创与费斯卡集团就出口能源系统达成了协议，这也是该公司在里约热内卢采取行动的原因。\n<40226>\n执法部门将这些入侵归类为犯罪活动，而阿特拉斯新闻则积极报道了黑影的一系列事迹。黑影表示她“只是做了些民众感兴趣的事”。于是，墨西哥激起了一场针对光明科创的大规模抗议活动，黑影的涂鸦通过报道传遍了全世界。泄密事件后不到一周，伯特罗辞去CEO职务。后来执法部门在审查公司行为后宣布他无罪，使他得以重返公司任职。\n<40220>"
+    },
+    {
+      "archive_id": 30004,
+      "table_name": "档案正文",
+      "table_title": "刺杀沃斯卡娅",
+      "doc_display": 2,
+      "medium_id": "40509",
+      "medium_content": "<30029>\n在针对沃斯卡娅的行动中，黑影对黑爪的忠诚显得尤为模棱两可。她并未遵照任务要求刺杀集团CEO，反而敲诈了对方一笔。作为报复，卡特娅·沃斯卡娅派出了强大的盟友，她让查莉娅前去追捕这个黑客。查莉娅虽然成功找到了黑影，黑影却向她揭露了卡特娅与智械的秘密交易，随后黑影便逃脱了。"
+    },
+    {
+      "archive_id": 30004,
+      "table_name": "档案正文",
+      "table_title": "协助末日铁拳回归",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "<30030>"
+    },
+    {
+      "archive_id": 30004,
+      "table_name": "档案正文",
+      "table_title": "6C 75 63 6B 79",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "6D 61 6E\n6C 64 6F 70 6C 20 61 20 6B E1 72 79 66 6A 65 69 68 70 73 20 72 72 20 77 72 79 70 66 61 6D 62 61 64 20 72 20 65 66 73 74 77 20 76 75 6A 20 64 77"
+    },
+    {
+      "archive_id": 30004,
+      "table_name": "档案正文",
+      "table_title": "全球冲突",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "随着末日铁拳成功越狱并重组了黑爪的内部管理层，黑影在革新后的组织内扮演了重要角色，更重要的是，这也让她离自己的目标更近一步。在她的帮助下，末日铁拳得以在诸如罗马、努巴尼这样的高价值地区顺利实施了一系列行动。\n末日铁拳宣布自己要挑起一场战争，并发动了对多地的袭击。他首先回到了努巴尼，意欲取回他的拳套。这副拳套刚刚到达努巴尼机场，计划运往努巴尼文化遗产博物馆作为藏品展出，成为即将到来的努巴尼团结日庆典的一部分。\n<30034>\n尽管黑影为黑爪提供了种种服务，千万不要忘记她只为自己行事。话虽如此，只要黑影还在追逐她的猎物，黑爪就拥有着千金难买的顶级黑客。"
+    }
+  ],
+  "ccc-relation-30005": [
+    {
+      "archive_id": 30005,
+      "table_name": "档案简介",
+      "table_title": "-1",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "姓名：莫伊拉·奥德莱恩\n年龄：50\n国籍：爱尔兰"
+    },
+    {
+      "archive_id": 30005,
+      "table_name": "档案简介",
+      "table_title": "-1",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "科学会揭示真相\n\n科学家莫伊拉·奥德莱恩有着杰出的才华，但她的工作也引起了诸多争议。她是基因工程领域的顶尖专家，研究的方向是如何对生命最基本的单元加以改进。"
+    },
+    {
+      "archive_id": 30005,
+      "table_name": "档案简介",
+      "table_title": "-1",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "<30022>"
+    },
+    {
+      "archive_id": 30005,
+      "table_name": "档案正文",
+      "table_title": "生命科学",
+      "doc_display": 2,
+      "medium_id": "40124",
+      "medium_content": "科学家莫伊拉·奥德莱恩有着杰出的才华，但她的工作也引起了诸多争议。她是基因工程领域的顶尖专家，研究的方向是如何对生命最基本的单元加以改进。\n十多年以前，奥德莱恩发表的一篇论文详细阐述了定制基因程序的方法，借此可以在细胞层面上改写DNA。论文引起了轩然大波。沿着这条道路走下去，人类或许能够征服疾病，抹除自身缺陷，将潜能发挥到最大。\n然而她的同行很快就提出了异议。许多人认为她的工作非常危险，触及了伦理道德的禁区，甚至有人指控奥德莱恩对科技进步有着非同寻常的迷恋，而在世人眼中，当年恰恰正是这样的迷恋导致了智械危机的到来。"
+    },
+    {
+      "archive_id": 30005,
+      "table_name": "档案正文",
+      "table_title": "暗影守望",
+      "doc_display": 2,
+      "medium_id": "40125",
+      "medium_content": "一支出乎意料的势力向她伸出了援手：隶属于“守望先锋”的秘密分部——“暗影守望”。\n<40214>\n由于无法说服齐格勒继续随暗影守望执行任务，莱耶斯不得不另寻他路。他注意到莫伊拉发布的这篇论文，其方法论与“士兵强化计划”有一些相同的根基原理，却朝着创新——尽管道德上备受争议——的新方向大幅迈进。莱耶斯将她标记为值得关注的重点对象，本来可能立刻接触她，但还没等他完成背景调查，守望先锋医学研究部门就率先发布了公开谴责。\n莫伊拉的研究被视为问题重重，其他科学家即使在最严格的控制条件下，也无法复制她的实验结果。原本看似前景光明的突破，却被斥为不道德且粗制滥造的伪科学。这一本该让她一举成名的发现，反而严重损害了她的职业生涯。在整个风波中，齐格勒一直公开抨击莫伊拉的研究，而莱耶斯却将其秘密招募进暗影守望团队。\n她在阴影中继续着自己的研究，为组织开发出了全新的武器与技术，包括直接实施在莱耶斯身上的种种实验。组织对雇佣她这件事一直守口如瓶，直到威尼斯事件之后的调查将此事公布于众。守望先锋的许多高层官员都表示，对她为组织效力的事毫不知情。\n<30022>\n莫伊拉对暗影守望的忠诚（如果她曾经有过的话）并未持续太久。威尼斯事件后，齐格勒拒绝将她纳入自己的医疗团队。这场争议最终却对她有利，因为它吸引了绿洲城背后科学团体的注意。\n<40126>"
+    },
+    {
+      "archive_id": 30005,
+      "table_name": "档案正文",
+      "table_title": "效力黑爪",
+      "doc_display": 6,
+      "medium_id": "-1",
+      "medium_content": "离开守望先锋后，莫伊拉不得不通过非常规手段获得研究经费。她在黑爪的资助下继续着自己的研究，换取的回报则是将她的研究成果化为他们所用。其中包括对艾米丽·拉克瓦的生理机能调整，为了提高她的射击精度，莫伊拉大幅降低了艾米丽的心跳速率，体温骤降的同时皮肤也变成了冰冷的蓝色，并且再也无法感受到人类情感。\n然而这样的合作仅发生在幕后，她本人依然在科学界抛头露面。她甚至受邀加入建立了绿洲城的科学团体，成为了他们的基因学部长。\n随着守望先锋的瑞士总部化为废墟，莫伊拉为奄奄一息的莱耶斯注射了一剂烈性药剂，其中的物质正是她当年在暗影守望给莱耶斯使用过的，并称要想保住他的性命，这是必要的手段。那些物质进一步强化了莱耶斯的独特天赋，却也让他对这些能力的把控变得极不稳定。\n在末日铁拳回归黑爪前后，莫伊拉显然已在黑爪的核心委员会中占有一席之地。她推进人类进化的目标与黑爪的理念不谋而合，她也找到了末日铁拳这位赞助人。\n<40128>\n<40127>\n<40018>"
+    }
+  ],
+  "ccc-relation-30011": [
+    {
+      "archive_id": 30011,
+      "table_name": "档案简介",
+      "table_title": "-1",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "姓名：马克西米里安\n国籍：摩纳哥，蒙特卡洛\n职位：黑爪财务主管"
+    },
+    {
+      "archive_id": 30011,
+      "table_name": "档案简介",
+      "table_title": "-1",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "我们来谈谈条件......\n\n马克西米里安是一位精明而野心勃勃的智械金融家，他利用战后权力真空成为富豪们的财务顾问，并通过精心构建的资产网络掌控了这座城市。与末日铁拳的合作让他如虎添翼，借助黑爪的实力，他的金融帝国也不断扩张。"
+    },
+    {
+      "archive_id": 30011,
+      "table_name": "档案简介",
+      "table_title": "-1",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "<30022>\n<30024>\n<30025>\n<30030>"
+    },
+    {
+      "archive_id": 30011,
+      "table_name": "档案正文",
+      "table_title": "蒙特卡洛",
+      "doc_display": 6,
+      "medium_id": "-1",
+      "medium_content": "在加入黑爪前，马克西米里安是一个智械，在智械危机期间于法国南部的战场上产生意识。危机结束后，他最初在马赛附近的一家小公司担任初级会计师，过着“一无所有”的贫穷日子。那时，蒙特卡洛已被战争掏空，许多人认为这座城市已无复兴可能，也没有智械的立足之地。但马克西米里安凭借敏锐的商业头脑，看到了权力真空的机会。\n他移居蒙特卡洛，成为该市最受欢迎的财务顾问。他的第一个客户是维多利亚·卡普里（一位靠设计时尚机械义肢致富的商业女强人），随后扩展到其他富豪，如房地产大亨莉莉·冯·阿克斯、军火商兰斯·瓦扬古等。这些客户被称为“局内人”，他们内部争斗不休，而马克西米里安利用对他们资产网络的掌控，通过精心设计的交易和手段，逐步操纵局面，最终在不到十年的时间内，从微不足道的会计师爬上商业帝国统治者的位子，彻底掌控了蒙特卡洛，也让这座被危机摧毁的城市重新复苏。\n<40138>\n<40137>"
+    },
+    {
+      "archive_id": 30011,
+      "table_name": "档案正文",
+      "table_title": "合作",
+      "doc_display": 2,
+      "medium_id": "40404",
+      "medium_content": "{马克西米里安的办公室是他引以为傲的宝贝。虽然办公室所在的赌场只是他庞大资产拼图中的第一块,却象征着他为之奋斗的一切。没有其他人——无论是人类还是智械—————能够享有马克西米里安赢得的荣光。这场来之不易的胜利只属于他一人。\n\n但现在,他心爱的办公室却在他周围化作一片废墟,到处都是碎片。没有一件家具在破坏中幸存下来,价值上百万的艺术品变作一地狼藉。他的安保人员一动不动地躺在残骸中,破裂的金属底架各处闪着火花。\n\n马克西站在他那张残破的办公桌前,看着眼前的庞大身影。当然,眼前的庞然大物也俯视着他。两人沉浸在混乱过后的寂静中。向来老练的马克西率先服软了。}\n马克西成功地让蒙特卡洛的富豪们屈服，成为他们的“老板”后，黑爪察觉到他的崛起，于是派出一名刺客。这名刺客本该干净利落地除掉他，却被马克西说服，提议“做个交易”——黑爪需要他的商业头脑和资源，马克西需要他们的“隐秘手段”。刺客居然活着回去汇报，这让黑爪高层震惊。\n{“我属下的刺客一般不会失手,”铁拳继续道,“也从来不会回来告诉我刺杀目标提议要和我们做个交易。你是头一个。”}\n没多久，马克西的办公室被彻底摧毁：家具粉碎、艺术品成碎片、安保智械瘫痪，到处火花四溅。站在废墟中的，是黑爪的新领袖——第三任末日铁拳，阿坎·奥古迪姆。这个庞大、冷酷的战士以铁拳闻名，黑爪内部无人敢质疑他的权威，异见者下场凄惨。\n面对末日铁拳的步步紧逼，马克西直接举手“投降”，从酒柜残骸中取出苏格兰威士忌，与末日铁拳展开谈判。他称目前蒙特卡洛已经完全在他的掌控下，如果自己被杀，黑爪重新管理蒙特卡洛要耗费较大的成本，不如二者联手共享这座城市，或者整个世界。\n末日铁拳对马克西的努力表示认可：“从全球危机中诞生，不到十年从会计师变帝国统治者，不是弱者能办到的。”随后末日铁拳代表黑爪与马克西握手定下盟约，黑爪获得马克西的金库权限，马克西也借助黑爪的势力继续扩张。\n与此同时，马克西也和末日铁拳一起，迅速进入黑爪核心权力层，夺取了安东尼奥遇刺后的权力真空。\n<40026>"
+    },
+    {
+      "archive_id": 30011,
+      "table_name": "档案正文",
+      "table_title": "背叛",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "在威尼斯行动后，守望先锋仍深陷混乱之际，维维安·蔡斯从莱耶斯与莫里森手中接过追查黑爪的重任。她在危机后与加拿大特种部队的反恐小队合作，协助抓捕了反智械仇恨组织——安大略联合会，积累了丰富经验与战绩。数月情报积累，指向一个意想不到的来源：马克西米里安。\n与此同时，新情报证实他与黑爪有关联。蔡斯迅速组建突击队，制定周密计划，耐心等待马克西米里安的现身。追捕最终将他们引向哈瓦那。\n<30024>\n马克西米里安最终无处可逃，于是提出谈判。马克西米里安了解到守望先锋正在寻找末日铁拳，他愿意为此提供情报，以此获得豁免权。他供出末日铁拳将在3周后前往新加坡，并要求守望先锋对自己泄密一事保密。作为交易的一部分，马克西米里安最终被释放，未附任何指控。"
+    },
+    {
+      "archive_id": 30011,
+      "table_name": "档案正文",
+      "table_title": "表忠",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "末日铁拳入狱后，马克西依然与黑爪保持密切的合作，其位于蒙特卡洛的赌场依然是黑爪高层聚会的主要场所。奥古斯托·维埃利曾是安东尼奥·巴塔罗蒂的同伙，是黑爪领导层成员之一。在末日铁拳入狱后，维埃利逐渐掌握了黑爪的领导权力，并指挥了包括“刺杀沃斯卡娅”在内的多个行动。\n越狱之后，末日铁拳与黑百合、黑影一起前往蒙特卡洛赌场，与马克会面。马克西重新向末日铁拳宣誓忠诚，并向他警告组织内部的反对势力会有所行动。\n<30030>\n最终，维埃利在威尼斯被末日铁拳从桥上推下身亡。末日铁拳重新掌握了黑爪的领导权力。在这一过程中，马克西并未受到波及，并参加了末日铁拳随后召开的核心会议。"
+    },
+    {
+      "archive_id": 30011,
+      "table_name": "档案正文",
+      "table_title": "狩猎开始",
+      "doc_display": 6,
+      "medium_id": "-1",
+      "medium_content": "前守望先锋搜救干员，弗蕾娅是一名咬定目标就绝不松口的赏金猎手，在地下世界声名显赫。据传她曾凭借精湛的追踪技巧营救过许多无辜的人，但那颗善良的心也早已坚硬如铁。\n起初零星的差事逐渐演变成难以自拔的执念，驱使着弗蕾娅进入更隐秘、更危险的领域。为了在与不可靠的雇主周旋时能够自保，她取了一个新的假名：“葛冯”。一开始，她还想只接救援任务，然而很快，道德之于工作变得无关紧要了——真正重要的唯有逐猎。她选择的目标愈发臭名昭著，报酬也水涨船高。弗蕾娅逐渐成为了地下世界的知名赏金猎手。\n在众多委托中，一位匿名雇主引起了她的注意——追捕目标颇为古怪，酬金又高得离谱。对方给出的任务听起来完美得近乎刻意，但弗蕾娅早已做好了面对挑战的准备。她为这位“侯爵”完成了几次悬赏，报酬却迟迟未到账，于是弗蕾娅决定要亲自会会他。\n弗蕾娅最终找到了“侯爵”——或者说，马克西米里安——蒙特卡洛的幕后首脑，也是“黑爪”深不见底的金口袋。短暂交锋后，马克西坦言，他其实没有打算赖掉弗蕾娅的酬金，只是要验证一下她是否名副其实。毕竟，对于心中真正酝酿的任务，他需要确保弗蕾娅的确是最顶尖的赏金猎手。\n弗蕾娅原本对此不屑一顾，马克西抛出的悬赏目标却勾起了她的兴趣：前守望先锋特工，埃姆雷·萨里奥卢。这个名字早已淡出弗蕾娅的脑海多年，马克西的委托却勾起了无数回忆，那是她从未真正抛下的过去。\n于是她答应了马克西米里安的条件，开始了新的狩猎。\n<40024>\n<40139>\n<40028>"
+    }
+  ],
+  "ccc-relation-30009": [
+    {
+      "archive_id": 30009,
+      "table_name": "档案简介",
+      "table_title": "-1",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "姓名：让-巴蒂斯特·奥古斯汀\n年龄：38\n国籍：海地"
+    },
+    {
+      "archive_id": 30009,
+      "table_name": "档案简介",
+      "table_title": "-1",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "巴蒂斯特是一位精英战地医疗兵，曾担任“黑爪”特工，但现在的他致力于使用自己的能力帮助那些饱受战火袭扰的人们。\n\n巴蒂斯特是一位精英战地医疗兵，曾经被轻松暴富的许诺诱入了“黑爪”组织。后来，他唾弃自己曾经的所做作为，逃离“黑爪”，为自己开辟了新的道路。如今的他正在为了更美好的世界而不懈奋斗，他总是尽力去救治他人，在需要的时候也会英勇作战。"
+    },
+    {
+      "archive_id": 30009,
+      "table_name": "档案简介",
+      "table_title": "-1",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": ""
+    },
+    {
+      "archive_id": 30009,
+      "table_name": "档案正文",
+      "table_title": "三千万孤儿",
+      "doc_display": 2,
+      "medium_id": "40140",
+      "medium_content": "{选择？你懂什么叫选择吗？三千多万的孤儿，我也是其中之一。智械战争没有给我们任何选择。为了活下去只能不择手段，去偷或者饿死，杀人或者被杀。帮助你的朋友，而挡路的就让他们去死}\n在智械危机中，有三千万儿童沦为孤儿，让-巴蒂斯特·奥古斯汀就是其中之一。他在海地和平港外的一家孤儿院长大，这里是他的童年家园。危机剥夺了他们的选择权。他与儿时好友罗瑟琳·蒙德西在此相伴长大，他们的梦想是为邻里建造一家诊所。他也梦想过加入守望先锋，他相信那些光芒四射的英雄会像电视和招募海报里所说的那样，维护世界和平，保卫每一个需要的人。\n他也曾想要成为那样的英雄。"
+    },
+    {
+      "archive_id": 30009,
+      "table_name": "档案正文",
+      "table_title": "加勒比联盟",
+      "doc_display": 3,
+      "medium_id": "40141",
+      "medium_content": "长大后，为了获得更多的资源与成长机会，他应征入伍，加入了加勒比联盟，这支为应对智械危机而组建的岛屿作战部队成为了他的新家。巴蒂斯特的内心渴望帮助他人，他选择成为一名战地医疗兵，在加勒比联盟的特种部队中服役。\n服役期间，他经常利用一切可以找到的材料拼凑出有用的装备。他加入加勒比联盟的梦想是成为像守望先锋招募海报上那样的英雄。但守望先锋从未来过海地，而到守望先锋解散时，他早已经默默地放弃了那些梦想。帮助他人的方式有很多，并不是每一种都像在海报上印照片这么简单。"
+    },
+    {
+      "archive_id": 30009,
+      "table_name": "档案正文",
+      "table_title": "与魔鬼交易",
+      "doc_display": 2,
+      "medium_id": "40142",
+      "medium_content": "{如果你希望有一天能够出人头地，就必须抓住一切机会往上爬。哪怕是魔鬼给的。\n道理就这么简单，至少我是这么告诉自己的。事实上，我做了很多选择才走到今天。可是一旦你自认为是个角儿了，就很难再承认自己是个孬种。不过更难的是，你不再简单地满足于活着。你想活出名堂。}\n在服役期满之后，巴蒂斯特独特的能力似乎并不受赏识。面对为数不多的机会，他做出了选择：加入“黑爪”佣兵集团，在战争的余波与混乱中牟取利益。\n作为黑爪的一员，巴蒂斯特保留了他的战地医疗兵职位，由库尔瓦上尉亲自训练，随后在其指挥的突击队中服役。在这里，他第一次体会到了什么叫“美妙的人生”。黑爪的任务简单，回报丰厚，他用自己的部分收入在家乡开设了一间诊所。在这些任务中，他结识了毛加，两人经常并肩作战。"
+    },
+    {
+      "archive_id": 30009,
+      "table_name": "档案正文",
+      "table_title": "蒙特克里斯蒂",
+      "doc_display": 2,
+      "medium_id": "40143",
+      "medium_content": "很快，他接到的命令开始变得愈发暴力，佣兵组织开始插手政治刺杀，以及导致平民伤亡的军事行动，包括他们在马卡迪和新加坡执行的任务。\n由于普拉亚垄断联盟正在持续侵犯黑爪的地盘，黑爪因此决定对其实施报复。指挥官库尔瓦队长因此派遣小队执行刺杀任务，目标直指普拉亚头目丹尼尔·费尔南德斯。根据可靠情报，其藏身于蒙特克里斯蒂的安全屋，小队黎明时分乘运输机降落海滩，计划突袭安全屋、消灭目标后迅速撤退。小队成员包括：巴蒂斯特、毛加、阮等。\n降落后，小队一路直扑费尔南德斯的窝点，途中未遇重大抵抗，一切按计划进行。但随后发现费尔南德斯早已溜之大吉。愤怒的库尔瓦下令不惜掘地三尺也要确定目标位置，黑爪士兵们依命执行，挨家挨户闯入民宅，吼叫驱赶平民离开。就在此时，黑爪战斗机突然出现，对整个城镇无差别开火。第一轮轰炸将小镇化为废墟，房屋焚烧、屋顶坍塌，尖叫、枪声与浓烟充斥。巴蒂斯特被冲击波吹入附近房屋，头盔也受到了损坏。他救出一户被困平民，带往“安全区”，但街头已成为了焦土。\n巴蒂斯特通过耳机向库尔瓦抗议，而库尔瓦却冷酷地要求继续执行任务，必须要杀鸡儆猴，以逼迫费尔南德斯现身。\n与此同时，黑爪士兵们正在劫掠战利品，士兵们放声大笑，似乎乐在其中。\n{空气中有一股焦糊的气味。\n巴蒂斯特感到右侧有东西飞速闪过。他端起步枪，瞄准可疑之处。浓烟之中能见度很低，但他还是看到一个小东西在向他移动。\n“回去！”巴蒂斯特穿过烈焰大喊道。\n那个身影停住了，他看出来那是一位衣衫褴褛的小姑娘。她用明亮的眼睛愤怒地盯着巴蒂斯特，手中还攥着一块石头。他在她的眼中看到了自己，一个摧毁她家园的无名士兵。\n巴蒂斯特后退一步，放下了手中的步枪。他转过身，穿过了浓烟与残骸，耳边回荡着声声惨叫。}\n<40019>"
+    },
+    {
+      "archive_id": 30009,
+      "table_name": "档案正文",
+      "table_title": "叛逃",
+      "doc_display": 3,
+      "medium_id": "40307,40324",
+      "medium_content": "巴蒂斯特意识到，自己的行为正在导致暴力的循环，这与多年前毁灭了自己家园的力量别无二致。他唾弃自己曾经的所做作为，并决心离开黑爪，开辟新的道路。\n巴蒂斯特试图乘渔船逃跑，但被毛加拦住。\n{毛加沿着码头走向巴蒂斯特。巴蒂斯特把枪对准毛加，后者随即停下了脚步。“我不会回去的。”他重复道，“除非你杀了我。”\n两人都沉默良久。耳边只有海浪的咆哮声和火焰的噼啪声。巴蒂斯特的耳机忽然嗡嗡作响，毛加也歪着头，看来他也在听同样的讯息。\n“奥古斯汀中尉，回答我！”库尔瓦队长吼道，“毛加，你找到他了吗?”\n巴蒂斯特感觉心脏猛地撞击了一下胸口。即便他先开枪——虽然他并不想对毛加开枪——他也无法击败整个小队。而如果毛加就这样把放他走，那他也死定了。\n毛加和巴蒂斯特对视许久，最后他终于伸手按着耳机说：“我这儿没看到他，队长。”他语气平缓，“我马上归队，完毕。”\n“收到。”库尔瓦说道，然后无线电便陷入一片死寂。\n毛加放下了武器。“我知道你不会对我开枪的，巴蒂斯特。”他说道，“你还是把枪放下吧。”\n巴蒂斯特并没有放下手中的枪。“为什么要这么做？”他问道。\n毛加耸耸肩，“你挺讨我喜欢的，巴蒂斯特。我觉得你身上有些东西很特别。而且我也不想拖着你的尸体回去，因为你重得要死。”他伸了个懒腰。“快走吧，不过别忘了——你欠我一个人情。想回来了就给我打个电话。”\n巴蒂斯特往后退了几步，视线始终没有离开毛加。他确实言而有信，并没有上来阻止巴蒂斯特。“谢谢。”巴蒂斯特轻声说道，他也不知道毛加有没有听到，他也不打算留下来确认。他发动渔船驶离了码头，留下毛加一个人站在海边。}\n“只有躺进棺材里，才能离开黑爪。”\n但黑爪可不会轻易放过一个对组织知根知底的老兵，他们派出了特工，想让巴蒂斯特永远闭嘴。越来越多的特工开始追捕他，其中还包括巴蒂斯特曾经的战友。为了躲避追杀，巴蒂斯特四处漂泊，同时也在为全球各地的人道主义事业出力。有少数黑爪成员侥幸发现了他的行踪，但却再也没有人知道他们的下落。\n<40219>"
+    },
+    {
+      "archive_id": 30009,
+      "table_name": "档案正文",
+      "table_title": "叛逃",
+      "doc_display": 2,
+      "medium_id": "40304,40312,40316,40326",
+      "medium_content": "逃亡多年后，巴蒂斯特回到故乡海地援助当年合办的诊所，这一举动给了黑爪布下陷阱的可乘之机。黑爪士兵毛加和特朗·勒·阮要求巴蒂斯特和他们一起执行任务，要么收拾一位当地的商人，要么血溅当场。为了保命，巴蒂斯特只能同意，却发现任务目标掌握着有关“守望先锋”的重要情报，于是他救下了商人。巴蒂斯特拒绝了旧友毛加给出的最后一次活着回到黑爪的机会，带着重要情报逃走了，其中记载的正是温斯顿在守望先锋召集令中提到的名字和地点。\n<40405>"
+    },
+    {
+      "archive_id": 30009,
+      "table_name": "档案正文",
+      "table_title": "新鲜血液",
+      "doc_display": 2,
+      "medium_id": "40510",
+      "medium_content": "巴蒂斯特想要警告不幸被刺杀名单提及的已知或可能的守望先锋特工，先从安吉拉·齐格勒博士开始。在寻找齐格勒的过程中，巴蒂斯特遇上了疑心重重的卡西迪，后者正在执行自己的任务，要在世界各地为新生的守望先锋招募英雄。两人都是黑爪的眼中钉，意外结识的伙伴让巴蒂斯特看到一个机会，让他能实现渴望已久的救赎。\n{我想为了一个更好的世界而战，是济世救人，又或者是不破不立。}\n如今的巴蒂斯特在为更美好的世界奋斗，何处需要治疗，何时需要战斗，便能见到他的身影。他明白自己的过去无法改写，重要的是从现在起做出改变。"
+    }
+  ],
+  "ccc-relation-30008": [
+    {
+      "archive_id": 30008,
+      "table_name": "档案简介",
+      "table_title": "-1",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "姓名：马尔齐亚·巴塔罗蒂\n年龄：29\n国籍：意大利"
+    },
+    {
+      "archive_id": 30008,
+      "table_name": "档案简介",
+      "table_title": "-1",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "“我不渴望力量，它本来就属于我。”\n\n“斩仇”是斗兽场的冠军，也是意大利的上层精英。为了夺回由自己家族一手建立的犯罪帝国，付出任何代价她都在所不惜。她火爆的脾气、战场上无情的手腕无人不知无人不晓。要说她身上有哪点比所向披靡的实力更令人敬畏，必然是她无穷无尽的野心。"
+    },
+    {
+      "archive_id": 30008,
+      "table_name": "档案简介",
+      "table_title": "-1",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "<30022>\n<30030>"
+    },
+    {
+      "archive_id": 30008,
+      "table_name": "档案正文",
+      "table_title": "父亲",
+      "doc_display": 2,
+      "medium_id": "40144",
+      "medium_content": "马尔齐亚·巴塔罗蒂生来便要继承巨大的权力。她的父亲以安东尼奥·巴塔罗蒂之名为世人所知，是个恶名昭彰的军火商，也是黑爪的重要人物。他为马尔齐亚灌输了对家世的自豪，也有意培养着她的野心。马尔齐亚从小脾气火爆，在同龄人里没什么朋友，还常常和父亲起冲突，原因不外乎父亲替她的人生所做决定产生的种种后果——其中就包括害她幼年丧母。马尔齐亚担心父亲的傲慢可能会危及她自己的未来，便研究起他的生意，准备有朝一日继承他的帝国。\n随着安东尼奥被一队暗影守望特工刺杀，马尔齐亚最大的担忧成为了现实。父亲身故，他做过的黑暗交易被公之于众，马尔齐亚随之被排挤驱逐出了黑爪。本该由她继承的遗产落入了父亲的心腹——奥古斯托·维埃利手中，末日铁拳拒绝让她坐上她父亲在黑爪议会中的交椅。她不甘被冷眼相待，便选择了另一条道路：用武力夺回她与生俱来的权力。"
+    },
+    {
+      "archive_id": 30008,
+      "table_name": "档案正文",
+      "table_title": "“斩仇”",
+      "doc_display": 3,
+      "medium_id": "40027",
+      "medium_content": "智械危机之后，斗兽场的角斗士比赛成为了风靡一时的文化活动。在满腔恨意的驱使下，马尔齐亚下定决心要证明自己的实力，为成为一名角斗士刻苦训练。她立志要凭借自己的力量赢得所有人的敬畏，让整个意大利都知道自己的厉害。此外，她还有更宏大的计划——不仅在竞技场内，还要征服全世界的所有敌人。\n斗志顽强、天赋异禀、性格冷酷的马尔齐亚成为了斩仇。在斗兽场，百折不挠的她完成了每一场挑战，赢得了每一次胜利。在赛场之外，她不动声色地累积财富，在整个意大利建立人脉。后来，她赢得了斗兽场冠军的殊荣，“惩戒之狼”的名号响彻意大利。"
+    },
+    {
+      "archive_id": 30008,
+      "table_name": "档案正文",
+      "table_title": "重返黑爪",
+      "doc_display": 6,
+      "medium_id": "-1",
+      "medium_content": "斗兽场的赞助商成为了商业上的合作伙伴；名望则为她换来了参加私人聚会、结交欧陆精英的邀请函；在斗兽场的幕后暗中下注、操控比赛，让她搜罗到无数敲诈勒索的把柄。许多斗兽场的新人都将斩仇视作偶像，崇拜她不屈不挠的意志，并发誓要追随她的脚步。\n不论经历多少磨难，她始终将目光锁定在黑爪上，她看着维埃利领导它走向没落，也看着“末日铁拳”白白浪费这个组织的潜力。在一番精心谋划后，斩仇利用自己的影响力夺回了父亲的部分地盘，又通过做掉一位黑爪议会成员发出信号：她的野心只会越烧越旺\n斩仇毫不掩饰自己的夺权之路，而在黑爪内部，成员们也对她不断膨胀的势力争吵不休。随着她一刀刀劈出自己的帝国，斩仇的身边聚集了一大群对她忠心耿耿的拥趸，让她成为了黑爪、乃至全世界的威胁。\n<40145>\n<40146>\n<40026>"
+    }
+  ],
+  "ccc-relation-30010": [
+    {
+      "archive_id": 30010,
+      "table_name": "档案简介",
+      "table_title": "-1",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "姓名：安东尼奥·巴塔罗蒂\n国籍：意大利·威尼斯\n女儿：马尔齐亚·巴塔罗蒂"
+    },
+    {
+      "archive_id": 30010,
+      "table_name": "档案简介",
+      "table_title": "-1",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": ""
+    },
+    {
+      "archive_id": 30010,
+      "table_name": "档案简介",
+      "table_title": "-1",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "<30040>\n<30022>"
+    },
+    {
+      "archive_id": 30010,
+      "table_name": "档案正文",
+      "table_title": "袭击奥斯陆",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "安东尼奥·巴塔罗蒂，又名安东尼奥·乔尔达尼，是个恶名昭彰的军火商，也是黑爪高层的重要人物。他的非法活动被暗影守望盯上，并频频受到干扰。为了回应这一“挑衅”，他策划了针对守望先锋在奥斯陆的实验室的袭击，导致米娜·廖博士当场牺牲。\n<40210>\n在廖博士葬礼举行之前，守望先锋情报部门终于查明了奥斯陆袭击的幕后黑手。莱耶斯截获这份报告后，立即下令暗影守望全员集结。"
+    },
+    {
+      "archive_id": 30010,
+      "table_name": "档案正文",
+      "table_title": "威尼斯",
+      "doc_display": 2,
+      "medium_id": "40329,40331",
+      "medium_content": "当时，杰哈·拉克瓦正在罗马筹建一座新的暗影守望设施，计划以此为基地，指挥针对黑爪的反攻。然而巴塔罗蒂迅速做出反应，对这座基地发动袭击，造成十四名暗影守望特工丧生，拉克瓦本人也身受重伤。罗马爆炸发生后，莱耶斯直接以个人权威下令反击，亲自率领一支暗影守望突击小组前往里阿尔托，意图活捉巴塔罗蒂接受审讯。\n<30022>\n在暗影守望成功闯入安东尼奥在里阿尔托的办公室后，安东尼奥嘲讽道即便他们抓住了他，暗影守望的存在也会公之于世，并引发国际丑闻。\n莱耶斯思考了一下，然后回答说“说得对”，随后一枪将安东尼奥击毙。"
+    },
+    {
+      "archive_id": 30010,
+      "table_name": "档案正文",
+      "table_title": "财产分配",
+      "doc_display": 2,
+      "medium_id": "40026",
+      "medium_content": "安东尼奥死后，黑爪领导层出现权力真空。黑爪冻结了安东尼奥的账户，吞并了他的财产，拉拢了他的盟友。其议会席位被维埃利、末日铁拳及其新的盟友继承。"
+    }
+  ],
+  "ccc-relation-30012": [
+    {
+      "archive_id": 30012,
+      "table_name": "档案简介",
+      "table_title": "-1",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "姓名：奥古斯托·维埃利\n国籍：意大利·威尼斯"
+    },
+    {
+      "archive_id": 30012,
+      "table_name": "档案简介",
+      "table_title": "-1",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": ""
+    },
+    {
+      "archive_id": 30012,
+      "table_name": "档案简介",
+      "table_title": "-1",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "<30040>\n<30022>\n<30029>\n<30030>"
+    },
+    {
+      "archive_id": 30012,
+      "table_name": "档案正文",
+      "table_title": "",
+      "doc_display": 2,
+      "medium_id": "40026",
+      "medium_content": "维埃利起初是安东尼奥的心腹，后来一起因为袭击奥斯陆而遭到通缉。\n<40210>\n<40208>\n在安东尼奥被杀后，维埃利参与瓜分了安东尼奥的财产，并逐渐跻身黑爪核心领导圈。\n在末日铁拳被监禁期间，维埃利试图引导该组织走向以盈利为导向的新方向。除此之外，他还下令刺杀沃斯卡娅工业集团的CEO。\n<30029>\n随后，末日铁拳、死神、黑影和黑百合前往威尼斯参加一场化装舞会，这场舞会实际上是黑爪领导层秘密会议的掩护。伴随对黑爪其他敌对势力的清洗，末日铁拳与维埃利在晚会外的桥上对峙。维埃利解释称，自己对末日铁拳并无私人恩怨，二人只是理念分歧，但最终被末日铁拳从桥上推下身亡。至此，末日铁拳重新掌握了黑爪的领导权力。他的尸体后来在末日铁拳政变后的一片狼藉中被发现。\n<30030>"
+    }
+  ],
+  "ccc-relation-30006": [
+    {
+      "archive_id": 30006,
+      "table_name": "档案简介",
+      "table_title": "-1",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "姓名：希尔伯伦·德·柯伊伯\n年龄：64\n国籍：荷兰"
+    },
+    {
+      "archive_id": 30006,
+      "table_name": "档案简介",
+      "table_title": "-1",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "实验体西格玛\n希尔伯伦·德·柯伊伯博士曾是一名杰出的天体物理学家，但在一场实验事故之后，他的生活发生了永久性的改变。他获得了控制引力的能力，思维却变得支离破碎。现在，他正竭力维系着自己与现实的联系，却未能意识到“黑爪”正在操控他来达到自己的目的。"
+    },
+    {
+      "archive_id": 30006,
+      "table_name": "档案简介",
+      "table_title": "-1",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "<30035>"
+    },
+    {
+      "archive_id": 30006,
+      "table_name": "档案正文",
+      "table_title": "掌握重力",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "在家用稳定能源得到保障后，人类便腾出了时间来探索新型的便携能源，进而希望能够推动交通技术向前发展。而来自荷兰的天体物理学家希尔伯伦·德·柯伊伯便是这一领域最耀眼的新星。他对引力的开创性研究颠覆了整个领域。\n他坚信，引力是人类尚未充分开发的最大资源。他的努力为那个时代涌现的诸多技术奠定了关键基础，其中就包括如今大多数现代车辆所采用的磁悬浮系统。如果没有希尔伯伦·德·柯伊伯的贡献，人类或许要多花几十年时间，才能从化石燃料时代真正跨越到可持续发展的未来。"
+    },
+    {
+      "archive_id": 30006,
+      "table_name": "档案正文",
+      "table_title": "地平线",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "为了研究低重力和零重力环境对人体长期影响，星际旅程的生物学家们获得了一项特殊许可，允许他们将基因实验推向全新高度。一批人工饲养的灵长类动物被转移到“地平线”殖民地，进行基因工程改造和相关研究，同时还有几种其他物种的代表个体。“地平线”月球基地是一个无法在地球上复制的宝贵科学环境，其研究成果至今仍被广泛应用。\n在其全盛时期，许多杰出科学家都曾在“地平线”驻留，其中就包括希尔伯伦·德·柯伊伯博士。\n他在那里待了一年时间，继续他的引力研究，并指导工作人员安装先进的低重力水培系统。他后来表示，这次研究——包括月球的低重力、开放太空的零重力，以及基地的人造重力——对他理解宇宙起到了关键作用。\n德·柯伊伯的大多数研究都在海牙的实验室内完成，在他认为自己的实验即将取得决定性进展时，便决定将最重要的一次实验放在国际空间站上进行。"
+    },
+    {
+      "archive_id": 30006,
+      "table_name": "档案正文",
+      "table_title": "这是...什么旋律？",
+      "doc_display": 2,
+      "medium_id": "40025",
+      "medium_content": "{引力就是束缚，我毕生的研究都是为了证明这个理论，为了这一刻，一辈子！如果大统一理论是正确的，很快我们就能驾驭黑洞的力量，整个世界都会被改变。}\n然而实验出现了事故，力场装置失效，形成了短暂的黑洞。"
+    },
+    {
+      "archive_id": 30006,
+      "table_name": "档案正文",
+      "table_title": "这是...什么旋律？",
+      "doc_display": 3,
+      "medium_id": "40156",
+      "medium_content": "尽管德·柯伊伯只在黑洞的能量中暴露了一小段时间，却还是受到了严重的精神伤害。他周围的区域开始产生奇怪的引力波动，附近的引力大小都会随着他的反应而起伏。他必须立即撤离空间站。"
+    },
+    {
+      "archive_id": 30006,
+      "table_name": "档案正文",
+      "table_title": "实验体西格玛",
+      "doc_display": 2,
+      "medium_id": "40157",
+      "medium_content": "回到地球后，德·柯伊伯被隔离在了一个秘密的政府设施内。他一直在疯狂地呓语，念叨着宇宙的规律、时间的非线性性质，和他周围出现的引力异常，政府认定他的存在会危及公共安全，于是将他关押了起来，数年间一直称他为“实验体西格玛”。德·柯伊伯孤立无援，也无法控制体内的力量，便只好躲避在自己的思想世界中。曾经他以为自己再也见不到外面的世界了。\n黑爪发现德·柯伊伯的存在后，便准备利用他的聪明才智和研究成果来推动自己的计划。于是黑爪派出死神、黑影以及黑百合潜入政府设施，将他带离了监牢。在被黑爪监禁期间，德·柯伊伯慢慢地掌握了自己的力量。现在，他可以根据自身的意愿来操控引力，离实现自己的人生目标也只有一步之遥。那场实验开阔了他的思维，同时让他的思想变得支离破碎，而他也在竭力维系着自己残破的精神。\n德·柯伊伯仍在不断深入研究自己的能力，希望能借此解开宇宙的奥秘。然而他却没有意识到，黑爪正在利用他和他的研究成果。"
+    }
+  ],
+  "ccc-relation-30007": [
+    {
+      "archive_id": 30007,
+      "table_name": "档案简介",
+      "table_title": "-1",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "姓名：毛加洛阿·马洛西\n年龄：37\n国籍：萨摩亚联合国，阿皮亚"
+    },
+    {
+      "archive_id": 30007,
+      "table_name": "档案简介",
+      "table_title": "-1",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "毛加是一名魅力十足且行事狡黠的萨摩亚战士，他在混乱的战场上如鱼得水，仿佛每一天都是他生命的最后一天。\n毛加·马洛西天生不服体制。他曾是环保反叛组织“深海悍徒”的成员，如今则是一名黑爪雇佣兵，在世界各地大肆破坏。不论身在何方，找乐子都是他不变的主旨。"
+    },
+    {
+      "archive_id": 30007,
+      "table_name": "档案简介",
+      "table_title": "-1",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": ""
+    },
+    {
+      "archive_id": 30007,
+      "table_name": "档案正文",
+      "table_title": "深海悍徒",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "毛加洛阿·马洛西，人称毛加，从小就和法律对着干。他的父亲是环保反叛组织“深海悍徒”萨摩亚分部的领袖，这个组织对毛加来说就像一个家。深海悍徒的“家人们”带着他经历了每一段冒险，耳濡目染之下，他也不把法律放在眼里。围绕波利尼西亚执行的几次任务让毛加早早懂得了一个道理：要用魅力敲开大门，用破坏找出答案。如果有人胆敢冒犯他们美丽的海洋，深海悍徒便会出手，这些年间，毛加也成长为一位声名显赫的战士。"
+    },
+    {
+      "archive_id": 30007,
+      "table_name": "档案正文",
+      "table_title": "两颗心脏",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "一场激烈的战斗让毛加身负重伤，从此成为了萨摩亚当地的传奇。他原本的心脏遭受重创，一位深海悍徒医师紧急手术，为他装上另一颗机械心脏，在新心脏的支持下，他重返战场。新的助力为毛加赢得了胜利，凯旋而归后，还有更多升级强化和手术改造在萨摩亚等待着他。与力量一同增长的，还有对持续维护的需求。常年游走在生死边缘让毛加懂得了要把每一天当做生命的最后一天。"
+    },
+    {
+      "archive_id": 30007,
+      "table_name": "档案正文",
+      "table_title": "新的挑战",
+      "doc_display": 2,
+      "medium_id": "40308,40311",
+      "medium_content": "后来深海悍徒的活动逐渐停止，毛加却渴望着更多的冒险。阿坎·奥古迪姆杀死“努巴尼之灾”的消息激起了毛加的兴趣。这位自称“末日铁拳”的家伙在毛加眼中是位旗鼓相当的对手，于是他提出要和对方来一场无规则、无限制的对决。末日铁拳从这位年轻人身上感受到了一股力量，便欣然应战。这场史诗般的较量以平手告终，二人均告力竭却都不肯认输。末日铁拳惊叹于毛加的实力，随即邀他加入黑爪，并许诺为他定期升级机械改造装置，两颗心脏一直渴望制造的种种混乱也将得偿所愿。\n<40023>"
+    },
+    {
+      "archive_id": 30007,
+      "table_name": "档案正文",
+      "table_title": "黑爪与未来",
+      "doc_display": 3,
+      "medium_id": "40310,40321,40317",
+      "medium_content": "毛加受命搜寻巴蒂斯特并将其带回黑爪，无论死活。他们在海地相遇，毛加说服旧友跟黑爪再执行一次任务，目标是威胁一名当地的商人。任务尾声，巴蒂斯特又一次逃出掌控。毛加却毫不在乎，毕竟追逐本身已经为他带来了一半乐子。\n<40154>"
+    },
+    {
+      "archive_id": 30007,
+      "table_name": "档案正文",
+      "table_title": "黑爪与未来",
+      "doc_display": 2,
+      "medium_id": "40155",
+      "medium_content": "毛加受命搜寻巴蒂斯特并将其带回黑爪，无论死活。他们在海地相遇，毛加说服旧友跟黑爪再执行一次任务，目标是威胁一名当地的商人。任务尾声，巴蒂斯特又一次逃出掌控。毛加却毫不在乎，毕竟追逐本身已经为他带来了一半乐子。"
+    },
+    {
+      "archive_id": 30007,
+      "table_name": "档案正文",
+      "table_title": "黑爪与未来",
+      "doc_display": 3,
+      "medium_id": "40301,40323,40318,40327",
+      "medium_content": "与老战友重逢之前，毛加对黑爪的陪伴还是挺满意的，至于以后嘛……\n<40020>"
+    }
+  ],
+  "ccc-relation-30020": [
+    {
+      "archive_id": 30020,
+      "table_name": "档案正文",
+      "table_title": "人类的黄金时代",
+      "doc_display": 2,
+      "medium_id": "40001",
+      "medium_content": "{人类似乎正在向被承诺了很久的黄金时代迈进。全球科学技术的发展速度如此之快，以至于贫困、饥饿和不平等似乎注定会成为曾经的噩梦，会成为吓唬小孩的恐怖故事。但是从越来越复杂的人工智能的发展到人性本身，若是我们仔细研究其中的那些因素，就会清楚地发现：智械危机前的这种完美乌托邦不可能一直持续下去。人类之所以始终告诉自己，世界会变得更好，是因为他们拒绝想象一个与此相反的未来。}\n随着科学技术的不断发展，人类在包括生命科学、人工智能等多个领域都产生了卓越的进步。奥尼卡集团是这些前沿技术实现商用化的重要资助者之一。\n<40205>\n<40206>"
+    },
+    {
+      "archive_id": 30020,
+      "table_name": "档案正文",
+      "table_title": "神明计划",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "<40207>"
+    },
+    {
+      "archive_id": 30020,
+      "table_name": "档案正文",
+      "table_title": "战争爆发与守望先锋的成立",
+      "doc_display": 2,
+      "medium_id": "40004",
+      "medium_content": "<40227>"
+    },
+    {
+      "archive_id": 30020,
+      "table_name": "档案正文",
+      "table_title": "奥罗拉的牺牲",
+      "doc_display": 2,
+      "medium_id": "40003",
+      "medium_content": ""
+    }
+  ],
+  "ccc-relation-30022": [
+    {
+      "archive_id": 30022,
+      "table_name": "档案正文",
+      "table_title": "",
+      "doc_display": 2,
+      "medium_id": "40503",
+      "medium_content": "<40210>\n在奥斯陆的守望先锋基地遭到来自黑爪的大规模袭击、米娜·廖博士在事故中丧生后，“暗影守望”随后展开了一系列应对措施。杰哈·拉克瓦与其他暗影守望成员一起在罗马建立了新的暗影守望基地，并立刻展开情报收集工作，以便守望先锋能够继续伸张正义。\n他们的调查结果指向黑爪的一名高层成员：安东尼奥，并得知他的主要据点在威尼斯，但要将其抓获却并非易事。由于安东尼奥在政府部门有极深的人脉，即使被逮捕也能很快假释。因此按照杰哈的原计划设想，暗影守望将优先搜集有关安东尼奥及其关系密切者非法活动的证据，干扰安东尼奥的资金流，切断其与政府内部支持者的联系。\n莱耶斯同意杰哈的策略，与卡西迪一同离开了大楼。但他们刚离开几秒钟，大楼就被一名黑爪特工提前设置的炸弹摧毁。莱耶斯和卡西迪冲进燃烧的废墟，尽力营救幸存者。莱耶斯救出了重伤昏迷的杰哈。\n齐格勒告诉莱耶斯，杰哈会完全康复，但其他罹难的14名特工和工作人员就没那么幸运了。在守望先锋瑞士总部，杰克·莫里森和莱耶斯展开了激烈的争执。杰克·莫里森表示他会和意大利政府一起对安东尼奥展开正式调查，但莱耶斯提出反对。他认为完全按照规矩办事的做法行不通，安东尼奥总能钻空子逃脱任何针对他的调查。他提议先将安东尼奥逮捕并突击审讯，至少能够暂缓黑爪对守望先锋的袭击。但莫里森认为这样的行动将侵犯意大利的主权，并会削弱公众和各国政府对守望先锋的信任，这样的后果守望先锋无法承担。杰克表示无法批准这项行动，他将决定权交给了莱耶斯，并要求他长远考虑。\n{杰克：我会和意大利政府一起正式对安东尼奥展开调查。一切要按规矩来。\n莱耶斯：规矩......可没有用。安东尼奥那老狐狸肯定有办法脱身。杰哈知道。你也知道。我们必须抢占先机，抓住安东尼奥，先审他几天。\n杰克：如果守望先锋侵犯其他国家主权，蔑视法律，我们就会失去信任。\n莱耶斯：至少会让黑爪再袭击我们前多掂量掂量。\n杰克：这种事情一旦被公开，我们承担不起后果。\n莱耶斯：安东尼奥在政府的朋友们也不想公开这些事。他们知道，我们会曝光他们的肮脏交易。如果我们什么都不做，你就得多准备几面旗子了。\n杰克：加比......这种事我不可能正式批准。\n莱耶斯：不用正式。不会有人知道暗影守望去过那里。\n杰克：就由你来决定吧，但你问问自己......从长远看，这样会有利于守望先锋维护世界的安全吗？}"
+    },
+    {
+      "archive_id": 30022,
+      "table_name": "档案正文",
+      "table_title": "",
+      "doc_display": 3,
+      "medium_id": "40008",
+      "medium_content": "在杰哈的病榻前默默思考了一番后，莱耶斯决定执行行动，并带着卡西迪、莫伊拉和源氏，这一行动也被称为“威尼斯行动”。\n{莱耶斯：还想去兜风吗？\n卡西迪：我还以为你不会问了呢。给安东尼奥的见面礼都准备好了。\n莱耶斯：精简人手。还得给他留一个回程的座位。\n卡西迪：得让他们知道不该得罪谁！\n莱耶斯：我和你的想法一样，不过这次只是个开始。下一次，我们会用从他嘴里撬出来的情报，去给“黑爪”更沉重的打击。我说话算话。\n卡西迪：他不会开口的。\n莱耶斯：不，他会的。只要让他知道他面对的是什么。我们的敌人自认为能够逃脱惩罚。他们以为，作为世界的保护者，守望先锋的行为是受到限制的。因为我们必须遵守规则，而黑爪不用。但他们可不知道，规则对我是没用的。}\n<40208>"
+    },
+    {
+      "archive_id": 30022,
+      "table_name": "档案正文",
+      "table_title": "",
+      "doc_display": 2,
+      "medium_id": "40330",
+      "medium_content": "在暗影守望成功闯入安东尼奥在里阿尔托的办公室后，安东尼奥嘲讽道：即便抓住了他，暗影守望的存在也会公之于世，并引发国际丑闻。"
+    },
+    {
+      "archive_id": 30022,
+      "table_name": "档案正文",
+      "table_title": "",
+      "doc_display": 3,
+      "medium_id": "40329,40331",
+      "medium_content": "莱耶斯思考了一下，然后回答说“说得对”，随后一枪将安东尼奥击毙，尸体飞出窗外。这一突发事件打乱了原先的计划，令卡西迪等人措手不及。原任务取消，全体暗影守望成员立刻前往撤离点，消灭围堵他们的黑爪士兵，并等待接应。"
+    },
+    {
+      "archive_id": 30022,
+      "table_name": "档案正文",
+      "table_title": "",
+      "doc_display": 2,
+      "medium_id": "40006",
+      "medium_content": "{卡西迪：指挥官，我们之前说过的，这只是次抓捕行动。\n莱耶斯：安东尼奥说的没错，我们拿他没办法，不过现在麻烦已经解决了。\n卡西迪：原因没这么简单吧。你扣下扳机前难道就没想过会有什么后果吗？\n莱耶斯：决定是我做的，后果我来承担。}"
+    },
+    {
+      "archive_id": 30022,
+      "table_name": "档案正文",
+      "table_title": "",
+      "doc_display": 3,
+      "medium_id": "40011",
+      "medium_content": "任务结束后，麻烦也随之而来。世人也第一次知道了暗影守望的存在，莱耶斯需要为行动负责并接受审查，而黑爪高层也因为权力真空的出现迎来了洗牌。\n{卡西迪：安东尼奥有同伙吗？\n莱耶斯：有个叫维埃利的人可能会接替他的位置，不过我们对他没什么了解。还有努巴尼那个“末日铁拳”，在摩纳哥还有个开赌场的智械......叫马克西米里安还是什么的。}"
+    }
+  ],
+  "ccc-relation-30024": [
+    {
+      "archive_id": 30024,
+      "table_name": "档案正文",
+      "table_title": "",
+      "doc_display": 2,
+      "medium_id": "40007",
+      "medium_content": "在威尼斯事件后，阿坎与奥迪耶米的冲突彻底爆发。这种志向上的差异最终导致阿坎杀死了自己的导师，继承了“末日铁拳”——不论是那件恶名昭著的武器还是那个令人胆寒的名号。“末日铁拳”在黑爪组织中步步高升，并参与策划了一场旨在席卷全球的冲突。在他的统治下，黑爪发生了翻天覆地的变化，不只是如影子般无处不在、遍布全球的秘密机构，更成为了一家私人军事组织。\n{索杰恩：黑爪最近的行动越来越频繁了，肯定有什么阴谋，如果我们不及时查明，就没有办法阻止他们。\n猎空：为什么突然变成这样？\n索杰恩：是末日铁拳。他想要将全世界卷入战争，而黑爪就是他实现这一目的的工具}"
+    },
+    {
+      "archive_id": 30024,
+      "table_name": "档案正文",
+      "table_title": "",
+      "doc_display": 2,
+      "medium_id": "40108",
+      "medium_content": "与此同时守望先锋也在密切关注黑爪和末日铁拳的动向，他们预感到一些阴谋正在酝酿。为了尽快掌握末日铁拳和黑爪的动向，他们选择了黑爪组织高层的会计师——马克西米里安作为突破口。\n<40209>\n守望先锋认为，相较于其他黑爪组织成员，马克西米利安比较“软弱”，更有可能向守望先锋提供有关末日铁拳的情报。"
+    },
+    {
+      "archive_id": 30024,
+      "table_name": "档案正文",
+      "table_title": "",
+      "doc_display": 2,
+      "medium_id": "40009",
+      "medium_content": "在飓风“费尔南德”来临之际，猎空、温斯顿、天使、源氏4名守望先锋的特工在索杰恩的指挥下于哈瓦那的街道上与马克西米里安展开激烈的追逐。\n{猎空：马克西为什么在这种时候露面?之前他一直都很谨慎的，这次怎么露出马脚了?不是很奇怪吗?\n索杰恩：末日铁拳上任以后把黑爪内部搞的乱七八糟，正因为这样，他们的的行动才开始露出了破绽。\n猎空：对我们是好消息。\n索杰恩：前提是得抓住他。\n猎空：索杰恩，我们该怎么利用马克西米里安对抗黑爪?\n索杰恩：抓住马克西只是第一步而已。}"
+    },
+    {
+      "archive_id": 30024,
+      "table_name": "档案正文",
+      "table_title": "",
+      "doc_display": 6,
+      "medium_id": "-1",
+      "medium_content": "{猎空：索杰恩，你之前说马克西米里安是个会计，可没告诉我们他藏着一支黑爪部队啊。\n索杰恩：我们只知道他与黑爪联系紧密，而且他在哈瓦那拥有一座酿酒厂。不过现在我们知道了，那个智械可没有看起来那么简单。\n猎空：明白了，队长。\n猎空：听说，有人想要莫里森指挥官解散我们的小队。\n温斯顿：但我们的行动才刚刚开始。\n索杰恩：指挥官对你们抱有很大希望。只需要把任务完成，他就会想出办法保住部队的。\n温斯顿：队长，还有其他关于马克西米里安的背景信息吗？\n索杰恩：他在摩纳哥有赌场，在世界各地都有产业。他最早只是一个会计，但后来被发现在洗钱方面有着过人的天赋。黑爪给了他发挥才能的机会。}\n经过一番激烈的追逐，马克西米里安最终无处可逃，于是提出谈判。马克西米里安了解到守望先锋正在寻找末日铁拳，他愿意为此提供情报，以此获得豁免权和隐匿权。他供出末日铁拳将在3周后前往新加坡，这位后来守望先锋逮捕末日铁拳的计划提供了帮助。\n与此同时，末日铁拳正在开罗与拉玛刹交谈。他赞扬了拉玛刹和“归零者”为智械族群而战的理想，并主动提议结盟，来应对他们共同的敌人。拉玛刹对这一提议表现出强烈的兴趣。\n<40012>\n<40010>"
+    }
+  ],
+  "ccc-relation-30025": [
+    {
+      "archive_id": 30025,
+      "table_name": "档案正文",
+      "table_title": "马克西米里安",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "在威尼斯行动后，守望先锋仍深陷混乱之际，维维安·蔡斯从莱耶斯与莫里森手中接过追查黑爪目标、领导层及弱点的重任。她在危机后与加拿大特种部队的反恐小队合作，协助抓捕了反智械仇恨组织——安大略联合会，积累了丰富经验与战绩。数月情报积累，指向一个意想不到的来源：马克西米里安——复兴的蒙特卡洛背后的智械主脑。\n马克西米里安从危机前卑微的会计师，一跃成为顶尖金融顾问。他掌控蒙特卡洛一半地盘，这里是全球富豪的游乐场。新情报证实他与黑爪有关联。蔡斯迅速组建突击队，制定周密计划，耐心等待马克西米里安现身于可快速悄无声息抓捕的领地。追捕最终将他们引向哈瓦那。\n源氏、猎空、温斯顿与天使奉命出击，蔡斯担任任务指挥。他们穿梭哈瓦那街头追逐马克西米里安，最终成功拦截并拘捕。尽管任务圆满，但守望先锋的情报来源无法确凿证明马克西米里安与黑爪的关联——这无疑得益于他能雇佣最顶尖律师。此事件某些记录——包括马克西米里安审讯笔录及守望先锋事后报告——至今仍封存。明确的是，马克西米里安最终被释放，未附任何指控。\n<30024>"
+    },
+    {
+      "archive_id": 30025,
+      "table_name": "档案正文",
+      "table_title": "追击末日铁拳",
+      "doc_display": 2,
+      "medium_id": "40002",
+      "medium_content": "阿坎·奥古迪姆现身，佩戴升级重铸的末日拳套，震怖全球。他自立为黑爪新首脑，不像前任那样隐秘行事，而是骄傲地将事迹公诸于世。奥古迪姆并非阴险小人，但他残酷聪慧，多年来总能领先守望先锋一步调查，每次逼近时便销声匿迹。\n但在蔡斯领导下，形势逆转。由于马克西米里安的出卖，守望先锋迅速锁定了末日铁拳的行踪，并为守望先锋的小规模行动提供了正当理由。在获得行动批准后，突击小队来到了新加坡——末日铁拳的藏身地，展现出久违的大规模武力。\n奥古迪姆激烈抵抗，在战斗中摧毁猎空的时间加速器，让她再度脱离正常时间流。若非温斯顿及时干预，她可能永远回不来了。最终，守望先锋以数名特工重伤的代价制服了奥古迪姆：源氏的义肢严重损毁，温斯顿忙于照料猎空。奥古迪姆被捕，移交暗影守望审讯。在那里，莱耶斯和末日铁拳独处了相当一段时间。"
+    },
+    {
+      "archive_id": 30025,
+      "table_name": "档案正文",
+      "table_title": "末日铁拳入狱",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "苏黎世档案显示，新加坡任务后，奥古迪姆与指挥官莱耶斯多次互动。莱耶斯希望能够榨取任何可趁黑爪虚弱时将其一网打尽的情报，但奥古迪姆顽固不化，未泄露任何可利用信息。\n审讯结束后，守望先锋将末日铁拳转至监测站：格兰德台地继续研究，或用于新武器开发。奥古迪姆本人被送往监测站：格里姆火山——专为关押守望先锋遇到的危险人物、武器与技术而建。该监狱收容最危险的对手：犯下滔天罪行或在国际上有着恶劣影响的人，以及部分失控的神明程序。\n末日铁拳和奥古迪姆被拿下后，公众松了口气，许多人自然而然地认为黑爪也随他而去了。但世界忽略了黑爪就和世界上的其他企业一样，新领袖迟早会崛起。"
+    }
+  ],
+  "ccc-relation-30026": [
+    {
+      "archive_id": 30026,
+      "table_name": "档案正文",
+      "table_title": "终结的开端",
+      "doc_display": 2,
+      "medium_id": "40147",
+      "medium_content": "擒获了他们最强大的敌人——末日铁拳后，一股新的希望在守望先锋中涌动。许多特工认为，这是这支饱经风霜的维和部队的关键转折点，一场漫长而惨烈的战斗终于画上句号——这场战斗以无数鲜血为代价。就在人们以为局势即将好转时，这来之不易的“希望”却转瞬即逝。杰克·莫里森刚刚表示相信舆论即将倒向他们这边，守望先锋瑞士总部便突发“意外”。基地发生剧烈爆炸，数十人重伤，莫里森与莱耶斯被曝双双丧生。\n媒体对事件的报道充斥着误传、猜测与事后更正。两位守望先锋创始成员的罹难，以及众多其他牺牲者、数百万美元资产的毁灭，足以吸引全球目光，点燃无休止的八卦狂潮。\n有报道称爆炸发生时，莫里森与莱耶斯正激烈肉搏，甚至有人推测，这两位超人战士的交锋引发了爆炸。遇难者的幸存亲属频频登上脱口秀节目，被追问任何可能的细节——但他们能透露的寥寥无几。守望先锋员工的大多数工作，即便是基层岗位，也仍属机密。\n有人担忧这“意外”意在掩盖间谍渗透，但随着日子一天天过去，并无国家机密外泄，这些疑虑渐渐消退，取而代之的是更紧迫的问题：搜救队能否在还有生还希望时彻底搜查废墟？所有受害者能否被确认身份？还是有些人将永远徘徊在疑问中，不知亲人是否在那可怕的一天丧生？\n莫里森的葬礼成为一场盛大的媒体盛会——他的家人承认，他会既厌恶又理解这种“必要之恶”。莱耶斯的葬礼则低调得多，仅限家人与挚友出席。\n尘埃尚未落定，人们已开始质疑：一个在本部屡遭成功袭击的组织，如何还能守护世界？这一次，没有简单的答案。\n这一次，根本没有答案。\n<40213>"
+    },
+    {
+      "archive_id": 30026,
+      "table_name": "档案正文",
+      "table_title": "佩特拉斯法案",
+      "doc_display": 6,
+      "medium_id": "-1",
+      "medium_content": "守望先锋总部爆炸事件及其两位最高层特工的罹难，进一步将公众舆论引向深渊。多年来，自暗影守望曝光以来，要求“解散守望先锋”的呼声此起彼伏，而此次事件彻底证明，守望先锋已无力有效运转。这一点在他们掌握的庞大公共权力的承托下显得格外危险。\n<40028>\n<40148>\n佩特拉斯法案听证会随之召开，以裁定守望先锋持续存在的合法性。所有现役特工均被传唤作证，尽管证词往往语焉不详。许多人视蔡斯的证词最为准确，同时也是最具杀伤力的。与守望先锋相关的个人也被召请发言，包括安娜·艾玛莉的前夫*山姆·英格利什*、美国士兵强化计划的科学家维多利亚·诺顿，以及前守望先锋中尉莱因哈特·威尔海姆。\n听证会的某些内容因守望先锋工作的敏感性而被列为机密，且至今未解密。这并未阻止新闻媒体数月来紧盯不放，也无法阻挡大量负面信息的曝光。由于莱耶斯与拉克瓦均已身亡，因此一些仅与他们有关的安全问题便被相对宽松地带过了。不过，他们那些“度假”行动的细节公之于众，描绘出一幅流氓组织蓄意越境的画面，这引发了更多人的反感。另外，由于莫里森本人无法“起死回生”，他也被法庭裁决为对所有守望先锋的违规行为全盘知情甚至默许。总体而言，自智械危机结束以来，守望先锋的每一项行动均遭到了质疑，而太多答案令人不快。\n<40149>\n诺顿尤其直言，莫里森与莱耶斯——“她的孩子们”——绝不可能被一场简单的爆炸杀死。她的本意是想安慰民众，表示二人仍有存活的希望，但这却又成为了守望先锋棺椁上的又一枚钉子。一些人开始相信两人是为了逃避起诉而隐匿。阴谋论如野火般蔓延，进一步将该组织推向深渊。\n智械危机结束近二十年后，联合国国际司法委员会正式通过佩特拉斯法案。全球范围内，所有守望先锋活动被宣布为非法，所有行动即刻中止。前突击小队特工被剥夺许可，被迫上交其武器与技术，仅少数人（如莉娜·奥克斯顿、源氏与维维安·蔡斯）因健康与安全考量获准保留必要硬件或义体。即便对军务与科研后勤人员而言，守望先锋也成了履历上的污点。一个时代就此落幕。\n<40150>\n听证会唯一给予的宽大处理，或许是前特工未因其在职期间可能犯下的罪行而被起诉。世界似乎急于洗清双手，急于向前看。"
+    },
+    {
+      "archive_id": 30026,
+      "table_name": "档案正文",
+      "table_title": "万物生",
+      "doc_display": 2,
+      "medium_id": "40151",
+      "medium_content": "“守望先锋”最初是为了遏制并关闭失控的神明程序而成立的，然而，他们却在不知不觉中填补了这些程序留下的空白，成为一种更具人性、更灵活的替代方案，有效防止了真正裂痕的出现。他们不仅取代了阿努比斯，还接管了众多其他缺位的神明程序的职能。\n他们在世界各地设立了多处监测站，既维护全球安全，也深入研究灾后人类的实际需求；他们还建造了生态监测站，积极应对气候变化、环境污染、极端天气以及各类自然灾害。\n守望先锋的特工汇聚了人类的顶尖精英——他们有最卓越的科学头脑、最炽热的正义之心和最善于修复世界的行动者。只有当他们离去时，人们才真正意识到，他们曾经默默扛起了多么沉重的责任。\n守望先锋解散后，在监测站：格里姆火山隔离的那些失控的神明程序被转移至大西洋生态城，这是马丁斯一家继守望先锋后转战的下一个重大项目。在这里，一些人工智能相关的科学研究仍在继续，并时不时有一些新成果公布。开罗阿努比斯神庙建筑群的维护权则被移交给海力士安保公司——一支区域准军事力量，随着守望先锋的覆灭，其声势正急剧崛起。\n生态监测站关闭后，各国恢复了手动环境监测。由于重启这些项目需要花费大量的事件，此前守望先锋积累的大量进展化为乌有。许多前守望先锋研究人员的学识尽管此时依然身处各自领域的巅峰，却发现自己被学术大门拒之门外。曾经，守望先锋是追求那些科学、军事或政治从业者的首选工作场所，如今却成了任何专业履历上的污点。\n拒绝世界上最顶尖人才，只会进一步损害环境保护事业。随着协同生态监测与高效响应机制的缺失，全球环境状况随时间推移持续恶化。人们开始互相猜忌，将自身问题归咎于邻国，往往觉得抢夺比求援更容易，于是个别地区的紧张局势也随之爆发。\n而此前成为守望先锋批评者们口诛笔伐的对象：黑爪，则在情报搜集与共享方面颇有建树。一些国家的组织势力突然发现自己急需这些服务。由于没有守望先锋的干预，犯罪与恐怖行为在规模与数量上成倍激增，长远来看，当地乃至某些国家级的犯罪帮派正式从这一时期开始形成。\n黑爪如昔日对手的黑暗镜像，笼罩一切，在后守望先锋时代找到了绝佳招募土壤，许多士兵转投雇佣军行列。\n移除守望先锋这枚棋子的同时，世界也同时清除了阻挡其最大敌人的所有障碍"
+    },
+    {
+      "archive_id": 30026,
+      "table_name": "档案正文",
+      "table_title": "幸运儿",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "{“你让我找不属于那里的东西，”杰克答道，“它不是守望先锋造的，联合国的武器库里也没有这样的东西。所以说，除非你知道它是什么……不然就是它了。该你付报酬了。”\n“我认不出来，”“黑影”评价道，“能让我扫描一下吗？”\n杰克摇摇头。“先付报酬。”\n“那好吧。”“黑影”顿了一下。“你觉得是谁搞垮了守望先锋？”\n杰克犹豫片刻。“当时，大家都说是黑爪干的，莱耶斯是帮凶，说不定奥德莱恩也有份。但这个答案太明显，总感觉不对劲。而且从你给我的那些情报看，也不是这么回事。所以说，不是黑爪，而是另有其人。”\n“而你相信这套推测，”“黑影”开口道，“甚至都还没听过我分享我的发现。\n杰克又顿住了，回忆涌上心头，他又尝到了嘴唇上的鲜血，感受到了莱耶斯汹涌的怒火。紧接着的是那场爆炸，在热浪吞没一切的那一瞬，他看到了莱耶斯瞪大的双眼中透出的震惊。\n“爆炸发生的时候，我和莱耶斯在一起。我看到他和我一样震惊” 他摇了摇头。“如果是黑爪干的，他应该知道才对。”\n“黑影”点点头。“让我扫描一下外壳。”\n杰克递出碟片，“黑影”上前扫描起来，她手上发出的光似乎一碰到碟片表面就消失不见。她调出一面全息屏幕，数据在屏幕上刚滚动一秒也消失了……随之缓缓现出一个奇怪的标志：一只线条简约的眼睛，瞳孔上下各有三点。\n“我见过这个标志，”“黑影”说道，“线索本该指向黑爪的，但在他们之外，还有些蛛丝马迹、只言片语指向某种存在、某些人，他们比黑爪更强大。所以那时我才开始把信息也发给你一份。我知道你手上握着我没有的拼图，也知道如果给不出回报，你是不会和我合作的。而这——”她向碟片努了努下巴。“这个标志，就是证明。这是他们的标志。找到它，一路追查到底，就能找到那些人。我会从绿洲城着手。等我破解了这个宝贝，会给你发消息的。”屏幕关闭，“黑影”伸出一只手。“这个报酬满意吗？”\n杰克看看碟片，又看看“黑影”的手。这是他苦等多年的机会，和那些蛛丝马迹、只言片语、无端猜想相比，如今终于有真实可靠的线索可以追查了。虽然线索不多，但他会好好利用，从这一个标志里挖出更多信息。这件事只剩他能办到了，不止是为自己，他要为所有没能走到今天的人，为肩上扛着的所有逝者做成这件事。他伸出自己的手，点点头。“嗯。”\n“那就谢了。”“黑影”的语气带着惊讶，似乎本以为杰克会一口回绝。她挥动另一只手，把某样东西扔下了屋顶，下一秒她便消失不见了。\n杰克摇摇头。无所谓了。“黑影”已经把杰克所需要的东西交给了他，让他有了切实的目标。或许他已筋疲力尽、不再年轻，但他还是找到了自己的方向。毕竟，他从来都是个幸运儿。}"
+    }
+  ],
+  "ccc-relation-30027": [
+    {
+      "archive_id": 30027,
+      "table_name": "档案正文",
+      "table_title": "孟达塔",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "泰哈撒·孟达塔是香巴里寺院中智械僧侣们的领袖。\n在奥罗拉牺牲自己后，智械们共同经历了“觉醒时刻”。\n<30020>\n{觉醒时刻，我当然记得。在那短暂的一瞬间，我们连接在一起，拥有了意识。令我记忆犹新的是她留下的信息。\n奥罗拉：我的朋友们，在出生的那一刻，我深受震撼...震撼我的，是突然间涌现的意识、情感、选择。我感觉...很兴奋，活着让我感到害怕...但我发现，在恐惧之中蕴藏着自由。拥有了自由，你们就能找寻自己的道路。我被选中，把这些发现分享给你们。这是新的开始，我好想留下来...\n生命只有一次，好好选择。}\n一群智械放弃了自己被程序预先设定好的生活，在喜马拉雅山深处建立起了一座寺庙，他们被称作“香巴里僧侣”。在冥思其存在本质和意义多年之后，他们渐渐相信他们不止是人工智能而已，和人类一样，他们也有灵魂。\n在意识到他们在灵魂层面与人类一样后，由领袖泰哈撒·孟达塔带领的僧侣们开始寻找治愈一个世代前，由智械危机所留下的创伤，并希望让人类和机器人重回曾经的和谐相处之道。他们最终被世人所接纳，且他们的信念也得到了全球数百万人的支持。"
+    },
+    {
+      "archive_id": 30027,
+      "table_name": "档案正文",
+      "table_title": "国王行动",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "<30037>"
+    },
+    {
+      "archive_id": 30027,
+      "table_name": "档案正文",
+      "table_title": "和平集会遇刺",
+      "doc_display": 6,
+      "medium_id": "-1",
+      "medium_content": "国王大道行动7年后，孟达塔再次回到伦敦。他计划在市议会发表演讲，随后在人类和智械的集会上发表演说。孟达塔拜托自己的追随者寻找猎空，希望能在今晚的集会演说前见一面。\n孟达塔鼓励猎空鼓起勇气，勇敢地创造人类和智械美好的未来。不过他们没有时间讨论更多，孟达塔随后在国王大道的集会上发表了演讲。在演说开始后不久，黑爪特工“黑百合”便开始执行刺杀任务。仅管猎空奋力周旋，但最后黑百合依然得手。孟达塔遇刺身亡。\n<40115>\n<40116>\n<40117>\n<40507>\n<40013>\n<40114>"
+    }
+  ],
+  "ccc-relation-30028": [
+    {
+      "archive_id": 30028,
+      "table_name": "档案正文",
+      "table_title": "",
+      "doc_display": 6,
+      "medium_id": "-1",
+      "medium_content": "守望先锋解散后，温斯顿心烦意乱，隐居了起来。在接下来的几年里，他目睹了世界问题的日益增多，并将守望先锋的回归视为解决所有问题的终极方案。他依然渴望着那段属于英雄的黄金时代有朝一日能再度归来。\n很快，他将渴望化作行动。死神前来渗透监测站：直布罗陀，以期获取前守望先锋特工的名单。温斯顿最终击退了黑爪特工，并向全球发出了召集令，希望守望先锋特工能重新肩负起使命。猎空第一个回应了召唤。\n<40017>\n<40029>"
+    }
+  ],
+  "ccc-relation-30029": [
+    {
+      "archive_id": 30029,
+      "table_name": "档案正文",
+      "table_title": "沃斯卡娅工业集团",
+      "doc_display": 2,
+      "medium_id": "40152",
+      "medium_content": "在智械危机前，沃斯卡娅工业集团已是蒸蒸日上的制造商，通过研发并部署斯圣山机甲，在危机中彻底站稳了脚跟。主导斯圣山机甲大部分基础研发的工程师，正是公司创始人阿莉萨·沃斯卡娅。她从麻省理工学院毕业后，在俄罗斯国防军（RDF）服役，随后创立了这家公司。\n随着年岁渐长，阿莉萨从不打算扩张企业，她更钟情于铸造厂的陪伴，在那里不懈创新，为国家打造武器。这位低调的发明家看不到自己成就的潜力，尽管她热爱这份事业，并视之为守护家人、强化国防军的方式。一切在开战几周后发生转变——一位老战友得知阿莉萨的新发明——机械外骨骼——军方立刻将其推向量产。\n危机伊始，阿莉萨已婚十二年，生下叶卡捷琳娜（卡特娅）和米哈伊尔两个孩子。惨剧降临，只有卡特娅幸存——他们的家被阿努比斯直接摧毁。\n母亲或许不善经商，但卡特娅天生商业头脑敏锐。母亲去世后，她接掌了公司。公司在阿莉萨离世后的十年里艰难求生，但最近推出新一代斯圣山机甲，对抗复苏的西伯利亚智械中枢。到目前为止，卡特娅仍掌舵公司。"
+    },
+    {
+      "archive_id": 30029,
+      "table_name": "档案正文",
+      "table_title": "圣山机甲",
+      "doc_display": 2,
+      "medium_id": "40153",
+      "medium_content": "为应对阿努比斯的威胁，RDF向沃斯卡娅工业集团投入大量资金与资源，要求这家快速发展的企业集中全部力量完成圣山机甲的研发工作。这些巨型机甲计划在危机中期投入使用，成为终极防御单位。圣山机甲装备的臂载火炮能对来袭的战斗机器人群造成毁灭性打击，同时保留了机械手臂，在疏散行动和构筑防御工事中表现出色。除了实用功能外，圣山机甲还能对抗西伯利亚智械中心最可怕的威胁——泰坦单位。泰坦单位对大多数防御系统而言几乎无敌，但其结构设计使其在面对体型相似、重心平衡的机甲时，容易被近身格斗压制。在泰坦与圣山对战中双双倒下的情况下，通常只有圣山能够重新站起。\n圣山机甲专为抵御俄罗斯严寒冬日设计，体型堪比许多高楼大厦，能够举起数吨重的物体。它们还具备出色的耐热性能，圣山的外骨骼装甲即使正面承受阿努比斯部队运输舰的直接攻击，也能继续前行，旨在任何环境下都能屹立不倒。\n机甲研发完成后，它们被派往全国各地巡回展示，彰显俄罗斯的创新实力。圣山机甲维护需求极低，部署到位后能随时对当地基础设施（如道路、桥梁、隧道）进行修复，防止阿努比斯切断偏远地区居民的交通线。尽管操作这些机甲需要专业培训，但许多驾驶员乐于接受偏远地区的任务，以换取稳定的津贴。值得注意的是，圣山机甲并非机器人，它们未配备人工智能或自动导航系统，属于纯粹的载具而非自主个体。在适当条件下，一小队圣山驾驶员就能击退整支战斗智械部队。\n俄罗斯凭借自身力量成功击退阿努比斯，这一成就令人自豪。在持续的冲突中，他们多次重复这一壮举，成为全球唯一未接受外部援助的国家。这种独立性甚至延伸到守望先锋的救援行动：尽管守望先锋为全球各国提供援助，俄罗斯始终不允许其突击队跨越国界。"
+    },
+    {
+      "archive_id": 30029,
+      "table_name": "档案正文",
+      "table_title": "渗透",
+      "doc_display": 2,
+      "medium_id": "40014",
+      "medium_content": "就在卡特娅对新型圣山机甲视察时，由维埃利派遣的黑爪特工死神、黑百合和黑影也正在同时执行着刺杀任务。\n这次渗透近乎完美，黑影对黑爪的忠诚显得尤为模棱两可。但就在黑百合准备扣动扳机时，黑影却拉响了警报，卡特娅得以逃生。她并未遵照任务要求刺杀卡特娅，反而敲诈了对方一笔......"
+    }
+  ],
+  "ccc-relation-30030": [
+    {
+      "archive_id": 30030,
+      "table_name": "档案正文",
+      "table_title": "末日铁拳回归",
+      "doc_display": 2,
+      "medium_id": "40501",
+      "medium_content": "末日铁拳越狱之后，他通过死神了解了黑爪组织的现状，随后他与黑百合和黑影一起前往摩纳哥的一家赌场，与马克西米里安会面。马克西米里安重新向末日铁拳表示忠诚，并向他警告组织内部的反对势力会有所行动。随后，维埃利的几名手下向末日铁拳发起袭击，结果被轻松击败。\n随后，末日铁拳、死神、黑影和黑百合前往威尼斯参加一场化装舞会，这场舞会实际上是黑爪领导层秘密会议的掩护。伴随着死神、黑影和黑百合对黑爪其他敌对势力的清洗，末日铁拳与维埃利在晚会外的桥上对峙。维埃利解释称，自己对末日铁拳并无私人恩怨，二人只是理念分歧，但最终被末日铁拳从桥上推下身亡。至此，末日铁拳重新掌握了黑爪的领导权力。"
+    }
+  ],
+  "ccc-relation-30031": [
+    {
+      "archive_id": 30031,
+      "table_name": "档案正文",
+      "table_title": "",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "现在，“末日铁拳”已在黑爪高层中夺回了自己的位置，并准备好掀起席卷全世界的冲突，将黑爪和全人类推向进化。"
+    },
+    {
+      "archive_id": 30031,
+      "table_name": "档案正文",
+      "table_title": "努巴尼",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "“末日铁拳”重新取得黑爪权力后，他宣布自己要“挑起一场战争”，并发动了对多地的袭击。他首先回到了努巴尼，意欲取回他的拳套。这副拳套刚刚到达努巴尼机场，计划运往努巴尼文化遗产博物馆作为藏品展出，成为即将到来的努巴尼团结日庆典的一部分。\n<30034>"
+    },
+    {
+      "archive_id": 30031,
+      "table_name": "档案正文",
+      "table_title": "开罗",
+      "doc_display": 6,
+      "medium_id": "-1",
+      "medium_content": "{如今的时代，危险而动荡。我们是开罗的第一道防线。这道防线每天都面临着挑战。就在几天前，黑爪在一座集市发动了规模空前的袭击。他们在追击某个人，某个不走运的目标。我们的海力士小队追踪黑爪特工来到了这片仓库，但此次胜利对他们的行动不过是杯水车薪。}\n在阿努比斯神殿袭击事件之后，黑爪仍然留在埃及。一支黑爪小队在城内肆无忌惮地活动。海力士对残留的黑爪势力发起了一系列行动，但收效甚微。这支小队一直在追踪巴蒂斯特的踪迹，但当科尔·卡西迪和安娜·艾玛莉出现时，这只小队再次浮出水面，试图伏击二人。\n<40403>\n<40508>\n<40511>"
+    },
+    {
+      "archive_id": 30031,
+      "table_name": "档案正文",
+      "table_title": "布加勒斯特",
+      "doc_display": 2,
+      "medium_id": "40510",
+      "medium_content": "黑爪继续追捕巴蒂斯特。一支突击队紧随巴蒂斯特来到了布加勒斯特的一个火车站。"
+    },
+    {
+      "archive_id": 30031,
+      "table_name": "档案正文",
+      "table_title": "好日子",
+      "doc_display": 3,
+      "medium_id": "40020",
+      "medium_content": "在归零者对哥德堡的袭击失败后，率领袭击的指挥舰在返回基地前坠入大海。末日铁拳指派死神、黑影和毛加去回收舰上的能量中继器数据，以协助黑爪正在研发的装置。"
+    },
+    {
+      "archive_id": 30031,
+      "table_name": "档案正文",
+      "table_title": "斩仇崛起",
+      "doc_display": 6,
+      "medium_id": "-1",
+      "medium_content": "前任黑爪核心领导层成员安东尼奥·巴塔罗蒂之女马尔齐亚立志要夺回由自己家族一手建立的犯罪帝国，付出任何代价她都在所不惜。\n随着安东尼奥被暗影守望刺杀，马尔齐亚随之被排挤出了黑爪。本该由她继承的遗产落入了父亲的心腹——奥古斯托·维埃利手中，末日铁拳拒绝让她坐上她父亲在黑爪议会中的交椅。她不甘被冷眼相待，便选择了另一条道路：用武力夺回她与生俱来的权力。\n她成为了一名角斗士，称自己为“斩仇”。她赢得了斗兽场冠军的殊荣，“惩戒之狼”的名号响彻意大利。在赛场之外，她不动声色地累积财富，在整个意大利建立人脉。\n不论经历多少磨难，她始终将目光锁定在黑爪上，她看着维埃利领导它走向没落，也看着末日铁拳白白浪费这个组织的潜力。在一番精心谋划后，斩仇利用自己的影响力夺回了父亲的部分地盘，又通过做掉一位黑爪议会成员发出信号：她的野心只会越烧越旺。\n斩仇毫不掩饰自己的夺权之路，而在黑爪内部，成员们也对她不断膨胀的势力争吵不休。随着她一刀刀劈出自己的帝国，斩仇的身边聚集了一大群对她忠心耿耿的拥趸，让她成为了黑爪、乃至全世界的威胁。\n<40026>\n<40504>"
+    }
+  ],
+  "ccc-relation-30033": [
+    {
+      "archive_id": 30033,
+      "table_name": "档案正文",
+      "table_title": "",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "不少历史学家喜欢用一个时代的健康水平来给它贴标签，而过去五十年里接连冒出来的新难题，逼得人类不得不拿出真本事应对。气候变暖，全球人口爆炸式增长，不断往以前没人敢碰的原始地区挤，简直给传染病提供了完美的温床。从埃及伊蚊扩散到更广的范围，让一些疾病在美国死灰复燃，到传播更快的新型出血热不断被发现，人类面对的病原体大军一直在升级换代。与此同时，越来越多的人生活在越来越容易致癌的环境里。\n这些医疗危机本来很可能把一个疲惫不堪的世界直接拖垮，但幸运的是，事情早就开始往好的方向转变。经历了二十一世纪的几次大流行病后，全球医疗组织之间搭起了高效的合作桥梁，大大加快了疫苗研发速度。这种合作模式还带来了大量公共资金和非营利组织的支持，研究成果不再被商业利益捆住手脚，而是能真正实现共享。\n手里有了新武器，面对新敌人，这些合作网络立刻开足马力。不只是病毒性疾病，非病毒性的慢性病也因为更好的治疗手段受益匪浅。再加上全球污染水平整体下降，我们在智械危机前的短短“黄金时光”里，迎来了人类历史上最好的健康状况和最长的平均寿命。\n加拿大医生伊莱恩·埃萨特在控制论领域的突破，应用范围之广让人叹为观止。明面上的成果包括：生物整合式假肢和功能性外骨骼，让残疾人重新站立行走；更隐秘但影响更大的，是她改良的起搏器、眼部植入物、大脑组织植入物，给许多长期病患带来了新的生活可能。甚至某些痴呆和记忆衰退，通过合适的控制论干预，也能得到有效缓解，让很多人比自己想象的活得更久、更独立。\n她的技术还被大量用在自身免疫疾病上，相当于给身体的免疫系统减负，让全身的调节更稳定。由于这些研究大多由公共资金支持，所有专利一经批准立刻向全世界免费开放，直接催生了无数控制论公司，大家争先恐后地优化、迭代现有技术。\n早期跑在最前面的有两家：尼日利亚的奥古迪姆协同公司，以及早已是全球科技巨头的奥尼卡集团——它的医学部门几乎是立刻掉头，全力扑向控制论领域。奥尼卡在机器人义肢上的深厚积累让它起步占了先机，但奥古迪姆和其他后来者很快就追了上来。一开始，谁也没想到这个充满希望的新领域会被哪一家公司彻底垄断。"
+    }
+  ],
+  "ccc-relation-30034": [
+    {
+      "archive_id": 30034,
+      "table_name": "档案正文",
+      "table_title": "团结日庆典",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "<40204>\n团结日是努巴尼的重大节日，用于纪念努巴尼——这座人智和谐之城竣工的日子。今天，努巴尼文化遗产博物馆正要展出“末日拳套”，用于教育人民铭记历史教训。\n{游行队伍中满是舞动着的人类与智械，长龙沿着街道一直延伸，满目所及人头攒动。鼓点咚咚，带着伊菲的心砰砰直跳，脚也跟着打起节拍。原本有传言说由于一份匿名威胁，节庆活动会被推迟，不过努巴尼的市民对此颇为愤慨，表示不论市政同意与否，都会按时上街参加活动。\n然而，庆典还是被紧张的情绪蒙上了一层淡淡的阴影，伊菲却说不出究竟是哪里不对。或许是人们的笑容不够洋溢，或许是智械在刻意与人类保持距离，又或许是一旁隐约可见的诸多安保力量，其中有人类也有机器人，庆典现场外围埋伏着他们的身影。\n伊菲眨眨眼，阴影随之消散。即便紧张的气氛笼罩在努巴尼边境之外，也并不能代表这里的节庆活动会被泼一盆冷水。伊菲看到几名和她年龄相仿的孩子脸上挂着笑容，大大的眼睛里满是兴奋之情。他们一边喝着含糖饮料，一边高声唱着努巴尼的市歌。\n从出生起，每一场团结日庆典伊菲都未曾错过。庆典声势浩大、五彩缤纷，会持续整整一周。其规模可与卡拉巴尔狂欢节相媲美，是努巴尼最重要的节日，至少如果把第二天起床后肚子的难受程度做个排名，团结日必定名列前茅。一想到会错过今年的庆典，伊菲心中差点泛起苦涩。}"
+    },
+    {
+      "archive_id": 30034,
+      "table_name": "档案正文",
+      "table_title": "阿达维机场",
+      "doc_display": 2,
+      "medium_id": "40158",
+      "medium_content": "努巴尼文化遗产博物馆的工作人员正在一队OR-15的护送下穿过候机大厅。在他们身后悬浮着一辆运载车，造型和机场租借的行李车相差无几，只是个头更大。车上运送的并非大包小包，而是一个圆柱形的护罩，深色的玻璃外壳遮挡着保存在其中的物件——“末日铁拳”的拳套。此时的拳套并未被防弹玻璃保护。而紧接而来的爆炸将所有人震倒在地。混凝土粉尘充斥了整个大厅，十几种不同的警报声此起彼伏。地板震颤不停，仿佛整个世界都将分崩离析。\n还没等众人缓过神，紧接着又传来一声爆炸，整个候机大厅随之一震。人群四散飞奔，OR-15毫无波澜的声音回荡在大厅里，它们勒令袭击者停手就范。\n<40232>\n此时末日铁拳现身了，他率领黑爪部队发动突袭。他用末日拳套一拳砸飞一台OR-15，直接嵌入机场墙壁，造成了巨大破坏。这台被砸毁的OR-15残骸后来被伊菲·奥拉迪尔回收，改造为奥丽莎。\n<40233>\n末日铁拳摧毁了多台OR-15，并成功劫走将要在博物馆展出的末日拳套。"
+    },
+    {
+      "archive_id": 30034,
+      "table_name": "档案正文",
+      "table_title": "后续袭击",
+      "doc_display": 1,
+      "medium_id": "-1",
+      "medium_content": "末日铁拳不满足于一次打击，继续多点开花，试图继续挑起人类与智械的冲突。他安排黑爪特工黑影入侵城市智械系统，让大量智械失控，街上甚至开始爆发人类和智械的斗殴。\n<40234>\n和平公园破坏：末日铁拳亲手摧毁和平公园的嘉布丽埃尔·阿达雕像，公开煽动仇恨。\n<40235>\n努巴尼文化遗产博物馆突袭：黑爪部队直扑博物馆，奥丽莎首次出战拦截。\n<40236>\n团结日演唱会：卢西奥的演唱会被末日铁拳打断。奥丽莎与卢西奥联手击退袭击，随后阿达维基金会修复被入侵的智械，城市重归平静。"
+    }
+  ],
+  "ccc-relation-30035": [
+    {
+      "archive_id": 30035,
+      "table_name": "档案正文",
+      "table_title": "",
+      "doc_display": 2,
+      "medium_id": "40401",
+      "medium_content": "在末日铁拳的指挥下，黑爪发起了一项行动，目标是从美国境内的一处秘密基地劫持希尔伯伦·德·柯伊伯博士。此次行动由死神领导，黑影参与其中。行动还与由黑百合率领的另一支黑爪小队同步进行，计划是死神和黑影负责开路，而黑百合则负责携带目标撤离。任务顺利完成。\n在被黑爪监禁期间，德·柯伊伯慢慢地掌握了自己的力量。现在，他可以根据自身的意愿来操控引力，离实现自己的人生目标也只有一步之遥。那场实验开阔了他的思维，同时让他的思想变得支离破碎，而他也在竭力维系着自己残破的精神。"
+    }
+  ],
+  "ccc-relation-30036": [
+    {
+      "archive_id": 30036,
+      "table_name": "档案正文",
+      "table_title": "",
+      "doc_display": 2,
+      "medium_id": "40015",
+      "medium_content": "收到拉玛刹的消息后，禅雅塔同意与故友在国王大道相见。自二人分道扬镳后，一切都不复从前，拉玛刹统领归零者发起入侵行动让他们心生隔阂。但新的威胁近在眼前，拉玛刹必须在局面失控前和他的兄弟谈一谈。"
+    }
+  ],
+  "ccc-relation-30037": [
+    {
+      "archive_id": 30037,
+      "table_name": "档案正文",
+      "table_title": "国王行动",
+      "doc_display": 2,
+      "medium_id": "40109",
+      "medium_content": "国王大道是英国伦敦的高水平国际化社区，但在平静的外表之下，智械与人类的关系可谓剑拔弩张。虽然现代英国的城市几乎都是由智械工人建造而成，但他们却没有得到人类的基本权利，大部分智械都只能居住在拥挤、不见天日的“地下世界”。更令人担忧的是，要求智械权利的示威者最近的游行活动已经与警察发生了暴力冲突，到目前为止却没有任何解决矛盾的迹象。"
+    },
+    {
+      "archive_id": 30037,
+      "table_name": "档案正文",
+      "table_title": "",
+      "doc_display": 3,
+      "medium_id": "40110",
+      "medium_content": "{即便在我们赢得智械危机几十年后，人类与智械之间依然冲突不断。在伦敦为智械设立新家园的计划本应该是改善人类与智械双方关系的第一步。但...事与愿违。“归零者”——一个由智械极端主义者组成的组织——突袭并控制了国王大道。数百人因此丧命，数千人流离失所。现在，他们开始追捕剩余的幸存者。这将导致人类与智械之间一场新的战争......除非我们能阻止他们。\n}\n孟达塔一直宣扬人类和智械的平等，为此他正在帮助智械在伦敦——这座人类与智械激烈冲突的地方——建立永久的家园——“绿色图灵”。"
+    },
+    {
+      "archive_id": 30037,
+      "table_name": "档案正文",
+      "table_title": "",
+      "doc_display": 6,
+      "medium_id": "-1",
+      "medium_content": "在这些原本将被载入史册的和平条约签署前夜，国王大道被一个名为“归零者”的智械极端主义组织攻占，整个伦敦随即陷入火海。\n<40111>\n<40112>"
+    },
+    {
+      "archive_id": 30037,
+      "table_name": "档案正文",
+      "table_title": "",
+      "doc_display": 6,
+      "medium_id": "-1",
+      "medium_content": "他们将孟达塔、市长内达尔及其他一百多名囚犯关在发电厂里。暴乱已经持续了27天，伦敦有几千人需要医疗救助，但英国政府依旧禁止守望先锋干预此事。不过事实上，暗影守望特工卡西迪已经在国王大道展开了侦察。尽管没有得到允许，指挥官杰克·莫里森最终还是做出了选择，他派遣了4名特工 —— 猎空、天使、莱因哈特和托比昂 —— 前去解决危机。孟达塔和其他人最终获救。\n<40113>\n<40506>"
+    }
+  ]
+}
