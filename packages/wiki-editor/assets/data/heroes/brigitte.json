@@ -6,6 +6,8 @@
   "nameEn": "Brigitte",
   "role": "support",
   "color": "#72332A",
+  "birthday": "09-22",
+  "age": "25",
   "hitPoints": {
     "health": 200,
     "armor": 50,

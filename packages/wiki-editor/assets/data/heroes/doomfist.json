@@ -6,6 +6,8 @@
   "nameEn": "Doomfist",
   "role": "tank",
   "color": "#661E0F",
+  "birthday": "05-25",
+  "age": "47",
   "hitPoints": {
     "health": 525,
     "armor": 0,

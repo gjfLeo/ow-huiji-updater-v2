@@ -6,6 +6,8 @@
   "nameEn": "Ana",
   "role": "support",
   "color": "#48699E",
+  "birthday": "01-01",
+  "age": "62",
   "hitPoints": {
     "health": 250,
     "armor": 0,

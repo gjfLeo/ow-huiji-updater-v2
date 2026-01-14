@@ -6,6 +6,8 @@
   "nameEn": "Wrecking Ball",
   "role": "tank",
   "color": "#E2790A",
+  "birthday": "10-15",
+  "age": "16",
   "hitPoints": {
     "health": 450,
     "armor": 125,

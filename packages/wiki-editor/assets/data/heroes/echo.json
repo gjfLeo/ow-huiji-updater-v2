@@ -6,6 +6,8 @@
   "nameEn": "Echo",
   "role": "damage",
   "color": "#89C8FF",
+  "birthday": "02-05",
+  "age": "14",
   "hitPoints": {
     "health": 150,
     "armor": 0,

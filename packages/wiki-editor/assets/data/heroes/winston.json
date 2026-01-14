@@ -6,6 +6,8 @@
   "nameEn": "Winston",
   "role": "tank",
   "color": "#8F92AE",
+  "birthday": "06-06",
+  "age": "31",
   "hitPoints": {
     "health": 425,
     "armor": 200,

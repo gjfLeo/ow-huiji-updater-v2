@@ -6,6 +6,8 @@
   "nameEn": "Junker Queen",
   "role": "tank",
   "color": "#579FCF",
+  "birthday": "06-14",
+  "age": "31",
   "hitPoints": {
     "health": 525,
     "armor": 0,

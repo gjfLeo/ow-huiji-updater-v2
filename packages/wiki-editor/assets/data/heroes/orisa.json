@@ -6,6 +6,8 @@
   "nameEn": "Orisa",
   "role": "tank",
   "color": "#106F04",
+  "birthday": "05-09",
+  "age": "1",
   "hitPoints": {
     "health": 300,
     "armor": 300,

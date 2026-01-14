@@ -6,6 +6,8 @@
   "nameEn": "Hazard",
   "role": "tank",
   "color": "#985EC0",
+  "birthday": "11-11",
+  "age": "24",
   "hitPoints": {
     "health": 425,
     "armor": 225,

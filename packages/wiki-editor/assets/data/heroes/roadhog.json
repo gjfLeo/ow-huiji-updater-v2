@@ -6,6 +6,8 @@
   "nameEn": "Roadhog",
   "role": "tank",
   "color": "#AE6F1C",
+  "birthday": "09-12",
+  "age": "50",
   "hitPoints": {
     "health": 750,
     "armor": 0,

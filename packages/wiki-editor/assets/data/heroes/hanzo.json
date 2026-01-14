@@ -6,6 +6,8 @@
   "nameEn": "Hanzo",
   "role": "damage",
   "color": "#B2A865",
+  "birthday": "11-03",
+  "age": "40",
   "hitPoints": {
     "health": 250,
     "armor": 0,

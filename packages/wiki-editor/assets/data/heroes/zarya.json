@@ -6,6 +6,8 @@
   "nameEn": "Zarya",
   "role": "tank",
   "color": "#F65EA6",
+  "birthday": "12-04",
+  "age": "30",
   "hitPoints": {
     "health": 325,
     "armor": 0,

@@ -6,6 +6,8 @@
   "nameEn": "Sigma",
   "role": "tank",
   "color": "#7C8B8C",
+  "birthday": "03-15",
+  "age": "64",
   "hitPoints": {
     "health": 350,
     "armor": 0,

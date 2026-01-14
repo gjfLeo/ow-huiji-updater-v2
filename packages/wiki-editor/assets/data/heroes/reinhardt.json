@@ -6,6 +6,8 @@
   "nameEn": "Reinhardt",
   "role": "tank",
   "color": "#7C8B8C",
+  "birthday": "06-26",
+  "age": "63",
   "hitPoints": {
     "health": 400,
     "armor": 300,

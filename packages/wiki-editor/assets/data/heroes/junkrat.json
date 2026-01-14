@@ -6,6 +6,8 @@
   "nameEn": "Junkrat",
   "role": "damage",
   "color": "#F7B217",
+  "birthday": "02-29",
+  "age": "27",
   "hitPoints": {
     "health": 250,
     "armor": 0,

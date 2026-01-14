@@ -6,6 +6,8 @@
   "nameEn": "Genji",
   "role": "damage",
   "color": "#80FB00",
+  "birthday": "10-28",
+  "age": "37",
   "hitPoints": {
     "health": 250,
     "armor": 0,

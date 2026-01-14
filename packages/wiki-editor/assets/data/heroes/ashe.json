@@ -6,6 +6,8 @@
   "nameEn": "Ashe",
   "role": "damage",
   "color": "#3E3C3A",
+  "birthday": "10-01",
+  "age": "41",
   "hitPoints": {
     "health": 250,
     "armor": 0,
