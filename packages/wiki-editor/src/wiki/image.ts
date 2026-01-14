@@ -3,7 +3,8 @@
 import type { MWPage, MWResponseBase } from "huijiwiki-api/dist/HuijiWiki/typeMWApiResponse";
 import { Buffer } from "node:buffer";
 import { confirm } from "@inquirer/prompts";
-import { logger, spinnerProgress } from "../utils/logger";
+import { ofetch } from "ofetch";
+import { logger, spinner, spinnerProgress } from "../utils/logger";
 import { wikiLogin } from "./login";
 
 // const huijiImageUrl = "https://huiji-public.huijistatic.com/overwatch/uploads";
@@ -20,6 +21,39 @@ function getWikiImagePath(filename: string) {
 
 export function getFandomImageUrl(filename: string) {
   return `${fandomImageUrl}/${getWikiImagePath(filename)}`;
+}
+
+export async function wikiUploadRemoteImage(
+  url: string,
+  filename: string,
+  text?: string,
+) {
+  const remoteFile = await ofetch(url, {
+    responseType: "arrayBuffer",
+  });
+  const fileBuffer = Buffer.from(remoteFile);
+
+  const wiki = await wikiLogin({ userType: "bot" });
+
+  spinner.start("检查文件");
+  const res = await wiki.getPageRawTextByTitle(`File:${filename}`);
+  spinner.succeed();
+  if (res) {
+    const override = await confirm({ message: "文件已存在，是否覆盖？" });
+    if (!override) {
+      return;
+    }
+  }
+
+  spinner.start("上传文件");
+  const { upload, error } = await wiki.apiUpload(fileBuffer, filename, { text });
+  if (error) {
+    spinner.fail();
+    console.error();
+    process.exit(1);
+  }
+  spinner.succeed();
+  return upload;
 }
 
 export async function wikiBatchUpload(

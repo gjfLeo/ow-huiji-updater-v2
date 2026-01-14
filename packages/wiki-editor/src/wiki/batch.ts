@@ -12,7 +12,7 @@ export async function wikiBatchGet(options: BatchGetPages & {
   loginOptions?: WikiLoginOptions;
 }) {
   const { loginOptions, ...pages } = options;
-  const wiki = await wikiLogin(loginOptions);
+  const wiki = await wikiLogin(loginOptions ?? { userType: "bot" });
 
   let titles: string[];
 

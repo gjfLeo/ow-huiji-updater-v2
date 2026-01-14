@@ -5,6 +5,7 @@ import chokidar from "chokidar";
 import dayjs from "dayjs";
 import fse from "fs-extra";
 import ora from "ora";
+import { logger } from "../utils/logger";
 import { getStorage, setStorage } from "../utils/storage";
 import { wikiLogin } from "../wiki/login";
 
@@ -35,13 +36,14 @@ export default async function editPage() {
   console.info(`${chalk.blue("  正在编辑： ")}https://overwatch.huijiwiki.com/wiki/${pageTitle}`);
 
   let localFilename = pageTitle.replaceAll(/[:/ ]/g, "_");
-  if (!localFilename.includes(".")) {
-    if (pageTitle.startsWith("模块:") || pageTitle.startsWith("Module:")) {
-      localFilename += ".lua";
-    }
-    else {
-      localFilename += ".wikitext";
-    }
+  let extension;
+  switch (page?.contentmodel) {
+    default:
+      logger.warn(`未知的 contentmodel ${page?.contentmodel}，默认使用 wikitext`);
+      extension = ".wikitext";
+  }
+  if (!localFilename.endsWith(extension)) {
+    localFilename += extension;
   }
   await fse.ensureDir(OUTPUT_DIR);
   const localFilepath = path.relative(process.cwd(), path.join(OUTPUT_DIR, localFilename));
