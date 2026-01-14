@@ -11,6 +11,8 @@ export const zWikiHero = z.object({
   nameEn: z.string(),
   role: zRole,
   color: z.string().optional(),
+  birthday: z.string().optional(),
+  age: z.string().optional(),
   hitPoints: z.object({
     health: z.number(),
     armor: z.number(),

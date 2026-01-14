@@ -13,15 +13,16 @@ export default async function heroDataDownload() {
 
   const heroCount = Object.values(heroDataPages).length;
 
-  const outputDir = path.join(__dirname, "../../assets/data/heroes");
+  const outputDir = path.resolve(__dirname, "../../assets/data/heroes");
   await fse.emptyDir(outputDir);
   spinnerProgress.start("保存文件", heroCount);
   for (const content of Object.values(heroDataPages)) {
     const heroData = zWikiHero.parse(destr(content));
-    await fse.writeJSON(
+    const file = Bun.file(path.join(outputDir, `${heroData.key}.json`));
+    await file.write(JSON.stringify(heroData, null, 2));
+    await Bun.write(
       path.join(outputDir, `${heroData.key}.json`),
-      heroData,
-      { spaces: 2 },
+      JSON.stringify(heroData, null, 2),
     );
     spinnerProgress.increment();
   }

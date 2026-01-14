@@ -1,7 +1,6 @@
 import type { ZodError } from "zod";
 import type { WikiAbility } from "../models/ability";
 import path from "node:path";
-import chalk from "chalk";
 import destr from "destr";
 import fse from "fs-extra";
 import { zWikiAbility } from "../models/ability";
