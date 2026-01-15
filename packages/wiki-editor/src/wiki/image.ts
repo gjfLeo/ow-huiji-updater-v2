@@ -11,7 +11,7 @@ import { wikiLogin } from "./login";
 const fandomImageUrl = "https://static.wikia.nocookie.net/overwatch_gamepedia/images";
 
 function getWikiImagePath(filename: string) {
-  let normalizedName = filename.replaceAll("_", " ");
+  let normalizedName = filename.replaceAll(" ", "_");
   if (!normalizedName.includes(".")) {
     normalizedName += ".png";
   }

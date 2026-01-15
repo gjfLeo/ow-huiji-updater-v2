@@ -36,12 +36,7 @@ export default async function editPage() {
   console.info(`${chalk.blue("  正在编辑： ")}https://overwatch.huijiwiki.com/wiki/${pageTitle}`);
 
   let localFilename = pageTitle.replaceAll(/[:/ ]/g, "_");
-  let extension;
-  switch (page?.contentmodel) {
-    default:
-      logger.warn(`未知的 contentmodel ${page?.contentmodel}，默认使用 wikitext`);
-      extension = ".wikitext";
-  }
+  const extension = getExtension(pageTitle, page?.contentmodel);
   if (!localFilename.endsWith(extension)) {
     localFilename += extension;
   }
@@ -114,4 +109,29 @@ export default async function editPage() {
 
   // 保持程序运行
   await new Promise(() => {});
+}
+
+function getExtension(title: string, contentModel?: string) {
+  if (!contentModel) {
+    for (const extension of [".js", ".css", ".json", ".tabx"]) {
+      if (title.endsWith(extension)) {
+        return extension;
+      }
+    }
+    if (title.startsWith("模块:") || title.startsWith("Module:")) {
+      return ".lua";
+    }
+    return ".wikitext";
+  }
+  switch (contentModel) {
+    case "wikitext":
+      return ".wikitext";
+    case "GadgetDefinition":
+      return ".json";
+    case "Scribunto":
+      return ".lua";
+    default:
+      logger.warn(`未知的 contentmodel ${contentModel}，默认使用 wikitext`);
+      return ".wikitext";
+  }
 }
