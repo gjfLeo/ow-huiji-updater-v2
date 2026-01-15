@@ -10,9 +10,14 @@ export const zWikiHero = z.object({
   name: z.string(),
   nameEn: z.string(),
   role: zRole,
+  revealDate: z.string().regex(/^\d{4}-\d{2}-\d{2}$/).optional(),
+  releaseDate: z.string().regex(/^\d{4}-\d{2}-\d{2}$/).optional(),
+  releaseDateDescription: z.string().optional(),
   color: z.string().optional(),
+  nationality: z.string().optional(),
   birthday: z.string().optional(),
   age: z.string().optional(),
+
   hitPoints: z.object({
     health: z.number(),
     armor: z.number(),
