@@ -1,0 +1,99 @@
+.nav-hero-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  gap: 0.5rem 1rem;
+}
+
+.nav-hero-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  --hero-color: attr(data-color type(<color>));
+
+  .nav-hero-list-item-image {
+    width: 4rem;
+    height: 4rem;
+    // background-color: rgba(200 221 248 / 25%);
+    background-color: rgb(from var(--hero-color) r g b / 25%);
+    border-radius: 0.25rem;
+    overflow: hidden;
+    transition: all 0.3s;
+
+    &:hover {
+      background-color: rgb(from var(--hero-color) r g b / 100%);
+      transform: scale(1.15);
+    }
+  }
+
+  .nav-hero-list-item-text a {
+    font-weight: bold;
+    color: white;
+  }
+}
+
+@supports not (color: rgb(from white r g b / 25%)) {
+  .nav-hero-list-item-image {
+    background-color: rgba(200 221 248 / 25%);
+    &:hover {
+      background-color: rgba(200 221 248 / 100%);
+    }
+  }
+}
+
+// [data-hero="doomfist"],
+// [data-hero="dva"],
+// [data-hero="hazard"],
+[data-hero="junker-queen"],
+// [data-hero="mauga"],
+[data-hero="orisa"],
+[data-hero="ramattra"],
+[data-hero="reinhardt"],
+[data-hero="roadhog"],
+[data-hero="sigma"],
+[data-hero="winston"],
+// [data-hero="wrecking-ball"],
+[data-hero="zarya"],
+// [data-hero="ashe"],
+[data-hero="bastion"],
+// [data-hero="cassidy"],
+[data-hero="echo"],
+// [data-hero="freja"],
+// [data-hero="genji"],
+[data-hero="hanzo"],
+[data-hero="junkrat"],
+[data-hero="mei"],
+[data-hero="pharah"],
+[data-hero="reaper"],
+[data-hero="sojourn"],
+[data-hero="soldier-76"],
+// [data-hero="sombra"],
+[data-hero="symmetra"],
+[data-hero="torbjorn"],
+[data-hero="tracer"],
+// [data-hero="venture"],
+[data-hero="widowmaker"],
+// [data-hero="ana"],
+// [data-hero="baptiste"],
+// [data-hero="brigitte"],
+// [data-hero="illari"],
+// [data-hero="juno"],
+// [data-hero="kiriko"],
+// [data-hero="lifeweaver"],
+// [data-hero="lucio"],
+// [data-hero="mercy"],
+// [data-hero="moira"],
+// [data-hero="wuyang"],
+// [data-hero="zenyatta"],
+[data-hero="none"] {
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-hero-list-item-image {
+    width: 60px;
+    height: 60px;
+  }
+}

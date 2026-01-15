@@ -1,0 +1,52 @@
+table.hero-quote-table {
+  font-size: 14px;
+  min-width: 60%;
+
+  .group-title-cell {
+    text-align: center;
+    vertical-align: top;
+    padding-block: 12px;
+    width: 120px;
+
+    .group-title-text {
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    .group-title-subtext {
+      font-size: 12px;
+    }
+  }
+
+  .quote-cell {
+    padding-block: 6px;
+    position: relative;
+
+    .sound-file-id {
+      position: absolute;
+      top: -2px;
+      right: -6px;
+      font-size: 12px;
+      font-family: var(--font-monospace);
+      transform: scale(0.8);
+
+      opacity: 0;
+      transition: opacity 0.3s;
+      user-select: all;
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+
+  .condition-cell {
+    width: 20%;
+
+    .weight-text {
+      font-size: 8px;
+      opacity: 0.5;
+    }
+  }
+
+}

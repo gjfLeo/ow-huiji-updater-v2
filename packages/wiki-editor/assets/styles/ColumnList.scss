@@ -1,0 +1,14 @@
+#wiki-body {
+  .column-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(var(--item-width, 50%), 1fr));
+
+    li {
+      margin: 0;
+    }
+
+    &.ability-link-list {
+      --item-width: 16rem;
+    }
+  }
+}

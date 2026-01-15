@@ -1,0 +1,30 @@
+.nav-infobox {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  & > li {
+    margin: 0;
+    line-height: 1.2;
+
+    border-bottom: 2px solid transparent;
+    transition: border-bottom-color 0.3s;
+
+    --nav-text-color: var(--a);
+    &.active {
+      --nav-text-color: var(--detail-color);
+      border-bottom-color: var(--detail-color);
+    }
+
+    & > a {
+      padding: 0.125rem 1rem;
+      color: var(--nav-text-color);
+      transition: color 0.3s;
+
+      &:hover,
+      &:focus {
+        background-color: transparent;
+      }
+    }
+  }
+}

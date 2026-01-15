@@ -1,0 +1,404 @@
+@font-face {
+  font-family: 思源宋体;
+  src: url("https://fs.huijiwiki.com/www/resources/font/SourceHanSerifCN-Regular.otf");
+}
+
+.huiji-css-hook {
+  background: #102e56
+    url("https://huiji-thumb.huijistatic.com/overwatch/uploads/thumb/4/48/OVERWIKI-5-3.png/2880px-OVERWIKI-5-3.png")
+    center no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+/*变量定义*/
+:root {
+  --font-regular: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  --font-monospace: "Maple Mono NF SC", "Cascadia Code", monospace;
+  --font-quote: "霞鹜文楷", "思源宋体", "Times New Roman", "楷体", serif;
+  --font-quote-en: "Times New Roman", serif;
+  word-break: break-all;
+
+  /* 页内跳转的偏移量 */
+  scroll-padding-top: 88px;
+}
+
+.font-quote {
+  font-family: var(--font-quote);
+}
+.font-quote-en {
+  font-family: var(--font-quote-en);
+}
+
+body:not(.ns--1) #wiki-body {
+  font-family: var(--font-regular);
+}
+
+/* #region 原始样式修正 */
+code {
+  color: #8dff72;
+  background: #000000;
+}
+
+.huiji-css-hook pre {
+  white-space: pre-wrap;
+}
+
+.huiji-css-hook code {
+  background-color: #000;
+  color: #c1de3e;
+  font-weight: normal;
+}
+
+.huiji-css-hook .prettyprint {
+  background-color: #1e1e1e;
+  border: none;
+}
+
+.huiji-css-hook .prettyprint .com {
+  color: #5cb85c;
+}
+
+.huiji-css-hook .prettyprint .lit {
+  color: #2e92da;
+}
+
+.huiji-css-hook .prettyprint .pun,
+.huiji-css-hook .prettyprint .opn,
+.huiji-css-hook .prettyprint .clo {
+  color: #6a9955;
+}
+
+.huiji-css-hook .prettyprint .fun {
+  color: #dc322f;
+}
+
+.huiji-css-hook .prettyprint .str,
+.huiji-css-hook .prettyprint .atv {
+  color: #ce9178;
+}
+
+.huiji-css-hook .prettyprint .kwd,
+.huiji-css-hook .prettyprint .linenums .tag {
+  color: #569cd6;
+}
+
+.huiji-css-hook .prettyprint .typ,
+.huiji-css-hook .prettyprint .atn,
+.huiji-css-hook .prettyprint .dec,
+.huiji-css-hook .prettyprint .var {
+  color: teal;
+}
+
+.huiji-css-hook .prettyprint .pln {
+  color: #d4d4d4;
+}
+
+.huiji-css-hook .prettyprint.linenums {
+  -webkit-box-shadow:
+    inset 40px 0 0 #000000,
+    inset 41px 0 0 #222222;
+  -moz-box-shadow:
+    inset 40px 0 0 #000000,
+    inset 41px 0 0 #222222;
+  box-shadow:
+    inset 40px 0 0 #000000,
+    inset 41px 0 0 #222222;
+}
+
+.huiji-css-hook .prettyprint ol.linenums li {
+  padding-left: 12px;
+  color: #bebec5;
+  line-height: 18px;
+  text-shadow: none;
+}
+
+.mw-jsonconfig,
+.mw-json {
+  font-size: 12px;
+  line-height: 1.2;
+  table-layout: auto;
+  /* width: 100%; */
+  font-family: inherit;
+}
+
+.mw-jsonconfig th,
+.mw-jsonconfig td,
+.mw-json th,
+.mw-json td {
+  border: 1px solid #3b4659;
+  padding: 4px;
+  padding-right: 4px;
+  vertical-align: top;
+  font-family: var(--font-monospace);
+}
+
+.mw-jsonconfig .mw-jsonconfig-value,
+.mw-json .mw-json-value {
+  background-color: #09121b;
+  color: #86da2e;
+  font-family: var(--font-monospace);
+  /* width: 100%; */
+}
+
+.mw-jsonconfig .mw-jsonconfig-value-null,
+.mw-json .mw-json-value-null {
+  background-color: #09121b;
+}
+
+.mw-jsonconfig tr,
+.mw-json tr {
+  margin-bottom: 0.5em;
+}
+
+.mw-jsonconfig th,
+.mw-json th {
+  background-color: #252e35;
+}
+
+.mw-jsonconfig td,
+.mw-json td {
+  background-color: #09121b;
+  font-style: normal;
+}
+
+dt,
+dd {
+  /* 修正dt，dd没有上下边距的问题 */
+  margin-top: 7.5px;
+  margin-bottom: 7.5px;
+}
+
+li.gallerybox div.thumb {
+  /*修正gallery背景色*/
+  border: none;
+  background-color: var(--modal);
+}
+
+/* #endregion */
+
+hr {
+  border-top: 1px solid rgb(255 255 255 / 15%);
+}
+
+#wiki-body.container {
+  background: rgba(11 16 27 / 90%);
+  /* padding: 2em 2em 4em 2em; */
+}
+
+h4 .mw-headline {
+  font-weight: bold;
+}
+
+.icon-inline,
+.inline-icon {
+  max-width: 1.6em;
+  max-height: 1.2em;
+  object-fit: contain;
+  margin-inline: 0.1em;
+}
+.icon-inline-first,
+.inline-icon-first {
+  max-width: 1.6em;
+  max-height: 1.2em;
+  object-fit: contain;
+  margin-inline-end: 0.1em;
+}
+
+.text-has-tooltip {
+  cursor: help;
+  border-bottom: 1px dotted;
+}
+
+.ow-kbd {
+  background-color: transparent;
+  color: white;
+  box-shadow: inset 0 0 0 1px rgb(225 129 67);
+}
+
+/* infobox */
+.ow-btn {
+  display: inline-block;
+  padding: 0.35em 2em;
+  text-align: center;
+  cursor: pointer;
+  transition: none;
+  -webkit-transform: skew(-0.25rad) perspective(1px) translate3d(0, 0, 0);
+  transform: skew(-0.25rad) perspective(1px) translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.huiji-css-hook .infobox .btn-hollow {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #00c3ff;
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+/* 将来改造后可以移除 */
+.infoboxtitle {
+  font-size: 1rem;
+  font-weight: bold;
+  height: 30px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  padding: 0.35em 2em;
+  text-align: center;
+  transition: none;
+  -webkit-transform: perspective(1px) translate3d(0, 0, 0);
+  transform: perspective(1px) translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.infoboxtitle:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 4px;
+  border-radius: 4px;
+  background-color: rgba(0, 195, 255, 0.5);
+}
+
+.huiji-css-hook .infobox .infobox-label {
+  vertical-align: top;
+  padding: 4px 8px;
+  line-height: 1.5rem;
+}
+.huiji-css-hook .infobox .infobox-data {
+  vertical-align: top;
+  padding: 4px 8px;
+  line-height: 1.5rem;
+}
+
+/*
+.infobox {
+  background: rgba(8, 27, 43, 0.9);
+  border: none;
+  color: #ffffff;
+  float: right;
+  font-size: 89%;
+  margin-bottom: 0.5em;
+  margin-left: 1em;
+  padding: 0.2em;
+  width: 300px;
+}
+
+.infoboxlable {
+  border: none;
+  border-radius: 2px;
+  background: #ffc70e;
+  color: #511616;
+  font-weight: bold;
+  padding: 0.5px 7px;
+  text-align: right;
+  transform: skew(-0.25rad);
+  display: block !important;
+}
+*/
+
+/* table */
+table.wikitable {
+  font-size: 14px;
+}
+table.wikitable.mw-collapsible > caption {
+  white-space: nowrap;
+}
+table.wikitable > tr > th,
+table.wikitable > tr > td,
+table.wikitable > * > tr > th,
+table.wikitable > * > tr > td {
+  padding: 0.25em 0.5em;
+}
+
+/* navbox */
+.navbox .hlist td dl,
+.navbox .hlist td ol,
+.navbox .hlist td ul,
+.navbox td.hlist dl,
+.navbox td.hlist ol,
+.navbox td.hlist ul {
+  margin: 0;
+}
+.navbox .navbox-title .mw-collapsible-toggle {
+  margin-left: -100%;
+}
+
+.hlist dd dd:first-child::before,
+.hlist dd dt:first-child::before,
+.hlist dd li:first-child::before,
+.hlist dt dd:first-child::before,
+.hlist dt dt:first-child::before,
+.hlist dt li:first-child::before,
+.hlist li dd:first-child::before,
+.hlist li dt:first-child::before,
+.hlist li li:first-child::before {
+  content: "（";
+}
+/* .hlist dd::after,
+.hlist li::after {
+  content: "·"
+} */
+.hlist dd dd:last-child::after,
+.hlist dd dt:last-child::after,
+.hlist dd li:last-child::after,
+.hlist dt dd:last-child::after,
+.hlist dt dt:last-child::after,
+.hlist dt li:last-child::after,
+.hlist li dd:last-child::after,
+.hlist li dt:last-child::after,
+.hlist li li:last-child::after {
+  content: "）";
+}
+
+.thumbinner {
+  border: 1px solid #126787 !important;
+  background-color: #0a1c2b !important;
+}
+
+.page-header {
+  border-bottom: 1px solid #056f95;
+}
+
+/*popup*/
+.mwe-popups {
+  border: 1px solid rgb(94, 179, 226);
+  background: rgba(0, 0, 0, 0.792157);
+}
+
+.mwe-popups-extract {
+  color: #fff !important;
+}
+
+.portrait:hover {
+  background-color: rgb(0, 153, 204) !important;
+}
+
+@media (min-width: 1440px) {
+  .container {
+    width: 90%;
+    max-width: 1600px;
+  }
+}
+
+.quality img {
+  background: #90979c;
+}
+
+.quality3 img {
+  background: #863182;
+}
+
+.quality4 img {
+  background: #caa125;
+}
+
+.quality2 img {
+  background: #275f90;
+}

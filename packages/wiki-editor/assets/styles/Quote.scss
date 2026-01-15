@@ -1,0 +1,39 @@
+.quote {
+  margin-top: 10px;
+  margin-inline: auto;
+  width: fit-content;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+
+  &.quote-wide {
+    width: 100%;
+  }
+
+  &.quote-marked {
+    grid-template-columns: auto 1fr auto;
+  }
+
+  .quote--mark {
+    color: #999;
+    font-size: 48px;
+    font-family: "Trebuchet MS", "Georgia", sans-serif;
+    line-height: 32px;
+
+    &.quote--mark-end {
+      align-self: end;
+      transform: translateY(16px);
+    }
+  }
+
+  .quote--content {
+    font-family: var(--font-quote);
+    align-self: center;
+  }
+
+  .quote--source {
+    font-family: var(--font-quote);
+    grid-column: 1 / -1;
+    justify-self: end;
+  }
+}
