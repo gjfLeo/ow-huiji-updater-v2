@@ -73,14 +73,15 @@ export default async function parseTalonArchives() {
               console.error("Multiple media types but not audios: ", mediaFiles);
               return;
             }
+            content += "{{transcript|quote=1|\n";
             mediaFiles.forEach((mediaFile) => {
               const mediaDetail = mediaDetails[mediaFile!.id]!;
               const quoteContent = mediaDetail.media_name;
               const heroId = mediaDetail.tag_url;
               const heroName = raw["ccc-hero"][heroId]!.name;
-              content += `* ${heroName}：“${quoteContent}”\n`;
+              content += `* ${heroName}：${quoteContent}\n`;
             });
-            content += "\n";
+            content += "}}\n\n";
           }
           else {
             const mediaFile = raw["ccc-medias"][relation.medium_id];
@@ -95,7 +96,7 @@ export default async function parseTalonArchives() {
         }
         content += relation
           .medium_content
-          .replaceAll(/\{([^{}]+)\}/g, "{{quote|$1}}")
+          .replaceAll(/\{([^{}]+)\}/g, "{{transcript|$1|quote=1}}")
           .replaceAll(/\n+/g, "\n\n")
           .replaceAll(/<(\d+)>/g, (match, linkId: string) => {
             if (linkId.startsWith("3")) {
