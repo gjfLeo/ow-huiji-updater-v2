@@ -8,6 +8,25 @@
 
 --- @alias Role "tank" | "damage" | "support"
 
+--- @class HeroData
+---   @field key string
+---   @field name string
+---   @field nameEn string
+---   @field role Role
+---   @field revealDate string?
+---   @field releaseDate string?
+---   @field releaseDateDescription string?
+---   @field color string?
+---   @field nationality string?
+---   @field birthday string?
+---   @field age string?
+---   @field hitPoints { health: number, armor: number, shields: number }
+---   @field movementSpeed number
+---   @field meleeDamage number
+---   @field perkXp { minor: number, major: number }---   
+---   @field description string
+---   @field story { intro: string, chapters: { title: string, content: string }[], accessDate?: string }
+
 --- @class AbilityData 技能信息
 ---   @field key string
 ---   @field name string
@@ -36,26 +55,20 @@
 --- https://www.mediawiki.org/wiki/Extension:Scribunto/Lua_reference_manual#Scribunto_libraries
 mw = {}
 
---- Adds a warning which is displayed above the preview when previewing an edit. `text` is parsed as wikitext.
 --- @param text string
 function mw.addWarning(text) end
 
---- Calls tostring() on all arguments, then concatenates them with tabs as separators.
 --- @param ... any
 --- @return string
 function mw.allToString(...) end
 
---- Creates a deep copy of a value. All tables (and their metatables) are reconstructed from scratch. Functions are still shared, however.
 function mw.clone(value) end
 
---- Returns the current frame object, typically the frame object from the most recent `#invoke`.
 --- @return ScribuntoFrame
 function mw.getCurrentFrame() end
 
---- Adds one to the "expensive parser function" count, and throws an exception if it exceeds the limit.
 function mw.incrementExpensiveFunctionCount() end
 
---- Returns true if the current `#invoke` is being substed, false otherwise.
 function mw.isSubsting() end
 
 --- 加载模块
@@ -73,11 +86,9 @@ function mw.loadJsonData(page) end
 --- @return string
 function mw.dumpObject(object) end
 
---- Passes the arguments to mw.allToString(), then appends the resulting string to the log buffer.
 --- @param ... any
 function mw.log(...) end
 
---- Calls mw.dumpObject() and appends the resulting string to the log buffer. If prefix is given, it will be added to the log buffer followed by an equals sign before the serialized string is appended (i.e. the logged text will be "prefix = object-string").
 ---@param object any
 ---@param prefix string?
 function mw.logObject(object, prefix) end
@@ -160,12 +171,30 @@ function frame:argumentPairs() end
 --- @class ScribuntoUstring : stringlib
 mw.ustring = {}
 
---- @class ScribuntoText
 mw.text = {}
 
 ---@param string string
 ---@param flags number? 0 或 `mw.text.JSON_PRESERVE_KEYS`、`mw.text.JSON_TRY_FIXING` 或相加
 function mw.text.jsonDecode(string, flags) end
+
+mw.title = {}
+
+--- @return ScribuntoTitleObject?
+function mw.title.getCurrentTitle() end
+
+--- @param ID number
+--- @return ScribuntoTitleObject?
+function mw.title.new(ID) end
+
+--- @param text string
+--- @param namespace number | string?
+--- @return ScribuntoTitleObject?
+function mw.title.new(text, namespace) end
+
+--- @class ScribuntoTitleObject
+--- @field exists boolean 是否存在
+--- @field namespace number 命名空间ID
+local title = {}
 
 -------------------------------------------------------------------------------
 -- MARK: 扩展库
@@ -199,7 +228,7 @@ function mw.huiji.db.find(filter, options) end
 --- 查询文档，返回第一个符合条件的数据
 --- @param filter table
 --- @param options table?
---- @return table?
+--- @return any?
 function mw.huiji.db.findOne(filter, options) end
 
 --- 查询文档，返回符合条件的数据数量

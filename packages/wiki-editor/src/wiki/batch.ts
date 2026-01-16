@@ -1,8 +1,6 @@
 import type { WikiLoginOptions } from "./login";
-import path from "node:path";
 import { confirm } from "@inquirer/prompts";
 import chalk from "chalk";
-import fse from "fs-extra";
 import { logger, spinner, spinnerProgress } from "../utils/logger";
 import { wikiLogin } from "./login";
 
@@ -67,7 +65,7 @@ export async function wikiBatchEdit(
 
   // const writeFilePromises: Promise<void>[] = [];
 
-  await fse.emptyDir(path.join(__dirname, "../../output/temp/batchEditCompare"));
+  // await fse.emptyDir(path.join(__dirname, "../../output/temp/batchEditCompare"));
 
   spinnerProgress.start("读取已存在页面", pageTitles.length);
   for (let i = 0; i < pageTitles.length; i += readBatchSize) {

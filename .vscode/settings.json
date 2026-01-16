@@ -22,6 +22,9 @@
     "end_statement_with_semicolon": "same_line",
     "max_line_length": "1000",
   },
+  "Lua.workspace.ignoreDir": [
+    "output",
+  ],
   // "[css]": {
   //   "editor.minimap.markSectionHeaderRegex": "^/\\* #region (?<label>.+) \\*/",
   // },
