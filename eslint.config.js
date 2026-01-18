@@ -1,7 +1,13 @@
 import gjfleo from "@gjfleo/eslint-config";
 
 export default gjfleo(
-  {},
+  {
+    toml: {
+      overrides: {
+        "toml/quoted-keys": ["warn", { prefer: "always" }],
+      },
+    },
+  },
   {
     files: ["packages/wiki-editor/assets/pages/零件_*Entries.js"],
     rules: {

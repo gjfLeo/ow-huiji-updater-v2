@@ -20,7 +20,9 @@
     "huijiwiki-api": "^0.8.4"
   },
   "trustedDependencies": [
-    "@parcel/watcher"
+    "@parcel/watcher",
+    "esbuild",
+    "sharp"
   ],
   "patchedDependencies": {
     "huijiwiki-api@0.8.4": "patches/huijiwiki-api@0.8.4.patch"
