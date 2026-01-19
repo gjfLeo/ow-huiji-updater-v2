@@ -266,6 +266,12 @@ h4 .mw-headline {
   background-color: rgba(0, 195, 255, 0.5);
 }
 
+.huiji-css-hook .infobox .infobox-img td {
+  padding: 0.25rem;
+}
+.huiji-css-hook .infobox .infobox-img td:has(.infobox-caption) {
+  padding-bottom: 0;
+}
 .huiji-css-hook .infobox .infobox-label {
   vertical-align: top;
   padding: 4px 8px;
