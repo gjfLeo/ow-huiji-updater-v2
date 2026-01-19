@@ -99,7 +99,7 @@ export async function wikiBatchEdit(
 
   if (!pagesChanged.length) {
     logger.infoGray("没有页面需要更新");
-    process.exit(0);
+    return;
   }
 
   logger.infoBlue(`以下${pagesChanged.length}个页面需要更新：`);

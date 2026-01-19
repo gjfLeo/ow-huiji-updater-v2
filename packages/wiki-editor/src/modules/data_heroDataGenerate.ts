@@ -20,8 +20,9 @@ export default async function heroDataUpdate() {
   });
   const heroCount = Object.values(heroDataPages).length;
 
-  const wikiHeroDataList = Object.values(heroDataPages)
-    .map(content => zWikiHero.parse(destr(content)));
+  const wikiHeroDataList = zWikiHero.array().parse(
+    Object.values(heroDataPages).map(content => destr(content)),
+  );
 
   // MARK: Blizzard CN
 
@@ -53,7 +54,9 @@ export default async function heroDataUpdate() {
   const owLibHeroesFile = Bun.file(path.resolve(__dirname, "../../output/owlib/json/heroes.json"));
   if (await owLibHeroesFile.exists()) {
     spinnerProgress.start("根据OWLib更新", heroCount);
-    const owLibHeroesRaw = zOWLibHero.array().parse(await owLibHeroesFile.json());
+    const owLibHeroesRaw = zOWLibHero.array().parse(
+      Object.values(await owLibHeroesFile.json()),
+    );
     const owLibHeroes = Object.values(owLibHeroesRaw).filter(h => h.IsHero);
     for (const heroData of wikiHeroDataList) {
       const heroKey = heroData.key;

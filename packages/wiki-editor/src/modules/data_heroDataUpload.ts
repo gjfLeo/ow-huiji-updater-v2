@@ -41,4 +41,15 @@ export default async function heroDataUpload() {
     formatter: content => JSON.stringify(zWikiHero.parse(destr(content))),
     summary: "更新英雄数据（ow-huiji-updater）",
   });
+
+  const storyPages = Object.fromEntries(
+    Object.values(heroData).map((hero) => {
+      const title = `${hero.name}/英雄故事`;
+      return [title, `{{英雄故事|${hero.name}}}`];
+    }),
+  );
+  await wikiBatchEdit(storyPages, {
+    formatter: content => content,
+    summary: "更新英雄故事（ow-huiji-updater）",
+  });
 }
