@@ -7,6 +7,7 @@ import { emptyDir } from "fs-extra";
 import { fetchBlizzardHero } from "../api/blizzard-cn";
 import { fetchOverfastHero } from "../api/overfast";
 import { zWikiHero } from "../models/hero";
+import { zOWLibHero } from "../models/owlib/heroes";
 import { logger, spinnerProgress } from "../utils/logger";
 import { wikiBatchGet } from "../wiki/batch";
 
@@ -47,9 +48,31 @@ export default async function heroDataUpdate() {
     logger.info(`${changedHeroes.length}个英雄需要更新：${changedHeroes.join(", ")}`);
   }
 
+  // MARK: OWLib
+
+  const owLibHeroesFile = Bun.file(path.resolve(__dirname, "../../output/owlib/json/heroes.json"));
+  if (await owLibHeroesFile.exists()) {
+    spinnerProgress.start("根据OWLib更新", heroCount);
+    const owLibHeroesRaw = zOWLibHero.array().parse(await owLibHeroesFile.json());
+    const owLibHeroes = Object.values(owLibHeroesRaw).filter(h => h.IsHero);
+    for (const heroData of wikiHeroDataList) {
+      const heroKey = heroData.key;
+      const owLibHeroesFiltered = owLibHeroes.filter(h => h.Name === heroData.name);
+      if (owLibHeroesFiltered.length !== 1) {
+        spinnerProgress.fail();
+        logger.error(`未找到 ${heroKey} 的OWLib数据`);
+        process.exit(1);
+      }
+      const owLibHero = owLibHeroesFiltered[0]!;
+      heroData.color = owLibHero.Color.substring(0, 7);
+      spinnerProgress.increment();
+    }
+    spinnerProgress.succeed();
+  }
+
   // MARK: Overfast
 
-  spinnerProgress.start("根据Overfast更新生命值", heroCount);
+  spinnerProgress.start("根据OverFast更新生命值", heroCount);
   const changedHeroesHitPoints: string[] = [];
   for (const heroData of wikiHeroDataList) {
     const heroKey = heroData.key;
