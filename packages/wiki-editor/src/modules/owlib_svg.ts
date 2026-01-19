@@ -1,0 +1,1 @@
+// @resvg/resvg-js

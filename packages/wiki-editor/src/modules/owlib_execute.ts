@@ -44,6 +44,7 @@ const OPERATIONS = [
   "extract-lore-codex",
   "extract-npc-voice",
   "extract-conversations",
+  "extract-vector-images",
 ] as const;
 
 export default async function executeDataToolOnce() {
@@ -170,6 +171,9 @@ export default async function executeDataToolOnce() {
     ],
     "extract-conversations": [
       [path.join(outputPath, "extract"), "--subtitles-with-sounds", "--skip-sound"],
+    ],
+    "extract-vector-images": [
+      [path.join(outputPath, "extract")],
     ],
   };
 
