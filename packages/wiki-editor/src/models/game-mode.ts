@@ -5,7 +5,7 @@ export const zWikiGameMode = z.object({
   key: z.string(),
   name: z.string(),
   name_en: z.string(),
-  iconName: z.string(),
+  iconRedirect: z.string().optional(),
   playMode: z.enum(["standard", "arcade", "stadium", "other"]),
 });
 export type WikiGameMode = z.infer<typeof zWikiGameMode>;

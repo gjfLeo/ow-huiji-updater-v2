@@ -22,7 +22,7 @@ export default async function filterImages() {
     try {
       const filepath = path.join(dumpImageDir, filename);
       const metadata = await sharp(filepath).metadata();
-      if (metadata.width === 252 && metadata.height === 152) {
+      if ((metadata.width === 252 && metadata.height === 152) || (metadata.width === 268 && metadata.height === 200)) {
         let targetFilename;
         if (imageInfo[fileId]) {
           targetFilename = `旗帜_${imageInfo[fileId]}.png`;

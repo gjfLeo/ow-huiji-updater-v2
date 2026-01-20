@@ -8,6 +8,7 @@
     "knockback",
     "lootbox",
     "lootboxes",
+    "navbox",
     "noinclude",
     "onlyinclude",
     "overfast",
@@ -16,7 +17,7 @@
     "Scribunto",
     "tabx",
     "ustring",
-    "wikitable",
+    "wikitable"
   ],
   "Lua.format.defaultConfig": {
     "quote_style": "double",

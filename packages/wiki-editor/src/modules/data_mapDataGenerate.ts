@@ -1,45 +1,40 @@
+import type { WikiMap } from "../models/map";
 import path from "node:path";
-import { zOWLibMap } from "../models/owlib/maps";
+import chalk from "chalk";
+import { mapsRaw } from "../data/maps";
+import { wikiLogin } from "../export";
+import { zWikiMap } from "../models/map";
 import { logger } from "../utils/logger";
+import { Tabx } from "../utils/tabx";
 
-export default async function mapDataUpdate() {
-  const owLibMapsFile = Bun.file(path.resolve(__dirname, "../../output/owlib/json/maps.json"));
-  if (!await owLibMapsFile.exists()) {
-    logger.error("未找到OWLib地图数据文件");
-    process.exit(1);
-  }
+const outputFilePath = path.resolve(__dirname, "../../output/temp/Maps.tabx");
 
-  const owLibMapsRaw = zOWLibMap.array().parse(Object.values(await owLibMapsFile.json()));
+export default async function uploadMapData() {
+  const tabx = Tabx.fromHeaders<WikiMap>([
+    { key: "_dataType", type: "string" },
+    { key: "id", type: "string" },
+    { key: "idN", type: "number" },
+    { key: "name", type: "string" },
+    { key: "name_en", type: "string" },
+    { key: "mainGameMode", type: "string" },
+    { key: "region", type: "string" },
+    { key: "flagName", type: "string" },
+    { key: "variations", type: "string", isArray: true },
+    { key: "celebrationVariations", type: "string", isArray: true },
+  ]);
 
-  const outputData = owLibMapsRaw
-    .filter(map => Boolean(map.Name))
-    .filter(map => !map.Name?.startsWith("英雄精通") && !map.Name?.startsWith("Menu/"))
-    .filter(map => map.MapType !== "PVE")
-    .filter(map => !map.VariantName)
-    .map((map) => {
-      if (map.GUID.split(".")[0] !== map.MapGUID.split(".")[0]) {
-        logger.warn(`地图${map.Name}的GUID与MapGUID不匹配`);
-      }
-      return {
-        id: map.GUID.split(".")[0],
-        name: map.Name,
-        variations: map.Variations
-          ?.toSorted((a, b) => a.GUID.localeCompare(b.GUID))
-          .filter(variation => Boolean(variation.Name))
-          .map(variation => variation.Name),
-        // GUID: map.GUID,
-        // Name: map.Name,
-        // MapGUID: map.MapGUID,
-        MapType: map.MapType,
-        Thumbnail: map.Thumbnail,
-        Image: map.Image,
-        FlagImage: map.FlagImage,
-        CelebrationVariants: map.CelebrationVariants,
-        Variations: map.Variations,
-      };
-    });
-  await Bun.write(
-    path.resolve(__dirname, "../../output/temp/maps.json"),
-    JSON.stringify(outputData, null, 2),
+  const maps = zWikiMap.array().parse(
+    mapsRaw.map(item => ({
+      _dataType: "map",
+      ...item,
+      idN: Number.parseInt(item.id, 16),
+    })),
   );
+  tabx.addItems(maps);
+
+  const wiki = await wikiLogin({ userType: "user" });
+  await wiki.editPage("Data:Maps.tabx", JSON.stringify(tabx.json, null, 2));
+
+  await Bun.write(outputFilePath, JSON.stringify(tabx.json, null, 2));
+  logger.success(`编辑完成 ${chalk.gray(path.relative(process.cwd(), outputFilePath))}`);
 }

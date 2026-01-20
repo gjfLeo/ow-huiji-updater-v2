@@ -6,7 +6,6 @@ export const gameModesRaw: WikiGameMode[] = [
     key: "占领要点",
     name: "占领要点",
     name_en: "Control",
-    iconName: "游戏模式图标_占领要点.png",
     playMode: "standard",
   },
   {
@@ -14,7 +13,6 @@ export const gameModesRaw: WikiGameMode[] = [
     key: "运载目标",
     name: "运载目标",
     name_en: "Escort",
-    iconName: "游戏模式图标_运载目标.png",
     playMode: "standard",
   },
   {
@@ -22,7 +20,6 @@ export const gameModesRaw: WikiGameMode[] = [
     key: "攻击护送",
     name: "攻击/护送",
     name_en: "Hybrid",
-    iconName: "游戏模式图标_攻击护送.png",
     playMode: "standard",
   },
   {
@@ -30,7 +27,6 @@ export const gameModesRaw: WikiGameMode[] = [
     key: "机动推进",
     name: "机动推进",
     name_en: "Push",
-    iconName: "游戏模式图标_机动推进.png",
     playMode: "standard",
   },
   {
@@ -38,7 +34,6 @@ export const gameModesRaw: WikiGameMode[] = [
     key: "闪点作战",
     name: "闪点作战",
     name_en: "Flashpoint",
-    iconName: "游戏模式图标_闪点作战.png",
     playMode: "standard",
   },
   {
@@ -46,7 +41,6 @@ export const gameModesRaw: WikiGameMode[] = [
     key: "攻防阵线",
     name: "攻防阵线",
     name_en: "Clash",
-    iconName: "游戏模式图标_攻防阵线.png",
     playMode: "standard",
   },
   {
@@ -54,7 +48,6 @@ export const gameModesRaw: WikiGameMode[] = [
     key: "攻防作战",
     name: "攻防作战",
     name_en: "Assault",
-    iconName: "游戏模式图标_攻防作战.png",
     playMode: "arcade",
   },
   {
@@ -62,7 +55,6 @@ export const gameModesRaw: WikiGameMode[] = [
     key: "决斗先锋",
     name: "决斗先锋",
     name_en: "Elimination",
-    iconName: "游戏模式图标_决斗先锋.png",
     playMode: "arcade",
   },
   {
@@ -70,7 +62,6 @@ export const gameModesRaw: WikiGameMode[] = [
     key: "勇夺锦旗",
     name: "勇夺锦旗",
     name_en: "Capture The Flag",
-    iconName: "游戏模式图标_勇夺锦旗.png",
     playMode: "arcade",
   },
   {
@@ -78,7 +69,6 @@ export const gameModesRaw: WikiGameMode[] = [
     key: "死斗",
     name: "死斗",
     name_en: "Deathmatch",
-    iconName: "游戏模式图标_死斗.png",
     playMode: "arcade",
   },
   {
@@ -86,7 +76,6 @@ export const gameModesRaw: WikiGameMode[] = [
     key: "团队死斗",
     name: "团队死斗",
     name_en: "Team Deathmatch",
-    iconName: "游戏模式图标_团队死斗.png",
     playMode: "arcade",
   },
   {
@@ -94,7 +83,38 @@ export const gameModesRaw: WikiGameMode[] = [
     key: "突击模式",
     name: "突击模式",
     name_en: "Assault",
-    iconName: "游戏模式图标_突击模式.png",
     playMode: "arcade",
+  },
+  {
+    _dataType: "gameMode",
+    key: "占领要点（角斗领域）",
+    name: "占领要点",
+    name_en: "Control",
+    iconRedirect: "占领要点",
+    playMode: "stadium",
+  },
+  {
+    _dataType: "gameMode",
+    key: "机动推进（角斗领域）",
+    name: "机动推进",
+    name_en: "Push",
+    iconRedirect: "机动推进",
+    playMode: "stadium",
+  },
+  {
+    _dataType: "gameMode",
+    key: "攻防阵线（角斗领域）",
+    name: "攻防阵线",
+    name_en: "Clash",
+    iconRedirect: "攻防阵线",
+    playMode: "stadium",
+  },
+  {
+    _dataType: "gameMode",
+    key: "运载竞速（角斗领域）",
+    name: "运载竞速",
+    name_en: "Escort",
+    iconRedirect: "运载目标",
+    playMode: "stadium",
   },
 ];

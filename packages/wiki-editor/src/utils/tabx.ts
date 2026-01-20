@@ -28,7 +28,7 @@ type TabxJson = z.infer<typeof zTabx>;
 const zTabxInputHeader = z.object({
   key: z.string(),
   type: z.enum(["string", "number", "boolean"]).default("string"),
-  // isArray
+  isArray: z.boolean().optional(),
 });
 type TabxInputHeader = z.infer<typeof zTabxInputHeader>;
 
@@ -48,7 +48,7 @@ export class Tabx<T extends Record<string, any>> {
             name: header.key,
             type: header.type,
             title: {
-              en: header.key,
+              en: header.isArray ? `${header.key}[]` : header.key,
             },
           };
         }),
@@ -68,6 +68,9 @@ export class Tabx<T extends Record<string, any>> {
         default:
           if (item[key.name] === null || item[key.name] === undefined) {
             return null;
+          }
+          if (key.title.en.endsWith("[]") && Array.isArray(item[key.name])) {
+            return item[key.name].join(";");
           }
           switch (typeof item[key.name]) {
             case "number":
