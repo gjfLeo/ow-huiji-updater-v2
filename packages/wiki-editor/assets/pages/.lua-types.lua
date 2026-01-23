@@ -23,7 +23,7 @@
 ---   @field hitPoints { health: number, armor: number, shields: number }
 ---   @field movementSpeed number
 ---   @field meleeDamage number
----   @field perkXp { minor: number, major: number }---   
+---   @field perkXp { minor: number, major: number }---
 ---   @field description string
 ---   @field story { intro: string, chapters: { title: string, content: string }[], accessDate?: string }
 
@@ -176,6 +176,25 @@ mw.text = {}
 ---@param string string
 ---@param flags number? 0 或 `mw.text.JSON_PRESERVE_KEYS`、`mw.text.JSON_TRY_FIXING` 或相加
 function mw.text.jsonDecode(string, flags) end
+
+--- 分隔字符串
+--- @param string string
+--- @param pattern string
+--- @param plain boolean? 如果为 `true`，`pattern` 会被视作普通字符串，而不是 Lua 模式。
+--- @return string[]
+function mw.text.split(string, pattern, plain) end
+
+--- 分隔字符串迭代器
+--- @param string string
+--- @param pattern string
+--- @param plain boolean? 如果为 `true`，`pattern` 会被视作普通字符串，而不是 Lua 模式。
+--- @return fun(): string?
+function mw.text.gsplit(string, pattern, plain) end
+
+--- 移除字符串首尾空格
+--- @param string string
+--- @return string
+function mw.text.trim(string) end
 
 mw.title = {}
 
