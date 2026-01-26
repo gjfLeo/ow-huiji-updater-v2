@@ -177,6 +177,9 @@ li.gallerybox div.thumb {
 
 /* #endregion */
 
+/* MARK: common
+ */
+
 hr {
   border-top: 1px solid rgb(255 255 255 / 15%);
 }
@@ -204,6 +207,14 @@ h4 .mw-headline {
   object-fit: contain;
   margin-inline-end: 0.1em;
 }
+@media screen and (min-width: 320px) and (max-width: 566px) {
+  #bodyContent img.icon-inline:not(.siteimg):not(.headimg),
+  #bodyContent img.inline-icon:not(.siteimg):not(.headimg),
+  #bodyContent img.icon-inline-first:not(.siteimg):not(.headimg),
+  #bodyContent img.inline-icon-first:not(.siteimg):not(.headimg) {
+    max-width: 1.6em !important;
+  }
+}
 
 .text-has-tooltip {
   cursor: help;
@@ -216,7 +227,8 @@ h4 .mw-headline {
   box-shadow: inset 0 0 0 1px rgb(225 129 67);
 }
 
-/* infobox */
+/* MARK: infobox
+ */
 .ow-btn {
   display: inline-block;
   padding: 0.35em 2em;
@@ -266,6 +278,10 @@ h4 .mw-headline {
   background-color: rgba(0, 195, 255, 0.5);
 }
 
+.huiji-css-hook .infobox .infobox-img {
+  font-size: unset;
+  font-weight: unset;
+}
 .huiji-css-hook .infobox .infobox-img td {
   padding: 0.25rem;
 }
