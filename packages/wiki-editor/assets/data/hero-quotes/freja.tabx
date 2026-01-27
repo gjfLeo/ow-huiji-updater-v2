@@ -494,7 +494,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -507,7 +507,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -520,7 +520,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -533,7 +533,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -546,7 +546,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -559,7 +559,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -572,7 +572,7 @@
       "DeathCharged",
       "（遭受重压的声音）",
       "(crushed sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -585,7 +585,7 @@
       "DeathCharged",
       "（遭受重压的声音）",
       "(crushed sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -598,7 +598,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -611,7 +611,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -624,7 +624,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -637,7 +637,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -889,45 +889,6 @@
     ],
     [
       "HeroQuote",
-      "000000069531.0B2",
-      431409,
-      "freja",
-      "弗蕾娅",
-      null,
-      "Elimination",
-      "别高兴得太早。",
-      "(Danish): Don't celebrate too soon.",
-      "{\"type\":\"scripted\",\"script\":\"LowHealth(A81C)\",\"scriptDesc\":\"低生命值时\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000069535.0B2",
-      431413,
-      "freja",
-      "弗蕾娅",
-      null,
-      "Elimination",
-      "这笔赏金有点难度。",
-      "Well, you gave me a run for my money.",
-      "{\"type\":\"scripted\",\"script\":\"LowHealth(A81C)\",\"scriptDesc\":\"低生命值时\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000006971A.0B2",
-      431898,
-      "freja",
-      "弗蕾娅",
-      null,
-      "Elimination",
-      "我不用看，也照样能追踪你。",
-      "I don't need to see you to track you down.",
-      "{\"type\":\"scripted\",\"script\":\"Shutdown_SombraStealth(A788)\",\"scriptDesc\":\"敌方黑影潜行\"}",
-      null
-    ],
-    [
-      "HeroQuote",
       "000000069530.0B2",
       431408,
       "freja",
@@ -936,7 +897,7 @@
       "Elimination",
       "我听够了。",
       "I've heard enough.",
-      "{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}",
       null
     ],
     [
@@ -949,7 +910,7 @@
       "Elimination",
       "啊，都是些空话……",
       "(sigh) Words, words, words...",
-      "{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}",
       null
     ],
     [
@@ -962,7 +923,46 @@
       "Elimination",
       "猎物总以为自己跑得掉……",
       "They always think they can run...",
-      "{\"type\":\"scripted\",\"script\":\"UnknownA6FE\",\"scriptDesc\":\"敌人高速移动\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A6FE\",\"scriptDesc\":\"敌人高速移动\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006971A.0B2",
+      431898,
+      "freja",
+      "弗蕾娅",
+      null,
+      "Elimination",
+      "我不用看，也照样能追踪你。",
+      "I don't need to see you to track you down.",
+      "{\"type\":\"scripted\",\"script\":\"00A788\",\"scriptDesc\":\"敌方黑影潜行\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000069531.0B2",
+      431409,
+      "freja",
+      "弗蕾娅",
+      null,
+      "Elimination",
+      "别高兴得太早。",
+      "(Danish): Don't celebrate too soon.",
+      "{\"type\":\"scripted\",\"script\":\"00A81C\",\"scriptDesc\":\"低生命值时\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000069535.0B2",
+      431413,
+      "freja",
+      "弗蕾娅",
+      null,
+      "Elimination",
+      "这笔赏金有点难度。",
+      "Well, you gave me a run for my money.",
+      "{\"type\":\"scripted\",\"script\":\"00A81C\",\"scriptDesc\":\"低生命值时\"}",
       null
     ],
     [
@@ -1352,7 +1352,7 @@
       "Health/LowHealthBreathStart",
       "（倒吸气）",
       "(gasps)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -4095,7 +4095,7 @@
       "Scream",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -4108,7 +4108,7 @@
       "Scream",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -4121,7 +4121,7 @@
       "Scream",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -4745,7 +4745,7 @@
       "Ultimate",
       "你们芭比Q了！",
       "You're so cooked!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -4758,7 +4758,7 @@
       "Ultimate",
       "打包带走。",
       "Securing the bag.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -4771,7 +4771,7 @@
       "Ultimate",
       "你们芭比Q了！",
       "You're so cooked!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [

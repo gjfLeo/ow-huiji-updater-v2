@@ -351,7 +351,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -364,7 +364,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -377,7 +377,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -390,7 +390,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -403,7 +403,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -416,7 +416,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -429,7 +429,7 @@
       "DeathCharged",
       "（遭受重压的声音）",
       "(crushed sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -442,7 +442,7 @@
       "DeathCharged",
       "（遭受重压的声音）",
       "(crushed sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -455,7 +455,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -468,7 +468,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -481,7 +481,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -494,7 +494,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -780,7 +780,7 @@
       "Elimination",
       "（学舌的哔哔声）",
       "(imitating beeps)",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"法老之鹰\"},{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"法老之鹰\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
       null
     ],
     [
@@ -793,7 +793,7 @@
       "Elimination",
       "（学舌的哔哔声）",
       "(imitating beeps)",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"卡西迪\"},{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"卡西迪\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
       null
     ],
     [
@@ -806,7 +806,7 @@
       "Elimination",
       "（疑惑的哔哔声）",
       "(confused beeps)",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"莱因哈特\"},{\"type\":\"scripted\",\"script\":\"Shutdown_ReinhardtCharge(92A4)\",\"scriptDesc\":\"敌方莱因哈特冲锋\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"莱因哈特\"},{\"type\":\"scripted\",\"script\":\"0092A4\",\"scriptDesc\":\"敌方莱因哈特冲锋\"}]}",
       null
     ],
     [
@@ -819,7 +819,7 @@
       "Elimination",
       "（学舌的哔哔声）",
       "(imitating beeps)",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"死神\"},{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"死神\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
       null
     ],
     [
@@ -832,7 +832,7 @@
       "Elimination",
       "（骄傲的哔哔声）",
       "(proud beeps)",
-      "{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\"}",
+      "{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\"}",
       0.7
     ],
     [
@@ -1053,7 +1053,7 @@
       "Health/LowHealthBreathStart",
       "（倒吸气）",
       "(gasps)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -1183,7 +1183,7 @@
       "HeroSelect",
       "（思索的哔哔声）",
       "(thoughtful beeps)",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -3419,7 +3419,7 @@
       "Scream",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -3432,7 +3432,7 @@
       "Scream",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -3445,7 +3445,7 @@
       "Scream",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -3939,7 +3939,7 @@
       "Ultimate",
       "（奏乐的哔哔声）",
       "(musical beeps)",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -3952,7 +3952,7 @@
       "Ultimate",
       "（气喇叭似的哔哔声）",
       "(air horn beeps)",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -3965,7 +3965,7 @@
       "Ultimate",
       "（奏乐的哔哔声）",
       "(musical beeps)",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -3978,7 +3978,7 @@
       "Ultimate",
       "（模仿雾笛的哔哔声）",
       "(fog horn beeps)",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -3991,7 +3991,7 @@
       "Ultimate",
       "（模仿雾笛的哔哔声）",
       "(fog horn beeps)",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -4004,7 +4004,7 @@
       "Ultimate",
       "（奏乐的哔哔声）",
       "(musical beeps)",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -4017,7 +4017,7 @@
       "Ultimate",
       "（坦克模式）",
       "(Configuration: Tank)",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -4030,7 +4030,7 @@
       "Ultimate",
       "（坦克模式）",
       "(Configuration: Tank)",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -4147,7 +4147,7 @@
       "Unknown/1080.078",
       "（惊叹的哔哔声）",
       "(awed beep)",
-      "{\"type\":\"scripted\",\"script\":\"UnknownA364\",\"scriptDesc\":\"造成至少2个消灭\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A364\",\"scriptDesc\":\"造成至少2个消灭\"}",
       null
     ],
     [
@@ -4160,7 +4160,7 @@
       "Unknown/1080.078",
       "（沮丧的哔哔声）",
       "(disappointed beep)",
-      "{\"type\":\"scripted\",\"script\":\"UnknownA365\",\"scriptDesc\":\"未能造成消灭\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A365\",\"scriptDesc\":\"未能造成消灭\"}",
       null
     ],
     [
@@ -4173,7 +4173,7 @@
       "Unknown/1080.078",
       "（沮丧的哔哔声）",
       "(disappointed beeps)",
-      "{\"type\":\"scripted\",\"script\":\"UnknownA365\",\"scriptDesc\":\"未能造成消灭\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A365\",\"scriptDesc\":\"未能造成消灭\"}",
       null
     ],
     [

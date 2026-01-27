@@ -793,7 +793,7 @@
       "Elimination",
       "天空属于“破坏球”。",
       "The skies belong to Wrecking Ball.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"EnemyInAir(9268)\",\"scriptDesc\":\"敌人在空中\"},{\"type\":\"scripted\",\"script\":\"UnknownC003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"009268\",\"scriptDesc\":\"敌人在空中\"},{\"type\":\"scripted\",\"script\":\"00C003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}]}",
       null
     ],
     [
@@ -806,7 +806,7 @@
       "Elimination",
       "（仓鼠叫声）你虽然有优势，但还是输了。",
       "(hamster noise) You had the advantage and you still lost.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"UltShutdown_NanoBoosted(A697)\",\"scriptDesc\":\"敌人被纳米激素强化\"},{\"type\":\"scripted\",\"script\":\"UltAssist_Nano(A5FD)\",\"scriptDesc\":\"被纳米激素强化时\",\"negative\":true}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A697\",\"scriptDesc\":\"敌人被纳米激素强化\"},{\"type\":\"scripted\",\"script\":\"00A5FD\",\"scriptDesc\":\"被纳米激素强化时\",\"negative\":true}]}",
       null
     ],
     [
@@ -819,7 +819,7 @@
       "Elimination",
       "（仓鼠叫声）哔声一响，午时已过。哔。",
       "(hamster noises) At the beep, the time will be 12:01. Beep.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"卡西迪\"},{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"卡西迪\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
       null
     ],
     [
@@ -832,7 +832,7 @@
       "Elimination",
       "（仓鼠叫声）原始暴怒可比不过仓鼠发飙。",
       "(hamster noises) Primal rage is inferior to hamster fury.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"温斯顿\"},{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"温斯顿\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
       null
     ],
     [
@@ -845,7 +845,7 @@
       "Elimination",
       "旋转是他的长项。",
       "Spinning is his thing.",
-      "{\"type\":\"nested\",\"total\":3,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"死神\"},{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"奥丽莎\"}]}",
+      "{\"type\":\"nested\",\"total\":3,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"死神\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"奥丽莎\"}]}",
       null
     ],
     [
@@ -858,7 +858,7 @@
       "Elimination",
       "（仓鼠叫声）重力困不住这只小动物。",
       "(hamster noises) Gravity cannot stop this mammal.",
-      "{\"type\":\"scripted\",\"script\":\"UltShutdown_InFlux(A6B6)\",\"scriptDesc\":\"被引力乱流控制时\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A6B6\",\"scriptDesc\":\"被引力乱流控制时\"}",
       null
     ],
     [
@@ -871,7 +871,7 @@
       "Elimination",
       "你很快，但他更快。",
       "You were fast. He was faster.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownA70E\",\"scriptDesc\":\"打断敌人位移技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A70E\",\"scriptDesc\":\"打断敌人位移技能\"}",
       null
     ],
     [
@@ -884,7 +884,7 @@
       "Elimination",
       "（仓鼠叫声）你没有给仓鼠留下印象。",
       "(hamster noises) The hamster will not remember you.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownC003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00C003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}",
       null
     ],
     [
@@ -897,7 +897,7 @@
       "Elimination",
       "（仓鼠叫声）警告：仓鼠大获全胜。",
       "(hamster noises) Warning: hamster triumphant.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownC003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00C003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}",
       null
     ],
     [
@@ -910,7 +910,7 @@
       "Elimination",
       "（仓鼠叫声）你的失败取悦了仓鼠。",
       "(hamster noises) Your failure delights the hamster.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownC003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00C003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}",
       null
     ],
     [
@@ -1001,7 +1001,7 @@
       "EnemiesAttacking",
       "（仓鼠叫声）左边侦测到敌人。",
       "(hamster noises) Enemy detected on the left.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2733\",\"scriptDesc\":\"敌人在左侧\"}",
+      "{\"type\":\"scripted\",\"script\":\"002733\",\"scriptDesc\":\"敌人在左侧\"}",
       null
     ],
     [
@@ -1014,7 +1014,7 @@
       "EnemiesAttacking",
       "（仓鼠叫声）右边侦测到敌人。",
       "(hamster noises) Enemy detected on the right.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2734\",\"scriptDesc\":\"敌人在右侧\"}",
+      "{\"type\":\"scripted\",\"script\":\"002734\",\"scriptDesc\":\"敌人在右侧\"}",
       null
     ],
     [
@@ -1027,7 +1027,7 @@
       "EnemiesAttacking",
       "（仓鼠叫声）敌人在前面。",
       "(hamster noises) Enemy in front of us.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2735\",\"scriptDesc\":\"敌人在前方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002735\",\"scriptDesc\":\"敌人在前方\"}",
       null
     ],
     [
@@ -1040,7 +1040,7 @@
       "EnemiesAttacking",
       "（仓鼠叫声）上方侦测到敌人。",
       "(hamster noises) Enemy detected above us.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2736\",\"scriptDesc\":\"敌人在上方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002736\",\"scriptDesc\":\"敌人在上方\"}",
       null
     ],
     [
@@ -1053,7 +1053,7 @@
       "EnemiesAttacking",
       "（仓鼠叫声）敌人在后面。",
       "(hamster noises) Enemy behind us.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2737\",\"scriptDesc\":\"敌人在后方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002737\",\"scriptDesc\":\"敌人在后方\"}",
       null
     ],
     [
@@ -1066,7 +1066,7 @@
       "EnemiesAttacking",
       "（仓鼠叫声）下方侦测到敌人。",
       "(hamster noises) Enemy detected below us.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2738\",\"scriptDesc\":\"敌人在下方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002738\",\"scriptDesc\":\"敌人在下方\"}",
       null
     ],
     [
@@ -1456,7 +1456,7 @@
       "HealthRestoredFriendly",
       "（仓鼠叫声）仓鼠表示感谢。",
       "(hamster noises) Hamster thanks inbound.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownC003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00C003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}",
       null
     ],
     [
@@ -1560,7 +1560,7 @@
       "HeroSelect",
       "（仓鼠叫声）控制链接已建立。",
       "(hamster noises) Control link established.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -1716,7 +1716,7 @@
       "KillStreak",
       "（仓鼠叫声）“破坏球”主宰比赛。",
       "(hamster noises) Wrecking Ball is dominating.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownC003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00C003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}",
       null
     ],
     [
@@ -1729,7 +1729,7 @@
       "KillStreak",
       "（仓鼠叫声）仓鼠名垂千古。",
       "(hamster noise) The hamster will live forever.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownC003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00C003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}",
       null
     ],
     [
@@ -3692,7 +3692,7 @@
       "OnFire",
       "（仓鼠叫声）状态：火力全开。",
       "(hamster noises) Performance classification: on fire.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -5075,45 +5075,6 @@
     ],
     [
       "HeroQuote",
-      "000000052D60.0B2",
-      339296,
-      "wrecking-ball",
-      "破坏球",
-      null,
-      "Respawn",
-      "（仓鼠叫声）仓鼠已复活。",
-      "(hamster noises) Hamster revived.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000052D61.0B2",
-      339297,
-      "wrecking-ball",
-      "破坏球",
-      null,
-      "Respawn",
-      "（仓鼠叫声）准备作战。",
-      "(hamster noises) Ready for combat.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000052D62.0B2",
-      339298,
-      "wrecking-ball",
-      "破坏球",
-      null,
-      "Respawn",
-      "（仓鼠叫声）系统初始化完成。",
-      "(hamster noises) System initialized.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null
-    ],
-    [
-      "HeroQuote",
       "00000006398E.0B2",
       407950,
       "wrecking-ball",
@@ -5122,7 +5083,7 @@
       "Respawn",
       "（仓鼠叫声）检测到大量仓鼠粗口。",
       "(hamster noises) Prolific hamster cursing detected.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownC003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00C003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}",
       null
     ],
     [
@@ -5135,7 +5096,46 @@
       "Respawn",
       "（仓鼠叫声）仓鼠的怒气正在增长。",
       "(hamster noises) Hamster displeasure rising.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownC003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00C003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000052D60.0B2",
+      339296,
+      "wrecking-ball",
+      "破坏球",
+      null,
+      "Respawn",
+      "（仓鼠叫声）仓鼠已复活。",
+      "(hamster noises) Hamster revived.",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000052D61.0B2",
+      339297,
+      "wrecking-ball",
+      "破坏球",
+      null,
+      "Respawn",
+      "（仓鼠叫声）准备作战。",
+      "(hamster noises) Ready for combat.",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000052D62.0B2",
+      339298,
+      "wrecking-ball",
+      "破坏球",
+      null,
+      "Respawn",
+      "（仓鼠叫声）系统初始化完成。",
+      "(hamster noises) System initialized.",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -5551,7 +5551,7 @@
       "Revenge",
       "（仓鼠叫声）仓鼠总会回来的。",
       "(hamster noises) Hamsters always come back.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownC003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00C003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}",
       null
     ],
     [
@@ -5629,7 +5629,7 @@
       "TeamKill",
       "（仓鼠叫声）仓鼠对敌方队伍感到失望。",
       "(hamster noises) The enemy team disappoints the hamster.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownC003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00C003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}",
       null
     ],
     [
@@ -5707,7 +5707,7 @@
       "Teammate/KillSeen",
       "（仓鼠叫声）你的效率已接近仓鼠的水平。",
       "(hamster noises) You are approaching hamster levels of efficiency.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownC003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00C003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}",
       null
     ],
     [
@@ -5720,7 +5720,7 @@
       "Teammate/KillSeen",
       "（仓鼠叫声）小动物对你的成果表示祝贺。",
       "(hamster noises) The mammal congratulates your efforts.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownC003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00C003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}",
       null
     ],
     [
@@ -5798,7 +5798,7 @@
       "Teammate/Rescue",
       "（仓鼠叫声）你欠仓鼠一条命。",
       "(hamster noises) You owe the hamster.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownC003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00C003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}",
       null
     ],
     [
@@ -5941,7 +5941,7 @@
       "Ultimate",
       "（仓鼠叫声）看好了，小“破坏球”们来了。",
       "(hamster noises) Behold the children of Wrecking Ball.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -5954,7 +5954,7 @@
       "Ultimate",
       "（仓鼠叫声）收集小球可以得奖。",
       "(hamster noises) Collect the little balls to win a prize.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -5967,7 +5967,7 @@
       "Ultimate",
       "（仓鼠叫声）收集小球可以得奖。",
       "(hamster noises) Collect the little balls to win a prize.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -7293,7 +7293,7 @@
       "Unknown/A6C.078",
       "（仓鼠叫声）石头不错，呆子。",
       "(hamster noises) Nice boulder, nerd.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"西格玛\"},{\"type\":\"scripted\",\"script\":\"UnknownC003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"西格玛\"},{\"type\":\"scripted\",\"script\":\"00C003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}]}",
       null
     ],
     [
@@ -7332,7 +7332,7 @@
       "Unknown/A6C.078",
       "（仓鼠叫声）意料之外的撞击。",
       "(hamster noises) Unexpected thump.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownA6FE\",\"scriptDesc\":\"敌人高速移动\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A6FE\",\"scriptDesc\":\"敌人高速移动\"}",
       null
     ],
     [
@@ -7345,7 +7345,7 @@
       "Unknown/A6C.078",
       "（仓鼠叫声）你是从哪里冒出来的？",
       "(hamster noises) Where did you come from?",
-      "{\"type\":\"scripted\",\"script\":\"UnknownA6FE\",\"scriptDesc\":\"敌人高速移动\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A6FE\",\"scriptDesc\":\"敌人高速移动\"}",
       null
     ],
     [
@@ -7358,7 +7358,7 @@
       "Unknown/A6C.078",
       "（仓鼠叫声）小动物横冲直撞。",
       "(hamster noises) Let the mammal roll.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownC003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00C003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}",
       0.3
     ],
     [
@@ -7371,7 +7371,7 @@
       "Unknown/A6C.078",
       "（仓鼠叫声）论速度，你比不过仓鼠。",
       "(hamster noises) You cannot outrun the hamster.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownC003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00C003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}",
       0.3
     ],
     [
@@ -7631,7 +7631,7 @@
       "Unknown/EC6.078",
       "（仓鼠叫声）仓鼠说：再见。",
       "(hamster noises) The hamster says, \"Goodbye.\"",
-      "{\"type\":\"scripted\",\"script\":\"UnknownC003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00C003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}",
       null
     ],
     [

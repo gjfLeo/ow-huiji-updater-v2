@@ -546,7 +546,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -559,7 +559,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -572,7 +572,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -585,7 +585,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -598,7 +598,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -611,7 +611,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -624,7 +624,7 @@
       "DeathCharged",
       "（遭受重压的声音）",
       "(crushed sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -637,7 +637,7 @@
       "DeathCharged",
       "（遭受重压的声音）",
       "(crushed sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -650,7 +650,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -663,7 +663,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -676,7 +676,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -689,7 +689,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -871,7 +871,7 @@
       "Elimination",
       "这就叫速度和准度。输了也情有可原。",
       "Speed and precision? No wonder you lost.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\"},{\"type\":\"scripted\",\"script\":\"FastMoving(A6FC)\",\"scriptDesc\":\"高速移动时\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\"},{\"type\":\"scripted\",\"script\":\"00A6FC\",\"scriptDesc\":\"高速移动时\"}]}",
       null
     ],
     [
@@ -884,7 +884,7 @@
       "Elimination",
       "你不能被愤怒冲昏了头脑！",
       "You can't let anger get the better of you!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"温斯顿\"},{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"温斯顿\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
       null
     ],
     [
@@ -897,7 +897,7 @@
       "Elimination",
       "请你下次把鞋穿好。",
       "Come back wearing shoes, please.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"西格玛\"},{\"type\":\"scripted\",\"script\":\"SigmaWithoutShoes(A894)\",\"scriptDesc\":\"敌方西格玛使用未穿鞋的皮肤\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"西格玛\"},{\"type\":\"scripted\",\"script\":\"00A894\",\"scriptDesc\":\"敌方西格玛使用未穿鞋的皮肤\"}]}",
       0.5
     ],
     [
@@ -923,7 +923,7 @@
       "Elimination",
       "别人都说我是“空中杀手”。",
       "\"Danger Close\" is my middle name.",
-      "{\"type\":\"nested\",\"total\":3,\"needed\":3,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"法老之鹰\"},{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"scripted\",\"script\":\"ShortDistance(AD8E)\",\"scriptDesc\":\"近距离\"}]}",
+      "{\"type\":\"nested\",\"total\":3,\"needed\":3,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"法老之鹰\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"scripted\",\"script\":\"00AD8E\",\"scriptDesc\":\"近距离\"}]}",
       null
     ],
     [
@@ -941,19 +941,6 @@
     ],
     [
       "HeroQuote",
-      "000000061F1B.0B2",
-      401179,
-      "sojourn",
-      "索杰恩",
-      null,
-      "Elimination",
-      "这里是禁飞区。",
-      "This is restricted airspace.",
-      "{\"type\":\"scripted\",\"script\":\"EnemyInAir(9268)\",\"scriptDesc\":\"敌人在空中\"}",
-      null
-    ],
-    [
-      "HeroQuote",
       "00000005BAF9.0B2",
       375545,
       "sojourn",
@@ -962,7 +949,7 @@
       "Elimination",
       "精准无误。",
       "Right on the money.",
-      "{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\"}",
+      "{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\"}",
       0.5
     ],
     [
@@ -975,47 +962,21 @@
       "Elimination",
       "强化瞄准精度。",
       "Enhanced accuracy.",
-      "{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\"}",
+      "{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\"}",
       0.5
     ],
     [
       "HeroQuote",
-      "00000006438B.0B2",
-      410507,
+      "000000061F1B.0B2",
+      401179,
       "sojourn",
       "索杰恩",
       null,
       "Elimination",
-      "在远距离一样致命。",
-      "Lethal at range.",
-      "{\"type\":\"scripted\",\"script\":\"LongDistance(A809)\",\"scriptDesc\":\"远距离\"}",
+      "这里是禁飞区。",
+      "This is restricted airspace.",
+      "{\"type\":\"scripted\",\"script\":\"009268\",\"scriptDesc\":\"敌人在空中\"}",
       null
-    ],
-    [
-      "HeroQuote",
-      "00000006438C.0B2",
-      410508,
-      "sojourn",
-      "索杰恩",
-      null,
-      "Elimination",
-      "不要忽略视野里的任何动静。",
-      "Always mind your sightlines.",
-      "{\"type\":\"scripted\",\"script\":\"LongDistance(A809)\",\"scriptDesc\":\"远距离\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000066127.0B2",
-      418087,
-      "sojourn",
-      "索杰恩",
-      null,
-      "Elimination",
-      "哈！想得美。",
-      "Ha! Nice try.",
-      "{\"type\":\"scripted\",\"script\":\"LowHealth(A81C)\",\"scriptDesc\":\"低生命值时\"}",
-      0.35
     ],
     [
       "HeroQuote",
@@ -1027,7 +988,7 @@
       "Elimination",
       "放慢速度。多多思考。",
       "Slow down. Think.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownA6FE\",\"scriptDesc\":\"敌人高速移动\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A6FE\",\"scriptDesc\":\"敌人高速移动\"}",
       null
     ],
     [
@@ -1040,8 +1001,47 @@
       "Elimination",
       "放慢速度，好吗？谢谢你。",
       "Slow down. Thank you.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownA6FE\",\"scriptDesc\":\"敌人高速移动\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A6FE\",\"scriptDesc\":\"敌人高速移动\"}",
       0.1
+    ],
+    [
+      "HeroQuote",
+      "00000006438B.0B2",
+      410507,
+      "sojourn",
+      "索杰恩",
+      null,
+      "Elimination",
+      "在远距离一样致命。",
+      "Lethal at range.",
+      "{\"type\":\"scripted\",\"script\":\"00A809\",\"scriptDesc\":\"远距离\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006438C.0B2",
+      410508,
+      "sojourn",
+      "索杰恩",
+      null,
+      "Elimination",
+      "不要忽略视野里的任何动静。",
+      "Always mind your sightlines.",
+      "{\"type\":\"scripted\",\"script\":\"00A809\",\"scriptDesc\":\"远距离\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000066127.0B2",
+      418087,
+      "sojourn",
+      "索杰恩",
+      null,
+      "Elimination",
+      "哈！想得美。",
+      "Ha! Nice try.",
+      "{\"type\":\"scripted\",\"script\":\"00A81C\",\"scriptDesc\":\"低生命值时\"}",
+      0.35
     ],
     [
       "HeroQuote",
@@ -1482,7 +1482,7 @@
       "Health/LowHealthBreathStart",
       "（倒吸气）",
       "(gasps)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -3341,7 +3341,7 @@
       "MeleeEnemyKilledRemark",
       "没想到滑铲之后是重拳吧。",
       "Didn't expect the slide-punch, huh.",
-      "{\"type\":\"scripted\",\"script\":\"FastMoving(A6FC)\",\"scriptDesc\":\"高速移动时\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A6FC\",\"scriptDesc\":\"高速移动时\"}",
       null
     ],
     [
@@ -3354,7 +3354,7 @@
       "MeleeEnemyKilledRemark",
       "反正是顺手的事……",
       "It was on the way anyway...",
-      "{\"type\":\"scripted\",\"script\":\"FastMoving(A6FC)\",\"scriptDesc\":\"高速移动时\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A6FC\",\"scriptDesc\":\"高速移动时\"}",
       null
     ],
     [
@@ -4407,7 +4407,7 @@
       "PVE/Conversations",
       "很高兴见到你，猎空。能护送一下这艘渡轮吗？",
       "Good to see you, Tracer. Can you keep an eye on that ferry?",
-      "{\"type\":\"nested\",\"total\":3,\"needed\":3,\"conditions\":[{\"type\":\"scripted\",\"script\":\"Unknown7761\",\"scriptDesc\":\"未知\"},{\"type\":\"mission\",\"mission\":\"解放枷锁\"},{\"type\":\"mission\",\"objective\":\"保护渡轮\"}]}",
+      "{\"type\":\"nested\",\"total\":3,\"needed\":3,\"conditions\":[{\"type\":\"scripted\",\"script\":\"007761\",\"scriptDesc\":\"未知\"},{\"type\":\"mission\",\"mission\":\"解放枷锁\"},{\"type\":\"mission\",\"objective\":\"保护渡轮\"}]}",
       null
     ],
     [
@@ -4420,7 +4420,7 @@
       "PVE/Conversations",
       "很高兴见到你，回声。能护送一下这艘渡轮吗？",
       "Good to see you, Echo. Can you keep an eye on that ferry?",
-      "{\"type\":\"nested\",\"total\":3,\"needed\":3,\"conditions\":[{\"type\":\"scripted\",\"script\":\"Unknown7762\",\"scriptDesc\":\"未知\"},{\"type\":\"mission\",\"mission\":\"解放枷锁\"},{\"type\":\"mission\",\"objective\":\"保护渡轮\"}]}",
+      "{\"type\":\"nested\",\"total\":3,\"needed\":3,\"conditions\":[{\"type\":\"scripted\",\"script\":\"007762\",\"scriptDesc\":\"未知\"},{\"type\":\"mission\",\"mission\":\"解放枷锁\"},{\"type\":\"mission\",\"objective\":\"保护渡轮\"}]}",
       null
     ],
     [
@@ -5798,7 +5798,7 @@
       "PVE/Unknown",
       "我们必须保护那艘渡轮！",
       "We need to keep that Ferry safe!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
       0.5
     ],
     [
@@ -5811,7 +5811,7 @@
       "PVE/Unknown",
       "它们正在破坏渡轮！",
       "They're damaging the Ferry!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
       0.5
     ],
     [
@@ -5824,7 +5824,7 @@
       "PVE/Unknown",
       "别让敌人破坏渡轮！",
       "Keep those hostiles off the Ferry!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
       0.5
     ],
     [
@@ -5837,7 +5837,7 @@
       "PVE/Unknown",
       "渡轮情况危急，全力以赴守住防线！",
       "The Ferry's compromised. Give it all you've got!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
       0.5
     ],
     [
@@ -5850,7 +5850,7 @@
       "PVE/Unknown",
       "团结起来，不能让敌人破坏渡轮！",
       "Hold it together. They can't breach the Ferry!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
       0.5
     ],
     [
@@ -5863,7 +5863,7 @@
       "PVE/Unknown",
       "敌人在攻击传输塔。干掉他们！",
       "Hostiles on the Uplink. Drop them!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
       0.5
     ],
     [
@@ -5876,7 +5876,7 @@
       "PVE/Unknown",
       "别让他们接近传输塔！",
       "Keep them off the Uplink!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
       0.5
     ],
     [
@@ -5889,7 +5889,7 @@
       "PVE/Unknown",
       "敌人在破坏传输塔！",
       "We have enemies on the Uplink!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
       0.5
     ],
     [
@@ -5902,7 +5902,7 @@
       "PVE/Unknown",
       "我们不能失去传输塔，全力作战！",
       "We can't lose this Uplink. Keep fighting!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
       0.5
     ],
     [
@@ -5915,7 +5915,7 @@
       "PVE/Unknown",
       "传输塔不能再受损了！",
       "The Uplink can't take more damage!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
       0.5
     ],
     [
@@ -5928,7 +5928,7 @@
       "PVE/Unknown",
       "巨炮正在遭受攻击！",
       "The cannon's taking damage!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown81B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
       0.5
     ],
     [
@@ -5941,7 +5941,7 @@
       "PVE/Unknown",
       "全体队员！保护巨炮！",
       "Team! Watch the cannon!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown81B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
       0.5
     ],
     [
@@ -5954,7 +5954,7 @@
       "PVE/Unknown",
       "敌人在破坏巨炮！",
       "They're damaging the cannon!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown81B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
       0.5
     ],
     [
@@ -5967,7 +5967,7 @@
       "PVE/Unknown",
       "队员们，加强防守！我们不能失去这台巨炮！",
       "Hold together, team! We can't lose this cannon!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown81B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
       0.5
     ],
     [
@@ -5980,7 +5980,7 @@
       "PVE/Unknown",
       "巨炮不能再承受火力了！",
       "The cannon can't take another hit!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown81B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
       0.5
     ],
     [
@@ -5993,7 +5993,7 @@
       "PVE/Unknown",
       "就快成功了！专心推进目标。",
       "Almost there! Just stay on target.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownAAD3\",\"scriptDesc\":\"加时期间敌方控制机器人\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00AAD3\",\"scriptDesc\":\"加时期间敌方控制机器人\",\"negative\":true}",
       0.3
     ],
     [
@@ -6279,7 +6279,7 @@
       "Respawn",
       "行啊，阿坎。该轮到我了。",
       "All right, Akande. It's my turn.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"末日铁拳\"},{\"type\":\"scripted\",\"script\":\"UnknownC003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"末日铁拳\"},{\"type\":\"scripted\",\"script\":\"00C003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}]}",
       0.25
     ],
     [
@@ -6292,7 +6292,7 @@
       "Respawn",
       "好了，维维安……振作起来！",
       "Come on, Vivian... get yourself together!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownC003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00C003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}",
       null
     ],
     [
@@ -6799,7 +6799,7 @@
       "Scream",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -6812,7 +6812,7 @@
       "Scream",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -6825,7 +6825,7 @@
       "Scream",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -8164,7 +8164,7 @@
       "StormRising/Conversations",
       "我是索杰恩。",
       "Sojourn here.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2841\",\"scriptDesc\":\"未知PVE条件\"}",
+      "{\"type\":\"scripted\",\"script\":\"002841\",\"scriptDesc\":\"未知PVE条件\"}",
       null
     ],
     [
@@ -8177,7 +8177,7 @@
       "StormRising/Conversations",
       "找到马克西米里安了。他在堂-朗博蒂科酿酒厂里。",
       "We found Maximilien. He's at the Don Rumbotico distillery.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2841\",\"scriptDesc\":\"未知PVE条件\"}",
+      "{\"type\":\"scripted\",\"script\":\"002841\",\"scriptDesc\":\"未知PVE条件\"}",
       null
     ],
     [
@@ -8190,7 +8190,7 @@
       "StormRising/Conversations",
       "这样应该就可以了。",
       "That would work.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2841\",\"scriptDesc\":\"未知PVE条件\"}",
+      "{\"type\":\"scripted\",\"script\":\"002841\",\"scriptDesc\":\"未知PVE条件\"}",
       null
     ],
     [
@@ -8203,7 +8203,7 @@
       "StormRising/Conversations",
       "黑爪的部队都消灭了。把卡车开动起来，撞开大门！",
       "That's it for Talon. Someone arm that truck and get those doors open!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2841\",\"scriptDesc\":\"未知PVE条件\"}",
+      "{\"type\":\"scripted\",\"script\":\"002841\",\"scriptDesc\":\"未知PVE条件\"}",
       null
     ],
     [
@@ -8216,7 +8216,7 @@
       "StormRising/Conversations",
       "信号正常了。大家都还好吗？",
       "We’re back online. Is everyone all right?",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2841\",\"scriptDesc\":\"未知PVE条件\"}",
+      "{\"type\":\"scripted\",\"script\":\"002841\",\"scriptDesc\":\"未知PVE条件\"}",
       null
     ],
     [
@@ -8229,7 +8229,7 @@
       "StormRising/Conversations",
       "黑爪最近的行动越来越频繁了。",
       "There's been a serious increase in Talon activity lately.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown4F6A\",\"scriptDesc\":\"未知PVE条件\"}",
+      "{\"type\":\"scripted\",\"script\":\"004F6A\",\"scriptDesc\":\"未知PVE条件\"}",
       null
     ],
     [
@@ -8242,7 +8242,7 @@
       "StormRising/Conversations",
       "通讯又恢复了。突击小队，请回话。",
       "Communications back online. Team, come in.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown4F6A\",\"scriptDesc\":\"未知PVE条件\"}",
+      "{\"type\":\"scripted\",\"script\":\"004F6A\",\"scriptDesc\":\"未知PVE条件\"}",
       null
     ],
     [
@@ -8255,7 +8255,7 @@
       "StormRising/Conversations",
       "确认。马克西米里安躲在堂-朗博蒂科酿酒厂。",
       "Confirmed. Maximilien is at the Don Rumbotico distillery.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown51A5\",\"scriptDesc\":\"未知PVE条件\"}",
+      "{\"type\":\"scripted\",\"script\":\"0051A5\",\"scriptDesc\":\"未知PVE条件\"}",
       null
     ],
     [
@@ -8268,7 +8268,7 @@
       "StormRising/Conversations",
       "别忘了，天使，回到基地以后，我们需要你从医疗人员的角度提交一份有关埃及局面的报告。",
       "Just a reminder, Mercy, we're going to need your medical assessment on the Egypt situation when you return.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown51A7\",\"scriptDesc\":\"未知PVE条件\"}",
+      "{\"type\":\"scripted\",\"script\":\"0051A7\",\"scriptDesc\":\"未知PVE条件\"}",
       null
     ],
     [
@@ -8281,7 +8281,7 @@
       "StormRising/Conversations",
       "“猎空”!",
       "Tracer!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown51A8\",\"scriptDesc\":\"未知PVE条件\"}",
+      "{\"type\":\"scripted\",\"script\":\"0051A8\",\"scriptDesc\":\"未知PVE条件\"}",
       null
     ],
     [
@@ -8294,7 +8294,7 @@
       "StormRising/Conversations",
       "天使，队伍状态如何？",
       "Mercy, how's the team's status?",
-      "{\"type\":\"scripted\",\"script\":\"Unknown51A8\",\"scriptDesc\":\"未知PVE条件\"}",
+      "{\"type\":\"scripted\",\"script\":\"0051A8\",\"scriptDesc\":\"未知PVE条件\"}",
       null
     ],
     [
@@ -8307,7 +8307,7 @@
       "StormRising/Conversations",
       "源氏，你身上新的神经机体情况怎么样？",
       "Genji, how are your new cybernetics?",
-      "{\"type\":\"scripted\",\"script\":\"Unknown51A8\",\"scriptDesc\":\"未知PVE条件\"}",
+      "{\"type\":\"scripted\",\"script\":\"0051A8\",\"scriptDesc\":\"未知PVE条件\"}",
       null
     ],
     [
@@ -8853,7 +8853,7 @@
       "Ultimate",
       "我要开始了！（停顿）不对吗？",
       "That starts then! (pause) What?",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -8866,7 +8866,7 @@
       "Ultimate",
       "拜拜，坏蛋们！",
       "Bye-bye, bad guys!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -8879,7 +8879,7 @@
       "Ultimate",
       "拜拜，坏蛋们！",
       "Bye-bye, bad guys!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -9282,7 +9282,7 @@
       "Unknown/113E.078",
       "加拿大人就是这么热情。",
       "Canadian hospitality.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownC003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00C003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}",
       null
     ],
     [
@@ -10530,7 +10530,7 @@
       "Unknown/B8F.078",
       "反狙。",
       "Outsniped.",
-      "{\"type\":\"nested\",\"total\":3,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\"},{\"type\":\"toHero\",\"hero\":\"黑百合\"},{\"type\":\"toHero\",\"hero\":\"安娜\"}]}",
+      "{\"type\":\"nested\",\"total\":3,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\"},{\"type\":\"toHero\",\"hero\":\"黑百合\"},{\"type\":\"toHero\",\"hero\":\"安娜\"}]}",
       null
     ],
     [
@@ -10543,7 +10543,7 @@
       "Unknown/B8F.078",
       "精确打击。",
       "Pinpoint accuracy.",
-      "{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\"}",
+      "{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\"}",
       null
     ],
     [
@@ -10556,7 +10556,7 @@
       "Unknown/B8F.078",
       "还有比这更强的吗？",
       "Doesn't get better than that.",
-      "{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\"}",
+      "{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\"}",
       null
     ],
     [
@@ -10569,7 +10569,7 @@
       "Unknown/B8F.078",
       "炮决。（叹气）别这样，维维安。",
       "Railgunned. (Sigh) Come on, Vivian.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownC003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00C003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}",
       0.01
     ],
     [
@@ -10777,7 +10777,7 @@
       "Unknown/B93.078",
       "爆头。",
       "Headshot.",
-      "{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\"}",
+      "{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\"}",
       null
     ],
     [
@@ -12337,7 +12337,7 @@
       "Unknown/E7A.078",
       "没想到我能上天吧。",
       "Didn't expect a dogfight.",
-      "{\"type\":\"scripted\",\"script\":\"EnemyInAir(9268)\",\"scriptDesc\":\"敌人在空中\"}",
+      "{\"type\":\"scripted\",\"script\":\"009268\",\"scriptDesc\":\"敌人在空中\"}",
       null
     ],
     [
@@ -12350,7 +12350,7 @@
       "Unknown/E7A.078",
       "有这种实力，不会飞也无所谓。",
       "Don't need to fly when I can do that.",
-      "{\"type\":\"scripted\",\"script\":\"EnemyInAir(9268)\",\"scriptDesc\":\"敌人在空中\"}",
+      "{\"type\":\"scripted\",\"script\":\"009268\",\"scriptDesc\":\"敌人在空中\"}",
       null
     ],
     [
@@ -12519,7 +12519,7 @@
       "Unknown/E87.078",
       "这种感觉永远不会腻。",
       "Days like this never get old.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownB1DD\",\"scriptDesc\":\"期间造成至少3次消灭\"}",
+      "{\"type\":\"scripted\",\"script\":\"00B1DD\",\"scriptDesc\":\"期间造成至少3次消灭\"}",
       null
     ],
     [

@@ -533,7 +533,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -546,7 +546,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -559,7 +559,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -572,7 +572,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -585,7 +585,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -598,7 +598,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -611,7 +611,7 @@
       "DeathCharged",
       "（遭受重压的声音）",
       "(crushed sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -624,7 +624,7 @@
       "DeathCharged",
       "（遭受重压的声音）",
       "(crushed sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -637,7 +637,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -650,7 +650,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -663,7 +663,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -676,7 +676,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -884,7 +884,7 @@
       "Elimination",
       "这次是我赢了，阿姨！",
       "I win this time, Auntie!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"美\"},{\"type\":\"scripted\",\"script\":\"UnknownAA28\",\"scriptDesc\":\"未知\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"美\"},{\"type\":\"scripted\",\"script\":\"00AA28\",\"scriptDesc\":\"未知\"}]}",
       null
     ],
     [
@@ -897,7 +897,7 @@
       "Elimination",
       "双月啊！我居然毁掉了一项植物学实验！",
       "Oh moons! I ruined a botanical experiment!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"生命之梭\"},{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"生命之梭\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
       null
     ],
     [
@@ -910,7 +910,7 @@
       "Elimination",
       "天气好差呀！",
       "What awful weather!",
-      "{\"type\":\"nested\",\"total\":4,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"UnknownC473\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"骇灾\"},{\"type\":\"toHero\",\"hero\":\"美\"},{\"type\":\"toHero\",\"hero\":\"法老之鹰\"}]}",
+      "{\"type\":\"nested\",\"total\":4,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00C473\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"骇灾\"},{\"type\":\"toHero\",\"hero\":\"美\"},{\"type\":\"toHero\",\"hero\":\"法老之鹰\"}]}",
       null
     ],
     [
@@ -923,21 +923,8 @@
       "Elimination",
       "哦！是地球来的彗星！",
       "Oh! A Terran comet!",
-      "{\"type\":\"nested\",\"total\":4,\"needed\":4,\"conditions\":[{\"type\":\"scripted\",\"script\":\"EnemyInAir(9268)\",\"scriptDesc\":\"敌人在空中\"},{\"type\":\"toHero\",\"hero\":\"破坏球\",\"negative\":true},{\"type\":\"toHero\",\"hero\":\"朱诺\",\"negative\":true},{\"type\":\"toHero\",\"hero\":\"温斯顿\",\"negative\":true}]}",
+      "{\"type\":\"nested\",\"total\":4,\"needed\":4,\"conditions\":[{\"type\":\"scripted\",\"script\":\"009268\",\"scriptDesc\":\"敌人在空中\"},{\"type\":\"toHero\",\"hero\":\"破坏球\",\"negative\":true},{\"type\":\"toHero\",\"hero\":\"朱诺\",\"negative\":true},{\"type\":\"toHero\",\"hero\":\"温斯顿\",\"negative\":true}]}",
       0.1
-    ],
-    [
-      "HeroQuote",
-      "00000006871A.0B2",
-      427802,
-      "juno",
-      "朱诺",
-      null,
-      "Elimination",
-      "要硬着陆喽！",
-      "Brace for impact!",
-      "{\"type\":\"scripted\",\"script\":\"EnemyInAir(9268)\",\"scriptDesc\":\"敌人在空中\"}",
-      null
     ],
     [
       "HeroQuote",
@@ -949,7 +936,7 @@
       "Elimination",
       "（惊）是我干的吗？",
       "(gasp) Did I do that?",
-      "{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\"}",
+      "{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\"}",
       null
     ],
     [
@@ -962,20 +949,20 @@
       "Elimination",
       "噢（紧张地笑）但愿不会留疤。",
       "(nervous laugh) I hope that does not scar.",
-      "{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\"}",
+      "{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\"}",
       null
     ],
     [
       "HeroQuote",
-      "000000068A58.0B2",
-      428632,
+      "00000006871A.0B2",
+      427802,
       "juno",
       "朱诺",
       null,
       "Elimination",
-      "不好意思！你挡我的航线了。",
-      "Apologies! You were in my flightpath.",
-      "{\"type\":\"scripted\",\"script\":\"InAir(A776)\",\"scriptDesc\":\"在空中时\"}",
+      "要硬着陆喽！",
+      "Brace for impact!",
+      "{\"type\":\"scripted\",\"script\":\"009268\",\"scriptDesc\":\"敌人在空中\"}",
       null
     ],
     [
@@ -988,7 +975,20 @@
       "Elimination",
       "机动操作也躲不过这招！",
       "No maneuvering out of this!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownA6FE\",\"scriptDesc\":\"敌人高速移动\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A6FE\",\"scriptDesc\":\"敌人高速移动\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000068A58.0B2",
+      428632,
+      "juno",
+      "朱诺",
+      null,
+      "Elimination",
+      "不好意思！你挡我的航线了。",
+      "Apologies! You were in my flightpath.",
+      "{\"type\":\"scripted\",\"script\":\"00A776\",\"scriptDesc\":\"在空中时\"}",
       null
     ],
     [
@@ -1001,7 +1001,7 @@
       "Elimination",
       "比你块头还大的小行星我照样摧毁过！",
       "I have destroyed asteroids larger than you!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownE337\",\"scriptDesc\":\"未知\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E337\",\"scriptDesc\":\"未知\"}",
       0.1
     ],
     [
@@ -1339,7 +1339,7 @@
       "Health/LowHealthBreathStart",
       "（倒吸气）",
       "(gasps)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -2639,7 +2639,7 @@
       "Multikill",
       "喔！就像下流星雨一样！",
       "Oh! Like a meteor shower!",
-      "{\"type\":\"scripted\",\"script\":\"EnemyInAir(9268)\",\"scriptDesc\":\"敌人在空中\"}",
+      "{\"type\":\"scripted\",\"script\":\"009268\",\"scriptDesc\":\"敌人在空中\"}",
       null
     ],
     [
@@ -4633,162 +4633,6 @@
     ],
     [
       "HeroQuote",
-      "000000068AE2.0B2",
-      428770,
-      "juno",
-      "朱诺",
-      null,
-      "PVE/Unknown",
-      "敌人在攻击渡轮！",
-      "They are attacking the Ferry!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7329\",\"scriptDesc\":\"渡轮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000068AE6.0B2",
-      428774,
-      "juno",
-      "朱诺",
-      null,
-      "PVE/Unknown",
-      "渡轮正受到破坏！",
-      "The Ferry is sustaining damage!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7329\",\"scriptDesc\":\"渡轮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000068AF0.0B2",
-      428784,
-      "juno",
-      "朱诺",
-      null,
-      "PVE/Unknown",
-      "渡轮就要撑不下去了！",
-      "The Ferry will not last much longer!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7329\",\"scriptDesc\":\"渡轮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000068AF8.0B2",
-      428792,
-      "juno",
-      "朱诺",
-      null,
-      "PVE/Unknown",
-      "渡轮情况危急！",
-      "The Ferry is in critical condition!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7329\",\"scriptDesc\":\"渡轮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000068AE0.0B2",
-      428768,
-      "juno",
-      "朱诺",
-      null,
-      "PVE/Unknown",
-      "保护传输塔！",
-      "Protect the Uplink!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000068AE3.0B2",
-      428771,
-      "juno",
-      "朱诺",
-      null,
-      "PVE/Unknown",
-      "传输塔遭到了攻击！",
-      "The Uplink is under attack!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000068AEE.0B2",
-      428782,
-      "juno",
-      "朱诺",
-      null,
-      "PVE/Unknown",
-      "传输塔就要撑不住了！",
-      "The Uplink will not last much longer!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000068AF4.0B2",
-      428788,
-      "juno",
-      "朱诺",
-      null,
-      "PVE/Unknown",
-      "传输塔要撑不住了！",
-      "The Uplink is failing!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000068AE1.0B2",
-      428769,
-      "juno",
-      "朱诺",
-      null,
-      "PVE/Unknown",
-      "巨炮遭到了袭击！",
-      "The Cannon is under attack!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown81B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000068AE8.0B2",
-      428776,
-      "juno",
-      "朱诺",
-      null,
-      "PVE/Unknown",
-      "巨炮受到攻击！",
-      "The Cannon is taking damage!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown81B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000068AEB.0B2",
-      428779,
-      "juno",
-      "朱诺",
-      null,
-      "PVE/Unknown",
-      "巨炮快要被摧毁了！",
-      "The Cannon is almost destroyed!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown81B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000068AF7.0B2",
-      428791,
-      "juno",
-      "朱诺",
-      null,
-      "PVE/Unknown",
-      "巨炮严重受损！",
-      "The Cannon is severely damaged!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown81B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
       "000000068ADF.0B2",
       428767,
       "juno",
@@ -4797,7 +4641,7 @@
       "PVE/Unknown",
       "注意保护运载目标！",
       "Protect the Payload!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown88E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
       null
     ],
     [
@@ -4810,7 +4654,7 @@
       "PVE/Unknown",
       "运载目标受到了严重破坏！",
       "The Payload is sustaining critical damage!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown88E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
       null
     ],
     [
@@ -4823,7 +4667,7 @@
       "PVE/Unknown",
       "运载目标遭到了破坏！",
       "The Payload is being damaged!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown88E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
       null
     ],
     [
@@ -4836,7 +4680,163 @@
       "PVE/Unknown",
       "不能让他们摧毁运载目标！",
       "Do not let them destroy the Payload!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown88E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000068AE2.0B2",
+      428770,
+      "juno",
+      "朱诺",
+      null,
+      "PVE/Unknown",
+      "敌人在攻击渡轮！",
+      "They are attacking the Ferry!",
+      "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000068AE6.0B2",
+      428774,
+      "juno",
+      "朱诺",
+      null,
+      "PVE/Unknown",
+      "渡轮正受到破坏！",
+      "The Ferry is sustaining damage!",
+      "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000068AF0.0B2",
+      428784,
+      "juno",
+      "朱诺",
+      null,
+      "PVE/Unknown",
+      "渡轮就要撑不下去了！",
+      "The Ferry will not last much longer!",
+      "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000068AF8.0B2",
+      428792,
+      "juno",
+      "朱诺",
+      null,
+      "PVE/Unknown",
+      "渡轮情况危急！",
+      "The Ferry is in critical condition!",
+      "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000068AE0.0B2",
+      428768,
+      "juno",
+      "朱诺",
+      null,
+      "PVE/Unknown",
+      "保护传输塔！",
+      "Protect the Uplink!",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000068AE3.0B2",
+      428771,
+      "juno",
+      "朱诺",
+      null,
+      "PVE/Unknown",
+      "传输塔遭到了攻击！",
+      "The Uplink is under attack!",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000068AEE.0B2",
+      428782,
+      "juno",
+      "朱诺",
+      null,
+      "PVE/Unknown",
+      "传输塔就要撑不住了！",
+      "The Uplink will not last much longer!",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000068AF4.0B2",
+      428788,
+      "juno",
+      "朱诺",
+      null,
+      "PVE/Unknown",
+      "传输塔要撑不住了！",
+      "The Uplink is failing!",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000068AE1.0B2",
+      428769,
+      "juno",
+      "朱诺",
+      null,
+      "PVE/Unknown",
+      "巨炮遭到了袭击！",
+      "The Cannon is under attack!",
+      "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000068AE8.0B2",
+      428776,
+      "juno",
+      "朱诺",
+      null,
+      "PVE/Unknown",
+      "巨炮受到攻击！",
+      "The Cannon is taking damage!",
+      "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000068AEB.0B2",
+      428779,
+      "juno",
+      "朱诺",
+      null,
+      "PVE/Unknown",
+      "巨炮快要被摧毁了！",
+      "The Cannon is almost destroyed!",
+      "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000068AF7.0B2",
+      428791,
+      "juno",
+      "朱诺",
+      null,
+      "PVE/Unknown",
+      "巨炮严重受损！",
+      "The Cannon is severely damaged!",
+      "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
       null
     ],
     [
@@ -4849,7 +4849,7 @@
       "PVE/Unknown",
       "敌人正在攻击修理站！",
       "They are attacking the Repair Station!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown94DB\",\"scriptDesc\":\"修理站受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"0094DB\",\"scriptDesc\":\"修理站受到攻击\"}",
       null
     ],
     [
@@ -4862,7 +4862,7 @@
       "PVE/Unknown",
       "修理站受到了攻击！",
       "The Repair Station is taking damage!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown94DB\",\"scriptDesc\":\"修理站受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"0094DB\",\"scriptDesc\":\"修理站受到攻击\"}",
       null
     ],
     [
@@ -4875,7 +4875,7 @@
       "PVE/Unknown",
       "修理站快要被摧毁了！",
       "The Repair Station is almost destroyed!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown94DB\",\"scriptDesc\":\"修理站受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"0094DB\",\"scriptDesc\":\"修理站受到攻击\"}",
       null
     ],
     [
@@ -4888,7 +4888,7 @@
       "PVE/Unknown",
       "修理站损毁严重！",
       "The Repair Station is taking critical damage!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown94DB\",\"scriptDesc\":\"修理站受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"0094DB\",\"scriptDesc\":\"修理站受到攻击\"}",
       null
     ],
     [
@@ -5174,7 +5174,7 @@
       "Respawn",
       "我就说必须要远离黑洞吧。",
       "That is why I stay away from black holes.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownE340\",\"scriptDesc\":\"被重力喷涌消灭\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E340\",\"scriptDesc\":\"被重力喷涌消灭\"}",
       null
     ],
     [
@@ -5330,7 +5330,7 @@
       "Scream",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -5343,7 +5343,7 @@
       "Scream",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -5356,7 +5356,7 @@
       "Scream",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -6071,7 +6071,7 @@
       "Ultimate",
       "外星人入侵喽！",
       "Alien invasion!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -6084,7 +6084,7 @@
       "Ultimate",
       "我来绑架你们了！",
       "I am here to abduct you!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -6097,7 +6097,7 @@
       "Ultimate",
       "地球好危险，我想回火星！",
       "They cannot stop all of us!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -6110,7 +6110,7 @@
       "Ultimate",
       "我火星了？我本来就是火星人！",
       "Martian? Always have been!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -6123,7 +6123,7 @@
       "Ultimate",
       "我火星了？我本来就是火星人！",
       "Martian? Always have been!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -6136,7 +6136,7 @@
       "Ultimate",
       "地球好危险，我想回火星！",
       "They cannot stop all of us!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -6760,7 +6760,7 @@
       "Unknown/16AF.078",
       "你还好吗？",
       "Are you alright?",
-      "{\"type\":\"scripted\",\"script\":\"HealedAlly(AABA)\",\"scriptDesc\":\"治疗重伤盟友\"}",
+      "{\"type\":\"scripted\",\"script\":\"00AABA\",\"scriptDesc\":\"治疗重伤盟友\"}",
       null
     ],
     [
@@ -6773,7 +6773,7 @@
       "Unknown/16AF.078",
       "执行紧急救治！",
       "Emergency treatment incoming!",
-      "{\"type\":\"scripted\",\"script\":\"HealedAlly(AABA)\",\"scriptDesc\":\"治疗重伤盟友\"}",
+      "{\"type\":\"scripted\",\"script\":\"00AABA\",\"scriptDesc\":\"治疗重伤盟友\"}",
       null
     ],
     [
@@ -6786,7 +6786,7 @@
       "Unknown/16AF.078",
       "在全力救治你，撑住！",
       "Targeting you, hold on!",
-      "{\"type\":\"scripted\",\"script\":\"HealedAlly(AABA)\",\"scriptDesc\":\"治疗重伤盟友\"}",
+      "{\"type\":\"scripted\",\"script\":\"00AABA\",\"scriptDesc\":\"治疗重伤盟友\"}",
       null
     ],
     [

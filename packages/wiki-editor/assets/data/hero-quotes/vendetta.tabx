@@ -572,7 +572,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -585,7 +585,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -598,7 +598,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -611,7 +611,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -624,7 +624,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -637,7 +637,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -650,7 +650,7 @@
       "DeathCharged",
       "（遭受重压的声音）",
       "(crushed sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -663,7 +663,7 @@
       "DeathCharged",
       "（遭受重压的声音）",
       "(crushed sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -676,7 +676,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -689,7 +689,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -702,7 +702,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -715,7 +715,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -1014,7 +1014,7 @@
       "Elimination",
       "谁敢在我之上！",
       "I am above all!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"EnemyInAir(9268)\",\"scriptDesc\":\"敌人在空中\"},{\"type\":\"scripted\",\"script\":\"InAir(A776)\",\"scriptDesc\":\"在空中时\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"009268\",\"scriptDesc\":\"敌人在空中\"},{\"type\":\"scripted\",\"script\":\"00A776\",\"scriptDesc\":\"在空中时\"}]}",
       null
     ],
     [
@@ -1027,7 +1027,7 @@
       "Elimination",
       "你逃不脱注定的结局！",
       "You cannot escape consequence!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"EnemyInAir(9268)\",\"scriptDesc\":\"敌人在空中\"},{\"type\":\"toHero\",\"hero\":\"死神\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"009268\",\"scriptDesc\":\"敌人在空中\"},{\"type\":\"toHero\",\"hero\":\"死神\"}]}",
       null
     ],
     [
@@ -1040,7 +1040,7 @@
       "Elimination",
       "我的速度在你之上。",
       "I outpace you.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"UnknownA6FE\",\"scriptDesc\":\"敌人高速移动\"},{\"type\":\"scripted\",\"script\":\"FastMoving(A6FC)\",\"scriptDesc\":\"高速移动时\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A6FE\",\"scriptDesc\":\"敌人高速移动\"},{\"type\":\"scripted\",\"script\":\"00A6FC\",\"scriptDesc\":\"高速移动时\"}]}",
       null
     ],
     [
@@ -1053,7 +1053,7 @@
       "Elimination",
       "而我会摧垮你的意志！",
       "There is no will I cannot break!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"莫伊拉\"},{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"莫伊拉\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
       null
     ],
     [
@@ -1066,7 +1066,7 @@
       "Elimination",
       "你不配用剑。",
       "You're no swordsman.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"源氏\"},{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"源氏\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
       null
     ],
     [
@@ -1079,7 +1079,7 @@
       "Elimination",
       "那把拆信刀可以扔了，菜鸟。",
       "Drop the letter opener, amateur.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"源氏\"},{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"源氏\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
       null
     ],
     [
@@ -1092,7 +1092,7 @@
       "Elimination",
       "对付巨人，我一个人就行！",
       "I stand alone against giants!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"heroTag\":\"重装\"},{\"type\":\"scripted\",\"script\":\"UnknownB0FE\",\"scriptDesc\":\"唯一存活\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"heroTag\":\"重装\"},{\"type\":\"scripted\",\"script\":\"00B0FE\",\"scriptDesc\":\"唯一存活\"}]}",
       null
     ],
     [
@@ -1131,7 +1131,7 @@
       "Elimination",
       "有本事跟我正面较量啊，懦夫。",
       "Come close and face me, coward.",
-      "{\"type\":\"nested\",\"total\":5,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"半藏\"},{\"type\":\"toHero\",\"hero\":\"安娜\"},{\"type\":\"scripted\",\"script\":\"LongDistance(A809)\",\"scriptDesc\":\"远距离\"},{\"type\":\"toHero\",\"hero\":\"弗蕾娅\"},{\"type\":\"toHero\",\"hero\":\"黑百合\"}]}",
+      "{\"type\":\"nested\",\"total\":5,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"半藏\"},{\"type\":\"toHero\",\"hero\":\"安娜\"},{\"type\":\"scripted\",\"script\":\"00A809\",\"scriptDesc\":\"远距离\"},{\"type\":\"toHero\",\"hero\":\"弗蕾娅\"},{\"type\":\"toHero\",\"hero\":\"黑百合\"}]}",
       null
     ],
     [
@@ -1144,7 +1144,7 @@
       "Elimination",
       "你还是在地上更顺眼。",
       "You look better on the ground.",
-      "{\"type\":\"scripted\",\"script\":\"EnemyInAir(9268)\",\"scriptDesc\":\"敌人在空中\"}",
+      "{\"type\":\"scripted\",\"script\":\"009268\",\"scriptDesc\":\"敌人在空中\"}",
       null
     ],
     [
@@ -1157,33 +1157,7 @@
       "Elimination",
       "你只配待在下面。",
       "Down where you belong.",
-      "{\"type\":\"scripted\",\"script\":\"EnemyInAir(9268)\",\"scriptDesc\":\"敌人在空中\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000069FC5.0B2",
-      434117,
-      "vendetta",
-      "斩仇",
-      null,
-      "Elimination",
-      "可悲的胆小鬼。",
-      "How craven of you.",
-      "{\"type\":\"scripted\",\"script\":\"Shutdown_SombraStealth(A788)\",\"scriptDesc\":\"敌方黑影潜行\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000006A457.0B2",
-      435287,
-      "vendetta",
-      "斩仇",
-      null,
-      "Elimination",
-      "败者融化！",
-      "Thaw in defeat!",
-      "{\"type\":\"scripted\",\"script\":\"UltAssist_Blizzard(AA26)\",\"scriptDesc\":\"敌人被暴雪控制\"}",
+      "{\"type\":\"scripted\",\"script\":\"009268\",\"scriptDesc\":\"敌人在空中\"}",
       null
     ],
     [
@@ -1196,7 +1170,33 @@
       "Elimination",
       "节目效果不错。",
       "You put on a good show.",
-      "{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000069FC5.0B2",
+      434117,
+      "vendetta",
+      "斩仇",
+      null,
+      "Elimination",
+      "可悲的胆小鬼。",
+      "How craven of you.",
+      "{\"type\":\"scripted\",\"script\":\"00A788\",\"scriptDesc\":\"敌方黑影潜行\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006A457.0B2",
+      435287,
+      "vendetta",
+      "斩仇",
+      null,
+      "Elimination",
+      "败者融化！",
+      "Thaw in defeat!",
+      "{\"type\":\"scripted\",\"script\":\"00AA26\",\"scriptDesc\":\"敌人被暴雪控制\"}",
       null
     ],
     [
@@ -1209,7 +1209,7 @@
       "Elimination",
       "这个伤，你也治不好。",
       "A wound even you cannot mend.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownE339\",\"scriptDesc\":\"未知\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E339\",\"scriptDesc\":\"未知\"}",
       null
     ],
     [
@@ -1547,7 +1547,7 @@
       "Health/LowHealthBreathStart",
       "（倒吸气）",
       "(gasps)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -4667,7 +4667,7 @@
       "Scream",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -4680,7 +4680,7 @@
       "Scream",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -4693,7 +4693,7 @@
       "Scream",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -5434,7 +5434,7 @@
       "Ultimate",
       "嗷呜！",
       "Awoooo!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -5447,7 +5447,7 @@
       "Ultimate",
       "杀！",
       "Slay!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -5460,7 +5460,7 @@
       "Ultimate",
       "嗷呜！",
       "Awoooo!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -6253,7 +6253,7 @@
       "Unknown/18DC.078",
       "休想逃出我的掌心。",
       "Nothing is beyond my reach.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownA8A8\",\"scriptDesc\":\"远距离\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A8A8\",\"scriptDesc\":\"远距离\"}",
       null
     ],
     [
@@ -6266,7 +6266,7 @@
       "Unknown/18DC.078",
       "这惩罚你插翅难逃。",
       "Punishment knows no bounds.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownA8A8\",\"scriptDesc\":\"远距离\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A8A8\",\"scriptDesc\":\"远距离\"}",
       null
     ],
     [
@@ -6773,7 +6773,7 @@
       "Unknown/EC6.078",
       "在我的剑下，你插翅难飞。",
       "Wings won't save you from my blade.",
-      "{\"type\":\"scripted\",\"script\":\"EnemyInAir(9268)\",\"scriptDesc\":\"敌人在空中\"}",
+      "{\"type\":\"scripted\",\"script\":\"009268\",\"scriptDesc\":\"敌人在空中\"}",
       null
     ],
     [

@@ -533,7 +533,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -546,7 +546,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -559,7 +559,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -572,7 +572,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -585,7 +585,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -598,7 +598,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -611,7 +611,7 @@
       "DeathCharged",
       "（遭受重压的声音）",
       "(crushed sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -624,7 +624,7 @@
       "DeathCharged",
       "（遭受重压的声音）",
       "(crushed sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -637,7 +637,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -650,7 +650,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -663,7 +663,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -676,7 +676,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -871,7 +871,7 @@
       "Elimination",
       "不要对我妄加审判。",
       "Don't presume to judge me.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"奥丽莎\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"奥丽莎\"}]}",
       0.5
     ],
     [
@@ -884,7 +884,7 @@
       "Elimination",
       "你的渐强演奏太可悲了。",
       "A rather pathetic crescendo.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"卢西奥\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"卢西奥\"}]}",
       null
     ],
     [
@@ -897,7 +897,7 @@
       "Elimination",
       "身为忍者，就该避人耳目。",
       "Ninjas should be neither seen nor heard.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"源氏\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"源氏\"}]}",
       0.5
     ],
     [
@@ -910,7 +910,7 @@
       "Elimination",
       "你不配跟我说正义，人类。",
       "Speak not of justice to me, human.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"法老之鹰\"},{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"法老之鹰\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
       null
     ],
     [
@@ -923,7 +923,7 @@
       "Elimination",
       "你和你的目镜都过时了。",
       "You and your visor are obsolete.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"士兵：76\"},{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"士兵：76\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
       null
     ],
     [
@@ -936,7 +936,7 @@
       "Elimination",
       "你的翅膀被人折断了吗？",
       "Did someone clip your wings?",
-      "{\"type\":\"scripted\",\"script\":\"EnemyInAir(9268)\",\"scriptDesc\":\"敌人在空中\"}",
+      "{\"type\":\"scripted\",\"script\":\"009268\",\"scriptDesc\":\"敌人在空中\"}",
       null
     ],
     [
@@ -949,34 +949,8 @@
       "Elimination",
       "你就此陨落。",
       "And so you fall.",
-      "{\"type\":\"scripted\",\"script\":\"EnemyInAir(9268)\",\"scriptDesc\":\"敌人在空中\"}",
+      "{\"type\":\"scripted\",\"script\":\"009268\",\"scriptDesc\":\"敌人在空中\"}",
       0.6
-    ],
-    [
-      "HeroQuote",
-      "0000000655A8.0B2",
-      415144,
-      "ramattra",
-      "拉玛刹",
-      null,
-      "Elimination",
-      "逼我是个错误的决定。",
-      "You shouldn't have pressed me.",
-      "{\"type\":\"scripted\",\"script\":\"LowHealth(A81C)\",\"scriptDesc\":\"低生命值时\"}",
-      0.25
-    ],
-    [
-      "HeroQuote",
-      "0000000655A5.0B2",
-      415141,
-      "ramattra",
-      "拉玛刹",
-      null,
-      "Elimination",
-      "不该离我这么近的。",
-      "Should have kept your distance.",
-      "{\"type\":\"scripted\",\"script\":\"ShortDistance(AD8E)\",\"scriptDesc\":\"近距离\"}",
-      0.25
     ],
     [
       "HeroQuote",
@@ -988,20 +962,7 @@
       "Elimination",
       "就是这样，闷头冲吧。",
       "By all means, keep charging in.",
-      "{\"type\":\"scripted\",\"script\":\"Shutdown_ReinhardtCharge(92A4)\",\"scriptDesc\":\"敌方莱因哈特冲锋\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005D6DF.0B2",
-      382687,
-      "ramattra",
-      "拉玛刹",
-      null,
-      "Elimination",
-      "这次就别再起来了。",
-      "Stay down this time.",
-      "{\"type\":\"scripted\",\"script\":\"Shutdown_Resurrected(AF43)\",\"scriptDesc\":\"敌人被复活后\"}",
+      "{\"type\":\"scripted\",\"script\":\"0092A4\",\"scriptDesc\":\"敌方莱因哈特冲锋\"}",
       null
     ],
     [
@@ -1014,7 +975,7 @@
       "Elimination",
       "的确壮观，但又有何意义？",
       "Such spectacle, and for what?",
-      "{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}",
       null
     ],
     [
@@ -1027,7 +988,7 @@
       "Elimination",
       "仅此而已？",
       "Was that all?",
-      "{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}",
       0.2
     ],
     [
@@ -1040,7 +1001,7 @@
       "Elimination",
       "起跳前要先观察。",
       "Try looking before you leap.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownA6FE\",\"scriptDesc\":\"敌人高速移动\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A6FE\",\"scriptDesc\":\"敌人高速移动\"}",
       null
     ],
     [
@@ -1053,7 +1014,46 @@
       "Elimination",
       "动得太快，想得太少。",
       "So fast, so careless.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownA6FE\",\"scriptDesc\":\"敌人高速移动\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A6FE\",\"scriptDesc\":\"敌人高速移动\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "0000000655A8.0B2",
+      415144,
+      "ramattra",
+      "拉玛刹",
+      null,
+      "Elimination",
+      "逼我是个错误的决定。",
+      "You shouldn't have pressed me.",
+      "{\"type\":\"scripted\",\"script\":\"00A81C\",\"scriptDesc\":\"低生命值时\"}",
+      0.25
+    ],
+    [
+      "HeroQuote",
+      "0000000655A5.0B2",
+      415141,
+      "ramattra",
+      "拉玛刹",
+      null,
+      "Elimination",
+      "不该离我这么近的。",
+      "Should have kept your distance.",
+      "{\"type\":\"scripted\",\"script\":\"00AD8E\",\"scriptDesc\":\"近距离\"}",
+      0.25
+    ],
+    [
+      "HeroQuote",
+      "00000005D6DF.0B2",
+      382687,
+      "ramattra",
+      "拉玛刹",
+      null,
+      "Elimination",
+      "这次就别再起来了。",
+      "Stay down this time.",
+      "{\"type\":\"scripted\",\"script\":\"00AF43\",\"scriptDesc\":\"敌人被复活后\"}",
       null
     ],
     [
@@ -1625,7 +1625,7 @@
       "Health/LowHealthBreathStart",
       "（倒吸气）",
       "(gasps)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -1937,7 +1937,7 @@
       "KillStreak",
       "势不可挡的力量！",
       "Such overwhelming power!",
-      "{\"type\":\"scripted\",\"script\":\"UltAssist_Nano(A5FD)\",\"scriptDesc\":\"被纳米激素强化时\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A5FD\",\"scriptDesc\":\"被纳米激素强化时\"}",
       null
     ],
     [
@@ -3003,7 +3003,7 @@
       "MatchTalk",
       "你知不知道我其实也是马匹之神？",
       "Did you know I am also the god of horses?",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"UnknownB41D\",\"scriptDesc\":\"未知\"},{\"type\":\"scripted\",\"script\":\"UnknownB844\",\"scriptDesc\":\"未知\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00B41D\",\"scriptDesc\":\"未知\"},{\"type\":\"scripted\",\"script\":\"00B844\",\"scriptDesc\":\"未知\"}]}",
       0.2
     ],
     [
@@ -3016,7 +3016,7 @@
       "MatchTalk",
       "知道就好，我就是确认一下。",
       "Good, good. Just wanted to make sure.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownB41D\",\"scriptDesc\":\"未知\"}",
+      "{\"type\":\"scripted\",\"script\":\"00B41D\",\"scriptDesc\":\"未知\"}",
       null
     ],
     [
@@ -3081,7 +3081,7 @@
       "MeleeEnemyKilledRemark",
       "这一下，是我回来的证明。",
       "Clawed my way back.",
-      "{\"type\":\"scripted\",\"script\":\"AfterRes(AF41)\",\"scriptDesc\":\"被复活后\"}",
+      "{\"type\":\"scripted\",\"script\":\"00AF41\",\"scriptDesc\":\"被复活后\"}",
       null
     ],
     [
@@ -3133,7 +3133,7 @@
       "Multikill",
       "历尽艰险，我是最后的胜者！",
       "Against all odds, I will prevail!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownB0FE\",\"scriptDesc\":\"唯一存活\"}",
+      "{\"type\":\"scripted\",\"script\":\"00B0FE\",\"scriptDesc\":\"唯一存活\"}",
       null
     ],
     [
@@ -5062,214 +5062,6 @@
     ],
     [
       "HeroQuote",
-      "00000005DAA4.0B2",
-      383652,
-      "ramattra",
-      "拉玛刹",
-      null,
-      "PVE/Unknown",
-      "这艘渡轮竟然没有配备防御武器吗？",
-      "Why doesn't this Ferry have weapons of its own?",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7329\",\"scriptDesc\":\"渡轮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005DAA5.0B2",
-      383653,
-      "ramattra",
-      "拉玛刹",
-      null,
-      "PVE/Unknown",
-      "我们的任务不是保护这艘渡轮吗？",
-      "I thought we were meant to be protecting this Ferry.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7329\",\"scriptDesc\":\"渡轮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005DAA6.0B2",
-      383654,
-      "ramattra",
-      "拉玛刹",
-      null,
-      "PVE/Unknown",
-      "渡轮被袭击了，难道你们都无动于衷吗？",
-      "The Ferry is under fire. Does this not... concern anyone?",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7329\",\"scriptDesc\":\"渡轮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005DAB4.0B2",
-      383668,
-      "ramattra",
-      "拉玛刹",
-      null,
-      "PVE/Unknown",
-      "渡轮即将损毁！",
-      "The Ferry is buckling!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7329\",\"scriptDesc\":\"渡轮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005DAB5.0B2",
-      383669,
-      "ramattra",
-      "拉玛刹",
-      null,
-      "PVE/Unknown",
-      "它们在破坏渡轮！",
-      "They are breaching the Ferry!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7329\",\"scriptDesc\":\"渡轮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005DAAA.0B2",
-      383658,
-      "ramattra",
-      "拉玛刹",
-      null,
-      "PVE/Unknown",
-      "传输塔被袭击了，拿出点本事来。",
-      "The Uplink is taking damage. Do better.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005DAAB.0B2",
-      383659,
-      "ramattra",
-      "拉玛刹",
-      null,
-      "PVE/Unknown",
-      "来传输塔这里集合！",
-      "Rally to the Uplink!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005DAAC.0B2",
-      383660,
-      "ramattra",
-      "拉玛刹",
-      null,
-      "PVE/Unknown",
-      "死守传输塔！",
-      "Fight at the Uplink!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005DAB8.0B2",
-      383672,
-      "ramattra",
-      "拉玛刹",
-      null,
-      "PVE/Unknown",
-      "传输塔就快被摧毁了！",
-      "The Uplink is almost destroyed!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005DAB9.0B2",
-      383673,
-      "ramattra",
-      "拉玛刹",
-      null,
-      "PVE/Unknown",
-      "传输塔即将崩塌！",
-      "The Uplink is falling apart!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005DAA0.0B2",
-      383648,
-      "ramattra",
-      "拉玛刹",
-      null,
-      "PVE/Unknown",
-      "既然必须要我保护这台可笑的巨炮，最好能有几个帮手。",
-      "If I must protect this ludicrous Cannon, I'd rather not do it alone.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown81B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005DAA1.0B2",
-      383649,
-      "ramattra",
-      "拉玛刹",
-      null,
-      "PVE/Unknown",
-      "这台巨炮是设计师闭着眼睛造出来的吗？",
-      "Who designed this Cannon? Were they blindfolded at the time?",
-      "{\"type\":\"scripted\",\"script\":\"Unknown81B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005DAA2.0B2",
-      383650,
-      "ramattra",
-      "拉玛刹",
-      null,
-      "PVE/Unknown",
-      "必须保护巨炮。这样下去它撑不了多久。",
-      "The Cannon must be protected. It's hardly holding together as-is.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown81B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005DAB2.0B2",
-      383666,
-      "ramattra",
-      "拉玛刹",
-      null,
-      "PVE/Unknown",
-      "巨炮要被瓦解了！",
-      "The Cannon is failing!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown81B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005DAB3.0B2",
-      383667,
-      "ramattra",
-      "拉玛刹",
-      null,
-      "PVE/Unknown",
-      "巨炮即将被彻底毁灭！",
-      "The Cannon is almost destroyed!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown81B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005EC21.0B2",
-      388129,
-      "ramattra",
-      "拉玛刹",
-      null,
-      "PVE/Unknown",
-      "这样的巨炮果然出自人类之手。",
-      "A human certainly designed this cannon.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown81B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
       "00000005DAA7.0B2",
       383655,
       "ramattra",
@@ -5278,7 +5070,7 @@
       "PVE/Unknown",
       "运载目标遭受了攻击！",
       "The Payload is under fire!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown88E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
       null
     ],
     [
@@ -5291,7 +5083,7 @@
       "PVE/Unknown",
       "运载目标遭到了攻击！",
       "The Payload is taking damage!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown88E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
       null
     ],
     [
@@ -5304,7 +5096,7 @@
       "PVE/Unknown",
       "保护好运载目标，我就会保护你们。",
       "Protect the Payload and I will protect you.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown88E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
       null
     ],
     [
@@ -5317,7 +5109,7 @@
       "PVE/Unknown",
       "运载目标不能再承受火力了！",
       "The Payload can't take much more!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown88E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
       null
     ],
     [
@@ -5330,7 +5122,215 @@
       "PVE/Unknown",
       "运载目标就快被摧毁了！",
       "The Payload will soon be lost!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown88E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005DAA4.0B2",
+      383652,
+      "ramattra",
+      "拉玛刹",
+      null,
+      "PVE/Unknown",
+      "这艘渡轮竟然没有配备防御武器吗？",
+      "Why doesn't this Ferry have weapons of its own?",
+      "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005DAA5.0B2",
+      383653,
+      "ramattra",
+      "拉玛刹",
+      null,
+      "PVE/Unknown",
+      "我们的任务不是保护这艘渡轮吗？",
+      "I thought we were meant to be protecting this Ferry.",
+      "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005DAA6.0B2",
+      383654,
+      "ramattra",
+      "拉玛刹",
+      null,
+      "PVE/Unknown",
+      "渡轮被袭击了，难道你们都无动于衷吗？",
+      "The Ferry is under fire. Does this not... concern anyone?",
+      "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005DAB4.0B2",
+      383668,
+      "ramattra",
+      "拉玛刹",
+      null,
+      "PVE/Unknown",
+      "渡轮即将损毁！",
+      "The Ferry is buckling!",
+      "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005DAB5.0B2",
+      383669,
+      "ramattra",
+      "拉玛刹",
+      null,
+      "PVE/Unknown",
+      "它们在破坏渡轮！",
+      "They are breaching the Ferry!",
+      "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005DAAA.0B2",
+      383658,
+      "ramattra",
+      "拉玛刹",
+      null,
+      "PVE/Unknown",
+      "传输塔被袭击了，拿出点本事来。",
+      "The Uplink is taking damage. Do better.",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005DAAB.0B2",
+      383659,
+      "ramattra",
+      "拉玛刹",
+      null,
+      "PVE/Unknown",
+      "来传输塔这里集合！",
+      "Rally to the Uplink!",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005DAAC.0B2",
+      383660,
+      "ramattra",
+      "拉玛刹",
+      null,
+      "PVE/Unknown",
+      "死守传输塔！",
+      "Fight at the Uplink!",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005DAB8.0B2",
+      383672,
+      "ramattra",
+      "拉玛刹",
+      null,
+      "PVE/Unknown",
+      "传输塔就快被摧毁了！",
+      "The Uplink is almost destroyed!",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005DAB9.0B2",
+      383673,
+      "ramattra",
+      "拉玛刹",
+      null,
+      "PVE/Unknown",
+      "传输塔即将崩塌！",
+      "The Uplink is falling apart!",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005DAA0.0B2",
+      383648,
+      "ramattra",
+      "拉玛刹",
+      null,
+      "PVE/Unknown",
+      "既然必须要我保护这台可笑的巨炮，最好能有几个帮手。",
+      "If I must protect this ludicrous Cannon, I'd rather not do it alone.",
+      "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005DAA1.0B2",
+      383649,
+      "ramattra",
+      "拉玛刹",
+      null,
+      "PVE/Unknown",
+      "这台巨炮是设计师闭着眼睛造出来的吗？",
+      "Who designed this Cannon? Were they blindfolded at the time?",
+      "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005DAA2.0B2",
+      383650,
+      "ramattra",
+      "拉玛刹",
+      null,
+      "PVE/Unknown",
+      "必须保护巨炮。这样下去它撑不了多久。",
+      "The Cannon must be protected. It's hardly holding together as-is.",
+      "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005DAB2.0B2",
+      383666,
+      "ramattra",
+      "拉玛刹",
+      null,
+      "PVE/Unknown",
+      "巨炮要被瓦解了！",
+      "The Cannon is failing!",
+      "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005DAB3.0B2",
+      383667,
+      "ramattra",
+      "拉玛刹",
+      null,
+      "PVE/Unknown",
+      "巨炮即将被彻底毁灭！",
+      "The Cannon is almost destroyed!",
+      "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005EC21.0B2",
+      388129,
+      "ramattra",
+      "拉玛刹",
+      null,
+      "PVE/Unknown",
+      "这样的巨炮果然出自人类之手。",
+      "A human certainly designed this cannon.",
+      "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
       null
     ],
     [
@@ -5343,7 +5343,7 @@
       "PVE/Unknown",
       "我们就要赢了！保护好机器人！",
       "We have almost won! Make your stand at the Robot's side!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownAAD3\",\"scriptDesc\":\"加时期间敌方控制机器人\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00AAD3\",\"scriptDesc\":\"加时期间敌方控制机器人\",\"negative\":true}",
       0.5
     ],
     [
@@ -5655,7 +5655,7 @@
       "Respawn",
       "挫折在所难免。",
       "A minor setback was inevitable.",
-      "{\"type\":\"scripted\",\"script\":\"RespawnAfterKillstreak(B404)\",\"scriptDesc\":\"连杀后复生\"}",
+      "{\"type\":\"scripted\",\"script\":\"00B404\",\"scriptDesc\":\"连杀后复生\"}",
       0.7
     ],
     [
@@ -5668,7 +5668,7 @@
       "Respawn",
       "他们付出了高昂的代价，不过是拖延了我。（冷笑）",
       "They paid a high price to delay me. (chuckle)",
-      "{\"type\":\"scripted\",\"script\":\"RespawnAfterKillstreak(B404)\",\"scriptDesc\":\"连杀后复生\"}",
+      "{\"type\":\"scripted\",\"script\":\"00B404\",\"scriptDesc\":\"连杀后复生\"}",
       0.7
     ],
     [
@@ -6227,7 +6227,7 @@
       "Scream",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -6240,7 +6240,7 @@
       "Scream",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -6253,7 +6253,7 @@
       "Scream",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -6942,7 +6942,7 @@
       "Ultimate",
       "紫色的拥抱谁想要？",
       "Who wants a purple hug?",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -6955,7 +6955,7 @@
       "Ultimate",
       "痛苦，是葡萄味的！",
       "Agony is grape-flavored!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -6968,7 +6968,7 @@
       "Ultimate",
       "痛苦，是葡萄味的！",
       "Agony is grape-flavored!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -6981,7 +6981,7 @@
       "Ultimate",
       "你将感受我拉玛刹感受过的痛苦！你将遭受的折磨比群星更长久！即使到了宇宙化为尘埃的那一天，你仍将饱尝痛苦……我的痛苦。",
       "You will suffer as I, Ramattra, have suffered! Your torment will outlast the stars! When the universe dwindles into dust, there you will be, still suffering as I have... suffered.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       0.25
     ],
     [
@@ -6994,7 +6994,7 @@
       "Ultimate",
       "你将感受我拉玛刹感受过的痛苦！你将遭受的折磨比群星更长久！即使到了宇宙化为尘埃的那一天，你仍将饱尝痛苦……我的痛苦。",
       "You will suffer as I, Ramattra, have suffered! Your torment will outlast the stars! When the universe dwindles into dust, there you will be, still suffering as I have... suffered.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       0.25
     ],
     [
@@ -9672,7 +9672,7 @@
       "Elimination",
       "激流再次吞没你。（笑）",
       "The riptide pulls you back. (laughs)",
-      "{\"type\":\"scripted\",\"script\":\"Shutdown_Resurrected(AF43)\",\"scriptDesc\":\"敌人被复活后\"}",
+      "{\"type\":\"scripted\",\"script\":\"00AF43\",\"scriptDesc\":\"敌人被复活后\"}",
       null
     ],
     [

@@ -637,7 +637,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -650,7 +650,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -663,7 +663,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -676,7 +676,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -689,7 +689,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -702,7 +702,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -715,7 +715,7 @@
       "DeathCharged",
       "（遭受重压的声音）",
       "(crushed sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -728,7 +728,7 @@
       "DeathCharged",
       "（遭受重压的声音）",
       "(crushed sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -741,7 +741,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -754,7 +754,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -767,7 +767,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -780,7 +780,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -1149,19 +1149,6 @@
     ],
     [
       "HeroQuote",
-      "0000000656C8.0B2",
-      415432,
-      "lucio",
-      "卢西奥",
-      null,
-      "Elimination",
-      "想当“超级卢西奥”，你还早得很。",
-      "Not this time, \"Boostio.\"",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"UltShutdown_NanoBoosted(A697)\",\"scriptDesc\":\"敌人被纳米激素强化\"},{\"type\":\"toHero\",\"hero\":\"卢西奥\"}]}",
-      null
-    ],
-    [
-      "HeroQuote",
       "0000000656BD.0B2",
       415421,
       "lucio",
@@ -1170,7 +1157,20 @@
       "Elimination",
       "听点舒缓的音乐冷静一下。",
       "Chill tunes to calm you down.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"温斯顿\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"温斯顿\"}]}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "0000000656C8.0B2",
+      415432,
+      "lucio",
+      "卢西奥",
+      null,
+      "Elimination",
+      "想当“超级卢西奥”，你还早得很。",
+      "Not this time, \"Boostio.\"",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A697\",\"scriptDesc\":\"敌人被纳米激素强化\"},{\"type\":\"toHero\",\"hero\":\"卢西奥\"}]}",
       null
     ],
     [
@@ -1183,7 +1183,7 @@
       "Elimination",
       "希望没打乱你的直播计划！",
       "I hope this doesn't mess with your stream schedule!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"D.Va\"},{\"type\":\"scripted\",\"script\":\"UnknownC003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"D.Va\"},{\"type\":\"scripted\",\"script\":\"00C003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}]}",
       null
     ],
     [
@@ -1222,21 +1222,8 @@
       "Elimination",
       "抢断成功！",
       "Rejected!",
-      "{\"type\":\"nested\",\"total\":4,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"死神\"},{\"type\":\"toHero\",\"hero\":\"源氏\"},{\"type\":\"toHero\",\"hero\":\"法老之鹰\"}]}",
+      "{\"type\":\"nested\",\"total\":4,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"死神\"},{\"type\":\"toHero\",\"hero\":\"源氏\"},{\"type\":\"toHero\",\"hero\":\"法老之鹰\"}]}",
       null
-    ],
-    [
-      "HeroQuote",
-      "0000000656BC.0B2",
-      415420,
-      "lucio",
-      "卢西奥",
-      null,
-      "Elimination",
-      "天籁之音！",
-      "Airborne arpeggio!",
-      "{\"type\":\"scripted\",\"script\":\"EnemyInAir(9268)\",\"scriptDesc\":\"敌人在空中\"}",
-      0.33
     ],
     [
       "HeroQuote",
@@ -1248,7 +1235,7 @@
       "Elimination",
       "断了你的节奏！",
       "Staccato!",
-      "{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\"}",
+      "{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\"}",
       0.33
     ],
     [
@@ -1261,228 +1248,33 @@
       "Elimination",
       "音符在你脸上拍！",
       "Face-melting tunes!",
-      "{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\"}",
+      "{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\"}",
       0.33
     ],
     [
       "HeroQuote",
-      "0000000656C7.0B2",
-      415431,
+      "0000000656BC.0B2",
+      415420,
       "lucio",
       "卢西奥",
       null,
       "Elimination",
-      "原来是我的音波，我都快忘了。",
-      "I almost forgot I fired those.",
-      "{\"type\":\"scripted\",\"script\":\"LongDistance(A809)\",\"scriptDesc\":\"远距离\"}",
-      null
+      "天籁之音！",
+      "Airborne arpeggio!",
+      "{\"type\":\"scripted\",\"script\":\"009268\",\"scriptDesc\":\"敌人在空中\"}",
+      0.33
     ],
     [
       "HeroQuote",
-      "00000000B4C7.0B2",
-      46279,
+      "000000064219.0B2",
+      410137,
       "lucio",
       "卢西奥",
       null,
       "Elimination",
-      "正中目标。",
-      "Right on target.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000B4C8.0B2",
-      46280,
-      "lucio",
-      "卢西奥",
-      null,
-      "Elimination",
-      "搞定！",
-      "Nailed it.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000B4CA.0B2",
-      46282,
-      "lucio",
-      "卢西奥",
-      null,
-      "Elimination",
-      "抱歉，得给你个教训。",
-      "Sorry, had to give you the hook.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000B4CB.0B2",
-      46283,
-      "lucio",
-      "卢西奥",
-      null,
-      "Elimination",
-      "刚才是你的低音。",
-      "That was the drop.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000B4CC.0B2",
-      46284,
-      "lucio",
-      "卢西奥",
-      null,
-      "Elimination",
-      "这玩意儿开了吗？",
-      "Is this thing on?",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000B4CE.0B2",
-      46286,
-      "lucio",
-      "卢西奥",
-      null,
-      "Elimination",
-      "(hums) 我感觉到很棒的共鸣。",
-      "(hums) I'm feeling some good vibrations.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000B4D0.0B2",
-      46288,
-      "lucio",
-      "卢西奥",
-      null,
-      "Elimination",
-      "我闭着眼都行！",
-      "I could do this with my eyes closed!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000B4D2.0B2",
-      46290,
-      "lucio",
-      "卢西奥",
-      null,
-      "Elimination",
-      "音乐响起就不会疼了！",
-      "When the music hits, you feel no pain!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000B4D3.0B2",
-      46291,
-      "lucio",
-      "卢西奥",
-      null,
-      "Elimination",
-      "那才像样！",
-      "That's more like it!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000B4D4.0B2",
-      46292,
-      "lucio",
-      "卢西奥",
-      null,
-      "Elimination",
-      "那就是我想干的！",
-      "That's what I'm talking about.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000B4D5.0B2",
-      46293,
-      "lucio",
-      "卢西奥",
-      null,
-      "Elimination",
-      "跟不上节奏了？",
-      "You having trouble keeping up?",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000B4D7.0B2",
-      46295,
-      "lucio",
-      "卢西奥",
-      null,
-      "Elimination",
-      "那个节拍你没跟上。",
-      "You lost the beat.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000B4D9.0B2",
-      46297,
-      "lucio",
-      "卢西奥",
-      null,
-      "Elimination",
-      "你没跟上节拍。",
-      "You got the beat... down.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000B4F6.0B2",
-      46326,
-      "lucio",
-      "卢西奥",
-      null,
-      "Elimination",
-      "喜欢那招吗？",
-      "How do you like that?",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000B5F3.0B2",
-      46579,
-      "lucio",
-      "卢西奥",
-      null,
-      "Elimination",
-      "（笑）太厉害了！",
-      "(laughs) Too good!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "0000000656C1.0B2",
-      415425,
-      "lucio",
-      "卢西奥",
-      null,
-      "Elimination",
-      "哦，你还想听返场曲？",
-      "Oh, you wanted an encore?",
-      "{\"type\":\"scripted\",\"script\":\"Shutdown_Resurrected(AF43)\",\"scriptDesc\":\"敌人被复活后\"}",
+      "看看谁才是超音速？",
+      "How's that for the speed of sound?",
+      "{\"type\":\"scripted\",\"script\":\"00A6FE\",\"scriptDesc\":\"敌人高速移动\"}",
       null
     ],
     [
@@ -1495,7 +1287,7 @@
       "Elimination",
       "声波探到你喽！",
       "Found by sound!",
-      "{\"type\":\"scripted\",\"script\":\"Shutdown_SombraStealth(A788)\",\"scriptDesc\":\"敌方黑影潜行\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A788\",\"scriptDesc\":\"敌方黑影潜行\"}",
       null
     ],
     [
@@ -1508,20 +1300,228 @@
       "Elimination",
       "回声定位。",
       "Echolocation.",
-      "{\"type\":\"scripted\",\"script\":\"Shutdown_SombraStealth(A788)\",\"scriptDesc\":\"敌方黑影潜行\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A788\",\"scriptDesc\":\"敌方黑影潜行\"}",
       null
     ],
     [
       "HeroQuote",
-      "000000064219.0B2",
-      410137,
+      "0000000656C7.0B2",
+      415431,
       "lucio",
       "卢西奥",
       null,
       "Elimination",
-      "看看谁才是超音速？",
-      "How's that for the speed of sound?",
-      "{\"type\":\"scripted\",\"script\":\"UnknownA6FE\",\"scriptDesc\":\"敌人高速移动\"}",
+      "原来是我的音波，我都快忘了。",
+      "I almost forgot I fired those.",
+      "{\"type\":\"scripted\",\"script\":\"00A809\",\"scriptDesc\":\"远距离\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "0000000656C1.0B2",
+      415425,
+      "lucio",
+      "卢西奥",
+      null,
+      "Elimination",
+      "哦，你还想听返场曲？",
+      "Oh, you wanted an encore?",
+      "{\"type\":\"scripted\",\"script\":\"00AF43\",\"scriptDesc\":\"敌人被复活后\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000000B4C7.0B2",
+      46279,
+      "lucio",
+      "卢西奥",
+      null,
+      "Elimination",
+      "正中目标。",
+      "Right on target.",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000000B4C8.0B2",
+      46280,
+      "lucio",
+      "卢西奥",
+      null,
+      "Elimination",
+      "搞定！",
+      "Nailed it.",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000000B4CA.0B2",
+      46282,
+      "lucio",
+      "卢西奥",
+      null,
+      "Elimination",
+      "抱歉，得给你个教训。",
+      "Sorry, had to give you the hook.",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000000B4CB.0B2",
+      46283,
+      "lucio",
+      "卢西奥",
+      null,
+      "Elimination",
+      "刚才是你的低音。",
+      "That was the drop.",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000000B4CC.0B2",
+      46284,
+      "lucio",
+      "卢西奥",
+      null,
+      "Elimination",
+      "这玩意儿开了吗？",
+      "Is this thing on?",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000000B4CE.0B2",
+      46286,
+      "lucio",
+      "卢西奥",
+      null,
+      "Elimination",
+      "(hums) 我感觉到很棒的共鸣。",
+      "(hums) I'm feeling some good vibrations.",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000000B4D0.0B2",
+      46288,
+      "lucio",
+      "卢西奥",
+      null,
+      "Elimination",
+      "我闭着眼都行！",
+      "I could do this with my eyes closed!",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000000B4D2.0B2",
+      46290,
+      "lucio",
+      "卢西奥",
+      null,
+      "Elimination",
+      "音乐响起就不会疼了！",
+      "When the music hits, you feel no pain!",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000000B4D3.0B2",
+      46291,
+      "lucio",
+      "卢西奥",
+      null,
+      "Elimination",
+      "那才像样！",
+      "That's more like it!",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000000B4D4.0B2",
+      46292,
+      "lucio",
+      "卢西奥",
+      null,
+      "Elimination",
+      "那就是我想干的！",
+      "That's what I'm talking about.",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000000B4D5.0B2",
+      46293,
+      "lucio",
+      "卢西奥",
+      null,
+      "Elimination",
+      "跟不上节奏了？",
+      "You having trouble keeping up?",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000000B4D7.0B2",
+      46295,
+      "lucio",
+      "卢西奥",
+      null,
+      "Elimination",
+      "那个节拍你没跟上。",
+      "You lost the beat.",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000000B4D9.0B2",
+      46297,
+      "lucio",
+      "卢西奥",
+      null,
+      "Elimination",
+      "你没跟上节拍。",
+      "You got the beat... down.",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000000B4F6.0B2",
+      46326,
+      "lucio",
+      "卢西奥",
+      null,
+      "Elimination",
+      "喜欢那招吗？",
+      "How do you like that?",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000000B5F3.0B2",
+      46579,
+      "lucio",
+      "卢西奥",
+      null,
+      "Elimination",
+      "（笑）太厉害了！",
+      "(laughs) Too good!",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -1638,7 +1638,7 @@
       "EnemiesAttacking",
       "敌人在左边！",
       "Enemy's on the left!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2733\",\"scriptDesc\":\"敌人在左侧\"}",
+      "{\"type\":\"scripted\",\"script\":\"002733\",\"scriptDesc\":\"敌人在左侧\"}",
       null
     ],
     [
@@ -1651,7 +1651,7 @@
       "EnemiesAttacking",
       "小心左边！",
       "Watch the left!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2733\",\"scriptDesc\":\"敌人在左侧\"}",
+      "{\"type\":\"scripted\",\"script\":\"002733\",\"scriptDesc\":\"敌人在左侧\"}",
       null
     ],
     [
@@ -1664,7 +1664,7 @@
       "EnemiesAttacking",
       "敌人在右边！",
       "Enemy's on the right!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2734\",\"scriptDesc\":\"敌人在右侧\"}",
+      "{\"type\":\"scripted\",\"script\":\"002734\",\"scriptDesc\":\"敌人在右侧\"}",
       null
     ],
     [
@@ -1677,7 +1677,7 @@
       "EnemiesAttacking",
       "小心右边！",
       "Watch the right!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2734\",\"scriptDesc\":\"敌人在右侧\"}",
+      "{\"type\":\"scripted\",\"script\":\"002734\",\"scriptDesc\":\"敌人在右侧\"}",
       null
     ],
     [
@@ -1690,7 +1690,7 @@
       "EnemiesAttacking",
       "敌人冲过来了！",
       "Enemy's straight ahead!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2735\",\"scriptDesc\":\"敌人在前方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002735\",\"scriptDesc\":\"敌人在前方\"}",
       null
     ],
     [
@@ -1703,7 +1703,7 @@
       "EnemiesAttacking",
       "他们冲过来了！",
       "They're coming right at us!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2735\",\"scriptDesc\":\"敌人在前方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002735\",\"scriptDesc\":\"敌人在前方\"}",
       null
     ],
     [
@@ -1716,7 +1716,7 @@
       "EnemiesAttacking",
       "小心上面的敌人！",
       "Watch for enemies up above!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2736\",\"scriptDesc\":\"敌人在上方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002736\",\"scriptDesc\":\"敌人在上方\"}",
       null
     ],
     [
@@ -1729,7 +1729,7 @@
       "EnemiesAttacking",
       "在上面！",
       "Above us!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2736\",\"scriptDesc\":\"敌人在上方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002736\",\"scriptDesc\":\"敌人在上方\"}",
       null
     ],
     [
@@ -1742,7 +1742,7 @@
       "EnemiesAttacking",
       "敌人从后面偷袭了！",
       "Enemy's sneaking up behind us!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2737\",\"scriptDesc\":\"敌人在后方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002737\",\"scriptDesc\":\"敌人在后方\"}",
       null
     ],
     [
@@ -1755,7 +1755,7 @@
       "EnemiesAttacking",
       "当心身后的敌人！",
       "Watch out behind us!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2737\",\"scriptDesc\":\"敌人在后方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002737\",\"scriptDesc\":\"敌人在后方\"}",
       null
     ],
     [
@@ -1768,7 +1768,7 @@
       "EnemiesAttacking",
       "敌人在下面！",
       "Enemy's coming up from below!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2738\",\"scriptDesc\":\"敌人在下方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002738\",\"scriptDesc\":\"敌人在下方\"}",
       null
     ],
     [
@@ -1781,7 +1781,7 @@
       "EnemiesAttacking",
       "在我们下面！",
       "Below us!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2738\",\"scriptDesc\":\"敌人在下方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002738\",\"scriptDesc\":\"敌人在下方\"}",
       null
     ],
     [
@@ -2158,7 +2158,7 @@
       "Health/LowHealthBreathStart",
       "（倒吸气）",
       "(gasps)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -2379,7 +2379,7 @@
       "HeroSelect",
       "来吧，跟上我的节奏！",
       "Come on, let's bring it together!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -2605,6 +2605,19 @@
     ],
     [
       "HeroQuote",
+      "00000006421C.0B2",
+      410140,
+      "lucio",
+      "卢西奥",
+      null,
+      "KillStreak",
+      "纳米激素卢西奥！我的枪火力强，而且还能发光！",
+      "Nano boosted Lucio! My gun does damage, and it glows!",
+      "{\"type\":\"scripted\",\"script\":\"00A5FD\",\"scriptDesc\":\"被纳米激素强化时\"}",
+      null
+    ],
+    [
+      "HeroQuote",
       "00000000B4DF.0B2",
       46303,
       "lucio",
@@ -2613,7 +2626,7 @@
       "KillStreak",
       "我得单曲循环这首歌！",
       "I must have this track on repeat!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -2626,7 +2639,7 @@
       "KillStreak",
       "我嗨上天了！",
       "I'm in the groove!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -2639,7 +2652,7 @@
       "KillStreak",
       "(laughs)别停下！",
       "(laughs) Let's keep it going!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -2652,7 +2665,7 @@
       "KillStreak",
       "没人阻止得了我了！",
       "Nothing's going to stop me!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -2665,7 +2678,7 @@
       "KillStreak",
       "你们真要完蛋啦！",
       "This is going off!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -2678,20 +2691,7 @@
       "KillStreak",
       "就是这感觉！",
       "I'm feeling it!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000006421C.0B2",
-      410140,
-      "lucio",
-      "卢西奥",
-      null,
-      "KillStreak",
-      "纳米激素卢西奥！我的枪火力强，而且还能发光！",
-      "Nano boosted Lucio! My gun does damage, and it glows!",
-      "{\"type\":\"scripted\",\"script\":\"UltAssist_Nano(A5FD)\",\"scriptDesc\":\"被纳米激素强化时\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -4316,7 +4316,7 @@
       "MatchTalk",
       "至少还没有凡人打败过我。",
       "At least a mortal hasn't beaten me in combat.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownB41D\",\"scriptDesc\":\"未知\"}",
+      "{\"type\":\"scripted\",\"script\":\"00B41D\",\"scriptDesc\":\"未知\"}",
       null
     ],
     [
@@ -4381,7 +4381,7 @@
       "MeleeEnemyKilledRemark",
       "林德霍姆先生，不许乱扔熔岩！",
       "No lava, Mr. Lindholm! No.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"托比昂\"},{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"托比昂\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
       null
     ],
     [
@@ -4394,7 +4394,7 @@
       "MeleeEnemyKilledRemark",
       "看看你自己！",
       "Check yourself!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -4407,7 +4407,7 @@
       "MeleeEnemyKilledRemark",
       "嘭！",
       "Boom!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -4511,7 +4511,7 @@
       "Multikill",
       "谢啦，狐狸姑娘！",
       "Thanks, Fox Girl!",
-      "{\"type\":\"scripted\",\"script\":\"UltAssist_Kitsune(A662)\",\"scriptDesc\":\"被灵狐强化时\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A662\",\"scriptDesc\":\"被灵狐强化时\"}",
       null
     ],
     [
@@ -4524,7 +4524,7 @@
       "Multikill",
       "谢了，雾子！你让我光芒四射。",
       "Thanks, Kiriko! You really make me shine.",
-      "{\"type\":\"scripted\",\"script\":\"UltAssist_Kitsune(A662)\",\"scriptDesc\":\"被灵狐强化时\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A662\",\"scriptDesc\":\"被灵狐强化时\"}",
       null
     ],
     [
@@ -4602,7 +4602,7 @@
       "NanoBoosted",
       "没人可以阻止我了！",
       "Oh, there's no stopping me now!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -8156,175 +8156,6 @@
     ],
     [
       "HeroQuote",
-      "00000005D59D.0B2",
-      382365,
-      "lucio",
-      "卢西奥",
-      null,
-      "PVE/Unknown",
-      "渡轮正在受到攻击！",
-      "The Ferry's taking fire!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7329\",\"scriptDesc\":\"渡轮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005D59F.0B2",
-      382367,
-      "lucio",
-      "卢西奥",
-      null,
-      "PVE/Unknown",
-      "嘿！保护渡轮！",
-      "Hey! Protect the Ferry!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7329\",\"scriptDesc\":\"渡轮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005D611.0B2",
-      382481,
-      "lucio",
-      "卢西奥",
-      null,
-      "PVE/Unknown",
-      "保护渡轮！上面还有平民！",
-      "Protect the Ferry! There are civilians on board!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7329\",\"scriptDesc\":\"渡轮受到攻击\"}",
-      0.5
-    ],
-    [
-      "HeroQuote",
-      "00000005D613.0B2",
-      382483,
-      "lucio",
-      "卢西奥",
-      null,
-      "PVE/Unknown",
-      "喔，渡轮要被破坏了！挡住敌人！",
-      "Whoa, Ferry's almost breached! Hold them off!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7329\",\"scriptDesc\":\"渡轮受到攻击\"}",
-      0.5
-    ],
-    [
-      "HeroQuote",
-      "00000005D5A1.0B2",
-      382369,
-      "lucio",
-      "卢西奥",
-      null,
-      "PVE/Unknown",
-      "传输塔正在受到攻击，该干活了！",
-      "Uplink's taking damage. You know what to do!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005D5A4.0B2",
-      382372,
-      "lucio",
-      "卢西奥",
-      null,
-      "PVE/Unknown",
-      "我们得保护好传输塔！",
-      "We're supposed to keep that Uplink safe!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005D616.0B2",
-      382486,
-      "lucio",
-      "卢西奥",
-      null,
-      "PVE/Unknown",
-      "来吧，大伙！传输塔旁边有敌人！",
-      "Come on, team! Get them off the Uplink!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005D60D.0B2",
-      382477,
-      "lucio",
-      "卢西奥",
-      null,
-      "PVE/Unknown",
-      "传输塔就要倒下了！",
-      "The Uplink's on its last legs!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      0.5
-    ],
-    [
-      "HeroQuote",
-      "00000005D60E.0B2",
-      382478,
-      "lucio",
-      "卢西奥",
-      null,
-      "PVE/Unknown",
-      "只有我们能保护传输塔！",
-      "We're the only ones who can save the Uplink!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      0.5
-    ],
-    [
-      "HeroQuote",
-      "00000005D610.0B2",
-      382480,
-      "lucio",
-      "卢西奥",
-      null,
-      "PVE/Unknown",
-      "传输塔就快崩塌了！",
-      "The Uplink's about to fall right over!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      0.5
-    ],
-    [
-      "HeroQuote",
-      "00000005D59C.0B2",
-      382364,
-      "lucio",
-      "卢西奥",
-      null,
-      "PVE/Unknown",
-      "敌人在拆我们的巨炮！",
-      "They're hammering on our cannon!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown81B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005D5A6.0B2",
-      382374,
-      "lucio",
-      "卢西奥",
-      null,
-      "PVE/Unknown",
-      "巨炮受到攻击了！",
-      "The cannon's taking damage!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown81B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005D60F.0B2",
-      382479,
-      "lucio",
-      "卢西奥",
-      null,
-      "PVE/Unknown",
-      "巨炮快要被摧毁了！",
-      "Cannon's almost destroyed!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown81B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
-      0.5
-    ],
-    [
-      "HeroQuote",
       "000000061D69.0B2",
       400745,
       "lucio",
@@ -8333,7 +8164,7 @@
       "PVE/Unknown",
       "运载目标受到攻击！",
       "Payload's being attacked!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown88E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
       null
     ],
     [
@@ -8346,7 +8177,7 @@
       "PVE/Unknown",
       "啊哦，运载目标情况不妙。",
       "Uh oh, Payload's in bad shape.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown88E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
       null
     ],
     [
@@ -8359,7 +8190,7 @@
       "PVE/Unknown",
       "我们必须保护运载目标！",
       "We gotta do something about the Payload!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown88E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
       null
     ],
     [
@@ -8372,8 +8203,177 @@
       "PVE/Unknown",
       "保护运载目标！",
       "Protect the Payload!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown88E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
       null
+    ],
+    [
+      "HeroQuote",
+      "00000005D59D.0B2",
+      382365,
+      "lucio",
+      "卢西奥",
+      null,
+      "PVE/Unknown",
+      "渡轮正在受到攻击！",
+      "The Ferry's taking fire!",
+      "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005D59F.0B2",
+      382367,
+      "lucio",
+      "卢西奥",
+      null,
+      "PVE/Unknown",
+      "嘿！保护渡轮！",
+      "Hey! Protect the Ferry!",
+      "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005D611.0B2",
+      382481,
+      "lucio",
+      "卢西奥",
+      null,
+      "PVE/Unknown",
+      "保护渡轮！上面还有平民！",
+      "Protect the Ferry! There are civilians on board!",
+      "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      0.5
+    ],
+    [
+      "HeroQuote",
+      "00000005D613.0B2",
+      382483,
+      "lucio",
+      "卢西奥",
+      null,
+      "PVE/Unknown",
+      "喔，渡轮要被破坏了！挡住敌人！",
+      "Whoa, Ferry's almost breached! Hold them off!",
+      "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      0.5
+    ],
+    [
+      "HeroQuote",
+      "00000005D5A1.0B2",
+      382369,
+      "lucio",
+      "卢西奥",
+      null,
+      "PVE/Unknown",
+      "传输塔正在受到攻击，该干活了！",
+      "Uplink's taking damage. You know what to do!",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005D5A4.0B2",
+      382372,
+      "lucio",
+      "卢西奥",
+      null,
+      "PVE/Unknown",
+      "我们得保护好传输塔！",
+      "We're supposed to keep that Uplink safe!",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005D616.0B2",
+      382486,
+      "lucio",
+      "卢西奥",
+      null,
+      "PVE/Unknown",
+      "来吧，大伙！传输塔旁边有敌人！",
+      "Come on, team! Get them off the Uplink!",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005D60D.0B2",
+      382477,
+      "lucio",
+      "卢西奥",
+      null,
+      "PVE/Unknown",
+      "传输塔就要倒下了！",
+      "The Uplink's on its last legs!",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      0.5
+    ],
+    [
+      "HeroQuote",
+      "00000005D60E.0B2",
+      382478,
+      "lucio",
+      "卢西奥",
+      null,
+      "PVE/Unknown",
+      "只有我们能保护传输塔！",
+      "We're the only ones who can save the Uplink!",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      0.5
+    ],
+    [
+      "HeroQuote",
+      "00000005D610.0B2",
+      382480,
+      "lucio",
+      "卢西奥",
+      null,
+      "PVE/Unknown",
+      "传输塔就快崩塌了！",
+      "The Uplink's about to fall right over!",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      0.5
+    ],
+    [
+      "HeroQuote",
+      "00000005D59C.0B2",
+      382364,
+      "lucio",
+      "卢西奥",
+      null,
+      "PVE/Unknown",
+      "敌人在拆我们的巨炮！",
+      "They're hammering on our cannon!",
+      "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005D5A6.0B2",
+      382374,
+      "lucio",
+      "卢西奥",
+      null,
+      "PVE/Unknown",
+      "巨炮受到攻击了！",
+      "The cannon's taking damage!",
+      "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005D60F.0B2",
+      382479,
+      "lucio",
+      "卢西奥",
+      null,
+      "PVE/Unknown",
+      "巨炮快要被摧毁了！",
+      "Cannon's almost destroyed!",
+      "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
+      0.5
     ],
     [
       "HeroQuote",
@@ -8385,7 +8385,7 @@
       "PVE/Unknown",
       "修理站遭到了攻击。",
       "The Repair Station's taking damage.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown94DB\",\"scriptDesc\":\"修理站受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"0094DB\",\"scriptDesc\":\"修理站受到攻击\"}",
       null
     ],
     [
@@ -8398,7 +8398,7 @@
       "PVE/Unknown",
       "修理站要被摧毁了！",
       "The Repair Station's about to break down!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown94DB\",\"scriptDesc\":\"修理站受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"0094DB\",\"scriptDesc\":\"修理站受到攻击\"}",
       null
     ],
     [
@@ -8411,7 +8411,7 @@
       "PVE/Unknown",
       "修理站快要报废了！",
       "The Repair Station's getting wrecked!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown94DB\",\"scriptDesc\":\"修理站受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"0094DB\",\"scriptDesc\":\"修理站受到攻击\"}",
       null
     ],
     [
@@ -8424,7 +8424,7 @@
       "PVE/Unknown",
       "修理站遭的罪我可受不了！",
       "I would not want to be the Repair Station!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown94DB\",\"scriptDesc\":\"修理站受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"0094DB\",\"scriptDesc\":\"修理站受到攻击\"}",
       null
     ],
     [
@@ -8762,73 +8762,8 @@
       "Respawn",
       "下次不会带她去慈善音乐会了。",
       "That's the last time I invite her to a charity concert.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"D.Va\"},{\"type\":\"scripted\",\"script\":\"UnknownC003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"D.Va\"},{\"type\":\"scripted\",\"script\":\"00C003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}]}",
       0.05
-    ],
-    [
-      "HeroQuote",
-      "00000000B4BD.0B2",
-      46269,
-      "lucio",
-      "卢西奥",
-      null,
-      "Respawn",
-      "该换首歌了！",
-      "Time to change it up!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000B51B.0B2",
-      46363,
-      "lucio",
-      "卢西奥",
-      null,
-      "Respawn",
-      "我这才刚开始。",
-      "I'm just getting started.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000B51D.0B2",
-      46365,
-      "lucio",
-      "卢西奥",
-      null,
-      "Respawn",
-      "希望没人看见！",
-      "I hope nobody saw that!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000B520.0B2",
-      46368,
-      "lucio",
-      "卢西奥",
-      null,
-      "Respawn",
-      "节奏继续！",
-      "And the beat goes on!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000B521.0B2",
-      46369,
-      "lucio",
-      "卢西奥",
-      null,
-      "Respawn",
-      "该加演一场了。",
-      "Time for an encore.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null
     ],
     [
       "HeroQuote",
@@ -8840,7 +8775,7 @@
       "Respawn",
       "我只是睡了，他们是埋了。",
       "Yeah, I took a beat... but they took a beating.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownB401\",\"scriptDesc\":\"敌方团灭后复生\"}",
+      "{\"type\":\"scripted\",\"script\":\"00B401\",\"scriptDesc\":\"敌方团灭后复生\"}",
       null
     ],
     [
@@ -8853,7 +8788,72 @@
       "Respawn",
       "刚才我把他们都推傻了。等会再让我露几手！",
       "I was knocking them off left and right. Let's do it some more!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownB403\",\"scriptDesc\":\"造成地形消灭后被消灭\"}",
+      "{\"type\":\"scripted\",\"script\":\"00B403\",\"scriptDesc\":\"造成地形消灭后被消灭\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000000B4BD.0B2",
+      46269,
+      "lucio",
+      "卢西奥",
+      null,
+      "Respawn",
+      "该换首歌了！",
+      "Time to change it up!",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000000B51B.0B2",
+      46363,
+      "lucio",
+      "卢西奥",
+      null,
+      "Respawn",
+      "我这才刚开始。",
+      "I'm just getting started.",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000000B51D.0B2",
+      46365,
+      "lucio",
+      "卢西奥",
+      null,
+      "Respawn",
+      "希望没人看见！",
+      "I hope nobody saw that!",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000000B520.0B2",
+      46368,
+      "lucio",
+      "卢西奥",
+      null,
+      "Respawn",
+      "节奏继续！",
+      "And the beat goes on!",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000000B521.0B2",
+      46369,
+      "lucio",
+      "卢西奥",
+      null,
+      "Respawn",
+      "该加演一场了。",
+      "Time for an encore.",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -9503,7 +9503,7 @@
       "Scream",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -9516,7 +9516,7 @@
       "Scream",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -9529,7 +9529,7 @@
       "Scream",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -10270,7 +10270,7 @@
       "Ultimate",
       "谁想要上亿的生命值？",
       "Who wants a billion hit points?",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -10283,7 +10283,7 @@
       "Ultimate",
       "搞点噪音炸炸场吧！",
       "Let's get a noise violation!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -10296,7 +10296,7 @@
       "Ultimate",
       "谁想要上亿的生命值？",
       "Who wants a billion hit points?",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -10309,7 +10309,7 @@
       "Ultimate",
       "来点儿音乐！",
       "Let's drop the beat!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -10335,7 +10335,7 @@
       "Ultimate/AlmostReady",
       "音障马上就好了！",
       "My sound barrier is almost ready!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2E5B\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"002E5B\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -10374,7 +10374,7 @@
       "Ultimate/Ready",
       "我准备好部署音障了！",
       "I'm ready to activate the sound barrier!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2E5B\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"002E5B\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -11648,7 +11648,7 @@
       "Unknown/3B0.078",
       "让我们恢复一下吧！",
       "Let's get patched up!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -11661,7 +11661,7 @@
       "Unknown/3B0.078",
       "这会让你们感觉好些！",
       "This is going to make you feel better!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -11674,7 +11674,7 @@
       "Unknown/3B0.078",
       "治愈音效启动！",
       "Healing boost!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -11687,7 +11687,7 @@
       "Unknown/3B0.078",
       "耶！该恢复一下了！",
       "Time to heal up!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -11700,7 +11700,7 @@
       "Unknown/3B0.078",
       "都恢复一下吧！",
       "Let's get you healed up!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -11895,7 +11895,7 @@
       "Unknown/3B1.078",
       "耶！别掉队！",
       "Yeah! Let's pick it up!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -11908,7 +11908,7 @@
       "Unknown/3B1.078",
       "跟上节奏！",
       "Move to the beat!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -11921,7 +11921,7 @@
       "Unknown/3B1.078",
       "跑起来！",
       "Double time!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -11934,7 +11934,7 @@
       "Unknown/3B1.078",
       "快快快！",
       "Let's hustle!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -11947,7 +11947,7 @@
       "Unknown/3B1.078",
       "加速！",
       "Speed boost!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -12103,7 +12103,7 @@
       "Unknown/3B2.078",
       "哦，嗨起来！",
       "Oh, turn it up!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -12116,7 +12116,7 @@
       "Unknown/3B2.078",
       "再响点！",
       "Raising the volume!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -12129,7 +12129,7 @@
       "Unknown/3B2.078",
       "加大音量！",
       "Pump up the volume!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -12142,7 +12142,7 @@
       "Unknown/3B2.078",
       "加大音量！",
       "Amp it up!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -12155,7 +12155,7 @@
       "Unknown/3B2.078",
       "喔，你听见了吗？",
       "Woo, you hear that?",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -12168,7 +12168,7 @@
       "Unknown/3B2.078",
       "感受到了吗？",
       "You feel that?",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -12181,7 +12181,7 @@
       "Unknown/3B2.078",
       "噢，这是我的前奏！",
       "Oh, this is my jam!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -12233,7 +12233,7 @@
       "Unknown/3B3.078",
       "凌空一推！",
       "Sky boop!",
-      "{\"type\":\"scripted\",\"script\":\"InAir(A776)\",\"scriptDesc\":\"在空中时\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A776\",\"scriptDesc\":\"在空中时\"}",
       0.1
     ],
     [
@@ -12246,7 +12246,7 @@
       "Unknown/3B3.078",
       "走你！",
       "Push off!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -12259,7 +12259,7 @@
       "Unknown/3B3.078",
       "滚开！",
       "Get back!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -12272,7 +12272,7 @@
       "Unknown/3B3.078",
       "你自找的！",
       "Step to this!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -12376,7 +12376,7 @@
       "Unknown/3B4.078",
       "瞧瞧这招！",
       "Check this out!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -12389,7 +12389,7 @@
       "Unknown/3B4.078",
       "我太喜欢这招了！",
       "I am loving this!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -12402,7 +12402,7 @@
       "Unknown/3B4.078",
       "没人能阻止我！",
       "Nothing's going to stop me!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -12415,7 +12415,7 @@
       "Unknown/3B4.078",
       "啊，耶！",
       "Aw yeah!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -12428,7 +12428,7 @@
       "Unknown/3B4.078",
       "稳稳当当。",
       "Smooth.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -12441,7 +12441,7 @@
       "Unknown/3B4.078",
       "哦耶！",
       "Oh yeah!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -13546,7 +13546,7 @@
       "Unknown/EC6.078",
       "哦，我是不是坏了你的好事？",
       "Oh, did I ruin your big moment?",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
       null
     ],
     [
@@ -13559,7 +13559,7 @@
       "Unknown/EC6.078",
       "不不不，你别想放歌！",
       "No no no, that's not how it goes!",
-      "{\"type\":\"nested\",\"total\":3,\"needed\":3,\"conditions\":[{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"卢西奥\"}]}",
+      "{\"type\":\"nested\",\"total\":3,\"needed\":3,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"卢西奥\"}]}",
       null
     ],
     [

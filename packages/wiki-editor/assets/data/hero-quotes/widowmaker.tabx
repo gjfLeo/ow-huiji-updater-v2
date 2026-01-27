@@ -585,7 +585,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -598,7 +598,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -611,7 +611,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -624,7 +624,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -637,7 +637,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -650,7 +650,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -663,7 +663,7 @@
       "DeathCharged",
       "（遭受重压的声音）",
       "(crushed sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -676,7 +676,7 @@
       "DeathCharged",
       "（遭受重压的声音）",
       "(crushed sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -689,7 +689,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -702,7 +702,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -715,7 +715,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -728,7 +728,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -1019,6 +1019,32 @@
     ],
     [
       "HeroQuote",
+      "000000021ED2.0B2",
+      138962,
+      "widowmaker",
+      "黑百合",
+      null,
+      "Elimination",
+      "黑爪的敌人必须被消灭。",
+      "The enemies of Talon will be eliminated.",
+      "{\"type\":\"nested\",\"total\":10,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"天使\"},{\"type\":\"toHero\",\"hero\":\"卡西迪\"},{\"type\":\"toHero\",\"hero\":\"托比昂\"},{\"type\":\"toHero\",\"hero\":\"莱因哈特\"},{\"type\":\"toHero\",\"hero\":\"士兵：76\"},{\"type\":\"toHero\",\"hero\":\"温斯顿\"},{\"type\":\"toHero\",\"hero\":\"源氏\"},{\"type\":\"toHero\",\"hero\":\"猎空\"},{\"type\":\"toHero\",\"hero\":\"安娜\"},{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}]}",
+      0.1
+    ],
+    [
+      "HeroQuote",
+      "000000063FAB.0B2",
+      409515,
+      "widowmaker",
+      "黑百合",
+      null,
+      "Elimination",
+      "我们的运动健将把难度降低了不少。",
+      "This bodybuilder makes it far too easy.",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\"},{\"type\":\"scripted\",\"script\":\"00A22A\",\"scriptDesc\":\"敌人被重力喷涌控制\"}]}",
+      null
+    ],
+    [
+      "HeroQuote",
       "000000063FA2.0B2",
       409506,
       "widowmaker",
@@ -1027,7 +1053,7 @@
       "Elimination",
       "空中的我总是如此优雅。",
       "I was always graceful in the air.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\"},{\"type\":\"scripted\",\"script\":\"InAir(A776)\",\"scriptDesc\":\"在空中时\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\"},{\"type\":\"scripted\",\"script\":\"00A776\",\"scriptDesc\":\"在空中时\"}]}",
       null
     ],
     [
@@ -1040,7 +1066,7 @@
       "Elimination",
       "完美的飞行。",
       "Perfection in flight.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\"},{\"type\":\"scripted\",\"script\":\"InAir(A776)\",\"scriptDesc\":\"在空中时\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\"},{\"type\":\"scripted\",\"script\":\"00A776\",\"scriptDesc\":\"在空中时\"}]}",
       null
     ],
     [
@@ -1053,21 +1079,8 @@
       "Elimination",
       "距离对我的枪法没有影响。",
       "Distance is no obstacle to my accuracy.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\"},{\"type\":\"scripted\",\"script\":\"LongDistance(A809)\",\"scriptDesc\":\"远距离\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\"},{\"type\":\"scripted\",\"script\":\"00A809\",\"scriptDesc\":\"远距离\"}]}",
       0.5
-    ],
-    [
-      "HeroQuote",
-      "000000063FAB.0B2",
-      409515,
-      "widowmaker",
-      "黑百合",
-      null,
-      "Elimination",
-      "我们的运动健将把难度降低了不少。",
-      "This bodybuilder makes it far too easy.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\"},{\"type\":\"scripted\",\"script\":\"UltAssist_Grav(A22A)\",\"scriptDesc\":\"敌人被重力喷涌控制\"}]}",
-      null
     ],
     [
       "HeroQuote",
@@ -1079,60 +1092,8 @@
       "Elimination",
       "这样会不会太容易了点。",
       "This almost makes it too easy.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\"},{\"type\":\"scripted\",\"script\":\"UnknownB9B3\",\"scriptDesc\":\"使用红外侦测期间\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\"},{\"type\":\"scripted\",\"script\":\"00B9B3\",\"scriptDesc\":\"使用红外侦测期间\"}]}",
       0.2
-    ],
-    [
-      "HeroQuote",
-      "000000063FA5.0B2",
-      409509,
-      "widowmaker",
-      "黑百合",
-      null,
-      "Elimination",
-      "跑得再快再远，也逃不出我的手心。",
-      "Run far, run fast; it does not matter.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"LongDistance(A809)\",\"scriptDesc\":\"远距离\"},{\"type\":\"scripted\",\"script\":\"UnknownA6FE\",\"scriptDesc\":\"敌人高速移动\"}]}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000063FA4.0B2",
-      409508,
-      "widowmaker",
-      "黑百合",
-      null,
-      "Elimination",
-      "你以为我在近处会打不准？（轻笑）",
-      "You thought me weak up close? (chuckle)",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"ShortDistance(AD8E)\",\"scriptDesc\":\"近距离\"},{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\"}]}",
-      0.5
-    ],
-    [
-      "HeroQuote",
-      "000000063428.0B2",
-      406568,
-      "widowmaker",
-      "黑百合",
-      null,
-      "Elimination",
-      "跳什么，真烦人。",
-      "Your leaping grows tiresome.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"Shutdown_Leaped(A753)\",\"scriptDesc\":\"敌人跳跃\"},{\"type\":\"toHero\",\"hero\":\"温斯顿\"}]}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000065D5D.0B2",
-      417117,
-      "widowmaker",
-      "黑百合",
-      null,
-      "Elimination",
-      "别拿我的招数对付我。",
-      "Don't use my tricks against me.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"UltShutdown_InfrasightActive(B9B5)\",\"scriptDesc\":\"敌方红外侦测期间\"},{\"type\":\"toHero\",\"hero\":\"黑百合\"}]}",
-      null
     ],
     [
       "HeroQuote",
@@ -1144,7 +1105,7 @@
       "Elimination",
       "你的特技从远处看很可爱。",
       "Your special technique looks adorable from a distance.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"scripted\",\"script\":\"LongDistance(A809)\",\"scriptDesc\":\"远距离\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"scripted\",\"script\":\"00A809\",\"scriptDesc\":\"远距离\"}]}",
       null
     ],
     [
@@ -1157,8 +1118,47 @@
       "Elimination",
       "确实到此为止。",
       "That ends now.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"索杰恩\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"索杰恩\"}]}",
       null
+    ],
+    [
+      "HeroQuote",
+      "000000063428.0B2",
+      406568,
+      "widowmaker",
+      "黑百合",
+      null,
+      "Elimination",
+      "跳什么，真烦人。",
+      "Your leaping grows tiresome.",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A753\",\"scriptDesc\":\"敌人跳跃\"},{\"type\":\"toHero\",\"hero\":\"温斯顿\"}]}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000063FA5.0B2",
+      409509,
+      "widowmaker",
+      "黑百合",
+      null,
+      "Elimination",
+      "跑得再快再远，也逃不出我的手心。",
+      "Run far, run fast; it does not matter.",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A809\",\"scriptDesc\":\"远距离\"},{\"type\":\"scripted\",\"script\":\"00A6FE\",\"scriptDesc\":\"敌人高速移动\"}]}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000063FA4.0B2",
+      409508,
+      "widowmaker",
+      "黑百合",
+      null,
+      "Elimination",
+      "你以为我在近处会打不准？（轻笑）",
+      "You thought me weak up close? (chuckle)",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00AD8E\",\"scriptDesc\":\"近距离\"},{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\"}]}",
+      0.5
     ],
     [
       "HeroQuote",
@@ -1170,7 +1170,20 @@
       "Elimination",
       "（冷笑）死亡天降。",
       "(chuckle) Death from above.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"UnknownB4E0\",\"scriptDesc\":\"使用花瓣平台起跳\"},{\"type\":\"scripted\",\"script\":\"EnemyInAir(9268)\",\"scriptDesc\":\"敌人在空中\",\"negative\":true}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00B4E0\",\"scriptDesc\":\"使用花瓣平台起跳\"},{\"type\":\"scripted\",\"script\":\"009268\",\"scriptDesc\":\"敌人在空中\",\"negative\":true}]}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000065D5D.0B2",
+      417117,
+      "widowmaker",
+      "黑百合",
+      null,
+      "Elimination",
+      "别拿我的招数对付我。",
+      "Don't use my tricks against me.",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00B9B5\",\"scriptDesc\":\"敌方红外侦测期间\"},{\"type\":\"toHero\",\"hero\":\"黑百合\"}]}",
       null
     ],
     [
@@ -1183,21 +1196,8 @@
       "Elimination",
       "你的另一只眼也瞎了。",
       "There goes your other eye.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"安娜\"},{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"安娜\"},{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\"}]}",
       0.75
-    ],
-    [
-      "HeroQuote",
-      "00000002A935.0B2",
-      174389,
-      "widowmaker",
-      "黑百合",
-      null,
-      "Elimination",
-      "跟你妈妈一样没用。",
-      "Like mother, like daughter.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"法老之鹰\"},{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}]}",
-      0.1
     ],
     [
       "HeroQuote",
@@ -1209,8 +1209,21 @@
       "Elimination",
       "你对正义一无所知。",
       "You know nothing of justice.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"法老之鹰\"},{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"法老之鹰\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
       0.5
+    ],
+    [
+      "HeroQuote",
+      "00000002A935.0B2",
+      174389,
+      "widowmaker",
+      "黑百合",
+      null,
+      "Elimination",
+      "跟你妈妈一样没用。",
+      "Like mother, like daughter.",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"法老之鹰\"},{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}]}",
+      0.1
     ],
     [
       "HeroQuote",
@@ -1222,7 +1235,7 @@
       "Elimination",
       "没人可以躲过我，你也不例外。",
       "No one can hide. Not even you.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"黑影\"},{\"type\":\"scripted\",\"script\":\"UnknownB9B3\",\"scriptDesc\":\"使用红外侦测期间\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"黑影\"},{\"type\":\"scripted\",\"script\":\"00B9B3\",\"scriptDesc\":\"使用红外侦测期间\"}]}",
       0.5
     ],
     [
@@ -1235,7 +1248,7 @@
       "Elimination",
       "笨女孩儿。",
       "Foolish girl.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"猎空\"},{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"猎空\"},{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}]}",
       0.5
     ],
     [
@@ -1248,7 +1261,7 @@
       "Elimination",
       "（笑）风不喧嚣了。",
       "(chuckle) Dead air.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"卢西奥\"},{\"type\":\"scripted\",\"script\":\"EnemyInAir(9268)\",\"scriptDesc\":\"敌人在空中\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"卢西奥\"},{\"type\":\"scripted\",\"script\":\"009268\",\"scriptDesc\":\"敌人在空中\"}]}",
       null
     ],
     [
@@ -1261,7 +1274,7 @@
       "Elimination",
       "冷静点儿。（法语）：猴子。",
       "Calm down, (French): monkey.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"温斯顿\"},{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"温斯顿\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
       null
     ],
     [
@@ -1274,7 +1287,7 @@
       "Elimination",
       "就没人给他穿双鞋吗……",
       "Someone get him some shoes…",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"西格玛\"},{\"type\":\"scripted\",\"script\":\"SigmaWithoutShoes(A894)\",\"scriptDesc\":\"敌方西格玛使用未穿鞋的皮肤\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"西格玛\"},{\"type\":\"scripted\",\"script\":\"00A894\",\"scriptDesc\":\"敌方西格玛使用未穿鞋的皮肤\"}]}",
       0.15
     ],
     [
@@ -1300,7 +1313,7 @@
       "Elimination",
       "我可不是徒有虚名。",
       "That is why I am the best.",
-      "{\"type\":\"nested\",\"total\":3,\"needed\":3,\"conditions\":[{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\"},{\"type\":\"scripted\",\"script\":\"Shutdown_Leaped(A753)\",\"scriptDesc\":\"敌人跳跃\"},{\"type\":\"scripted\",\"script\":\"LongDistance(A809)\",\"scriptDesc\":\"远距离\"}]}",
+      "{\"type\":\"nested\",\"total\":3,\"needed\":3,\"conditions\":[{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\"},{\"type\":\"scripted\",\"script\":\"00A753\",\"scriptDesc\":\"敌人跳跃\"},{\"type\":\"scripted\",\"script\":\"00A809\",\"scriptDesc\":\"远距离\"}]}",
       null
     ],
     [
@@ -1313,7 +1326,7 @@
       "Elimination",
       "除了我，没人能射中那一枪。",
       "No one could hit that shot but me.",
-      "{\"type\":\"nested\",\"total\":3,\"needed\":3,\"conditions\":[{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\"},{\"type\":\"scripted\",\"script\":\"Shutdown_Leaped(A753)\",\"scriptDesc\":\"敌人跳跃\"},{\"type\":\"scripted\",\"script\":\"LongDistance(A809)\",\"scriptDesc\":\"远距离\"}]}",
+      "{\"type\":\"nested\",\"total\":3,\"needed\":3,\"conditions\":[{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\"},{\"type\":\"scripted\",\"script\":\"00A753\",\"scriptDesc\":\"敌人跳跃\"},{\"type\":\"scripted\",\"script\":\"00A809\",\"scriptDesc\":\"远距离\"}]}",
       null
     ],
     [
@@ -1326,7 +1339,7 @@
       "Elimination",
       "没事，我来找你就好。",
       "No no, I'll come to you.",
-      "{\"type\":\"nested\",\"total\":3,\"needed\":3,\"conditions\":[{\"type\":\"scripted\",\"script\":\"ShortDistance(AD8E)\",\"scriptDesc\":\"近距离\"},{\"type\":\"scripted\",\"script\":\"InAir(A776)\",\"scriptDesc\":\"在空中时\"},{\"type\":\"scripted\",\"script\":\"EnemyInAir(9268)\",\"scriptDesc\":\"敌人在空中\"}]}",
+      "{\"type\":\"nested\",\"total\":3,\"needed\":3,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00AD8E\",\"scriptDesc\":\"近距离\"},{\"type\":\"scripted\",\"script\":\"00A776\",\"scriptDesc\":\"在空中时\"},{\"type\":\"scripted\",\"script\":\"009268\",\"scriptDesc\":\"敌人在空中\"}]}",
       null
     ],
     [
@@ -1339,7 +1352,7 @@
       "Elimination",
       "你一有机会就跳出来丢人。",
       "You always jump at a chance to make a fool of yourself.",
-      "{\"type\":\"nested\",\"total\":3,\"needed\":3,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"巴蒂斯特\"},{\"type\":\"scripted\",\"script\":\"EnemyInAir(9268)\",\"scriptDesc\":\"敌人在空中\"},{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\"}]}",
+      "{\"type\":\"nested\",\"total\":3,\"needed\":3,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"巴蒂斯特\"},{\"type\":\"scripted\",\"script\":\"009268\",\"scriptDesc\":\"敌人在空中\"},{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\"}]}",
       null
     ],
     [
@@ -1352,7 +1365,7 @@
       "Elimination",
       "别把你那些肮脏的程序用在我身上。",
       "Keep your filthy subroutines away from me.",
-      "{\"type\":\"nested\",\"total\":3,\"needed\":3,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"黑影\"},{\"type\":\"scripted\",\"script\":\"UnknownAE5B\",\"scriptDesc\":\"被侵入时\"},{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\"}]}",
+      "{\"type\":\"nested\",\"total\":3,\"needed\":3,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"黑影\"},{\"type\":\"scripted\",\"script\":\"00AE5B\",\"scriptDesc\":\"被侵入时\"},{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\"}]}",
       null
     ],
     [
@@ -1365,7 +1378,7 @@
       "Elimination",
       "至少这次你挡住了子弹。",
       "At least you took the bullet this time.",
-      "{\"type\":\"nested\",\"total\":3,\"needed\":3,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"猎空\"},{\"type\":\"scripted\",\"script\":\"InAir(A776)\",\"scriptDesc\":\"在空中时\"},{\"type\":\"scripted\",\"script\":\"EnemyInAir(9268)\",\"scriptDesc\":\"敌人在空中\"}]}",
+      "{\"type\":\"nested\",\"total\":3,\"needed\":3,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"猎空\"},{\"type\":\"scripted\",\"script\":\"00A776\",\"scriptDesc\":\"在空中时\"},{\"type\":\"scripted\",\"script\":\"009268\",\"scriptDesc\":\"敌人在空中\"}]}",
       null
     ],
     [
@@ -1378,7 +1391,7 @@
       "Elimination",
       "不，莱耶斯，你踏错步子了。",
       "No, Reyes, that was not the move.",
-      "{\"type\":\"nested\",\"total\":3,\"needed\":3,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"死神\"},{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\"}]}",
+      "{\"type\":\"nested\",\"total\":3,\"needed\":3,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"死神\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\"}]}",
       null
     ],
     [
@@ -1487,84 +1500,6 @@
     ],
     [
       "HeroQuote",
-      "000000062A9D.0B2",
-      404125,
-      "widowmaker",
-      "黑百合",
-      null,
-      "Elimination",
-      "自投罗网。",
-      "Flew right into my web.",
-      "{\"type\":\"scripted\",\"script\":\"EnemyInAir(9268)\",\"scriptDesc\":\"敌人在空中\"}",
-      0.7
-    ],
-    [
-      "HeroQuote",
-      "00000000A284.0B2",
-      41604,
-      "widowmaker",
-      "黑百合",
-      null,
-      "Elimination",
-      "飞得越高……",
-      "What goes up...",
-      "{\"type\":\"scripted\",\"script\":\"EnemyInAir(9268)\",\"scriptDesc\":\"敌人在空中\"}",
-      0.05
-    ],
-    [
-      "HeroQuote",
-      "00000000A2E0.0B2",
-      41696,
-      "widowmaker",
-      "黑百合",
-      null,
-      "Elimination",
-      "下地吧。",
-      "Down to earth.",
-      "{\"type\":\"scripted\",\"script\":\"EnemyInAir(9268)\",\"scriptDesc\":\"敌人在空中\"}",
-      0.05
-    ],
-    [
-      "HeroQuote",
-      "00000000A2E1.0B2",
-      41697,
-      "widowmaker",
-      "黑百合",
-      null,
-      "Elimination",
-      "看你还神气什么。",
-      "Not so lofty now.",
-      "{\"type\":\"scripted\",\"script\":\"EnemyInAir(9268)\",\"scriptDesc\":\"敌人在空中\"}",
-      0.05
-    ],
-    [
-      "HeroQuote",
-      "00000000A2DF.0B2",
-      41695,
-      "widowmaker",
-      "黑百合",
-      null,
-      "Elimination",
-      "摔得越重。",
-      "Grounded.",
-      "{\"type\":\"scripted\",\"script\":\"EnemyInAir(9268)\",\"scriptDesc\":\"敌人在空中\"}",
-      0.01
-    ],
-    [
-      "HeroQuote",
-      "000000065615.0B2",
-      415253,
-      "widowmaker",
-      "黑百合",
-      null,
-      "Elimination",
-      "记得不要背对我。",
-      "Don't turn your back on me.",
-      "{\"type\":\"scripted\",\"script\":\"FromBehind(B0A3)\",\"scriptDesc\":\"从背后消灭\"}",
-      0.2
-    ],
-    [
-      "HeroQuote",
       "000000062A90.0B2",
       404112,
       "widowmaker",
@@ -1573,7 +1508,7 @@
       "Elimination",
       "烦人。",
       "Annoying.",
-      "{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\",\"negative\":true}",
       0.15
     ],
     [
@@ -1586,7 +1521,7 @@
       "Elimination",
       "完美。",
       "(French): Perfect.",
-      "{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\"}",
+      "{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\"}",
       0.25
     ],
     [
@@ -1599,7 +1534,7 @@
       "Elimination",
       "（法语）：精彩卓绝。",
       "(French): Superb.",
-      "{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\"}",
+      "{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\"}",
       0.25
     ],
     [
@@ -1612,99 +1547,86 @@
       "Elimination",
       "真美妙。",
       "A thing of beauty.",
-      "{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\"}",
+      "{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\"}",
       0.01
     ],
     [
       "HeroQuote",
-      "00000000A262.0B2",
-      41570,
+      "000000062A9D.0B2",
+      404125,
       "widowmaker",
       "黑百合",
       null,
       "Elimination",
-      "不是你的问题，是我。",
-      "It's not you, it's me.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null
+      "自投罗网。",
+      "Flew right into my web.",
+      "{\"type\":\"scripted\",\"script\":\"009268\",\"scriptDesc\":\"敌人在空中\"}",
+      0.7
     ],
     [
       "HeroQuote",
-      "00000000A264.0B2",
-      41572,
+      "00000000A284.0B2",
+      41604,
       "widowmaker",
       "黑百合",
       null,
       "Elimination",
-      "如丝般完美。",
-      "Smooth as silk.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null
+      "飞得越高……",
+      "What goes up...",
+      "{\"type\":\"scripted\",\"script\":\"009268\",\"scriptDesc\":\"敌人在空中\"}",
+      0.05
     ],
     [
       "HeroQuote",
-      "00000000A2FD.0B2",
-      41725,
+      "00000000A2E0.0B2",
+      41696,
       "widowmaker",
       "黑百合",
       null,
       "Elimination",
-      "（法语）：生即是死。",
-      "(French): 'Til death do us part.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null
+      "下地吧。",
+      "Down to earth.",
+      "{\"type\":\"scripted\",\"script\":\"009268\",\"scriptDesc\":\"敌人在空中\"}",
+      0.05
     ],
     [
       "HeroQuote",
-      "00000000A300.0B2",
-      41728,
+      "00000000A2E1.0B2",
+      41697,
       "widowmaker",
       "黑百合",
       null,
       "Elimination",
-      "啊……疼吗？",
-      "Aww... did that hurt?",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null
+      "看你还神气什么。",
+      "Not so lofty now.",
+      "{\"type\":\"scripted\",\"script\":\"009268\",\"scriptDesc\":\"敌人在空中\"}",
+      0.05
     ],
     [
       "HeroQuote",
-      "00000000B388.0B2",
-      45960,
+      "00000000A2DF.0B2",
+      41695,
       "widowmaker",
       "黑百合",
       null,
       "Elimination",
-      "（法语）：鲜血如黑百合般绽放。",
-      "(French): The widow's kiss.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null
+      "摔得越重。",
+      "Grounded.",
+      "{\"type\":\"scripted\",\"script\":\"009268\",\"scriptDesc\":\"敌人在空中\"}",
+      0.01
     ],
     [
       "HeroQuote",
-      "000000021ECC.0B2",
-      138956,
+      "00000006560C.0B2",
+      415244,
       "widowmaker",
       "黑百合",
       null,
       "Elimination",
-      "真是完美。",
-      "A masterpiece.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "支离破碎。",
+      "Shattered.",
+      "{\"type\":\"scripted\",\"script\":\"00AA26\",\"scriptDesc\":\"敌人被暴雪控制\"}",
       null
-    ],
-    [
-      "HeroQuote",
-      "000000021EBA.0B2",
-      138938,
-      "widowmaker",
-      "黑百合",
-      null,
-      "Elimination",
-      "漂亮。",
-      "(French): Magnificent.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      0.5
     ],
     [
       "HeroQuote",
@@ -1716,7 +1638,7 @@
       "Elimination",
       "我不喜欢别人离得太近。",
       "I don't like to be crowded.",
-      "{\"type\":\"scripted\",\"script\":\"ShortDistance(AD8E)\",\"scriptDesc\":\"近距离\"}",
+      "{\"type\":\"scripted\",\"script\":\"00AD8E\",\"scriptDesc\":\"近距离\"}",
       0.5
     ],
     [
@@ -1729,21 +1651,112 @@
       "Elimination",
       "别客气，再送你一程。",
       "No no. I insist.",
-      "{\"type\":\"scripted\",\"script\":\"Shutdown_Resurrected(AF43)\",\"scriptDesc\":\"敌人被复活后\"}",
+      "{\"type\":\"scripted\",\"script\":\"00AF43\",\"scriptDesc\":\"敌人被复活后\"}",
       0.5
     ],
     [
       "HeroQuote",
-      "00000006560C.0B2",
-      415244,
+      "000000065615.0B2",
+      415253,
       "widowmaker",
       "黑百合",
       null,
       "Elimination",
-      "支离破碎。",
-      "Shattered.",
-      "{\"type\":\"scripted\",\"script\":\"UltAssist_Blizzard(AA26)\",\"scriptDesc\":\"敌人被暴雪控制\"}",
+      "记得不要背对我。",
+      "Don't turn your back on me.",
+      "{\"type\":\"scripted\",\"script\":\"00B0A3\",\"scriptDesc\":\"从背后消灭\"}",
+      0.2
+    ],
+    [
+      "HeroQuote",
+      "00000000A262.0B2",
+      41570,
+      "widowmaker",
+      "黑百合",
+      null,
+      "Elimination",
+      "不是你的问题，是我。",
+      "It's not you, it's me.",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
+    ],
+    [
+      "HeroQuote",
+      "00000000A264.0B2",
+      41572,
+      "widowmaker",
+      "黑百合",
+      null,
+      "Elimination",
+      "如丝般完美。",
+      "Smooth as silk.",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000000A2FD.0B2",
+      41725,
+      "widowmaker",
+      "黑百合",
+      null,
+      "Elimination",
+      "（法语）：生即是死。",
+      "(French): 'Til death do us part.",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000000A300.0B2",
+      41728,
+      "widowmaker",
+      "黑百合",
+      null,
+      "Elimination",
+      "啊……疼吗？",
+      "Aww... did that hurt?",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000000B388.0B2",
+      45960,
+      "widowmaker",
+      "黑百合",
+      null,
+      "Elimination",
+      "（法语）：鲜血如黑百合般绽放。",
+      "(French): The widow's kiss.",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000021ECC.0B2",
+      138956,
+      "widowmaker",
+      "黑百合",
+      null,
+      "Elimination",
+      "真是完美。",
+      "A masterpiece.",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000021EBA.0B2",
+      138938,
+      "widowmaker",
+      "黑百合",
+      null,
+      "Elimination",
+      "漂亮。",
+      "(French): Magnificent.",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      0.5
     ],
     [
       "HeroQuote",
@@ -2015,7 +2028,7 @@
       "EnemiesAttacking",
       "小心左边。",
       "Watch your left.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2733\",\"scriptDesc\":\"敌人在左侧\"}",
+      "{\"type\":\"scripted\",\"script\":\"002733\",\"scriptDesc\":\"敌人在左侧\"}",
       null
     ],
     [
@@ -2028,7 +2041,7 @@
       "EnemiesAttacking",
       "在左边。",
       "On the left.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2733\",\"scriptDesc\":\"敌人在左侧\"}",
+      "{\"type\":\"scripted\",\"script\":\"002733\",\"scriptDesc\":\"敌人在左侧\"}",
       null
     ],
     [
@@ -2041,7 +2054,7 @@
       "EnemiesAttacking",
       "当心右边。",
       "Watch your right.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2734\",\"scriptDesc\":\"敌人在右侧\"}",
+      "{\"type\":\"scripted\",\"script\":\"002734\",\"scriptDesc\":\"敌人在右侧\"}",
       null
     ],
     [
@@ -2054,7 +2067,7 @@
       "EnemiesAttacking",
       "右边！",
       "On the right.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2734\",\"scriptDesc\":\"敌人在右侧\"}",
+      "{\"type\":\"scripted\",\"script\":\"002734\",\"scriptDesc\":\"敌人在右侧\"}",
       null
     ],
     [
@@ -2067,7 +2080,7 @@
       "EnemiesAttacking",
       "他们直接向你那儿冲过去了。",
       "They're coming straight at you.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2735\",\"scriptDesc\":\"敌人在前方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002735\",\"scriptDesc\":\"敌人在前方\"}",
       null
     ],
     [
@@ -2080,7 +2093,7 @@
       "EnemiesAttacking",
       "小心头上。",
       "Watch above you.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2736\",\"scriptDesc\":\"敌人在上方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002736\",\"scriptDesc\":\"敌人在上方\"}",
       null
     ],
     [
@@ -2093,7 +2106,7 @@
       "EnemiesAttacking",
       "在上面。",
       "Coming from above.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2736\",\"scriptDesc\":\"敌人在上方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002736\",\"scriptDesc\":\"敌人在上方\"}",
       null
     ],
     [
@@ -2106,7 +2119,7 @@
       "EnemiesAttacking",
       "敌人在后面。",
       "Enemy behind you.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2737\",\"scriptDesc\":\"敌人在后方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002737\",\"scriptDesc\":\"敌人在后方\"}",
       null
     ],
     [
@@ -2119,7 +2132,7 @@
       "EnemiesAttacking",
       "小心下面。",
       "Below you.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2738\",\"scriptDesc\":\"敌人在下方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002738\",\"scriptDesc\":\"敌人在下方\"}",
       null
     ],
     [
@@ -2509,7 +2522,7 @@
       "Health/LowHealthBreathStart",
       "（倒吸气）",
       "(gasps)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -2704,7 +2717,7 @@
       "HeroSelect",
       "一枪，一个。",
       "One shot, one kill.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -3757,7 +3770,7 @@
       "KillStreak",
       "啊，真美妙。",
       "(sighs) Music to my ears.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       0.5
     ],
     [
@@ -3770,7 +3783,7 @@
       "KillStreak",
       "我可以一整天都干这个。",
       "I could do this all day.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       0.5
     ],
     [
@@ -3783,7 +3796,7 @@
       "KillStreak",
       "太简单了。",
       "Too easy.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       0.5
     ],
     [
@@ -3796,7 +3809,7 @@
       "KillStreak",
       "漂亮。",
       "(French): Beautiful.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       0.5
     ],
     [
@@ -3809,7 +3822,7 @@
       "KillStreak",
       "完美。",
       "Sublime.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       0.5
     ],
     [
@@ -5283,6 +5296,19 @@
     ],
     [
       "HeroQuote",
+      "000000065614.0B2",
+      415252,
+      "widowmaker",
+      "黑百合",
+      null,
+      "MeleeEnemyKilledRemark",
+      "别给自己加戏了。",
+      "That's what I think of your theatrics.",
+      "{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}",
+      null
+    ],
+    [
+      "HeroQuote",
       "00000000A301.0B2",
       41729,
       "widowmaker",
@@ -5291,7 +5317,7 @@
       "MeleeEnemyKilledRemark",
       "业余。",
       "Amateur.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       0.5
     ],
     [
@@ -5304,7 +5330,7 @@
       "MeleeEnemyKilledRemark",
       "可耻。",
       "Shameful.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       0.5
     ],
     [
@@ -5317,7 +5343,7 @@
       "MeleeEnemyKilledRemark",
       "可怜。",
       "Pathetic.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       0.5
     ],
     [
@@ -5330,21 +5356,8 @@
       "MeleeEnemyKilledRemark",
       "啧，饶了我吧。",
       "(scoffs) Please.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       0.5
-    ],
-    [
-      "HeroQuote",
-      "000000065614.0B2",
-      415252,
-      "widowmaker",
-      "黑百合",
-      null,
-      "MeleeEnemyKilledRemark",
-      "别给自己加戏了。",
-      "That's what I think of your theatrics.",
-      "{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"}",
-      null
     ],
     [
       "HeroQuote",
@@ -5499,7 +5512,7 @@
       "NanoBoosted",
       "没人能阻止我了！",
       "I cannot be stopped!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -5512,7 +5525,7 @@
       "NanoBoosted",
       "我无人可挡！",
       "I am unstoppable!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -5525,7 +5538,7 @@
       "NanoBoosted",
       "我如同新生！",
       "I feel alive!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -6162,7 +6175,7 @@
       "OnFire",
       "我火力全开。",
       "I'm on fire.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -6175,7 +6188,7 @@
       "OnFire",
       "我火力全开！",
       "(French): I'm on fire!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -6188,7 +6201,7 @@
       "OnFire",
       "我似乎感觉到了什么……",
       "I almost feel something...",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       0.5
     ],
     [
@@ -7805,227 +7818,6 @@
     ],
     [
       "HeroQuote",
-      "00000005D546.0B2",
-      382278,
-      "widowmaker",
-      "黑百合",
-      null,
-      "PVE/Unknown",
-      "它们就要打穿渡轮了。",
-      "They have nearly breached the Ferry.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7329\",\"scriptDesc\":\"渡轮受到攻击\"}",
-      0.5
-    ],
-    [
-      "HeroQuote",
-      "00000005D547.0B2",
-      382279,
-      "widowmaker",
-      "黑百合",
-      null,
-      "PVE/Unknown",
-      "渡轮要撑不下去了。",
-      "The Ferry cannot hold for long.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7329\",\"scriptDesc\":\"渡轮受到攻击\"}",
-      0.5
-    ],
-    [
-      "HeroQuote",
-      "00000005D550.0B2",
-      382288,
-      "widowmaker",
-      "黑百合",
-      null,
-      "PVE/Unknown",
-      "渡轮遭到了攻击！",
-      "The Ferry is under attack!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7329\",\"scriptDesc\":\"渡轮受到攻击\"}",
-      0.5
-    ],
-    [
-      "HeroQuote",
-      "00000005D554.0B2",
-      382292,
-      "widowmaker",
-      "黑百合",
-      null,
-      "PVE/Unknown",
-      "敌人正在攻击渡轮！",
-      "Hostiles attacking the Ferry!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7329\",\"scriptDesc\":\"渡轮受到攻击\"}",
-      0.5
-    ],
-    [
-      "HeroQuote",
-      "00000005D555.0B2",
-      382293,
-      "widowmaker",
-      "黑百合",
-      null,
-      "PVE/Unknown",
-      "我们必须保护渡轮！",
-      "We must defend the Ferry!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7329\",\"scriptDesc\":\"渡轮受到攻击\"}",
-      0.5
-    ],
-    [
-      "HeroQuote",
-      "000000062BF1.0B2",
-      404465,
-      "widowmaker",
-      "黑百合",
-      null,
-      "PVE/Unknown",
-      "传输塔受到致命打击。",
-      "Uplink is taking critical shots.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "0000000643F6.0B2",
-      410614,
-      "widowmaker",
-      "黑百合",
-      null,
-      "PVE/Unknown",
-      "传输塔要倒了。",
-      "The Uplink is going to fall.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005D548.0B2",
-      382280,
-      "widowmaker",
-      "黑百合",
-      null,
-      "PVE/Unknown",
-      "我们不能失去传输塔！",
-      "We cannot lose the Uplink!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      0.5
-    ],
-    [
-      "HeroQuote",
-      "00000005D54A.0B2",
-      382282,
-      "widowmaker",
-      "黑百合",
-      null,
-      "PVE/Unknown",
-      "传输塔受损严重。全力还击！",
-      "The Uplink is compromised. Fight harder!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      0.5
-    ],
-    [
-      "HeroQuote",
-      "00000005D54D.0B2",
-      382285,
-      "widowmaker",
-      "黑百合",
-      null,
-      "PVE/Unknown",
-      "传输塔受到了攻击！",
-      "The Uplink is under fire!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      0.5
-    ],
-    [
-      "HeroQuote",
-      "00000005D54E.0B2",
-      382286,
-      "widowmaker",
-      "黑百合",
-      null,
-      "PVE/Unknown",
-      "他们正在攻击传输塔！",
-      "They attack the Uplink!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      0.5
-    ],
-    [
-      "HeroQuote",
-      "00000005D54F.0B2",
-      382287,
-      "widowmaker",
-      "黑百合",
-      null,
-      "PVE/Unknown",
-      "我们必须守住传输塔！",
-      "We must defend the Uplink!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      0.5
-    ],
-    [
-      "HeroQuote",
-      "00000005D541.0B2",
-      382273,
-      "widowmaker",
-      "黑百合",
-      null,
-      "PVE/Unknown",
-      "巨炮就要撑不下去了！",
-      "The cannon will not last much longer!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown81B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
-      0.5
-    ],
-    [
-      "HeroQuote",
-      "00000005D545.0B2",
-      382277,
-      "widowmaker",
-      "黑百合",
-      null,
-      "PVE/Unknown",
-      "巨炮就要被摧毁了！",
-      "The cannon is nearly destroyed!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown81B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
-      0.5
-    ],
-    [
-      "HeroQuote",
-      "00000005D556.0B2",
-      382294,
-      "widowmaker",
-      "黑百合",
-      null,
-      "PVE/Unknown",
-      "巨炮正遭受破坏！",
-      "The cannon is under attack!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown81B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
-      0.5
-    ],
-    [
-      "HeroQuote",
-      "00000005D557.0B2",
-      382295,
-      "widowmaker",
-      "黑百合",
-      null,
-      "PVE/Unknown",
-      "敌人正在攻击巨炮！",
-      "Hostiles attacking the cannon!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown81B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
-      0.5
-    ],
-    [
-      "HeroQuote",
-      "00000005D558.0B2",
-      382296,
-      "widowmaker",
-      "黑百合",
-      null,
-      "PVE/Unknown",
-      "他们正在攻击巨炮！",
-      "They are attacking the cannon!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown81B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
-      0.5
-    ],
-    [
-      "HeroQuote",
       "000000062BDA.0B2",
       404442,
       "widowmaker",
@@ -8034,7 +7826,7 @@
       "PVE/Unknown",
       "不能让敌人摧毁运载目标。",
       "Stop them from destroying the Payload.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown88E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
       null
     ],
     [
@@ -8047,7 +7839,7 @@
       "PVE/Unknown",
       "运载目标情况危急。",
       "The Payload's in critical condition.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown88E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
       null
     ],
     [
@@ -8060,7 +7852,7 @@
       "PVE/Unknown",
       "注意保护运载目标。",
       "Pay attention to the Payload.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown88E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
       null
     ],
     [
@@ -8073,8 +7865,229 @@
       "PVE/Unknown",
       "敌人在攻击运载目标。",
       "They're attacking the Payload.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown88E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
       null
+    ],
+    [
+      "HeroQuote",
+      "00000005D546.0B2",
+      382278,
+      "widowmaker",
+      "黑百合",
+      null,
+      "PVE/Unknown",
+      "它们就要打穿渡轮了。",
+      "They have nearly breached the Ferry.",
+      "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      0.5
+    ],
+    [
+      "HeroQuote",
+      "00000005D547.0B2",
+      382279,
+      "widowmaker",
+      "黑百合",
+      null,
+      "PVE/Unknown",
+      "渡轮要撑不下去了。",
+      "The Ferry cannot hold for long.",
+      "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      0.5
+    ],
+    [
+      "HeroQuote",
+      "00000005D550.0B2",
+      382288,
+      "widowmaker",
+      "黑百合",
+      null,
+      "PVE/Unknown",
+      "渡轮遭到了攻击！",
+      "The Ferry is under attack!",
+      "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      0.5
+    ],
+    [
+      "HeroQuote",
+      "00000005D554.0B2",
+      382292,
+      "widowmaker",
+      "黑百合",
+      null,
+      "PVE/Unknown",
+      "敌人正在攻击渡轮！",
+      "Hostiles attacking the Ferry!",
+      "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      0.5
+    ],
+    [
+      "HeroQuote",
+      "00000005D555.0B2",
+      382293,
+      "widowmaker",
+      "黑百合",
+      null,
+      "PVE/Unknown",
+      "我们必须保护渡轮！",
+      "We must defend the Ferry!",
+      "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      0.5
+    ],
+    [
+      "HeroQuote",
+      "000000062BF1.0B2",
+      404465,
+      "widowmaker",
+      "黑百合",
+      null,
+      "PVE/Unknown",
+      "传输塔受到致命打击。",
+      "Uplink is taking critical shots.",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "0000000643F6.0B2",
+      410614,
+      "widowmaker",
+      "黑百合",
+      null,
+      "PVE/Unknown",
+      "传输塔要倒了。",
+      "The Uplink is going to fall.",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005D548.0B2",
+      382280,
+      "widowmaker",
+      "黑百合",
+      null,
+      "PVE/Unknown",
+      "我们不能失去传输塔！",
+      "We cannot lose the Uplink!",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      0.5
+    ],
+    [
+      "HeroQuote",
+      "00000005D54A.0B2",
+      382282,
+      "widowmaker",
+      "黑百合",
+      null,
+      "PVE/Unknown",
+      "传输塔受损严重。全力还击！",
+      "The Uplink is compromised. Fight harder!",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      0.5
+    ],
+    [
+      "HeroQuote",
+      "00000005D54D.0B2",
+      382285,
+      "widowmaker",
+      "黑百合",
+      null,
+      "PVE/Unknown",
+      "传输塔受到了攻击！",
+      "The Uplink is under fire!",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      0.5
+    ],
+    [
+      "HeroQuote",
+      "00000005D54E.0B2",
+      382286,
+      "widowmaker",
+      "黑百合",
+      null,
+      "PVE/Unknown",
+      "他们正在攻击传输塔！",
+      "They attack the Uplink!",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      0.5
+    ],
+    [
+      "HeroQuote",
+      "00000005D54F.0B2",
+      382287,
+      "widowmaker",
+      "黑百合",
+      null,
+      "PVE/Unknown",
+      "我们必须守住传输塔！",
+      "We must defend the Uplink!",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      0.5
+    ],
+    [
+      "HeroQuote",
+      "00000005D541.0B2",
+      382273,
+      "widowmaker",
+      "黑百合",
+      null,
+      "PVE/Unknown",
+      "巨炮就要撑不下去了！",
+      "The cannon will not last much longer!",
+      "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
+      0.5
+    ],
+    [
+      "HeroQuote",
+      "00000005D545.0B2",
+      382277,
+      "widowmaker",
+      "黑百合",
+      null,
+      "PVE/Unknown",
+      "巨炮就要被摧毁了！",
+      "The cannon is nearly destroyed!",
+      "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
+      0.5
+    ],
+    [
+      "HeroQuote",
+      "00000005D556.0B2",
+      382294,
+      "widowmaker",
+      "黑百合",
+      null,
+      "PVE/Unknown",
+      "巨炮正遭受破坏！",
+      "The cannon is under attack!",
+      "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
+      0.5
+    ],
+    [
+      "HeroQuote",
+      "00000005D557.0B2",
+      382295,
+      "widowmaker",
+      "黑百合",
+      null,
+      "PVE/Unknown",
+      "敌人正在攻击巨炮！",
+      "Hostiles attacking the cannon!",
+      "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
+      0.5
+    ],
+    [
+      "HeroQuote",
+      "00000005D558.0B2",
+      382296,
+      "widowmaker",
+      "黑百合",
+      null,
+      "PVE/Unknown",
+      "他们正在攻击巨炮！",
+      "They are attacking the cannon!",
+      "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
+      0.5
     ],
     [
       "HeroQuote",
@@ -8086,7 +8099,7 @@
       "PVE/Unknown",
       "敌人在破坏修理站。",
       "They're damaging the Repair Station.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown94DB\",\"scriptDesc\":\"修理站受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"0094DB\",\"scriptDesc\":\"修理站受到攻击\"}",
       null
     ],
     [
@@ -8099,7 +8112,7 @@
       "PVE/Unknown",
       "修理站就要被摧毁了。",
       "The Repair Station's almost done for.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown94DB\",\"scriptDesc\":\"修理站受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"0094DB\",\"scriptDesc\":\"修理站受到攻击\"}",
       null
     ],
     [
@@ -8112,7 +8125,7 @@
       "PVE/Unknown",
       "修理站正遭到严重破坏。",
       "Repair Station's taking critical hits.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown94DB\",\"scriptDesc\":\"修理站受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"0094DB\",\"scriptDesc\":\"修理站受到攻击\"}",
       null
     ],
     [
@@ -8125,7 +8138,7 @@
       "PVE/Unknown",
       "修理站遭到了攻击。",
       "The Repair Station's getting hit.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown94DB\",\"scriptDesc\":\"修理站受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"0094DB\",\"scriptDesc\":\"修理站受到攻击\"}",
       null
     ],
     [
@@ -8138,7 +8151,7 @@
       "PVE/Unknown",
       "看好机器人，我们就能赢。",
       "Stay with the robot and we will win.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownAAD3\",\"scriptDesc\":\"加时期间敌方控制机器人\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00AAD3\",\"scriptDesc\":\"加时期间敌方控制机器人\",\"negative\":true}",
       null
     ],
     [
@@ -8151,7 +8164,7 @@
       "PVE/Unknown",
       "好戏要落幕了。不惜一切代价保护机器人。",
       "The grande finale. Protect the robot at all costs.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownAAD3\",\"scriptDesc\":\"加时期间敌方控制机器人\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00AAD3\",\"scriptDesc\":\"加时期间敌方控制机器人\",\"negative\":true}",
       null
     ],
     [
@@ -8507,93 +8520,15 @@
     ],
     [
       "HeroQuote",
-      "00000000A2E8.0B2",
-      41704,
+      "000000065608.0B2",
+      415240,
       "widowmaker",
       "黑百合",
       null,
       "Respawn",
-      "上膛完毕，锁定目标。",
-      "Locked and loaded.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000A2E9.0B2",
-      41705,
-      "widowmaker",
-      "黑百合",
-      null,
-      "Respawn",
-      "我们刚才讲到哪儿了？",
-      "Now, where were we?",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000A325.0B2",
-      41765,
-      "widowmaker",
-      "黑百合",
-      null,
-      "Respawn",
-      "再试一次吧。",
-      "Let's try that again.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000A326.0B2",
-      41766,
-      "widowmaker",
-      "黑百合",
-      null,
-      "Respawn",
-      "（法语）：生活就是这样。",
-      "(French): That's life.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000A327.0B2",
-      41767,
-      "widowmaker",
-      "黑百合",
-      null,
-      "Respawn",
-      "我又来了。",
-      "Here I am.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000021EB8.0B2",
-      138936,
-      "widowmaker",
-      "黑百合",
-      null,
-      "Respawn",
-      "我注意到你了。",
-      "Now you have my attention.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000043BA8.0B2",
-      277416,
-      "widowmaker",
-      "黑百合",
-      null,
-      "Respawn",
-      "我说到哪儿了？",
-      "(French): Where was I?",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "无所谓，反正他们都死了。",
+      "And yet, we wiped them out.",
+      "{\"type\":\"scripted\",\"script\":\"00B401\",\"scriptDesc\":\"敌方团灭后复生\"}",
       null
     ],
     [
@@ -8606,20 +8541,7 @@
       "Respawn",
       "我拉了几个垫背的？够多了。",
       "How many did I take with me? Enough.",
-      "{\"type\":\"scripted\",\"script\":\"RespawnAfterKillstreak(B404)\",\"scriptDesc\":\"连杀后复生\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000065608.0B2",
-      415240,
-      "widowmaker",
-      "黑百合",
-      null,
-      "Respawn",
-      "无所谓，反正他们都死了。",
-      "And yet, we wiped them out.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownB401\",\"scriptDesc\":\"敌方团灭后复生\"}",
+      "{\"type\":\"scripted\",\"script\":\"00B404\",\"scriptDesc\":\"连杀后复生\"}",
       null
     ],
     [
@@ -8632,7 +8554,98 @@
       "Respawn",
       "他哥哥当年下手就应该再干脆点。",
       "His brother should've finished the job.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownB4D6\",\"scriptDesc\":\"被闪反弹消灭\"}",
+      "{\"type\":\"scripted\",\"script\":\"00B4D6\",\"scriptDesc\":\"被闪反弹消灭\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000000A2E8.0B2",
+      41704,
+      "widowmaker",
+      "黑百合",
+      null,
+      "Respawn",
+      "上膛完毕，锁定目标。",
+      "Locked and loaded.",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000000A2E9.0B2",
+      41705,
+      "widowmaker",
+      "黑百合",
+      null,
+      "Respawn",
+      "我们刚才讲到哪儿了？",
+      "Now, where were we?",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000000A325.0B2",
+      41765,
+      "widowmaker",
+      "黑百合",
+      null,
+      "Respawn",
+      "再试一次吧。",
+      "Let's try that again.",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000000A326.0B2",
+      41766,
+      "widowmaker",
+      "黑百合",
+      null,
+      "Respawn",
+      "（法语）：生活就是这样。",
+      "(French): That's life.",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000000A327.0B2",
+      41767,
+      "widowmaker",
+      "黑百合",
+      null,
+      "Respawn",
+      "我又来了。",
+      "Here I am.",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000021EB8.0B2",
+      138936,
+      "widowmaker",
+      "黑百合",
+      null,
+      "Respawn",
+      "我注意到你了。",
+      "Now you have my attention.",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000043BA8.0B2",
+      277416,
+      "widowmaker",
+      "黑百合",
+      null,
+      "Respawn",
+      "我说到哪儿了？",
+      "(French): Where was I?",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -9243,7 +9256,7 @@
       "Scream",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -9256,7 +9269,7 @@
       "Scream",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -9269,7 +9282,7 @@
       "Scream",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -9516,7 +9529,7 @@
       "TeamKill",
       "敌人被消灭了。",
       "The enemy team is down.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -10101,7 +10114,7 @@
       "Ultimate",
       "你好！我看到你了哦！",
       "Hello! I can see you!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -10114,7 +10127,7 @@
       "Ultimate",
       "穿墙透视初始化完成。",
       "Wallhacks initialized.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -10127,7 +10140,7 @@
       "Ultimate",
       "我在做爆米花呢。",
       "I'm making popcorn.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -10140,7 +10153,7 @@
       "Ultimate",
       "你好！我看到你了哦！",
       "Wallhacks initialized.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -10153,7 +10166,7 @@
       "Ultimate",
       "我在做爆米花呢。",
       "I'm making popcorn.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -10756,19 +10769,6 @@
     ],
     [
       "HeroQuote",
-      "000000063F96.0B2",
-      409494,
-      "widowmaker",
-      "黑百合",
-      null,
-      "Unknown/11E3.078",
-      "再远的地方，也有我的捕网。",
-      "My web reaches far.",
-      "{\"type\":\"scripted\",\"script\":\"LongDistance(A809)\",\"scriptDesc\":\"远距离\"}",
-      null
-    ],
-    [
-      "HeroQuote",
       "000000063F95.0B2",
       409493,
       "widowmaker",
@@ -10777,7 +10777,7 @@
       "Unknown/11E3.078",
       "你的光辉时刻……蒙上了污点。",
       "Your moment of triumph... tainted.",
-      "{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}",
       null
     ],
     [
@@ -10790,7 +10790,20 @@
       "Unknown/11E3.078",
       "你再怎么逃，也逃不脱这片毒雾。",
       "You can run, but the venom will catch you.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownA6FE\",\"scriptDesc\":\"敌人高速移动\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A6FE\",\"scriptDesc\":\"敌人高速移动\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000063F96.0B2",
+      409494,
+      "widowmaker",
+      "黑百合",
+      null,
+      "Unknown/11E3.078",
+      "再远的地方，也有我的捕网。",
+      "My web reaches far.",
+      "{\"type\":\"scripted\",\"script\":\"00A809\",\"scriptDesc\":\"远距离\"}",
       null
     ],
     [
@@ -11349,7 +11362,7 @@
       "Unknown/494.078",
       "看到你了。",
       "(French): In my sights.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -11362,7 +11375,7 @@
       "Unknown/494.078",
       "（法语）：我看见你了。",
       "(French): I see you.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -11375,7 +11388,7 @@
       "Unknown/494.078",
       "我看到你了。",
       "I see you.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -11388,7 +11401,7 @@
       "Unknown/494.078",
       "啊，找到你了……",
       "Ah, there you are...",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -11401,7 +11414,7 @@
       "Unknown/494.078",
       "啊，你在那儿呢……",
       "(French): Ah, there you are...",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -11609,7 +11622,7 @@
       "Unknown/89.078",
       "步入我的陷阱。",
       "(French): The widow is spinning her web.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -11622,7 +11635,7 @@
       "Unknown/89.078",
       "我给你的礼物。",
       "My gift to you.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -11635,7 +11648,7 @@
       "Unknown/89.078",
       "留神脚下。",
       "Watch your step.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -11648,7 +11661,7 @@
       "Unknown/89.078",
       "啊，疼吗？",
       "Aw, did that sting?",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -11661,7 +11674,7 @@
       "Unknown/89.078",
       "是不是很疼？",
       "(French): Did that sting?",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -11674,7 +11687,7 @@
       "Unknown/89.078",
       "当心脚下。",
       "(French): Mind your step.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -11687,7 +11700,7 @@
       "Unknown/89.078",
       "这是给你的小礼物。",
       "(French): (laughs) A gift for you.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -11830,7 +11843,7 @@
       "Unknown/B5.078",
       "（叹气）",
       "(sighs)",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -11843,7 +11856,7 @@
       "Unknown/B5.078",
       "（叹气）",
       "(sighs)",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -11856,7 +11869,7 @@
       "Unknown/B5.078",
       "该死。",
       "Damn.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -11986,7 +11999,7 @@
       "Unknown/D4.078",
       "出来吧……",
       "Come out...",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -11999,7 +12012,7 @@
       "Unknown/D4.078",
       "快出来吧……",
       "(French): Come out...",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -13260,7 +13273,7 @@
       "Elimination",
       "魔法洞穿要害。",
       "A magic touch.",
-      "{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\"}",
+      "{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\"}",
       null
     ],
     [
@@ -14352,7 +14365,7 @@
       "Elimination",
       "没想到你就这点本事，赫菲斯托斯。",
       "I expected better from you, Hephaestusss.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"托比昂\"},{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"托比昂\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
       null
     ],
     [

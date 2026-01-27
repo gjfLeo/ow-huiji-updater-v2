@@ -663,7 +663,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -676,7 +676,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -689,7 +689,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -702,7 +702,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -715,7 +715,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -728,7 +728,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -741,7 +741,7 @@
       "DeathCharged",
       "（遭受重压的声音）",
       "(crushed sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -754,7 +754,7 @@
       "DeathCharged",
       "（遭受重压的声音）",
       "(crushed sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -767,7 +767,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -780,7 +780,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -793,7 +793,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -806,7 +806,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -1157,7 +1157,7 @@
       "Elimination",
       "天上你也管？可笑。",
       "Sky-cops? What a joke.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"法老之鹰\"},{\"type\":\"scripted\",\"script\":\"EnemyInAir(9268)\",\"scriptDesc\":\"敌人在空中\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"法老之鹰\"},{\"type\":\"scripted\",\"script\":\"009268\",\"scriptDesc\":\"敌人在空中\"}]}",
       null
     ],
     [
@@ -1170,7 +1170,7 @@
       "Elimination",
       "正义把账算你头上了？",
       "Justice catchin' up to you?",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"法老之鹰\"},{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"法老之鹰\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
       null
     ],
     [
@@ -1183,7 +1183,7 @@
       "Elimination",
       "哈，别想捆住我！",
       "(laugh) Cannae tie me down!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"毛加\"},{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"毛加\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
       null
     ],
     [
@@ -1196,7 +1196,7 @@
       "Elimination",
       "绕着你跑圈呢！",
       "Running circles around you!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"毛加\"},{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"毛加\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
       null
     ],
     [
@@ -1222,7 +1222,7 @@
       "Elimination",
       "总是高高在上的，也该下来了。",
       "Bout time you fell off that pedestal.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"天使\"},{\"type\":\"scripted\",\"script\":\"InAir(A776)\",\"scriptDesc\":\"在空中时\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"天使\"},{\"type\":\"scripted\",\"script\":\"00A776\",\"scriptDesc\":\"在空中时\"}]}",
       null
     ],
     [
@@ -1266,45 +1266,6 @@
     ],
     [
       "HeroQuote",
-      "0000000682E3.0B2",
-      426723,
-      "hazard",
-      "骇灾",
-      null,
-      "Elimination",
-      "还想跑，你个怂包！",
-      "Quit running, you gutless gowk!",
-      "{\"type\":\"scripted\",\"script\":\"FromBehind(B0A3)\",\"scriptDesc\":\"从背后消灭\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "0000000684D6.0B2",
-      427222,
-      "hazard",
-      "骇灾",
-      null,
-      "Elimination",
-      "我身上连道刮痕都没留！",
-      "And not a scratch on me!",
-      "{\"type\":\"scripted\",\"script\":\"LowHealth(A81C)\",\"scriptDesc\":\"低生命值时\",\"negative\":true}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "0000000684C7.0B2",
-      427207,
-      "hazard",
-      "骇灾",
-      null,
-      "Elimination",
-      "吼吼，差一点。",
-      "Ohoh, close one.",
-      "{\"type\":\"scripted\",\"script\":\"LowHealth(A81C)\",\"scriptDesc\":\"低生命值时\"}",
-      null
-    ],
-    [
-      "HeroQuote",
       "000000067672.0B2",
       423538,
       "hazard",
@@ -1313,7 +1274,7 @@
       "Elimination",
       "看来你的算盘打空了。",
       "Looks like yer baw's on the slates.",
-      "{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}",
       0.8
     ],
     [
@@ -1326,7 +1287,46 @@
       "Elimination",
       "你能消停会儿吗？",
       "Hold still, would ye?",
-      "{\"type\":\"scripted\",\"script\":\"UnknownA70E\",\"scriptDesc\":\"打断敌人位移技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A70E\",\"scriptDesc\":\"打断敌人位移技能\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "0000000684D6.0B2",
+      427222,
+      "hazard",
+      "骇灾",
+      null,
+      "Elimination",
+      "我身上连道刮痕都没留！",
+      "And not a scratch on me!",
+      "{\"type\":\"scripted\",\"script\":\"00A81C\",\"scriptDesc\":\"低生命值时\",\"negative\":true}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "0000000684C7.0B2",
+      427207,
+      "hazard",
+      "骇灾",
+      null,
+      "Elimination",
+      "吼吼，差一点。",
+      "Ohoh, close one.",
+      "{\"type\":\"scripted\",\"script\":\"00A81C\",\"scriptDesc\":\"低生命值时\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "0000000682E3.0B2",
+      426723,
+      "hazard",
+      "骇灾",
+      null,
+      "Elimination",
+      "还想跑，你个怂包！",
+      "Quit running, you gutless gowk!",
+      "{\"type\":\"scripted\",\"script\":\"00B0A3\",\"scriptDesc\":\"从背后消灭\"}",
       null
     ],
     [
@@ -1833,7 +1833,7 @@
       "Health/LowHealthBreathStart",
       "（倒吸气）",
       "(gasps)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -3450,19 +3450,6 @@
     ],
     [
       "HeroQuote",
-      "0000000683CE.0B2",
-      426958,
-      "hazard",
-      "骇灾",
-      null,
-      "MatchTalk",
-      "这天跟见了鬼一样。",
-      "Lookin' awful dreich out there.",
-      "{\"type\":\"scripted\",\"script\":\"MapRaining(B87D)\",\"scriptDesc\":\"在雨天地图\"}",
-      null
-    ],
-    [
-      "HeroQuote",
       "000000069300.0B2",
       430848,
       "hazard",
@@ -3471,7 +3458,20 @@
       "MatchTalk",
       "大晴天是吧？我来变个天。",
       "Clear skies? I'll change that.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownB87B\",\"scriptDesc\":\"在白天/晴天地图\"}",
+      "{\"type\":\"scripted\",\"script\":\"00B87B\",\"scriptDesc\":\"在白天/晴天地图\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "0000000683CE.0B2",
+      426958,
+      "hazard",
+      "骇灾",
+      null,
+      "MatchTalk",
+      "这天跟见了鬼一样。",
+      "Lookin' awful dreich out there.",
+      "{\"type\":\"scripted\",\"script\":\"00B87D\",\"scriptDesc\":\"在雨天地图\"}",
       null
     ],
     [
@@ -6357,7 +6357,7 @@
       "Scream",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -6370,7 +6370,7 @@
       "Scream",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -6383,7 +6383,7 @@
       "Scream",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -7202,7 +7202,7 @@
       "Ultimate",
       "谁想做个针灸？",
       "Who wants a stick and poke?",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -7215,7 +7215,7 @@
       "Ultimate",
       "举把雨伞吧！",
       "Bring an umbrella!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -7228,7 +7228,7 @@
       "Ultimate",
       "谁想做个针灸？",
       "Who wants a stick and poke?",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -7670,7 +7670,7 @@
       "Unknown/1155.078",
       "喂，我把他们都钉住了！",
       "Oi, I had them pinned!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownEA59\",\"scriptDesc\":\"终极技能配合团灭\"}",
+      "{\"type\":\"scripted\",\"script\":\"00EA59\",\"scriptDesc\":\"终极技能配合团灭\"}",
       null
     ],
     [
@@ -8164,7 +8164,7 @@
       "Unknown/159E.078",
       "那家伙的水平还真不赖。",
       "That targeting? State-of-the-art.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"scripted\",\"script\":\"UnknownA6FE\",\"scriptDesc\":\"敌人高速移动\"},{\"type\":\"scripted\",\"script\":\"Shutdown_Leaped(A753)\",\"scriptDesc\":\"敌人跳跃\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A6FE\",\"scriptDesc\":\"敌人高速移动\"},{\"type\":\"scripted\",\"script\":\"00A753\",\"scriptDesc\":\"敌人跳跃\"}]}",
       null
     ],
     [
@@ -8177,7 +8177,7 @@
       "Unknown/159E.078",
       "这刺你躲不开吧。",
       "Cannae hide from the spikes.",
-      "{\"type\":\"scripted\",\"script\":\"Shutdown_SombraStealth(A788)\",\"scriptDesc\":\"敌方黑影潜行\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A788\",\"scriptDesc\":\"敌方黑影潜行\"}",
       null
     ],
     [
@@ -8268,7 +8268,7 @@
       "Unknown/159F.078",
       "逮到你了！",
       "Caught you!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownA6FE\",\"scriptDesc\":\"敌人高速移动\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A6FE\",\"scriptDesc\":\"敌人高速移动\"}",
       null
     ],
     [

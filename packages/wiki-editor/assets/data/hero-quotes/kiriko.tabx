@@ -546,7 +546,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -559,7 +559,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -572,7 +572,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -585,7 +585,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -598,7 +598,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -611,7 +611,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -624,7 +624,7 @@
       "DeathCharged",
       "（遭受重压的声音）",
       "(crushed sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -637,7 +637,7 @@
       "DeathCharged",
       "（遭受重压的声音）",
       "(crushed sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -650,7 +650,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -663,7 +663,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -676,7 +676,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -689,7 +689,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -1071,32 +1071,6 @@
     ],
     [
       "HeroQuote",
-      "0000000642A0.0B2",
-      410272,
-      "kiriko",
-      "雾子",
-      null,
-      "Elimination",
-      "这得有多远啊？",
-      "How far was that?",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"LongDistance(A809)\",\"scriptDesc\":\"远距离\"},{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\"}]}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000064274.0B2",
-      410228,
-      "kiriko",
-      "雾子",
-      null,
-      "Elimination",
-      "等你醒了，记得向安娜道歉。",
-      "Apologize to Ana when you wake up.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"UltShutdown_NanoBoosted(A697)\",\"scriptDesc\":\"敌人被纳米激素强化\"},{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\"}]}",
-      null
-    ],
-    [
-      "HeroQuote",
       "00000006429D.0B2",
       410269,
       "kiriko",
@@ -1105,7 +1079,7 @@
       "Elimination",
       "抓到你了。",
       "Found you.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"狂鼠\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"狂鼠\"}]}",
       null
     ],
     [
@@ -1118,7 +1092,7 @@
       "Elimination",
       "抱歉，我还没结束呢。",
       "Sorry, I'm not done yet.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"索杰恩\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"索杰恩\"}]}",
       null
     ],
     [
@@ -1131,7 +1105,7 @@
       "Elimination",
       "（日语）：我可不同意！",
       "(Japanese): I won't allow that!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"源氏\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"源氏\"}]}",
       0.3
     ],
     [
@@ -1144,20 +1118,33 @@
       "Elimination",
       "呵，真了不起。",
       "(scoff) Big deal.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"源氏\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"源氏\"}]}",
       0.3
     ],
     [
       "HeroQuote",
-      "00000006278E.0B2",
-      403342,
+      "000000064274.0B2",
+      410228,
       "kiriko",
       "雾子",
       null,
       "Elimination",
-      "帅气的一击。",
-      "That had some style.",
-      "{\"type\":\"nested\",\"total\":3,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\"},{\"type\":\"scripted\",\"script\":\"InAir(A776)\",\"scriptDesc\":\"在空中时\"},{\"type\":\"scripted\",\"script\":\"LongDistance(A809)\",\"scriptDesc\":\"远距离\"}]}",
+      "等你醒了，记得向安娜道歉。",
+      "Apologize to Ana when you wake up.",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A697\",\"scriptDesc\":\"敌人被纳米激素强化\"},{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\"}]}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "0000000642A0.0B2",
+      410272,
+      "kiriko",
+      "雾子",
+      null,
+      "Elimination",
+      "这得有多远啊？",
+      "How far was that?",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A809\",\"scriptDesc\":\"远距离\"},{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\"}]}",
       null
     ],
     [
@@ -1170,7 +1157,20 @@
       "Elimination",
       "年轻人的反应就是这么快。",
       "That's youthful reflexes for you.",
-      "{\"type\":\"nested\",\"total\":3,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\"},{\"type\":\"scripted\",\"script\":\"Melee(A752)\",\"scriptDesc\":\"近身攻击\"},{\"type\":\"scripted\",\"script\":\"FastMoving(A6FC)\",\"scriptDesc\":\"高速移动时\"}]}",
+      "{\"type\":\"nested\",\"total\":3,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\"},{\"type\":\"scripted\",\"script\":\"00A752\",\"scriptDesc\":\"近身攻击\"},{\"type\":\"scripted\",\"script\":\"00A6FC\",\"scriptDesc\":\"高速移动时\"}]}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006278E.0B2",
+      403342,
+      "kiriko",
+      "雾子",
+      null,
+      "Elimination",
+      "帅气的一击。",
+      "That had some style.",
+      "{\"type\":\"nested\",\"total\":3,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\"},{\"type\":\"scripted\",\"script\":\"00A776\",\"scriptDesc\":\"在空中时\"},{\"type\":\"scripted\",\"script\":\"00A809\",\"scriptDesc\":\"远距离\"}]}",
       null
     ],
     [
@@ -1183,7 +1183,7 @@
       "Elimination",
       "我还以为你才是狙击手。",
       "I thought you were the sniper?",
-      "{\"type\":\"nested\",\"total\":3,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"黑百合\"},{\"type\":\"toHero\",\"hero\":\"安娜\"},{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\"}]}",
+      "{\"type\":\"nested\",\"total\":3,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"黑百合\"},{\"type\":\"toHero\",\"hero\":\"安娜\"},{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\"}]}",
       0.8
     ],
     [
@@ -1196,7 +1196,7 @@
       "Elimination",
       "这种事还需要瞄准镜吗？",
       "You really need a scope to do that?",
-      "{\"type\":\"nested\",\"total\":3,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"黑百合\"},{\"type\":\"toHero\",\"hero\":\"安娜\"},{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\"}]}",
+      "{\"type\":\"nested\",\"total\":3,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"黑百合\"},{\"type\":\"toHero\",\"hero\":\"安娜\"},{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\"}]}",
       0.8
     ],
     [
@@ -1214,32 +1214,6 @@
     ],
     [
       "HeroQuote",
-      "00000005EB9C.0B2",
-      387996,
-      "kiriko",
-      "雾子",
-      null,
-      "Elimination",
-      "欢迎回到地面。",
-      "Welcome back to earth.",
-      "{\"type\":\"scripted\",\"script\":\"EnemyInAir(9268)\",\"scriptDesc\":\"敌人在空中\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005EB7E.0B2",
-      387966,
-      "kiriko",
-      "雾子",
-      null,
-      "Elimination",
-      "你以为在天上就没事了？",
-      "Did you think you were safe up there?",
-      "{\"type\":\"scripted\",\"script\":\"EnemyInAir(9268)\",\"scriptDesc\":\"敌人在空中\"}",
-      0.8
-    ],
-    [
-      "HeroQuote",
       "00000005EB69.0B2",
       387945,
       "kiriko",
@@ -1248,7 +1222,7 @@
       "Elimination",
       "（轻笑）",
       "(chuckle)",
-      "{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\"}",
+      "{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\"}",
       0.2
     ],
     [
@@ -1261,7 +1235,7 @@
       "Elimination",
       "你不该把脑袋露出来的。",
       "Shouldn't have put your head there.",
-      "{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\"}",
+      "{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\"}",
       0.2
     ],
     [
@@ -1274,7 +1248,7 @@
       "Elimination",
       "直击要害。",
       "That's the spot.",
-      "{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\"}",
+      "{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\"}",
       0.2
     ],
     [
@@ -1287,8 +1261,34 @@
       "Elimination",
       "这次学到了什么教训？",
       "And what did we learn?",
-      "{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\"}",
+      "{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\"}",
       0.2
+    ],
+    [
+      "HeroQuote",
+      "00000005EB9C.0B2",
+      387996,
+      "kiriko",
+      "雾子",
+      null,
+      "Elimination",
+      "欢迎回到地面。",
+      "Welcome back to earth.",
+      "{\"type\":\"scripted\",\"script\":\"009268\",\"scriptDesc\":\"敌人在空中\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005EB7E.0B2",
+      387966,
+      "kiriko",
+      "雾子",
+      null,
+      "Elimination",
+      "你以为在天上就没事了？",
+      "Did you think you were safe up there?",
+      "{\"type\":\"scripted\",\"script\":\"009268\",\"scriptDesc\":\"敌人在空中\"}",
+      0.8
     ],
     [
       "HeroQuote",
@@ -1300,33 +1300,7 @@
       "Elimination",
       "这下没法再乱撞了吧。",
       "Not \"in charge\" any more.",
-      "{\"type\":\"scripted\",\"script\":\"Shutdown_ReinhardtCharge(92A4)\",\"scriptDesc\":\"敌方莱因哈特冲锋\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000006541C.0B2",
-      414748,
-      "kiriko",
-      "雾子",
-      null,
-      "Elimination",
-      "这下你就别再起来了。",
-      "This time, you might want to stay down.",
-      "{\"type\":\"scripted\",\"script\":\"Shutdown_Resurrected(AF43)\",\"scriptDesc\":\"敌人被复活后\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000064273.0B2",
-      410227,
-      "kiriko",
-      "雾子",
-      null,
-      "Elimination",
-      "我感受到了你的存在。",
-      "I felt your presence.",
-      "{\"type\":\"scripted\",\"script\":\"Shutdown_SombraStealth(A788)\",\"scriptDesc\":\"敌方黑影潜行\"}",
+      "{\"type\":\"scripted\",\"script\":\"0092A4\",\"scriptDesc\":\"敌方莱因哈特冲锋\"}",
       null
     ],
     [
@@ -1339,7 +1313,7 @@
       "Elimination",
       "呵，你没戏。",
       "Yeah, no.",
-      "{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}",
       null
     ],
     [
@@ -1352,7 +1326,7 @@
       "Elimination",
       "你简直像是在找死。",
       "It's like you wanted to die.",
-      "{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}",
       null
     ],
     [
@@ -1365,8 +1339,34 @@
       "Elimination",
       "哈哈，嗖！",
       "(Japanese): Zoom!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownA6FE\",\"scriptDesc\":\"敌人高速移动\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A6FE\",\"scriptDesc\":\"敌人高速移动\"}",
       0.7
+    ],
+    [
+      "HeroQuote",
+      "000000064273.0B2",
+      410227,
+      "kiriko",
+      "雾子",
+      null,
+      "Elimination",
+      "我感受到了你的存在。",
+      "I felt your presence.",
+      "{\"type\":\"scripted\",\"script\":\"00A788\",\"scriptDesc\":\"敌方黑影潜行\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006541C.0B2",
+      414748,
+      "kiriko",
+      "雾子",
+      null,
+      "Elimination",
+      "这下你就别再起来了。",
+      "This time, you might want to stay down.",
+      "{\"type\":\"scripted\",\"script\":\"00AF43\",\"scriptDesc\":\"敌人被复活后\"}",
+      null
     ],
     [
       "HeroQuote",
@@ -1417,7 +1417,7 @@
       "EnemiesAttacking",
       "敌人在左边！",
       "They're on the left!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2733\",\"scriptDesc\":\"敌人在左侧\"}",
+      "{\"type\":\"scripted\",\"script\":\"002733\",\"scriptDesc\":\"敌人在左侧\"}",
       null
     ],
     [
@@ -1430,7 +1430,7 @@
       "EnemiesAttacking",
       "在左边！",
       "On your left!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2733\",\"scriptDesc\":\"敌人在左侧\"}",
+      "{\"type\":\"scripted\",\"script\":\"002733\",\"scriptDesc\":\"敌人在左侧\"}",
       null
     ],
     [
@@ -1443,7 +1443,7 @@
       "EnemiesAttacking",
       "敌人在右边！",
       "They're on the right!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2734\",\"scriptDesc\":\"敌人在右侧\"}",
+      "{\"type\":\"scripted\",\"script\":\"002734\",\"scriptDesc\":\"敌人在右侧\"}",
       null
     ],
     [
@@ -1456,7 +1456,7 @@
       "EnemiesAttacking",
       "在右边！",
       "On the right!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2734\",\"scriptDesc\":\"敌人在右侧\"}",
+      "{\"type\":\"scripted\",\"script\":\"002734\",\"scriptDesc\":\"敌人在右侧\"}",
       null
     ],
     [
@@ -1469,7 +1469,7 @@
       "EnemiesAttacking",
       "敌人冲我们来了。",
       "Coming right at us.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2735\",\"scriptDesc\":\"敌人在前方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002735\",\"scriptDesc\":\"敌人在前方\"}",
       null
     ],
     [
@@ -1482,7 +1482,7 @@
       "EnemiesAttacking",
       "前面有敌人！",
       "Enemies ahead!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2735\",\"scriptDesc\":\"敌人在前方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002735\",\"scriptDesc\":\"敌人在前方\"}",
       null
     ],
     [
@@ -1495,7 +1495,7 @@
       "EnemiesAttacking",
       "在上面！",
       "Above us!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2736\",\"scriptDesc\":\"敌人在上方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002736\",\"scriptDesc\":\"敌人在上方\"}",
       null
     ],
     [
@@ -1508,7 +1508,7 @@
       "EnemiesAttacking",
       "上面有敌人！",
       "They're overhead!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2736\",\"scriptDesc\":\"敌人在上方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002736\",\"scriptDesc\":\"敌人在上方\"}",
       null
     ],
     [
@@ -1521,7 +1521,7 @@
       "EnemiesAttacking",
       "当心身后！",
       "Behind you!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2737\",\"scriptDesc\":\"敌人在后方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002737\",\"scriptDesc\":\"敌人在后方\"}",
       null
     ],
     [
@@ -1534,7 +1534,7 @@
       "EnemiesAttacking",
       "注意背后！",
       "Watch behind you!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2737\",\"scriptDesc\":\"敌人在后方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002737\",\"scriptDesc\":\"敌人在后方\"}",
       null
     ],
     [
@@ -1547,7 +1547,7 @@
       "EnemiesAttacking",
       "敌人在下面！",
       "They're below us!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2738\",\"scriptDesc\":\"敌人在下方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002738\",\"scriptDesc\":\"敌人在下方\"}",
       null
     ],
     [
@@ -1560,7 +1560,7 @@
       "EnemiesAttacking",
       "看下面！",
       "Down there!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2738\",\"scriptDesc\":\"敌人在下方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002738\",\"scriptDesc\":\"敌人在下方\"}",
       null
     ],
     [
@@ -1781,7 +1781,7 @@
       "Health/LowHealthBreathStart",
       "（倒吸气）",
       "(gasps)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -3796,7 +3796,7 @@
       "MeleeEnemyKilledRemark",
       "休想！",
       "Nope!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"FastMoving(A6FC)\",\"scriptDesc\":\"高速移动时\"},{\"type\":\"scripted\",\"script\":\"Melee(A752)\",\"scriptDesc\":\"近身攻击\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A6FC\",\"scriptDesc\":\"高速移动时\"},{\"type\":\"scripted\",\"script\":\"00A752\",\"scriptDesc\":\"近身攻击\"}]}",
       null
     ],
     [
@@ -5179,162 +5179,6 @@
     ],
     [
       "HeroQuote",
-      "000000069B54.0B2",
-      432980,
-      "kiriko",
-      "雾子",
-      null,
-      "PVE/Unknown",
-      "保护渡轮！",
-      "Protect the Ferry!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7329\",\"scriptDesc\":\"渡轮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000069B56.0B2",
-      432982,
-      "kiriko",
-      "雾子",
-      null,
-      "PVE/Unknown",
-      "渡轮遭到了攻击！",
-      "The Ferry is taking damage!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7329\",\"scriptDesc\":\"渡轮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000069B63.0B2",
-      432995,
-      "kiriko",
-      "雾子",
-      null,
-      "PVE/Unknown",
-      "渡轮马上就要失守了！",
-      "The Ferry is about to be breached!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7329\",\"scriptDesc\":\"渡轮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000069B66.0B2",
-      432998,
-      "kiriko",
-      "雾子",
-      null,
-      "PVE/Unknown",
-      "渡轮撑不了多久了！",
-      "The Ferry can't last much longer!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7329\",\"scriptDesc\":\"渡轮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "0000000692D4.0B2",
-      430804,
-      "kiriko",
-      "雾子",
-      null,
-      "PVE/Unknown",
-      "传输塔遭到攻击了！",
-      "The Uplink is being attacked!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "0000000692D6.0B2",
-      430806,
-      "kiriko",
-      "雾子",
-      null,
-      "PVE/Unknown",
-      "他们正在攻击传输塔！",
-      "They're attacking the Uplink!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000069B62.0B2",
-      432994,
-      "kiriko",
-      "雾子",
-      null,
-      "PVE/Unknown",
-      "传输塔快要撑不住了！",
-      "The Uplink is failing!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000069B65.0B2",
-      432997,
-      "kiriko",
-      "雾子",
-      null,
-      "PVE/Unknown",
-      "传输塔不能再受损了！",
-      "The Uplink won't take much more!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000069B55.0B2",
-      432981,
-      "kiriko",
-      "雾子",
-      null,
-      "PVE/Unknown",
-      "巨炮被袭击了！",
-      "The Cannon's under fire!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown81B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000069B58.0B2",
-      432984,
-      "kiriko",
-      "雾子",
-      null,
-      "PVE/Unknown",
-      "敌人在攻击巨炮！",
-      "They're attacking the Cannon!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown81B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000069B59.0B2",
-      432985,
-      "kiriko",
-      "雾子",
-      null,
-      "PVE/Unknown",
-      "巨炮就要被摧毁了！",
-      "The Cannon's about to be destroyed!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown81B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000069B5F.0B2",
-      432991,
-      "kiriko",
-      "雾子",
-      null,
-      "PVE/Unknown",
-      "巨炮严重受损！",
-      "The Cannon is severely damaged!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown81B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
       "000000069B53.0B2",
       432979,
       "kiriko",
@@ -5343,7 +5187,7 @@
       "PVE/Unknown",
       "运载目标被攻击了！",
       "Payload's taking heat!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown88E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
       null
     ],
     [
@@ -5356,7 +5200,7 @@
       "PVE/Unknown",
       "保护运载目标！",
       "Defend the Payload!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown88E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
       null
     ],
     [
@@ -5369,7 +5213,7 @@
       "PVE/Unknown",
       "呃，运载目标有麻烦了！",
       "Uh, Payload's having a rough time!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown88E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
       null
     ],
     [
@@ -5382,7 +5226,163 @@
       "PVE/Unknown",
       "别让他们破坏运载目标！",
       "Don't let them destroy the Payload!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown88E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000069B54.0B2",
+      432980,
+      "kiriko",
+      "雾子",
+      null,
+      "PVE/Unknown",
+      "保护渡轮！",
+      "Protect the Ferry!",
+      "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000069B56.0B2",
+      432982,
+      "kiriko",
+      "雾子",
+      null,
+      "PVE/Unknown",
+      "渡轮遭到了攻击！",
+      "The Ferry is taking damage!",
+      "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000069B63.0B2",
+      432995,
+      "kiriko",
+      "雾子",
+      null,
+      "PVE/Unknown",
+      "渡轮马上就要失守了！",
+      "The Ferry is about to be breached!",
+      "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000069B66.0B2",
+      432998,
+      "kiriko",
+      "雾子",
+      null,
+      "PVE/Unknown",
+      "渡轮撑不了多久了！",
+      "The Ferry can't last much longer!",
+      "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "0000000692D4.0B2",
+      430804,
+      "kiriko",
+      "雾子",
+      null,
+      "PVE/Unknown",
+      "传输塔遭到攻击了！",
+      "The Uplink is being attacked!",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "0000000692D6.0B2",
+      430806,
+      "kiriko",
+      "雾子",
+      null,
+      "PVE/Unknown",
+      "他们正在攻击传输塔！",
+      "They're attacking the Uplink!",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000069B62.0B2",
+      432994,
+      "kiriko",
+      "雾子",
+      null,
+      "PVE/Unknown",
+      "传输塔快要撑不住了！",
+      "The Uplink is failing!",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000069B65.0B2",
+      432997,
+      "kiriko",
+      "雾子",
+      null,
+      "PVE/Unknown",
+      "传输塔不能再受损了！",
+      "The Uplink won't take much more!",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000069B55.0B2",
+      432981,
+      "kiriko",
+      "雾子",
+      null,
+      "PVE/Unknown",
+      "巨炮被袭击了！",
+      "The Cannon's under fire!",
+      "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000069B58.0B2",
+      432984,
+      "kiriko",
+      "雾子",
+      null,
+      "PVE/Unknown",
+      "敌人在攻击巨炮！",
+      "They're attacking the Cannon!",
+      "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000069B59.0B2",
+      432985,
+      "kiriko",
+      "雾子",
+      null,
+      "PVE/Unknown",
+      "巨炮就要被摧毁了！",
+      "The Cannon's about to be destroyed!",
+      "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000069B5F.0B2",
+      432991,
+      "kiriko",
+      "雾子",
+      null,
+      "PVE/Unknown",
+      "巨炮严重受损！",
+      "The Cannon is severely damaged!",
+      "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
       null
     ],
     [
@@ -5395,7 +5395,7 @@
       "PVE/Unknown",
       "敌人在攻击修理站！",
       "They're after the Repair Station!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown94DB\",\"scriptDesc\":\"修理站受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"0094DB\",\"scriptDesc\":\"修理站受到攻击\"}",
       null
     ],
     [
@@ -5408,7 +5408,7 @@
       "PVE/Unknown",
       "保护修理站！",
       "Protect the Repair Station!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown94DB\",\"scriptDesc\":\"修理站受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"0094DB\",\"scriptDesc\":\"修理站受到攻击\"}",
       null
     ],
     [
@@ -5421,7 +5421,7 @@
       "PVE/Unknown",
       "修理站好像要报废了！",
       "The Repair Station's looking pretty dire!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown94DB\",\"scriptDesc\":\"修理站受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"0094DB\",\"scriptDesc\":\"修理站受到攻击\"}",
       null
     ],
     [
@@ -5434,7 +5434,7 @@
       "PVE/Unknown",
       "修理站就要被摧毁了！",
       "The Repair Station's nearly destroyed!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown94DB\",\"scriptDesc\":\"修理站受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"0094DB\",\"scriptDesc\":\"修理站受到攻击\"}",
       null
     ],
     [
@@ -5590,7 +5590,7 @@
       "Respawn",
       "不怪他们，是我暴走了。",
       "I don't blame them. I was going wild.",
-      "{\"type\":\"scripted\",\"script\":\"RespawnAfterKillstreak(B404)\",\"scriptDesc\":\"连杀后复生\"}",
+      "{\"type\":\"scripted\",\"script\":\"00B404\",\"scriptDesc\":\"连杀后复生\"}",
       null
     ],
     [
@@ -5603,7 +5603,7 @@
       "Respawn",
       "（大笑）看来有人不得不出手阻止我了。",
       "(laughs) I guess someone had to stop me.",
-      "{\"type\":\"scripted\",\"script\":\"RespawnAfterKillstreak(B404)\",\"scriptDesc\":\"连杀后复生\"}",
+      "{\"type\":\"scripted\",\"script\":\"00B404\",\"scriptDesc\":\"连杀后复生\"}",
       null
     ],
     [
@@ -5785,7 +5785,7 @@
       "Scream",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -5798,7 +5798,7 @@
       "Scream",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -5811,7 +5811,7 @@
       "Scream",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -6500,7 +6500,7 @@
       "Ultimate",
       "瞄准脑袋不就好了！",
       "Just aim for the head!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -6513,7 +6513,7 @@
       "Ultimate",
       "（狐狸的叫声）",
       "(fox noises)",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -6526,7 +6526,7 @@
       "Ultimate",
       "瞄准脑袋不就好了！",
       "Just aim for the head!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -8450,7 +8450,7 @@
       "Unknown/EC6.078",
       "下面的风景不错吧？",
       "Enjoy the underworld.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownB3AD\",\"scriptDesc\":\"未知\"}",
+      "{\"type\":\"scripted\",\"script\":\"00B3AD\",\"scriptDesc\":\"未知\"}",
       null
     ],
     [
@@ -9074,7 +9074,7 @@
       "Unknown/FC4.078",
       "你伤得太深了……",
       "Your wounds run deep...",
-      "{\"type\":\"nested\",\"total\":4,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"士兵：76\"},{\"type\":\"toHero\",\"hero\":\"安娜\"},{\"type\":\"toHero\",\"hero\":\"拉玛刹\"},{\"type\":\"scripted\",\"script\":\"HealedAlly(AABA)\",\"scriptDesc\":\"治疗重伤盟友\"}]}",
+      "{\"type\":\"nested\",\"total\":4,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"士兵：76\"},{\"type\":\"toHero\",\"hero\":\"安娜\"},{\"type\":\"toHero\",\"hero\":\"拉玛刹\"},{\"type\":\"scripted\",\"script\":\"00AABA\",\"scriptDesc\":\"治疗重伤盟友\"}]}",
       0.5
     ],
     [
@@ -9087,7 +9087,7 @@
       "Unknown/FC4.078",
       "我看你伤得不轻嘛。",
       "You take a lot of damage, huh?",
-      "{\"type\":\"scripted\",\"script\":\"HealedAlly(AABA)\",\"scriptDesc\":\"治疗重伤盟友\"}",
+      "{\"type\":\"scripted\",\"script\":\"00AABA\",\"scriptDesc\":\"治疗重伤盟友\"}",
       0.15
     ],
     [
@@ -10829,7 +10829,7 @@
       "MatchStartTalk",
       "是时候把光芒带回世界了。",
       "Time to bring the light back to the universe.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"scripted\",\"script\":\"MapNight(B87C)\",\"scriptDesc\":\"在夜晚地图\"},{\"type\":\"scripted\",\"script\":\"MapRaining(B87D)\",\"scriptDesc\":\"在雨天地图\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00B87C\",\"scriptDesc\":\"在夜晚地图\"},{\"type\":\"scripted\",\"script\":\"00B87D\",\"scriptDesc\":\"在雨天地图\"}]}",
       null
     ],
     [
@@ -10842,7 +10842,7 @@
       "MatchStartTalk",
       "好黑啊，我来扭转天象。",
       "How gloomy. Let's change that.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"scripted\",\"script\":\"MapNight(B87C)\",\"scriptDesc\":\"在夜晚地图\"},{\"type\":\"scripted\",\"script\":\"MapRaining(B87D)\",\"scriptDesc\":\"在雨天地图\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00B87C\",\"scriptDesc\":\"在夜晚地图\"},{\"type\":\"scripted\",\"script\":\"00B87D\",\"scriptDesc\":\"在雨天地图\"}]}",
       null
     ],
     [

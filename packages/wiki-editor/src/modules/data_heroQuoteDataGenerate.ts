@@ -279,7 +279,7 @@ function parseCriteriaSingleNode(criteriaString: string, negative?: boolean): Qu
     if (scriptDesc === undefined) return undefined;
     return {
       type: "scripted",
-      script: scriptName,
+      script: scriptId,
       scriptDesc: scriptDesc || "未知",
       negative,
     };

@@ -572,7 +572,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -585,7 +585,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -598,7 +598,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -611,7 +611,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -624,7 +624,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -637,7 +637,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -650,7 +650,7 @@
       "DeathCharged",
       "（遭受重压的声音）",
       "(crushed sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -663,7 +663,7 @@
       "DeathCharged",
       "（遭受重压的声音）",
       "(crushed sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -676,7 +676,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -689,7 +689,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -702,7 +702,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -715,7 +715,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -967,28 +967,15 @@
     ],
     [
       "HeroQuote",
-      "0000000672BB.0B2",
-      422587,
+      "0000000672A7.0B2",
+      422567,
       "mauga",
       "毛加",
       null,
       "Elimination",
-      "断气的是你。",
-      "You choked.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"LowHealth(A81C)\",\"scriptDesc\":\"低生命值时\"},{\"type\":\"scripted\",\"script\":\"ShortDistance(AD8E)\",\"scriptDesc\":\"近距离\"}]}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "0000000672B2.0B2",
-      422578,
-      "mauga",
-      "毛加",
-      null,
-      "Elimination",
-      "给我从豆茎上下来。",
-      "Get off your beanstalk.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"Shutdown_Petalled(BE61)\",\"scriptDesc\":\"敌人使用花瓣平台\"},{\"type\":\"toHero\",\"hero\":\"生命之梭\"}]}",
+      "我这块头，一眼就能看到吧。",
+      "I'm hard to miss.",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"黑百合\"}]}",
       null
     ],
     [
@@ -1001,20 +988,20 @@
       "Elimination",
       "你当我瞎啊？",
       "Think I didn't see you?",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"Shutdown_SombraStealth(A788)\",\"scriptDesc\":\"敌方黑影潜行\"},{\"type\":\"toHero\",\"hero\":\"黑影\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A788\",\"scriptDesc\":\"敌方黑影潜行\"},{\"type\":\"toHero\",\"hero\":\"黑影\"}]}",
       null
     ],
     [
       "HeroQuote",
-      "0000000672A7.0B2",
-      422567,
+      "0000000672BB.0B2",
+      422587,
       "mauga",
       "毛加",
       null,
       "Elimination",
-      "我这块头，一眼就能看到吧。",
-      "I'm hard to miss.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"黑百合\"}]}",
+      "断气的是你。",
+      "You choked.",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A81C\",\"scriptDesc\":\"低生命值时\"},{\"type\":\"scripted\",\"script\":\"00AD8E\",\"scriptDesc\":\"近距离\"}]}",
       null
     ],
     [
@@ -1027,7 +1014,20 @@
       "Elimination",
       "差点叫你得逞了，小黑，真是的。",
       "You almost had me Sombs, but come on.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"UnknownAE5B\",\"scriptDesc\":\"被侵入时\"},{\"type\":\"toHero\",\"hero\":\"黑影\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00AE5B\",\"scriptDesc\":\"被侵入时\"},{\"type\":\"toHero\",\"hero\":\"黑影\"}]}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "0000000672B2.0B2",
+      422578,
+      "mauga",
+      "毛加",
+      null,
+      "Elimination",
+      "给我从豆茎上下来。",
+      "Get off your beanstalk.",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00BE61\",\"scriptDesc\":\"敌人使用花瓣平台\"},{\"type\":\"toHero\",\"hero\":\"生命之梭\"}]}",
       null
     ],
     [
@@ -1040,7 +1040,7 @@
       "Elimination",
       "感觉你很热啊，兄弟！",
       "Looking sultry, buddy!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"巴蒂斯特\"},{\"type\":\"scripted\",\"script\":\"UnknownCD39\",\"scriptDesc\":\"燃火链式机枪消灭\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"巴蒂斯特\"},{\"type\":\"scripted\",\"script\":\"00CD39\",\"scriptDesc\":\"燃火链式机枪消灭\"}]}",
       null
     ],
     [
@@ -1053,7 +1053,7 @@
       "Elimination",
       "这下变“红玫瑰”了。",
       "Looking real rosy.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"黑百合\"},{\"type\":\"scripted\",\"script\":\"UnknownCD39\",\"scriptDesc\":\"燃火链式机枪消灭\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"黑百合\"},{\"type\":\"scripted\",\"script\":\"00CD39\",\"scriptDesc\":\"燃火链式机枪消灭\"}]}",
       null
     ],
     [
@@ -1066,7 +1066,7 @@
       "Elimination",
       "哥们，你要学会放下。",
       "My man, let it go.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"拉玛刹\"},{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"拉玛刹\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
       null
     ],
     [
@@ -1079,7 +1079,7 @@
       "Elimination",
       "自己吃去吧。",
       "Hammer's down.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"莱因哈特\"},{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"莱因哈特\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
       null
     ],
     [
@@ -1092,7 +1092,7 @@
       "Elimination",
       "哈哈，你没打中，猪肉饼！",
       "(laughs) You missed, porkie pie!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"路霸\"},{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"路霸\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
       null
     ],
     [
@@ -1118,7 +1118,7 @@
       "Elimination",
       "哈，你出拳之前应该先观察。",
       "Ha! You should look before you punch.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"末日铁拳\"},{\"type\":\"scripted\",\"script\":\"UnknownA6FE\",\"scriptDesc\":\"敌人高速移动\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"末日铁拳\"},{\"type\":\"scripted\",\"script\":\"00A6FE\",\"scriptDesc\":\"敌人高速移动\"}]}",
       null
     ],
     [
@@ -1131,7 +1131,7 @@
       "Elimination",
       "哥们，说一遍就够了！",
       "Heard you the first time, brother!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"死神\"},{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"死神\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
       null
     ],
     [
@@ -1144,7 +1144,7 @@
       "Elimination",
       "天使陨落的样子谁不喜欢呢？",
       "Don't you just love it when angels fall.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"天使\"},{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"天使\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
       null
     ],
     [
@@ -1157,7 +1157,7 @@
       "Elimination",
       "喔，这位毛茸茸的朋友别生气嘛。",
       "Why so angry, my furry friend?",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"温斯顿\"},{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"温斯顿\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
       null
     ],
     [
@@ -1170,7 +1170,7 @@
       "Elimination",
       "好帅的龙。",
       "Cool dragons.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"源氏\"},{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"源氏\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
       null
     ],
     [
@@ -1183,7 +1183,7 @@
       "Elimination",
       "喔，控制一下脾气，女王陛下。",
       "Watch your temper, your highness.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"渣客女王\"},{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"渣客女王\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
       null
     ],
     [
@@ -1196,7 +1196,7 @@
       "Elimination",
       "(嗅）啊，闻到了烤肉的香味！",
       "(sniffs) I smell a barbeque!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"heroTag\":\"动物\"},{\"type\":\"scripted\",\"script\":\"UnknownCD39\",\"scriptDesc\":\"燃火链式机枪消灭\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"heroTag\":\"动物\"},{\"type\":\"scripted\",\"script\":\"00CD39\",\"scriptDesc\":\"燃火链式机枪消灭\"}]}",
       null
     ],
     [
@@ -1209,7 +1209,7 @@
       "Elimination",
       "该熔化了！",
       "We've reached melting point!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"heroTag\":\"机械\"},{\"type\":\"scripted\",\"script\":\"UnknownCD39\",\"scriptDesc\":\"燃火链式机枪消灭\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"heroTag\":\"机械\"},{\"type\":\"scripted\",\"script\":\"00CD39\",\"scriptDesc\":\"燃火链式机枪消灭\"}]}",
       null
     ],
     [
@@ -1248,7 +1248,7 @@
       "Elimination",
       "小心别中暑了，医生！",
       "Got a heatstroke, doc?",
-      "{\"type\":\"nested\",\"total\":4,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"天使\"},{\"type\":\"toHero\",\"hero\":\"巴蒂斯特\"},{\"type\":\"toHero\",\"hero\":\"莫伊拉\"},{\"type\":\"scripted\",\"script\":\"UnknownCD39\",\"scriptDesc\":\"燃火链式机枪消灭\"}]}",
+      "{\"type\":\"nested\",\"total\":4,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"天使\"},{\"type\":\"toHero\",\"hero\":\"巴蒂斯特\"},{\"type\":\"toHero\",\"hero\":\"莫伊拉\"},{\"type\":\"scripted\",\"script\":\"00CD39\",\"scriptDesc\":\"燃火链式机枪消灭\"}]}",
       null
     ],
     [
@@ -1261,59 +1261,20 @@
       "Elimination",
       "防空的活儿，我一个人全搞定。",
       "I'm a one-man anti-aircraft plan.",
-      "{\"type\":\"scripted\",\"script\":\"EnemyInAir(9268)\",\"scriptDesc\":\"敌人在空中\"}",
+      "{\"type\":\"scripted\",\"script\":\"009268\",\"scriptDesc\":\"敌人在空中\"}",
       0.75
     ],
     [
       "HeroQuote",
-      "000000067292.0B2",
-      422546,
+      "0000000672AD.0B2",
+      422573,
       "mauga",
       "毛加",
       null,
       "Elimination",
-      "没想到我有这招吧？",
-      "You couldn't see that coming?",
-      "{\"type\":\"scripted\",\"script\":\"FromBehind(B0A3)\",\"scriptDesc\":\"从背后消灭\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "0000000672AF.0B2",
-      422575,
-      "mauga",
-      "毛加",
-      null,
-      "Elimination",
-      "看你还往哪儿跑。",
-      "Where do you think you're going?",
-      "{\"type\":\"scripted\",\"script\":\"Shutdown_Lifegripped(B531)\",\"scriptDesc\":\"消灭被生命之握的敌人\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "0000000649B8.0B2",
-      412088,
-      "mauga",
-      "毛加",
-      null,
-      "Elimination",
-      "哈哈，乖乖躺好吧你。",
-      "You need to stay down.",
-      "{\"type\":\"scripted\",\"script\":\"Shutdown_Resurrected(AF43)\",\"scriptDesc\":\"敌人被复活后\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000067293.0B2",
-      422547,
-      "mauga",
-      "毛加",
-      null,
-      "Elimination",
-      "回去歇着吧！",
-      "Back you go!",
-      "{\"type\":\"scripted\",\"script\":\"Shutdown_Resurrected(AF43)\",\"scriptDesc\":\"敌人被复活后\"}",
+      "神了，感觉就像有三颗心脏！",
+      "Damn, it's like I got three hearts!",
+      "{\"type\":\"scripted\",\"script\":\"00A5FD\",\"scriptDesc\":\"被纳米激素强化时\"}",
       null
     ],
     [
@@ -1326,20 +1287,7 @@
       "Elimination",
       "（嚎叫）",
       "(howls)",
-      "{\"type\":\"scripted\",\"script\":\"UltAssist_Kitsune(A662)\",\"scriptDesc\":\"被灵狐强化时\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "0000000672AD.0B2",
-      422573,
-      "mauga",
-      "毛加",
-      null,
-      "Elimination",
-      "神了，感觉就像有三颗心脏！",
-      "Damn, it's like I got three hearts!",
-      "{\"type\":\"scripted\",\"script\":\"UltAssist_Nano(A5FD)\",\"scriptDesc\":\"被纳米激素强化时\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A662\",\"scriptDesc\":\"被灵狐强化时\"}",
       null
     ],
     [
@@ -1352,7 +1300,7 @@
       "Elimination",
       "伙计，你这样我也很尴尬。",
       "Buddy, I'm embarrassed for you.",
-      "{\"type\":\"scripted\",\"script\":\"UltShutdown_NanoBoosted(A697)\",\"scriptDesc\":\"敌人被纳米激素强化\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A697\",\"scriptDesc\":\"敌人被纳米激素强化\"}",
       null
     ],
     [
@@ -1365,7 +1313,7 @@
       "Elimination",
       "悠着点！",
       "Not so fast!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownA6FE\",\"scriptDesc\":\"敌人高速移动\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A6FE\",\"scriptDesc\":\"敌人高速移动\"}",
       null
     ],
     [
@@ -1378,7 +1326,59 @@
       "Elimination",
       "看来默契还在，兄弟！",
       "We still got it, buddy!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownAD79\",\"scriptDesc\":\"使用增幅矩阵\"}",
+      "{\"type\":\"scripted\",\"script\":\"00AD79\",\"scriptDesc\":\"使用增幅矩阵\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "0000000649B8.0B2",
+      412088,
+      "mauga",
+      "毛加",
+      null,
+      "Elimination",
+      "哈哈，乖乖躺好吧你。",
+      "You need to stay down.",
+      "{\"type\":\"scripted\",\"script\":\"00AF43\",\"scriptDesc\":\"敌人被复活后\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000067293.0B2",
+      422547,
+      "mauga",
+      "毛加",
+      null,
+      "Elimination",
+      "回去歇着吧！",
+      "Back you go!",
+      "{\"type\":\"scripted\",\"script\":\"00AF43\",\"scriptDesc\":\"敌人被复活后\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000067292.0B2",
+      422546,
+      "mauga",
+      "毛加",
+      null,
+      "Elimination",
+      "没想到我有这招吧？",
+      "You couldn't see that coming?",
+      "{\"type\":\"scripted\",\"script\":\"00B0A3\",\"scriptDesc\":\"从背后消灭\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "0000000672AF.0B2",
+      422575,
+      "mauga",
+      "毛加",
+      null,
+      "Elimination",
+      "看你还往哪儿跑。",
+      "Where do you think you're going?",
+      "{\"type\":\"scripted\",\"script\":\"00B531\",\"scriptDesc\":\"消灭被生命之握的敌人\"}",
       null
     ],
     [
@@ -1391,7 +1391,7 @@
       "Elimination",
       "热力十足！",
       "Looking hot!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownCD39\",\"scriptDesc\":\"燃火链式机枪消灭\"}",
+      "{\"type\":\"scripted\",\"script\":\"00CD39\",\"scriptDesc\":\"燃火链式机枪消灭\"}",
       null
     ],
     [
@@ -1404,7 +1404,7 @@
       "Elimination",
       "让你暖和一下。",
       "Woo! Warmed you up.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownCD39\",\"scriptDesc\":\"燃火链式机枪消灭\"}",
+      "{\"type\":\"scripted\",\"script\":\"00CD39\",\"scriptDesc\":\"燃火链式机枪消灭\"}",
       null
     ],
     [
@@ -1417,7 +1417,7 @@
       "Elimination",
       "火上烤！",
       "Sizzling!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownCD39\",\"scriptDesc\":\"燃火链式机枪消灭\"}",
+      "{\"type\":\"scripted\",\"script\":\"00CD39\",\"scriptDesc\":\"燃火链式机枪消灭\"}",
       null
     ],
     [
@@ -1430,7 +1430,7 @@
       "Elimination",
       "燃起来了。",
       "Getting hot in here.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownCD39\",\"scriptDesc\":\"燃火链式机枪消灭\"}",
+      "{\"type\":\"scripted\",\"script\":\"00CD39\",\"scriptDesc\":\"燃火链式机枪消灭\"}",
       null
     ],
     [
@@ -1443,7 +1443,7 @@
       "Elimination",
       "别惹暴脾气，一点就着！",
       "Don't mess with us hot heads!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownCD39\",\"scriptDesc\":\"燃火链式机枪消灭\"}",
+      "{\"type\":\"scripted\",\"script\":\"00CD39\",\"scriptDesc\":\"燃火链式机枪消灭\"}",
       null
     ],
     [
@@ -1456,21 +1456,8 @@
       "Elimination",
       "烧吧。",
       "Burn.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownCD39\",\"scriptDesc\":\"燃火链式机枪消灭\"}",
+      "{\"type\":\"scripted\",\"script\":\"00CD39\",\"scriptDesc\":\"燃火链式机枪消灭\"}",
       0.1
-    ],
-    [
-      "HeroQuote",
-      "0000000672A9.0B2",
-      422569,
-      "mauga",
-      "毛加",
-      null,
-      "Elimination",
-      "感觉真爽，对吧，和尚？",
-      "Felt good, didn't it monk?",
-      "{\"type\":\"scripted\",\"script\":\"UnknownCF27\",\"scriptDesc\":\"敌方被乱影响\"}",
-      null
     ],
     [
       "HeroQuote",
@@ -1482,7 +1469,20 @@
       "Elimination",
       "活靶子被打穿了！",
       "Sitting ducks get shot!",
-      "{\"type\":\"scripted\",\"script\":\"UsingTrap(CDD2)\",\"scriptDesc\":\"UsingTrap 敌人被陷阱影响\"}",
+      "{\"type\":\"scripted\",\"script\":\"00CDD2\",\"scriptDesc\":\"UsingTrap 敌人被陷阱影响\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "0000000672A9.0B2",
+      422569,
+      "mauga",
+      "毛加",
+      null,
+      "Elimination",
+      "感觉真爽，对吧，和尚？",
+      "Felt good, didn't it monk?",
+      "{\"type\":\"scripted\",\"script\":\"00CF27\",\"scriptDesc\":\"敌方被乱影响\"}",
       null
     ],
     [
@@ -1885,7 +1885,7 @@
       "Health/LowHealthBreathStart",
       "（倒吸气）",
       "(gasps)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -5868,162 +5868,6 @@
     ],
     [
       "HeroQuote",
-      "0000000678AB.0B2",
-      424107,
-      "mauga",
-      "毛加",
-      null,
-      "PVE/Unknown",
-      "渡轮受损了！",
-      "Ferry's damaged!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7329\",\"scriptDesc\":\"渡轮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "0000000678AC.0B2",
-      424108,
-      "mauga",
-      "毛加",
-      null,
-      "PVE/Unknown",
-      "它们在破坏渡轮！",
-      "They're on the Ferry!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7329\",\"scriptDesc\":\"渡轮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "0000000678B5.0B2",
-      424117,
-      "mauga",
-      "毛加",
-      null,
-      "PVE/Unknown",
-      "它们快要攻破渡轮了！",
-      "They're breaching the Ferry!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7329\",\"scriptDesc\":\"渡轮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "0000000678B7.0B2",
-      424119,
-      "mauga",
-      "毛加",
-      null,
-      "PVE/Unknown",
-      "渡轮快要沉了！",
-      "The Ferry's almost destroyed!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7329\",\"scriptDesc\":\"渡轮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "0000000678A7.0B2",
-      424103,
-      "mauga",
-      "毛加",
-      null,
-      "PVE/Unknown",
-      "保护传输塔！",
-      "Keep the Uplink safe!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "0000000678A8.0B2",
-      424104,
-      "mauga",
-      "毛加",
-      null,
-      "PVE/Unknown",
-      "别让敌人靠近传输塔！",
-      "Get 'em off the Uplink!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "0000000678BB.0B2",
-      424123,
-      "mauga",
-      "毛加",
-      null,
-      "PVE/Unknown",
-      "传输塔要散架了！",
-      "Uplink's almost destroyed!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "0000000678BC.0B2",
-      424124,
-      "mauga",
-      "毛加",
-      null,
-      "PVE/Unknown",
-      "传输塔快要撑不住了！",
-      "Uplink isn't going to hold much longer!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "0000000678A9.0B2",
-      424105,
-      "mauga",
-      "毛加",
-      null,
-      "PVE/Unknown",
-      "敌人在破坏巨炮！",
-      "Hostiles on the Cannon!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown81B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "0000000678AA.0B2",
-      424106,
-      "mauga",
-      "毛加",
-      null,
-      "PVE/Unknown",
-      "它们在攻击巨炮！",
-      "They're shooting the Cannon!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown81B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "0000000678B4.0B2",
-      424116,
-      "mauga",
-      "毛加",
-      null,
-      "PVE/Unknown",
-      "巨炮快要撑不住了！",
-      "The Cannon's on its last legs!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown81B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "0000000678B6.0B2",
-      424118,
-      "mauga",
-      "毛加",
-      null,
-      "PVE/Unknown",
-      "巨炮马上要被它们拆掉了！",
-      "They've almost taken down the Cannon!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown81B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
       "0000000678AE.0B2",
       424110,
       "mauga",
@@ -6032,7 +5876,7 @@
       "PVE/Unknown",
       "敌人在破坏运载目标！",
       "Enemies on the Payload!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown88E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
       null
     ],
     [
@@ -6045,7 +5889,7 @@
       "PVE/Unknown",
       "运载目标被击中了！",
       "Payload's getting shot!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown88E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
       null
     ],
     [
@@ -6058,7 +5902,7 @@
       "PVE/Unknown",
       "运载目标就快被摧毁了！",
       "Payload's almost a goner!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown88E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
       null
     ],
     [
@@ -6071,7 +5915,163 @@
       "PVE/Unknown",
       "运载目标严重受损！",
       "Critical damage to the Payload!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown88E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "0000000678AB.0B2",
+      424107,
+      "mauga",
+      "毛加",
+      null,
+      "PVE/Unknown",
+      "渡轮受损了！",
+      "Ferry's damaged!",
+      "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "0000000678AC.0B2",
+      424108,
+      "mauga",
+      "毛加",
+      null,
+      "PVE/Unknown",
+      "它们在破坏渡轮！",
+      "They're on the Ferry!",
+      "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "0000000678B5.0B2",
+      424117,
+      "mauga",
+      "毛加",
+      null,
+      "PVE/Unknown",
+      "它们快要攻破渡轮了！",
+      "They're breaching the Ferry!",
+      "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "0000000678B7.0B2",
+      424119,
+      "mauga",
+      "毛加",
+      null,
+      "PVE/Unknown",
+      "渡轮快要沉了！",
+      "The Ferry's almost destroyed!",
+      "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "0000000678A7.0B2",
+      424103,
+      "mauga",
+      "毛加",
+      null,
+      "PVE/Unknown",
+      "保护传输塔！",
+      "Keep the Uplink safe!",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "0000000678A8.0B2",
+      424104,
+      "mauga",
+      "毛加",
+      null,
+      "PVE/Unknown",
+      "别让敌人靠近传输塔！",
+      "Get 'em off the Uplink!",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "0000000678BB.0B2",
+      424123,
+      "mauga",
+      "毛加",
+      null,
+      "PVE/Unknown",
+      "传输塔要散架了！",
+      "Uplink's almost destroyed!",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "0000000678BC.0B2",
+      424124,
+      "mauga",
+      "毛加",
+      null,
+      "PVE/Unknown",
+      "传输塔快要撑不住了！",
+      "Uplink isn't going to hold much longer!",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "0000000678A9.0B2",
+      424105,
+      "mauga",
+      "毛加",
+      null,
+      "PVE/Unknown",
+      "敌人在破坏巨炮！",
+      "Hostiles on the Cannon!",
+      "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "0000000678AA.0B2",
+      424106,
+      "mauga",
+      "毛加",
+      null,
+      "PVE/Unknown",
+      "它们在攻击巨炮！",
+      "They're shooting the Cannon!",
+      "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "0000000678B4.0B2",
+      424116,
+      "mauga",
+      "毛加",
+      null,
+      "PVE/Unknown",
+      "巨炮快要撑不住了！",
+      "The Cannon's on its last legs!",
+      "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "0000000678B6.0B2",
+      424118,
+      "mauga",
+      "毛加",
+      null,
+      "PVE/Unknown",
+      "巨炮马上要被它们拆掉了！",
+      "They've almost taken down the Cannon!",
+      "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
       null
     ],
     [
@@ -6084,7 +6084,7 @@
       "PVE/Unknown",
       "修理站遭受攻击！",
       "Repair Station's under fire!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown94DB\",\"scriptDesc\":\"修理站受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"0094DB\",\"scriptDesc\":\"修理站受到攻击\"}",
       null
     ],
     [
@@ -6097,7 +6097,7 @@
       "PVE/Unknown",
       "它们在集火修理站！",
       "They're targeting the Repair Station!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown94DB\",\"scriptDesc\":\"修理站受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"0094DB\",\"scriptDesc\":\"修理站受到攻击\"}",
       null
     ],
     [
@@ -6110,7 +6110,7 @@
       "PVE/Unknown",
       "修理站的状况不太妙。",
       "The Repair Station's not looking too hot.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown94DB\",\"scriptDesc\":\"修理站受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"0094DB\",\"scriptDesc\":\"修理站受到攻击\"}",
       null
     ],
     [
@@ -6123,7 +6123,7 @@
       "PVE/Unknown",
       "它们就要摧毁修理站了！",
       "They're breaching the Repair Station!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown94DB\",\"scriptDesc\":\"修理站受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"0094DB\",\"scriptDesc\":\"修理站受到攻击\"}",
       null
     ],
     [
@@ -6357,7 +6357,7 @@
       "Respawn",
       "我要再来一次！",
       "Let's do that again!",
-      "{\"type\":\"scripted\",\"script\":\"RespawnAfterKillstreak(B404)\",\"scriptDesc\":\"连杀后复生\"}",
+      "{\"type\":\"scripted\",\"script\":\"00B404\",\"scriptDesc\":\"连杀后复生\"}",
       null
     ],
     [
@@ -6370,7 +6370,7 @@
       "Respawn",
       "坏了我的好事！",
       "Party pooper!",
-      "{\"type\":\"scripted\",\"script\":\"RespawnAfterKillstreak(B404)\",\"scriptDesc\":\"连杀后复生\"}",
+      "{\"type\":\"scripted\",\"script\":\"00B404\",\"scriptDesc\":\"连杀后复生\"}",
       null
     ],
     [
@@ -6383,7 +6383,7 @@
       "Respawn",
       "啊，快乐消失了。",
       "Aw, fun's over.",
-      "{\"type\":\"scripted\",\"script\":\"RespawnAfterKillstreak(B404)\",\"scriptDesc\":\"连杀后复生\"}",
+      "{\"type\":\"scripted\",\"script\":\"00B404\",\"scriptDesc\":\"连杀后复生\"}",
       null
     ],
     [
@@ -6552,7 +6552,7 @@
       "Scream",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -6565,7 +6565,7 @@
       "Scream",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -6578,7 +6578,7 @@
       "Scream",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -7306,7 +7306,7 @@
       "Ultimate",
       "给地方拴了个好他们！呵，哦，等等。",
       "We want them where we got them! Oh wait.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -7319,7 +7319,7 @@
       "Ultimate",
       "这才叫连锁反应！",
       "Now that's a chain reaction!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -7332,7 +7332,7 @@
       "Ultimate",
       "舞步跳起来！",
       "Dancefloor's open!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -7345,7 +7345,7 @@
       "Ultimate",
       "想来随便来，想走不准走。",
       "You can check in but you can't check out.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -7358,7 +7358,7 @@
       "Ultimate",
       "篱笆筑得牢，邻居处得好！",
       "Good fences make good neighbors!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -7371,7 +7371,7 @@
       "Ultimate",
       "篱笆筑得牢，邻居处得好！",
       "Good fences make good neighbors!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -7384,7 +7384,7 @@
       "Ultimate",
       "想来随便来，想走不准走。",
       "You can check in but you can't check out.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [

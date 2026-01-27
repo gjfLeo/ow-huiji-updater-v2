@@ -572,7 +572,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -585,7 +585,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -598,7 +598,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -611,7 +611,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -624,7 +624,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -637,7 +637,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -650,7 +650,7 @@
       "DeathCharged",
       "（遭受重压的声音）",
       "(crushed sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -663,7 +663,7 @@
       "DeathCharged",
       "（遭受重压的声音）",
       "(crushed sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -676,7 +676,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -689,7 +689,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -702,7 +702,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -715,7 +715,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -1019,19 +1019,6 @@
     ],
     [
       "HeroQuote",
-      "00000006478D.0B2",
-      411533,
-      "symmetra",
-      "秩序之光",
-      null,
-      "Elimination",
-      "（叹气）你就不能穿双鞋吗？",
-      "(sigh) Put on some shoes. Please.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"SigmaWithoutShoes(A894)\",\"scriptDesc\":\"敌方西格玛使用未穿鞋的皮肤\"},{\"type\":\"toHero\",\"hero\":\"西格玛\"}]}",
-      0.1
-    ],
-    [
-      "HeroQuote",
       "0000000647A8.0B2",
       411560,
       "symmetra",
@@ -1040,8 +1027,21 @@
       "Elimination",
       "现实真正的样子只能有一个！",
       "There can only be one true reality.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"秩序之光\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"秩序之光\"}]}",
       null
+    ],
+    [
+      "HeroQuote",
+      "00000006478D.0B2",
+      411533,
+      "symmetra",
+      "秩序之光",
+      null,
+      "Elimination",
+      "（叹气）你就不能穿双鞋吗？",
+      "(sigh) Put on some shoes. Please.",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A894\",\"scriptDesc\":\"敌方西格玛使用未穿鞋的皮肤\"},{\"type\":\"toHero\",\"hero\":\"西格玛\"}]}",
+      0.1
     ],
     [
       "HeroQuote",
@@ -1053,7 +1053,7 @@
       "Elimination",
       "这是对你罪行的惩罚。",
       "A punishment for your crimes.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"卢西奥\"},{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"卢西奥\"},{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}]}",
       null
     ],
     [
@@ -1092,7 +1092,7 @@
       "Elimination",
       "铁甲公会的技术……过时了。",
       "Ironclad technology... how archaic.",
-      "{\"type\":\"nested\",\"total\":3,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"托比昂\"},{\"type\":\"toHero\",\"hero\":\"布丽吉塔\"},{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
+      "{\"type\":\"nested\",\"total\":3,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"托比昂\"},{\"type\":\"toHero\",\"hero\":\"布丽吉塔\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
       null
     ],
     [
@@ -1105,7 +1105,7 @@
       "Elimination",
       "非要把心里的想法说得那么大声。",
       "You broadcast your intentions so clearly.",
-      "{\"type\":\"nested\",\"total\":4,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"卡西迪\"},{\"type\":\"toHero\",\"hero\":\"士兵：76\"},{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"法老之鹰\"}]}",
+      "{\"type\":\"nested\",\"total\":4,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"卡西迪\"},{\"type\":\"toHero\",\"hero\":\"士兵：76\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"法老之鹰\"}]}",
       0.5
     ],
     [
@@ -1118,216 +1118,8 @@
       "Elimination",
       "精细的设计总能战胜蛮力。",
       "Precision always defeats brute force.",
-      "{\"type\":\"nested\",\"total\":9,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"莫伊拉\"},{\"type\":\"toHero\",\"hero\":\"奥丽莎\"},{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"法老之鹰\"},{\"type\":\"toHero\",\"hero\":\"死神\"},{\"type\":\"toHero\",\"hero\":\"路霸\"},{\"type\":\"toHero\",\"hero\":\"索杰恩\"},{\"type\":\"toHero\",\"hero\":\"温斯顿\"},{\"type\":\"toHero\",\"hero\":\"源氏\"}]}",
+      "{\"type\":\"nested\",\"total\":9,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"莫伊拉\"},{\"type\":\"toHero\",\"hero\":\"奥丽莎\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"法老之鹰\"},{\"type\":\"toHero\",\"hero\":\"死神\"},{\"type\":\"toHero\",\"hero\":\"路霸\"},{\"type\":\"toHero\",\"hero\":\"索杰恩\"},{\"type\":\"toHero\",\"hero\":\"温斯顿\"},{\"type\":\"toHero\",\"hero\":\"源氏\"}]}",
       0.75
-    ],
-    [
-      "HeroQuote",
-      "0000000647A9.0B2",
-      411561,
-      "symmetra",
-      "秩序之光",
-      null,
-      "Elimination",
-      "我的空间感知。",
-      "Spatial awareness.",
-      "{\"type\":\"scripted\",\"script\":\"InAir(A776)\",\"scriptDesc\":\"在空中时\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000065E3B.0B2",
-      417339,
-      "symmetra",
-      "秩序之光",
-      null,
-      "Elimination",
-      "距离对我的技术没有影响。",
-      "My technology cares not for intervening distance.",
-      "{\"type\":\"scripted\",\"script\":\"LongDistance(A809)\",\"scriptDesc\":\"远距离\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000AA7D.0B2",
-      43645,
-      "symmetra",
-      "秩序之光",
-      null,
-      "Elimination",
-      "（叹气）固步自封。",
-      "(sighs) You are trapped in your own mind.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000AAF1.0B2",
-      43761,
-      "symmetra",
-      "秩序之光",
-      null,
-      "Elimination",
-      "那是为你好。",
-      "That was for your own good.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000AAF3.0B2",
-      43763,
-      "symmetra",
-      "秩序之光",
-      null,
-      "Elimination",
-      "你不配迎接真相。",
-      "You are unworthy of the true reality.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000AAF4.0B2",
-      43764,
-      "symmetra",
-      "秩序之光",
-      null,
-      "Elimination",
-      "嗯……感知危险不是你的强项。",
-      "Hm... Perception is your weakness.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000AB1F.0B2",
-      43807,
-      "symmetra",
-      "秩序之光",
-      null,
-      "Elimination",
-      "（叹气）你成不了大事。",
-      "(sighs) You were not meant for greatness.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000AF14.0B2",
-      44820,
-      "symmetra",
-      "秩序之光",
-      null,
-      "Elimination",
-      "秩序已恢复。",
-      "Order is restored.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000AF2B.0B2",
-      44843,
-      "symmetra",
-      "秩序之光",
-      null,
-      "Elimination",
-      "完美。",
-      "Perfection.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000AF50.0B2",
-      44880,
-      "symmetra",
-      "秩序之光",
-      null,
-      "Elimination",
-      "这才是一切应有的秩序。",
-      "This is the order of things.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000001FCF5.0B2",
-      130293,
-      "symmetra",
-      "秩序之光",
-      null,
-      "Elimination",
-      "自不量力。",
-      "Know your place.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000001FD0B.0B2",
-      130315,
-      "symmetra",
-      "秩序之光",
-      null,
-      "Elimination",
-      "你缺乏想象力。",
-      "You lack imagination.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000001FD0E.0B2",
-      130318,
-      "symmetra",
-      "秩序之光",
-      null,
-      "Elimination",
-      "一切按部就班。",
-      "Everything in its place.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000065E3E.0B2",
-      417342,
-      "symmetra",
-      "秩序之光",
-      null,
-      "Elimination",
-      "高尚的做法，涅兰。",
-      "A noble attempt, Niran.",
-      "{\"type\":\"scripted\",\"script\":\"Shutdown_Lifegripped(B531)\",\"scriptDesc\":\"消灭被生命之握的敌人\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000065E36.0B2",
-      417334,
-      "symmetra",
-      "秩序之光",
-      null,
-      "Elimination",
-      "现在，我看到你了。",
-      "I see you now.",
-      "{\"type\":\"scripted\",\"script\":\"Shutdown_SombraStealth(A788)\",\"scriptDesc\":\"敌方黑影潜行\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000065E38.0B2",
-      417336,
-      "symmetra",
-      "秩序之光",
-      null,
-      "Elimination",
-      "冰的破碎，美轮美奂。",
-      "Ice fractures beautifully.",
-      "{\"type\":\"scripted\",\"script\":\"UltAssist_Blizzard(AA26)\",\"scriptDesc\":\"敌人被暴雪控制\"}",
-      null
     ],
     [
       "HeroQuote",
@@ -1339,7 +1131,7 @@
       "Elimination",
       "这一刻属于我。",
       "This moment is mine.",
-      "{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}",
       null
     ],
     [
@@ -1352,7 +1144,215 @@
       "Elimination",
       "漏洞百出的行动。",
       "What imprecise movements.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownA6FE\",\"scriptDesc\":\"敌人高速移动\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A6FE\",\"scriptDesc\":\"敌人高速移动\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "0000000647A9.0B2",
+      411561,
+      "symmetra",
+      "秩序之光",
+      null,
+      "Elimination",
+      "我的空间感知。",
+      "Spatial awareness.",
+      "{\"type\":\"scripted\",\"script\":\"00A776\",\"scriptDesc\":\"在空中时\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000065E36.0B2",
+      417334,
+      "symmetra",
+      "秩序之光",
+      null,
+      "Elimination",
+      "现在，我看到你了。",
+      "I see you now.",
+      "{\"type\":\"scripted\",\"script\":\"00A788\",\"scriptDesc\":\"敌方黑影潜行\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000065E3B.0B2",
+      417339,
+      "symmetra",
+      "秩序之光",
+      null,
+      "Elimination",
+      "距离对我的技术没有影响。",
+      "My technology cares not for intervening distance.",
+      "{\"type\":\"scripted\",\"script\":\"00A809\",\"scriptDesc\":\"远距离\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000065E38.0B2",
+      417336,
+      "symmetra",
+      "秩序之光",
+      null,
+      "Elimination",
+      "冰的破碎，美轮美奂。",
+      "Ice fractures beautifully.",
+      "{\"type\":\"scripted\",\"script\":\"00AA26\",\"scriptDesc\":\"敌人被暴雪控制\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000065E3E.0B2",
+      417342,
+      "symmetra",
+      "秩序之光",
+      null,
+      "Elimination",
+      "高尚的做法，涅兰。",
+      "A noble attempt, Niran.",
+      "{\"type\":\"scripted\",\"script\":\"00B531\",\"scriptDesc\":\"消灭被生命之握的敌人\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000000AA7D.0B2",
+      43645,
+      "symmetra",
+      "秩序之光",
+      null,
+      "Elimination",
+      "（叹气）固步自封。",
+      "(sighs) You are trapped in your own mind.",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000000AAF1.0B2",
+      43761,
+      "symmetra",
+      "秩序之光",
+      null,
+      "Elimination",
+      "那是为你好。",
+      "That was for your own good.",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000000AAF3.0B2",
+      43763,
+      "symmetra",
+      "秩序之光",
+      null,
+      "Elimination",
+      "你不配迎接真相。",
+      "You are unworthy of the true reality.",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000000AAF4.0B2",
+      43764,
+      "symmetra",
+      "秩序之光",
+      null,
+      "Elimination",
+      "嗯……感知危险不是你的强项。",
+      "Hm... Perception is your weakness.",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000000AB1F.0B2",
+      43807,
+      "symmetra",
+      "秩序之光",
+      null,
+      "Elimination",
+      "（叹气）你成不了大事。",
+      "(sighs) You were not meant for greatness.",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000000AF14.0B2",
+      44820,
+      "symmetra",
+      "秩序之光",
+      null,
+      "Elimination",
+      "秩序已恢复。",
+      "Order is restored.",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000000AF2B.0B2",
+      44843,
+      "symmetra",
+      "秩序之光",
+      null,
+      "Elimination",
+      "完美。",
+      "Perfection.",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000000AF50.0B2",
+      44880,
+      "symmetra",
+      "秩序之光",
+      null,
+      "Elimination",
+      "这才是一切应有的秩序。",
+      "This is the order of things.",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000001FCF5.0B2",
+      130293,
+      "symmetra",
+      "秩序之光",
+      null,
+      "Elimination",
+      "自不量力。",
+      "Know your place.",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000001FD0B.0B2",
+      130315,
+      "symmetra",
+      "秩序之光",
+      null,
+      "Elimination",
+      "你缺乏想象力。",
+      "You lack imagination.",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000001FD0E.0B2",
+      130318,
+      "symmetra",
+      "秩序之光",
+      null,
+      "Elimination",
+      "一切按部就班。",
+      "Everything in its place.",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -1612,7 +1612,7 @@
       "EnemiesAttacking",
       "他们从左边打过来了。",
       "They attack from the left.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2733\",\"scriptDesc\":\"敌人在左侧\"}",
+      "{\"type\":\"scripted\",\"script\":\"002733\",\"scriptDesc\":\"敌人在左侧\"}",
       null
     ],
     [
@@ -1625,7 +1625,7 @@
       "EnemiesAttacking",
       "在左边。",
       "On the left.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2733\",\"scriptDesc\":\"敌人在左侧\"}",
+      "{\"type\":\"scripted\",\"script\":\"002733\",\"scriptDesc\":\"敌人在左侧\"}",
       null
     ],
     [
@@ -1638,7 +1638,7 @@
       "EnemiesAttacking",
       "右边！",
       "On the right.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2734\",\"scriptDesc\":\"敌人在右侧\"}",
+      "{\"type\":\"scripted\",\"script\":\"002734\",\"scriptDesc\":\"敌人在右侧\"}",
       null
     ],
     [
@@ -1651,7 +1651,7 @@
       "EnemiesAttacking",
       "他们从右边打过来了。",
       "They are attacking from the right.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2734\",\"scriptDesc\":\"敌人在右侧\"}",
+      "{\"type\":\"scripted\",\"script\":\"002734\",\"scriptDesc\":\"敌人在右侧\"}",
       null
     ],
     [
@@ -1664,7 +1664,7 @@
       "EnemiesAttacking",
       "他们从正面打过来了。",
       "They are attacking from in front of us.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2735\",\"scriptDesc\":\"敌人在前方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002735\",\"scriptDesc\":\"敌人在前方\"}",
       null
     ],
     [
@@ -1677,7 +1677,7 @@
       "EnemiesAttacking",
       "敌人径直冲过来了。",
       "They're coming straight at us.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2735\",\"scriptDesc\":\"敌人在前方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002735\",\"scriptDesc\":\"敌人在前方\"}",
       null
     ],
     [
@@ -1690,7 +1690,7 @@
       "EnemiesAttacking",
       "他们从上面打过来了。",
       "They are coming from above.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2736\",\"scriptDesc\":\"敌人在上方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002736\",\"scriptDesc\":\"敌人在上方\"}",
       null
     ],
     [
@@ -1703,7 +1703,7 @@
       "EnemiesAttacking",
       "小心上面。",
       "Watch above us.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2736\",\"scriptDesc\":\"敌人在上方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002736\",\"scriptDesc\":\"敌人在上方\"}",
       null
     ],
     [
@@ -1716,7 +1716,7 @@
       "EnemiesAttacking",
       "他们从后面打过来了。",
       "They are attacking from the rear.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2737\",\"scriptDesc\":\"敌人在后方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002737\",\"scriptDesc\":\"敌人在后方\"}",
       null
     ],
     [
@@ -1729,7 +1729,7 @@
       "EnemiesAttacking",
       "敌人在后面。",
       "The enemy is behind us.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2737\",\"scriptDesc\":\"敌人在后方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002737\",\"scriptDesc\":\"敌人在后方\"}",
       null
     ],
     [
@@ -1742,7 +1742,7 @@
       "EnemiesAttacking",
       "小心下面。",
       "Watch below us.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2738\",\"scriptDesc\":\"敌人在下方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002738\",\"scriptDesc\":\"敌人在下方\"}",
       null
     ],
     [
@@ -1755,7 +1755,7 @@
       "EnemiesAttacking",
       "敌人从下面打过来了。",
       "They are attacking from below.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2738\",\"scriptDesc\":\"敌人在下方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002738\",\"scriptDesc\":\"敌人在下方\"}",
       null
     ],
     [
@@ -2093,7 +2093,7 @@
       "Health/LowHealthBreathStart",
       "（倒吸气）",
       "(gasps)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -2301,7 +2301,7 @@
       "HeroSelect",
       "人类的真正敌人是无序。",
       "The true enemy of humanity is disorder.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -2665,7 +2665,7 @@
       "KillStreak",
       "形势大好。",
       "A pattern develops.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -2678,7 +2678,7 @@
       "KillStreak",
       "一切按部就班。",
       "Everything in its place.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -2691,7 +2691,7 @@
       "KillStreak",
       "这就是既定的形式。",
       "This is the shape of things to come.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -2704,7 +2704,7 @@
       "KillStreak",
       "正如预期。",
       "Just as expected.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -4082,7 +4082,7 @@
       "MatchTalk",
       "这将是一个难忘的傍晚。",
       "This will be an evening to remember.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownB87E\",\"scriptDesc\":\"在夜晚地图\"}",
+      "{\"type\":\"scripted\",\"script\":\"00B87E\",\"scriptDesc\":\"在夜晚地图\"}",
       0.1
     ],
     [
@@ -4134,7 +4134,7 @@
       "MeleeEnemyKilledRemark",
       "可怜。",
       "Shameful.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -4147,7 +4147,7 @@
       "MeleeEnemyKilledRemark",
       "滚回去。",
       "Get back.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -4160,7 +4160,7 @@
       "MeleeEnemyKilledRemark",
       "不要不自量力。",
       "Know your place.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -4251,7 +4251,7 @@
       "NanoBoosted",
       "没东西可以阻碍我了！",
       "There is nothing that will stand in my way!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -4953,7 +4953,7 @@
       "OnFire",
       "我火力全开。",
       "I am on fire.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -6414,175 +6414,6 @@
     ],
     [
       "HeroQuote",
-      "000000065E47.0B2",
-      417351,
-      "symmetra",
-      "秩序之光",
-      null,
-      "PVE/Unknown",
-      "渡轮遇袭会危及乘客的安全。我们必须妥善应对。",
-      "Direct assaults endanger the Ferry's passengers. We must do better.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7329\",\"scriptDesc\":\"渡轮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000065E4F.0B2",
-      417359,
-      "symmetra",
-      "秩序之光",
-      null,
-      "PVE/Unknown",
-      "渡轮正在遭受损害！",
-      "The Ferry is sustaining damage!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7329\",\"scriptDesc\":\"渡轮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000065E50.0B2",
-      417360,
-      "symmetra",
-      "秩序之光",
-      null,
-      "PVE/Unknown",
-      "我们必须保护渡轮！",
-      "We must defend the Ferry!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7329\",\"scriptDesc\":\"渡轮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000065E52.0B2",
-      417362,
-      "symmetra",
-      "秩序之光",
-      null,
-      "PVE/Unknown",
-      "照这个速度下去，渡轮马上就要沉了。",
-      "The Ferry will be breached soon at this rate.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7329\",\"scriptDesc\":\"渡轮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000065E53.0B2",
-      417363,
-      "symmetra",
-      "秩序之光",
-      null,
-      "PVE/Unknown",
-      "渡轮已经严重受损！",
-      "The Ferry is heavily damaged!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7329\",\"scriptDesc\":\"渡轮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000065E4D.0B2",
-      417357,
-      "symmetra",
-      "秩序之光",
-      null,
-      "PVE/Unknown",
-      "传输塔遭到了攻击！",
-      "The Uplink is under attack!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000065E4E.0B2",
-      417358,
-      "symmetra",
-      "秩序之光",
-      null,
-      "PVE/Unknown",
-      "保护传输塔！",
-      "Protect the Uplink!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000065E54.0B2",
-      417364,
-      "symmetra",
-      "秩序之光",
-      null,
-      "PVE/Unknown",
-      "传输塔已严重受损！",
-      "The Uplink is severely damaged!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000065E55.0B2",
-      417365,
-      "symmetra",
-      "秩序之光",
-      null,
-      "PVE/Unknown",
-      "传输塔要撑不住了！",
-      "The Uplink is failing!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000065E48.0B2",
-      417352,
-      "symmetra",
-      "秩序之光",
-      null,
-      "PVE/Unknown",
-      "敌人在攻击巨炮！",
-      "They are attacking the Cannon!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown81B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000065E49.0B2",
-      417353,
-      "symmetra",
-      "秩序之光",
-      null,
-      "PVE/Unknown",
-      "保护巨炮！",
-      "Defend the Cannon!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown81B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000065E56.0B2",
-      417366,
-      "symmetra",
-      "秩序之光",
-      null,
-      "PVE/Unknown",
-      "巨炮遭到了严重破坏！",
-      "The Cannon sustains heavy damage!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown81B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000065E57.0B2",
-      417367,
-      "symmetra",
-      "秩序之光",
-      null,
-      "PVE/Unknown",
-      "巨炮的结构完整度急剧下降！",
-      "The Cannon's structural integrity is failing!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown81B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
       "000000065E4A.0B2",
       417354,
       "symmetra",
@@ -6591,7 +6422,7 @@
       "PVE/Unknown",
       "运载目标受到了攻击。",
       "The Payload is under fire.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown88E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
       null
     ],
     [
@@ -6604,7 +6435,7 @@
       "PVE/Unknown",
       "敌人在破坏运载目标！",
       "They damage the Payload!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown88E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
       null
     ],
     [
@@ -6617,7 +6448,7 @@
       "PVE/Unknown",
       "运载目标无法承受这样的火力！",
       "The Payload was not designed to withstand this!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown88E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
       null
     ],
     [
@@ -6630,7 +6461,176 @@
       "PVE/Unknown",
       "运载目标受损严重！",
       "The Payload is taking critical damage!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown88E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000065E47.0B2",
+      417351,
+      "symmetra",
+      "秩序之光",
+      null,
+      "PVE/Unknown",
+      "渡轮遇袭会危及乘客的安全。我们必须妥善应对。",
+      "Direct assaults endanger the Ferry's passengers. We must do better.",
+      "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000065E4F.0B2",
+      417359,
+      "symmetra",
+      "秩序之光",
+      null,
+      "PVE/Unknown",
+      "渡轮正在遭受损害！",
+      "The Ferry is sustaining damage!",
+      "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000065E50.0B2",
+      417360,
+      "symmetra",
+      "秩序之光",
+      null,
+      "PVE/Unknown",
+      "我们必须保护渡轮！",
+      "We must defend the Ferry!",
+      "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000065E52.0B2",
+      417362,
+      "symmetra",
+      "秩序之光",
+      null,
+      "PVE/Unknown",
+      "照这个速度下去，渡轮马上就要沉了。",
+      "The Ferry will be breached soon at this rate.",
+      "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000065E53.0B2",
+      417363,
+      "symmetra",
+      "秩序之光",
+      null,
+      "PVE/Unknown",
+      "渡轮已经严重受损！",
+      "The Ferry is heavily damaged!",
+      "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000065E4D.0B2",
+      417357,
+      "symmetra",
+      "秩序之光",
+      null,
+      "PVE/Unknown",
+      "传输塔遭到了攻击！",
+      "The Uplink is under attack!",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000065E4E.0B2",
+      417358,
+      "symmetra",
+      "秩序之光",
+      null,
+      "PVE/Unknown",
+      "保护传输塔！",
+      "Protect the Uplink!",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000065E54.0B2",
+      417364,
+      "symmetra",
+      "秩序之光",
+      null,
+      "PVE/Unknown",
+      "传输塔已严重受损！",
+      "The Uplink is severely damaged!",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000065E55.0B2",
+      417365,
+      "symmetra",
+      "秩序之光",
+      null,
+      "PVE/Unknown",
+      "传输塔要撑不住了！",
+      "The Uplink is failing!",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000065E48.0B2",
+      417352,
+      "symmetra",
+      "秩序之光",
+      null,
+      "PVE/Unknown",
+      "敌人在攻击巨炮！",
+      "They are attacking the Cannon!",
+      "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000065E49.0B2",
+      417353,
+      "symmetra",
+      "秩序之光",
+      null,
+      "PVE/Unknown",
+      "保护巨炮！",
+      "Defend the Cannon!",
+      "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000065E56.0B2",
+      417366,
+      "symmetra",
+      "秩序之光",
+      null,
+      "PVE/Unknown",
+      "巨炮遭到了严重破坏！",
+      "The Cannon sustains heavy damage!",
+      "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000065E57.0B2",
+      417367,
+      "symmetra",
+      "秩序之光",
+      null,
+      "PVE/Unknown",
+      "巨炮的结构完整度急剧下降！",
+      "The Cannon's structural integrity is failing!",
+      "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
       null
     ],
     [
@@ -6643,7 +6643,7 @@
       "PVE/Unknown",
       "保护修理站！",
       "Protect the Repair Station!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown94DB\",\"scriptDesc\":\"修理站受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"0094DB\",\"scriptDesc\":\"修理站受到攻击\"}",
       null
     ],
     [
@@ -6656,7 +6656,7 @@
       "PVE/Unknown",
       "修理站受到了攻击！",
       "The Repair Station is being attacked!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown94DB\",\"scriptDesc\":\"修理站受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"0094DB\",\"scriptDesc\":\"修理站受到攻击\"}",
       null
     ],
     [
@@ -6669,7 +6669,7 @@
       "PVE/Unknown",
       "修理站受到了重创！",
       "The Repair Station is severely damaged!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown94DB\",\"scriptDesc\":\"修理站受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"0094DB\",\"scriptDesc\":\"修理站受到攻击\"}",
       null
     ],
     [
@@ -6682,7 +6682,7 @@
       "PVE/Unknown",
       "我们必须立即着手保护修理站！",
       "We must defend the Repair Station immediately!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown94DB\",\"scriptDesc\":\"修理站受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"0094DB\",\"scriptDesc\":\"修理站受到攻击\"}",
       null
     ],
     [
@@ -7051,6 +7051,19 @@
     ],
     [
       "HeroQuote",
+      "000000065EB5.0B2",
+      417461,
+      "symmetra",
+      "秩序之光",
+      null,
+      "Respawn",
+      "哼。计划本来进展得很顺利……",
+      "Hmpfh. My plan was going so smoothly...",
+      "{\"type\":\"scripted\",\"script\":\"00B404\",\"scriptDesc\":\"连杀后复生\"}",
+      null
+    ],
+    [
+      "HeroQuote",
       "000000065EB8.0B2",
       417464,
       "symmetra",
@@ -7059,7 +7072,7 @@
       "Respawn",
       "我们依然可以掌控今晚。",
       "The night can still be ours.",
-      "{\"type\":\"scripted\",\"script\":\"MapNight(B87C)\",\"scriptDesc\":\"在夜晚地图\"}",
+      "{\"type\":\"scripted\",\"script\":\"00B87C\",\"scriptDesc\":\"在夜晚地图\"}",
       0.15
     ],
     [
@@ -7072,7 +7085,7 @@
       "Respawn",
       "我的工作尚未完成。",
       "My work is not complete.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -7085,7 +7098,7 @@
       "Respawn",
       "我会纠正我的错误。",
       "I will correct my mistakes.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -7098,7 +7111,7 @@
       "Respawn",
       "我会按计划行事。",
       "I will follow my path.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -7111,20 +7124,7 @@
       "Respawn",
       "还有很多事要做。",
       "There is still much to be done.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000065EB5.0B2",
-      417461,
-      "symmetra",
-      "秩序之光",
-      null,
-      "Respawn",
-      "哼。计划本来进展得很顺利……",
-      "Hmpfh. My plan was going so smoothly...",
-      "{\"type\":\"scripted\",\"script\":\"RespawnAfterKillstreak(B404)\",\"scriptDesc\":\"连杀后复生\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -7462,7 +7462,7 @@
       "Scream",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -7475,7 +7475,7 @@
       "Scream",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -7488,7 +7488,7 @@
       "Scream",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -7670,7 +7670,7 @@
       "TeamKill",
       "敌人被全歼了。",
       "The enemy team has been eliminated.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -7683,7 +7683,7 @@
       "TeamKill",
       "所有敌人都被消灭了。",
       "All enemies eliminated.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -8294,7 +8294,7 @@
       "Ultimate",
       "这道墙熠熠生辉，令人陶醉。",
       "This wall is incredibly lit!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -8307,7 +8307,7 @@
       "Ultimate",
       "比三原色更高级！",
       "Superior to RGB!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -8320,7 +8320,7 @@
       "Ultimate",
       "我挡住你们了！",
       "I am blocking you!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -8333,7 +8333,7 @@
       "Ultimate",
       "我挡住你们了！",
       "I am blocking you!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -8346,7 +8346,7 @@
       "Ultimate",
       "比三原色更高级！",
       "Superior to RGB!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -8372,7 +8372,7 @@
       "Ultimate/AlmostReady",
       "光子屏障即将就绪。",
       "My photon barrier is almost ready.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\",\"negative\":true},{\"type\":\"gameMode\",\"gameMode\":\"温斯顿的沙滩排球\",\"negative\":true}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\",\"negative\":true},{\"type\":\"gameMode\",\"gameMode\":\"温斯顿的沙滩排球\",\"negative\":true}]}",
       null
     ],
     [
@@ -8398,7 +8398,7 @@
       "Ultimate/Charging",
       "光子屏障正在充能。",
       "My photon barrier is charging.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\",\"negative\":true}",
       null
     ],
     [
@@ -8424,7 +8424,7 @@
       "Ultimate/Ready",
       "光子屏障准备完毕。",
       "Photon barrier is ready for deployment.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\",\"negative\":true},{\"type\":\"gameMode\",\"gameMode\":\"温斯顿的沙滩排球\",\"negative\":true}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\",\"negative\":true},{\"type\":\"gameMode\",\"gameMode\":\"温斯顿的沙滩排球\",\"negative\":true}]}",
       null
     ],
     [
@@ -8437,7 +8437,7 @@
       "Ultimate/UltimateIsReadyTeammate",
       "即将部署光子屏障。快到屏障后面去！",
       "Photon barrier is ready to deploy. Get behind it!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\",\"negative\":true},{\"type\":\"gameMode\",\"gameMode\":\"温斯顿的沙滩排球\",\"negative\":true}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\",\"negative\":true},{\"type\":\"gameMode\",\"gameMode\":\"温斯顿的沙滩排球\",\"negative\":true}]}",
       null
     ],
     [
@@ -8450,7 +8450,7 @@
       "Ultimate/UltimateIsReadyTeammate",
       "我的传送面板准备就绪。",
       "My teleporter is ready to deploy.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -8918,7 +8918,7 @@
       "Unknown/11E0.078",
       "也许你出手前应该先思考。",
       "Perhaps you should think before you act.",
-      "{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}",
       null
     ],
     [
@@ -8931,7 +8931,7 @@
       "Unknown/11E0.078",
       "不看路是很危险的。",
       "You should watch where you're going.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownA6FE\",\"scriptDesc\":\"敌人高速移动\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A6FE\",\"scriptDesc\":\"敌人高速移动\"}",
       null
     ],
     [
@@ -9243,7 +9243,7 @@
       "Unknown/14D.078",
       "炮台已上线。",
       "Turret online.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -9256,7 +9256,7 @@
       "Unknown/14D.078",
       "防御设备已就绪。",
       "Defenses in place.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -9269,7 +9269,7 @@
       "Unknown/14D.078",
       "炮台已部署。",
       "Turret deployed.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -9282,7 +9282,7 @@
       "Unknown/14D.078",
       "哨戒炮就位。",
       "Sentry deployed.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -9295,7 +9295,7 @@
       "Unknown/14D.078",
       "哨戒炮已就位。",
       "Sentry turret placed.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -9308,7 +9308,7 @@
       "Unknown/14D.078",
       "哨戒炮已部署。",
       "Turret in place.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -9321,7 +9321,7 @@
       "Unknown/14D.078",
       "哨戒炮已启动。",
       "Sentry online.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -9425,7 +9425,7 @@
       "Unknown/14E.078",
       "我的炮台被摧毁了。",
       "My turret was destroyed.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -9438,7 +9438,7 @@
       "Unknown/14E.078",
       "我的防御设施被削弱了。",
       "My defenses are weakened.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -9451,7 +9451,7 @@
       "Unknown/14E.078",
       "我的哨戒炮被摧毁了。",
       "My sentry was destroyed.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -9607,7 +9607,7 @@
       "Unknown/150.078",
       "传送面板上线。我已经打开通路。",
       "Teleporter online. I have opened the path.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -9620,7 +9620,7 @@
       "Unknown/150.078",
       "传送面板已上线，我们行动会更加迅捷。",
       "Teleporter online. We move swiftly.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -9633,7 +9633,7 @@
       "Unknown/150.078",
       "我的传送面板已上线，继续执行任务吧。",
       "My teleporter is online.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -9828,7 +9828,7 @@
       "Unknown/154.078",
       "我的传送面板被摧毁了。",
       "My teleporter has been destroyed.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [

@@ -559,7 +559,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -572,7 +572,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -585,7 +585,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -598,7 +598,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -611,7 +611,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -624,7 +624,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -637,7 +637,7 @@
       "DeathCharged",
       "（遭受重压的声音）",
       "(crushed sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -650,7 +650,7 @@
       "DeathCharged",
       "（遭受重压的声音）",
       "(crushed sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -663,7 +663,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -676,7 +676,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -689,7 +689,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -702,7 +702,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -954,19 +954,6 @@
     ],
     [
       "HeroQuote",
-      "000000065D71.0B2",
-      417137,
-      "doomfist",
-      "末日铁拳",
-      null,
-      "Elimination",
-      "你还是不愿意穿鞋吗？",
-      "You still refuse footwear?",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"SigmaWithoutShoes(A894)\",\"scriptDesc\":\"敌方西格玛使用未穿鞋的皮肤\"},{\"type\":\"toHero\",\"hero\":\"西格玛\"}]}",
-      0.1
-    ],
-    [
-      "HeroQuote",
       "00000006450C.0B2",
       410892,
       "doomfist",
@@ -975,7 +962,7 @@
       "Elimination",
       "没我快。",
       "I was faster.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"UnknownA6FE\",\"scriptDesc\":\"敌人高速移动\"},{\"type\":\"scripted\",\"script\":\"FastMoving(A6FC)\",\"scriptDesc\":\"高速移动时\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A6FE\",\"scriptDesc\":\"敌人高速移动\"},{\"type\":\"scripted\",\"script\":\"00A6FC\",\"scriptDesc\":\"高速移动时\"}]}",
       null
     ],
     [
@@ -988,8 +975,21 @@
       "Elimination",
       "你长得像我，但一点都不如我。",
       "You look like me, but you don't move like me.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"UnknownA6FE\",\"scriptDesc\":\"敌人高速移动\"},{\"type\":\"scripted\",\"script\":\"FastMoving(A6FC)\",\"scriptDesc\":\"高速移动时\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A6FE\",\"scriptDesc\":\"敌人高速移动\"},{\"type\":\"scripted\",\"script\":\"00A6FC\",\"scriptDesc\":\"高速移动时\"}]}",
       null
+    ],
+    [
+      "HeroQuote",
+      "000000065D71.0B2",
+      417137,
+      "doomfist",
+      "末日铁拳",
+      null,
+      "Elimination",
+      "你还是不愿意穿鞋吗？",
+      "You still refuse footwear?",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A894\",\"scriptDesc\":\"敌方西格玛使用未穿鞋的皮肤\"},{\"type\":\"toHero\",\"hero\":\"西格玛\"}]}",
+      0.1
     ],
     [
       "HeroQuote",
@@ -1014,7 +1014,7 @@
       "Elimination",
       "我不是告诉过你要小心吗，莱耶斯。",
       "I instructed you to be more careful, Reyes.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"死神\"},{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"死神\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
       null
     ],
     [
@@ -1027,7 +1027,7 @@
       "Elimination",
       "你的怒火毫无意义。",
       "Your rage is pointless.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"温斯顿\"},{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"温斯顿\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
       null
     ],
     [
@@ -1040,7 +1040,7 @@
       "Elimination",
       "啊，不能动的靶子打起来没什么意思。",
       "An immobilized target is an unsatisfying kill.",
-      "{\"type\":\"nested\",\"total\":3,\"needed\":1,\"conditions\":[{\"type\":\"scripted\",\"script\":\"UltAssist_Grav(A22A)\",\"scriptDesc\":\"敌人被重力喷涌控制\"},{\"type\":\"scripted\",\"script\":\"UltAssist_Shatter(ADCB)\",\"scriptDesc\":\"敌人被裂地猛击控制\"},{\"type\":\"scripted\",\"script\":\"UltAssist_Blizzard(AA26)\",\"scriptDesc\":\"敌人被暴雪控制\"}]}",
+      "{\"type\":\"nested\",\"total\":3,\"needed\":1,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A22A\",\"scriptDesc\":\"敌人被重力喷涌控制\"},{\"type\":\"scripted\",\"script\":\"00ADCB\",\"scriptDesc\":\"敌人被裂地猛击控制\"},{\"type\":\"scripted\",\"script\":\"00AA26\",\"scriptDesc\":\"敌人被暴雪控制\"}]}",
       null
     ],
     [
@@ -1066,7 +1066,7 @@
       "Elimination",
       "记住，永远不要放松警惕！",
       "You should never let down your guard. Never!",
-      "{\"type\":\"nested\",\"total\":3,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"狂鼠\"},{\"type\":\"toHero\",\"hero\":\"堡垒\"},{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
+      "{\"type\":\"nested\",\"total\":3,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"狂鼠\"},{\"type\":\"toHero\",\"hero\":\"堡垒\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
       null
     ],
     [
@@ -1079,7 +1079,7 @@
       "Elimination",
       "（笑）跟个滚下山的雪球一样。",
       "Like a snowball down a hill.",
-      "{\"type\":\"nested\",\"total\":3,\"needed\":3,\"conditions\":[{\"type\":\"scripted\",\"script\":\"Shutdown_CassidyRoll(A90D)\",\"scriptDesc\":\"敌方卡西迪战术翻滚\"},{\"type\":\"toHero\",\"hero\":\"卡西迪\"},{\"type\":\"map\",\"map\":\"南极半岛\"}]}",
+      "{\"type\":\"nested\",\"total\":3,\"needed\":3,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A90D\",\"scriptDesc\":\"敌方卡西迪战术翻滚\"},{\"type\":\"toHero\",\"hero\":\"卡西迪\"},{\"type\":\"map\",\"map\":\"南极半岛\"}]}",
       null
     ],
     [
@@ -1092,7 +1092,7 @@
       "Elimination",
       "两个艾玛莉加在一起也赢不了我。",
       "Two Amaris foiled at once.",
-      "{\"type\":\"nested\",\"total\":3,\"needed\":3,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"法老之鹰\"},{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"scripted\",\"script\":\"UltShutdown_NanoBoosted(A697)\",\"scriptDesc\":\"敌人被纳米激素强化\"}]}",
+      "{\"type\":\"nested\",\"total\":3,\"needed\":3,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"法老之鹰\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"scripted\",\"script\":\"00A697\",\"scriptDesc\":\"敌人被纳米激素强化\"}]}",
       null
     ],
     [
@@ -1105,7 +1105,7 @@
       "Elimination",
       "我看清了雨中的波纹。",
       "I read the pattern in the raindrops.",
-      "{\"type\":\"nested\",\"total\":3,\"needed\":3,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"黑影\"},{\"type\":\"scripted\",\"script\":\"Shutdown_SombraStealth(A788)\",\"scriptDesc\":\"敌方黑影潜行\"},{\"type\":\"scripted\",\"script\":\"MapRaining(B87D)\",\"scriptDesc\":\"在雨天地图\"}]}",
+      "{\"type\":\"nested\",\"total\":3,\"needed\":3,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"黑影\"},{\"type\":\"scripted\",\"script\":\"00A788\",\"scriptDesc\":\"敌方黑影潜行\"},{\"type\":\"scripted\",\"script\":\"00B87D\",\"scriptDesc\":\"在雨天地图\"}]}",
       null
     ],
     [
@@ -1118,7 +1118,7 @@
       "Elimination",
       "话不要说得太早。",
       "Do not make promises you cannot keep.",
-      "{\"type\":\"nested\",\"total\":3,\"needed\":3,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"索杰恩\"},{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"scripted\",\"script\":\"UnknownC003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}]}",
+      "{\"type\":\"nested\",\"total\":3,\"needed\":3,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"索杰恩\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"scripted\",\"script\":\"00C003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}]}",
       null
     ],
     [
@@ -1162,16 +1162,16 @@
     ],
     [
       "HeroQuote",
-      "000000065D73.0B2",
-      417139,
+      "00000006450B.0B2",
+      410891,
       "doomfist",
       "末日铁拳",
       null,
       "Elimination",
-      "记住，不要背对威胁。",
-      "Never turn your back on a threat.",
-      "{\"type\":\"scripted\",\"script\":\"FromBehind(B0A3)\",\"scriptDesc\":\"从背后消灭\"}",
-      0.25
+      "想试试我的反应？哈！",
+      "Test my reflexes? Ha!",
+      "{\"type\":\"scripted\",\"script\":\"00A6FE\",\"scriptDesc\":\"敌人高速移动\"}",
+      null
     ],
     [
       "HeroQuote",
@@ -1183,8 +1183,21 @@
       "Elimination",
       "你是不是以为我快不行了。（哼）",
       "You thought me vulnerable. (snort)",
-      "{\"type\":\"scripted\",\"script\":\"LowHealth(A81C)\",\"scriptDesc\":\"低生命值时\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A81C\",\"scriptDesc\":\"低生命值时\"}",
       null
+    ],
+    [
+      "HeroQuote",
+      "000000065D73.0B2",
+      417139,
+      "doomfist",
+      "末日铁拳",
+      null,
+      "Elimination",
+      "记住，不要背对威胁。",
+      "Never turn your back on a threat.",
+      "{\"type\":\"scripted\",\"script\":\"00B0A3\",\"scriptDesc\":\"从背后消灭\"}",
+      0.25
     ],
     [
       "HeroQuote",
@@ -1196,7 +1209,7 @@
       "Elimination",
       "我还以为会有点儿意思呢。",
       "I was looking for a challenge.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -1209,7 +1222,7 @@
       "Elimination",
       "给我省省吧。",
       "Come on!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -1222,7 +1235,7 @@
       "Elimination",
       "我都没流汗呢。",
       "I haven't even broken a sweat.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -1235,7 +1248,7 @@
       "Elimination",
       "真让我失望。",
       "I'm disappointed.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -1248,7 +1261,7 @@
       "Elimination",
       "就这么死了？",
       "That's it, yeah?",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -1261,7 +1274,7 @@
       "Elimination",
       "别挡我道。",
       "Stay out of my way.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -1274,7 +1287,7 @@
       "Elimination",
       "别想拦我。",
       "Don't cross me.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -1287,7 +1300,7 @@
       "Elimination",
       "没人会记得你的。",
       "History will forget you.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -1300,20 +1313,7 @@
       "Elimination",
       "你该重新思考一下人生了吧？",
       "Rethinking your life decisions?",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000006450B.0B2",
-      410891,
-      "doomfist",
-      "末日铁拳",
-      null,
-      "Elimination",
-      "想试试我的反应？哈！",
-      "Test my reflexes? Ha!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownA6FE\",\"scriptDesc\":\"敌人高速移动\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -1820,7 +1820,7 @@
       "Health/LowHealthBreathStart",
       "（倒吸气）",
       "(gasps)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -2015,7 +2015,7 @@
       "HeroSelect",
       "不经历冲突怎能不断进化。",
       "Only through conflict do we evolve.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -2249,7 +2249,7 @@
       "KillStreak",
       "莫伊拉，这个“纳米激素”我们也得有。",
       "Moira, we must replicate this \"Nano Boost.\"",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"UltAssist_Nano(A5FD)\",\"scriptDesc\":\"被纳米激素强化时\"},{\"type\":\"withHero\",\"hero\":\"莫伊拉\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A5FD\",\"scriptDesc\":\"被纳米激素强化时\"},{\"type\":\"withHero\",\"hero\":\"莫伊拉\"}]}",
       null
     ],
     [
@@ -2262,7 +2262,7 @@
       "KillStreak",
       "还有人敢来挑战么？",
       "Does anyone else want to try me?",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -2275,7 +2275,7 @@
       "KillStreak",
       "我这才刚开始呢。",
       "I am just getting started!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -2288,7 +2288,7 @@
       "KillStreak",
       "(laughs) 今天我心情很好。",
       "(laughs) I'm having a good day.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -2548,7 +2548,7 @@
       "MatchStartTalk",
       "今晚，我们要让敌人安息。",
       "Tonight, we will put them to rest.",
-      "{\"type\":\"scripted\",\"script\":\"MapNight(B87C)\",\"scriptDesc\":\"在夜晚地图\"}",
+      "{\"type\":\"scripted\",\"script\":\"00B87C\",\"scriptDesc\":\"在夜晚地图\"}",
       0.3
     ],
     [
@@ -2561,7 +2561,7 @@
       "MatchStartTalk",
       "像雨点一样砸在他们脸上。",
       "Pummel them like the rain.",
-      "{\"type\":\"scripted\",\"script\":\"MapRaining(B87D)\",\"scriptDesc\":\"在雨天地图\"}",
+      "{\"type\":\"scripted\",\"script\":\"00B87D\",\"scriptDesc\":\"在雨天地图\"}",
       0.3
     ],
     [
@@ -3835,7 +3835,7 @@
       "NanoBoosted",
       "我不可阻挡！",
       "I am unstoppable!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -4277,7 +4277,7 @@
       "OnFire",
       "我火力全开！",
       "I'm on fire!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -4290,7 +4290,7 @@
       "OnFire",
       "我火力全开了，谁敢挡我？",
       "I'm on fire. Anyone want a piece of me?",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       0.6
     ],
     [
@@ -4303,7 +4303,7 @@
       "OnFire",
       "不想被打死就滚开。",
       "Move or get run over.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       0.3
     ],
     [
@@ -6011,162 +6011,6 @@
     ],
     [
       "HeroQuote",
-      "0000000624A5.0B2",
-      402597,
-      "doomfist",
-      "末日铁拳",
-      null,
-      "PVE/Unknown",
-      "敌人就要击穿渡轮了！",
-      "They've almost breached the ferry!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7329\",\"scriptDesc\":\"渡轮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "0000000624AB.0B2",
-      402603,
-      "doomfist",
-      "末日铁拳",
-      null,
-      "PVE/Unknown",
-      "最后的机会了！保护渡轮！",
-      "Protect the ferry! This is our last chance!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7329\",\"scriptDesc\":\"渡轮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000006249F.0B2",
-      402591,
-      "doomfist",
-      "末日铁拳",
-      null,
-      "PVE/Unknown",
-      "渡轮遭到了破坏。",
-      "The Ferry is taking damage.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7329\",\"scriptDesc\":\"渡轮受到攻击\"}",
-      0.5
-    ],
-    [
-      "HeroQuote",
-      "0000000624A3.0B2",
-      402595,
-      "doomfist",
-      "末日铁拳",
-      null,
-      "PVE/Unknown",
-      "防守渡轮。快。",
-      "Defend the Ferry. Come on.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7329\",\"scriptDesc\":\"渡轮受到攻击\"}",
-      0.5
-    ],
-    [
-      "HeroQuote",
-      "0000000624A8.0B2",
-      402600,
-      "doomfist",
-      "末日铁拳",
-      null,
-      "PVE/Unknown",
-      "传输塔要倒了！",
-      "The Uplink's going down!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "0000000624AF.0B2",
-      402607,
-      "doomfist",
-      "末日铁拳",
-      null,
-      "PVE/Unknown",
-      "传输塔快要被他们摧毁了！",
-      "They've almost destroyed the Uplink!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000006249D.0B2",
-      402589,
-      "doomfist",
-      "末日铁拳",
-      null,
-      "PVE/Unknown",
-      "传输塔受到了攻击！",
-      "The Uplink is under fire!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      0.5
-    ],
-    [
-      "HeroQuote",
-      "00000006249E.0B2",
-      402590,
-      "doomfist",
-      "末日铁拳",
-      null,
-      "PVE/Unknown",
-      "他们正在攻击传输塔！",
-      "They're attacking the Uplink!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      0.5
-    ],
-    [
-      "HeroQuote",
-      "0000000624A9.0B2",
-      402601,
-      "doomfist",
-      "末日铁拳",
-      null,
-      "PVE/Unknown",
-      "敌人马上就要摧毁巨炮了！",
-      "They've almost destroyed the cannon!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown81B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "0000000624AA.0B2",
-      402602,
-      "doomfist",
-      "末日铁拳",
-      null,
-      "PVE/Unknown",
-      "巨炮就快撑不住了！",
-      "The cannon is on the brink!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown81B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000062499.0B2",
-      402585,
-      "doomfist",
-      "末日铁拳",
-      null,
-      "PVE/Unknown",
-      "守住巨炮。",
-      "Protect the cannon.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown81B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
-      0.5
-    ],
-    [
-      "HeroQuote",
-      "0000000624A0.0B2",
-      402592,
-      "doomfist",
-      "末日铁拳",
-      null,
-      "PVE/Unknown",
-      "别让敌人靠近巨炮。",
-      "Keep them off the cannon.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown81B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
-      0.2
-    ],
-    [
-      "HeroQuote",
       "0000000624AD.0B2",
       402605,
       "doomfist",
@@ -6175,7 +6019,7 @@
       "PVE/Unknown",
       "运载目标就要被摧毁了！",
       "The payload is almost destroyed!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown88E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
       null
     ],
     [
@@ -6188,7 +6032,7 @@
       "PVE/Unknown",
       "运载目标受损严重。",
       "The payload is taking critical damage.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown88E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
       null
     ],
     [
@@ -6201,7 +6045,7 @@
       "PVE/Unknown",
       "都认真点。保护运载目标。",
       "We can do better. Protect the payload.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown88E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
       0.5
     ],
     [
@@ -6214,7 +6058,7 @@
       "PVE/Unknown",
       "他们在攻击运载目标！",
       "They're attacking the payload!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown88E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
       0.5
     ],
     [
@@ -6227,7 +6071,163 @@
       "PVE/Unknown",
       "如果运载目标失守，后果很严重。",
       "If the payload falls, there will be consequences.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown88E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      0.2
+    ],
+    [
+      "HeroQuote",
+      "0000000624A5.0B2",
+      402597,
+      "doomfist",
+      "末日铁拳",
+      null,
+      "PVE/Unknown",
+      "敌人就要击穿渡轮了！",
+      "They've almost breached the ferry!",
+      "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "0000000624AB.0B2",
+      402603,
+      "doomfist",
+      "末日铁拳",
+      null,
+      "PVE/Unknown",
+      "最后的机会了！保护渡轮！",
+      "Protect the ferry! This is our last chance!",
+      "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006249F.0B2",
+      402591,
+      "doomfist",
+      "末日铁拳",
+      null,
+      "PVE/Unknown",
+      "渡轮遭到了破坏。",
+      "The Ferry is taking damage.",
+      "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      0.5
+    ],
+    [
+      "HeroQuote",
+      "0000000624A3.0B2",
+      402595,
+      "doomfist",
+      "末日铁拳",
+      null,
+      "PVE/Unknown",
+      "防守渡轮。快。",
+      "Defend the Ferry. Come on.",
+      "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      0.5
+    ],
+    [
+      "HeroQuote",
+      "0000000624A8.0B2",
+      402600,
+      "doomfist",
+      "末日铁拳",
+      null,
+      "PVE/Unknown",
+      "传输塔要倒了！",
+      "The Uplink's going down!",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "0000000624AF.0B2",
+      402607,
+      "doomfist",
+      "末日铁拳",
+      null,
+      "PVE/Unknown",
+      "传输塔快要被他们摧毁了！",
+      "They've almost destroyed the Uplink!",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006249D.0B2",
+      402589,
+      "doomfist",
+      "末日铁拳",
+      null,
+      "PVE/Unknown",
+      "传输塔受到了攻击！",
+      "The Uplink is under fire!",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      0.5
+    ],
+    [
+      "HeroQuote",
+      "00000006249E.0B2",
+      402590,
+      "doomfist",
+      "末日铁拳",
+      null,
+      "PVE/Unknown",
+      "他们正在攻击传输塔！",
+      "They're attacking the Uplink!",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      0.5
+    ],
+    [
+      "HeroQuote",
+      "0000000624A9.0B2",
+      402601,
+      "doomfist",
+      "末日铁拳",
+      null,
+      "PVE/Unknown",
+      "敌人马上就要摧毁巨炮了！",
+      "They've almost destroyed the cannon!",
+      "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "0000000624AA.0B2",
+      402602,
+      "doomfist",
+      "末日铁拳",
+      null,
+      "PVE/Unknown",
+      "巨炮就快撑不住了！",
+      "The cannon is on the brink!",
+      "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000062499.0B2",
+      402585,
+      "doomfist",
+      "末日铁拳",
+      null,
+      "PVE/Unknown",
+      "守住巨炮。",
+      "Protect the cannon.",
+      "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
+      0.5
+    ],
+    [
+      "HeroQuote",
+      "0000000624A0.0B2",
+      402592,
+      "doomfist",
+      "末日铁拳",
+      null,
+      "PVE/Unknown",
+      "别让敌人靠近巨炮。",
+      "Keep them off the cannon.",
+      "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
       0.2
     ],
     [
@@ -6240,7 +6240,7 @@
       "PVE/Unknown",
       "修理站就要被他们拆掉了！",
       "They're about to take down the Repair Station!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown94DB\",\"scriptDesc\":\"修理站受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"0094DB\",\"scriptDesc\":\"修理站受到攻击\"}",
       null
     ],
     [
@@ -6253,7 +6253,7 @@
       "PVE/Unknown",
       "修理站受损严重。",
       "The Repair Station is in critical condition.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown94DB\",\"scriptDesc\":\"修理站受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"0094DB\",\"scriptDesc\":\"修理站受到攻击\"}",
       null
     ],
     [
@@ -6266,7 +6266,7 @@
       "PVE/Unknown",
       "修理站受损了！",
       "Repair Station's damaged!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown94DB\",\"scriptDesc\":\"修理站受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"0094DB\",\"scriptDesc\":\"修理站受到攻击\"}",
       null
     ],
     [
@@ -6279,7 +6279,7 @@
       "PVE/Unknown",
       "他们在攻击修理站！",
       "They're attacking the Repair Station!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown94DB\",\"scriptDesc\":\"修理站受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"0094DB\",\"scriptDesc\":\"修理站受到攻击\"}",
       null
     ],
     [
@@ -6292,7 +6292,7 @@
       "PVE/Unknown",
       "最后的机会了。夺回机器人！",
       "This is our last chance. Get that robot!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownAAD3\",\"scriptDesc\":\"加时期间敌方控制机器人\"}",
+      "{\"type\":\"scripted\",\"script\":\"00AAD3\",\"scriptDesc\":\"加时期间敌方控制机器人\"}",
       null
     ],
     [
@@ -6565,7 +6565,7 @@
       "Respawn",
       "蔡斯永远是那帮人里最能打的。",
       "Chase was always the best of them.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"索杰恩\"},{\"type\":\"scripted\",\"script\":\"UnknownC003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"索杰恩\"},{\"type\":\"scripted\",\"script\":\"00C003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}]}",
       0.05
     ],
     [
@@ -6583,6 +6583,19 @@
     ],
     [
       "HeroQuote",
+      "00000004141F.0B2",
+      267295,
+      "doomfist",
+      "末日铁拳",
+      null,
+      "Respawn",
+      "那可真没礼貌。",
+      "That was rude.",
+      "{\"type\":\"scripted\",\"script\":\"00B404\",\"scriptDesc\":\"连杀后复生\"}",
+      0.25
+    ],
+    [
+      "HeroQuote",
       "00000004129C.0B2",
       266908,
       "doomfist",
@@ -6591,7 +6604,7 @@
       "Respawn",
       "这点能耐就想干掉我？",
       "It'll take more than that to stop me.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -6604,7 +6617,7 @@
       "Respawn",
       "我曾经也被击倒过。",
       "I've been knocked down before.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -6617,7 +6630,7 @@
       "Respawn",
       "我还有活儿要干。",
       "My work is not done.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -6630,7 +6643,7 @@
       "Respawn",
       "我还没倒下。",
       "I'm not finished.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -6643,7 +6656,7 @@
       "Respawn",
       "战斗可以输，但这场战争必须赢。",
       "Lose the battle. Win the war.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -6656,7 +6669,7 @@
       "Respawn",
       "失败让我更强大。",
       "Defeat makes me stronger.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -6669,7 +6682,7 @@
       "Respawn",
       "战斗继续。",
       "The battle goes on.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -6682,21 +6695,8 @@
       "Respawn",
       "想干掉我可没那么容易。",
       "I'm not even close to done.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
-    ],
-    [
-      "HeroQuote",
-      "00000004141F.0B2",
-      267295,
-      "doomfist",
-      "末日铁拳",
-      null,
-      "Respawn",
-      "那可真没礼貌。",
-      "That was rude.",
-      "{\"type\":\"scripted\",\"script\":\"RespawnAfterKillstreak(B404)\",\"scriptDesc\":\"连杀后复生\"}",
-      0.25
     ],
     [
       "HeroQuote",
@@ -7098,7 +7098,7 @@
       "Scream",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -7111,7 +7111,7 @@
       "Scream",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -7124,7 +7124,7 @@
       "Scream",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -7865,7 +7865,7 @@
       "Ultimate",
       "抓不到我抓不到我！",
       "You can't get me!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -7878,7 +7878,7 @@
       "Ultimate",
       "喂——！",
       "Wheeeeeee!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -7891,7 +7891,7 @@
       "Ultimate",
       "抓不到我抓不到我！",
       "You can't get me!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -9347,7 +9347,7 @@
       "Unknown/83D.078",
       "无处可逃。",
       "No escape.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -9360,7 +9360,7 @@
       "Unknown/83D.078",
       "你倒是跑啊……",
       "You can run....",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -9373,7 +9373,7 @@
       "Unknown/83D.078",
       "你还真以为能跑得掉？",
       "You're not getting away.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -9529,7 +9529,7 @@
       "Unknown/83F.078",
       "太慢了。",
       "Too slow.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"猎空\"},{\"type\":\"scripted\",\"script\":\"UnknownA6FE\",\"scriptDesc\":\"敌人高速移动\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"猎空\"},{\"type\":\"scripted\",\"script\":\"00A6FE\",\"scriptDesc\":\"敌人高速移动\"}]}",
       null
     ],
     [
@@ -9542,7 +9542,7 @@
       "Unknown/83F.078",
       "空中拦截。",
       "Intercepted.",
-      "{\"type\":\"nested\",\"total\":3,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"法老之鹰\"},{\"type\":\"toHero\",\"hero\":\"回声\"},{\"type\":\"scripted\",\"script\":\"EnemyInAir(9268)\",\"scriptDesc\":\"敌人在空中\"}]}",
+      "{\"type\":\"nested\",\"total\":3,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"法老之鹰\"},{\"type\":\"toHero\",\"hero\":\"回声\"},{\"type\":\"scripted\",\"script\":\"009268\",\"scriptDesc\":\"敌人在空中\"}]}",
       null
     ],
     [
@@ -9555,7 +9555,7 @@
       "Unknown/83F.078",
       "碾平你们。",
       "Flattened.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -9568,7 +9568,7 @@
       "Unknown/83F.078",
       "（冷笑）",
       "(sneers)",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -9581,7 +9581,7 @@
       "Unknown/83F.078",
       "趴着别动。",
       "Stay down.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -9594,7 +9594,7 @@
       "Unknown/83F.078",
       "毫无还手之力。",
       "No chance.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -9664,19 +9664,6 @@
     ],
     [
       "HeroQuote",
-      "000000065D92.0B2",
-      417170,
-      "doomfist",
-      "末日铁拳",
-      null,
-      "Unknown/840.078",
-      "狐狸裂地拳！",
-      "Vulpine slam!",
-      "{\"type\":\"scripted\",\"script\":\"UltAssist_Kitsune(A662)\",\"scriptDesc\":\"被灵狐强化时\"}",
-      null
-    ],
-    [
-      "HeroQuote",
       "000000065D8C.0B2",
       417164,
       "doomfist",
@@ -9685,8 +9672,21 @@
       "Unknown/840.078",
       "纳米裂地拳！",
       "Nano Slammo!",
-      "{\"type\":\"scripted\",\"script\":\"UltAssist_Nano(A5FD)\",\"scriptDesc\":\"被纳米激素强化时\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A5FD\",\"scriptDesc\":\"被纳米激素强化时\"}",
       0.025
+    ],
+    [
+      "HeroQuote",
+      "000000065D92.0B2",
+      417170,
+      "doomfist",
+      "末日铁拳",
+      null,
+      "Unknown/840.078",
+      "狐狸裂地拳！",
+      "Vulpine slam!",
+      "{\"type\":\"scripted\",\"script\":\"00A662\",\"scriptDesc\":\"被灵狐强化时\"}",
+      null
     ],
     [
       "HeroQuote",
@@ -9776,7 +9776,7 @@
       "Unknown/842.078",
       "上勾拳！",
       "Rising Uppercut!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -9789,7 +9789,7 @@
       "Unknown/842.078",
       "上勾拳！",
       "Rising Uppercut!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -9802,7 +9802,7 @@
       "Unknown/842.078",
       "冲天铁拳！",
       "Rising fist!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -9815,7 +9815,7 @@
       "Unknown/842.078",
       "上勾拳！",
       "Rising Uppercut!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -9919,7 +9919,7 @@
       "Unknown/844.078",
       "以弱胜强？做梦。",
       "The underdog falls.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"士兵：76\"},{\"type\":\"scripted\",\"script\":\"UnknownC003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"士兵：76\"},{\"type\":\"scripted\",\"script\":\"00C003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}]}",
       0.33
     ],
     [
@@ -9932,7 +9932,7 @@
       "Unknown/844.078",
       "你露出破绽了。",
       "You left an opening.",
-      "{\"type\":\"nested\",\"total\":4,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"狂鼠\"},{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"堡垒\"},{\"type\":\"toHero\",\"hero\":\"卡西迪\"}]}",
+      "{\"type\":\"nested\",\"total\":4,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"狂鼠\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"堡垒\"},{\"type\":\"toHero\",\"hero\":\"卡西迪\"}]}",
       null
     ],
     [
@@ -10244,7 +10244,7 @@
       "Unknown/84E.078",
       "惧吾神拳！",
       "Beware my Fist of Power!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [

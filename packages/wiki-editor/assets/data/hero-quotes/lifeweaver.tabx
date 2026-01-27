@@ -624,7 +624,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -637,7 +637,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -650,7 +650,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -663,7 +663,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -676,7 +676,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -689,7 +689,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -702,7 +702,7 @@
       "DeathCharged",
       "（遭受重压的声音）",
       "(crushed sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -715,7 +715,7 @@
       "DeathCharged",
       "（遭受重压的声音）",
       "(crushed sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -728,7 +728,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -741,7 +741,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -754,7 +754,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -767,7 +767,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -1144,7 +1144,7 @@
       "Elimination",
       "慢一点，生命是用来享受的。",
       "Slow down. Life should be savored.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"scripted\",\"script\":\"UnknownA6FE\",\"scriptDesc\":\"敌人高速移动\"},{\"type\":\"scripted\",\"script\":\"Shutdown_Leaped(A753)\",\"scriptDesc\":\"敌人跳跃\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A6FE\",\"scriptDesc\":\"敌人高速移动\"},{\"type\":\"scripted\",\"script\":\"00A753\",\"scriptDesc\":\"敌人跳跃\"}]}",
       0.5
     ],
     [
@@ -1183,7 +1183,7 @@
       "Elimination",
       "有速度很好，但只有速度可不行。",
       "Speed is good, but it isn't everything.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\"},{\"type\":\"scripted\",\"script\":\"UnknownA6FE\",\"scriptDesc\":\"敌人高速移动\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\"},{\"type\":\"scripted\",\"script\":\"00A6FE\",\"scriptDesc\":\"敌人高速移动\"}]}",
       0.5
     ],
     [
@@ -1196,7 +1196,7 @@
       "Elimination",
       "玩玩具的时候要注意周围的环境。",
       "Mind your surroundings when playing with your toys.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"狂鼠\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"狂鼠\"}]}",
       0.5
     ],
     [
@@ -1209,7 +1209,7 @@
       "Elimination",
       "到此还远远不止。",
       "Let's end it later.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"索杰恩\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"索杰恩\"}]}",
       0.5
     ],
     [
@@ -1222,7 +1222,7 @@
       "Elimination",
       "谁来守护你呢，医生？",
       "Who takes care of you, Doctor?",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"天使\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"天使\"}]}",
       0.5
     ],
     [
@@ -1235,7 +1235,7 @@
       "Elimination",
       "我知道，我也没想到我还有这一招。",
       "I know. I didn't expect me either.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"UsingRejuvenatingDash(A90E)\",\"scriptDesc\":\"使用回春疾行后\"},{\"type\":\"scripted\",\"script\":\"FromBehind(B0A3)\",\"scriptDesc\":\"从背后消灭\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A90E\",\"scriptDesc\":\"使用回春疾行后\"},{\"type\":\"scripted\",\"script\":\"00B0A3\",\"scriptDesc\":\"从背后消灭\"}]}",
       0.5
     ],
     [
@@ -1248,7 +1248,7 @@
       "Elimination",
       "如果你瞄准一点，一把霰弹枪可能就够用了。",
       "If you aimed, one shotgun might be enough.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"死神\"},{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"死神\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
       null
     ],
     [
@@ -1261,7 +1261,7 @@
       "Elimination",
       "还以为我的把戏你都清楚呢。",
       "And I thought you knew all my tricks.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"秩序之光\"},{\"type\":\"scripted\",\"script\":\"UsingRejuvenatingDash(A90E)\",\"scriptDesc\":\"使用回春疾行后\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"秩序之光\"},{\"type\":\"scripted\",\"script\":\"00A90E\",\"scriptDesc\":\"使用回春疾行后\"}]}",
       0.5
     ],
     [
@@ -1274,7 +1274,7 @@
       "Elimination",
       "运气太好了。",
       "That was mostly luck.",
-      "{\"type\":\"nested\",\"total\":3,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\"},{\"type\":\"scripted\",\"script\":\"Shutdown_SombraStealth(A788)\",\"scriptDesc\":\"敌方黑影潜行\"},{\"type\":\"scripted\",\"script\":\"FastMoving(A6FC)\",\"scriptDesc\":\"高速移动时\"}]}",
+      "{\"type\":\"nested\",\"total\":3,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\"},{\"type\":\"scripted\",\"script\":\"00A788\",\"scriptDesc\":\"敌方黑影潜行\"},{\"type\":\"scripted\",\"script\":\"00A6FC\",\"scriptDesc\":\"高速移动时\"}]}",
       0.5
     ],
     [
@@ -1287,7 +1287,7 @@
       "Elimination",
       "看来这次是我的闪更胜一筹。",
       "Outdashed this time, I'm afraid.",
-      "{\"type\":\"nested\",\"total\":3,\"needed\":3,\"conditions\":[{\"type\":\"scripted\",\"script\":\"UsingRejuvenatingDash(A90E)\",\"scriptDesc\":\"使用回春疾行后\"},{\"type\":\"toHero\",\"hero\":\"猎空\"},{\"type\":\"scripted\",\"script\":\"UnknownA6FE\",\"scriptDesc\":\"敌人高速移动\"}]}",
+      "{\"type\":\"nested\",\"total\":3,\"needed\":3,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A90E\",\"scriptDesc\":\"使用回春疾行后\"},{\"type\":\"toHero\",\"hero\":\"猎空\"},{\"type\":\"scripted\",\"script\":\"00A6FE\",\"scriptDesc\":\"敌人高速移动\"}]}",
       null
     ],
     [
@@ -1305,6 +1305,19 @@
     ],
     [
       "HeroQuote",
+      "0000000662D4.0B2",
+      418516,
+      "lifeweaver",
+      "生命之梭",
+      null,
+      "Elimination",
+      "刺扎在脸上可就麻烦了。",
+      "Thorns in the face are an inconvenience.",
+      "{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\"}",
+      0.5
+    ],
+    [
+      "HeroQuote",
       "0000000662CB.0B2",
       418507,
       "lifeweaver",
@@ -1313,7 +1326,7 @@
       "Elimination",
       "该下来了。",
       "Down you come.",
-      "{\"type\":\"scripted\",\"script\":\"EnemyInAir(9268)\",\"scriptDesc\":\"敌人在空中\"}",
+      "{\"type\":\"scripted\",\"script\":\"009268\",\"scriptDesc\":\"敌人在空中\"}",
       0.7
     ],
     [
@@ -1326,47 +1339,8 @@
       "Elimination",
       "到地面上来陪陪我们吧。",
       "Join us on the ground, won't you?",
-      "{\"type\":\"scripted\",\"script\":\"EnemyInAir(9268)\",\"scriptDesc\":\"敌人在空中\"}",
+      "{\"type\":\"scripted\",\"script\":\"009268\",\"scriptDesc\":\"敌人在空中\"}",
       0.7
-    ],
-    [
-      "HeroQuote",
-      "0000000662D4.0B2",
-      418516,
-      "lifeweaver",
-      "生命之梭",
-      null,
-      "Elimination",
-      "刺扎在脸上可就麻烦了。",
-      "Thorns in the face are an inconvenience.",
-      "{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\"}",
-      0.5
-    ],
-    [
-      "HeroQuote",
-      "00000006A5EB.0B2",
-      435691,
-      "lifeweaver",
-      "生命之梭",
-      null,
-      "Elimination",
-      "好险。",
-      "So close.",
-      "{\"type\":\"scripted\",\"script\":\"LowHealth(A81C)\",\"scriptDesc\":\"低生命值时\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000006A5EC.0B2",
-      435692,
-      "lifeweaver",
-      "生命之梭",
-      null,
-      "Elimination",
-      "差点！",
-      "Almost!",
-      "{\"type\":\"scripted\",\"script\":\"LowHealth(A81C)\",\"scriptDesc\":\"低生命值时\"}",
-      null
     ],
     [
       "HeroQuote",
@@ -1378,7 +1352,7 @@
       "Elimination",
       "真鲁莽，不过这种精神让我钦佩！",
       "Reckless, but I admire your commitment!",
-      "{\"type\":\"scripted\",\"script\":\"Shutdown_ReinhardtCharge(92A4)\",\"scriptDesc\":\"敌方莱因哈特冲锋\"}",
+      "{\"type\":\"scripted\",\"script\":\"0092A4\",\"scriptDesc\":\"敌方莱因哈特冲锋\"}",
       0.7
     ],
     [
@@ -1391,7 +1365,7 @@
       "Elimination",
       "勇气可嘉，至于智慧嘛？嗯。",
       "Incredible courage, but your tactics? Hmm.",
-      "{\"type\":\"scripted\",\"script\":\"Shutdown_ReinhardtCharge(92A4)\",\"scriptDesc\":\"敌方莱因哈特冲锋\"}",
+      "{\"type\":\"scripted\",\"script\":\"0092A4\",\"scriptDesc\":\"敌方莱因哈特冲锋\"}",
       0.7
     ],
     [
@@ -1404,7 +1378,33 @@
       "Elimination",
       "抱歉，我没看见你！",
       "Forgive me, I didn't see you!",
-      "{\"type\":\"scripted\",\"script\":\"Shutdown_SombraStealth(A788)\",\"scriptDesc\":\"敌方黑影潜行\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A788\",\"scriptDesc\":\"敌方黑影潜行\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006A5EB.0B2",
+      435691,
+      "lifeweaver",
+      "生命之梭",
+      null,
+      "Elimination",
+      "好险。",
+      "So close.",
+      "{\"type\":\"scripted\",\"script\":\"00A81C\",\"scriptDesc\":\"低生命值时\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006A5EC.0B2",
+      435692,
+      "lifeweaver",
+      "生命之梭",
+      null,
+      "Elimination",
+      "差点！",
+      "Almost!",
+      "{\"type\":\"scripted\",\"script\":\"00A81C\",\"scriptDesc\":\"低生命值时\"}",
       null
     ],
     [
@@ -1417,7 +1417,7 @@
       "Elimination",
       "抱歉吓了你一跳。",
       "Sorry to just show up like this.",
-      "{\"type\":\"scripted\",\"script\":\"UsingRejuvenatingDash(A90E)\",\"scriptDesc\":\"使用回春疾行后\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A90E\",\"scriptDesc\":\"使用回春疾行后\"}",
       0.5
     ],
     [
@@ -1430,7 +1430,7 @@
       "Elimination",
       "（叹气）一枝独秀的玫瑰会被摘走。",
       "(sigh) The lone rose gets plucked.",
-      "{\"type\":\"scripted\",\"script\":\"UsingStagger(B0FB)\",\"scriptDesc\":\"敌人落单\"}",
+      "{\"type\":\"scripted\",\"script\":\"00B0FB\",\"scriptDesc\":\"敌人落单\"}",
       null
     ],
     [
@@ -1586,7 +1586,7 @@
       "EnemiesAttacking",
       "敌人在左边！",
       "They're on the left!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2733\",\"scriptDesc\":\"敌人在左侧\"}",
+      "{\"type\":\"scripted\",\"script\":\"002733\",\"scriptDesc\":\"敌人在左侧\"}",
       null
     ],
     [
@@ -1599,7 +1599,7 @@
       "EnemiesAttacking",
       "在左边！",
       "On your left!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2733\",\"scriptDesc\":\"敌人在左侧\"}",
+      "{\"type\":\"scripted\",\"script\":\"002733\",\"scriptDesc\":\"敌人在左侧\"}",
       null
     ],
     [
@@ -1612,7 +1612,7 @@
       "EnemiesAttacking",
       "敌人在你右边！",
       "They're on your right!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2734\",\"scriptDesc\":\"敌人在右侧\"}",
+      "{\"type\":\"scripted\",\"script\":\"002734\",\"scriptDesc\":\"敌人在右侧\"}",
       null
     ],
     [
@@ -1625,7 +1625,7 @@
       "EnemiesAttacking",
       "在右边！",
       "On the right!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2734\",\"scriptDesc\":\"敌人在右侧\"}",
+      "{\"type\":\"scripted\",\"script\":\"002734\",\"scriptDesc\":\"敌人在右侧\"}",
       null
     ],
     [
@@ -1638,7 +1638,7 @@
       "EnemiesAttacking",
       "敌人就在前面！",
       "They're just ahead!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2735\",\"scriptDesc\":\"敌人在前方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002735\",\"scriptDesc\":\"敌人在前方\"}",
       null
     ],
     [
@@ -1651,7 +1651,7 @@
       "EnemiesAttacking",
       "敌人朝我们冲过来了！",
       "They're coming right at us!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2735\",\"scriptDesc\":\"敌人在前方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002735\",\"scriptDesc\":\"敌人在前方\"}",
       null
     ],
     [
@@ -1664,7 +1664,7 @@
       "EnemiesAttacking",
       "他们在上面！",
       "They're above us!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2736\",\"scriptDesc\":\"敌人在上方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002736\",\"scriptDesc\":\"敌人在上方\"}",
       null
     ],
     [
@@ -1677,7 +1677,7 @@
       "EnemiesAttacking",
       "看头顶！",
       "There, overhead!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2736\",\"scriptDesc\":\"敌人在上方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002736\",\"scriptDesc\":\"敌人在上方\"}",
       null
     ],
     [
@@ -1690,7 +1690,7 @@
       "EnemiesAttacking",
       "小心后面！",
       "Behind us!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2737\",\"scriptDesc\":\"敌人在后方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002737\",\"scriptDesc\":\"敌人在后方\"}",
       null
     ],
     [
@@ -1703,7 +1703,7 @@
       "EnemiesAttacking",
       "他们在我们后面！",
       "They're behind us!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2737\",\"scriptDesc\":\"敌人在后方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002737\",\"scriptDesc\":\"敌人在后方\"}",
       null
     ],
     [
@@ -1716,7 +1716,7 @@
       "EnemiesAttacking",
       "看下面！",
       "Down there!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2738\",\"scriptDesc\":\"敌人在下方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002738\",\"scriptDesc\":\"敌人在下方\"}",
       null
     ],
     [
@@ -1729,7 +1729,7 @@
       "EnemiesAttacking",
       "在我们下面！",
       "Below us!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2738\",\"scriptDesc\":\"敌人在下方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002738\",\"scriptDesc\":\"敌人在下方\"}",
       null
     ],
     [
@@ -2041,7 +2041,7 @@
       "Health/LowHealthBreathStart",
       "（倒吸气）",
       "(gasps)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -3809,7 +3809,7 @@
       "MeleeEnemyKilledRemark",
       "我不这么认为。",
       "I don't think so.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"scripted\",\"script\":\"LowHealth(A81C)\",\"scriptDesc\":\"低生命值时\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"scripted\",\"script\":\"00A81C\",\"scriptDesc\":\"低生命值时\"}]}",
       null
     ],
     [
@@ -3887,7 +3887,7 @@
       "NanoBoosted",
       "我是不会“树”的！",
       "Leaf this to me!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -5590,7 +5590,7 @@
       "Scream",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -5603,7 +5603,7 @@
       "Scream",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -5616,7 +5616,7 @@
       "Scream",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -6422,7 +6422,7 @@
       "Ultimate",
       "要是让我看到哪怕一把斧头，我就会喊救命……",
       "If I see even one axe, so help me...",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -6435,7 +6435,7 @@
       "Ultimate",
       "树荫庇护，新芽生长！",
       "Take shelter, my seedlings!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -6448,7 +6448,7 @@
       "Ultimate",
       "小心我的魔法大树！",
       "Beware my magic tree!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -6461,7 +6461,7 @@
       "Ultimate",
       "大树长出来了！大家带好枕头和书本。",
       "Tree's up! Everyone grab a pillow and a book.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -6474,7 +6474,7 @@
       "Ultimate",
       "大树长出来了！大家带好枕头和书本。",
       "Tree's up! Everyone grab a pillow and a book.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -6487,7 +6487,7 @@
       "Ultimate",
       "要是让我看到哪怕一把斧头，我就会喊救命……",
       "If I see even one axe, so help me...",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -6500,7 +6500,7 @@
       "Ultimate",
       "树荫庇护，新芽生长！",
       "Take shelter, my seedlings!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -7449,7 +7449,7 @@
       "Unknown/1200.078",
       "刚才好险啊！",
       "That was a close one!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"unknown\",\"raw\":\"Unknown: STU_B1A2B57D\"},{\"type\":\"scripted\",\"script\":\"UnknownB4E0\",\"scriptDesc\":\"使用花瓣平台起跳\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"unknown\",\"raw\":\"Unknown: STU_B1A2B57D\"},{\"type\":\"scripted\",\"script\":\"00B4E0\",\"scriptDesc\":\"使用花瓣平台起跳\"}]}",
       null
     ],
     [
@@ -7462,7 +7462,7 @@
       "Unknown/1200.078",
       "灵动脱身！",
       "A nimble escape!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"unknown\",\"raw\":\"Unknown: STU_B1A2B57D\"},{\"type\":\"scripted\",\"script\":\"UnknownB4E0\",\"scriptDesc\":\"使用花瓣平台起跳\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"unknown\",\"raw\":\"Unknown: STU_B1A2B57D\"},{\"type\":\"scripted\",\"script\":\"00B4E0\",\"scriptDesc\":\"使用花瓣平台起跳\"}]}",
       null
     ],
     [
@@ -7475,7 +7475,7 @@
       "Unknown/1200.078",
       "打不到我吧！",
       "Untouchable!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"unknown\",\"raw\":\"Unknown: STU_B1A2B57D\"},{\"type\":\"scripted\",\"script\":\"UnknownB4E0\",\"scriptDesc\":\"使用花瓣平台起跳\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"unknown\",\"raw\":\"Unknown: STU_B1A2B57D\"},{\"type\":\"scripted\",\"script\":\"00B4E0\",\"scriptDesc\":\"使用花瓣平台起跳\"}]}",
       null
     ],
     [
@@ -7488,7 +7488,7 @@
       "Unknown/1200.078",
       "我这应该不算炫技对吧？",
       "I'm not showboating am I?",
-      "{\"type\":\"scripted\",\"script\":\"UnknownB4E0\",\"scriptDesc\":\"使用花瓣平台起跳\"}",
+      "{\"type\":\"scripted\",\"script\":\"00B4E0\",\"scriptDesc\":\"使用花瓣平台起跳\"}",
       null
     ],
     [
@@ -7501,7 +7501,7 @@
       "Unknown/1200.078",
       "嗖地一下！",
       "Whoosh!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownB4E0\",\"scriptDesc\":\"使用花瓣平台起跳\"}",
+      "{\"type\":\"scripted\",\"script\":\"00B4E0\",\"scriptDesc\":\"使用花瓣平台起跳\"}",
       0.5
     ],
     [
@@ -7514,7 +7514,7 @@
       "Unknown/1200.078",
       "看我跑酷！",
       "Parkour!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownB4E0\",\"scriptDesc\":\"使用花瓣平台起跳\"}",
+      "{\"type\":\"scripted\",\"script\":\"00B4E0\",\"scriptDesc\":\"使用花瓣平台起跳\"}",
       0.001
     ],
     [
@@ -7696,7 +7696,7 @@
       "Unknown/135A.078",
       "照顾好自己。",
       "You must take care of yourself.",
-      "{\"type\":\"scripted\",\"script\":\"HealedAlly(AABA)\",\"scriptDesc\":\"治疗重伤盟友\"}",
+      "{\"type\":\"scripted\",\"script\":\"00AABA\",\"scriptDesc\":\"治疗重伤盟友\"}",
       null
     ],
     [
@@ -7709,7 +7709,7 @@
       "Unknown/135A.078",
       "命途多舛啊？",
       "Living dangerously, eh?",
-      "{\"type\":\"scripted\",\"script\":\"HealedAlly(AABA)\",\"scriptDesc\":\"治疗重伤盟友\"}",
+      "{\"type\":\"scripted\",\"script\":\"00AABA\",\"scriptDesc\":\"治疗重伤盟友\"}",
       null
     ],
     [
@@ -7722,7 +7722,7 @@
       "Unknown/135A.078",
       "振作起来。",
       "Let's perk you up.",
-      "{\"type\":\"scripted\",\"script\":\"HealedAlly(AABA)\",\"scriptDesc\":\"治疗重伤盟友\"}",
+      "{\"type\":\"scripted\",\"script\":\"00AABA\",\"scriptDesc\":\"治疗重伤盟友\"}",
       null
     ],
     [
@@ -7735,7 +7735,7 @@
       "Unknown/135A.078",
       "多一线生机。",
       "Let's put something on that.",
-      "{\"type\":\"scripted\",\"script\":\"HealedAlly(AABA)\",\"scriptDesc\":\"治疗重伤盟友\"}",
+      "{\"type\":\"scripted\",\"script\":\"00AABA\",\"scriptDesc\":\"治疗重伤盟友\"}",
       0.5
     ],
     [
@@ -7748,7 +7748,7 @@
       "Unknown/135A.078",
       "你活力充沛！",
       "You look fantastic!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownAABC\",\"scriptDesc\":\"将盟友治疗至满生命值\"}",
+      "{\"type\":\"scripted\",\"script\":\"00AABC\",\"scriptDesc\":\"将盟友治疗至满生命值\"}",
       null
     ],
     [
@@ -7761,7 +7761,7 @@
       "Unknown/135A.078",
       "此刻的你很完美。",
       "Now you're perfect.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownAABC\",\"scriptDesc\":\"将盟友治疗至满生命值\"}",
+      "{\"type\":\"scripted\",\"script\":\"00AABC\",\"scriptDesc\":\"将盟友治疗至满生命值\"}",
       null
     ],
     [
@@ -7774,7 +7774,7 @@
       "Unknown/135A.078",
       "生命充盈着你。",
       "You've never looked better.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownAABC\",\"scriptDesc\":\"将盟友治疗至满生命值\"}",
+      "{\"type\":\"scripted\",\"script\":\"00AABC\",\"scriptDesc\":\"将盟友治疗至满生命值\"}",
       null
     ],
     [
@@ -7787,7 +7787,7 @@
       "Unknown/135A.078",
       "重焕生机！",
       "Better than new!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownAABC\",\"scriptDesc\":\"将盟友治疗至满生命值\"}",
+      "{\"type\":\"scripted\",\"script\":\"00AABC\",\"scriptDesc\":\"将盟友治疗至满生命值\"}",
       0.5
     ],
     [

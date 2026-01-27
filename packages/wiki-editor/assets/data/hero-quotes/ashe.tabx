@@ -247,7 +247,7 @@
       "Bomb/Activate",
       "激素雷管来了！",
       "Dy-nano-mite out!",
-      "{\"type\":\"scripted\",\"script\":\"UltAssist_Nano(A5FD)\",\"scriptDesc\":\"被纳米激素强化时\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A5FD\",\"scriptDesc\":\"被纳米激素强化时\"}",
       0.1
     ],
     [
@@ -299,7 +299,7 @@
       "Bomb/Elimination",
       "我这是在帮你解冻。",
       "Just thawing you out.",
-      "{\"type\":\"scripted\",\"script\":\"UltAssist_Blizzard(AA26)\",\"scriptDesc\":\"敌人被暴雪控制\"}",
+      "{\"type\":\"scripted\",\"script\":\"00AA26\",\"scriptDesc\":\"敌人被暴雪控制\"}",
       null
     ],
     [
@@ -702,7 +702,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -715,7 +715,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -728,7 +728,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -741,7 +741,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -754,7 +754,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -767,7 +767,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -780,7 +780,7 @@
       "DeathCharged",
       "（遭受重压的声音）",
       "(crushed sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -793,7 +793,7 @@
       "DeathCharged",
       "（遭受重压的声音）",
       "(crushed sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -806,7 +806,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -819,7 +819,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -832,7 +832,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -845,7 +845,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -1170,7 +1170,7 @@
       "Elimination",
       "我可以在一英里开外打掉仙人掌的刺。",
       "I can shoot the spines off a cactus a mile away.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\"},{\"type\":\"scripted\",\"script\":\"LongDistance(A809)\",\"scriptDesc\":\"远距离\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\"},{\"type\":\"scripted\",\"script\":\"00A809\",\"scriptDesc\":\"远距离\"}]}",
       null
     ],
     [
@@ -1183,20 +1183,20 @@
       "Elimination",
       "重弩产的步枪：再远一样致命。",
       "Arbalest rifles: acc-u-rate at range.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\"},{\"type\":\"scripted\",\"script\":\"LongDistance(A809)\",\"scriptDesc\":\"远距离\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\"},{\"type\":\"scripted\",\"script\":\"00A809\",\"scriptDesc\":\"远距离\"}]}",
       0.25
     ],
     [
       "HeroQuote",
-      "000000063D20.0B2",
-      408864,
+      "000000065424.0B2",
+      414756,
       "ashe",
       "艾什",
       null,
       "Elimination",
-      "这一枪连巴斯都会骄傲的。",
-      "That shot would make Bars proud.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"LongDistance(A809)\",\"scriptDesc\":\"远距离\"},{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\"}]}",
+      "哦，又是这道高墙……这玩意儿真讨厌。",
+      "Oh, not the giant wall... I hate this thing.",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"秩序之光\"}]}",
       null
     ],
     [
@@ -1209,20 +1209,7 @@
       "Elimination",
       "不会以为你身上发着光我就怕了吧？",
       "Think I'm scared of you just because you're glowing?",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"UltShutdown_NanoBoosted(A697)\",\"scriptDesc\":\"敌人被纳米激素强化\"},{\"type\":\"scripted\",\"script\":\"UltShutdown_NanoBoosted(A697)\",\"scriptDesc\":\"敌人被纳米激素强化\"}]}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000065424.0B2",
-      414756,
-      "ashe",
-      "艾什",
-      null,
-      "Elimination",
-      "哦，又是这道高墙……这玩意儿真讨厌。",
-      "Oh, not the giant wall... I hate this thing.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"秩序之光\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A697\",\"scriptDesc\":\"敌人被纳米激素强化\"},{\"type\":\"scripted\",\"script\":\"00A697\",\"scriptDesc\":\"敌人被纳米激素强化\"}]}",
       null
     ],
     [
@@ -1235,7 +1222,7 @@
       "Elimination",
       "你那点心思都写在脸上了。",
       "Read you like the morning paper.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"UnknownA6FE\",\"scriptDesc\":\"敌人高速移动\"},{\"type\":\"scripted\",\"script\":\"UnknownA6FE\",\"scriptDesc\":\"敌人高速移动\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A6FE\",\"scriptDesc\":\"敌人高速移动\"},{\"type\":\"scripted\",\"script\":\"00A6FE\",\"scriptDesc\":\"敌人高速移动\"}]}",
       null
     ],
     [
@@ -1248,7 +1235,20 @@
       "Elimination",
       "鲍勃，刚才那下看到没？你敢相信吗？",
       "Bob, did you see that? Can you believe it?",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"UnknownA6FE\",\"scriptDesc\":\"敌人高速移动\"},{\"type\":\"scripted\",\"script\":\"UnknownA6FE\",\"scriptDesc\":\"敌人高速移动\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A6FE\",\"scriptDesc\":\"敌人高速移动\"},{\"type\":\"scripted\",\"script\":\"00A6FE\",\"scriptDesc\":\"敌人高速移动\"}]}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000063D20.0B2",
+      408864,
+      "ashe",
+      "艾什",
+      null,
+      "Elimination",
+      "这一枪连巴斯都会骄傲的。",
+      "That shot would make Bars proud.",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A809\",\"scriptDesc\":\"远距离\"},{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\"}]}",
       null
     ],
     [
@@ -1261,7 +1261,7 @@
       "Elimination",
       "天空晴朗，没有乌云。",
       "Not a raincloud in sight.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"法老之鹰\"},{\"type\":\"scripted\",\"script\":\"EnemyInAir(9268)\",\"scriptDesc\":\"敌人在空中\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"法老之鹰\"},{\"type\":\"scripted\",\"script\":\"009268\",\"scriptDesc\":\"敌人在空中\"}]}",
       0.7
     ],
     [
@@ -1274,7 +1274,7 @@
       "Elimination",
       "降不到我这片沙漠里。",
       "No raining over my desert.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"法老之鹰\"},{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"法老之鹰\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
       null
     ],
     [
@@ -1287,21 +1287,8 @@
       "Elimination",
       "现在你知道谁枪法好了吧？",
       "Now who's the better shot?",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"卡西迪\"},{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"卡西迪\"},{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\"}]}",
       0.3
-    ],
-    [
-      "HeroQuote",
-      "00000006171B.0B2",
-      399131,
-      "ashe",
-      "艾什",
-      null,
-      "Elimination",
-      "你那点小把戏我清楚得很，科尔。",
-      "Read you like a book, Cole.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"卡西迪\"},{\"type\":\"scripted\",\"script\":\"Shutdown_CassidyRoll(A90D)\",\"scriptDesc\":\"敌方卡西迪战术翻滚\"}]}",
-      null
     ],
     [
       "HeroQuote",
@@ -1313,7 +1300,7 @@
       "Elimination",
       "你不知道现在几点吗？",
       "Well, would you look at the time.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"卡西迪\"},{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"卡西迪\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
       null
     ],
     [
@@ -1326,7 +1313,20 @@
       "Elimination",
       "多谢你杵在那儿，科尔。",
       "Thanks for standing still, Cole.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"卡西迪\"},{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"卡西迪\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006171B.0B2",
+      399131,
+      "ashe",
+      "艾什",
+      null,
+      "Elimination",
+      "你那点小把戏我清楚得很，科尔。",
+      "Read you like a book, Cole.",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"卡西迪\"},{\"type\":\"scripted\",\"script\":\"00A90D\",\"scriptDesc\":\"敌方卡西迪战术翻滚\"}]}",
       null
     ],
     [
@@ -1339,7 +1339,7 @@
       "Elimination",
       "“天使”要去见真的天使了。",
       "Angela's singing with the angels now.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"天使\"},{\"type\":\"scripted\",\"script\":\"UnknownC003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"天使\"},{\"type\":\"scripted\",\"script\":\"00C003\",\"scriptDesc\":\"星际守望模式\",\"negative\":true}]}",
       null
     ],
     [
@@ -1352,7 +1352,7 @@
       "Elimination",
       "要么有脾气，要么有脑子，可惜你只能选一个。",
       "Too bad you can't be angry and smart at the same time.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"温斯顿\"},{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"温斯顿\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
       null
     ],
     [
@@ -1365,7 +1365,7 @@
       "Elimination",
       "坏忍者。趴下。",
       "Bad ninja. Down.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"源氏\"},{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"源氏\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
       null
     ],
     [
@@ -1378,7 +1378,7 @@
       "Elimination",
       "厉害啊！有时候，我自己都想不到！",
       "Damn! Some days, I impress myself!",
-      "{\"type\":\"nested\",\"total\":3,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"UnknownA6FE\",\"scriptDesc\":\"敌人高速移动\"},{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\"},{\"type\":\"scripted\",\"script\":\"Shutdown_Leaped(A753)\",\"scriptDesc\":\"敌人跳跃\"}]}",
+      "{\"type\":\"nested\",\"total\":3,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A6FE\",\"scriptDesc\":\"敌人高速移动\"},{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\"},{\"type\":\"scripted\",\"script\":\"00A753\",\"scriptDesc\":\"敌人跳跃\"}]}",
       null
     ],
     [
@@ -1391,7 +1391,7 @@
       "Elimination",
       "正中靶心。",
       "Bullseye.",
-      "{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\"}",
+      "{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\"}",
       0.2
     ],
     [
@@ -1404,7 +1404,7 @@
       "Elimination",
       "正中目标。",
       "Right on the money.",
-      "{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\"}",
+      "{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\"}",
       0.2
     ],
     [
@@ -1417,7 +1417,7 @@
       "Elimination",
       "哼，正中眉心。",
       "Right down the middle.",
-      "{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\"}",
+      "{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\"}",
       0.15
     ],
     [
@@ -1430,21 +1430,8 @@
       "Elimination",
       "我的枪法就是厉害。",
       "Damnation, I'm good.",
-      "{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\"}",
+      "{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\"}",
       0.15
-    ],
-    [
-      "HeroQuote",
-      "000000064DE3.0B2",
-      413155,
-      "ashe",
-      "艾什",
-      null,
-      "Elimination",
-      "从我手上抢人？想得美！",
-      "You're not nabbing them away from me!",
-      "{\"type\":\"scripted\",\"script\":\"Shutdown_Lifegripped(B531)\",\"scriptDesc\":\"消灭被生命之握的敌人\"}",
-      null
     ],
     [
       "HeroQuote",
@@ -1456,7 +1443,20 @@
       "Elimination",
       "滚回你的坟墓去！",
       "Get back in that grave!",
-      "{\"type\":\"scripted\",\"script\":\"Shutdown_Resurrected(AF43)\",\"scriptDesc\":\"敌人被复活后\"}",
+      "{\"type\":\"scripted\",\"script\":\"00AF43\",\"scriptDesc\":\"敌人被复活后\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000064DE3.0B2",
+      413155,
+      "ashe",
+      "艾什",
+      null,
+      "Elimination",
+      "从我手上抢人？想得美！",
+      "You're not nabbing them away from me!",
+      "{\"type\":\"scripted\",\"script\":\"00B531\",\"scriptDesc\":\"消灭被生命之握的敌人\"}",
       null
     ],
     [
@@ -1664,7 +1664,7 @@
       "EnemiesAttacking",
       "他们在左边！",
       "They're on the left!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2733\",\"scriptDesc\":\"敌人在左侧\"}",
+      "{\"type\":\"scripted\",\"script\":\"002733\",\"scriptDesc\":\"敌人在左侧\"}",
       null
     ],
     [
@@ -1677,7 +1677,7 @@
       "EnemiesAttacking",
       "小心左边！",
       "Watch the left!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2733\",\"scriptDesc\":\"敌人在左侧\"}",
+      "{\"type\":\"scripted\",\"script\":\"002733\",\"scriptDesc\":\"敌人在左侧\"}",
       null
     ],
     [
@@ -1690,7 +1690,7 @@
       "EnemiesAttacking",
       "敌人在右边！",
       "Enemy's on the right!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2734\",\"scriptDesc\":\"敌人在右侧\"}",
+      "{\"type\":\"scripted\",\"script\":\"002734\",\"scriptDesc\":\"敌人在右侧\"}",
       null
     ],
     [
@@ -1703,7 +1703,7 @@
       "EnemiesAttacking",
       "小心右边！",
       "Watch our right!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2734\",\"scriptDesc\":\"敌人在右侧\"}",
+      "{\"type\":\"scripted\",\"script\":\"002734\",\"scriptDesc\":\"敌人在右侧\"}",
       null
     ],
     [
@@ -1716,7 +1716,7 @@
       "EnemiesAttacking",
       "他们就在前面！",
       "They're right in front of us!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2735\",\"scriptDesc\":\"敌人在前方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002735\",\"scriptDesc\":\"敌人在前方\"}",
       null
     ],
     [
@@ -1729,7 +1729,7 @@
       "EnemiesAttacking",
       "敌人朝我们冲过来了！",
       "They're coming straight at us!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2735\",\"scriptDesc\":\"敌人在前方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002735\",\"scriptDesc\":\"敌人在前方\"}",
       null
     ],
     [
@@ -1742,7 +1742,7 @@
       "EnemiesAttacking",
       "他们从上面来了！",
       "Coming from above us!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2736\",\"scriptDesc\":\"敌人在上方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002736\",\"scriptDesc\":\"敌人在上方\"}",
       null
     ],
     [
@@ -1755,7 +1755,7 @@
       "EnemiesAttacking",
       "他们在上面！",
       "They're above us!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2736\",\"scriptDesc\":\"敌人在上方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002736\",\"scriptDesc\":\"敌人在上方\"}",
       null
     ],
     [
@@ -1768,7 +1768,7 @@
       "EnemiesAttacking",
       "他们在我们后面！",
       "They got behind us!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2737\",\"scriptDesc\":\"敌人在后方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002737\",\"scriptDesc\":\"敌人在后方\"}",
       null
     ],
     [
@@ -1781,7 +1781,7 @@
       "EnemiesAttacking",
       "小心后面！",
       "Behind us!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2737\",\"scriptDesc\":\"敌人在后方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002737\",\"scriptDesc\":\"敌人在后方\"}",
       null
     ],
     [
@@ -1794,7 +1794,7 @@
       "EnemiesAttacking",
       "他们从下面来了！",
       "Coming from down below!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2738\",\"scriptDesc\":\"敌人在下方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002738\",\"scriptDesc\":\"敌人在下方\"}",
       null
     ],
     [
@@ -1807,7 +1807,7 @@
       "EnemiesAttacking",
       "他们从下面过来了！",
       "They're coming from below!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2738\",\"scriptDesc\":\"敌人在下方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002738\",\"scriptDesc\":\"敌人在下方\"}",
       null
     ],
     [
@@ -2184,7 +2184,7 @@
       "Health/LowHealthBreathStart",
       "（倒吸气）",
       "(gasps)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -2392,7 +2392,7 @@
       "HeroSelect",
       "想干这行，就得听我的。",
       "My business, my rules.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -4706,7 +4706,7 @@
       "MeleeEnemyKilledRemark",
       "空中肉搏？这打的是哪门子？",
       "Fistfights in the sky? What kind of brawl is this?",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"InAir(A776)\",\"scriptDesc\":\"在空中时\"},{\"type\":\"scripted\",\"script\":\"EnemyInAir(9268)\",\"scriptDesc\":\"敌人在空中\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A776\",\"scriptDesc\":\"在空中时\"},{\"type\":\"scripted\",\"script\":\"009268\",\"scriptDesc\":\"敌人在空中\"}]}",
       null
     ],
     [
@@ -5473,7 +5473,7 @@
       "OnFire",
       "别离我太近，你会被烧伤的。",
       "Get too close to the sun, you're going to burn.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       0.3
     ],
     [
@@ -5486,7 +5486,7 @@
       "OnFire",
       "只要进入我的节奏，就没人能阻挡我。",
       "There's no stopping me once I get into a rhythm.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       0.3
     ],
     [
@@ -7493,175 +7493,6 @@
     ],
     [
       "HeroQuote",
-      "00000005E629.0B2",
-      386601,
-      "ashe",
-      "艾什",
-      null,
-      "PVE/Unknown",
-      "再这么傻愣着，渡轮可就要完蛋了。",
-      "If we don't do something, that Ferry's as good as breached.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7329\",\"scriptDesc\":\"渡轮受到攻击\"}",
-      0.5
-    ],
-    [
-      "HeroQuote",
-      "00000005E62A.0B2",
-      386602,
-      "ashe",
-      "艾什",
-      null,
-      "PVE/Unknown",
-      "敌人快把渡轮打沉了！把他们赶走！",
-      "They've nearly cracked that Ferry open! Push 'em back!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7329\",\"scriptDesc\":\"渡轮受到攻击\"}",
-      0.5
-    ],
-    [
-      "HeroQuote",
-      "00000005E638.0B2",
-      386616,
-      "ashe",
-      "艾什",
-      null,
-      "PVE/Unknown",
-      "敌人在渡轮上打洞呢！",
-      "They're shooting holes in the Ferry!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7329\",\"scriptDesc\":\"渡轮受到攻击\"}",
-      0.5
-    ],
-    [
-      "HeroQuote",
-      "00000005E639.0B2",
-      386617,
-      "ashe",
-      "艾什",
-      null,
-      "PVE/Unknown",
-      "敌人正在攻击渡轮！",
-      "We got enemies attacking the Ferry!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7329\",\"scriptDesc\":\"渡轮受到攻击\"}",
-      0.5
-    ],
-    [
-      "HeroQuote",
-      "00000005E62F.0B2",
-      386607,
-      "ashe",
-      "艾什",
-      null,
-      "PVE/Unknown",
-      "传输塔情况不妙。不能让它散架了！",
-      "Uplink's seen better days. Gotta keep it together!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      0.5
-    ],
-    [
-      "HeroQuote",
-      "00000005E630.0B2",
-      386608,
-      "ashe",
-      "艾什",
-      null,
-      "PVE/Unknown",
-      "传输塔就要塌了！",
-      "Uplink's falling apart!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      0.5
-    ],
-    [
-      "HeroQuote",
-      "00000005E63C.0B2",
-      386620,
-      "ashe",
-      "艾什",
-      null,
-      "PVE/Unknown",
-      "传输塔挨打了！",
-      "Uplink's under fire!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      0.5
-    ],
-    [
-      "HeroQuote",
-      "00000005E63D.0B2",
-      386621,
-      "ashe",
-      "艾什",
-      null,
-      "PVE/Unknown",
-      "谁去拦住那帮攻击传输塔的？",
-      "Care to stop them from hitting the Uplink?",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      0.5
-    ],
-    [
-      "HeroQuote",
-      "00000005E631.0B2",
-      386609,
-      "ashe",
-      "艾什",
-      null,
-      "PVE/Unknown",
-      "传输塔上的漏洞比惯偷不在场证明上的还多。",
-      "Uplink's got more holes than a kleptomaniac's alibi.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      0.05
-    ],
-    [
-      "HeroQuote",
-      "00000005E62B.0B2",
-      386603,
-      "ashe",
-      "艾什",
-      null,
-      "PVE/Unknown",
-      "巨炮不能就这么被拆了！打起精神！",
-      "We can't lose this Cannon! Shape up!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown81B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
-      0.5
-    ],
-    [
-      "HeroQuote",
-      "00000005E62C.0B2",
-      386604,
-      "ashe",
-      "艾什",
-      null,
-      "PVE/Unknown",
-      "巨炮快顶不住了。决不能让敌人摧毁它！",
-      "Cannon's falling apart. Don't let them break it!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown81B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
-      0.5
-    ],
-    [
-      "HeroQuote",
-      "00000005E636.0B2",
-      386614,
-      "ashe",
-      "艾什",
-      null,
-      "PVE/Unknown",
-      "敌人在拆我们的巨炮！",
-      "Enemies hitting our Cannon!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown81B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
-      0.5
-    ],
-    [
-      "HeroQuote",
-      "00000005E637.0B2",
-      386615,
-      "ashe",
-      "艾什",
-      null,
-      "PVE/Unknown",
-      "巨炮中弹了！",
-      "The Cannon's taking fire!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown81B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
-      0.5
-    ],
-    [
-      "HeroQuote",
       "00000005E62D.0B2",
       386605,
       "ashe",
@@ -7670,7 +7501,7 @@
       "PVE/Unknown",
       "运载目标要是报废了还怎么推！把它保护好！",
       "You can't push a scrapped Payload! Keep it in one piece!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown88E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
       0.5
     ],
     [
@@ -7683,7 +7514,7 @@
       "PVE/Unknown",
       "听到了吗？那是运载目标快要散架的声音。都给我认真点！",
       "Hear that? That is the sound of the Payload falling apart. Get it together!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown88E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
       0.5
     ],
     [
@@ -7696,7 +7527,7 @@
       "PVE/Unknown",
       "敌人在攻击运载目标。都注意点！",
       "They're hitting the Payload. Watch it!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown88E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
       0.5
     ],
     [
@@ -7709,7 +7540,176 @@
       "PVE/Unknown",
       "运载目标被攻击了！",
       "The Payload's under attack!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown88E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      0.5
+    ],
+    [
+      "HeroQuote",
+      "00000005E629.0B2",
+      386601,
+      "ashe",
+      "艾什",
+      null,
+      "PVE/Unknown",
+      "再这么傻愣着，渡轮可就要完蛋了。",
+      "If we don't do something, that Ferry's as good as breached.",
+      "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      0.5
+    ],
+    [
+      "HeroQuote",
+      "00000005E62A.0B2",
+      386602,
+      "ashe",
+      "艾什",
+      null,
+      "PVE/Unknown",
+      "敌人快把渡轮打沉了！把他们赶走！",
+      "They've nearly cracked that Ferry open! Push 'em back!",
+      "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      0.5
+    ],
+    [
+      "HeroQuote",
+      "00000005E638.0B2",
+      386616,
+      "ashe",
+      "艾什",
+      null,
+      "PVE/Unknown",
+      "敌人在渡轮上打洞呢！",
+      "They're shooting holes in the Ferry!",
+      "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      0.5
+    ],
+    [
+      "HeroQuote",
+      "00000005E639.0B2",
+      386617,
+      "ashe",
+      "艾什",
+      null,
+      "PVE/Unknown",
+      "敌人正在攻击渡轮！",
+      "We got enemies attacking the Ferry!",
+      "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      0.5
+    ],
+    [
+      "HeroQuote",
+      "00000005E62F.0B2",
+      386607,
+      "ashe",
+      "艾什",
+      null,
+      "PVE/Unknown",
+      "传输塔情况不妙。不能让它散架了！",
+      "Uplink's seen better days. Gotta keep it together!",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      0.5
+    ],
+    [
+      "HeroQuote",
+      "00000005E630.0B2",
+      386608,
+      "ashe",
+      "艾什",
+      null,
+      "PVE/Unknown",
+      "传输塔就要塌了！",
+      "Uplink's falling apart!",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      0.5
+    ],
+    [
+      "HeroQuote",
+      "00000005E63C.0B2",
+      386620,
+      "ashe",
+      "艾什",
+      null,
+      "PVE/Unknown",
+      "传输塔挨打了！",
+      "Uplink's under fire!",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      0.5
+    ],
+    [
+      "HeroQuote",
+      "00000005E63D.0B2",
+      386621,
+      "ashe",
+      "艾什",
+      null,
+      "PVE/Unknown",
+      "谁去拦住那帮攻击传输塔的？",
+      "Care to stop them from hitting the Uplink?",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      0.5
+    ],
+    [
+      "HeroQuote",
+      "00000005E631.0B2",
+      386609,
+      "ashe",
+      "艾什",
+      null,
+      "PVE/Unknown",
+      "传输塔上的漏洞比惯偷不在场证明上的还多。",
+      "Uplink's got more holes than a kleptomaniac's alibi.",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      0.05
+    ],
+    [
+      "HeroQuote",
+      "00000005E62B.0B2",
+      386603,
+      "ashe",
+      "艾什",
+      null,
+      "PVE/Unknown",
+      "巨炮不能就这么被拆了！打起精神！",
+      "We can't lose this Cannon! Shape up!",
+      "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
+      0.5
+    ],
+    [
+      "HeroQuote",
+      "00000005E62C.0B2",
+      386604,
+      "ashe",
+      "艾什",
+      null,
+      "PVE/Unknown",
+      "巨炮快顶不住了。决不能让敌人摧毁它！",
+      "Cannon's falling apart. Don't let them break it!",
+      "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
+      0.5
+    ],
+    [
+      "HeroQuote",
+      "00000005E636.0B2",
+      386614,
+      "ashe",
+      "艾什",
+      null,
+      "PVE/Unknown",
+      "敌人在拆我们的巨炮！",
+      "Enemies hitting our Cannon!",
+      "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
+      0.5
+    ],
+    [
+      "HeroQuote",
+      "00000005E637.0B2",
+      386615,
+      "ashe",
+      "艾什",
+      null,
+      "PVE/Unknown",
+      "巨炮中弹了！",
+      "The Cannon's taking fire!",
+      "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
       0.5
     ],
     [
@@ -7722,7 +7722,7 @@
       "PVE/Unknown",
       "修理站挨打了！",
       "Repair Station's under fire!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown94DB\",\"scriptDesc\":\"修理站受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"0094DB\",\"scriptDesc\":\"修理站受到攻击\"}",
       null
     ],
     [
@@ -7735,7 +7735,7 @@
       "PVE/Unknown",
       "敌人在攻击修理站！",
       "They're attacking the Repair Station!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown94DB\",\"scriptDesc\":\"修理站受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"0094DB\",\"scriptDesc\":\"修理站受到攻击\"}",
       null
     ],
     [
@@ -7748,7 +7748,7 @@
       "PVE/Unknown",
       "修理站受到了猛攻！都给我守住！",
       "Stay on the Repair Station, it's taking heavy fire!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown94DB\",\"scriptDesc\":\"修理站受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"0094DB\",\"scriptDesc\":\"修理站受到攻击\"}",
       null
     ],
     [
@@ -7761,7 +7761,7 @@
       "PVE/Unknown",
       "修理站就快毁了。",
       "The Repair Station's about to be destroyed!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown94DB\",\"scriptDesc\":\"修理站受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"0094DB\",\"scriptDesc\":\"修理站受到攻击\"}",
       null
     ],
     [
@@ -8117,6 +8117,19 @@
     ],
     [
       "HeroQuote",
+      "000000057092.0B2",
+      356498,
+      "ashe",
+      "艾什",
+      null,
+      "Respawn",
+      "我讨厌被打断。",
+      "I hate to be interrupted.",
+      "{\"type\":\"scripted\",\"script\":\"00B404\",\"scriptDesc\":\"连杀后复生\"}",
+      0.75
+    ],
+    [
+      "HeroQuote",
       "00000005518A.0B2",
       348554,
       "ashe",
@@ -8125,7 +8138,7 @@
       "Respawn",
       "这种事可不能忍。",
       "Not letting that stand.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -8138,7 +8151,7 @@
       "Respawn",
       "还得收拾这片烂摊子。",
       "Let's clean up this mess.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -8151,7 +8164,7 @@
       "Respawn",
       "该认真点了。",
       "Time to change things up.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -8164,7 +8177,7 @@
       "Respawn",
       "他们这下惹到我了。",
       "They're getting on my nerves.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -8177,7 +8190,7 @@
       "Respawn",
       "这可不在计划之内。",
       "That was not in the plan.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -8190,7 +8203,7 @@
       "Respawn",
       "我会让你好看的。",
       "I'm going to get you for that.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -8203,7 +8216,7 @@
       "Respawn",
       "锻炼一下而已，没什么大不了的。",
       "Nothing wrong with a little self improvement.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -8216,21 +8229,8 @@
       "Respawn",
       "你们惹毛我了。",
       "You're getting me riled up.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
-    ],
-    [
-      "HeroQuote",
-      "000000057092.0B2",
-      356498,
-      "ashe",
-      "艾什",
-      null,
-      "Respawn",
-      "我讨厌被打断。",
-      "I hate to be interrupted.",
-      "{\"type\":\"scripted\",\"script\":\"RespawnAfterKillstreak(B404)\",\"scriptDesc\":\"连杀后复生\"}",
-      0.75
     ],
     [
       "HeroQuote",
@@ -8671,7 +8671,7 @@
       "Scream",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -8684,7 +8684,7 @@
       "Scream",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -8697,7 +8697,7 @@
       "Scream",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -9412,7 +9412,7 @@
       "Ultimate",
       "弗雷德！不对，鲍勃！别傻愣着！",
       "Fred! I mean Bob! Do something!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -9425,7 +9425,7 @@
       "Ultimate",
       "快冲上去，弗雷德！不对，鲍勃！",
       "Get in there, Fred! I mean Bob!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -9438,7 +9438,7 @@
       "Ultimate",
       "弗雷德！不对，鲍勃！别傻愣着！",
       "Fred! I mean Bob! Do something!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -9451,7 +9451,7 @@
       "Ultimate",
       "鲍勃！别傻站着！",
       "Bob! Do something!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownA2DF\",\"scriptDesc\":\"未知\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A2DF\",\"scriptDesc\":\"未知\"}",
       null
     ],
     [
@@ -9464,7 +9464,7 @@
       "Ultimate",
       "鲍勃！别傻愣着！",
       "Bob! Do something!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownA2DF\",\"scriptDesc\":\"未知\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A2DF\",\"scriptDesc\":\"未知\"}",
       null
     ],
     [
@@ -11154,7 +11154,7 @@
       "Unknown/A93.078",
       "你总是这么可靠，鲍勃。",
       "I can always count on you, Bob.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownA1E8\",\"scriptDesc\":\"鲍勃造成消灭\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A1E8\",\"scriptDesc\":\"鲍勃造成消灭\"}",
       null
     ],
     [
@@ -11167,7 +11167,7 @@
       "Unknown/A93.078",
       "干得好，鲍勃！",
       "Attaboy, Bob!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownA1E8\",\"scriptDesc\":\"鲍勃造成消灭\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A1E8\",\"scriptDesc\":\"鲍勃造成消灭\"}",
       null
     ],
     [
@@ -11180,7 +11180,7 @@
       "Unknown/A93.078",
       "射得很准，鲍勃！",
       "Good shooting, Bob!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownA1E8\",\"scriptDesc\":\"鲍勃造成消灭\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A1E8\",\"scriptDesc\":\"鲍勃造成消灭\"}",
       null
     ],
     [
@@ -11193,7 +11193,7 @@
       "Unknown/A93.078",
       "鲍勃，你这个蠢货！",
       "Dangit, Bob!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownA1E9\",\"scriptDesc\":\"鲍勃未造成消灭\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A1E9\",\"scriptDesc\":\"鲍勃未造成消灭\"}",
       null
     ],
     [
@@ -11206,7 +11206,7 @@
       "Unknown/A93.078",
       "给我过来，鲍勃！",
       "Step it up, Bob!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownA1E9\",\"scriptDesc\":\"鲍勃未造成消灭\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A1E9\",\"scriptDesc\":\"鲍勃未造成消灭\"}",
       null
     ],
     [
@@ -11219,7 +11219,7 @@
       "Unknown/A93.078",
       "鲍勃，我受够你了！",
       "Bob, I've had it with you!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownA1E9\",\"scriptDesc\":\"鲍勃未造成消灭\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A1E9\",\"scriptDesc\":\"鲍勃未造成消灭\"}",
       0.25
     ],
     [
@@ -11453,7 +11453,7 @@
       "Unknown/AAC.078",
       "你挡住我了。",
       "Out of my space.",
-      "{\"type\":\"scripted\",\"script\":\"ShortDistance(AD8E)\",\"scriptDesc\":\"近距离\"}",
+      "{\"type\":\"scripted\",\"script\":\"00AD8E\",\"scriptDesc\":\"近距离\"}",
       null
     ],
     [
@@ -11466,7 +11466,7 @@
       "Unknown/AAC.078",
       "别来打搅我。",
       "I like my space.",
-      "{\"type\":\"scripted\",\"script\":\"ShortDistance(AD8E)\",\"scriptDesc\":\"近距离\"}",
+      "{\"type\":\"scripted\",\"script\":\"00AD8E\",\"scriptDesc\":\"近距离\"}",
       null
     ],
     [
@@ -11661,7 +11661,7 @@
       "Unknown/EC6.078",
       "最烦臭显摆的。",
       "Can’t abide a show-off.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
       null
     ],
     [
@@ -11674,7 +11674,7 @@
       "Unknown/EC6.078",
       "哦，闭嘴吧你。",
       "Oh, hush.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
       null
     ],
     [
@@ -12675,7 +12675,7 @@
       "Elimination",
       "一呼一吸，从生到死。",
       "From life to death in a breath.",
-      "{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\"}",
+      "{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\"}",
       null
     ],
     [
@@ -12688,7 +12688,7 @@
       "Elimination",
       "我的眼睛能烧穿虚实的帷幕。",
       "These eyes burn through the Veil.",
-      "{\"type\":\"scripted\",\"script\":\"Shutdown_SombraStealth(A788)\",\"scriptDesc\":\"敌方黑影潜行\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A788\",\"scriptDesc\":\"敌方黑影潜行\"}",
       null
     ],
     [
@@ -13156,7 +13156,7 @@
       "Unknown/A93.078",
       "这头恶魔的活干得挺漂亮嘛。",
       "There goes a demon who knows his business.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownA1E8\",\"scriptDesc\":\"鲍勃造成消灭\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A1E8\",\"scriptDesc\":\"鲍勃造成消灭\"}",
       null
     ],
     [
@@ -13169,7 +13169,7 @@
       "Unknown/A93.078",
       "地狱里哪有像你这么懒的恶魔。",
       "That is the laziest demon in all Damnation.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownA1E9\",\"scriptDesc\":\"鲍勃未造成消灭\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A1E9\",\"scriptDesc\":\"鲍勃未造成消灭\"}",
       null
     ],
     [
@@ -13291,19 +13291,6 @@
     ],
     [
       "HeroQuote",
-      "0000000664FB.0B2",
-      419067,
-      "ashe",
-      "艾什",
-      "星际走私商",
-      "Elimination",
-      "不会吧，连平流层都出不去？",
-      "What, couldn't leave the stratosphere?",
-      "{\"type\":\"scripted\",\"script\":\"EnemyInAir(9268)\",\"scriptDesc\":\"敌人在空中\"}",
-      null
-    ],
-    [
-      "HeroQuote",
       "0000000664ED.0B2",
       419053,
       "ashe",
@@ -13312,7 +13299,7 @@
       "Elimination",
       "就像在小行星带里跳踢踏舞。",
       "Like tap dancing through an asteroid belt.",
-      "{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\"}",
+      "{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\"}",
       null
     ],
     [
@@ -13325,7 +13312,20 @@
       "Elimination",
       "我的准头可不受引力乱流影响。",
       "No gravity flux can mess with my aim.",
-      "{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\"}",
+      "{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "0000000664FB.0B2",
+      419067,
+      "ashe",
+      "艾什",
+      "星际走私商",
+      "Elimination",
+      "不会吧，连平流层都出不去？",
+      "What, couldn't leave the stratosphere?",
+      "{\"type\":\"scripted\",\"script\":\"009268\",\"scriptDesc\":\"敌人在空中\"}",
       null
     ],
     [
@@ -13338,7 +13338,7 @@
       "Elimination",
       "被超瞄镜盯上，谁也别想逃。",
       "No one escapes the telestescope.",
-      "{\"type\":\"scripted\",\"script\":\"LongDistance(A809)\",\"scriptDesc\":\"远距离\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A809\",\"scriptDesc\":\"远距离\"}",
       null
     ],
     [
@@ -14079,7 +14079,7 @@
       "Unknown/A93.078",
       "鲍勃，回头我们再想想该怎么惩罚你。",
       "We'll discuss your punishment later, Bob.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownA1E9\",\"scriptDesc\":\"鲍勃未造成消灭\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A1E9\",\"scriptDesc\":\"鲍勃未造成消灭\"}",
       null
     ],
     [

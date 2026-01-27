@@ -572,7 +572,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -585,7 +585,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -598,7 +598,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -611,7 +611,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -624,7 +624,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -637,7 +637,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -650,7 +650,7 @@
       "DeathCharged",
       "（遭受重压的声音）",
       "(crushed sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -663,7 +663,7 @@
       "DeathCharged",
       "（遭受重压的声音）",
       "(crushed sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -676,7 +676,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -689,7 +689,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -702,7 +702,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -715,7 +715,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -884,7 +884,7 @@
       "Elimination",
       "哈哈，就像砸烂绑在绳子上的西瓜一样！",
       "Ooh, it's like bashing watermelons on a rope!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"scripted\",\"script\":\"UltAssist_Flux(A6B2)\",\"scriptDesc\":\"敌人被引力乱流控制\"},{\"type\":\"scripted\",\"script\":\"UltAssist_Grav(A22A)\",\"scriptDesc\":\"敌人被重力喷涌控制\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A6B2\",\"scriptDesc\":\"敌人被引力乱流控制\"},{\"type\":\"scripted\",\"script\":\"00A22A\",\"scriptDesc\":\"敌人被重力喷涌控制\"}]}",
       null
     ],
     [
@@ -910,7 +910,7 @@
       "Elimination",
       "哪有空让你摆造型，这儿正打架呢！",
       "No time for dramatic showdowns. We're scrapping here!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"卡西迪\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"卡西迪\"}]}",
       null
     ],
     [
@@ -923,7 +923,7 @@
       "Elimination",
       "哈哈，就你那戴面具的鬼样还想打倒我？",
       "Not gonna let a bloke in a spooky mask take me down.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"死神\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"死神\"}]}",
       null
     ],
     [
@@ -936,7 +936,7 @@
       "Elimination",
       "啊，别拿你的小刀在那儿瞎比划。",
       "Aah. Put your little sword away.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"源氏\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"源氏\"}]}",
       null
     ],
     [
@@ -949,7 +949,7 @@
       "Elimination",
       "（大笑）很有劲嘛，大妹子。",
       "(laugh) Nice lift, big girl.",
-      "{\"type\":\"scripted\",\"script\":\"UltAssist_Grav(A22A)\",\"scriptDesc\":\"敌人被重力喷涌控制\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A22A\",\"scriptDesc\":\"敌人被重力喷涌控制\"}",
       null
     ],
     [
@@ -962,7 +962,7 @@
       "Elimination",
       "你以为自己很强？太能吹了吧。",
       "Did you think you had an edge? How embarrassing.",
-      "{\"type\":\"scripted\",\"script\":\"UltShutdown_NanoBoosted(A697)\",\"scriptDesc\":\"敌人被纳米激素强化\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A697\",\"scriptDesc\":\"敌人被纳米激素强化\"}",
       null
     ],
     [
@@ -975,7 +975,7 @@
       "Elimination",
       "哎！别想跟本女王耍花招。",
       "Don't get clever with your queen.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownA70E\",\"scriptDesc\":\"打断敌人位移技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A70E\",\"scriptDesc\":\"打断敌人位移技能\"}",
       null
     ],
     [
@@ -988,7 +988,7 @@
       "Elimination",
       "像个扒在风挡上的臭虫！",
       "Like a bug on a windscreen!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownA70E\",\"scriptDesc\":\"打断敌人位移技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A70E\",\"scriptDesc\":\"打断敌人位移技能\"}",
       null
     ],
     [
@@ -1092,7 +1092,7 @@
       "EnemiesAttacking",
       "左边有敌人！",
       "On the left!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2733\",\"scriptDesc\":\"敌人在左侧\"}",
+      "{\"type\":\"scripted\",\"script\":\"002733\",\"scriptDesc\":\"敌人在左侧\"}",
       null
     ],
     [
@@ -1105,7 +1105,7 @@
       "EnemiesAttacking",
       "左边！",
       "On your left!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2733\",\"scriptDesc\":\"敌人在左侧\"}",
+      "{\"type\":\"scripted\",\"script\":\"002733\",\"scriptDesc\":\"敌人在左侧\"}",
       null
     ],
     [
@@ -1118,7 +1118,7 @@
       "EnemiesAttacking",
       "在你右边！",
       "On your right!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2734\",\"scriptDesc\":\"敌人在右侧\"}",
+      "{\"type\":\"scripted\",\"script\":\"002734\",\"scriptDesc\":\"敌人在右侧\"}",
       null
     ],
     [
@@ -1131,7 +1131,7 @@
       "EnemiesAttacking",
       "右边有敌人！",
       "On the right!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2734\",\"scriptDesc\":\"敌人在右侧\"}",
+      "{\"type\":\"scripted\",\"script\":\"002734\",\"scriptDesc\":\"敌人在右侧\"}",
       null
     ],
     [
@@ -1144,7 +1144,7 @@
       "EnemiesAttacking",
       "他们在咱们正前方！",
       "They're in front of us!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2735\",\"scriptDesc\":\"敌人在前方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002735\",\"scriptDesc\":\"敌人在前方\"}",
       null
     ],
     [
@@ -1157,7 +1157,7 @@
       "EnemiesAttacking",
       "他们就在前面！",
       "They're just ahead!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2735\",\"scriptDesc\":\"敌人在前方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002735\",\"scriptDesc\":\"敌人在前方\"}",
       null
     ],
     [
@@ -1170,7 +1170,7 @@
       "EnemiesAttacking",
       "在你上面！",
       "Above you!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2736\",\"scriptDesc\":\"敌人在上方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002736\",\"scriptDesc\":\"敌人在上方\"}",
       null
     ],
     [
@@ -1183,7 +1183,7 @@
       "EnemiesAttacking",
       "在上面！",
       "Above us!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2736\",\"scriptDesc\":\"敌人在上方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002736\",\"scriptDesc\":\"敌人在上方\"}",
       null
     ],
     [
@@ -1196,7 +1196,7 @@
       "EnemiesAttacking",
       "在你背后！",
       "Behind ya!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2737\",\"scriptDesc\":\"敌人在后方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002737\",\"scriptDesc\":\"敌人在后方\"}",
       null
     ],
     [
@@ -1209,7 +1209,7 @@
       "EnemiesAttacking",
       "他们在我们后面！",
       "They're behind us!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2737\",\"scriptDesc\":\"敌人在后方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002737\",\"scriptDesc\":\"敌人在后方\"}",
       null
     ],
     [
@@ -1222,7 +1222,7 @@
       "EnemiesAttacking",
       "看下面！",
       "Down there!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2738\",\"scriptDesc\":\"敌人在下方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002738\",\"scriptDesc\":\"敌人在下方\"}",
       null
     ],
     [
@@ -1235,7 +1235,7 @@
       "EnemiesAttacking",
       "敌人在下面！",
       "They're below us!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown2738\",\"scriptDesc\":\"敌人在下方\"}",
+      "{\"type\":\"scripted\",\"script\":\"002738\",\"scriptDesc\":\"敌人在下方\"}",
       null
     ],
     [
@@ -1560,7 +1560,7 @@
       "Health/LowHealthBreathStart",
       "（倒吸气）",
       "(gasps)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -3029,7 +3029,7 @@
       "MeleeEnemyKilledRemark",
       "这么多血。今天砍了个痛快。",
       "Plenty of Carnage. What a wonderful day.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownA8A9\",\"scriptDesc\":\"血斩造成多个击杀\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A8A9\",\"scriptDesc\":\"血斩造成多个击杀\"}",
       0.05
     ],
     [
@@ -5257,240 +5257,6 @@
     ],
     [
       "HeroQuote",
-      "00000005C891.0B2",
-      379025,
-      "junker-queen",
-      "渣客女王",
-      null,
-      "PVE/Unknown",
-      "渡轮要碎成渣了！",
-      "Ferry's falling to bits!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7329\",\"scriptDesc\":\"渡轮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005C893.0B2",
-      379027,
-      "junker-queen",
-      "渣客女王",
-      null,
-      "PVE/Unknown",
-      "保护那艘大破船！",
-      "Guard the big bloody boat!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7329\",\"scriptDesc\":\"渡轮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005C894.0B2",
-      379028,
-      "junker-queen",
-      "渣客女王",
-      null,
-      "PVE/Unknown",
-      "你觉得这些搭船的会给我们钱吗？",
-      "You reckon these passengers are paying us?",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7329\",\"scriptDesc\":\"渡轮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005C895.0B2",
-      379029,
-      "junker-queen",
-      "渣客女王",
-      null,
-      "PVE/Unknown",
-      "它们要把渡轮打穿了！",
-      "They're gonna breach the Ferry!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7329\",\"scriptDesc\":\"渡轮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005C896.0B2",
-      379030,
-      "junker-queen",
-      "渣客女王",
-      null,
-      "PVE/Unknown",
-      "听好了！渡轮要撑不住了！",
-      "Listen! The Ferry can't take much more!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7329\",\"scriptDesc\":\"渡轮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005C892.0B2",
-      379026,
-      "junker-queen",
-      "渣客女王",
-      null,
-      "PVE/Unknown",
-      "这东西是该叫船还是叫艇啊？我老是记不住区别。",
-      "Is this one a ship or a boat? I never remember the difference.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7329\",\"scriptDesc\":\"渡轮受到攻击\"}",
-      0.5
-    ],
-    [
-      "HeroQuote",
-      "00000005C898.0B2",
-      379032,
-      "junker-queen",
-      "渣客女王",
-      null,
-      "PVE/Unknown",
-      "要我说，咱们直接把传输塔砸了算了，先下手为强。",
-      "Maybe we should smash the Uplink. Beat 'em to it.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005C899.0B2",
-      379033,
-      "junker-queen",
-      "渣客女王",
-      null,
-      "PVE/Unknown",
-      "保护那个叫传输塔的玩意儿！",
-      "Protect the uplink, whatever it is!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005C89A.0B2",
-      379034,
-      "junker-queen",
-      "渣客女王",
-      null,
-      "PVE/Unknown",
-      "这块转圈儿的饼干是能监听还是能开炮啊？",
-      "Is this spinny biscuit for spying or shooting or what?",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005C89B.0B2",
-      379035,
-      "junker-queen",
-      "渣客女王",
-      null,
-      "PVE/Unknown",
-      "传输塔看来要不行了。",
-      "Uplink's not looking so good.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005C89D.0B2",
-      379037,
-      "junker-queen",
-      "渣客女王",
-      null,
-      "PVE/Unknown",
-      "要不咱们把这东西当废铁卖了吧？",
-      "Maybe we can sell this thing for scrap, yeah?",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005C89C.0B2",
-      379036,
-      "junker-queen",
-      "渣客女王",
-      null,
-      "PVE/Unknown",
-      "有没有人知道这传输塔到底是干嘛的？",
-      "Anyone have any idea what this Uplink does?",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      0.5
-    ],
-    [
-      "HeroQuote",
-      "00000005C88A.0B2",
-      379018,
-      "junker-queen",
-      "渣客女王",
-      null,
-      "PVE/Unknown",
-      "巨炮撑不住了！",
-      "The Cannon's going down!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown81B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005C88C.0B2",
-      379020,
-      "junker-queen",
-      "渣客女王",
-      null,
-      "PVE/Unknown",
-      "巨炮挨打了！",
-      "Cannon's taking fire!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown81B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005C88D.0B2",
-      379021,
-      "junker-queen",
-      "渣客女王",
-      null,
-      "PVE/Unknown",
-      "巨炮要失守了！",
-      "We're gonna lose the cannon!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown81B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005C88E.0B2",
-      379022,
-      "junker-queen",
-      "渣客女王",
-      null,
-      "PVE/Unknown",
-      "它们在攻击大铁炮呢！",
-      "They're attacking the big gun!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown81B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005C88F.0B2",
-      379023,
-      "junker-queen",
-      "渣客女王",
-      null,
-      "PVE/Unknown",
-      "巨炮要变成稀巴烂了！",
-      "Cannon's about to fall apart!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown81B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005C88B.0B2",
-      379019,
-      "junker-queen",
-      "渣客女王",
-      null,
-      "PVE/Unknown",
-      "别让他们把巨炮毁了，我还想看它开炮呢！",
-      "Don't let 'em destroy the cannon. I wanna see it fire!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown81B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
-      0.5
-    ],
-    [
-      "HeroQuote",
       "0000000601DA.0B2",
       393690,
       "junker-queen",
@@ -5499,7 +5265,7 @@
       "PVE/Unknown",
       "敌人在拆我的运载目标！",
       "They're damaging my payload!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown88E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
       null
     ],
     [
@@ -5512,7 +5278,7 @@
       "PVE/Unknown",
       "别让他们的脏手摸我的运载目标！",
       "Keep them away from my payload!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown88E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
       null
     ],
     [
@@ -5525,7 +5291,7 @@
       "PVE/Unknown",
       "啊，我的运载目标要散架了！",
       "Aw, my payload's falling apart!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown88E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
       null
     ],
     [
@@ -5538,7 +5304,7 @@
       "PVE/Unknown",
       "别让他们折腾我的运载目标了！",
       "Stop them from wrecking my payload!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown88E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
       null
     ],
     [
@@ -5551,8 +5317,242 @@
       "PVE/Unknown",
       "我的运载目标要是有个三长两短，我会发飙的，到时候你们可就麻烦了！",
       "If they wreck my payload, I will be vexed. You don't want me vexed!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown88E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
       0.3
+    ],
+    [
+      "HeroQuote",
+      "00000005C891.0B2",
+      379025,
+      "junker-queen",
+      "渣客女王",
+      null,
+      "PVE/Unknown",
+      "渡轮要碎成渣了！",
+      "Ferry's falling to bits!",
+      "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005C893.0B2",
+      379027,
+      "junker-queen",
+      "渣客女王",
+      null,
+      "PVE/Unknown",
+      "保护那艘大破船！",
+      "Guard the big bloody boat!",
+      "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005C894.0B2",
+      379028,
+      "junker-queen",
+      "渣客女王",
+      null,
+      "PVE/Unknown",
+      "你觉得这些搭船的会给我们钱吗？",
+      "You reckon these passengers are paying us?",
+      "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005C895.0B2",
+      379029,
+      "junker-queen",
+      "渣客女王",
+      null,
+      "PVE/Unknown",
+      "它们要把渡轮打穿了！",
+      "They're gonna breach the Ferry!",
+      "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005C896.0B2",
+      379030,
+      "junker-queen",
+      "渣客女王",
+      null,
+      "PVE/Unknown",
+      "听好了！渡轮要撑不住了！",
+      "Listen! The Ferry can't take much more!",
+      "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005C892.0B2",
+      379026,
+      "junker-queen",
+      "渣客女王",
+      null,
+      "PVE/Unknown",
+      "这东西是该叫船还是叫艇啊？我老是记不住区别。",
+      "Is this one a ship or a boat? I never remember the difference.",
+      "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      0.5
+    ],
+    [
+      "HeroQuote",
+      "00000005C898.0B2",
+      379032,
+      "junker-queen",
+      "渣客女王",
+      null,
+      "PVE/Unknown",
+      "要我说，咱们直接把传输塔砸了算了，先下手为强。",
+      "Maybe we should smash the Uplink. Beat 'em to it.",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005C899.0B2",
+      379033,
+      "junker-queen",
+      "渣客女王",
+      null,
+      "PVE/Unknown",
+      "保护那个叫传输塔的玩意儿！",
+      "Protect the uplink, whatever it is!",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005C89A.0B2",
+      379034,
+      "junker-queen",
+      "渣客女王",
+      null,
+      "PVE/Unknown",
+      "这块转圈儿的饼干是能监听还是能开炮啊？",
+      "Is this spinny biscuit for spying or shooting or what?",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005C89B.0B2",
+      379035,
+      "junker-queen",
+      "渣客女王",
+      null,
+      "PVE/Unknown",
+      "传输塔看来要不行了。",
+      "Uplink's not looking so good.",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005C89D.0B2",
+      379037,
+      "junker-queen",
+      "渣客女王",
+      null,
+      "PVE/Unknown",
+      "要不咱们把这东西当废铁卖了吧？",
+      "Maybe we can sell this thing for scrap, yeah?",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005C89C.0B2",
+      379036,
+      "junker-queen",
+      "渣客女王",
+      null,
+      "PVE/Unknown",
+      "有没有人知道这传输塔到底是干嘛的？",
+      "Anyone have any idea what this Uplink does?",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      0.5
+    ],
+    [
+      "HeroQuote",
+      "00000005C88A.0B2",
+      379018,
+      "junker-queen",
+      "渣客女王",
+      null,
+      "PVE/Unknown",
+      "巨炮撑不住了！",
+      "The Cannon's going down!",
+      "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005C88C.0B2",
+      379020,
+      "junker-queen",
+      "渣客女王",
+      null,
+      "PVE/Unknown",
+      "巨炮挨打了！",
+      "Cannon's taking fire!",
+      "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005C88D.0B2",
+      379021,
+      "junker-queen",
+      "渣客女王",
+      null,
+      "PVE/Unknown",
+      "巨炮要失守了！",
+      "We're gonna lose the cannon!",
+      "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005C88E.0B2",
+      379022,
+      "junker-queen",
+      "渣客女王",
+      null,
+      "PVE/Unknown",
+      "它们在攻击大铁炮呢！",
+      "They're attacking the big gun!",
+      "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005C88F.0B2",
+      379023,
+      "junker-queen",
+      "渣客女王",
+      null,
+      "PVE/Unknown",
+      "巨炮要变成稀巴烂了！",
+      "Cannon's about to fall apart!",
+      "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005C88B.0B2",
+      379019,
+      "junker-queen",
+      "渣客女王",
+      null,
+      "PVE/Unknown",
+      "别让他们把巨炮毁了，我还想看它开炮呢！",
+      "Don't let 'em destroy the cannon. I wanna see it fire!",
+      "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
+      0.5
     ],
     [
       "HeroQuote",
@@ -5564,7 +5564,7 @@
       "PVE/Unknown",
       "保护修理站！",
       "Protect the Repair Station!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown94DB\",\"scriptDesc\":\"修理站受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"0094DB\",\"scriptDesc\":\"修理站受到攻击\"}",
       null
     ],
     [
@@ -5577,7 +5577,7 @@
       "PVE/Unknown",
       "它们正在折腾修理站！",
       "They're messing with the Repair Station!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown94DB\",\"scriptDesc\":\"修理站受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"0094DB\",\"scriptDesc\":\"修理站受到攻击\"}",
       null
     ],
     [
@@ -5590,7 +5590,7 @@
       "PVE/Unknown",
       "修理站要不行了！",
       "We're losing the Repair Station!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown94DB\",\"scriptDesc\":\"修理站受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"0094DB\",\"scriptDesc\":\"修理站受到攻击\"}",
       null
     ],
     [
@@ -5603,7 +5603,7 @@
       "PVE/Unknown",
       "修理站看来要顶不住了！",
       "The Repair Station isn't looking good!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown94DB\",\"scriptDesc\":\"修理站受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"0094DB\",\"scriptDesc\":\"修理站受到攻击\"}",
       null
     ],
     [
@@ -5954,7 +5954,7 @@
       "Respawn",
       "来了个挑战者！我喜欢。",
       "A challenger! I like those.",
-      "{\"type\":\"scripted\",\"script\":\"RespawnAfterKillstreak(B404)\",\"scriptDesc\":\"连杀后复生\"}",
+      "{\"type\":\"scripted\",\"script\":\"00B404\",\"scriptDesc\":\"连杀后复生\"}",
       0.5
     ],
     [
@@ -6630,7 +6630,7 @@
       "Scream",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -6643,7 +6643,7 @@
       "Scream",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -6656,7 +6656,7 @@
       "Scream",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -7267,7 +7267,7 @@
       "Ultimate",
       "全体目光向我的斧子看齐！",
       "Everybody, look at my axe!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -7280,7 +7280,7 @@
       "Ultimate",
       "砍砍砍砍砍砍砍！",
       "Cut cut cut cut cut cut cut!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -7293,7 +7293,7 @@
       "Ultimate",
       "砍砍砍砍砍砍砍！",
       "Cut cut cut cut cut cut cut!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -9269,7 +9269,7 @@
       "Unknown/E44.078",
       "你是不是离得太近了？",
       "Got too close, didn't ya?",
-      "{\"type\":\"scripted\",\"script\":\"UnknownA8A8\",\"scriptDesc\":\"远距离\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00A8A8\",\"scriptDesc\":\"远距离\",\"negative\":true}",
       null
     ],
     [

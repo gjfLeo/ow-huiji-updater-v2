@@ -637,7 +637,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -650,7 +650,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -663,7 +663,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -676,7 +676,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -689,7 +689,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -702,7 +702,7 @@
       "Death",
       "（垂死之声）",
       "(dying sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -715,7 +715,7 @@
       "DeathCharged",
       "（遭受重压的声音）",
       "(crushed sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -728,7 +728,7 @@
       "DeathCharged",
       "（遭受重压的声音）",
       "(crushed sounds)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -741,7 +741,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -754,7 +754,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -767,7 +767,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -780,7 +780,7 @@
       "DeathExplosion",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -1014,7 +1014,7 @@
       "Elimination",
       "空对空作战已胜利！",
       "Air-to-air engagement successful!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"InAir(A776)\",\"scriptDesc\":\"在空中时\"},{\"type\":\"scripted\",\"script\":\"EnemyInAir(9268)\",\"scriptDesc\":\"敌人在空中\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A776\",\"scriptDesc\":\"在空中时\"},{\"type\":\"scripted\",\"script\":\"009268\",\"scriptDesc\":\"敌人在空中\"}]}",
       null
     ],
     [
@@ -1027,7 +1027,7 @@
       "Elimination",
       "已夺取制空权。",
       "Aerial superiority achieved.",
-      "{\"type\":\"nested\",\"total\":3,\"needed\":3,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"法老之鹰\"},{\"type\":\"scripted\",\"script\":\"InAir(A776)\",\"scriptDesc\":\"在空中时\"},{\"type\":\"scripted\",\"script\":\"EnemyInAir(9268)\",\"scriptDesc\":\"敌人在空中\"}]}",
+      "{\"type\":\"nested\",\"total\":3,\"needed\":3,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"法老之鹰\"},{\"type\":\"scripted\",\"script\":\"00A776\",\"scriptDesc\":\"在空中时\"},{\"type\":\"scripted\",\"script\":\"009268\",\"scriptDesc\":\"敌人在空中\"}]}",
       null
     ],
     [
@@ -1053,7 +1053,7 @@
       "Elimination",
       "看来我拿下了制高点。",
       "Looks like I had the high ground.",
-      "{\"type\":\"scripted\",\"script\":\"InAir(A776)\",\"scriptDesc\":\"在空中时\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A776\",\"scriptDesc\":\"在空中时\"}",
       0.1
     ],
     [
@@ -1898,7 +1898,7 @@
       "Health/LowHealthBreathStart",
       "（倒吸气）",
       "(gasps)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -2145,7 +2145,7 @@
       "HeroSelect",
       "人格同步进度百分之百。很高兴再见到大家。",
       "Personality synchronization: 100%. Good to be back.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -3952,7 +3952,7 @@
       "MeleeEnemyKilledRemark",
       "廖博士肯定也想那么干。",
       "Dr. Liao would've wanted that.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"莫伊拉\"},{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"莫伊拉\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
       null
     ],
     [
@@ -4511,7 +4511,7 @@
       "OnFire",
       "超频运行中，状态良好。",
       "Overclocked and on fire",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -4524,7 +4524,7 @@
       "OnFire",
       "正在巅峰状态！",
       "Systems on fire!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -4537,7 +4537,7 @@
       "OnFire",
       "非常理想！",
       "So optimal!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
       null
     ],
     [
@@ -4875,7 +4875,7 @@
       "PVE/Conversations",
       "“索杰恩”，请回话。风暴干扰了扫描信号。你们现在在哪？",
       "Sojourn, come in. The storm is interfering with my scans. Where are you?",
-      "{\"type\":\"nested\",\"total\":3,\"needed\":3,\"conditions\":[{\"type\":\"scripted\",\"script\":\"Unknown7762\",\"scriptDesc\":\"未知\"},{\"type\":\"mission\",\"mission\":\"解放枷锁\"},{\"type\":\"mission\",\"objective\":\"前往联合车站\"}]}",
+      "{\"type\":\"nested\",\"total\":3,\"needed\":3,\"conditions\":[{\"type\":\"scripted\",\"script\":\"007762\",\"scriptDesc\":\"未知\"},{\"type\":\"mission\",\"mission\":\"解放枷锁\"},{\"type\":\"mission\",\"objective\":\"前往联合车站\"}]}",
       null
     ],
     [
@@ -6760,7 +6760,7 @@
       "PVE/Unknown",
       "终于等到你们了！快上来！",
       "There you are! Get in!",
-      "{\"type\":\"nested\",\"total\":3,\"needed\":3,\"conditions\":[{\"type\":\"scripted\",\"script\":\"Unknown7762\",\"scriptDesc\":\"未知\"},{\"type\":\"mission\",\"mission\":\"解放枷锁\"},{\"type\":\"mission\",\"objective\":\"护送平民登上穿梭机\"}]}",
+      "{\"type\":\"nested\",\"total\":3,\"needed\":3,\"conditions\":[{\"type\":\"scripted\",\"script\":\"007762\",\"scriptDesc\":\"未知\"},{\"type\":\"mission\",\"mission\":\"解放枷锁\"},{\"type\":\"mission\",\"objective\":\"护送平民登上穿梭机\"}]}",
       null
     ],
     [
@@ -6778,162 +6778,6 @@
     ],
     [
       "HeroQuote",
-      "00000005FCAA.0B2",
-      392362,
-      "echo",
-      "回声",
-      null,
-      "PVE/Unknown",
-      "渡轮遭到了袭击！",
-      "The Ferry is taking fire!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7329\",\"scriptDesc\":\"渡轮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005FCAB.0B2",
-      392363,
-      "echo",
-      "回声",
-      null,
-      "PVE/Unknown",
-      "敌人攻击了渡轮！",
-      "They've hit the Ferry!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7329\",\"scriptDesc\":\"渡轮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005FCB2.0B2",
-      392370,
-      "echo",
-      "回声",
-      null,
-      "PVE/Unknown",
-      "这是我们最后的机会了。保护渡轮！",
-      "This is our last chance. Keep the Ferry safe!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7329\",\"scriptDesc\":\"渡轮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005FCB3.0B2",
-      392371,
-      "echo",
-      "回声",
-      null,
-      "PVE/Unknown",
-      "渡轮需要帮助，守住防线！",
-      "The Ferry needs our help. Hold the line!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7329\",\"scriptDesc\":\"渡轮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005FCAD.0B2",
-      392365,
-      "echo",
-      "回声",
-      null,
-      "PVE/Unknown",
-      "我们得保护传输塔！",
-      "We need to protect the Uplink!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005FCAE.0B2",
-      392366,
-      "echo",
-      "回声",
-      null,
-      "PVE/Unknown",
-      "敌人正在攻击传输塔！",
-      "Hostiles are engaging the Uplink!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005FCB8.0B2",
-      392376,
-      "echo",
-      "回声",
-      null,
-      "PVE/Unknown",
-      "传输塔无法再承受伤害了！",
-      "The Uplink can't withstand much more!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005FCB9.0B2",
-      392377,
-      "echo",
-      "回声",
-      null,
-      "PVE/Unknown",
-      "不能放任敌人摧毁传输塔，一起防守！",
-      "We can't let them destroy the Uplink. Hold together!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005FCAF.0B2",
-      392367,
-      "echo",
-      "回声",
-      null,
-      "PVE/Unknown",
-      "敌人在攻击巨炮！",
-      "They're damaging the Cannon!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown81B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005FCB0.0B2",
-      392368,
-      "echo",
-      "回声",
-      null,
-      "PVE/Unknown",
-      "巨炮遭到了袭击！",
-      "The Cannon is under attack!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown81B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005FCB4.0B2",
-      392372,
-      "echo",
-      "回声",
-      null,
-      "PVE/Unknown",
-      "巨炮破损严重。拦截敌方火力！",
-      "The Cannon's in disrepair. Keep them off it!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown81B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005FCB6.0B2",
-      392374,
-      "echo",
-      "回声",
-      null,
-      "PVE/Unknown",
-      "巨炮受损严重，一起保护它！",
-      "The Cannon doesn't look so good. Let's protect it!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown81B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
-      null
-    ],
-    [
-      "HeroQuote",
       "00000005FCAC.0B2",
       392364,
       "echo",
@@ -6942,7 +6786,7 @@
       "PVE/Unknown",
       "敌人正在向运载目标开火！",
       "Hostiles are firing on the Payload!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown88E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
       null
     ],
     [
@@ -6955,7 +6799,7 @@
       "PVE/Unknown",
       "敌人在破坏运载目标！",
       "They're damaging the Payload!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown88E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
       null
     ],
     [
@@ -6968,7 +6812,7 @@
       "PVE/Unknown",
       "我们得一起保护运载目标！",
       "We need to keep this Payload together!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown88E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
       null
     ],
     [
@@ -6981,7 +6825,163 @@
       "PVE/Unknown",
       "运载目标即将损毁！",
       "The Payload can't take much more!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown88E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005FCAA.0B2",
+      392362,
+      "echo",
+      "回声",
+      null,
+      "PVE/Unknown",
+      "渡轮遭到了袭击！",
+      "The Ferry is taking fire!",
+      "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005FCAB.0B2",
+      392363,
+      "echo",
+      "回声",
+      null,
+      "PVE/Unknown",
+      "敌人攻击了渡轮！",
+      "They've hit the Ferry!",
+      "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005FCB2.0B2",
+      392370,
+      "echo",
+      "回声",
+      null,
+      "PVE/Unknown",
+      "这是我们最后的机会了。保护渡轮！",
+      "This is our last chance. Keep the Ferry safe!",
+      "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005FCB3.0B2",
+      392371,
+      "echo",
+      "回声",
+      null,
+      "PVE/Unknown",
+      "渡轮需要帮助，守住防线！",
+      "The Ferry needs our help. Hold the line!",
+      "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005FCAD.0B2",
+      392365,
+      "echo",
+      "回声",
+      null,
+      "PVE/Unknown",
+      "我们得保护传输塔！",
+      "We need to protect the Uplink!",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005FCAE.0B2",
+      392366,
+      "echo",
+      "回声",
+      null,
+      "PVE/Unknown",
+      "敌人正在攻击传输塔！",
+      "Hostiles are engaging the Uplink!",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005FCB8.0B2",
+      392376,
+      "echo",
+      "回声",
+      null,
+      "PVE/Unknown",
+      "传输塔无法再承受伤害了！",
+      "The Uplink can't withstand much more!",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005FCB9.0B2",
+      392377,
+      "echo",
+      "回声",
+      null,
+      "PVE/Unknown",
+      "不能放任敌人摧毁传输塔，一起防守！",
+      "We can't let them destroy the Uplink. Hold together!",
+      "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005FCAF.0B2",
+      392367,
+      "echo",
+      "回声",
+      null,
+      "PVE/Unknown",
+      "敌人在攻击巨炮！",
+      "They're damaging the Cannon!",
+      "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005FCB0.0B2",
+      392368,
+      "echo",
+      "回声",
+      null,
+      "PVE/Unknown",
+      "巨炮遭到了袭击！",
+      "The Cannon is under attack!",
+      "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005FCB4.0B2",
+      392372,
+      "echo",
+      "回声",
+      null,
+      "PVE/Unknown",
+      "巨炮破损严重。拦截敌方火力！",
+      "The Cannon's in disrepair. Keep them off it!",
+      "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005FCB6.0B2",
+      392374,
+      "echo",
+      "回声",
+      null,
+      "PVE/Unknown",
+      "巨炮受损严重，一起保护它！",
+      "The Cannon doesn't look so good. Let's protect it!",
+      "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
       null
     ],
     [
@@ -6994,7 +6994,7 @@
       "PVE/Unknown",
       "敌人袭击了修理站！",
       "Enemies are attacking the Repair Station!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown94DB\",\"scriptDesc\":\"修理站受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"0094DB\",\"scriptDesc\":\"修理站受到攻击\"}",
       null
     ],
     [
@@ -7007,7 +7007,7 @@
       "PVE/Unknown",
       "保护好修理站！",
       "Keep the Repair Station safe!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown94DB\",\"scriptDesc\":\"修理站受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"0094DB\",\"scriptDesc\":\"修理站受到攻击\"}",
       null
     ],
     [
@@ -7020,7 +7020,7 @@
       "PVE/Unknown",
       "修理站严重受损，拦截敌人的火力！",
       "Repair Station is in critical condition. Keep them off it!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown94DB\",\"scriptDesc\":\"修理站受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"0094DB\",\"scriptDesc\":\"修理站受到攻击\"}",
       null
     ],
     [
@@ -7033,7 +7033,7 @@
       "PVE/Unknown",
       "它们正在破坏修理站！",
       "They're damaging the Repair Station!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown94DB\",\"scriptDesc\":\"修理站受到攻击\"}",
+      "{\"type\":\"scripted\",\"script\":\"0094DB\",\"scriptDesc\":\"修理站受到攻击\"}",
       null
     ],
     [
@@ -7046,7 +7046,7 @@
       "PVE/Unknown",
       "我们要做最后的推进了。上吧！",
       "The final push is ours. Let's go!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownAAD3\",\"scriptDesc\":\"加时期间敌方控制机器人\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00AAD3\",\"scriptDesc\":\"加时期间敌方控制机器人\",\"negative\":true}",
       0.5
     ],
     [
@@ -7376,84 +7376,6 @@
     ],
     [
       "HeroQuote",
-      "000000059A2C.0B2",
-      367148,
-      "echo",
-      "回声",
-      null,
-      "Respawn",
-      "我会吸取教训的。",
-      "Learning from that one.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000059A2D.0B2",
-      367149,
-      "echo",
-      "回声",
-      null,
-      "Respawn",
-      "系统重启完成。",
-      "System reboot complete.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000059A2F.0B2",
-      367151,
-      "echo",
-      "回声",
-      null,
-      "Respawn",
-      "神经进化已完成。",
-      "Neural adaptation complete.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005AA15.0B2",
-      371221,
-      "echo",
-      "回声",
-      null,
-      "Respawn",
-      "印象深刻的教训。",
-      "That was a learning experience.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005AA16.0B2",
-      371222,
-      "echo",
-      "回声",
-      null,
-      "Respawn",
-      "我必须重回战斗！",
-      "I need to get back in there!",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005AA17.0B2",
-      371223,
-      "echo",
-      "回声",
-      null,
-      "Respawn",
-      "恢复完毕。切换回战斗模式。",
-      "Regeneration complete. Switching back to combat mode.",
-      "{\"type\":\"scripted\",\"script\":\"OverwatchClassic(E754)\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null
-    ],
-    [
-      "HeroQuote",
       "00000005AA18.0B2",
       371224,
       "echo",
@@ -7462,7 +7384,7 @@
       "Respawn",
       "我要继续没完成的计划。",
       "I'll try to pick up where I left off.",
-      "{\"type\":\"scripted\",\"script\":\"RespawnAfterKillstreak(B404)\",\"scriptDesc\":\"连杀后复生\"}",
+      "{\"type\":\"scripted\",\"script\":\"00B404\",\"scriptDesc\":\"连杀后复生\"}",
       0.5
     ],
     [
@@ -7475,8 +7397,86 @@
       "Respawn",
       "之前一切都还挺顺利的。",
       "And things were going so well.",
-      "{\"type\":\"scripted\",\"script\":\"RespawnAfterKillstreak(B404)\",\"scriptDesc\":\"连杀后复生\"}",
+      "{\"type\":\"scripted\",\"script\":\"00B404\",\"scriptDesc\":\"连杀后复生\"}",
       0.5
+    ],
+    [
+      "HeroQuote",
+      "000000059A2C.0B2",
+      367148,
+      "echo",
+      "回声",
+      null,
+      "Respawn",
+      "我会吸取教训的。",
+      "Learning from that one.",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000059A2D.0B2",
+      367149,
+      "echo",
+      "回声",
+      null,
+      "Respawn",
+      "系统重启完成。",
+      "System reboot complete.",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000059A2F.0B2",
+      367151,
+      "echo",
+      "回声",
+      null,
+      "Respawn",
+      "神经进化已完成。",
+      "Neural adaptation complete.",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005AA15.0B2",
+      371221,
+      "echo",
+      "回声",
+      null,
+      "Respawn",
+      "印象深刻的教训。",
+      "That was a learning experience.",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005AA16.0B2",
+      371222,
+      "echo",
+      "回声",
+      null,
+      "Respawn",
+      "我必须重回战斗！",
+      "I need to get back in there!",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005AA17.0B2",
+      371223,
+      "echo",
+      "回声",
+      null,
+      "Respawn",
+      "恢复完毕。切换回战斗模式。",
+      "Regeneration complete. Switching back to combat mode.",
+      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null
     ],
     [
       "HeroQuote",
@@ -8047,7 +8047,7 @@
       "Scream",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -8060,7 +8060,7 @@
       "Scream",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -8073,7 +8073,7 @@
       "Scream",
       "（大叫）",
       "(screams)",
-      "{\"type\":\"scripted\",\"script\":\"Unknown191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
       null
     ],
     [
@@ -8944,7 +8944,7 @@
       "Ultimate",
       "我是更强的……",
       "I'm better than you at...",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -8957,7 +8957,7 @@
       "Ultimate",
       "我是更强的……",
       "I'm better than you at...",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"UnknownE8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"UnknownBB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null
     ],
     [
@@ -8970,7 +8970,7 @@
       "Ultimate",
       "释放你的怒火吧！",
       "(Arabic): Unleash your inner strength!",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toGender\",\"gender\":\"male\"},{\"type\":\"scripted\",\"script\":\"UnknownAC10\",\"scriptDesc\":\"复制安娜后使用终极技能\"}]}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toGender\",\"gender\":\"male\"},{\"type\":\"scripted\",\"script\":\"00AC10\",\"scriptDesc\":\"复制安娜后使用终极技能\"}]}",
       null
     ],
     [
@@ -8983,254 +8983,7 @@
       "Ultimate",
       "释放你的怒火吧！",
       "(Arabic): Unleash your inner strength!",
-      "{\"type\":\"nested\",\"total\":3,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"堡垒\"},{\"type\":\"toGender\",\"gender\":\"female\"},{\"type\":\"scripted\",\"script\":\"UnknownAC10\",\"scriptDesc\":\"复制安娜后使用终极技能\"}]}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000069384.0B2",
-      430980,
-      "echo",
-      "回声",
-      null,
-      "Ultimate",
-      "拆个粉碎！",
-      "Tear it down!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown10063\",\"scriptDesc\":\"复制骇灾后使用终极技能\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000069385.0B2",
-      430981,
-      "echo",
-      "回声",
-      null,
-      "Ultimate",
-      "来场暴雨吧！",
-      "Bringing the rain!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown10063\",\"scriptDesc\":\"复制骇灾后使用终极技能\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000068C4F.0B2",
-      429135,
-      "echo",
-      "回声",
-      null,
-      "Ultimate",
-      "欢迎进入轨道！",
-      "Welcome to orbit!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown10084\",\"scriptDesc\":\"复制朱诺后使用终极技能\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000068C51.0B2",
-      429137,
-      "echo",
-      "回声",
-      null,
-      "Ultimate",
-      "卫星航线已锁定！",
-      "Locking satellite vector!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown10084\",\"scriptDesc\":\"复制朱诺后使用终极技能\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "0000000686C8.0B2",
-      427720,
-      "echo",
-      "回声",
-      null,
-      "Ultimate",
-      "轰轰钻机！隆隆震地！",
-      "Excavation initiation!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown1011D\",\"scriptDesc\":\"复制探奇后使用终极技能\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "0000000686C9.0B2",
-      427721,
-      "echo",
-      "回声",
-      null,
-      "Ultimate",
-      "开始划分发掘现场！",
-      "Plotting out the dig site!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown1011D\",\"scriptDesc\":\"复制探奇后使用终极技能\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000059BCF.0B2",
-      367567,
-      "echo",
-      "回声",
-      null,
-      "Ultimate",
-      "禁止进入！",
-      "Area denied!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown10128\",\"scriptDesc\":\"复制破坏球后使用终极技能\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000059BD0.0B2",
-      367568,
-      "echo",
-      "回声",
-      null,
-      "Ultimate",
-      "地雷禁区已部署。",
-      "Minefield deployed.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown10128\",\"scriptDesc\":\"复制破坏球后使用终极技能\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000059BC9.0B2",
-      367561,
-      "echo",
-      "回声",
-      null,
-      "Ultimate",
-      "(俄语) 随意开火！",
-      "(Russian): Fire at will!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown1012A\",\"scriptDesc\":\"复制查莉娅后使用终极技能\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000059BCA.0B2",
-      367562,
-      "echo",
-      "回声",
-      null,
-      "Ultimate",
-      "随意开火！",
-      "Fire at will!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown1012A\",\"scriptDesc\":\"复制查莉娅后使用终极技能\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "0000000698AF.0B2",
-      432303,
-      "echo",
-      "回声",
-      null,
-      "Ultimate",
-      "猎杀他们。",
-      "Hunting them down.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown102AC\",\"scriptDesc\":\"复制弗蕾娅后使用终极技能\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000069979.0B2",
-      432505,
-      "echo",
-      "回声",
-      null,
-      "Ultimate",
-      "（丹麦语）：你是我的猎物！",
-      "(Danish): I'll hunt you down!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown102AC\",\"scriptDesc\":\"复制弗蕾娅后使用终极技能\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000006A297.0B2",
-      434839,
-      "echo",
-      "回声",
-      null,
-      "Ultimate",
-      "力挽狂澜！",
-      "(Chinese): Reverse the tide!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown1085F\",\"scriptDesc\":\"复制无漾后使用终极技能\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000006A29E.0B2",
-      434846,
-      "echo",
-      "回声",
-      null,
-      "Ultimate",
-      "浪涛回天！",
-      "Reverse the tide!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown1085F\",\"scriptDesc\":\"复制无漾后使用终极技能\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000006A2A3.0B2",
-      434851,
-      "echo",
-      "回声",
-      null,
-      "Ultimate",
-      "海浪随你而行！冲垮他们！",
-      "The tide is with you! Dive in!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown1085F\",\"scriptDesc\":\"复制无漾后使用终极技能\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000006A709.0B2",
-      435977,
-      "echo",
-      "回声",
-      null,
-      "Ultimate",
-      "（意大利语）：惩戒降临！",
-      "(Italian) Retribution comes!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown11AF8\",\"scriptDesc\":\"复制斩仇后使用终极技能\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000006A70B.0B2",
-      435979,
-      "echo",
-      "回声",
-      null,
-      "Ultimate",
-      "惩戒降临！",
-      "Retribution comes!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown11AF8\",\"scriptDesc\":\"复制斩仇后使用终极技能\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000006B87E.0B2",
-      440446,
-      "echo",
-      "回声",
-      null,
-      "Ultimate",
-      "怒焰灼天！",
-      "Scorch the sky!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown11D39\",\"scriptDesc\":\"复制安燃后使用终极技能\"}",
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000006B894.0B2",
-      440468,
-      "echo",
-      "回声",
-      null,
-      "Ultimate",
-      "火羽焚天！",
-      "(Chinese): Flaming feathers scorch the sky!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown11D39\",\"scriptDesc\":\"复制安燃后使用终极技能\"}",
+      "{\"type\":\"nested\",\"total\":3,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"堡垒\"},{\"type\":\"toGender\",\"gender\":\"female\"},{\"type\":\"scripted\",\"script\":\"00AC10\",\"scriptDesc\":\"复制安娜后使用终极技能\"}]}",
       null
     ],
     [
@@ -9243,7 +8996,7 @@
       "Ultimate",
       "冻住，不许走！",
       "(Chinese): Freeze! Don't move!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown329F\",\"scriptDesc\":\"复制美后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"00329F\",\"scriptDesc\":\"复制美后使用终极技能\"}",
       null
     ],
     [
@@ -9256,7 +9009,7 @@
       "Ultimate",
       "雪球，冻住他们！",
       "Freeze! Don't move.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown329F\",\"scriptDesc\":\"复制美后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"00329F\",\"scriptDesc\":\"复制美后使用终极技能\"}",
       null
     ],
     [
@@ -9269,7 +9022,7 @@
       "Ultimate",
       "尝尝神龙之刃！",
       "(Japanese): Take the blade of the dragon god!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7C66\",\"scriptDesc\":\"复制源氏后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"007C66\",\"scriptDesc\":\"复制源氏后使用终极技能\"}",
       null
     ],
     [
@@ -9282,7 +9035,7 @@
       "Ultimate",
       "人竜合一！",
       "The dragon becomes me.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7C66\",\"scriptDesc\":\"复制源氏后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"007C66\",\"scriptDesc\":\"复制源氏后使用终极技能\"}",
       null
     ],
     [
@@ -9295,7 +9048,7 @@
       "Ultimate",
       "遁入智瞳。",
       "Pass into the iris.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7C67\",\"scriptDesc\":\"复制禅雅塔后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"007C67\",\"scriptDesc\":\"复制禅雅塔后使用终极技能\"}",
       null
     ],
     [
@@ -9308,7 +9061,7 @@
       "Ultimate",
       "感受宁静。",
       "Experience tranquility.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7C67\",\"scriptDesc\":\"复制禅雅塔后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"007C67\",\"scriptDesc\":\"复制禅雅塔后使用终极技能\"}",
       null
     ],
     [
@@ -9321,7 +9074,7 @@
       "Ultimate",
       "我看到你们了。",
       "I've got you in my sights.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7DE7\",\"scriptDesc\":\"复制士兵：76后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"007DE7\",\"scriptDesc\":\"复制士兵：76后使用终极技能\"}",
       null
     ],
     [
@@ -9334,7 +9087,7 @@
       "Ultimate",
       "战术目镜启动。",
       "Tactical visor activated.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown7DE7\",\"scriptDesc\":\"复制士兵：76后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"007DE7\",\"scriptDesc\":\"复制士兵：76后使用终极技能\"}",
       null
     ],
     [
@@ -9347,7 +9100,7 @@
       "Ultimate",
       "拿稳咯……",
       "Wait for it...",
-      "{\"type\":\"scripted\",\"script\":\"Unknown8A4E\",\"scriptDesc\":\"复制猎空后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"008A4E\",\"scriptDesc\":\"复制猎空后使用终极技能\"}",
       null
     ],
     [
@@ -9360,7 +9113,7 @@
       "Ultimate",
       "拿好别掉了！",
       "Here you go!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown8A4E\",\"scriptDesc\":\"复制猎空后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"008A4E\",\"scriptDesc\":\"复制猎空后使用终极技能\"}",
       null
     ],
     [
@@ -9373,7 +9126,7 @@
       "Ultimate",
       "时间到！",
       "Time's up!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown8A4E\",\"scriptDesc\":\"复制猎空后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"008A4E\",\"scriptDesc\":\"复制猎空后使用终极技能\"}",
       null
     ],
     [
@@ -9386,7 +9139,7 @@
       "Ultimate",
       "没人可以躲过我的眼睛。",
       "(French): \"No one can hide from my sight.\"",
-      "{\"type\":\"scripted\",\"script\":\"Unknown8C8E\",\"scriptDesc\":\"复制黑百合后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"008C8E\",\"scriptDesc\":\"复制黑百合后使用终极技能\"}",
       null
     ],
     [
@@ -9399,7 +9152,7 @@
       "Ultimate",
       "没人可以躲过我的眼睛。",
       "No one can hide from my sight.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown8C8E\",\"scriptDesc\":\"复制黑百合后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"008C8E\",\"scriptDesc\":\"复制黑百合后使用终极技能\"}",
       null
     ],
     [
@@ -9412,7 +9165,7 @@
       "Ultimate",
       "死吧……死吧……",
       "Die... Die... Die...",
-      "{\"type\":\"scripted\",\"script\":\"Unknown8C8F\",\"scriptDesc\":\"复制死神后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"008C8F\",\"scriptDesc\":\"复制死神后使用终极技能\"}",
       null
     ],
     [
@@ -9425,7 +9178,7 @@
       "Ultimate",
       "正在肃清敌人。",
       "Clearing the area.",
-      "{\"type\":\"scripted\",\"script\":\"Unknown8C8F\",\"scriptDesc\":\"复制死神后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"008C8F\",\"scriptDesc\":\"复制死神后使用终极技能\"}",
       null
     ],
     [
@@ -9438,7 +9191,7 @@
       "Ultimate",
       "宇宙在向我歌唱！",
       "(Dutch): The universe sings to me!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown8C90\",\"scriptDesc\":\"复制西格玛后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"008C90\",\"scriptDesc\":\"复制西格玛后使用终极技能\"}",
       null
     ],
     [
@@ -9451,7 +9204,7 @@
       "Ultimate",
       "这是什么旋律？",
       "What is that melody?",
-      "{\"type\":\"scripted\",\"script\":\"Unknown8C90\",\"scriptDesc\":\"复制西格玛后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"008C90\",\"scriptDesc\":\"复制西格玛后使用终极技能\"}",
       null
     ],
     [
@@ -9464,7 +9217,7 @@
       "Ultimate",
       "屈服于我！",
       "(Irish): Submit to my will!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown8C91\",\"scriptDesc\":\"复制莫伊拉后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"008C91\",\"scriptDesc\":\"复制莫伊拉后使用终极技能\"}",
       null
     ],
     [
@@ -9477,7 +9230,7 @@
       "Ultimate",
       "屈服于我的意志吧！",
       "Surrender to my will!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown8C91\",\"scriptDesc\":\"复制莫伊拉后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"008C91\",\"scriptDesc\":\"复制莫伊拉后使用终极技能\"}",
       null
     ],
     [
@@ -9490,7 +9243,7 @@
       "Ultimate",
       "毁天灭地！",
       "Meteor strike!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown8C92\",\"scriptDesc\":\"复制末日铁拳后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"008C92\",\"scriptDesc\":\"复制末日铁拳后使用终极技能\"}",
       null
     ],
     [
@@ -9503,7 +9256,7 @@
       "Ultimate",
       "铁拳强攻！",
       "Incoming!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown8C92\",\"scriptDesc\":\"复制末日铁拳后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"008C92\",\"scriptDesc\":\"复制末日铁拳后使用终极技能\"}",
       null
     ],
     [
@@ -9516,7 +9269,7 @@
       "Ultimate",
       "（西班牙语）：关灯了！",
       "(Spanish): Turning out the lights!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown8C93\",\"scriptDesc\":\"复制黑影后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"008C93\",\"scriptDesc\":\"复制黑影后使用终极技能\"}",
       null
     ],
     [
@@ -9529,7 +9282,7 @@
       "Ultimate",
       "电磁脉冲启动！",
       "EMP activated!",
-      "{\"type\":\"scripted\",\"script\":\"Unknown8C93\",\"scriptDesc\":\"复制黑影后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"008C93\",\"scriptDesc\":\"复制黑影后使用终极技能\"}",
       null
     ],
     [
@@ -9542,7 +9295,7 @@
       "Ultimate",
       "纳米激素已注入！",
       "Nano boost administered!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownAC10\",\"scriptDesc\":\"复制安娜后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"00AC10\",\"scriptDesc\":\"复制安娜后使用终极技能\"}",
       null
     ],
     [
@@ -9555,7 +9308,7 @@
       "Ultimate",
       "鲍勃！别傻愣着！",
       "Bob! Do something!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownAC12\",\"scriptDesc\":\"复制艾什后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"00AC12\",\"scriptDesc\":\"复制艾什后使用终极技能\"}",
       null
     ],
     [
@@ -9568,7 +9321,7 @@
       "Ultimate",
       "快冲上去，鲍勃！",
       "Get in there, Bob!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownAC12\",\"scriptDesc\":\"复制艾什后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"00AC12\",\"scriptDesc\":\"复制艾什后使用终极技能\"}",
       null
     ],
     [
@@ -9581,7 +9334,7 @@
       "Ultimate",
       "（海地克里奥尔语）矩阵启动，开火！",
       "(Haitian Creole): Light them up!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownAC14\",\"scriptDesc\":\"复制巴蒂斯特后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"00AC14\",\"scriptDesc\":\"复制巴蒂斯特后使用终极技能\"}",
       null
     ],
     [
@@ -9594,7 +9347,7 @@
       "Ultimate",
       "矩阵启动，开火！",
       "Light them up!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownAC14\",\"scriptDesc\":\"复制巴蒂斯特后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"00AC14\",\"scriptDesc\":\"复制巴蒂斯特后使用终极技能\"}",
       null
     ],
     [
@@ -9607,7 +9360,7 @@
       "Ultimate",
       "（哼唱出奏乐的哔哔声）",
       "(vocalized musical beeps)",
-      "{\"type\":\"scripted\",\"script\":\"UnknownAC15\",\"scriptDesc\":\"复制堡垒后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"00AC15\",\"scriptDesc\":\"复制堡垒后使用终极技能\"}",
       null
     ],
     [
@@ -9620,7 +9373,7 @@
       "Ultimate",
       "（哼唱出奏乐的哔哔声）",
       "(vocalized musical beeps)",
-      "{\"type\":\"scripted\",\"script\":\"UnknownAC15\",\"scriptDesc\":\"复制堡垒后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"00AC15\",\"scriptDesc\":\"复制堡垒后使用终极技能\"}",
       null
     ],
     [
@@ -9633,7 +9386,7 @@
       "Ultimate",
       "（瑞典语）：英雄集结！",
       "(Swedish): Rally to me!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownAC16\",\"scriptDesc\":\"复制布丽吉塔后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"00AC16\",\"scriptDesc\":\"复制布丽吉塔后使用终极技能\"}",
       null
     ],
     [
@@ -9646,7 +9399,7 @@
       "Ultimate",
       "英雄集结！",
       "Rally to me!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownAC16\",\"scriptDesc\":\"复制布丽吉塔后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"00AC16\",\"scriptDesc\":\"复制布丽吉塔后使用终极技能\"}",
       null
     ],
     [
@@ -9659,7 +9412,7 @@
       "Ultimate",
       "午时已到。",
       "It's high noon.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownAC17\",\"scriptDesc\":\"复制卡西迪后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"00AC17\",\"scriptDesc\":\"复制卡西迪后使用终极技能\"}",
       null
     ],
     [
@@ -9672,7 +9425,7 @@
       "Ultimate",
       "都站好了。",
       "Step right up.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownAC17\",\"scriptDesc\":\"复制卡西迪后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"00AC17\",\"scriptDesc\":\"复制卡西迪后使用终极技能\"}",
       null
     ],
     [
@@ -9685,7 +9438,7 @@
       "Ultimate",
       "这太硬霸了！",
       "Nerf this!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownAC18\",\"scriptDesc\":\"复制D.Va后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"00AC18\",\"scriptDesc\":\"复制D.Va后使用终极技能\"}",
       null
     ],
     [
@@ -9698,7 +9451,7 @@
       "Ultimate",
       "正在启动自毁程序！",
       "Activating self destruct sequence!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownAC18\",\"scriptDesc\":\"复制D.Va后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"00AC18\",\"scriptDesc\":\"复制D.Va后使用终极技能\"}",
       null
     ],
     [
@@ -9711,7 +9464,7 @@
       "Ultimate",
       "（日语）：让巨龙吞噬我的敌人！",
       "(Japanese): Let the dragon consume my enemies!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownAC1A\",\"scriptDesc\":\"复制半藏后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"00AC1A\",\"scriptDesc\":\"复制半藏后使用终极技能\"}",
       null
     ],
     [
@@ -9724,7 +9477,7 @@
       "Ultimate",
       "让巨龙吞噬你！",
       "Let the dragon consume you!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownAC1A\",\"scriptDesc\":\"复制半藏后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"00AC1A\",\"scriptDesc\":\"复制半藏后使用终极技能\"}",
       null
     ],
     [
@@ -9737,7 +9490,7 @@
       "Ultimate",
       "Fire in the hole!",
       "Fire in the hole!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownAC1B\",\"scriptDesc\":\"复制狂鼠后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"00AC1B\",\"scriptDesc\":\"复制狂鼠后使用终极技能\"}",
       null
     ],
     [
@@ -9750,7 +9503,7 @@
       "Ultimate",
       "女士们先生们，炸弹轮胎滚起来啦！",
       "Ladies and gentlemen, start your engines!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownAC1B\",\"scriptDesc\":\"复制狂鼠后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"00AC1B\",\"scriptDesc\":\"复制狂鼠后使用终极技能\"}",
       null
     ],
     [
@@ -9763,7 +9516,7 @@
       "Ultimate",
       "尝尝我们的厉害！",
       "(Brazilian Portuguese): Let's show these guys up!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownAC1C\",\"scriptDesc\":\"复制卢西奥后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"00AC1C\",\"scriptDesc\":\"复制卢西奥后使用终极技能\"}",
       null
     ],
     [
@@ -9776,7 +9529,7 @@
       "Ultimate",
       "在这儿停顿！",
       "Oh, let's break it down!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownAC1C\",\"scriptDesc\":\"复制卢西奥后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"00AC1C\",\"scriptDesc\":\"复制卢西奥后使用终极技能\"}",
       null
     ],
     [
@@ -9789,7 +9542,7 @@
       "Ultimate",
       "(德语) 英雄不朽！",
       "(German): Heroes never die!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownAC1D\",\"scriptDesc\":\"复制天使后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"00AC1D\",\"scriptDesc\":\"复制天使后使用终极技能\"}",
       null
     ],
     [
@@ -9802,7 +9555,7 @@
       "Ultimate",
       "英雄不朽！",
       "Heroes never die!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownAC1D\",\"scriptDesc\":\"复制天使后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"00AC1D\",\"scriptDesc\":\"复制天使后使用终极技能\"}",
       null
     ],
     [
@@ -9815,7 +9568,7 @@
       "Ultimate",
       "接受命运的惩罚！",
       "Meet your fate!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownAC1E\",\"scriptDesc\":\"复制奥丽莎后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"00AC1E\",\"scriptDesc\":\"复制奥丽莎后使用终极技能\"}",
       null
     ],
     [
@@ -9828,7 +9581,7 @@
       "Ultimate",
       "（约鲁巴语）：接受命运的制裁！",
       "(Yoruba): Meet your fate!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownAC1E\",\"scriptDesc\":\"复制奥丽莎后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"00AC1E\",\"scriptDesc\":\"复制奥丽莎后使用终极技能\"}",
       null
     ],
     [
@@ -9841,7 +9594,7 @@
       "Ultimate",
       "天降正义。",
       "Justice rains from above.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownAC1F\",\"scriptDesc\":\"复制法老之鹰后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"00AC1F\",\"scriptDesc\":\"复制法老之鹰后使用终极技能\"}",
       null
     ],
     [
@@ -9854,7 +9607,7 @@
       "Ultimate",
       "火箭弹幕来袭！",
       "Rocket barrage incoming!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownAC1F\",\"scriptDesc\":\"复制法老之鹰后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"00AC1F\",\"scriptDesc\":\"复制法老之鹰后使用终极技能\"}",
       null
     ],
     [
@@ -9867,7 +9620,7 @@
       "Ultimate",
       "吃我一锤！",
       "Hammer down!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownAC21\",\"scriptDesc\":\"复制莱因哈特后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"00AC21\",\"scriptDesc\":\"复制莱因哈特后使用终极技能\"}",
       null
     ],
     [
@@ -9880,7 +9633,7 @@
       "Ultimate",
       "为了十字军！",
       "For the Crusaders!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownAC21\",\"scriptDesc\":\"复制莱因哈特后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"00AC21\",\"scriptDesc\":\"复制莱因哈特后使用终极技能\"}",
       null
     ],
     [
@@ -9893,7 +9646,7 @@
       "Ultimate",
       "鸡飞狗跳时间！",
       "I'm going whole hog!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownAC22\",\"scriptDesc\":\"复制路霸后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"00AC22\",\"scriptDesc\":\"复制路霸后使用终极技能\"}",
       null
     ],
     [
@@ -9906,7 +9659,7 @@
       "Ultimate",
       "清算时间到！",
       "Time for the Reckoning!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownB58C\",\"scriptDesc\":\"复制渣客女王后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"00B58C\",\"scriptDesc\":\"复制渣客女王后使用终极技能\"}",
       null
     ],
     [
@@ -9919,7 +9672,7 @@
       "Ultimate",
       "把他们送到废土去！",
       "Let's take 'em to the Wasteland!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownB58C\",\"scriptDesc\":\"复制渣客女王后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"00B58C\",\"scriptDesc\":\"复制渣客女王后使用终极技能\"}",
       null
     ],
     [
@@ -9932,7 +9685,7 @@
       "Ultimate",
       "到此为止了！",
       "This ends now!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownBA41\",\"scriptDesc\":\"复制索杰恩后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"00BA41\",\"scriptDesc\":\"复制索杰恩后使用终极技能\"}",
       null
     ],
     [
@@ -9945,7 +9698,7 @@
       "Ultimate",
       "限制解除！",
       "It's GO time!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownBA41\",\"scriptDesc\":\"复制索杰恩后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"00BA41\",\"scriptDesc\":\"复制索杰恩后使用终极技能\"}",
       null
     ],
     [
@@ -9958,7 +9711,7 @@
       "Ultimate",
       "（日语）：灵狐，亮出你的利爪！",
       "(Japanese): O fox spirit, unleash your claws!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownBA42\",\"scriptDesc\":\"复制雾子后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"00BA42\",\"scriptDesc\":\"复制雾子后使用终极技能\"}",
       null
     ],
     [
@@ -9971,7 +9724,7 @@
       "Ultimate",
       "灵狐为你引路！",
       "Let the Kitsune guide you!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownBA42\",\"scriptDesc\":\"复制雾子后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"00BA42\",\"scriptDesc\":\"复制雾子后使用终极技能\"}",
       null
     ],
     [
@@ -9984,7 +9737,7 @@
       "Ultimate",
       "把他们撕成碎片！",
       "Rip them to pieces!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownBA43\",\"scriptDesc\":\"复制拉玛刹后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"00BA43\",\"scriptDesc\":\"复制拉玛刹后使用终极技能\"}",
       null
     ],
     [
@@ -9997,7 +9750,7 @@
       "Ultimate",
       "感受我的痛苦！",
       "Suffer as I have!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownBA43\",\"scriptDesc\":\"复制拉玛刹后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"00BA43\",\"scriptDesc\":\"复制拉玛刹后使用终极技能\"}",
       null
     ],
     [
@@ -10010,7 +9763,7 @@
       "Ultimate",
       "熔火核心！",
       "Molten core!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownC0F0\",\"scriptDesc\":\"复制托比昂后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"00C0F0\",\"scriptDesc\":\"复制托比昂后使用终极技能\"}",
       null
     ],
     [
@@ -10023,7 +9776,7 @@
       "Ultimate",
       "用岩浆热烈欢迎他们吧！",
       "Setting out the welcome mat!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownC0F0\",\"scriptDesc\":\"复制托比昂后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"00C0F0\",\"scriptDesc\":\"复制托比昂后使用终极技能\"}",
       null
     ],
     [
@@ -10036,7 +9789,7 @@
       "Ultimate",
       "生命会守护生命。",
       "Life protects life.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownC40C\",\"scriptDesc\":\"复制生命之梭后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"00C40C\",\"scriptDesc\":\"复制生命之梭后使用终极技能\"}",
       null
     ],
     [
@@ -10049,7 +9802,7 @@
       "Ultimate",
       "（泰语）：生命会守护生命。",
       "(Thai): Life protects life.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownC40C\",\"scriptDesc\":\"复制生命之梭后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"00C40C\",\"scriptDesc\":\"复制生命之梭后使用终极技能\"}",
       null
     ],
     [
@@ -10062,7 +9815,7 @@
       "Ultimate",
       "（克丘亚语）：骄阳升起！",
       "(Quechua): The sun rises!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownD3AE\",\"scriptDesc\":\"复制伊拉锐后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"00D3AE\",\"scriptDesc\":\"复制伊拉锐后使用终极技能\"}",
       null
     ],
     [
@@ -10075,7 +9828,7 @@
       "Ultimate",
       "灼日凌空！",
       "Face the sunrise!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownD3AE\",\"scriptDesc\":\"复制伊拉锐后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"00D3AE\",\"scriptDesc\":\"复制伊拉锐后使用终极技能\"}",
       null
     ],
     [
@@ -10088,7 +9841,7 @@
       "Ultimate",
       "（印地语）：这才是现实的终极形态！",
       "(Hindi): This is the true reality!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownD75B\",\"scriptDesc\":\"复制秩序之光后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"00D75B\",\"scriptDesc\":\"复制秩序之光后使用终极技能\"}",
       null
     ],
     [
@@ -10101,7 +9854,7 @@
       "Ultimate",
       "现实由我来掌控！",
       "Reality bends to my will!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownD75B\",\"scriptDesc\":\"复制秩序之光后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"00D75B\",\"scriptDesc\":\"复制秩序之光后使用终极技能\"}",
       null
     ],
     [
@@ -10114,7 +9867,7 @@
       "Ultimate",
       "给他们拴了个好地方！",
       "We got 'em where we want 'em!",
-      "{\"type\":\"scripted\",\"script\":\"UnknownD75D\",\"scriptDesc\":\"复制毛加后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"00D75D\",\"scriptDesc\":\"复制毛加后使用终极技能\"}",
       null
     ],
     [
@@ -10127,7 +9880,254 @@
       "Ultimate",
       "（萨摩亚语）：留下来陪陪我啊。",
       "(Samoan): Come on, stay a while.",
-      "{\"type\":\"scripted\",\"script\":\"UnknownD75D\",\"scriptDesc\":\"复制毛加后使用终极技能\"}",
+      "{\"type\":\"scripted\",\"script\":\"00D75D\",\"scriptDesc\":\"复制毛加后使用终极技能\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000069384.0B2",
+      430980,
+      "echo",
+      "回声",
+      null,
+      "Ultimate",
+      "拆个粉碎！",
+      "Tear it down!",
+      "{\"type\":\"scripted\",\"script\":\"010063\",\"scriptDesc\":\"复制骇灾后使用终极技能\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000069385.0B2",
+      430981,
+      "echo",
+      "回声",
+      null,
+      "Ultimate",
+      "来场暴雨吧！",
+      "Bringing the rain!",
+      "{\"type\":\"scripted\",\"script\":\"010063\",\"scriptDesc\":\"复制骇灾后使用终极技能\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000068C4F.0B2",
+      429135,
+      "echo",
+      "回声",
+      null,
+      "Ultimate",
+      "欢迎进入轨道！",
+      "Welcome to orbit!",
+      "{\"type\":\"scripted\",\"script\":\"010084\",\"scriptDesc\":\"复制朱诺后使用终极技能\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000068C51.0B2",
+      429137,
+      "echo",
+      "回声",
+      null,
+      "Ultimate",
+      "卫星航线已锁定！",
+      "Locking satellite vector!",
+      "{\"type\":\"scripted\",\"script\":\"010084\",\"scriptDesc\":\"复制朱诺后使用终极技能\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "0000000686C8.0B2",
+      427720,
+      "echo",
+      "回声",
+      null,
+      "Ultimate",
+      "轰轰钻机！隆隆震地！",
+      "Excavation initiation!",
+      "{\"type\":\"scripted\",\"script\":\"01011D\",\"scriptDesc\":\"复制探奇后使用终极技能\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "0000000686C9.0B2",
+      427721,
+      "echo",
+      "回声",
+      null,
+      "Ultimate",
+      "开始划分发掘现场！",
+      "Plotting out the dig site!",
+      "{\"type\":\"scripted\",\"script\":\"01011D\",\"scriptDesc\":\"复制探奇后使用终极技能\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000059BCF.0B2",
+      367567,
+      "echo",
+      "回声",
+      null,
+      "Ultimate",
+      "禁止进入！",
+      "Area denied!",
+      "{\"type\":\"scripted\",\"script\":\"010128\",\"scriptDesc\":\"复制破坏球后使用终极技能\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000059BD0.0B2",
+      367568,
+      "echo",
+      "回声",
+      null,
+      "Ultimate",
+      "地雷禁区已部署。",
+      "Minefield deployed.",
+      "{\"type\":\"scripted\",\"script\":\"010128\",\"scriptDesc\":\"复制破坏球后使用终极技能\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000059BC9.0B2",
+      367561,
+      "echo",
+      "回声",
+      null,
+      "Ultimate",
+      "(俄语) 随意开火！",
+      "(Russian): Fire at will!",
+      "{\"type\":\"scripted\",\"script\":\"01012A\",\"scriptDesc\":\"复制查莉娅后使用终极技能\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000059BCA.0B2",
+      367562,
+      "echo",
+      "回声",
+      null,
+      "Ultimate",
+      "随意开火！",
+      "Fire at will!",
+      "{\"type\":\"scripted\",\"script\":\"01012A\",\"scriptDesc\":\"复制查莉娅后使用终极技能\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "0000000698AF.0B2",
+      432303,
+      "echo",
+      "回声",
+      null,
+      "Ultimate",
+      "猎杀他们。",
+      "Hunting them down.",
+      "{\"type\":\"scripted\",\"script\":\"0102AC\",\"scriptDesc\":\"复制弗蕾娅后使用终极技能\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000069979.0B2",
+      432505,
+      "echo",
+      "回声",
+      null,
+      "Ultimate",
+      "（丹麦语）：你是我的猎物！",
+      "(Danish): I'll hunt you down!",
+      "{\"type\":\"scripted\",\"script\":\"0102AC\",\"scriptDesc\":\"复制弗蕾娅后使用终极技能\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006A297.0B2",
+      434839,
+      "echo",
+      "回声",
+      null,
+      "Ultimate",
+      "力挽狂澜！",
+      "(Chinese): Reverse the tide!",
+      "{\"type\":\"scripted\",\"script\":\"01085F\",\"scriptDesc\":\"复制无漾后使用终极技能\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006A29E.0B2",
+      434846,
+      "echo",
+      "回声",
+      null,
+      "Ultimate",
+      "浪涛回天！",
+      "Reverse the tide!",
+      "{\"type\":\"scripted\",\"script\":\"01085F\",\"scriptDesc\":\"复制无漾后使用终极技能\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006A2A3.0B2",
+      434851,
+      "echo",
+      "回声",
+      null,
+      "Ultimate",
+      "海浪随你而行！冲垮他们！",
+      "The tide is with you! Dive in!",
+      "{\"type\":\"scripted\",\"script\":\"01085F\",\"scriptDesc\":\"复制无漾后使用终极技能\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006A709.0B2",
+      435977,
+      "echo",
+      "回声",
+      null,
+      "Ultimate",
+      "（意大利语）：惩戒降临！",
+      "(Italian) Retribution comes!",
+      "{\"type\":\"scripted\",\"script\":\"011AF8\",\"scriptDesc\":\"复制斩仇后使用终极技能\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006A70B.0B2",
+      435979,
+      "echo",
+      "回声",
+      null,
+      "Ultimate",
+      "惩戒降临！",
+      "Retribution comes!",
+      "{\"type\":\"scripted\",\"script\":\"011AF8\",\"scriptDesc\":\"复制斩仇后使用终极技能\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006B87E.0B2",
+      440446,
+      "echo",
+      "回声",
+      null,
+      "Ultimate",
+      "怒焰灼天！",
+      "Scorch the sky!",
+      "{\"type\":\"scripted\",\"script\":\"011D39\",\"scriptDesc\":\"复制安燃后使用终极技能\"}",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006B894.0B2",
+      440468,
+      "echo",
+      "回声",
+      null,
+      "Ultimate",
+      "火羽焚天！",
+      "(Chinese): Flaming feathers scorch the sky!",
+      "{\"type\":\"scripted\",\"script\":\"011D39\",\"scriptDesc\":\"复制安燃后使用终极技能\"}",
       null
     ],
     [
@@ -18382,7 +18382,7 @@
       "Elimination",
       "请重新考虑刚才那种行为的可行性。",
       "Please reconsider the feasibility of that attempt.",
-      "{\"type\":\"scripted\",\"script\":\"UltShutdown(A617)\",\"scriptDesc\":\"敌人使用终极技能时\"}",
+      "{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}",
       null
     ],
     [
