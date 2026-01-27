@@ -1,0 +1,12 @@
+{
+  "_dataType": "HeroQuote",
+  "fileId": "000000063DF3.0B2",
+  "fileId_n": 409075,
+  "hero": "roadhog",
+  "heroName": "路霸",
+  "category": "MatchTalk",
+  "subtitle": "我看叫“失望先锋”还差不多。（窃笑）",
+  "subtitle_en": "More like Over-rated. (chuckle)",
+  "criteria": "{\"type\":\"nested\",\"total\":12,\"needed\":4,\"conditions\":[{\"type\":\"withHero\",\"hero\":\"安娜\"},{\"type\":\"withHero\",\"hero\":\"天使\"},{\"type\":\"withHero\",\"hero\":\"索杰恩\"},{\"type\":\"withHero\",\"hero\":\"托比昂\"},{\"type\":\"withHero\",\"hero\":\"莱因哈特\"},{\"type\":\"withHero\",\"hero\":\"温斯顿\"},{\"type\":\"withHero\",\"hero\":\"士兵：76\"},{\"type\":\"withHero\",\"hero\":\"回声\"},{\"type\":\"withHero\",\"hero\":\"源氏\"},{\"type\":\"withHero\",\"hero\":\"卡西迪\"},{\"type\":\"withHero\",\"hero\":\"美\"},{\"type\":\"withHero\",\"hero\":\"猎空\"}]}",
+  "weight": 0.8
+}

@@ -1,0 +1,12 @@
+{
+  "_dataType": "HeroQuote",
+  "fileId": "0000000637CA.0B2",
+  "fileId_n": 407498,
+  "hero": "lucio",
+  "heroName": "卢西奥",
+  "category": "MatchTalk",
+  "subtitle": "“守望先锋”？哦，天呐，你们是我的英雄！",
+  "subtitle_en": "Overwatch? Oh, man. You guys are my heroes!",
+  "criteria": "{\"type\":\"nested\",\"total\":12,\"needed\":4,\"conditions\":[{\"type\":\"withHero\",\"hero\":\"安娜\"},{\"type\":\"withHero\",\"hero\":\"天使\"},{\"type\":\"withHero\",\"hero\":\"索杰恩\"},{\"type\":\"withHero\",\"hero\":\"托比昂\"},{\"type\":\"withHero\",\"hero\":\"莱因哈特\"},{\"type\":\"withHero\",\"hero\":\"温斯顿\"},{\"type\":\"withHero\",\"hero\":\"士兵：76\"},{\"type\":\"withHero\",\"hero\":\"回声\"},{\"type\":\"withHero\",\"hero\":\"源氏\"},{\"type\":\"withHero\",\"hero\":\"卡西迪\"},{\"type\":\"withHero\",\"hero\":\"美\"},{\"type\":\"withHero\",\"hero\":\"猎空\"}]}",
+  "weight": 0.85
+}

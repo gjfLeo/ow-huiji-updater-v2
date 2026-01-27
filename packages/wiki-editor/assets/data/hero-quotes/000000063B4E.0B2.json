@@ -1,0 +1,11 @@
+{
+  "_dataType": "HeroQuote",
+  "fileId": "000000063B4E.0B2",
+  "fileId_n": 408398,
+  "hero": "zenyatta",
+  "heroName": "禅雅塔",
+  "category": "Elimination",
+  "subtitle": "看似脆弱的敌人往往并不脆弱。",
+  "subtitle_en": "An easy target is not always what it appears to be.",
+  "criteria": "{\"type\":\"nested\",\"total\":7,\"needed\":4,\"conditions\":[{\"type\":\"scripted\",\"script\":\"Headshot(9227)\",\"scriptDesc\":\"暴击\"},{\"type\":\"scripted\",\"script\":\"UnknownA6FE\",\"scriptDesc\":\"敌人高速移动\"},{\"type\":\"scripted\",\"script\":\"Shutdown_Leaped(A753)\",\"scriptDesc\":\"敌人跳跃\"},{\"type\":\"toHero\",\"hero\":\"源氏\"},{\"type\":\"toHero\",\"hero\":\"温斯顿\"},{\"type\":\"toHero\",\"hero\":\"猎空\"},{\"type\":\"scripted\",\"script\":\"LowHealth(A81C)\",\"scriptDesc\":\"低生命值时\"}]}"
+}
