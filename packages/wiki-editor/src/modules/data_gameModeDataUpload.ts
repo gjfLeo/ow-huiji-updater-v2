@@ -24,9 +24,9 @@ export default async function uploadGameModeData() {
   tabx.addItems(gameModes);
 
   const wiki = await wikiLogin({ userType: "user" });
-  await wiki.editPage("Data:GameModes.tabx", JSON.stringify(tabx.json, null, 2));
+  await wiki.editPage("Data:GameModes.tabx", JSON.stringify(tabx.toJson(), null, 2));
 
-  await Bun.write(outputFilePath, JSON.stringify(tabx.json, null, 2));
+  await Bun.write(outputFilePath, JSON.stringify(tabx.toJson(), null, 2));
   logger.success(`编辑完成 ${chalk.gray(path.relative(process.cwd(), outputFilePath))}`);
 
   const iconRedirects = Object.fromEntries(

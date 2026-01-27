@@ -58,7 +58,30 @@ export class Tabx<T extends Record<string, any>> {
   }
 
   addItem(item: T) {
-    this._json.data.push(this._json.schema.fields.map((key) => {
+    if (!this.isValidItem(item)) {
+      throw new Error(`Item is not valid: ${JSON.stringify(item)}`);
+    }
+    this._json.data.push(this._getRowByItem(item));
+  }
+
+  addItems(items: T[]) {
+    items.forEach((item) => {
+      this.addItem(item);
+    });
+  }
+
+  isValidItem(item: T) {
+    return this._getRowByItem(item)
+      .every((value) => {
+        if (typeof value === "string") {
+          return !value.includes("\n") && value === value.trim() && value.length <= 400;
+        }
+        return true;
+      });
+  }
+
+  _getRowByItem(item: T) {
+    return this._json.schema.fields.map((key) => {
       switch (key.type) {
         case "number":
           return Number(item[key.name]);
@@ -83,16 +106,10 @@ export class Tabx<T extends Record<string, any>> {
               return String(item[key.name]);
           }
       }
-    }));
-  }
-
-  addItems(items: T[]) {
-    items.forEach((item) => {
-      this.addItem(item);
     });
   }
 
-  get json() {
+  toJson() {
     return this._json;
   }
 }
