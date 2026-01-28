@@ -77,6 +77,13 @@
         "title": {
           "en": "weight"
         }
+      },
+      {
+        "name": "conversations",
+        "type": "string",
+        "title": {
+          "en": "conversations[]"
+        }
       }
     ]
   },
@@ -92,6 +99,7 @@
       "耶！",
       "Yeah!",
       null,
+      null,
       null
     ],
     [
@@ -104,6 +112,7 @@
       "Armor",
       "我需要护甲！",
       "I need armor!",
+      null,
       null,
       null
     ],
@@ -118,6 +127,7 @@
       "我需要些护甲！",
       "I could use some armor!",
       null,
+      null,
       null
     ],
     [
@@ -130,6 +140,7 @@
       "AssistanceRequired",
       "我需要帮忙！",
       "I could use a hand!",
+      null,
       null,
       null
     ],
@@ -144,6 +155,7 @@
       "我需要帮忙！",
       "I need help!",
       null,
+      null,
       null
     ],
     [
@@ -156,6 +168,7 @@
       "BehindYou",
       "小心后面！",
       "Behind you!",
+      null,
       null,
       null
     ],
@@ -170,6 +183,7 @@
       "拜拜！",
       "Bye!",
       null,
+      null,
       null
     ],
     [
@@ -182,6 +196,7 @@
       "Bye",
       "（韩语）：拜拜！",
       "(Korean): Bye!",
+      null,
       null,
       null
     ],
@@ -196,6 +211,7 @@
       "再见！",
       "See ya!",
       null,
+      null,
       null
     ],
     [
@@ -208,6 +224,7 @@
       "ClearArea",
       "肃清这片地区。",
       "Clear the area!",
+      null,
       null,
       null
     ],
@@ -222,6 +239,7 @@
       "一切都在我的掌握之中。",
       "I've got everything under control.",
       null,
+      null,
       null
     ],
     [
@@ -235,7 +253,8 @@
       "（韩语）：呼！",
       "(Korean): Phew!",
       null,
-      0.3
+      0.3,
+      null
     ],
     [
       "HeroQuote",
@@ -248,7 +267,8 @@
       "差点就死了……",
       "(Korean): I thought I was dead...",
       null,
-      0.3
+      0.3,
+      null
     ],
     [
       "HeroQuote",
@@ -261,7 +281,8 @@
       "我还在这儿呢！",
       "(Korean): I'm still here!",
       null,
-      0.3
+      0.3,
+      null
     ],
     [
       "HeroQuote",
@@ -273,6 +294,7 @@
       "Countdown",
       "3……2……1……",
       "3... 2... 1...",
+      null,
       null,
       null
     ],
@@ -287,6 +309,7 @@
       "倒计时3... 2... 1...",
       "In 3... 2... 1...",
       null,
+      null,
       null
     ],
     [
@@ -299,6 +322,7 @@
       "CTF/CapturedFlag",
       "D.Va得分了！",
       "D.Va with the score!",
+      null,
       null,
       null
     ],
@@ -313,6 +337,7 @@
       "拿到旗帜了！",
       "Capped the flag!",
       null,
+      null,
       null
     ],
     [
@@ -325,6 +350,7 @@
       "CTF/CapturedFlag",
       "（模仿夺取旗帜音效）",
       "(imitating the flag captured sound)",
+      null,
       null,
       null
     ],
@@ -339,6 +365,7 @@
       "夺取旗帜了！",
       "Capture the flag!",
       null,
+      null,
       null
     ],
     [
@@ -351,6 +378,7 @@
       "CTF/CaptureFlag",
       "拿走敌人的旗帜了。",
       "Take the enemy flag.",
+      null,
       null,
       null
     ],
@@ -365,6 +393,7 @@
       "守住我们的旗帜！",
       "Cover our flag!",
       null,
+      null,
       null
     ],
     [
@@ -377,6 +406,7 @@
       "CTF/DefendFlag",
       "保护我们的旗帜。",
       "Defend our flag.",
+      null,
       null,
       null
     ],
@@ -391,6 +421,7 @@
       "来人拿走旗帜！",
       "Someone else take the flag!",
       null,
+      null,
       null
     ],
     [
@@ -403,6 +434,7 @@
       "CTF/DroppedFlag",
       "旗帜扔下来了！",
       "Dropped the flag!",
+      null,
       null,
       null
     ],
@@ -417,6 +449,7 @@
       "噢，拜托！",
       "Aw, come on!",
       null,
+      null,
       null
     ],
     [
@@ -429,6 +462,7 @@
       "CTF/EnemyCapturedFlag",
       "别再让敌人得逞了。",
       "Let's not let that happen again.",
+      null,
       null,
       null
     ],
@@ -443,6 +477,7 @@
       "去拿我们的旗帜，快！",
       "Touch our flag, quick!",
       null,
+      null,
       null
     ],
     [
@@ -455,6 +490,7 @@
       "CTF/EnemyDroppedFlag",
       "得有人去把我们的旗帜拿回来！",
       "Someone pick up our flag!",
+      null,
       null,
       null
     ],
@@ -469,6 +505,7 @@
       "他们偷走旗帜了！",
       "They've stolen our flag!",
       null,
+      null,
       null
     ],
     [
@@ -481,6 +518,7 @@
       "CTF/EnemyTakenFlag",
       "敌人拿走我们的旗帜了！快拿回来！",
       "They have our flag! Get it back!",
+      null,
       null,
       null
     ],
@@ -495,6 +533,7 @@
       "旗帜回到基地啦！",
       "Flag's going back to base!",
       null,
+      null,
       null
     ],
     [
@@ -507,6 +546,7 @@
       "CTF/FlagReturned",
       "正在归还旗帜！",
       "Returning the flag!",
+      null,
       null,
       null
     ],
@@ -521,6 +561,7 @@
       "我拿到旗帜了！",
       "Flag is in my possession!",
       null,
+      null,
       null
     ],
     [
@@ -533,6 +574,7 @@
       "CTF/PickedUpFlag",
       "旗帜在我手里！",
       "I have the flag!",
+      null,
       null,
       null
     ],
@@ -547,6 +589,7 @@
       "把旗帜拿回来！",
       "Get the flag back!",
       null,
+      null,
       null
     ],
     [
@@ -559,6 +602,7 @@
       "CTF/RecoverFlag",
       "夺回我们的旗帜！",
       "Recover our flag!",
+      null,
       null,
       null
     ],
@@ -573,6 +617,7 @@
       "这才是团队合作！",
       "Now that's teamwork!",
       null,
+      null,
       null
     ],
     [
@@ -585,6 +630,7 @@
       "DamageBoosted",
       "这感觉超棒！",
       "(Korean): This feels awesome!",
+      null,
       null,
       null
     ],
@@ -599,6 +645,7 @@
       "这才像话！",
       "Now we're talking!",
       null,
+      null,
       null
     ],
     [
@@ -611,6 +658,7 @@
       "DamageBoosted",
       "武器系统过载！",
       "Weapon systems overloaded!",
+      null,
       null,
       null
     ],
@@ -625,6 +673,7 @@
       "武器系统已优化。",
       "Weapons optimized.",
       null,
+      null,
       null
     ],
     [
@@ -638,7 +687,8 @@
       "能量加强！",
       "(Korean): Power up!",
       null,
-      0.5
+      0.5,
+      null
     ],
     [
       "HeroQuote",
@@ -651,7 +701,8 @@
       "伤害加强！",
       "Damage buff!",
       null,
-      0.5
+      0.5,
+      null
     ],
     [
       "HeroQuote",
@@ -664,7 +715,8 @@
       "动力充足！",
       "Power up!",
       null,
-      0.5
+      0.5,
+      null
     ],
     [
       "HeroQuote",
@@ -677,7 +729,8 @@
       "啊，耶！",
       "Aw yeah!",
       null,
-      0.3
+      0.3,
+      null
     ],
     [
       "HeroQuote",
@@ -690,6 +743,7 @@
       "（垂死之声）",
       "(dying sounds)",
       "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      null,
       null
     ],
     [
@@ -703,6 +757,7 @@
       "（垂死之声）",
       "(dying sounds)",
       "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      null,
       null
     ],
     [
@@ -716,6 +771,7 @@
       "（垂死之声）",
       "(dying sounds)",
       "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      null,
       null
     ],
     [
@@ -729,6 +785,7 @@
       "（垂死之声）",
       "(dying sounds)",
       "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      null,
       null
     ],
     [
@@ -742,6 +799,7 @@
       "（垂死之声）",
       "(dying sounds)",
       "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      null,
       null
     ],
     [
@@ -755,6 +813,7 @@
       "（垂死之声）",
       "(dying sounds)",
       "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      null,
       null
     ],
     [
@@ -768,6 +827,7 @@
       "（遭受重压的声音）",
       "(crushed sounds)",
       "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      null,
       null
     ],
     [
@@ -781,6 +841,7 @@
       "（遭受重压的声音）",
       "(crushed sounds)",
       "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      null,
       null
     ],
     [
@@ -794,6 +855,7 @@
       "（大叫）",
       "(screams)",
       "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      null,
       null
     ],
     [
@@ -807,6 +869,7 @@
       "（大叫）",
       "(screams)",
       "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      null,
       null
     ],
     [
@@ -820,6 +883,7 @@
       "（大叫）",
       "(screams)",
       "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      null,
       null
     ],
     [
@@ -833,6 +897,7 @@
       "（大叫）",
       "(screams)",
       "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      null,
       null
     ],
     [
@@ -845,6 +910,7 @@
       "Discorded",
       "该死！",
       "Dammit!",
+      null,
       null,
       null
     ],
@@ -859,6 +925,7 @@
       "（懊恼的声音）",
       "(frustrated sound)",
       null,
+      null,
       null
     ],
     [
@@ -871,6 +938,7 @@
       "Discorded",
       "真要命。",
       "(Korean): Damn.",
+      null,
       null,
       null
     ],
@@ -885,6 +953,7 @@
       "消灭目标！",
       "Take out the target!",
       null,
+      null,
       null
     ],
     [
@@ -897,6 +966,7 @@
       "Elimination",
       "（韩语）：想打败我还早得很！",
       "(Korean): You can't beat me!",
+      null,
       null,
       null
     ],
@@ -911,6 +981,7 @@
       "你的枪法还得再练练。",
       "You need aim training.",
       null,
+      null,
       null
     ],
     [
@@ -923,6 +994,7 @@
       "Elimination",
       "（韩语）：打扁你！",
       "(Korean): Get wrecked!",
+      null,
       null,
       null
     ],
@@ -937,6 +1009,7 @@
       "对你来说是不是太难了？",
       "Too spicy for you?",
       null,
+      null,
       null
     ],
     [
@@ -949,6 +1022,7 @@
       "Elimination",
       "确认一下，你挂了。",
       "Fact check, you're dead.",
+      null,
       null,
       null
     ],
@@ -963,6 +1037,7 @@
       "你输了！",
       "Fail!",
       null,
+      null,
       null
     ],
     [
@@ -975,6 +1050,7 @@
       "Elimination",
       "碾压！",
       "Crushed!",
+      null,
       null,
       null
     ],
@@ -989,6 +1065,7 @@
       "谁拉了个小白进来？",
       "Who invited the rookie?",
       null,
+      null,
       null
     ],
     [
@@ -1001,6 +1078,7 @@
       "Elimination",
       "（韩语）：让我听到你们的尖叫！",
       "(Korean): Make some noise!",
+      null,
       null,
       null
     ],
@@ -1015,6 +1093,7 @@
       "（韩语）：下条命好好表现。",
       "(Korean): Get good in your next life.",
       null,
+      null,
       null
     ],
     [
@@ -1027,6 +1106,7 @@
       "Elimination",
       "血虐你。",
       "Hard countered.",
+      null,
       null,
       null
     ],
@@ -1041,6 +1121,7 @@
       "哇……这就尴尬了！",
       "Wow... Cringe!",
       null,
+      null,
       null
     ],
     [
@@ -1053,6 +1134,7 @@
       "Elimination",
       "这就是实力差距。",
       "(sigh) It's a skill issue.",
+      null,
       null,
       null
     ],
@@ -1067,7 +1149,8 @@
       "唔……你是电脑？",
       "(Korean): Are you an A.I.?",
       null,
-      0.1
+      0.1,
+      null
     ],
     [
       "HeroQuote",
@@ -1080,7 +1163,8 @@
       "目标已被消灭。",
       "Target eliminated.",
       null,
-      0.1
+      0.1,
+      null
     ],
     [
       "HeroQuote",
@@ -1093,7 +1177,8 @@
       "就这点本事？",
       "Are you even trying?",
       null,
-      0.05
+      0.05,
+      null
     ],
     [
       "HeroQuote",
@@ -1106,7 +1191,8 @@
       "那一下是给我的粉丝们的！",
       "That one's for my fans!",
       null,
-      0.05
+      0.05,
+      null
     ],
     [
       "HeroQuote",
@@ -1119,7 +1205,8 @@
       "敌人死了。",
       "Enemy down.",
       null,
-      0.05
+      0.05,
+      null
     ],
     [
       "HeroQuote",
@@ -1132,7 +1219,8 @@
       "我还以为忍者的反应速度都很快呢。",
       "I thought ninjas had good reaction time.",
       "{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"源氏\"},{\"type\":\"toHero\",\"hero\":\"雾子\"}]}",
-      0.85
+      0.85,
+      null
     ],
     [
       "HeroQuote",
@@ -1145,6 +1233,7 @@
       "炸你一脸。",
       "That blew up in your face.",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"法老之鹰\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
+      null,
       null
     ],
     [
@@ -1158,6 +1247,7 @@
       "感觉就像是在打boss！",
       "That was like a boss battle!",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"温斯顿\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
+      null,
       null
     ],
     [
@@ -1171,6 +1261,7 @@
       "猩猩，猩猩，猩猩，猩猩！啊，等等，我们干掉他了。",
       "Monkey monkey monkey monkey! Oh wait, we got him.",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"温斯顿\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
+      null,
       null
     ],
     [
@@ -1184,6 +1275,7 @@
       "（玩家式的大叫）滚出我的游戏！",
       "(gamer scream) Get out of my game!",
       "{\"type\":\"nested\",\"total\":4,\"needed\":3,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"源氏\"},{\"type\":\"scripted\",\"script\":\"00A697\",\"scriptDesc\":\"敌人被纳米激素强化\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"死神\"}]}",
+      null,
       null
     ],
     [
@@ -1197,6 +1289,7 @@
       "别挡着我的航线！",
       "Get out of my flightpath!",
       "{\"type\":\"scripted\",\"script\":\"009268\",\"scriptDesc\":\"敌人在空中\"}",
+      null,
       null
     ],
     [
@@ -1210,6 +1303,7 @@
       "我还以为你有点本事。",
       "I thought you were going to be a challenge.",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -1223,6 +1317,7 @@
       "史诗级击杀！",
       "Epic!",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -1236,6 +1331,7 @@
       "打爆你！",
       "Get owned!",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -1249,6 +1345,7 @@
       "这绝对是我的经典镜头之一！",
       "One for my highlight reel!",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -1262,6 +1359,7 @@
       "（韩语）：真棒！",
       "(Korean): Oh yes!",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -1275,6 +1373,7 @@
       "我还是喜欢你的！",
       "I still love you!",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -1288,6 +1387,7 @@
       "得分第一！",
       "Top of the scoreboard!",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -1301,6 +1401,7 @@
       "下来吧。",
       "Shot down.",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -1314,6 +1415,7 @@
       "哦，很抱歉。",
       "(Korean): Oh, I'm not sorry for that.",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -1327,7 +1429,8 @@
       "你该好好学学怎么玩游戏。",
       "L2P.",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
-      0.5
+      0.5,
+      null
     ],
     [
       "HeroQuote",
@@ -1340,6 +1443,7 @@
       "这只兔子会还手！",
       "This rabbit fights back!",
       "{\"type\":\"toHero\",\"hero\":\"莫伊拉\"}",
+      null,
       null
     ],
     [
@@ -1353,6 +1457,7 @@
       "难怪你待在辉铬上不了分！",
       "That's why you're hardstuck chrome!",
       "{\"type\":\"toHero\",\"hero\":\"无漾\"}",
+      null,
       null
     ],
     [
@@ -1366,6 +1471,7 @@
       "噢，怎么不行了，机甲杀手？",
       "Aw, what happened, mech slayer?",
       "{\"type\":\"toHero\",\"hero\":\"斩仇\"}",
+      null,
       null
     ],
     [
@@ -1379,6 +1485,7 @@
       "别来侵略我的宇宙！",
       "Don't invade my space!",
       "{\"type\":\"toHero\",\"hero\":\"朱诺\"}",
+      null,
       null
     ],
     [
@@ -1392,7 +1499,8 @@
       "实力差距很明显。",
       "The diff is obvious.",
       "{\"type\":\"toHero\",\"heroTag\":\"重装\"}",
-      0.01
+      0.01,
+      null
     ],
     [
       "HeroQuote",
@@ -1405,6 +1513,7 @@
       "小心左边！",
       "Watch the left!",
       "{\"type\":\"scripted\",\"script\":\"002733\",\"scriptDesc\":\"敌人在左侧\"}",
+      null,
       null
     ],
     [
@@ -1418,6 +1527,7 @@
       "左边！",
       "Left side!",
       "{\"type\":\"scripted\",\"script\":\"002733\",\"scriptDesc\":\"敌人在左侧\"}",
+      null,
       null
     ],
     [
@@ -1431,6 +1541,7 @@
       "小心右边！",
       "Watch the right!",
       "{\"type\":\"scripted\",\"script\":\"002734\",\"scriptDesc\":\"敌人在右侧\"}",
+      null,
       null
     ],
     [
@@ -1444,6 +1555,7 @@
       "右边！",
       "Right side!",
       "{\"type\":\"scripted\",\"script\":\"002734\",\"scriptDesc\":\"敌人在右侧\"}",
+      null,
       null
     ],
     [
@@ -1457,6 +1569,7 @@
       "他们从前面打过来了！",
       "They're attacking from the front!",
       "{\"type\":\"scripted\",\"script\":\"002735\",\"scriptDesc\":\"敌人在前方\"}",
+      null,
       null
     ],
     [
@@ -1470,6 +1583,7 @@
       "敌人在我们前方！",
       "Enemy contact in front of us!",
       "{\"type\":\"scripted\",\"script\":\"002735\",\"scriptDesc\":\"敌人在前方\"}",
+      null,
       null
     ],
     [
@@ -1483,6 +1597,7 @@
       "十二点方向有敌人！",
       "Enemy contact at twelve o'clock!",
       "{\"type\":\"scripted\",\"script\":\"002735\",\"scriptDesc\":\"敌人在前方\"}",
+      null,
       null
     ],
     [
@@ -1496,6 +1611,7 @@
       "敌人在上面！",
       "The enemy is above us!",
       "{\"type\":\"scripted\",\"script\":\"002736\",\"scriptDesc\":\"敌人在上方\"}",
+      null,
       null
     ],
     [
@@ -1509,6 +1625,7 @@
       "他们在我们上面！",
       "They're above us!",
       "{\"type\":\"scripted\",\"script\":\"002736\",\"scriptDesc\":\"敌人在上方\"}",
+      null,
       null
     ],
     [
@@ -1522,6 +1639,7 @@
       "敌人在后面！",
       "The enemy is behind us!",
       "{\"type\":\"scripted\",\"script\":\"002737\",\"scriptDesc\":\"敌人在后方\"}",
+      null,
       null
     ],
     [
@@ -1535,6 +1653,7 @@
       "他们从后面来了！",
       "They're coming from behind!",
       "{\"type\":\"scripted\",\"script\":\"002737\",\"scriptDesc\":\"敌人在后方\"}",
+      null,
       null
     ],
     [
@@ -1548,6 +1667,7 @@
       "敌人在下面！",
       "They're below us!",
       "{\"type\":\"scripted\",\"script\":\"002738\",\"scriptDesc\":\"敌人在下方\"}",
+      null,
       null
     ],
     [
@@ -1561,6 +1681,7 @@
       "敌人从下面来了！",
       "The enemy is below us!",
       "{\"type\":\"scripted\",\"script\":\"002738\",\"scriptDesc\":\"敌人在下方\"}",
+      null,
       null
     ],
     [
@@ -1573,6 +1694,7 @@
       "EnemyDetected",
       "附近有敌人！",
       "Enemy detected!",
+      null,
       null,
       null
     ],
@@ -1587,7 +1709,8 @@
       "有人躲在这里！",
       "Someone's stealthed over here!",
       null,
-      0.5
+      0.5,
+      null
     ],
     [
       "HeroQuote",
@@ -1599,6 +1722,7 @@
       "EnemyGathers",
       "啊，他们在那里！",
       "Ah, there they are!",
+      null,
       null,
       null
     ],
@@ -1613,6 +1737,7 @@
       "砸扁你！",
       "Squished!",
       null,
+      null,
       null
     ],
     [
@@ -1625,6 +1750,7 @@
       "EnemyKilled/CallMech",
       "实力碾压！",
       "Get dunked on!",
+      null,
       null,
       null
     ],
@@ -1639,6 +1765,7 @@
       "哦，落位太差了！",
       "Oof, bad positioning!",
       null,
+      null,
       null
     ],
     [
@@ -1652,7 +1779,8 @@
       "你的站位有问题。",
       "That was the wrong place to stand.",
       null,
-      0.1
+      0.1,
+      null
     ],
     [
       "HeroQuote",
@@ -1664,6 +1792,7 @@
       "EnemyResurrect",
       "啊，不公平！",
       "Aww, no fair!",
+      null,
       null,
       null
     ],
@@ -1678,6 +1807,7 @@
       "还没受够吗？",
       "Haven't had enough?",
       null,
+      null,
       null
     ],
     [
@@ -1690,6 +1820,7 @@
       "EnemyResurrect",
       "又来找虐了？",
       "Back for more?",
+      null,
       null,
       null
     ],
@@ -1704,6 +1835,7 @@
       "想重赛？那就来吧！",
       "They want a rematch? Bring it!",
       null,
+      null,
       null
     ],
     [
@@ -1716,6 +1848,7 @@
       "EnemySeen",
       "发现敌人！",
       "Enemy spotted!",
+      null,
       null,
       null
     ],
@@ -1730,6 +1863,7 @@
       "把他们全消灭！",
       "Let's wipe them out!",
       null,
+      null,
       null
     ],
     [
@@ -1742,6 +1876,7 @@
       "EnemySniper",
       "狙击手！别被他击中！",
       "Sniper! Don't get caught!",
+      null,
       null,
       null
     ],
@@ -1756,6 +1891,7 @@
       "撤退！",
       "Fall back!",
       null,
+      null,
       null
     ],
     [
@@ -1768,6 +1904,7 @@
       "GetInThere",
       "快！",
       "Go!",
+      null,
       null,
       null
     ],
@@ -1782,6 +1919,7 @@
       "快离开那儿！",
       "Get out of there!",
       null,
+      null,
       null
     ],
     [
@@ -1794,6 +1932,7 @@
       "GetReady",
       "准备好！",
       "Get ready!",
+      null,
       null,
       null
     ],
@@ -1808,6 +1947,7 @@
       "我上了！",
       "I'm going in!",
       null,
+      null,
       null
     ],
     [
@@ -1820,6 +1960,7 @@
       "GroupUp",
       "在我这里集合！",
       "Group up with me!",
+      null,
       null,
       null
     ],
@@ -1834,6 +1975,7 @@
       "集合！",
       "Group up!",
       null,
+      null,
       null
     ],
     [
@@ -1846,6 +1988,7 @@
       "GroupUp",
       "加入我吧！",
       "Join me!",
+      null,
       null,
       null
     ],
@@ -1860,6 +2003,7 @@
       "在这里集合！",
       "Group up here!",
       null,
+      null,
       null
     ],
     [
@@ -1872,6 +2016,7 @@
       "GroupUp",
       "快集合！",
       "Let's group up!",
+      null,
       null,
       null
     ],
@@ -1886,6 +2031,7 @@
       "所有人都集合！",
       "Form up, everyone!",
       null,
+      null,
       null
     ],
     [
@@ -1899,7 +2045,8 @@
       "继续前进之前我们得先集合！",
       "We must gather together before venturing forth!",
       null,
-      0.01
+      0.01,
+      null
     ],
     [
       "HeroQuote",
@@ -1911,6 +2058,7 @@
       "Healing",
       "我需要治疗！",
       "I need healing!",
+      null,
       null,
       null
     ],
@@ -1925,6 +2073,7 @@
       "需要治疗！",
       "Need healing!",
       null,
+      null,
       null
     ],
     [
@@ -1937,6 +2086,7 @@
       "Healing",
       "求治疗！",
       "Heals, please!",
+      null,
       null,
       null
     ],
@@ -1951,7 +2101,8 @@
       "我的生命值好低。保我保我！",
       "I'm low health. Pocket me!",
       null,
-      0.005
+      0.005,
+      null
     ],
     [
       "HeroQuote",
@@ -1964,6 +2115,7 @@
       "（倒吸气）",
       "(gasps)",
       "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      null,
       null
     ],
     [
@@ -1976,6 +2128,7 @@
       "HealthPack",
       "治好了！",
       "Healed up!",
+      null,
       null,
       null
     ],
@@ -1990,6 +2143,7 @@
       "完全启动！",
       "Fully operational!",
       null,
+      null,
       null
     ],
     [
@@ -2003,7 +2157,8 @@
       "重回完全运转状态！",
       "(Korean): Fully operational again.",
       null,
-      0.3
+      0.3,
+      null
     ],
     [
       "HeroQuote",
@@ -2015,6 +2170,7 @@
       "HealthRestoredFriendly",
       "谢谢！",
       "Thanks!",
+      null,
       null,
       null
     ],
@@ -2029,6 +2185,7 @@
       "耶！专业奶妈。",
       "Yeah! Pocket healer.",
       null,
+      null,
       null
     ],
     [
@@ -2041,6 +2198,7 @@
       "HealthRestoredFriendly",
       "啊，你肯定很喜欢我！",
       "Aw, you must like me!",
+      null,
       null,
       null
     ],
@@ -2055,7 +2213,8 @@
       "HP全满！",
       "HP max!",
       null,
-      0.5
+      0.5,
+      null
     ],
     [
       "HeroQuote",
@@ -2067,6 +2226,7 @@
       "Hello",
       "嗨！",
       "Hi!",
+      null,
       null,
       null
     ],
@@ -2081,6 +2241,7 @@
       "（韩语）：你好！",
       "(Korean): Hi!",
       null,
+      null,
       null
     ],
     [
@@ -2093,6 +2254,7 @@
       "Hello",
       "嘿呀！",
       "Hiya!",
+      null,
       null,
       null
     ],
@@ -2107,6 +2269,7 @@
       "（韩语）：你好啊！",
       "(Korean): Hi!",
       null,
+      null,
       null
     ],
     [
@@ -2119,6 +2282,7 @@
       "Hello",
       "嘿！",
       "Hey!",
+      null,
       null,
       null
     ],
@@ -2133,6 +2297,7 @@
       "嘿呀！",
       "Hiya!",
       null,
+      null,
       null
     ],
     [
@@ -2146,7 +2311,8 @@
       "各位玩家你们好！",
       "What's up gamers?",
       null,
-      0.001
+      0.001,
+      null
     ],
     [
       "HeroQuote",
@@ -2158,6 +2324,7 @@
       "HeroChange",
       "D.Va上线了！",
       "D.Va online!",
+      null,
       null,
       null
     ],
@@ -2172,6 +2339,7 @@
       "D.Va已登录！",
       "D.Va logging on!",
       null,
+      null,
       null
     ],
     [
@@ -2184,6 +2352,7 @@
       "HeroSelect",
       "要拯救世界了吗？游戏开始！",
       "Time to save the world? Game on!",
+      null,
       null,
       null
     ],
@@ -2198,6 +2367,7 @@
       "玩游戏就是要赢。",
       "I play to win.",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -2210,6 +2380,7 @@
       "ImAttacking",
       "我要进攻了！",
       "I'm on offense!",
+      null,
       null,
       null
     ],
@@ -2224,6 +2395,7 @@
       "我正在防守。",
       "I'm on defense!",
       null,
+      null,
       null
     ],
     [
@@ -2236,6 +2408,7 @@
       "ImReady",
       "准备好了！",
       "Ready!",
+      null,
       null,
       null
     ],
@@ -2250,6 +2423,7 @@
       "我和你一起！",
       "I'm with you!",
       null,
+      null,
       null
     ],
     [
@@ -2262,6 +2436,7 @@
       "Incoming",
       "敌人来了！",
       "Incoming!",
+      null,
       null,
       null
     ],
@@ -2276,6 +2451,7 @@
       "让我回去战斗！",
       "Get me back in the fight!",
       null,
+      null,
       null
     ],
     [
@@ -2288,6 +2464,7 @@
       "InjuredCallout",
       "快复活我！",
       "Revive me!",
+      null,
       null,
       null
     ],
@@ -2302,6 +2479,7 @@
       "我身负重伤。",
       "I'm seriously injured.",
       null,
+      null,
       null
     ],
     [
@@ -2314,6 +2492,7 @@
       "InjuredCallout",
       "我伤得很重。",
       "I'm very hurt over here.",
+      null,
       null,
       null
     ],
@@ -2328,6 +2507,7 @@
       "帮我一把……我的战斗还没结束！",
       "Help me up... I'm not done yet!",
       null,
+      null,
       null
     ],
     [
@@ -2340,6 +2520,7 @@
       "Karaoke",
       "世界需要拯救，我来成为英雄！开着战斗机甲，勇敢创造奇迹！GG！",
       "Someone has to save the world, it might as well be me! Woo! GG!",
+      null,
       null,
       null
     ],
@@ -2354,6 +2535,7 @@
       "我是电，我是光，我是superstar！哦，爱死这首歌了！超棒！",
       "(Korean): I’m a star! I’m a superstar! I love this song! Awesome!",
       null,
+      null,
       null
     ],
     [
@@ -2366,6 +2548,7 @@
       "Karaoke",
       "玩游戏，就要赢；我的字典没有输。这就是我，不败的我。耶！",
       "I play to win, and I always do. that's just who I am. Woo!",
+      null,
       null,
       null
     ],
@@ -2380,6 +2563,7 @@
       "机甲激活！Biu，Biu，Biu，Biu，枪在射击！Biu，Biu，Biu，Biu！",
       "MEKA activated! Hit you with that PEW-PEW-PEW! With that PEW-PEW-PEW!",
       null,
+      null,
       null
     ],
     [
@@ -2392,6 +2576,7 @@
       "KillStreak",
       "喔，我的KD怎么样？",
       "How's my K/D?",
+      null,
       null,
       null
     ],
@@ -2406,6 +2591,7 @@
       "破纪录啦！",
       "New record!",
       null,
+      null,
       null
     ],
     [
@@ -2418,6 +2604,7 @@
       "KillStreak",
       "我才刚刚开始！",
       "I'm just getting started!",
+      null,
       null,
       null
     ],
@@ -2432,6 +2619,7 @@
       "他们是在送人头吧！",
       "Now they're just feeding!",
       null,
+      null,
       null
     ],
     [
@@ -2444,6 +2632,7 @@
       "KillStreak",
       "我已进入下一个阶段！",
       "I'm on the next level!",
+      null,
       null,
       null
     ],
@@ -2458,6 +2647,7 @@
       "我根本停不下来！",
       "I'm on a roll!",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -2471,6 +2661,7 @@
       "MVP？D.Va！",
       "MVP? D.Va!",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -2484,6 +2675,7 @@
       "我才刚热身呢！",
       "I'm just getting warmed up.",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -2497,6 +2689,7 @@
       "连杀！",
       "Kill streak!",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -2510,7 +2703,8 @@
       "肯定拿最高分了！",
       "High score for sure!",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
-      0.5
+      0.5,
+      null
     ],
     [
       "HeroQuote",
@@ -2522,6 +2716,7 @@
       "Laugh",
       "（大笑）",
       "(laughs)",
+      null,
       null,
       null
     ],
@@ -2536,6 +2731,7 @@
       "（大笑）",
       "(laughs)",
       null,
+      null,
       null
     ],
     [
@@ -2548,6 +2744,7 @@
       "Laugh",
       "（窃笑）",
       "(giggle)",
+      null,
       null,
       null
     ],
@@ -2562,6 +2759,7 @@
       "（大笑）",
       "(laughs)",
       null,
+      null,
       null
     ],
     [
@@ -2574,6 +2772,7 @@
       "LookingAtEarth",
       "哇哦，从这里看好漂亮。",
       "Wow, the view is amazing.",
+      null,
       null,
       null
     ],
@@ -2588,6 +2787,7 @@
       "最后一回合！这一回合必须赢！",
       "Last round! This is where it counts!",
       null,
+      null,
       null
     ],
     [
@@ -2600,6 +2800,7 @@
       "Match/MatchStartFinalRound",
       "最后一局了！大伙加油！",
       "This is it! Come on, team!",
+      null,
       null,
       null
     ],
@@ -2614,6 +2815,7 @@
       "小小的失败而已，我们还是可以赢的！",
       "Minor setback, but we can still win this!",
       null,
+      null,
       null
     ],
     [
@@ -2626,6 +2828,7 @@
       "Match/MatchStartRoundLoss",
       "战斗还没结束！我们要做的只是赢而已。",
       "Fight's not over yet! All we have to do is win this round.",
+      null,
       null,
       null
     ],
@@ -2640,6 +2843,7 @@
       "让我们现在就结束这场战斗吧！",
       "Let's finish this right now!",
       null,
+      null,
       null
     ],
     [
@@ -2652,6 +2856,7 @@
       "Match/MatchStartRoundWin",
       "我们能行的！再来一回合我们就赢了。",
       "We've got this! One more round and we win.",
+      null,
       null,
       null
     ],
@@ -2666,6 +2871,7 @@
       "这简直是梦之队！你们组成队伍，而我是那个梦。",
       "The dream team! I'm the dream, you're the team.",
       null,
+      null,
       null
     ],
     [
@@ -2678,6 +2884,7 @@
       "MatchStartTalk",
       "我在终点线等你们！",
       "See you at the finish line!",
+      null,
       null,
       null
     ],
@@ -2692,6 +2899,7 @@
       "（韩语）：我们上吧！",
       "(Korean): Let's do it!",
       null,
+      null,
       null
     ],
     [
@@ -2704,6 +2912,7 @@
       "MatchStartTalk",
       "该我闪亮登场了！",
       "My time to shine!",
+      null,
       null,
       null
     ],
@@ -2718,6 +2927,7 @@
       "“小兔”冲向战场！",
       "Tokki mobilizing!",
       null,
+      null,
       null
     ],
     [
@@ -2730,6 +2940,7 @@
       "MatchTalk",
       "你觉得能跟得上我？",
       "Think you can keep up with me?",
+      null,
       null,
       null
     ],
@@ -2744,7 +2955,8 @@
       "啊，等比赛结束吧。现在，该动真格的了。",
       "Aw, after this match is over. Right now... it's time to get serious.",
       null,
-      null
+      null,
+      "000000000326.0D0#2"
     ],
     [
       "HeroQuote",
@@ -2756,6 +2968,7 @@
       "MatchTalk",
       "好吧...要认真了！",
       "Alright... Game face... on!",
+      null,
       null,
       null
     ],
@@ -2770,6 +2983,7 @@
       "我等不及要加入战斗了！",
       "I can't wait to get into the fight!",
       null,
+      null,
       null
     ],
     [
@@ -2783,7 +2997,8 @@
       "（咯咯笑）当然，来给你...爱你哦亲，D.Va！",
       "(giggles) Of course. Here you go... love, D.Va!",
       null,
-      null
+      null,
+      "000000000326.0D0#2"
     ],
     [
       "HeroQuote",
@@ -2795,6 +3010,7 @@
       "MatchTalk",
       "一起破纪录吧！",
       "Let's shoot for a new high score!",
+      null,
       null,
       null
     ],
@@ -2809,7 +3025,8 @@
       "小美！我喜欢读你的日记！真羡慕你能去那么多地方。",
       "Mei! I love reading your journal! I'm so jealous you get to go to all those places.",
       null,
-      null
+      null,
+      "00000000026B.0D0#1"
     ],
     [
       "HeroQuote",
@@ -2822,7 +3039,8 @@
       "可以啊，但是你需要给我你的签名！我喜欢你的新专辑！",
       "Only if I can get yours, too! I love your new album!",
       null,
-      null
+      null,
+      "000000000318.0D0#2"
     ],
     [
       "HeroQuote",
@@ -2835,7 +3053,8 @@
       "嘿！把手拿开！",
       "Hey! Hands off!",
       null,
-      null
+      null,
+      "0000000002B4.0D0#2"
     ],
     [
       "HeroQuote",
@@ -2848,7 +3067,8 @@
       "你说谁是小孩子？",
       "Who are you calling a child?",
       null,
-      null
+      null,
+      "00000000028E.0D0#2"
     ],
     [
       "HeroQuote",
@@ -2860,6 +3080,7 @@
       "MatchTalk",
       "所有系统启动，D.Va准备就绪。",
       "All systems operational, D.Va ready for combat.",
+      null,
       null,
       null
     ],
@@ -2874,7 +3095,8 @@
       "我在16-Bit英雄电玩店学的。",
       "16-Bit Hero.",
       null,
-      null
+      null,
+      "000000000241.0D0#2"
     ],
     [
       "HeroQuote",
@@ -2887,7 +3109,8 @@
       "大小并不重要。",
       "Size isn't everything.",
       null,
-      null
+      null,
+      "000000000262.0D0#2"
     ],
     [
       "HeroQuote",
@@ -2900,7 +3123,8 @@
       "如果你要给我系统升级意见，我洗耳恭听。",
       "Well, if you want to give me some upgrades, I'm all ears!",
       null,
-      null
+      null,
+      "00000000037A.0D0#2"
     ],
     [
       "HeroQuote",
@@ -2913,7 +3137,8 @@
       "生活不就是一场游戏吗，士兵：76？",
       "Are you sure life isn't a game, Soldier: 76?",
       null,
-      null
+      null,
+      "00000000030B.0D0#2"
     ],
     [
       "HeroQuote",
@@ -2926,7 +3151,8 @@
       "啊，拜托，安娜。我敢打赌你在我这年纪，惹得麻烦比我多得多了！",
       "Aw, come on, Ana. I bet you got up to all sorts of trouble when you were my age!",
       null,
-      null
+      null,
+      "00000000031C.0D0#2"
     ],
     [
       "HeroQuote",
@@ -2939,7 +3165,8 @@
       "呃，我真受不了你们这些开挂的！害我们这些打得好的都被当成外挂了。",
       "Oooh, I can't stand you hackers! You give those of us with skill a bad name.",
       null,
-      null
+      null,
+      "000000000267.0D0#1"
     ],
     [
       "HeroQuote",
@@ -2952,7 +3179,8 @@
       "你让我想起了一个人……不过，你太一本正经了！",
       "You remind me of someone... you're so serious, though!",
       null,
-      null
+      null,
+      "000000000378.0D0#1"
     ],
     [
       "HeroQuote",
@@ -2965,7 +3193,8 @@
       "我的机械师叫岱玹，他可厉害了。我敢说他肯定很想见见你。",
       "My mechanic, Dae-hyun does a great job on it. I bet he'd love to meet you.",
       null,
-      null
+      null,
+      "00000000037A.0D0#2"
     ],
     [
       "HeroQuote",
@@ -2978,7 +3207,8 @@
       "是岱玹！他是不是超有才？",
       "Dae-hyun! He's great, isn't he?",
       null,
-      null
+      null,
+      "00000000040A.0D0#2"
     ],
     [
       "HeroQuote",
@@ -2991,7 +3221,8 @@
       "有意思。哈哈，“士兵：76”也这么说过！",
       "That's funny. (laugh) Soldier: 76 said the same thing!",
       null,
-      null
+      null,
+      "0000000007EA.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3004,7 +3235,8 @@
       "你“铁”了“锌”要讲吗？",
       "Na!",
       null,
-      null
+      null,
+      "000000000903.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3016,6 +3248,7 @@
       "MatchTalk",
       "各项系统全力运转，随时准备战斗。（韩语）：一起上吧！",
       "All systems fired up and ready to engage. (Korean): Let's do this!",
+      null,
       null,
       null
     ],
@@ -3030,6 +3263,7 @@
       "话说……如果我拿到消灭金牌，你们可别难过，好吗？",
       "Sooo... don't take it personally when I get the most kills, 'kay?",
       null,
+      null,
       null
     ],
     [
@@ -3042,6 +3276,7 @@
       "MatchTalk",
       "为了这次行动，我整晚都在做准备！……呃，好吧，其实也玩了会儿游戏……",
       "I prepped all night for this mission! ...well, maybe I gamed a little, too...",
+      null,
       null,
       null
     ],
@@ -3056,6 +3291,7 @@
       "大家齐心协力！我来承受伤害！",
       "Stick together! Let me take the hits!",
       null,
+      null,
       null
     ],
     [
@@ -3069,7 +3305,8 @@
       "源氏！战斗结束后，我们去街机厅吧！",
       "Genji! Let's go to the arcade after this!",
       null,
-      null
+      null,
+      "0000000009ED.0D0#1"
     ],
     [
       "HeroQuote",
@@ -3082,7 +3319,8 @@
       "懂啦。看来一说到跟世界最强玩家过招，人人都会害怕……",
       "I get it. Everyone's scared to take on the best player in the world...",
       null,
-      null
+      null,
+      "0000000009ED.0D0#3"
     ],
     [
       "HeroQuote",
@@ -3095,7 +3333,8 @@
       "“不赖”？就算你作弊也赢不了我！",
       "\"Not bad\"? I'll stomp you even with your hacks!",
       null,
-      null
+      null,
+      "0000000009EE.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3108,7 +3347,8 @@
       "看看这阵容，我们赢定了！",
       "Look at this team! We're gonna do great.",
       null,
-      null
+      null,
+      "0000000009EC.0D0#1"
     ],
     [
       "HeroQuote",
@@ -3121,7 +3361,8 @@
       "我说得更好听呀！",
       "(laugh) It sounds better when I say it!",
       null,
-      null
+      null,
+      "0000000009EC.0D0#3"
     ],
     [
       "HeroQuote",
@@ -3134,7 +3375,8 @@
       "我在通缉令上见过你，旁边那位还挺可爱的！",
       "I saw you on a wanted poster with a cute guy!",
       null,
-      null
+      null,
+      "0000000009EF.0D0#1"
     ],
     [
       "HeroQuote",
@@ -3147,7 +3389,8 @@
       "呃，不是！是戴小帽子的大高个！",
       "Ew, no! The tall one with the little hat!",
       null,
-      null
+      null,
+      "0000000009EF.0D0#3"
     ],
     [
       "HeroQuote",
@@ -3160,7 +3403,8 @@
       "你才应该来玩玩看！说不定你就不会整天愁眉苦脸啦！",
       "Why don't you give them a try? Maybe then you'd frown less!",
       null,
-      null
+      null,
+      "0000000009F0.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3173,7 +3417,8 @@
       "我要的就是这个效果。",
       "That's just the way I like it.",
       null,
-      null
+      null,
+      "0000000009F2.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3186,7 +3431,8 @@
       "嘿！谁拿了我的纳米可乐？",
       "Hey! Who took my Nano Cola?",
       null,
-      null
+      null,
+      "0000000009F3.0D0#1"
     ],
     [
       "HeroQuote",
@@ -3199,7 +3445,8 @@
       "明明就是你自己想喝！",
       "You just wanted to drink it yourself!",
       null,
-      null
+      null,
+      "0000000009F3.0D0#3"
     ],
     [
       "HeroQuote",
@@ -3212,7 +3459,8 @@
       "哇，那把枪肯定输出爆炸！",
       "Woah, that gun must do a ton of DPS!",
       null,
-      null
+      null,
+      "0000000009F4.0D0#1"
     ],
     [
       "HeroQuote",
@@ -3225,7 +3473,8 @@
       "有机会我想让你见见岱玹！我的机甲返航后都是他来维护的。",
       "I should introduce you to Dae-hyun! He takes care of my mech when I'm back home.",
       null,
-      null
+      null,
+      "0000000009F5.0D0#1"
     ],
     [
       "HeroQuote",
@@ -3238,7 +3487,8 @@
       "对呀，他……嘿！",
       "Yeah, he... Hey!",
       null,
-      null
+      null,
+      "0000000009F5.0D0#3"
     ],
     [
       "HeroQuote",
@@ -3251,7 +3501,8 @@
       "因为我最厉害。你记住这一点就够了。",
       "I'm the best. That's all you need to know.",
       null,
-      null
+      null,
+      "0000000009F6.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3264,7 +3515,8 @@
       "哼，终于能来场平衡的1v1了！",
       "Oh, finally! A balanced 1v1!",
       null,
-      null
+      null,
+      "0000000009F7.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3277,7 +3529,8 @@
       "呃……没有吧？",
       "Um... no?",
       null,
-      null
+      null,
+      "0000000009F9.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3290,7 +3543,8 @@
       "呃，我可比你酷多了！",
       "Uh, I'm way cooler than you!",
       null,
-      null
+      null,
+      "0000000009FB.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3303,7 +3557,8 @@
       "回头我带你去首尔逛一逛吧。我挑的东西绝对都超可爱！",
       "Let me take you shopping in Seoul. I'll find you all the cutest stuff!",
       null,
-      null
+      null,
+      "0000000009FC.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3316,7 +3571,8 @@
       "我没事的！在韩国的时候我也一直这样！",
       "I'm fine! I put in hours like this all the time back in Korea!",
       null,
-      null
+      null,
+      "0000000009FD.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3329,7 +3585,8 @@
       "呃……你说什么？",
       "Uh... what?",
       null,
-      null
+      null,
+      "0000000009F8.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3342,7 +3599,8 @@
       "干吗这么严肃呀，莱因哈特？你不是很活泼的嘛！",
       "Why so serious, Reinhardt? You're supposed to be the fun one!",
       null,
-      null
+      null,
+      "000000000A20.0D0#1"
     ],
     [
       "HeroQuote",
@@ -3355,7 +3613,8 @@
       "你也太壮了，查莉娅！你能举起多少个我？",
       "You're crazy strong, Zarya! How many of me could you lift?",
       null,
-      null
+      null,
+      "000000000A22.0D0#1"
     ],
     [
       "HeroQuote",
@@ -3368,7 +3627,8 @@
       "有道理。保险起见，我们俩最好连话都不要说。",
       "Right. It's probably risky for us to talk at all.",
       null,
-      null
+      null,
+      "0000000009F8.0D0#4"
     ],
     [
       "HeroQuote",
@@ -3381,7 +3641,8 @@
       "对啊！我的粉丝们对你很感兴趣！下次帮我维修机甲的时候，一起来张自拍吧！",
       "Duh! My fans love hearing about you! Let's get a selfie the next time we're patching up my mech!",
       null,
-      null
+      null,
+      "000000000A1E.0D0#3"
     ],
     [
       "HeroQuote",
@@ -3394,7 +3655,8 @@
       "噢，难怪呢！",
       "Oh, that's what it is!",
       null,
-      null
+      null,
+      "000000000A00.0D0#4"
     ],
     [
       "HeroQuote",
@@ -3407,7 +3669,8 @@
       "兔兔那么可爱，你怎么忍心拿它们做实验？",
       "How can you experiment on those cute little rabbits?",
       null,
-      null
+      null,
+      "0000000009FE.0D0#1"
     ],
     [
       "HeroQuote",
@@ -3420,7 +3683,8 @@
       "你的钩子也很可爱！",
       "Cute hook!",
       null,
-      null
+      null,
+      "0000000009FF.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3433,7 +3697,8 @@
       "你给人的感觉有点奇怪。",
       "There's something... off about your vibe.",
       null,
-      null
+      null,
+      "000000000A00.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3446,7 +3711,8 @@
       "想呀。不过队友们肯定能照顾好自己的！再说了，我在这儿也交到了新朋友，比如说你！",
       "Yeah. But the squad is doing great on their own! Besides, I have new friends here. Including you!",
       null,
-      null
+      null,
+      "000000000A01.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3459,7 +3725,8 @@
       "你说什么？你在后排藏得太深了，我根本听不清！",
       "What's that? You're hiding so far in the backline, I can barely hear you!",
       null,
-      null
+      null,
+      "000000000A23.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3472,7 +3739,8 @@
       "为了保护家园，我付出了一切。你最好别不把我放在眼里。",
       "I give everything to protect my home. So don't trifle with me.",
       null,
-      null
+      null,
+      "000000000A14.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3485,7 +3753,8 @@
       "好有道理！下次“索杰恩”再挑我的刺，我就跟她这么说。",
       "Oh, that's good! I'll use that the next time Sojourn gives me trouble.",
       null,
-      null
+      null,
+      "000000000A16.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3498,7 +3767,8 @@
       "听说你跳舞很厉害。有本事打破我在“炫舞之地”上的高分纪录吗？",
       "I heard you're a good dancer. You should try to beat my high score in Dance Floor!",
       null,
-      null
+      null,
+      "000000000A21.0D0#1"
     ],
     [
       "HeroQuote",
@@ -3511,7 +3781,8 @@
       "温斯顿，我要跟你合张影！",
       "Winston, I have to get a picture with you!",
       null,
-      null
+      null,
+      "000000000A1E.0D0#1"
     ],
     [
       "HeroQuote",
@@ -3524,7 +3795,8 @@
       "呃……这个嘛……我听说你的发明光是启动都要花五分钟。",
       "Uh... I don't know... I heard your inventions take five minutes to boot up.",
       null,
-      null
+      null,
+      "000000000A03.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3537,7 +3809,8 @@
       "看我们打得坏蛋还不了手！",
       "The bad guys won't know what hit 'em!",
       null,
-      null
+      null,
+      "000000000A04.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3550,7 +3823,8 @@
       "只能忙里偷闲啦。我要做的事情实在太多了！",
       "Sometimes. But I have so much to do!",
       null,
-      null
+      null,
+      "0000000009F1.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3563,7 +3837,8 @@
       "不光要笑得灿烂！还得把敌人打个稀烂！",
       "Why stop at glorious? Be notorious!",
       null,
-      null
+      null,
+      "000000000A20.0D0#3"
     ],
     [
       "HeroQuote",
@@ -3576,7 +3851,8 @@
       "啊？原来我还得读简报呀？哈哈。",
       "Huh? Oh, was I supposed to read that?",
       null,
-      null
+      null,
+      "000000000AC2.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3589,7 +3865,8 @@
       "“团队合作能保你的命。”可是做功课能要我的命。",
       "\"Teamwork gets you out alive\", but homework makes me dead inside.",
       null,
-      null
+      null,
+      "000000000AC2.0D0#4"
     ],
     [
       "HeroQuote",
@@ -3602,7 +3879,8 @@
       "我猜你打保龄球一定是高手。",
       "I bet you're a pro at bowling.",
       null,
-      null
+      null,
+      "000000000C09.0D0#1"
     ],
     [
       "HeroQuote",
@@ -3615,7 +3893,8 @@
       "噢！那我跟谁一块去呢？",
       "Aw! Who am I going to go with now?",
       null,
-      null
+      null,
+      "000000000C09.0D0#3"
     ],
     [
       "HeroQuote",
@@ -3628,7 +3907,8 @@
       "有机会来韩国找我玩吧，莉娜。",
       "You should visit me in Korea, Lena.",
       null,
-      null
+      null,
+      "000000000C0A.0D0#1"
     ],
     [
       "HeroQuote",
@@ -3641,7 +3921,8 @@
       "我会让你感受一下真正的韩国待客之道。",
       "I'll show you true hospitality, Korea style.",
       null,
-      null
+      null,
+      "000000000C0A.0D0#3"
     ],
     [
       "HeroQuote",
@@ -3654,7 +3935,8 @@
       "妮妮可以帮我们当侦察兵！",
       "We should get Ganymede to scout for us!",
       null,
-      null
+      null,
+      "000000000C0B.0D0#1"
     ],
     [
       "HeroQuote",
@@ -3667,7 +3949,8 @@
       "别怕！有我宋哈娜在，没人能碰得了妮妮一根羽毛！",
       "Don't worry! No one will touch a feather on Gany's head while Hana Song is here!",
       null,
-      null
+      null,
+      "000000000C0B.0D0#3"
     ],
     [
       "HeroQuote",
@@ -3680,7 +3963,8 @@
       "咸咸的，辣辣的，还有股蒜香味！（叹气）炒着吃也很香哦！",
       "It's salty and spicy and garlicky! (sigh) It's yummy fried too!",
       null,
-      null
+      null,
+      "000000000C03.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3693,7 +3977,8 @@
       "嗷，说得我都饿了！",
       "Aw, now I'm hungry!",
       null,
-      null
+      null,
+      "000000000C03.0D0#4"
     ],
     [
       "HeroQuote",
@@ -3706,7 +3991,8 @@
       "呃，不是有架喷气机都被你弄丢了吗？",
       "Uh, didn't you lose an entire jet once?",
       null,
-      null
+      null,
+      "000000000C22.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3719,7 +4005,8 @@
       "你在现实里枪法那么好，怎么游戏里就打不准呢？",
       "How can you be good at shooting in real life but so bad in games?",
       null,
-      null
+      null,
+      "000000000C23.0D0#1"
     ],
     [
       "HeroQuote",
@@ -3732,7 +4019,8 @@
       "（叹气）无敌的感觉真是寂寞。",
       "(sighs) It's lonely at the top.",
       null,
-      null
+      null,
+      "000000000C23.0D0#3"
     ],
     [
       "HeroQuote",
@@ -3745,7 +4033,8 @@
       "（低吼）",
       "(growl)",
       null,
-      null
+      null,
+      "000000000C42.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3758,7 +4047,8 @@
       "以后有机会，我想好好环游一下世界！有什么建议吗？",
       "Some day, I'm going to finally travel the world! Got any tips?",
       null,
-      null
+      null,
+      "000000000C55.0D0#1"
     ],
     [
       "HeroQuote",
@@ -3771,7 +4061,8 @@
       "啊，不好意思，我不擦这些。我平时只要用清水洗洗脸就好了。",
       "Eh. Sorry, I don't use creams. I just splash some water on my face and call it a day.",
       null,
-      null
+      null,
+      "000000000C7F.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3784,7 +4075,8 @@
       "离了我们，他们就什么事都办不好吗？",
       "Can't they get anything done without us?",
       null,
-      null
+      null,
+      "000000000CE6.0D0#1"
     ],
     [
       "HeroQuote",
@@ -3797,7 +4089,8 @@
       "等等，真的假的？",
       "Wait, for real?",
       null,
-      null
+      null,
+      "000000000C85.0D0#3"
     ],
     [
       "HeroQuote",
@@ -3810,7 +4103,8 @@
       "（吸气）不会吧……！",
       "(gasp) You didn't...!",
       null,
-      null
+      null,
+      "000000000A21.0D0#3"
     ],
     [
       "HeroQuote",
@@ -3823,7 +4117,8 @@
       "你的气色看起来不太好。这局不如你好好歇着，把人头都留给我吧！",
       "You don't look so good. Maybe you should sit this one out and leave the kills to me!",
       null,
-      null
+      null,
+      "000000000D5D.0D0#1"
     ],
     [
       "HeroQuote",
@@ -3836,7 +4131,8 @@
       "当然是跳虫啦。",
       "Definitely the Zergling.",
       null,
-      null
+      null,
+      "000000000BF6.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3849,7 +4145,8 @@
       "呃，是我……你是想要签名之类的吗？",
       "Uh, yeah... do you want an autograph or something?",
       null,
-      null
+      null,
+      "000000001277.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3862,7 +4159,8 @@
       "好吧……我问问岱玹有没有时间。",
       "Right... I'll ask Dae-hyun if he has time.",
       null,
-      null
+      null,
+      "000000001320.0D0#4"
     ],
     [
       "HeroQuote",
@@ -3875,7 +4173,8 @@
       "你是什么段位？1000强吗？",
       "What rank are you? Top 1000?",
       null,
-      null
+      null,
+      "000000001320.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3888,7 +4187,8 @@
       "因为他吃素。你到底有没有听啊？",
       "Because he's a vegetarian. Are you even listening?",
       null,
-      null
+      null,
+      "000000000E68.0D0#4"
     ],
     [
       "HeroQuote",
@@ -3901,7 +4201,8 @@
       "你真的自称“机甲杀手”吗？（轻笑）",
       "Do you really call yourself a \"mech slayer\"? (giggles)",
       null,
-      null
+      null,
+      "00000000131C.0D0#1"
     ],
     [
       "HeroQuote",
@@ -3914,7 +4215,8 @@
       "嗯……头发的高度可不算数！",
       "Hmm... Your hair doesn't count!",
       null,
-      null
+      null,
+      "000000000FED.0D0#3"
     ],
     [
       "HeroQuote",
@@ -3927,7 +4229,8 @@
       "太好了，我终于不是队伍里最矮的人了。",
       "Feels nice not to be the shortest person on the team anymore.",
       null,
-      null
+      null,
+      "000000000FED.0D0#1"
     ],
     [
       "HeroQuote",
@@ -3940,7 +4243,8 @@
       "噢对！你看，这位叫阿蛋仔，他是新出的。",
       "Oh yeah, so there's Geranman, he's pretty new to the crew.",
       null,
-      null
+      null,
+      "000000000E69.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3953,7 +4257,8 @@
       "对对！你还记得葱葱肠吧？",
       "Yeah yeah! You remember Yachemon, right?",
       null,
-      null
+      null,
+      "000000000E68.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3966,7 +4271,8 @@
       "放马过来！“小兔”和我就喜欢暴打压力怪。",
       "Try it! Tokki and I love crushing sweats.",
       null,
-      null
+      null,
+      "00000000131C.0D0#3"
     ],
     [
       "HeroQuote",
@@ -3979,7 +4285,8 @@
       "呃……那是胡子，真是的！",
       "(frustrated sigh) It's a goatee, duh!",
       null,
-      null
+      null,
+      "000000000E69.0D0#4"
     ],
     [
       "HeroQuote",
@@ -3992,7 +4299,8 @@
       "哈！想得美。D.Mon的剑比你的厉害多了！",
       "Ha! No way, D.mon's way better with a sword than you!",
       null,
-      0.8
+      0.8,
+      "00000000131C.0D0#3"
     ],
     [
       "HeroQuote",
@@ -4005,7 +4313,8 @@
       "呵，认真的吗？“卡西诺”飞起来快得能把你绕晕。",
       "(scoff) Are you serious? Casino would fly circles around you.",
       null,
-      0.7
+      0.7,
+      "00000000131C.0D0#3"
     ],
     [
       "HeroQuote",
@@ -4018,7 +4327,8 @@
       "我们小队有“大王”在，你一点胜算都没有。",
       "With King on our team? You don't stand a chance.",
       null,
-      0.6
+      0.6,
+      "00000000131C.0D0#3"
     ],
     [
       "HeroQuote",
@@ -4031,7 +4341,8 @@
       "有“智多星”支援，你是不可能打败我们的。",
       "Overlord's got our back! You'd never take us down.",
       null,
-      0.6
+      0.6,
+      "00000000131C.0D0#3"
     ],
     [
       "HeroQuote",
@@ -4044,7 +4355,8 @@
       "巨大的猩猩！就像以前电视游戏里的一样！",
       "A giant gorilla! Just like in those old video games!",
       null,
-      0.5
+      0.5,
+      "00000000026C.0D0#1"
     ],
     [
       "HeroQuote",
@@ -4057,7 +4369,8 @@
       "我要把对面的小白全干翻！",
       "I'm going to own all these noobs!",
       null,
-      0.1
+      0.1,
+      null
     ],
     [
       "HeroQuote",
@@ -4070,7 +4383,8 @@
       "玩家一号！",
       "Ready player one!",
       null,
-      0.1
+      0.1,
+      null
     ],
     [
       "HeroQuote",
@@ -4083,7 +4397,8 @@
       "老实说，跟我爸打星际，我没赢过。",
       "(Korean): Honestly, I've never beaten my dad in StarCraft.",
       null,
-      0.001
+      0.001,
+      null
     ],
     [
       "HeroQuote",
@@ -4096,7 +4411,8 @@
       "我不是复活节兔子。",
       "I am not the easter bunny.",
       "{\"type\":\"celebration\",\"celebration\":\"复活节\"}",
-      0.3
+      0.3,
+      null
     ],
     [
       "HeroQuote",
@@ -4109,7 +4425,8 @@
       "我的新年计划吗？把买过的游戏全通关！",
       "My new year's resolution? Catch up on all the games I need to play!",
       "{\"type\":\"celebration\",\"celebration\":\"新年\"}",
-      0.5
+      0.5,
+      null
     ],
     [
       "HeroQuote",
@@ -4122,7 +4439,8 @@
       "希望这不会耽误太久，我等会儿还有演出呢！",
       "I hope this doesn't take too long. I have a show to put on!",
       "{\"type\":\"celebration\",\"celebration\":\"雪国仙境\"}",
-      0.1
+      0.1,
+      null
     ],
     [
       "HeroQuote",
@@ -4135,7 +4453,8 @@
       "啊，他们带我飞向月球了。",
       "Well, they flew me to the moon.",
       "{\"type\":\"map\",\"map\":\"“地平线”月球基地\"}",
-      0.01
+      0.01,
+      null
     ],
     [
       "HeroQuote",
@@ -4148,7 +4467,8 @@
       "开着机甲来场公路旅行肯定会很有意思！",
       "A MEKA roadtrip would be jonla fun!",
       "{\"type\":\"map\",\"map\":\"66号公路\"}",
-      0.35
+      0.35,
+      null
     ],
     [
       "HeroQuote",
@@ -4161,7 +4481,8 @@
       "这座城市的空气闻起来总觉得像是融化的奶油，还有老鼠。",
       "This city always smells like melted butter and rats.",
       "{\"type\":\"map\",\"map\":\"巴黎\"}",
-      0.2
+      0.2,
+      null
     ],
     [
       "HeroQuote",
@@ -4174,7 +4495,8 @@
       "有机会的话，我带你见见“智多星”！他是我心目中最棒的驾驶员。",
       "I have to introduce you to Overlord! He's the best pilot I know.",
       "{\"type\":\"map\",\"map\":\"釜山\"}",
-      0.5
+      0.5,
+      "00000000042E.0D0#1"
     ],
     [
       "HeroQuote",
@@ -4187,7 +4509,8 @@
       "主场作战的感觉超棒！",
       "It's nice being on home turf!",
       "{\"type\":\"map\",\"map\":\"釜山\"}",
-      0.35
+      0.35,
+      null
     ],
     [
       "HeroQuote",
@@ -4200,7 +4523,8 @@
       "要是我喜欢的韩餐店被毁了，我绝对饶不了他们。",
       "If they destroy any of my favorite matjips, I'm coming for them.",
       "{\"type\":\"map\",\"map\":\"釜山\"}",
-      0.35
+      0.35,
+      null
     ],
     [
       "HeroQuote",
@@ -4213,7 +4537,8 @@
       "“小兔”一跳就能轻松飞过大本钟！",
       "Tokki can jump over Big Ben no problem!",
       "{\"type\":\"map\",\"map\":\"国王大道\"}",
-      0.2
+      0.2,
+      null
     ],
     [
       "HeroQuote",
@@ -4226,7 +4551,8 @@
       "这里是属于我的！灯光，镜头，开拍！",
       "This is my kind of city! Lights. Camera. Action!",
       "{\"type\":\"map\",\"map\":\"好莱坞\"}",
-      0.6
+      0.6,
+      null
     ],
     [
       "HeroQuote",
@@ -4239,7 +4565,8 @@
       "（叹气）狗仔队最好别来烦我！",
       "(sigh) The paparazzi better not get in my way!",
       "{\"type\":\"map\",\"map\":\"好莱坞\"}",
-      0.35
+      0.35,
+      null
     ],
     [
       "HeroQuote",
@@ -4252,7 +4579,8 @@
       "（韩语）：冷死了！",
       "(Korean): So cold!",
       "{\"type\":\"map\",\"map\":\"南极半岛\"}",
-      0.5
+      0.5,
+      null
     ],
     [
       "HeroQuote",
@@ -4265,7 +4593,8 @@
       "能在这里成功就满足了吗？格局还可以再大点儿！",
       "Why stop at making it here? I'm thinking more global!",
       "{\"type\":\"map\",\"map\":\"中城\"}",
-      0.2
+      0.2,
+      null
     ],
     [
       "HeroQuote",
@@ -4278,7 +4607,8 @@
       "智械对这里造成的破坏……让我想起了我的家乡。",
       "The destruction caused by the omnics here... it reminds me of home.",
       "{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"map\",\"map\":\"沃斯卡娅工业区\"},{\"type\":\"map\",\"map\":\"艾兴瓦尔德\"}]}",
-      0.5
+      0.5,
+      null
     ],
     [
       "HeroQuote",
@@ -4291,6 +4621,7 @@
       "没人可以打破我的记录！",
       "No one's beating my high scores!",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"map\",\"map\":\"花村\"},{\"type\":\"team\",\"team\":\"attack\"}]}",
+      null,
       null
     ],
     [
@@ -4304,7 +4635,8 @@
       "源氏，我听说这儿的最高记录以前都是你打出来的。",
       "Genji, I heard you used to have all the high scores here.",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"map\",\"map\":\"花村\"},{\"type\":\"team\",\"team\":\"attack\"}]}",
-      null
+      null,
+      "000000000265.0D0#1"
     ],
     [
       "HeroQuote",
@@ -4317,7 +4649,8 @@
       "暴雪游戏？爷爷奶奶们玩的吧。(sigh)",
       "Blizzard games? That's so old school. (sighs)",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"map\",\"map\":\"花村\"},{\"type\":\"team\",\"team\":\"attack\"}]}",
-      0.01
+      0.01,
+      null
     ],
     [
       "HeroQuote",
@@ -4330,7 +4663,8 @@
       "任务结束后，我们溜去海边玩吧。天知地知，你知我知！",
       "Let's sneak in a trip to the beach after this. I won't tell if you don't!",
       "{\"type\":\"nested\",\"total\":4,\"needed\":1,\"conditions\":[{\"type\":\"map\",\"map\":\"伊利奥斯\"},{\"type\":\"map\",\"map\":\"帕拉伊苏\"},{\"type\":\"map\",\"map\":\"哈瓦那\"},{\"type\":\"map\",\"map\":\"城堡\"}]}",
-      0.25
+      0.25,
+      null
     ],
     [
       "HeroQuote",
@@ -4342,6 +4676,7 @@
       "MeleeEnemyKilledRemark",
       "砸倒你！",
       "Smack down!",
+      null,
       null,
       null
     ],
@@ -4356,6 +4691,7 @@
       "跟我的拳头说去，哼！",
       "Talk to the hand!",
       null,
+      null,
       null
     ],
     [
@@ -4368,6 +4704,7 @@
       "MeleeEnemyKilledRemark",
       "尝尝这个！",
       "Take this!",
+      null,
       null,
       null
     ],
@@ -4382,6 +4719,7 @@
       "（韩语）：我的手热得发烫！",
       "(Korean): I've got hot hands!",
       null,
+      null,
       null
     ],
     [
@@ -4395,7 +4733,8 @@
       "别惹我！",
       "Don't mess with me!",
       null,
-      0.1
+      0.1,
+      null
     ],
     [
       "HeroQuote",
@@ -4408,7 +4747,8 @@
       "很疼吧。",
       "Ouch.",
       null,
-      0.1
+      0.1,
+      null
     ],
     [
       "HeroQuote",
@@ -4421,6 +4761,7 @@
       "空中绝杀！",
       "Air-to-air smackdown!",
       "{\"type\":\"nested\",\"total\":3,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"009268\",\"scriptDesc\":\"敌人在空中\"},{\"type\":\"toHero\",\"hero\":\"回声\"},{\"type\":\"toHero\",\"hero\":\"法老之鹰\"}]}",
+      null,
       null
     ],
     [
@@ -4434,6 +4775,7 @@
       "砸你！",
       "Bash!",
       "{\"type\":\"scripted\",\"script\":\"00A747\",\"scriptDesc\":\"驾驶员形态时\"}",
+      null,
       null
     ],
     [
@@ -4447,6 +4789,7 @@
       "枪柄打脸！",
       "Pistol in the face!",
       "{\"type\":\"scripted\",\"script\":\"00A747\",\"scriptDesc\":\"驾驶员形态时\"}",
+      null,
       null
     ],
     [
@@ -4460,7 +4803,8 @@
       "（韩语）：D.Va的手，叫杀手！",
       "(Korean): D.Va's hands are killer!",
       "{\"type\":\"scripted\",\"script\":\"00A747\",\"scriptDesc\":\"驾驶员形态时\"}",
-      0.5
+      0.5,
+      null
     ],
     [
       "HeroQuote",
@@ -4473,6 +4817,7 @@
       "（韩语）：闪一边去！",
       "(Korean): Get away!",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -4486,6 +4831,7 @@
       "啪！",
       "Pow!",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -4498,6 +4844,7 @@
       "MissionAlmostDone",
       "看样子又要赢了！再坚持一会。",
       "Looks like another victory! Just a little longer.",
+      null,
       null,
       null
     ],
@@ -4512,6 +4859,7 @@
       "我们能做到的，别放弃！",
       "We got this. Don't let up now!",
       null,
+      null,
       null
     ],
     [
@@ -4524,6 +4872,7 @@
       "Multikill",
       "喔。下局再见！",
       "Aw. Go next!",
+      null,
       null,
       null
     ],
@@ -4538,6 +4887,7 @@
       "我强吧？",
       "All me!",
       null,
+      null,
       null
     ],
     [
@@ -4550,6 +4900,7 @@
       "Multikill",
       "完美发挥！",
       "Pure skill!",
+      null,
       null,
       null
     ],
@@ -4564,6 +4915,7 @@
       "（吸气）水友们！快录下来，录下来！",
       "(gasp) Chat! Clip that, clip that!",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      null,
       null
     ],
     [
@@ -4577,6 +4929,7 @@
       "哦吼，我肯定是全场最佳了！",
       "Oh, that'll be play of the game! Just wait and see.",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -4590,6 +4943,7 @@
       "多杀！",
       "Multikill!",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -4603,7 +4957,8 @@
       "得分翻倍！",
       "Score multiplier!",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
-      0.5
+      0.5,
+      null
     ],
     [
       "HeroQuote",
@@ -4616,7 +4971,8 @@
       "全场最佳！",
       "Play of the game!",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
-      0.1
+      0.1,
+      null
     ],
     [
       "HeroQuote",
@@ -4628,6 +4984,7 @@
       "NanoBoosted",
       "（韩语）：谁想感受我的火力？",
       "(Korean): Who wants to mess with me?",
+      null,
       null,
       null
     ],
@@ -4642,6 +4999,7 @@
       "那就上吧！",
       "Let's go!",
       null,
+      null,
       null
     ],
     [
@@ -4655,6 +5013,7 @@
       "呜呼！纳米激素！",
       "Woohoo! Nano boost!",
       "{\"type\":\"nested\",\"total\":1,\"needed\":1,\"conditions\":[{\"type\":\"gameMode\",\"gameMode\":\"温斯顿的沙滩排球\",\"negative\":true}]}",
+      null,
       null
     ],
     [
@@ -4668,6 +5027,7 @@
       "我要打得你们找不着北！",
       "I'm gonna mess you up!",
       "{\"type\":\"scripted\",\"script\":\"00A747\",\"scriptDesc\":\"驾驶员形态时\"}",
+      null,
       null
     ],
     [
@@ -4681,6 +5041,7 @@
       "你最好别挡我的路！",
       "You'd better get out of the way!",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -4694,6 +5055,7 @@
       "没人能够阻止我！",
       "I am unstoppable!",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -4706,6 +5068,7 @@
       "NeedHealer",
       "我们需要医生。",
       "We need a healer!",
+      null,
       null,
       null
     ],
@@ -4720,6 +5083,7 @@
       "我需要护盾。",
       "I need shields.",
       null,
+      null,
       null
     ],
     [
@@ -4732,6 +5096,7 @@
       "NeedShields",
       "我需要些护盾！",
       "I could use some shields!",
+      null,
       null,
       null
     ],
@@ -4746,6 +5111,7 @@
       "不行！",
       "(Korean): No way.",
       null,
+      null,
       null
     ],
     [
@@ -4758,6 +5124,7 @@
       "No",
       "不。",
       "No.",
+      null,
       null,
       null
     ],
@@ -4772,6 +5139,7 @@
       "集中防守目标！",
       "Focus our defense on the objective now!",
       null,
+      null,
       null
     ],
     [
@@ -4784,6 +5152,7 @@
       "Objective/Attack",
       "攻击目标点！",
       "Attack the objective!",
+      null,
       null,
       null
     ],
@@ -4798,6 +5167,7 @@
       "正在目标点位置，随时准备战斗！",
       "On the objective, and ready for action!",
       null,
+      null,
       null
     ],
     [
@@ -4810,6 +5180,7 @@
       "Objective/CaptureInProgress",
       "他们想要目标点，就得先过我这关！",
       "If they want this point, they'll have to go through me!",
+      null,
       null,
       null
     ],
@@ -4824,6 +5195,7 @@
       "机甲：夺取目标点！",
       "MEKA: securing the point!",
       null,
+      null,
       null
     ],
     [
@@ -4836,6 +5208,7 @@
       "Objective/Defend",
       "守住目标点！",
       "Defend the objective!",
+      null,
       null,
       null
     ],
@@ -4850,6 +5223,7 @@
       "保护目标！",
       "Protect the objective!",
       null,
+      null,
       null
     ],
     [
@@ -4862,6 +5236,7 @@
       "Objective/Defend",
       "守住目标！",
       "Defend the objective!",
+      null,
       null,
       null
     ],
@@ -4876,6 +5251,7 @@
       "集中攻击目标！",
       "Focus our attacks on the objective!",
       null,
+      null,
       null
     ],
     [
@@ -4888,6 +5264,7 @@
       "Objective/Destroy",
       "摧毁目标！",
       "Destroy the objective!",
+      null,
       null,
       null
     ],
@@ -4902,6 +5279,7 @@
       "目标被干掉了。",
       "The objective has been taken out.",
       null,
+      null,
       null
     ],
     [
@@ -4914,6 +5292,7 @@
       "Objective/Eliminated",
       "目标倒下了。",
       "Objective down.",
+      null,
       null,
       null
     ],
@@ -4928,7 +5307,8 @@
       "滚蛋吧！",
       "Roll for need!",
       null,
-      0.01
+      0.01,
+      null
     ],
     [
       "HeroQuote",
@@ -4940,6 +5320,7 @@
       "Objective/EnemyCaptureInProgress",
       "敌人在目标点里！他们是认真的吗？",
       "Hostiles on the point! Are they for real?",
+      null,
       null,
       null
     ],
@@ -4954,6 +5335,7 @@
       "敌人来抢目标点了！刷几条消灭提示给他们看看！",
       "They're taking our point! Let's light up that kill feed!",
       null,
+      null,
       null
     ],
     [
@@ -4966,6 +5348,7 @@
       "Objective/EnemyCaptureInProgress",
       "嘿！别碰我的目标点！",
       "Hey! That's my objective!",
+      null,
       null,
       null
     ],
@@ -4980,6 +5363,7 @@
       "我们快成功了，加油！",
       "We're making progress. Keep going!",
       null,
+      null,
       null
     ],
     [
@@ -4992,6 +5376,7 @@
       "Objective/EnemyDamaged",
       "敌方目标受损！",
       "Enemy objective is damaged!",
+      null,
       null,
       null
     ],
@@ -5006,6 +5391,7 @@
       "目标就快被干掉了！",
       "That objective is going down!",
       null,
+      null,
       null
     ],
     [
@@ -5018,6 +5404,7 @@
       "Objective/EnemyDestroyed",
       "应该撑不了多久了。",
       "Shouldn't take much more.",
+      null,
       null,
       null
     ],
@@ -5032,6 +5419,7 @@
       "不！他们正在转移运载目标。",
       "Booo! They're moving the payload.",
       null,
+      null,
       null
     ],
     [
@@ -5044,6 +5432,7 @@
       "Objective/EnemyMovingPayload",
       "敌人在推运载目标！干掉他们！",
       "Enemies on the payload! Let's get them!",
+      null,
       null,
       null
     ],
@@ -5058,6 +5447,7 @@
       "把运载目标旁边的小白都打趴下！",
       "Clear those noobs off the payload!",
       null,
+      null,
       null
     ],
     [
@@ -5070,6 +5460,7 @@
       "Objective/EnemyMovingPayload",
       "敌人在推进运载目标！阻止他们！",
       "They're pushing the payload! Stop them!",
+      null,
       null,
       null
     ],
@@ -5084,6 +5475,7 @@
       "我们就要赢啦！加油加油加油！",
       "This is our win! Fight fight fight!",
       null,
+      null,
       null
     ],
     [
@@ -5096,6 +5488,7 @@
       "Objective/EnemyRunningOutOfTime",
       "就差最后一点了！别搞砸了！",
       "We're almost there! Don't choke!",
+      null,
       null,
       null
     ],
@@ -5110,6 +5503,7 @@
       "只要做好防守，我们就赢定了！",
       "Hold out and we cinch this win!",
       null,
+      null,
       null
     ],
     [
@@ -5122,6 +5516,7 @@
       "Objective/Escort",
       "让目标动起来！",
       "Let's keep the objective moving!",
+      null,
       null,
       null
     ],
@@ -5136,6 +5531,7 @@
       "一起把目标转移走！",
       "Let's move the objective together!",
       null,
+      null,
       null
     ],
     [
@@ -5148,6 +5544,7 @@
       "Objective/Kill",
       "该消灭目标了。",
       "Time to eliminate the objective.",
+      null,
       null,
       null
     ],
@@ -5162,6 +5559,7 @@
       "前往目标位置！",
       "Move to the objective!",
       null,
+      null,
       null
     ],
     [
@@ -5174,6 +5572,7 @@
       "Objective/Meet",
       "所有人都去目标点那儿！",
       "Everyone to the objective!",
+      null,
       null,
       null
     ],
@@ -5188,6 +5587,7 @@
       "运载目标启动了！",
       "Payload rolling out!",
       null,
+      null,
       null
     ],
     [
@@ -5200,6 +5600,7 @@
       "Objective/PayloadMoving",
       "运载目标开始转移！一起冲向胜利！",
       "Payload mobilized! Let's get this win!",
+      null,
       null,
       null
     ],
@@ -5214,6 +5615,7 @@
       "正在推进运载目标！队友都去哪了？",
       "Pushing the payload! Where's my team?",
       null,
+      null,
       null
     ],
     [
@@ -5226,6 +5628,7 @@
       "Objective/PayloadNeedsToMove",
       "转移运载目标！",
       "Move the payload!",
+      null,
       null,
       null
     ],
@@ -5240,6 +5643,7 @@
       "阻止运载目标！",
       "Stop the payload!",
       null,
+      null,
       null
     ],
     [
@@ -5252,6 +5656,7 @@
       "Objective/PayloadStopped",
       "哈喽？运载目标停下咯！",
       "Hello? The payload's not moving!",
+      null,
       null,
       null
     ],
@@ -5266,6 +5671,7 @@
       "怎么回事，运载目标可不能停在那儿！",
       "Oh come on! We can push the payload farther than that!",
       null,
+      null,
       null
     ],
     [
@@ -5278,6 +5684,7 @@
       "Objective/PayloadStopped",
       "推进运载目标，把敌人全部打倒！",
       "Push the payload, win the fight!",
+      null,
       null,
       null
     ],
@@ -5292,6 +5699,7 @@
       "最后的机会了。一起赢下这场比赛！",
       "This is our last chance. Let's win this thing!",
       null,
+      null,
       null
     ],
     [
@@ -5304,6 +5712,7 @@
       "Objective/RunningOutOfTime",
       "我们的时间不多了。把握机会！",
       "We don't have much longer. Time to clutch this!",
+      null,
       null,
       null
     ],
@@ -5318,6 +5727,7 @@
       "就快没时间了，我们还得再干掉几个！",
       "Time's almost up and we need more kills!",
       null,
+      null,
       null
     ],
     [
@@ -5330,6 +5740,7 @@
       "Objective/Take",
       "一起占领这个目标吧。",
       "Let's capture the objective.",
+      null,
       null,
       null
     ],
@@ -5344,6 +5755,7 @@
       "攻击目标！",
       "Attack the objective!",
       null,
+      null,
       null
     ],
     [
@@ -5356,6 +5768,7 @@
       "OnFire",
       "系统热力全开！",
       "Systems running hot!",
+      null,
       null,
       null
     ],
@@ -5370,6 +5783,7 @@
       "我Carry全场！",
       "Your carry is here!",
       null,
+      null,
       null
     ],
     [
@@ -5382,6 +5796,7 @@
       "OnFire",
       "我火力全开啦！这是我的常规操作。",
       "I'm on fire! What else is new?",
+      null,
       null,
       null
     ],
@@ -5396,6 +5811,7 @@
       "我超溜！",
       "I'm popping off!",
       null,
+      null,
       null
     ],
     [
@@ -5409,6 +5825,7 @@
       "我火力全开！",
       "I'm on fire!",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -5422,7 +5839,8 @@
       "我火力全开啦！",
       "I'm on fire!",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
-      0.1
+      0.1,
+      null
     ],
     [
       "HeroQuote",
@@ -5434,6 +5852,7 @@
       "OnMyWay",
       "马上就来！",
       "On my way!",
+      null,
       null,
       null
     ],
@@ -5448,6 +5867,7 @@
       "来了！",
       "OMW!",
       null,
+      null,
       null
     ],
     [
@@ -5460,6 +5880,7 @@
       "PressTheAttack",
       "我们的机会来了，推进！",
       "Now's our chance, press the attack!",
+      null,
       null,
       null
     ],
@@ -5474,6 +5895,7 @@
       "上吧！",
       "Send it!",
       null,
+      null,
       null
     ],
     [
@@ -5486,6 +5908,7 @@
       "PushForward",
       "前进！",
       "Go forward!",
+      null,
       null,
       null
     ],
@@ -5500,6 +5923,7 @@
       "打倒轰炮者了！",
       "Artillery down!",
       null,
+      null,
       null
     ],
     [
@@ -5512,6 +5936,7 @@
       "PVE/ArtilleryDown",
       "我们干掉轰炮者了！",
       "We got the Artillery!",
+      null,
       null,
       null
     ],
@@ -5526,6 +5951,7 @@
       "消灭追猎者了！",
       "Stalker eliminated!",
       null,
+      null,
       null
     ],
     [
@@ -5538,6 +5964,7 @@
       "PVE/ArtilleryDown",
       "打倒追猎者了！",
       "Stalker down!",
+      null,
       null,
       null
     ],
@@ -5552,6 +5979,7 @@
       "轰炮者报废了！",
       "Artillery wasted!",
       null,
+      null,
       null
     ],
     [
@@ -5565,7 +5993,8 @@
       "（韩语）：抱歉！",
       "(Korean): Sorry! I'm just not drawn to you.",
       null,
-      0.1
+      0.1,
+      null
     ],
     [
       "HeroQuote",
@@ -5577,6 +6006,7 @@
       "PVE/ChargerDown",
       "冲锋者，K.O.！",
       "Charger KO'd!",
+      null,
       null,
       null
     ],
@@ -5591,6 +6021,7 @@
       "摧毁冲锋者了！",
       "Charger destroyed!",
       null,
+      null,
       null
     ],
     [
@@ -5604,7 +6035,8 @@
       "呃，好难听的名字！",
       "Ugh, that name is disgusting!",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"mission\",\"mission\":\"解放枷锁\"},{\"type\":\"mission\",\"objective\":\"保护克莱尔\"}]}",
-      null
+      null,
+      "00000000066D.0D0#3"
     ],
     [
       "HeroQuote",
@@ -5617,7 +6049,8 @@
       "我还是叫它们“抑制者”吧，“吸脑怪”听起来好恶心！",
       "I'm going to call them \"subjugators\"? \"Brain suckers\" is so gross!",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"mission\",\"mission\":\"解放枷锁\"},{\"type\":\"mission\",\"objective\":\"保护克莱尔\"}]}",
-      null
+      null,
+      "00000000066D.0D0#5"
     ],
     [
       "HeroQuote",
@@ -5630,7 +6063,8 @@
       "没听过。我已经等不及让他闭嘴了！",
       "No. Can't wait to shut him up!",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"mission\",\"mission\":\"解放枷锁\"},{\"type\":\"mission\",\"objective\":\"前往皇帝街车站\"}]}",
-      null
+      null,
+      "0000000006A4.0D0#3"
     ],
     [
       "HeroQuote",
@@ -5642,6 +6076,7 @@
       "PVE/DetonatorIncoming",
       "敌人的“爆破者”！",
       "Enemy detonator!",
+      null,
       null,
       null
     ],
@@ -5656,6 +6091,7 @@
       "我把它扔下了！",
       "I dropped it!",
       null,
+      null,
       null
     ],
     [
@@ -5668,6 +6104,7 @@
       "PVE/DroppedItem",
       "啊哦……我没拿稳！",
       "Uh oh... I dropped it!",
+      null,
       null,
       null
     ],
@@ -5682,6 +6119,7 @@
       "小心！是敌方“堡垒”！",
       "Heads up! Enemy bastion!",
       null,
+      null,
       null
     ],
     [
@@ -5694,6 +6132,7 @@
       "PVE/EradicatorIncoming",
       "是“灭除者”！",
       "There's an eradicator!",
+      null,
       null,
       null
     ],
@@ -5708,6 +6147,7 @@
       "是飞行机，小心头顶！",
       "Fliers—heads up!",
       null,
+      null,
       null
     ],
     [
@@ -5720,6 +6160,7 @@
       "PVE/FliersIncoming",
       "头顶有飞行机！",
       "Fliers overhead!",
+      null,
       null,
       null
     ],
@@ -5734,6 +6175,7 @@
       "快到路点这儿来！",
       "Get to the waypoint!",
       null,
+      null,
       null
     ],
     [
@@ -5746,6 +6188,7 @@
       "PVE/MeetAtObjective",
       "快走吧，我们去目标位置！",
       "Come on, let's get to the objective!",
+      null,
       null,
       null
     ],
@@ -5760,6 +6203,7 @@
       "目标离得很近！我们上吧！",
       "The objective's close! Let's go!",
       null,
+      null,
       null
     ],
     [
@@ -5773,7 +6217,8 @@
       "最后到目标位置的，任务结束后得请大家吃冰淇淋！",
       "Last one to the objective buys ice cream after the mission!",
       null,
-      0.1
+      0.1,
+      null
     ],
     [
       "HeroQuote",
@@ -5785,6 +6230,7 @@
       "PVE/NullTrooperIncoming",
       "是归零机兵！",
       "Nulltrooper spotted!",
+      null,
       null,
       null
     ],
@@ -5799,6 +6245,7 @@
       "发现归零机兵了！",
       "Nulltroopers spotted!",
       null,
+      null,
       null
     ],
     [
@@ -5811,6 +6258,7 @@
       "PVE/OR14Incoming",
       "发现OR14了！准备交战。",
       "OR14 sighted! Prepare to engage.",
+      null,
       null,
       null
     ],
@@ -5825,6 +6273,7 @@
       "“切割者”过来了！",
       "Slicer incoming!",
       null,
+      null,
       null
     ],
     [
@@ -5837,6 +6286,7 @@
       "PVE/SlicerIncoming",
       "“切割者”来了！",
       "Slicers incoming!",
+      null,
       null,
       null
     ],
@@ -5851,6 +6301,7 @@
       "该出发了！",
       "Time to go!",
       null,
+      null,
       null
     ],
     [
@@ -5863,6 +6314,7 @@
       "PVE/ThisWay",
       "行动起来！",
       "Let's move!",
+      null,
       null,
       null
     ],
@@ -5877,6 +6329,7 @@
       "该出发了！",
       "Time to go!",
       null,
+      null,
       null
     ],
     [
@@ -5889,6 +6342,7 @@
       "PVE/TimeToGetOutOfHere",
       "就是现在！Go Go Go！",
       "That's it! Go go go!",
+      null,
       null,
       null
     ],
@@ -5903,6 +6357,7 @@
       "快走！",
       "Move it!",
       null,
+      null,
       null
     ],
     [
@@ -5915,6 +6370,7 @@
       "PVE/Unknown",
       "加油，你可以做到的！",
       "Come on, you can do it!",
+      null,
       null,
       null
     ],
@@ -5929,6 +6385,7 @@
       "我们必须集合才能继续！",
       "We need to group up to continue!",
       null,
+      null,
       null
     ],
     [
@@ -5941,6 +6398,7 @@
       "PVE/Unknown",
       "这是我们最后的机会，加油！",
       "This is our last chance. Come on!",
+      null,
       null,
       null
     ],
@@ -5955,6 +6413,7 @@
       "目标正遭到攻击，快击退敌人！",
       "The objective is taking damage. Push them back!",
       null,
+      null,
       null
     ],
     [
@@ -5967,6 +6426,7 @@
       "PVE/Unknown",
       "我们的目标快撑不住了！",
       "Our objective's on its last legs!",
+      null,
       null,
       null
     ],
@@ -5981,6 +6441,7 @@
       "必须复活我们的队友。",
       "Our teammate needs to be revived.",
       null,
+      null,
       null
     ],
     [
@@ -5993,6 +6454,7 @@
       "PVE/Unknown",
       "坏蛋们要过来了！",
       "Bad guys headed our way!",
+      null,
       null,
       null
     ],
@@ -6007,6 +6469,7 @@
       "敌人来袭！",
       "Enemies engaging!",
       null,
+      null,
       null
     ],
     [
@@ -6019,6 +6482,7 @@
       "PVE/Unknown",
       "敌人正在逼近！",
       "Hostiles moving in!",
+      null,
       null,
       null
     ],
@@ -6033,6 +6497,7 @@
       "注意站位！",
       "Watch your position!",
       null,
+      null,
       null
     ],
     [
@@ -6045,6 +6510,7 @@
       "PVE/Unknown",
       "快离开那儿！",
       "Get out of there!",
+      null,
       null,
       null
     ],
@@ -6059,6 +6525,7 @@
       "导弹来了，小心！",
       "Missiles! Look out!",
       null,
+      null,
       null
     ],
     [
@@ -6071,6 +6538,7 @@
       "PVE/Unknown",
       "它也发射了飞弹！敢学我！",
       "It's firing missiles! Copycat!",
+      null,
       null,
       null
     ],
@@ -6085,6 +6553,7 @@
       "导弹来袭！",
       "Missiles incoming!",
       null,
+      null,
       null
     ],
     [
@@ -6097,6 +6566,7 @@
       "PVE/Unknown",
       "它冲过来了！快闪开！",
       "Here it comes! Move!",
+      null,
       null,
       null
     ],
@@ -6111,6 +6581,7 @@
       "冲锋者来了！快躲开！",
       "A Charger! Move it!",
       null,
+      null,
       null
     ],
     [
@@ -6123,6 +6594,7 @@
       "PVE/Unknown",
       "轰炮者发射了弹幕！",
       "Artillery barrage coming in!",
+      null,
       null,
       null
     ],
@@ -6137,6 +6609,7 @@
       "轰炮者的攻击来了！",
       "Artillery assault incoming!",
       null,
+      null,
       null
     ],
     [
@@ -6149,6 +6622,7 @@
       "PVE/Unknown",
       "那台泰坦的装甲根本打不穿！岱玹应该升级一下我的机甲了……",
       "That Titan's armor is impenetrable! Dae-hyun should give my mech an upgrade...",
+      null,
       null,
       null
     ],
@@ -6163,6 +6637,7 @@
       "泰坦的个头太大了，我们先对付那些软柿子！",
       "The Titan's too big. Focus the squishies first!",
       null,
+      null,
       null
     ],
     [
@@ -6175,6 +6650,7 @@
       "PVE/Unknown",
       "是追猎者？！呃……真恶心！",
       "A Stalker?! Ew... creepy!",
+      null,
       null,
       null
     ],
@@ -6189,6 +6665,7 @@
       "我听到追猎者的声音了！它躲到哪去了？",
       "I hear a Stalker! Where is it hiding?",
       null,
+      null,
       null
     ],
     [
@@ -6201,6 +6678,7 @@
       "PVE/Unknown",
       "它要抓住我了！帮个忙！",
       "It's got me! Help!",
+      null,
       null,
       null
     ],
@@ -6215,6 +6693,7 @@
       "喂！快放开！",
       "Hey! Let go of me!",
       null,
+      null,
       null
     ],
     [
@@ -6227,6 +6706,7 @@
       "PVE/Unknown",
       "快把我放下来！",
       "Put me down right now!",
+      null,
       null,
       null
     ],
@@ -6241,6 +6721,7 @@
       "快把它赶走！",
       "Get it off of me!",
       null,
+      null,
       null
     ],
     [
@@ -6253,6 +6734,7 @@
       "PVE/Unknown",
       "接下来是一轮猛攻！我们上！",
       "Huge attack incoming! Let's do this!",
+      null,
       null,
       null
     ],
@@ -6267,6 +6749,7 @@
       "一大群坏蛋要过来了！",
       "A lot of bad guys headed our way!",
       null,
+      null,
       null
     ],
     [
@@ -6279,6 +6762,7 @@
       "PVE/Unknown",
       "又有空投舱了！小心！",
       "Drop pods! Look out!",
+      null,
       null,
       null
     ],
@@ -6293,6 +6777,7 @@
       "归零者的援军来了！",
       "Null Sector reinforcements!",
       null,
+      null,
       null
     ],
     [
@@ -6305,6 +6790,7 @@
       "PVE/Unknown",
       "机器人又来了！做好准备！",
       "More robots! Get ready!",
+      null,
       null,
       null
     ],
@@ -6319,6 +6805,7 @@
       "又是空投舱？那就放马过来！",
       "More drop pods? Bring it on!",
       null,
+      null,
       null
     ],
     [
@@ -6331,6 +6818,7 @@
       "PVE/Unknown",
       "有敌人在攻击目标！",
       "We've got enemies attacking the objective!",
+      null,
       null,
       null
     ],
@@ -6345,6 +6833,7 @@
       "嘿！它们打到了目标！",
       "Hey! They're hitting the objective!",
       null,
+      null,
       null
     ],
     [
@@ -6357,6 +6846,7 @@
       "PVE/Unknown",
       "目标遭到攻击！",
       "The objective is taking fire!",
+      null,
       null,
       null
     ],
@@ -6371,6 +6861,7 @@
       "它们在朝目标开火！",
       "They're firing on the objective!",
       null,
+      null,
       null
     ],
     [
@@ -6383,6 +6874,7 @@
       "PVE/Unknown",
       "目标的状况很糟糕，我们得保护好它！",
       "The objective's in bad shape. Let's keep it safe!",
+      null,
       null,
       null
     ],
@@ -6397,6 +6889,7 @@
       "我们不能失去这个目标！保护好它！",
       "We can't lose the objective! Keep it together!",
       null,
+      null,
       null
     ],
     [
@@ -6409,6 +6902,7 @@
       "PVE/Unknown",
       "如果目标被摧毁了，我们就输了……我的字典里可没有输！",
       "If they destroy the objective, we lose... and I *don't* lose!",
+      null,
       null,
       null
     ],
@@ -6423,6 +6917,7 @@
       "嘿！来这里集合！",
       "Hey! Team up here!",
       null,
+      null,
       null
     ],
     [
@@ -6435,6 +6930,7 @@
       "PVE/Unknown",
       "跟我一起到目标位置来！",
       "Get on the objective with me!",
+      null,
       null,
       null
     ],
@@ -6449,6 +6945,7 @@
       "快到目标这儿来！",
       "Come to the objective!",
       null,
+      null,
       null
     ],
     [
@@ -6461,6 +6958,7 @@
       "PVE/Unknown",
       "我拿到了！",
       "I got it!",
+      null,
       null,
       null
     ],
@@ -6475,6 +6973,7 @@
       "归我啦！",
       "All mine!",
       null,
+      null,
       null
     ],
     [
@@ -6487,6 +6986,7 @@
       "PVE/Unknown",
       "那是我的！",
       "Gimme that!",
+      null,
       null,
       null
     ],
@@ -6501,6 +7001,7 @@
       "（韩语）：拿到一个！",
       "(Korean): Got one!",
       null,
+      null,
       null
     ],
     [
@@ -6513,6 +7014,7 @@
       "PVE/Unknown",
       "这个是我的！",
       "This one's for me!",
+      null,
       null,
       null
     ],
@@ -6527,6 +7029,7 @@
       "搞定了！",
       "All set!",
       null,
+      null,
       null
     ],
     [
@@ -6539,6 +7042,7 @@
       "PVE/Unknown",
       "处理好了！",
       "Taken care of!",
+      null,
       null,
       null
     ],
@@ -6553,6 +7057,7 @@
       "没什么难度嘛！",
       "That wasn't so hard!",
       null,
+      null,
       null
     ],
     [
@@ -6565,6 +7070,7 @@
       "PVE/Unknown",
       "按下“开始”键了！",
       "Press \"start\"!",
+      null,
       null,
       null
     ],
@@ -6579,6 +7085,7 @@
       "我们开始吧！",
       "Let's do it!",
       null,
+      null,
       null
     ],
     [
@@ -6591,6 +7098,7 @@
       "PVE/Unknown",
       "交给我了！",
       "I've got this!",
+      null,
       null,
       null
     ],
@@ -6605,6 +7113,7 @@
       "相信我，按个按钮没什么难的。",
       "Trust me: pressing buttons isn't that hard.",
       null,
+      null,
       null
     ],
     [
@@ -6617,6 +7126,7 @@
       "PVE/Unknown",
       "还好意思说我浪费时间……哼。",
       "And they say *I* waste time...",
+      null,
       null,
       null
     ],
@@ -6631,6 +7141,7 @@
       "谁能去搭把手？",
       "Someone wanna get that?",
       null,
+      null,
       null
     ],
     [
@@ -6643,6 +7154,7 @@
       "PVE/Unknown",
       "别走神了！还有任务等着我们呢！",
       "Come on! We have a mission to finish!",
+      null,
       null,
       null
     ],
@@ -6657,6 +7169,7 @@
       "我们得再撑一会。别让敌人靠近！",
       "We need to hold out. Push them back!",
       null,
+      null,
       null
     ],
     [
@@ -6669,6 +7182,7 @@
       "PVE/Unknown",
       "我们还需要时间！队友们，撑住！",
       "We need more time! Hold steady, team!",
+      null,
       null,
       null
     ],
@@ -6683,6 +7197,7 @@
       "开始倒计时！一起消灭它们吧！",
       "Countdown initiated! Time to get some kills!",
       null,
+      null,
       null
     ],
     [
@@ -6695,6 +7210,7 @@
       "PVE/Unknown",
       "我们的队友倒了！得支援一下！",
       "Our squad mate's down! Help them up!",
+      null,
       null,
       null
     ],
@@ -6709,6 +7225,7 @@
       "我们拆掉它的腿了！它会气到爆炸吧。",
       "We got its legs! That'll make it mad.",
       null,
+      null,
       null
     ],
     [
@@ -6721,6 +7238,7 @@
       "PVE/Unknown",
       "哦，小心别上头，哈哈。不然就会头重脚轻！",
       "Aw, come on! Don't get tilted!",
+      null,
       null,
       null
     ],
@@ -6735,6 +7253,7 @@
       "没了腿看它还怎么跑！",
       "It won't get far without its legs!",
       null,
+      null,
       null
     ],
     [
@@ -6747,6 +7266,7 @@
       "PVE/Unknown",
       "打烂那扇门！",
       "Smash through that door!",
+      null,
       null,
       null
     ],
@@ -6761,6 +7281,7 @@
       "清除前面的障碍！",
       "Clear the path forward!",
       null,
+      null,
       null
     ],
     [
@@ -6773,6 +7294,7 @@
       "PVE/Unknown",
       "我们得打通这条路！",
       "We need to clear the path!",
+      null,
       null,
       null
     ],
@@ -6787,6 +7309,7 @@
       "目标受损了，不过这场战斗我们还能赢！",
       "The objective's damaged, but this fight is still winnable!",
       null,
+      null,
       null
     ],
     [
@@ -6799,6 +7322,7 @@
       "PVE/Unknown",
       "怎么回事……？他们抢走了机器人！",
       "What the...? They have the robot!",
+      null,
       null,
       null
     ],
@@ -6813,6 +7337,7 @@
       "再往前推一点儿，我们就能领先了！",
       "Just push a little more! We're almost there!",
       null,
+      null,
       null
     ],
     [
@@ -6825,6 +7350,7 @@
       "PVE/Unknown",
       "我们开始推进吧！",
       "Let's start the push!",
+      null,
       null,
       null
     ],
@@ -6839,6 +7365,7 @@
       "机器人归我们了。冲冲冲！",
       "We got the robot. Go go go!",
       null,
+      null,
       null
     ],
     [
@@ -6851,6 +7378,7 @@
       "PVE/Unknown",
       "挡板正在前进。一起阻止他们！",
       "The barricade's moving. Let's stop them!",
+      null,
       null,
       null
     ],
@@ -6865,6 +7393,7 @@
       "敌人开始推进了！",
       "They're pushing ahead!",
       null,
+      null,
       null
     ],
     [
@@ -6877,6 +7406,7 @@
       "PVE/Unknown",
       "轮到我们了。向前推进！",
       "It's our turn. Let's push forward!",
+      null,
       null,
       null
     ],
@@ -6891,6 +7421,7 @@
       "开始推进挡板！",
       "Start pushing the barricade!",
       null,
+      null,
       null
     ],
     [
@@ -6903,6 +7434,7 @@
       "PVE/Unknown",
       "这样可不行！我们得追回来！",
       "Come on! We have to catch up!",
+      null,
       null,
       null
     ],
@@ -6917,6 +7449,7 @@
       "敌人领先啦！阻止他们！",
       "They have the lead! Stop them!",
       null,
+      null,
       null
     ],
     [
@@ -6929,6 +7462,7 @@
       "PVE/Unknown",
       "继续推进，一口气赢下来！",
       "Keep pushing for the win!",
+      null,
       null,
       null
     ],
@@ -6943,6 +7477,7 @@
       "（韩语）：好耶！我们领先了！",
       "(Korean): Nice! We have the lead!",
       null,
+      null,
       null
     ],
     [
@@ -6955,6 +7490,7 @@
       "PVE/Unknown",
       "跟紧机器人，我们能赢！",
       "Stick with the robot and we win!",
+      null,
       null,
       null
     ],
@@ -6969,6 +7505,7 @@
       "嘿！跟紧机器人！",
       "Hey! Stick with the robot!",
       null,
+      null,
       null
     ],
     [
@@ -6981,6 +7518,7 @@
       "PVE/Unknown",
       "最后一次推进。秀翻他们！",
       "Final push. Show them up!",
+      null,
       null,
       null
     ],
@@ -6995,6 +7533,7 @@
       "领先喽！机器人，冲呀！",
       "We got this! Go robot go!",
       null,
+      null,
       null
     ],
     [
@@ -7007,6 +7546,7 @@
       "PVE/Unknown",
       "啊！我们落后了！",
       "Ugh! We lost the lead!",
+      null,
       null,
       null
     ],
@@ -7021,6 +7561,7 @@
       "不能再让他们推进挡板了！",
       "Stop them from pushing the barricade!",
       null,
+      null,
       null
     ],
     [
@@ -7033,6 +7574,7 @@
       "PVE/Unknown",
       "来机器人这儿集合，继续推进！",
       "Rally near the robot and keep pushing!",
+      null,
       null,
       null
     ],
@@ -7047,6 +7589,7 @@
       "最后一次机会！跟紧机器人！",
       "Last chance! Stay with the robot!",
       null,
+      null,
       null
     ],
     [
@@ -7059,6 +7602,7 @@
       "PVE/Unknown",
       "还差一点儿就能领先！大家加油！",
       "We're so close to the lead! Come on!",
+      null,
       null,
       null
     ],
@@ -7073,6 +7617,7 @@
       "（韩语）：再快点儿！我们就要领先了！",
       "(Korean): Hurry! The lead's almost ours!",
       null,
+      null,
       null
     ],
     [
@@ -7085,6 +7630,7 @@
       "PVE/Unknown",
       "最后的推进了。把握机会。",
       "Last push. Make it count.",
+      null,
       null,
       null
     ],
@@ -7099,6 +7645,7 @@
       "把握机会，阻止他们我们就赢了！",
       "Now or never. Stop them and we win!",
       null,
+      null,
       null
     ],
     [
@@ -7111,6 +7658,7 @@
       "PVE/Unknown",
       "敌人要做最后的推进了。把他们碾碎！",
       "It's their last push. Let's crush them!",
+      null,
       null,
       null
     ],
@@ -7125,6 +7673,7 @@
       "不能让他们领先了！",
       "We can't let them take the lead!",
       null,
+      null,
       null
     ],
     [
@@ -7137,6 +7686,7 @@
       "PVE/Unknown",
       "别让敌人赶上我们！",
       "Don't let them catch up!",
+      null,
       null,
       null
     ],
@@ -7151,6 +7701,7 @@
       "敌人要扳回来了！阻止他们！",
       "They're catching up to us! Stop them!",
       null,
+      null,
       null
     ],
     [
@@ -7163,6 +7714,7 @@
       "PVE/Unknown",
       "他们抢了我们的机器人！把它救回来！",
       "They stole the robot from us! Get it back!",
+      null,
       null,
       null
     ],
@@ -7177,6 +7729,7 @@
       "一起把机器人救回来！",
       "Let's take the robot back!",
       null,
+      null,
       null
     ],
     [
@@ -7190,7 +7743,8 @@
       "汗都没出！",
       "No sweat!",
       null,
-      0.2
+      0.2,
+      null
     ],
     [
       "HeroQuote",
@@ -7203,7 +7757,8 @@
       "别让它们破坏运载目标！",
       "Stop them from hitting the Payload!",
       "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
-      0.5
+      0.5,
+      null
     ],
     [
       "HeroQuote",
@@ -7216,7 +7771,8 @@
       "它们在攻击运载目标！",
       "They're attacking the Payload!",
       "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
-      0.5
+      0.5,
+      null
     ],
     [
       "HeroQuote",
@@ -7229,7 +7785,8 @@
       "运载目标还没有就位。继续输出！",
       "The Payload's not delivered yet. Keep fighting!",
       "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
-      0.5
+      0.5,
+      null
     ],
     [
       "HeroQuote",
@@ -7242,7 +7799,8 @@
       "运载目标要散架了，我们必须保护它！",
       "The Payload's falling apart. We have to protect it!",
       "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
-      0.5
+      0.5,
+      null
     ],
     [
       "HeroQuote",
@@ -7255,7 +7813,8 @@
       "渡轮遭到了攻击！",
       "The Ferry's taking damage!",
       "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
-      0.5
+      0.5,
+      null
     ],
     [
       "HeroQuote",
@@ -7268,7 +7827,8 @@
       "它们在攻击渡轮！",
       "They're attacking the Ferry!",
       "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
-      0.5
+      0.5,
+      null
     ],
     [
       "HeroQuote",
@@ -7281,7 +7841,8 @@
       "平民的希望都在我们身上。我们必须拯救渡轮！",
       "The civilians are counting on us. We have to save the Ferry!",
       "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
-      0.5
+      0.5,
+      null
     ],
     [
       "HeroQuote",
@@ -7294,7 +7855,8 @@
       "渡轮还没有被彻底攻破。我们得保持下去！",
       "The Ferry's not breached yet. Let's keep it that way!",
       "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
-      0.5
+      0.5,
+      null
     ],
     [
       "HeroQuote",
@@ -7307,7 +7869,8 @@
       "传输塔遭到攻击！",
       "The Uplink is under fire!",
       "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      0.5
+      0.5,
+      null
     ],
     [
       "HeroQuote",
@@ -7320,7 +7883,8 @@
       "它们在攻击传输塔！",
       "They're firing on the Uplink!",
       "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      0.5
+      0.5,
+      null
     ],
     [
       "HeroQuote",
@@ -7333,7 +7897,8 @@
       "传输塔的状态好像不妙……",
       "The Uplink's not looking so good...",
       "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      0.5
+      0.5,
+      null
     ],
     [
       "HeroQuote",
@@ -7346,7 +7911,8 @@
       "我们不能让敌人摧毁传输塔！",
       "We can't let them destroy the Uplink!",
       "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
-      0.5
+      0.5,
+      null
     ],
     [
       "HeroQuote",
@@ -7359,7 +7925,8 @@
       "敌人在集火巨炮。阻止它们！",
       "They're on the Cannon. Stop them!",
       "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
-      0.5
+      0.5,
+      null
     ],
     [
       "HeroQuote",
@@ -7372,7 +7939,8 @@
       "它们在朝巨炮开火！",
       "They're firing on the Cannon!",
       "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
-      0.5
+      0.5,
+      null
     ],
     [
       "HeroQuote",
@@ -7385,7 +7953,8 @@
       "巨炮情况不妙。挡住敌人！",
       "The Cannon's not doing so hot. Keep them off it!",
       "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
-      0.5
+      0.5,
+      null
     ],
     [
       "HeroQuote",
@@ -7398,7 +7967,8 @@
       "我们得抓紧机会，保护巨炮！",
       "We need to protect the Cannon while we still can!",
       "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
-      0.5
+      0.5,
+      null
     ],
     [
       "HeroQuote",
@@ -7411,6 +7981,7 @@
       "修理站就要爆炸了！",
       "Repair Station's going to blow!",
       "{\"type\":\"scripted\",\"script\":\"0094DB\",\"scriptDesc\":\"修理站受到攻击\"}",
+      null,
       null
     ],
     [
@@ -7424,6 +7995,7 @@
       "修理站严重受损！",
       "Critical damage to the Repair Station!",
       "{\"type\":\"scripted\",\"script\":\"0094DB\",\"scriptDesc\":\"修理站受到攻击\"}",
+      null,
       null
     ],
     [
@@ -7437,6 +8009,7 @@
       "它们在集中攻击修理站！",
       "They're targeting the Repair Station!",
       "{\"type\":\"scripted\",\"script\":\"0094DB\",\"scriptDesc\":\"修理站受到攻击\"}",
+      null,
       null
     ],
     [
@@ -7450,6 +8023,7 @@
       "修理站遭到攻击！",
       "Repair Station's getting hit!",
       "{\"type\":\"scripted\",\"script\":\"0094DB\",\"scriptDesc\":\"修理站受到攻击\"}",
+      null,
       null
     ],
     [
@@ -7463,7 +8037,8 @@
       "啊哦！有个轰击者就要过来了！",
       "Uh oh! A Breacher's getting close!",
       "{\"type\":\"toHero\",\"hero\":\"轰击者\"}",
-      0.5
+      0.5,
+      null
     ],
     [
       "HeroQuote",
@@ -7476,7 +8051,8 @@
       "阻止那个轰击者，快！",
       "Stop that Breacher, fast!",
       "{\"type\":\"toHero\",\"hero\":\"轰击者\"}",
-      0.5
+      0.5,
+      null
     ],
     [
       "HeroQuote",
@@ -7489,7 +8065,8 @@
       "切割者冲过来了！",
       "Slicers running in!",
       "{\"type\":\"toHero\",\"hero\":\"切割者\"}",
-      0.5
+      0.5,
+      null
     ],
     [
       "HeroQuote",
@@ -7502,7 +8079,8 @@
       "切割者来了！",
       "Slicers inbound!",
       "{\"type\":\"toHero\",\"hero\":\"切割者\"}",
-      0.5
+      0.5,
+      null
     ],
     [
       "HeroQuote",
@@ -7515,7 +8093,8 @@
       "拦住抑制者！",
       "Stop the Subjugator!",
       "{\"type\":\"toHero\",\"hero\":\"抑制者\"}",
-      0.5
+      0.5,
+      null
     ],
     [
       "HeroQuote",
@@ -7528,7 +8107,8 @@
       "抑制者就要过来了！",
       "Subjugator closing in!",
       "{\"type\":\"toHero\",\"hero\":\"抑制者\"}",
-      0.5
+      0.5,
+      null
     ],
     [
       "HeroQuote",
@@ -7540,6 +8120,7 @@
       "PVE/VultureDown",
       "秃鹫机已消灭！",
       "Vulture eliminated!",
+      null,
       null,
       null
     ],
@@ -7554,6 +8135,7 @@
       "我们干掉秃鹫机了！",
       "We got the Vulture!",
       null,
+      null,
       null
     ],
     [
@@ -7566,6 +8148,7 @@
       "PVE/VultureIncoming",
       "我扫描到了一架秃鹫机！",
       "There's a Vulture on my scanners!",
+      null,
       null,
       null
     ],
@@ -7580,6 +8163,7 @@
       "秃鹫机来了！做好准备！",
       "Vulture incoming! Get ready!",
       null,
+      null,
       null
     ],
     [
@@ -7592,6 +8176,7 @@
       "Respawn",
       "（韩语）：我的战斗还没结束！",
       "(Korean): I'm still fighting!",
+      null,
       null,
       null
     ],
@@ -7606,6 +8191,7 @@
       "（韩语）：我得集中精神！",
       "(Korean): I have to focus!",
       null,
+      null,
       null
     ],
     [
@@ -7618,6 +8204,7 @@
       "Respawn",
       "别上头，哈娜。你能行的！",
       "Don't tilt, Hana. You got this!",
+      null,
       null,
       null
     ],
@@ -7632,6 +8219,7 @@
       "大家都在指望我呢！",
       "They're counting on me!",
       null,
+      null,
       null
     ],
     [
@@ -7644,6 +8232,7 @@
       "Respawn",
       "我是不会放弃的！",
       "I'm not giving up!",
+      null,
       null,
       null
     ],
@@ -7658,6 +8247,7 @@
       "重置状态，重新集结。",
       "Reset and regroup.",
       null,
+      null,
       null
     ],
     [
@@ -7670,6 +8260,7 @@
       "Respawn",
       "刚才只是热身！",
       "That was only a warm-up!",
+      null,
       null,
       null
     ],
@@ -7684,6 +8275,7 @@
       "（韩语）：这场比赛还挺有难度！",
       "(Korean): This game is tough!",
       null,
+      null,
       null
     ],
     [
@@ -7697,7 +8289,8 @@
       "啊！我要认真了！",
       "Ugh! I gotta lock in!",
       null,
-      0.2
+      0.2,
+      null
     ],
     [
       "HeroQuote",
@@ -7710,7 +8303,8 @@
       "我的直播被人狙击了吗？",
       "Am I getting stream sniped?",
       null,
-      0.1
+      0.1,
+      null
     ],
     [
       "HeroQuote",
@@ -7723,6 +8317,7 @@
       "我可不是战败明星！",
       "I'm not a good loser!",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -7736,6 +8331,7 @@
       "我回到游戏了！",
       "I'm back in the game!",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -7749,6 +8345,7 @@
       "他们肯定作弊了！",
       "(Korean): This is impossible!",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -7762,6 +8359,7 @@
       "哦，真让人生气。",
       "(Korean): Oh, how annoying.",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -7775,6 +8373,7 @@
       "再来一次！",
       "(Korean): Let's do this again!",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -7788,6 +8387,7 @@
       "我还年轻，还死不了！",
       "I'm too young to die!",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -7801,6 +8401,7 @@
       "D.Va重新回到战斗！",
       "D.Va reengaging!",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -7814,7 +8415,8 @@
       "多一条命！",
       "Extra life!",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
-      0.1
+      0.1,
+      null
     ],
     [
       "HeroQuote",
@@ -7827,7 +8429,8 @@
       "又多了一条命！",
       "1-up!",
       null,
-      0.2
+      0.2,
+      null
     ],
     [
       "HeroQuote",
@@ -7840,7 +8443,8 @@
       "太感谢了！",
       "Huge rez!",
       null,
-      0.2
+      0.2,
+      null
     ],
     [
       "HeroQuote",
@@ -7853,7 +8457,8 @@
       "哦，要翻盘了！",
       "Game changer!",
       null,
-      0.2
+      0.2,
+      null
     ],
     [
       "HeroQuote",
@@ -7865,6 +8470,7 @@
       "Retribution/EnemiesIncoming",
       "敌人又来了！解决它们！",
       "More enemies! Let's get 'em!",
+      null,
       null,
       null
     ],
@@ -7879,6 +8485,7 @@
       "坏蛋要来了！",
       "Bad guys coming in!",
       null,
+      null,
       null
     ],
     [
@@ -7891,6 +8498,7 @@
       "Retribution/EnemiesIncoming",
       "又有敌人来了！",
       "More hostiles incoming!",
+      null,
       null,
       null
     ],
@@ -7905,6 +8513,7 @@
       "（叹气）它们真是没完没了！",
       "*Sigh* They don't stop coming!",
       null,
+      null,
       null
     ],
     [
@@ -7917,6 +8526,7 @@
       "Retribution/EnemyIncomingDoor",
       "小心过道！",
       "Watch the doorway!",
+      null,
       null,
       null
     ],
@@ -7931,6 +8541,7 @@
       "他们从过道过来了！",
       "They're coming through the doorway!",
       null,
+      null,
       null
     ],
     [
@@ -7943,6 +8554,7 @@
       "Revenge",
       "哎呀！我没注意。",
       "Oops! Tunnel vision.",
+      null,
       null,
       null
     ],
@@ -7957,6 +8569,7 @@
       "接受你的道歉！",
       "Apology accepted!",
       null,
+      null,
       null
     ],
     [
@@ -7969,6 +8582,7 @@
       "Revenge",
       "（韩语）：就这么算了？我没那么大方。",
       "(Korean): Yup, I'm too immature to let it go.",
+      null,
       null,
       null
     ],
@@ -7983,6 +8597,7 @@
       "哦！给我的？",
       "Oh! For me?",
       null,
+      null,
       null
     ],
     [
@@ -7995,6 +8610,7 @@
       "Reward",
       "有什么礼物？",
       "Oh, what did I get?",
+      null,
       null,
       null
     ],
@@ -8009,6 +8625,7 @@
       "（大叫）",
       "(screams)",
       "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      null,
       null
     ],
     [
@@ -8022,6 +8639,7 @@
       "（大叫）",
       "(screams)",
       "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      null,
       null
     ],
     [
@@ -8035,6 +8653,7 @@
       "（大叫）",
       "(screams)",
       "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      null,
       null
     ],
     [
@@ -8047,6 +8666,7 @@
       "ScreamFall",
       "（放声大叫）",
       "(prolonged screaming)",
+      null,
       null,
       null
     ],
@@ -8061,6 +8681,7 @@
       "（放声大叫）",
       "(prolonged screaming)",
       null,
+      null,
       null
     ],
     [
@@ -8073,6 +8694,7 @@
       "ScreamFall",
       "（放声大叫）",
       "(prolonged screaming)",
+      null,
       null,
       null
     ],
@@ -8087,6 +8709,7 @@
       "在这儿做好准备！",
       "Set up here!",
       null,
+      null,
       null
     ],
     [
@@ -8099,6 +8722,7 @@
       "ShieldGenerator/EnemyHasShieldGen",
       "敌人部署了护盾发生器！",
       "They have a shield generator!",
+      null,
       null,
       null
     ],
@@ -8113,6 +8737,7 @@
       "干掉敌人的护盾发生器了！",
       "Enemy shield generator destroyed!",
       null,
+      null,
       null
     ],
     [
@@ -8125,6 +8750,7 @@
       "ShieldGenerator/FoundEnemyShieldGen",
       "找到他们的护盾发生器了！",
       "Found their shield generator!",
+      null,
       null,
       null
     ],
@@ -8139,6 +8765,7 @@
       "不好意思。",
       "(Korean): Sorry.",
       null,
+      null,
       null
     ],
     [
@@ -8151,6 +8778,7 @@
       "Sorry",
       "对此我很抱歉！",
       "Sorry about that!",
+      null,
       null,
       null
     ],
@@ -8165,6 +8793,7 @@
       "对不起。",
       "Sorry.",
       null,
+      null,
       null
     ],
     [
@@ -8177,6 +8806,7 @@
       "Sorry",
       "（韩语）：对不起。",
       "(Korean): Apologies.",
+      null,
       null,
       null
     ],
@@ -8191,6 +8821,7 @@
       "（韩语）：我很抱歉。",
       "(Korean): I'm sorry.",
       null,
+      null,
       null
     ],
     [
@@ -8203,6 +8834,7 @@
       "TakeCover",
       "找掩护！",
       "Take cover!",
+      null,
       null,
       null
     ],
@@ -8217,6 +8849,7 @@
       "喔！团灭！",
       "Woah! (Korean): All Kill!",
       null,
+      null,
       null
     ],
     [
@@ -8229,6 +8862,7 @@
       "TeamKill",
       "这个游戏也太爽啦！",
       "This game is sooo free!",
+      null,
       null,
       null
     ],
@@ -8243,6 +8877,7 @@
       "一个不剩！",
       "All out for the count!",
       null,
+      null,
       null
     ],
     [
@@ -8256,6 +8891,7 @@
       "击杀敌方队伍！",
       "Enemy team kill!",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -8269,6 +8905,7 @@
       "敌人队伍被全歼！",
       "The enemy team is down!",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -8281,6 +8918,7 @@
       "Teammate/Downed",
       "我们有队友倒下了！",
       "We have a teammate down!",
+      null,
       null,
       null
     ],
@@ -8295,6 +8933,7 @@
       "天哪。",
       "(Korean): Oh, man!",
       null,
+      null,
       null
     ],
     [
@@ -8307,6 +8946,7 @@
       "Teammate/Killed",
       "看样子我要Carry全场了！",
       "Looks like I'm going to have to carry!",
+      null,
       null,
       null
     ],
@@ -8321,6 +8961,7 @@
       "别担心，有我在！",
       "Don't worry. I've got this!",
       null,
+      null,
       null
     ],
     [
@@ -8333,6 +8974,7 @@
       "Teammate/KillSeen",
       "喔！你的技术真不错！",
       "Wow! You're popping off!",
+      null,
       null,
       null
     ],
@@ -8347,6 +8989,7 @@
       "很高兴你能做我的队友！",
       "Glad you're on my team!",
       null,
+      null,
       null
     ],
     [
@@ -8359,6 +9002,7 @@
       "Teammate/KillSeen",
       "看来你之前是在隐藏实力啊！",
       "You've been holding back on me!",
+      null,
       null,
       null
     ],
@@ -8373,7 +9017,8 @@
       "水平不赖嘛！",
       "Not bad!",
       null,
-      0.1
+      0.1,
+      null
     ],
     [
       "HeroQuote",
@@ -8386,7 +9031,8 @@
       "打得好！",
       "NS!",
       null,
-      0.05
+      0.05,
+      null
     ],
     [
       "HeroQuote",
@@ -8399,6 +9045,7 @@
       "打得不错！",
       "(Korean): Nice shot!",
       "{\"type\":\"toHero\",\"hero\":\"D.Va\"}",
+      null,
       null
     ],
     [
@@ -8412,6 +9059,7 @@
       "太棒啦！",
       "(Korean): Awesome!",
       "{\"type\":\"toHero\",\"hero\":\"D.Va\"}",
+      null,
       null
     ],
     [
@@ -8425,6 +9073,7 @@
       "哇哦，你真酷！",
       "(Korean): Wow, you're pretty cool.",
       "{\"type\":\"toHero\",\"hero\":\"D.Va\"}",
+      null,
       null
     ],
     [
@@ -8438,6 +9087,7 @@
       "喔！",
       "(Korean): Impressive!",
       "{\"type\":\"toHero\",\"hero\":\"D.Va\"}",
+      null,
       null
     ],
     [
@@ -8451,6 +9101,7 @@
       "（韩语）：好厉害！",
       "(Korean): Awesome!",
       "{\"type\":\"toHero\",\"hero\":\"D.Va\"}",
+      null,
       null
     ],
     [
@@ -8463,6 +9114,7 @@
       "Teammate/Location",
       "我在这里。",
       "I'm over here.",
+      null,
       null,
       null
     ],
@@ -8477,6 +9129,7 @@
       "我就在这儿。",
       "I'm right here.",
       null,
+      null,
       null
     ],
     [
@@ -8489,6 +9142,7 @@
       "Teammate/OneRemaining",
       "没人可以抢走我的最佳镜头！",
       "No one to steal my spotlight!",
+      null,
       null,
       null
     ],
@@ -8503,6 +9157,7 @@
       "大家都去哪儿了？",
       "Where'd everyone go?",
       null,
+      null,
       null
     ],
     [
@@ -8515,6 +9170,7 @@
       "Teammate/Rescue",
       "（韩语）：有我在，放心吧！",
       "(Korean): You know I'm here for you!",
+      null,
       null,
       null
     ],
@@ -8529,6 +9185,7 @@
       "哪里有危险，哪里就有D.Va来救援。",
       "D.Va to the rescue, as always.",
       null,
+      null,
       null
     ],
     [
@@ -8541,6 +9198,7 @@
       "Teammate/Rescue",
       "小兔救你一命。",
       "Saved by the rabbit.",
+      null,
       null,
       null
     ],
@@ -8555,6 +9213,7 @@
       "谁都有需要帮助的时候。",
       "We all need help sometimes.",
       null,
+      null,
       null
     ],
     [
@@ -8567,6 +9226,7 @@
       "Teammate/Rescue",
       "（韩语）：别担心！",
       "(Korean): Don't worry!",
+      null,
       null,
       null
     ],
@@ -8581,6 +9241,7 @@
       "我们一起，可以所向披靡。",
       "You and me? We've got this.",
       null,
+      null,
       null
     ],
     [
@@ -8593,6 +9254,7 @@
       "Teammate/Revive",
       "快，战斗还没结束呢！",
       "Come on, the fight's not over yet.",
+      null,
       null,
       null
     ],
@@ -8607,6 +9269,7 @@
       "这波团战我们需要你！",
       "We need you in this team fight!",
       null,
+      null,
       null
     ],
     [
@@ -8619,6 +9282,7 @@
       "Teammate/Revive",
       "快起来！我还需要你的帮助！",
       "Get up! I still need your help!",
+      null,
       null,
       null
     ],
@@ -8633,6 +9297,7 @@
       "有我在，不要怒退比赛！",
       "Don't rage quit on me!",
       null,
+      null,
       null
     ],
     [
@@ -8645,6 +9310,7 @@
       "Teleporter/EnemyFindTeleporter",
       "快去找传送器！",
       "Find the teleporter!",
+      null,
       null,
       null
     ],
@@ -8659,6 +9325,7 @@
       "嘿！他们有传送器！",
       "Hey! They have a teleporter!",
       null,
+      null,
       null
     ],
     [
@@ -8671,6 +9338,7 @@
       "Teleporter/EnemyTeleporterDestroyed",
       "已摧毁敌人的传送器！",
       "Enemy teleporter destroyed!",
+      null,
       null,
       null
     ],
@@ -8685,6 +9353,7 @@
       "发现敌人的传送器。",
       "Enemy teleporter located.",
       null,
+      null,
       null
     ],
     [
@@ -8697,6 +9366,7 @@
       "Thanks",
       "谢谢！",
       "Thanks!",
+      null,
       null,
       null
     ],
@@ -8711,6 +9381,7 @@
       "（韩语）：谢谢！",
       "(Korean): Thanks!",
       null,
+      null,
       null
     ],
     [
@@ -8723,6 +9394,7 @@
       "Thanks",
       "谢谢你！",
       "Thank you!",
+      null,
       null,
       null
     ],
@@ -8737,6 +9409,7 @@
       "（韩语）：谢了！",
       "(Korean): Thanks!",
       null,
+      null,
       null
     ],
     [
@@ -8749,6 +9422,7 @@
       "Thanks",
       "谢谢！",
       "Thanks!",
+      null,
       null,
       null
     ],
@@ -8763,6 +9437,7 @@
       "我们快没时间了，千万别放弃！",
       "We're almost out of time. Don't let up now!",
       null,
+      null,
       null
     ],
     [
@@ -8775,6 +9450,7 @@
       "Turret/EnemyTurretDestroyed",
       "干掉炮台了。",
       "Enemy turret destroyed.",
+      null,
       null,
       null
     ],
@@ -8789,6 +9465,7 @@
       "敌人的炮台不会再烦我们了！",
       "Enemy turret's not going to bother us anymore!",
       null,
+      null,
       null
     ],
     [
@@ -8801,6 +9478,7 @@
       "Turret/EnemyTurretSeen",
       "前面有敌人的炮台！",
       "Enemy turret ahead!",
+      null,
       null,
       null
     ],
@@ -8815,6 +9493,7 @@
       "这太硬霸了！",
       "Nerf this!",
       null,
+      null,
       null
     ],
     [
@@ -8827,6 +9506,7 @@
       "Ultimate",
       "正在启动自毁程序！",
       "Activating self destruct sequence!",
+      null,
       null,
       null
     ],
@@ -8841,6 +9521,7 @@
       "这太硬霸了！",
       "Nerf this!",
       null,
+      null,
       null
     ],
     [
@@ -8854,6 +9535,7 @@
       "全场最佳归我了！",
       "Peep this POTG!",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      null,
       null
     ],
     [
@@ -8867,6 +9549,7 @@
       "我按Q了！",
       "Pressing Q!",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      null,
       null
     ],
     [
@@ -8880,6 +9563,7 @@
       "抱歉啦，岱玹！",
       "Sorry, Dae-hyun!",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      null,
       null
     ],
     [
@@ -8893,6 +9577,7 @@
       "我按Q了！",
       "Pressing Q!",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      null,
       null
     ],
     [
@@ -8906,6 +9591,7 @@
       "全场最佳归我了！",
       "Peep this POTG!",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      null,
       null
     ],
     [
@@ -8918,6 +9604,7 @@
       "Ultimate/AlmostReady",
       "我的终极技能就要准备好了！",
       "My ultimate is almost ready!",
+      null,
       null,
       null
     ],
@@ -8932,6 +9619,7 @@
       "我的终极技能还在充能！",
       "My ultimate is charging!",
       null,
+      null,
       null
     ],
     [
@@ -8944,6 +9632,7 @@
       "Ultimate/Ready",
       "终极技能准备好了！",
       "Ultimate ready!",
+      null,
       null,
       null
     ],
@@ -8958,6 +9647,7 @@
       "自毁程序已经就绪！",
       "I'm ready to initiate self-destruct sequence!",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\"},{\"type\":\"gameMode\",\"gameMode\":\"温斯顿的沙滩排球\",\"negative\":true}]}",
+      null,
       null
     ],
     [
@@ -8970,6 +9660,7 @@
       "Ultimate/UltimateIsReadyTeammate",
       "我的终极技能准备好了！出发吧！",
       "My ultimate is ready! Let's do this!",
+      null,
       null,
       null
     ],
@@ -8984,7 +9675,8 @@
       "我的终极技能充能完毕！可以开始游戏了吗？",
       "My ultimate is charged! Ready player two?",
       null,
-      0.1
+      0.1,
+      null
     ],
     [
       "HeroQuote",
@@ -8996,6 +9688,7 @@
       "Understand",
       "知道了！",
       "Got it!",
+      null,
       null,
       null
     ],
@@ -9010,6 +9703,7 @@
       "好吧！",
       "Okay!",
       null,
+      null,
       null
     ],
     [
@@ -9022,6 +9716,7 @@
       "Understand",
       "收到！",
       "Roger!",
+      null,
       null,
       null
     ],
@@ -9036,6 +9731,7 @@
       "明白！",
       "Understood!",
       null,
+      null,
       null
     ],
     [
@@ -9048,6 +9744,7 @@
       "Understand",
       "收到！",
       "Copy that!",
+      null,
       null,
       null
     ],
@@ -9062,6 +9759,7 @@
       "那当然！",
       "Def!",
       null,
+      null,
       null
     ],
     [
@@ -9074,6 +9772,7 @@
       "Understand",
       "我懂了！",
       "I read you!",
+      null,
       null,
       null
     ],
@@ -9088,6 +9787,7 @@
       "没有机甲？问题不大！",
       "No mech? No problem!",
       null,
+      null,
       null
     ],
     [
@@ -9100,6 +9800,7 @@
       "Unknown/10AF.078",
       "别叫我“小妹妹”。",
       "Don't call me \"baby\".",
+      null,
       null,
       null
     ],
@@ -9114,6 +9815,7 @@
       "（韩语）：这就叫尴尬死了！哼！",
       "(Korean) You were so embarrassed, you died!",
       null,
+      null,
       null
     ],
     [
@@ -9126,6 +9828,7 @@
       "Unknown/10AF.078",
       "（韩语）：我状态爆表！",
       "(Korean): I'm crazy good!",
+      null,
       null,
       null
     ],
@@ -9140,6 +9843,7 @@
       "哈哈！",
       "Ha HA!",
       "{\"type\":\"nested\",\"total\":5,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"法老之鹰\"},{\"type\":\"toHero\",\"hero\":\"死神\"},{\"type\":\"toHero\",\"hero\":\"源氏\"},{\"type\":\"toHero\",\"hero\":\"卡西迪\"}]}",
+      null,
       null
     ],
     [
@@ -9153,6 +9857,7 @@
       "这才叫真正的DPS！",
       "Now that's DPS!",
       "{\"type\":\"scripted\",\"script\":\"00A5FD\",\"scriptDesc\":\"被纳米激素强化时\"}",
+      null,
       null
     ],
     [
@@ -9165,6 +9870,7 @@
       "Unknown/10F8.078",
       "D.Va正在侦察这里！",
       "D.Va scoping here!",
+      null,
       null,
       null
     ],
@@ -9179,6 +9885,7 @@
       "我会侦察这里。",
       "I'll scout out here.",
       null,
+      null,
       null
     ],
     [
@@ -9191,6 +9898,7 @@
       "Unknown/10F8.078",
       "我来盯住这里。",
       "I'll watch here.",
+      null,
       null,
       null
     ],
@@ -9205,6 +9913,7 @@
       "该去下个目标点了！",
       "Let's go to the next point!",
       null,
+      null,
       null
     ],
     [
@@ -9217,6 +9926,7 @@
       "Unknown/110F.078",
       "在下个目标点会合！",
       "Catch you at the next point!",
+      null,
       null,
       null
     ],
@@ -9231,6 +9941,7 @@
       "去下个目标点！",
       "Go to the next point!",
       null,
+      null,
       null
     ],
     [
@@ -9243,6 +9954,7 @@
       "Unknown/1116.078",
       "快上运输机！",
       "Get to the dropship!",
+      null,
       null,
       null
     ],
@@ -9257,6 +9969,7 @@
       "飞船来接我们了！快走！",
       "Our ride's here! Move it!",
       null,
+      null,
       null
     ],
     [
@@ -9270,7 +9983,8 @@
       "最后一个上运输机的，得请大家喝纳米可乐！",
       "Last one to the dropship buys everyone a Nano Cola!",
       null,
-      0.5
+      0.5,
+      null
     ],
     [
       "HeroQuote",
@@ -9282,6 +9996,7 @@
       "Unknown/1117.078",
       "发现敌人！",
       "Enemy spotted!",
+      null,
       null,
       null
     ],
@@ -9296,6 +10011,7 @@
       "看到一个敌人！",
       "Found an enemy!",
       null,
+      null,
       null
     ],
     [
@@ -9308,6 +10024,7 @@
       "Unknown/1117.078",
       "这里有敌人！",
       "Enemy here!",
+      null,
       null,
       null
     ],
@@ -9322,7 +10039,8 @@
       "核爆猛击伤害爆表！",
       "Massive bomb-shatter!",
       null,
-      null
+      null,
+      "000000000D46.0D0#1"
     ],
     [
       "HeroQuote",
@@ -9335,7 +10053,8 @@
       "沃斯卡娅的机甲能做到这个吗？",
       "Can Volskaya's mechs do that?",
       null,
-      null
+      null,
+      "000000000D54.0D0#1"
     ],
     [
       "HeroQuote",
@@ -9348,7 +10067,8 @@
       "呃，你是不是想说“核爆猛击”？",
       "Um, I think you mean \"bomb-shatter\".",
       null,
-      null
+      null,
+      "000000000D5A.0D0#2"
     ],
     [
       "HeroQuote",
@@ -9361,7 +10081,8 @@
       "就是，他们也太弱了！",
       "Come on, they're not even trying!",
       null,
-      null
+      null,
+      "000000000D3C.0D0#2"
     ],
     [
       "HeroQuote",
@@ -9373,6 +10094,7 @@
       "Unknown/1172.078",
       "好好欣赏刚才的阵亡镜头吧！",
       "Enjoy that killcam!",
+      null,
       null,
       null
     ],
@@ -9387,6 +10109,7 @@
       "（韩语）：掌声响起来！",
       "(Korean): Round of applause!",
       null,
+      null,
       null
     ],
     [
@@ -9399,6 +10122,7 @@
       "Unknown/1172.078",
       "这就叫碾压！哈哈！",
       "Outplayed! Ha ha!",
+      null,
       null,
       null
     ],
@@ -9413,6 +10137,7 @@
       "好安静。大家都AFK了？",
       "It's quiet. Is everyone AFK?",
       null,
+      null,
       null
     ],
     [
@@ -9425,6 +10150,7 @@
       "Unknown/1173.078",
       "我的增援在哪里？",
       "Where's my backup?",
+      null,
       null,
       null
     ],
@@ -9439,6 +10165,7 @@
       "大家都去哪儿了？",
       "Where is everyone?",
       null,
+      null,
       null
     ],
     [
@@ -9451,6 +10178,7 @@
       "Unknown/11C0.078",
       "快去推机器人！",
       "Push the robot!",
+      null,
       null,
       null
     ],
@@ -9465,6 +10193,7 @@
       "去推那个机器人！",
       "Move that robot!",
       null,
+      null,
       null
     ],
     [
@@ -9477,6 +10206,7 @@
       "Unknown/11C1.078",
       "快点！拦住机器人！",
       "Come on! Stop the robot!",
+      null,
       null,
       null
     ],
@@ -9491,6 +10221,7 @@
       "别让他们推进！",
       "Stop their push!",
       null,
+      null,
       null
     ],
     [
@@ -9503,6 +10234,7 @@
       "Unknown/11C2.078",
       "他们人数占优！",
       "We're outnumbered!",
+      null,
       null,
       null
     ],
@@ -9517,6 +10249,7 @@
       "我们人手不足。小心点！",
       "Our numbers are low. Careful!",
       null,
+      null,
       null
     ],
     [
@@ -9529,6 +10262,7 @@
       "Unknown/11D8.078",
       "在这边！",
       "Over here!",
+      null,
       null,
       null
     ],
@@ -9543,6 +10277,7 @@
       "看那边！",
       "Over there!",
       null,
+      null,
       null
     ],
     [
@@ -9555,6 +10290,7 @@
       "Unknown/11DA.078",
       "看信号看信号！",
       "Ping ping ping!",
+      null,
       null,
       null
     ],
@@ -9569,6 +10305,7 @@
       "小心！",
       "Watch out!",
       null,
+      null,
       null
     ],
     [
@@ -9581,6 +10318,7 @@
       "Unknown/11DA.078",
       "当心点！",
       "Heads up!",
+      null,
       null,
       null
     ],
@@ -9595,7 +10333,8 @@
       "看我把那堆太空垃圾轰成渣！",
       "I'll blast that space junk into bits!",
       null,
-      null
+      null,
+      "000000001053.0D0#2"
     ],
     [
       "HeroQuote",
@@ -9608,7 +10347,8 @@
       "至少能把叛军一起烧个精光！",
       "At least I'll burn the rebels down with me!",
       null,
-      null
+      null,
+      "000000001062.0D0#2"
     ],
     [
       "HeroQuote",
@@ -9621,7 +10361,8 @@
       "目标已锁定，只等你的命令了，上将！",
       "Targets locked in. Ready on your command, Admiral!",
       null,
-      null
+      null,
+      "000000001056.0D0#1"
     ],
     [
       "HeroQuote",
@@ -9634,7 +10375,8 @@
       "我的雷达早就扫到他们了。我才不会失手！",
       "They're already on my radar. I won't miss!",
       null,
-      null
+      null,
+      "000000001055.0D0#2"
     ],
     [
       "HeroQuote",
@@ -9647,7 +10389,8 @@
       "是，队长！正在定位敌方弱点。",
       "Yes Captain! Targeting their weaknesses.",
       null,
-      null
+      null,
+      "000000001054.0D0#2"
     ],
     [
       "HeroQuote",
@@ -9659,6 +10402,7 @@
       "Unknown/15E2.078",
       "（数字化哔哔声）",
       "(digital beeps)",
+      null,
       null,
       null
     ],
@@ -9673,6 +10417,7 @@
       "（数字化哔哔声）",
       "(digital beeps)",
       null,
+      null,
       null
     ],
     [
@@ -9685,6 +10430,7 @@
       "Unknown/15E2.078",
       "（数字化哔哔声）",
       "(digital beeps)",
+      null,
       null,
       null
     ],
@@ -9699,6 +10445,7 @@
       "（数字化哔哔声）",
       "(digital beeps)",
       null,
+      null,
       null
     ],
     [
@@ -9711,6 +10458,7 @@
       "Unknown/15E3.078",
       "（数字化哔哔声）",
       "(digital beeps)",
+      null,
       null,
       null
     ],
@@ -9725,6 +10473,7 @@
       "（数字化哔哔声）",
       "(digital beeps)",
       null,
+      null,
       null
     ],
     [
@@ -9737,6 +10486,7 @@
       "Unknown/1892.078",
       "（轻笑）",
       "(giggles)",
+      null,
       null,
       null
     ],
@@ -9751,6 +10501,7 @@
       "（轻笑）",
       "(giggles)",
       null,
+      null,
       null
     ],
     [
@@ -9763,6 +10514,7 @@
       "Unknown/1892.078",
       "（轻笑）",
       "(giggles)",
+      null,
       null,
       null
     ],
@@ -9777,6 +10529,7 @@
       "（轻笑）",
       "(giggles)",
       null,
+      null,
       null
     ],
     [
@@ -9789,6 +10542,7 @@
       "Unknown/1893.078",
       "噢，好耶！",
       "Ooh, nice!",
+      null,
       null,
       null
     ],
@@ -9803,6 +10557,7 @@
       "看看这个新技术。",
       "Check out this new tech.",
       null,
+      null,
       null
     ],
     [
@@ -9815,6 +10570,7 @@
       "Unknown/1893.078",
       "喔耶！",
       "Aw yeah!",
+      null,
       null,
       null
     ],
@@ -9829,6 +10585,7 @@
       "好棒，升级了！",
       "Sweet, an upgrade!",
       null,
+      null,
       null
     ],
     [
@@ -9841,6 +10598,7 @@
       "Unknown/1894.078",
       "这是职业表现！",
       "I'm going pro!",
+      null,
       null,
       null
     ],
@@ -9855,6 +10613,7 @@
       "练到我这么强再说吧！",
       "Get to my level!",
       null,
+      null,
       null
     ],
     [
@@ -9867,6 +10626,7 @@
       "Unknown/1894.078",
       "再来拦我试试！",
       "Try and stop me now!",
+      null,
       null,
       null
     ],
@@ -9881,6 +10641,7 @@
       "练级果然有用！",
       "XP farming paid off!",
       null,
+      null,
       null
     ],
     [
@@ -9893,6 +10654,7 @@
       "Unknown/1974.078",
       "(思考)",
       "(thinking)",
+      null,
       null,
       null
     ],
@@ -9907,6 +10669,7 @@
       "哈！",
       "Ha!",
       null,
+      null,
       null
     ],
     [
@@ -9919,6 +10682,7 @@
       "Unknown/3DA.078",
       "全速突击！",
       "Diving in!",
+      null,
       null,
       null
     ],
@@ -9933,6 +10697,7 @@
       "直冲云霄！",
       "Flying high!",
       null,
+      null,
       null
     ],
     [
@@ -9945,6 +10710,7 @@
       "Unknown/3DA.078",
       "（韩语）：跟紧我！",
       "(Korean): Keep up!",
+      null,
       null,
       null
     ],
@@ -9959,6 +10725,7 @@
       "开始加速！",
       "Speeding up!",
       null,
+      null,
       null
     ],
     [
@@ -9971,6 +10738,7 @@
       "Unknown/3DA.078",
       "启动推进装置！",
       "Engaging thrusters!",
+      null,
       null,
       null
     ],
@@ -9985,6 +10753,7 @@
       "机动飞行！",
       "Mobilizing!",
       null,
+      null,
       null
     ],
     [
@@ -9998,6 +10767,7 @@
       "推进器启动！",
       "Boosters engaged!",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -10011,6 +10781,7 @@
       "发射升空！",
       "Taking off!",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -10024,6 +10795,7 @@
       "耶！",
       "Yeah!",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -10037,6 +10809,7 @@
       "推进器启动！",
       "(Korean): Booster on!",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -10050,6 +10823,7 @@
       "我在飞！",
       "(Korean): I'm flying!",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -10063,7 +10837,8 @@
       "兔子跳！",
       "Bunny hop!",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
-      0.25
+      0.25,
+      null
     ],
     [
       "HeroQuote",
@@ -10075,6 +10850,7 @@
       "Unknown/3DB.078",
       "启动前方屏障！",
       "Forward barrier activated!",
+      null,
       null,
       null
     ],
@@ -10089,6 +10865,7 @@
       "清除飞弹！",
       "Neutralizing projectiles!",
       null,
+      null,
       null
     ],
     [
@@ -10101,6 +10878,7 @@
       "Unknown/3DB.078",
       "别想过我这关！",
       "Nothing gets past me!",
+      null,
       null,
       null
     ],
@@ -10115,6 +10893,7 @@
       "防御矩阵初始化！",
       "Initiating defense matrix!",
       null,
+      null,
       null
     ],
     [
@@ -10127,6 +10906,7 @@
       "Unknown/3DB.078",
       "（韩语）：打得穿吗？",
       "(Korean): Try me!",
+      null,
       null,
       null
     ],
@@ -10141,6 +10921,7 @@
       "（韩语）：想都别想！",
       "(Korean): Not a chance!",
       null,
+      null,
       null
     ],
     [
@@ -10154,6 +10935,7 @@
       "我要把你射下来。",
       "I'm going to have to shoot you down.",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -10167,6 +10949,7 @@
       "该练练APM了！",
       "Time to raise my APM!",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -10180,6 +10963,7 @@
       "打爆这个试试！",
       "Get through this!",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -10193,6 +10977,7 @@
       "防御矩阵启动！",
       "Defense matrix activated!",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -10206,7 +10991,8 @@
       "该提升一下APM了！",
       "(Korean): Time to raise my APM!",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
-      0.5
+      0.5,
+      null
     ],
     [
       "HeroQuote",
@@ -10219,7 +11005,8 @@
       "能量传输至前方屏障！",
       "Routing power to forward barrier!",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
-      0.5
+      0.5,
+      null
     ],
     [
       "HeroQuote",
@@ -10232,7 +11019,8 @@
       "能量传输至前方屏障！",
       "Routing power to forward shields!",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
-      0.5
+      0.5,
+      null
     ],
     [
       "HeroQuote",
@@ -10244,6 +11032,7 @@
       "Unknown/479.078",
       "系统初始化！",
       "Initializing systems!",
+      null,
       null,
       null
     ],
@@ -10258,6 +11047,7 @@
       "重型火力已就位！",
       "Calling in the big guns!",
       null,
+      null,
       null
     ],
     [
@@ -10270,6 +11060,7 @@
       "Unknown/479.078",
       "机甲系统启动！",
       "Booting up!",
+      null,
       null,
       null
     ],
@@ -10284,6 +11075,7 @@
       "“小兔”，快来！",
       "C'mere, Tokki!",
       null,
+      null,
       null
     ],
     [
@@ -10296,6 +11088,7 @@
       "Unknown/479.078",
       "（韩语）：蹦蹦跳跳！",
       "(Korean): Hop hop!",
+      null,
       null,
       null
     ],
@@ -10310,7 +11103,8 @@
       "新的机甲，新的我！",
       "New mech, new me!",
       null,
-      0.1
+      0.1,
+      null
     ],
     [
       "HeroQuote",
@@ -10323,6 +11117,7 @@
       "武装起来！",
       "Suiting up!",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -10336,6 +11131,7 @@
       "机甲激活！",
       "MEKA activated!",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -10349,6 +11145,7 @@
       "所有系统检查完毕。",
       "All systems checked out.",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -10362,6 +11159,7 @@
       "“小兔”启动！",
       "Tokki online!",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -10374,6 +11172,7 @@
       "Unknown/497.078",
       "驾驶员弹射出舱！",
       "Pilot disengaging!",
+      null,
       null,
       null
     ],
@@ -10388,6 +11187,7 @@
       "我已弹出！",
       "I'm out!",
       null,
+      null,
       null
     ],
     [
@@ -10400,6 +11200,7 @@
       "Unknown/497.078",
       "得先撤了！",
       "Gotta bail!",
+      null,
       null,
       null
     ],
@@ -10414,7 +11215,8 @@
       "“小兔”已损坏！",
       "Tokki compromised!",
       null,
-      0.5
+      0.5,
+      null
     ],
     [
       "HeroQuote",
@@ -10427,7 +11229,8 @@
       "我被打爆了！",
       "I'm crashing out!",
       null,
-      0.1
+      0.1,
+      null
     ],
     [
       "HeroQuote",
@@ -10440,7 +11243,8 @@
       "BRB！",
       "BRB!",
       null,
-      0.001
+      0.001,
+      null
     ],
     [
       "HeroQuote",
@@ -10453,6 +11257,7 @@
       "弹出！",
       "Bailing out!",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -10466,6 +11271,7 @@
       "弹射！",
       "Ejecting!",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -10479,7 +11285,8 @@
       "抱歉啦，岱玹！",
       "Sorry, Dae-hyun!",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
-      0.01
+      0.01,
+      null
     ],
     [
       "HeroQuote",
@@ -10491,6 +11298,7 @@
       "Unknown/49D.078",
       "游戏开始！",
       "Game on!",
+      null,
       null,
       null
     ],
@@ -10505,6 +11313,7 @@
       "（韩语）：谁想惹点麻烦？",
       "(Korean): Who's ready for trouble?",
       null,
+      null,
       null
     ],
     [
@@ -10517,6 +11326,7 @@
       "Unknown/49D.078",
       "D.Va重返战场！",
       "D.Va back in action!",
+      null,
       null,
       null
     ],
@@ -10531,6 +11341,7 @@
       "我的机甲引爆全场！",
       "Let's mech up this party!",
       null,
+      null,
       null
     ],
     [
@@ -10543,6 +11354,7 @@
       "Unknown/49D.078",
       "想我了吗？",
       "Miss me?",
+      null,
       null,
       null
     ],
@@ -10557,6 +11369,7 @@
       "他们要死翘翘了！",
       "They're cooked!",
       null,
+      null,
       null
     ],
     [
@@ -10570,6 +11383,7 @@
       "现在让他们瞧瞧我的厉害！",
       "Now I'll show them!",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -10583,6 +11397,7 @@
       "我又回到战斗了！",
       "I'm back in the fight!",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -10595,6 +11410,7 @@
       "Unknown/5EA.078",
       "我就是不会输。",
       "I just can't lose.",
+      null,
       null,
       null
     ],
@@ -10609,6 +11425,7 @@
       "我可没开镜哦！",
       "No scoped!",
       null,
+      null,
       null
     ],
     [
@@ -10621,6 +11438,7 @@
       "Unknown/6C1.078",
       "（韩语）：哈哈，对不起咯！",
       "(Korean): Sorry about that!",
+      null,
       null,
       null
     ],
@@ -10635,6 +11453,7 @@
       "啊哦！你就这点水平吗？",
       "Oops! Was that your best?",
       null,
+      null,
       null
     ],
     [
@@ -10647,6 +11466,7 @@
       "Unknown/6C1.078",
       "（打哈欠）真无聊！",
       "(yawns) Boring!",
+      null,
       null,
       null
     ],
@@ -10661,6 +11481,7 @@
       "我不同意！",
       "Don't think so!",
       null,
+      null,
       null
     ],
     [
@@ -10673,6 +11494,7 @@
       "Unknown/6C1.078",
       "都是你的锅！",
       "Excuse you!",
+      null,
       null,
       null
     ],
@@ -10687,6 +11509,7 @@
       "有把伞，天降什么都不怕！",
       "It's a good thing I brought an umbrella!",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"法老之鹰\"},{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}]}",
+      null,
       null
     ],
     [
@@ -10700,6 +11523,7 @@
       "我想你的手表大概坏了。",
       "I think your clock's off.",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"卡西迪\"},{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}]}",
+      null,
       null
     ],
     [
@@ -10713,6 +11537,7 @@
       "我觉得这只猪还没烤熟。",
       "I think this pig's a little undercooked.",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"路霸\"},{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}]}",
+      null,
       null
     ],
     [
@@ -10726,6 +11551,7 @@
       "作弊无效。",
       "No hacks for you.",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"士兵：76\"},{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}]}",
+      null,
       null
     ],
     [
@@ -10739,6 +11565,7 @@
       "再攒一波大吧。",
       "Maybe next time.",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"死神\"},{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}]}",
+      null,
       null
     ],
     [
@@ -10752,6 +11579,7 @@
       "休想！",
       "Denied!",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -10765,6 +11593,7 @@
       "正在干扰终极技能！",
       "(Korean): Interrupting ultimate!",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -10778,6 +11607,7 @@
       "我好像吞噬了巨龙！",
       "Looks like I consumed the dragon!",
       "{\"type\":\"toHero\",\"hero\":\"半藏\"}",
+      null,
       null
     ],
     [
@@ -10791,6 +11621,7 @@
       "也没觉得有什么吸引力嘛。",
       "I don't feel the attraction.",
       "{\"type\":\"toHero\",\"hero\":\"查莉娅\"}",
+      null,
       null
     ],
     [
@@ -10804,6 +11635,7 @@
       "不许开火！",
       "Hold your fire!",
       "{\"type\":\"toHero\",\"hero\":\"查莉娅\"}",
+      null,
       null
     ],
     [
@@ -10817,6 +11649,7 @@
       "天气预报，今日无雨。",
       "You're not in the forecast.",
       "{\"type\":\"toHero\",\"hero\":\"法老之鹰\"}",
+      null,
       null
     ],
     [
@@ -10830,6 +11663,7 @@
       "你超时了，牛仔！",
       "Time out, cowboy!",
       "{\"type\":\"toHero\",\"hero\":\"卡西迪\"}",
+      null,
       null
     ],
     [
@@ -10843,6 +11677,7 @@
       "想得挺美，亲爱的！",
       "Nice try, love!",
       "{\"type\":\"toHero\",\"hero\":\"猎空\"}",
+      null,
       null
     ],
     [
@@ -10856,6 +11691,7 @@
       "嘿，不许乱扔垃圾！",
       "Hey, no littering!",
       "{\"type\":\"toHero\",\"hero\":\"路霸\"}",
+      null,
       null
     ],
     [
@@ -10869,6 +11705,7 @@
       "呃！好冰呀！",
       "Brr! Brain freeze!",
       "{\"type\":\"toHero\",\"hero\":\"美\"}",
+      null,
       null
     ],
     [
@@ -10882,6 +11719,7 @@
       "没什么好看的。",
       "Nothing to see here.",
       "{\"type\":\"toHero\",\"hero\":\"士兵：76\"}",
+      null,
       null
     ],
     [
@@ -10895,7 +11733,8 @@
       "看看你，再看看我。",
       "Look at you, now look at me.",
       "{\"type\":\"toHero\",\"hero\":\"士兵：76\"}",
-      0.1
+      0.1,
+      null
     ],
     [
       "HeroQuote",
@@ -10908,6 +11747,7 @@
       "走吧，走吧！",
       "Bye, bye, bye!",
       "{\"type\":\"toHero\",\"hero\":\"死神\"}",
+      null,
       null
     ],
     [
@@ -10921,6 +11761,7 @@
       "试吧，试吧，再试试吧！",
       "Try, try, try again!",
       "{\"type\":\"toHero\",\"hero\":\"死神\"}",
+      null,
       null
     ],
     [
@@ -10934,6 +11775,7 @@
       "啊，太刺眼了！",
       "Ugh, too much glare!",
       "{\"type\":\"toHero\",\"hero\":\"伊拉锐\"}",
+      null,
       null
     ],
     [
@@ -10946,6 +11788,7 @@
       "Unknown/8D9.078",
       "嘭！",
       "Bang!",
+      null,
       null,
       null
     ],
@@ -10960,7 +11803,8 @@
       "左边的大楼有动静！",
       "Movement in the building on the left!",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"mission\",\"mission\":\"解放枷锁\"},{\"type\":\"mission\",\"objective\":\"保护渡轮\"}]}",
-      null
+      null,
+      "0000000006B8.0D0#2"
     ],
     [
       "HeroQuote",
@@ -10973,7 +11817,8 @@
       "哼，好得不得了！",
       "Better than all right!",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"mission\",\"mission\":\"解放枷锁\"},{\"type\":\"mission\",\"objective\":\"保护渡轮\"}]}",
-      null
+      null,
+      "0000000009A2.0D0#2"
     ],
     [
       "HeroQuote",
@@ -10986,7 +11831,8 @@
       "啊，这下应该……就彻底解决了。",
       "I think... that's the last of them.",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"mission\",\"mission\":\"解放枷锁\"},{\"type\":\"mission\",\"objective\":\"肃清车站入口\"}]}",
-      null
+      null,
+      "00000000065F.0D0#1"
     ],
     [
       "HeroQuote",
@@ -10999,7 +11845,8 @@
       "（笑）我们果然英雄所见略同。",
       "(laughs) I knew you'd see it my way.",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"mission\",\"mission\":\"解放枷锁\"},{\"type\":\"mission\",\"objective\":\"保护克莱尔\"}]}",
-      null
+      null,
+      "00000000066F.0D0#4"
     ],
     [
       "HeroQuote",
@@ -11012,7 +11859,8 @@
       "小菜一碟！",
       "Not a problem!",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"mission\",\"mission\":\"解放枷锁\"},{\"type\":\"mission\",\"objective\":\"穿过中央开关站\"}]}",
-      null
+      null,
+      "000000000670.0D0#4"
     ],
     [
       "HeroQuote",
@@ -11025,7 +11873,8 @@
       "我还从来没在地下战斗过，放马过来吧！",
       "I never get to fight underground. Bring it on!",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"mission\",\"mission\":\"解放枷锁\"},{\"type\":\"mission\",\"objective\":\"护送克莱尔通过地铁系统\"}]}",
-      null
+      null,
+      "000000000664.0D0#2"
     ],
     [
       "HeroQuote",
@@ -11038,7 +11887,8 @@
       "它们可能是跑了吧！",
       "Maybe they ran off!",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"mission\",\"mission\":\"解放枷锁\"},{\"type\":\"mission\",\"objective\":\"寻找幸存者\"}]}",
-      null
+      null,
+      "000000000672.0D0#2"
     ],
     [
       "HeroQuote",
@@ -11051,7 +11901,8 @@
       "一点儿没错！",
       "Exactly!",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"mission\",\"mission\":\"解放枷锁\"},{\"type\":\"mission\",\"objective\":\"保护平民\"}]}",
-      null
+      null,
+      "000000000A52.0D0#4"
     ],
     [
       "HeroQuote",
@@ -11064,7 +11915,8 @@
       "现在不能放弃，我们马上就到了！",
       "Don't give up now. We're almost there!",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"mission\",\"mission\":\"解放枷锁\"},{\"type\":\"mission\",\"objective\":\"护送平民登上穿梭机\"}]}",
-      null
+      null,
+      "0000000006CE.0D0#3"
     ],
     [
       "HeroQuote",
@@ -11077,7 +11929,8 @@
       "很好！",
       "Good!",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"mission\",\"mission\":\"解放枷锁\"},{\"type\":\"mission\",\"objective\":\"护送克莱尔通过地铁系统\"}]}",
-      null
+      null,
+      "000000000751.0D0#4"
     ],
     [
       "HeroQuote",
@@ -11090,7 +11943,8 @@
       "恐惧能让你的反应能力保持在战斗状态！",
       "Fear keeps your reflexes in fighting shape!",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"mission\",\"mission\":\"解放枷锁\"},{\"type\":\"mission\",\"objective\":\"护送克莱尔通过地铁系统\"}]}",
-      null
+      null,
+      "000000000751.0D0#6"
     ],
     [
       "HeroQuote",
@@ -11102,6 +11956,7 @@
       "Unknown/DC4.078",
       "当心！",
       "Look out!",
+      null,
       null,
       null
     ],
@@ -11116,6 +11971,7 @@
       "小心！",
       "Watch out!",
       null,
+      null,
       null
     ],
     [
@@ -11128,6 +11984,7 @@
       "Unknown/DDB.078",
       "走这边！",
       "This way!",
+      null,
       null,
       null
     ],
@@ -11142,6 +11999,7 @@
       "快来！",
       "Come on!",
       null,
+      null,
       null
     ],
     [
@@ -11155,7 +12013,8 @@
       "这些新敌人看着挺厉害，不过还差得远呢！",
       "These new ones look tough. But not tough enough!",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"mission\",\"mission\":\"解放枷锁\"},{\"type\":\"mission\",\"objective\":\"保护渡轮\"}]}",
-      null
+      null,
+      "00000000077F.0D0#1"
     ],
     [
       "HeroQuote",
@@ -11168,7 +12027,8 @@
       "实战太多，休息太少。",
       "Lots of fighting, not much sleep.",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"mission\",\"mission\":\"解放枷锁\"},{\"type\":\"mission\",\"objective\":\"护送克莱尔通过地铁系统\"}]}",
-      null
+      null,
+      "000000000895.0D0#2"
     ],
     [
       "HeroQuote",
@@ -11181,7 +12041,8 @@
       "你不知道我消耗了多少咖啡因。",
       "More caffeine than you'd ever believe.",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"mission\",\"mission\":\"解放枷锁\"},{\"type\":\"mission\",\"objective\":\"护送克莱尔通过地铁系统\"}]}",
-      null
+      null,
+      "000000000895.0D0#4"
     ],
     [
       "HeroQuote",
@@ -11193,6 +12054,7 @@
       "Unknown/E35.078",
       "快点！做好准备，把门打开！",
       "Come on! Ready up and get the door open!",
+      null,
       null,
       null
     ],
@@ -11207,6 +12069,7 @@
       "认真的吗？现在就放弃可不合适吧！",
       "Seriously? We can't forfeit already!",
       null,
+      null,
       null
     ],
     [
@@ -11219,6 +12082,7 @@
       "Unknown/E35.078",
       "我们还在等什么？！快出发吧！",
       "What are we waiting for?! Let's go!",
+      null,
       null,
       null
     ],
@@ -11233,6 +12097,7 @@
       "再等下去我就要抓狂了！",
       "I'm gonna go crazy if we wait any longer!",
       null,
+      null,
       null
     ],
     [
@@ -11246,7 +12111,8 @@
       "（叹气）今天排队怎么排了这么久……",
       "(sigh) Long queue time today...",
       null,
-      0.2
+      0.2,
+      null
     ],
     [
       "HeroQuote",
@@ -11259,7 +12125,8 @@
       "准备好了。",
       "Ready.",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"mission\",\"mission\":\"解放枷锁\"},{\"type\":\"mission\",\"objective\":\"寻找幸存者\"}]}",
-      null
+      null,
+      "0000000008BE.0D0#2"
     ],
     [
       "HeroQuote",
@@ -11271,6 +12138,7 @@
       "Unknown/EC6.078",
       "哇……你摔得好惨！",
       "Wow... you fell far!",
+      null,
       null,
       null
     ],
@@ -11285,6 +12153,7 @@
       "哈！爬上来的时候加油哦！",
       "Ha! Good luck climbing from down there!",
       null,
+      null,
       null
     ],
     [
@@ -11297,6 +12166,7 @@
       "Unknown/EC6.078",
       "一路走好！",
       "Safe travels!",
+      null,
       null,
       null
     ],
@@ -11311,6 +12181,7 @@
       "（韩语）：你不会闪开吗？",
       "(Korean): Can you move out of the way?",
       null,
+      null,
       null
     ],
     [
@@ -11324,7 +12195,8 @@
       "喜欢那招吗？",
       "How do you like that?",
       null,
-      0.2
+      0.2,
+      null
     ],
     [
       "HeroQuote",
@@ -11337,7 +12209,8 @@
       "我们不在一个水平上。",
       "You're not on my level.",
       null,
-      0.2
+      0.2,
+      null
     ],
     [
       "HeroQuote",
@@ -11349,6 +12222,7 @@
       "Unknown/ED9.078",
       "抑制者已摧毁！",
       "Subjugator destroyed!",
+      null,
       null,
       null
     ],
@@ -11363,6 +12237,7 @@
       "这招怎么样，抑制者！",
       "Take that, Subjugator!",
       null,
+      null,
       null
     ],
     [
@@ -11376,7 +12251,8 @@
       "哦！不知道我们有没有见过你的设计？",
       "Oh! Have we seen anything you've made?",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"mission\",\"mission\":\"解放枷锁\"},{\"type\":\"mission\",\"objective\":\"穿过中央开关站\"}]}",
-      null
+      null,
+      "000000000A50.0D0#3"
     ],
     [
       "HeroQuote",
@@ -11389,7 +12265,8 @@
       "呃，（不安地笑）那是什么？",
       "Um, (nervous laugh) what was that?",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"mission\",\"mission\":\"解放枷锁\"},{\"type\":\"mission\",\"objective\":\"肃清区域\"}]}",
-      null
+      null,
+      "000000000908.0D0#1"
     ],
     [
       "HeroQuote",
@@ -11402,7 +12279,8 @@
       "“索杰恩”，你还好吗？",
       "Sojourn, are you okay?",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"mission\",\"mission\":\"解放枷锁\"},{\"type\":\"mission\",\"objective\":\"肃清渡轮码头\"}]}",
-      null
+      null,
+      "000000000646.0D0#2"
     ],
     [
       "HeroQuote",
@@ -11415,7 +12293,8 @@
       "再接三组平民也没问题。这些机器人都好垃圾！",
       "We could handle three more groups, easy. These robots are trash!",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"mission\",\"mission\":\"解放枷锁\"},{\"type\":\"mission\",\"objective\":\"保护渡轮\"}]}",
-      null
+      null,
+      "000000000982.0D0#4"
     ],
     [
       "HeroQuote",
@@ -11427,6 +12306,7 @@
       "Unknown/F98.078",
       "别忘了把东西交上去！",
       "Don't forget to turn that in!",
+      null,
       null,
       null
     ],
@@ -11441,6 +12321,7 @@
       "怎么慢吞吞的？快把它交上去！",
       "What's taking so long? Turn it in!",
       null,
+      null,
       null
     ],
     [
@@ -11454,7 +12335,8 @@
       "前面的轨道上有归零者！",
       "Null Sector on the tracks ahead!",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"mission\",\"mission\":\"解放枷锁\"},{\"type\":\"mission\",\"objective\":\"护送克莱尔通过地铁系统\"}]}",
-      null
+      null,
+      "0000000009C2.0D0#1"
     ],
     [
       "HeroQuote",
@@ -11466,6 +12348,7 @@
       "Unknown/FE5.078",
       "飞天“小兔”！",
       "Flying Tokki!",
+      null,
       null,
       null
     ],
@@ -11480,6 +12363,7 @@
       "喔吼！",
       "Woohoo!",
       null,
+      null,
       null
     ],
     [
@@ -11492,6 +12376,7 @@
       "Unwell",
       "我中debuff了！",
       "I've been debuffed!",
+      null,
       null,
       null
     ],
@@ -11506,6 +12391,7 @@
       "（厌恶的声音）感觉不太好……",
       "(disgusted sound) Not feeling right...",
       null,
+      null,
       null
     ],
     [
@@ -11518,6 +12404,7 @@
       "Voicelines",
       "（笑）GG！",
       "(laughs) GG!",
+      null,
       null,
       null
     ],
@@ -11532,6 +12419,7 @@
       "小白脸！",
       "Winky face!",
       null,
+      null,
       null
     ],
     [
@@ -11544,6 +12432,7 @@
       "Voicelines",
       "（叹气）AFK！",
       "(sighs) AFK!",
+      null,
       null,
       null
     ],
@@ -11558,6 +12447,7 @@
       "L-o-l! (laugh)",
       "LOL! (laughs)",
       null,
+      null,
       null
     ],
     [
@@ -11570,6 +12460,7 @@
       "Voicelines",
       "D.Va:1分，坏蛋:0分。",
       "D.Va: 1, bad guys: 0.",
+      null,
       null,
       null
     ],
@@ -11584,6 +12475,7 @@
       "根本不用修改游戏！",
       "No hacks required!",
       null,
+      null,
       null
     ],
     [
@@ -11596,6 +12488,7 @@
       "Voicelines",
       "这不会是简单模式吧？",
       "Is this easy mode?",
+      null,
       null,
       null
     ],
@@ -11610,6 +12503,7 @@
       "我是第一！",
       "I'm number one!",
       null,
+      null,
       null
     ],
     [
@@ -11622,6 +12516,7 @@
       "Voicelines",
       "呃，不可能！",
       "Ugh. No way!",
+      null,
       null,
       null
     ],
@@ -11636,6 +12531,7 @@
       "玩游戏就是为了赢！",
       "(Korean): I play to win!",
       null,
+      null,
       null
     ],
     [
@@ -11648,6 +12544,7 @@
       "Voicelines",
       "升级！",
       "Level up!",
+      null,
       null,
       null
     ],
@@ -11662,6 +12559,7 @@
       "哦呵，你一定是在开玩笑。",
       "(laughs) You can't be serious.",
       null,
+      null,
       null
     ],
     [
@@ -11674,6 +12572,7 @@
       "Voicelines",
       "啊，耶！",
       "Aw, yeah!",
+      null,
       null,
       null
     ],
@@ -11688,6 +12587,7 @@
       "新挑战者登场！",
       "Here comes a new challenger!",
       null,
+      null,
       null
     ],
     [
@@ -11700,6 +12600,7 @@
       "Voicelines",
       "Yeah.",
       "Yeah.",
+      null,
       null,
       null
     ],
@@ -11714,6 +12615,7 @@
       "没问题！",
       "No problem!",
       null,
+      null,
       null
     ],
     [
@@ -11726,6 +12628,7 @@
       "Voicelines",
       "打得不错！",
       "Nice try!",
+      null,
       null,
       null
     ],
@@ -11740,6 +12643,7 @@
       "D.Va爱你哦！",
       "Love, D.Va!",
       null,
+      null,
       null
     ],
     [
@@ -11752,6 +12656,7 @@
       "Voicelines",
       "小小礼物，大大惊喜！",
       "The best things in life come in small packages!",
+      null,
       null,
       null
     ],
@@ -11766,6 +12671,7 @@
       "万圣节快乐！",
       "(Korean): Happy Halloween!",
       null,
+      null,
       null
     ],
     [
@@ -11778,6 +12684,7 @@
       "Voicelines",
       "啊，你真客气！",
       "Aw, you shouldn't have!",
+      null,
       null,
       null
     ],
@@ -11792,6 +12699,7 @@
       "节日快乐！",
       "(Korean): Happy holidays!",
       null,
+      null,
       null
     ],
     [
@@ -11804,6 +12712,7 @@
       "Voicelines",
       "我知道我的KDR。",
       "I know my KDR.",
+      null,
       null,
       null
     ],
@@ -11818,6 +12727,7 @@
       "（韩语）：噢，我喜欢！",
       "(Korean): Oh, I love it!",
       null,
+      null,
       null
     ],
     [
@@ -11830,6 +12740,7 @@
       "Voicelines",
       "我一点儿也不怕！",
       "I'm not scared!",
+      null,
       null,
       null
     ],
@@ -11844,6 +12755,7 @@
       "上奖牌榜了。",
       "Scoreboard.",
       null,
+      null,
       null
     ],
     [
@@ -11856,6 +12768,7 @@
       "Voicelines",
       "我觉得你没把我当回事。",
       "I get the feeling you're not taking me seriously.",
+      null,
       null,
       null
     ],
@@ -11870,6 +12783,7 @@
       "尽量跟上。",
       "Try and keep up.",
       null,
+      null,
       null
     ],
     [
@@ -11882,6 +12796,7 @@
       "Voicelines",
       "（韩语）：新年快乐！",
       "(Korean): Happy New Year!",
+      null,
       null,
       null
     ],
@@ -11896,6 +12811,7 @@
       "这种天气最适合吃糖煎饼啦。",
       "Perfect weather for a hotteok.",
       null,
+      null,
       null
     ],
     [
@@ -11908,6 +12824,7 @@
       "Voicelines",
       "我可是职业选手。",
       "I'm a professional.",
+      null,
       null,
       null
     ],
@@ -11922,6 +12839,7 @@
       "大一岁，长一智。",
       "One year older, one year wiser.",
       null,
+      null,
       null
     ],
     [
@@ -11934,6 +12852,7 @@
       "Voicelines",
       "别这么吓人。",
       "Don't be creepy.",
+      null,
       null,
       null
     ],
@@ -11948,6 +12867,7 @@
       "我会在终点线等你。",
       "I’ll see you at the finish line.",
       null,
+      null,
       null
     ],
     [
@@ -11960,6 +12880,7 @@
       "Voicelines",
       "自检完毕。所有系统正常。",
       "Diagnostics complete. All systems go.",
+      null,
       null,
       null
     ],
@@ -11974,6 +12895,7 @@
       "想听点恐怖的吗？（低语）简单模式。",
       "Want to hear something scary? (whispers) Easy mode.",
       null,
+      null,
       null
     ],
     [
@@ -11986,6 +12908,7 @@
       "Voicelines",
       "这波能打能打能打！",
       "Winnable winnable winnable!",
+      null,
       null,
       null
     ],
@@ -12000,6 +12923,7 @@
       "驰骋吧，琼安！",
       "Charge, Johanna!",
       null,
+      null,
       null
     ],
     [
@@ -12012,6 +12936,7 @@
       "Voicelines",
       "我要全力飞驰！",
       "I will go full speed, nonstop!",
+      null,
       null,
       null
     ],
@@ -12026,6 +12951,7 @@
       "铁拳制裁！",
       "Fist! Of! Justiiiiice!",
       null,
+      null,
       null
     ],
     [
@@ -12038,6 +12964,7 @@
       "VotedEpic",
       "（笑）多谢厚爱！",
       "(laughs) Thanks for the love!",
+      null,
       null,
       null
     ],
@@ -12052,7 +12979,8 @@
       "叮！",
       "Ding!",
       null,
-      0.2
+      0.2,
+      null
     ],
     [
       "HeroQuote",
@@ -12064,6 +12992,7 @@
       "VotedLegendary",
       "（咯咯笑）留到名人堂吧。",
       "(giggles) Save that for the hall of fame.",
+      null,
       null,
       null
     ],
@@ -12078,6 +13007,7 @@
       "明星级表演。",
       "That's a star performance.",
       null,
+      null,
       null
     ],
     [
@@ -12090,6 +13020,7 @@
       "Yes",
       "好。",
       "(Korean): Yes.",
+      null,
       null,
       null
     ],
@@ -12104,6 +13035,7 @@
       "好的。",
       "Yes.",
       null,
+      null,
       null
     ],
     [
@@ -12116,6 +13048,7 @@
       "YourWelcome",
       "不用客气。",
       "You're welcome.",
+      null,
       null,
       null
     ],
@@ -12130,6 +13063,7 @@
       "小事情。",
       "No problem.",
       null,
+      null,
       null
     ],
     [
@@ -12142,6 +13076,7 @@
       "YourWelcome",
       "我的荣幸。",
       "(Korean): It's a pleasure.",
+      null,
       null,
       null
     ],
@@ -12156,6 +13091,7 @@
       "武器系统开工！",
       "Weapons systems are buzzing!",
       null,
+      null,
       null
     ],
     [
@@ -12168,6 +13104,7 @@
       "Elimination",
       "Bzzzzz!",
       "Bzzzzz!",
+      null,
       null,
       null
     ],
@@ -12182,6 +13119,7 @@
       "我是女王蜂！",
       "I'm the queen bee!",
       null,
+      null,
       null
     ],
     [
@@ -12194,6 +13132,7 @@
       "MeleeEnemyKilledRemark",
       "这很疼吧？",
       "Did that sting?",
+      null,
       null,
       null
     ],
@@ -12208,6 +13147,7 @@
       "起飞！",
       "Taking flight!",
       null,
+      null,
       null
     ],
     [
@@ -12220,6 +13160,7 @@
       "Unknown/479.078",
       "所有系统开工！",
       "All systems buzzing!",
+      null,
       null,
       null
     ],
@@ -12234,6 +13175,7 @@
       "驾驶员就位，准备开打！",
       "Hopped up and ready to kill!",
       null,
+      null,
       null
     ],
     [
@@ -12246,6 +13188,7 @@
       "Elimination",
       "服不服！",
       "Get bent!",
+      null,
       null,
       null
     ],
@@ -12260,6 +13203,7 @@
       "闭嘴吧。",
       "Cool it.",
       null,
+      null,
       null
     ],
     [
@@ -12273,7 +13217,8 @@
       "嘿，大叔！",
       "Hey, daddy-o!",
       null,
-      0.7
+      0.7,
+      null
     ],
     [
       "HeroQuote",
@@ -12285,6 +13230,7 @@
       "MatchStartTalk",
       "离合挂档踩油门，出发！",
       "Pop the clutch and let's go!",
+      null,
       null,
       null
     ],
@@ -12299,6 +13245,7 @@
       "这场比赛赢定了。",
       "We got this made in the shade.",
       null,
+      null,
       null
     ],
     [
@@ -12311,6 +13258,7 @@
       "MeleeEnemyKilledRemark",
       "是你点的拳头三明治吗？",
       "You ordered a knuckle sandwich?",
+      null,
       null,
       null
     ],
@@ -12325,7 +13273,8 @@
       "引擎喷火咯！",
       "I'm cooking!",
       null,
-      0.6
+      0.6,
+      null
     ],
     [
       "HeroQuote",
@@ -12337,6 +13286,7 @@
       "Respawn",
       "我真是自找麻烦！",
       "I'm crusin' for a bruisin'!",
+      null,
       null,
       null
     ],
@@ -12351,6 +13301,7 @@
       "太厉害了！",
       "Far out!",
       null,
+      null,
       null
     ],
     [
@@ -12363,6 +13314,7 @@
       "Understand",
       "放心吧。",
       "No sweat.",
+      null,
       null,
       null
     ],
@@ -12377,6 +13329,7 @@
       "马上！",
       "Right-o!",
       null,
+      null,
       null
     ],
     [
@@ -12390,6 +13343,7 @@
       "嘿，我可是老司机！",
       "Hey, I'm no ankle-biter!",
       "{\"type\":\"toHero\",\"hero\":\"黑百合\"}",
+      null,
       null
     ],
     [
@@ -12402,6 +13356,7 @@
       "Unknown/3DA.078",
       "(grunt)全速前进！",
       "(grunt) Flooring it!",
+      null,
       null,
       null
     ],
@@ -12416,6 +13371,7 @@
       "加速起飞！",
       "Burning rubber!",
       null,
+      null,
       null
     ],
     [
@@ -12428,6 +13384,7 @@
       "Unknown/479.078",
       "引擎启动！",
       "Firing up!",
+      null,
       null,
       null
     ],
@@ -12442,6 +13399,7 @@
       "脱离！",
       "Time to split!",
       null,
+      null,
       null
     ],
     [
@@ -12454,6 +13412,7 @@
       "Unknown/497.078",
       "断开！",
       "Cutting out!",
+      null,
       null,
       null
     ],
@@ -12468,6 +13427,7 @@
       "嗷！（笑）",
       "Rawr! (giggle)",
       null,
+      null,
       null
     ],
     [
@@ -12480,6 +13440,7 @@
       "Elimination",
       "别想跟大虎斗！",
       "Can't outfight the tiger!",
+      null,
       null,
       null
     ],
@@ -12494,6 +13455,7 @@
       "咬碎！",
       "Crunched!",
       null,
+      null,
       null
     ],
     [
@@ -12506,6 +13468,7 @@
       "EnemyKilled/CallMech",
       "强力扑杀！",
       "Get pounced on!",
+      null,
       null,
       null
     ],
@@ -12520,6 +13483,7 @@
       "（韩语）：离开我的领地！",
       "(Korean): Stay out of my territory!",
       null,
+      null,
       null
     ],
     [
@@ -12532,6 +13496,7 @@
       "EnemyKilled/CallMech",
       "这就是不给我吃年糕的下场！",
       "(Korean): That's what you get for not giving me a rice cake!",
+      null,
       null,
       null
     ],
@@ -12546,6 +13511,7 @@
       "要拯救灵魂了吗？游戏开始！",
       "Time to save the spirits? Game on!",
       null,
+      null,
       null
     ],
     [
@@ -12558,6 +13524,7 @@
       "KillStreak",
       "又能多几道新条纹了！",
       "I'm earning my stripes!",
+      null,
       null,
       null
     ],
@@ -12572,6 +13539,7 @@
       "谁准备好大吼一场了？",
       "Who's ready to roar?",
       null,
+      null,
       null
     ],
     [
@@ -12584,6 +13552,7 @@
       "MatchStartTalk",
       "各位，亮出你们的尖牙！",
       "Show them your fangs, everyone!",
+      null,
       null,
       null
     ],
@@ -12598,6 +13567,7 @@
       "大虎扑向战场！",
       "Tiger mobilizing!",
       null,
+      null,
       null
     ],
     [
@@ -12610,6 +13580,7 @@
       "MatchTalk",
       "把我从笼子里放出去！",
       "Let me out of this cage!",
+      null,
       null,
       null
     ],
@@ -12624,6 +13595,7 @@
       "我渴望战斗！",
       "I'm hungry for a fight!",
       null,
+      null,
       null
     ],
     [
@@ -12636,6 +13608,7 @@
       "MeleeEnemyKilledRemark",
       "跟我的爪子说去！",
       "Talk to the paw!",
+      null,
       null,
       null
     ],
@@ -12650,6 +13623,7 @@
       "看爪！",
       "Catch these claws!",
       null,
+      null,
       null
     ],
     [
@@ -12662,6 +13636,7 @@
       "MeleeEnemyKilledRemark",
       "（韩语）：D.Va的爪，叫利爪！",
       "(Korean): D.Va's claws are killer!",
+      null,
       null,
       null
     ],
@@ -12676,6 +13651,7 @@
       "知道顶级猎食者的实力了吧？",
       "How's that for an apex predator?",
       null,
+      null,
       null
     ],
     [
@@ -12688,6 +13664,7 @@
       "NanoBoosted",
       "（韩语）：听我咆哮！",
       "(Korean): Hear my roar!",
+      null,
       null,
       null
     ],
@@ -12702,6 +13679,7 @@
       "（凶猛咆哮）",
       "(Fierce roar)",
       null,
+      null,
       null
     ],
     [
@@ -12714,6 +13692,7 @@
       "OnFire",
       "我虎虎生威！",
       "I'm burning bright!",
+      null,
       null,
       null
     ],
@@ -12728,6 +13707,7 @@
       "（韩语）：我是添翼猛虎！",
       "(Korean): I'm a flying tiger!",
       null,
+      null,
       null
     ],
     [
@@ -12740,6 +13720,7 @@
       "Respawn",
       "我总能脚先着地！",
       "I always land on my feet!",
+      null,
       null,
       null
     ],
@@ -12754,6 +13735,7 @@
       "（叹气）看来是我出洞太早了。",
       "(sigh) Guess I left the cave too early.",
       null,
+      null,
       null
     ],
     [
@@ -12766,6 +13748,7 @@
       "Respawn",
       "又到捕猎的时候了！",
       "Time to hunt them down!",
+      null,
       null,
       null
     ],
@@ -12780,6 +13763,7 @@
       "呼！我的条纹都还在。",
       "Whew! Still got all my stripes.",
       null,
+      null,
       null
     ],
     [
@@ -12792,6 +13776,7 @@
       "Respawn",
       "少了一条命，还有好多条！",
       "One life down, plenty more to go!",
+      null,
       null,
       null
     ],
@@ -12806,6 +13791,7 @@
       "永远别招惹大虎。",
       "Never mess with a big cat.",
       null,
+      null,
       null
     ],
     [
@@ -12818,6 +13804,7 @@
       "Revenge",
       "现在谁才是濒危动物？",
       "Now who's endangered?",
+      null,
       null,
       null
     ],
@@ -12832,6 +13819,7 @@
       "大虎救你一命。",
       "Saved by the tiger.",
       null,
+      null,
       null
     ],
     [
@@ -12844,6 +13832,7 @@
       "Teammate/Rescue",
       "（韩语）：山君保佑你！",
       "(Korean): The mountain spirit's got your back!",
+      null,
       null,
       null
     ],
@@ -12858,6 +13847,7 @@
       "正在启动饿虎扑食程序！",
       "Activating tiger strike sequence!",
       null,
+      null,
       null
     ],
     [
@@ -12870,6 +13860,7 @@
       "Ultimate",
       "这太威风了！",
       "Cage this!",
+      null,
       null,
       null
     ],
@@ -12884,6 +13875,7 @@
       "别叫我“小猫咪”。",
       "Don't call me \"kitty\".",
       null,
+      null,
       null
     ],
     [
@@ -12896,6 +13888,7 @@
       "Unknown/1172.078",
       "好好欣赏刚才的猛虎镜头吧！",
       "Enjoy that catcam!",
+      null,
       null,
       null
     ],
@@ -12910,6 +13903,7 @@
       "全力一跳！",
       "Leaping in!",
       null,
+      null,
       null
     ],
     [
@@ -12922,6 +13916,7 @@
       "Unknown/479.078",
       "大虎，快来！",
       "C'mere, tiger!",
+      null,
       null,
       null
     ],
@@ -12936,6 +13931,7 @@
       "（韩语）：猛虎之魂，启动！",
       "(Korean): Tiger spirit, booting up!",
       null,
+      null,
       null
     ],
     [
@@ -12948,6 +13944,7 @@
       "Unknown/479.078",
       "（韩语）：上吧，猛虎！",
       "(Korean): Let's go, Horang!",
+      null,
       null,
       null
     ],
@@ -12962,6 +13959,7 @@
       "大型猛虎已现身！",
       "Calling in the big cat!",
       null,
+      null,
       null
     ],
     [
@@ -12975,7 +13973,8 @@
       "新的条纹，新的我！",
       "New stripes, new me!",
       null,
-      0.5
+      0.5,
+      null
     ],
     [
       "HeroQuote",
@@ -12987,6 +13986,7 @@
       "Unknown/497.078",
       "得夹尾巴了！",
       "Turning tail!",
+      null,
       null,
       null
     ],
@@ -13001,6 +14001,7 @@
       "大虎已损坏！",
       "Tiger compromised!",
       null,
+      null,
       null
     ],
     [
@@ -13013,6 +14014,7 @@
       "Unknown/49D.078",
       "狩猎开始！",
       "The hunt is on!",
+      null,
       null,
       null
     ],
@@ -13027,6 +14029,7 @@
       "IMBA的海浪来了！",
       "Surf this!",
       null,
+      null,
       null
     ],
     [
@@ -13039,6 +14042,7 @@
       "Elimination",
       "这是最后一次警告。",
       "That was your last warning.",
+      null,
       null,
       null
     ],
@@ -13053,6 +14057,7 @@
       "这是你的罚单。",
       "You're going to get a parking ticket.",
       null,
+      null,
       null
     ],
     [
@@ -13065,6 +14070,7 @@
       "HeroChange",
       "D.Va报到！",
       "D.Va reporting in!",
+      null,
       null,
       null
     ],
@@ -13079,6 +14085,7 @@
       "水平一般。",
       "Mediocre.",
       null,
+      null,
       null
     ],
     [
@@ -13092,6 +14099,7 @@
       "听到了吗，宝贝儿？坚持住。",
       "You hear me, baby? Hold together.",
       null,
+      null,
       null
     ],
     [
@@ -13104,6 +14112,7 @@
       "Revenge",
       "还记得我么？",
       "Remember me?",
+      null,
       null,
       null
     ]

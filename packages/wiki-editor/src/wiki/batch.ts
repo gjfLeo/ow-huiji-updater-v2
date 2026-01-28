@@ -1,6 +1,8 @@
 import type { WikiLoginOptions } from "./login";
+import path from "node:path";
 import { confirm } from "@inquirer/prompts";
 import chalk from "chalk";
+import destr from "destr";
 import { logger, spinner, spinnerProgress } from "../utils/logger";
 import { wikiLogin } from "./login";
 
@@ -46,18 +48,50 @@ export async function wikiBatchEdit(
   pages: Record<string, string>,
   options: {
     formatter?: (content: string) => string;
+    compareByJson?: boolean;
     summary: string;
     readBatchSize?: number;
+    replaceBy?: { namespace?: number; prefix?: string };
   },
 ) {
   const {
     formatter = content => content,
+    compareByJson = false,
     summary,
     readBatchSize = 50,
+    replaceBy,
   } = options;
 
   const wiki = await wikiLogin({ userType: "bot" });
   const pageTitles = Object.keys(pages);
+
+  if (replaceBy) {
+    const pagesToDelete: string[] = [];
+    const allPages = await wiki.apiQueryListAllPages(replaceBy);
+    allPages?.query.allpages.forEach((page) => {
+      if (!pages[page.title]) {
+        pagesToDelete.push(page.title);
+      }
+    });
+    if (pagesToDelete.length) {
+      logger.warn(`以下${pagesToDelete.length}个页面需要删除：`);
+      pagesToDelete.forEach((pageTitle) => {
+        logger.info(`  ${pageTitle}`);
+      });
+      const confirmDelete = await confirm({ message: "是否确认删除？", default: false });
+      if (!confirmDelete) {
+        logger.infoGray("已取消");
+        return;
+      }
+      spinnerProgress.start("删除页面", pagesToDelete.length);
+      for (const pageTitle of pagesToDelete) {
+        await wiki.apiDelete(pageTitle);
+        await Bun.sleep(1000);
+        spinnerProgress.increment();
+      }
+      spinner.succeed();
+    }
+  }
 
   const pagesChanged: string[] = [];
   const pagesChangedOldContent: Record<string, string> = {};
@@ -75,20 +109,23 @@ export async function wikiBatchEdit(
       const wikiTitle = title.replaceAll("_", " ");
       const oldContent = batchPages[wikiTitle]?.content;
       const newContent = pages[title]!;
-      if (oldContent && formatter(oldContent).normalize("NFC") === formatter(newContent).normalize("NFC")) {
-        return;
+      if (oldContent) {
+        if (compareByJson) {
+          if (Bun.deepEquals(destr(oldContent), destr(newContent))) {
+            return;
+          }
+        }
+        else {
+          if (formatter(oldContent).normalize("NFC") === formatter(newContent).normalize("NFC")) {
+            return;
+          }
+        }
       }
       pagesChanged.push(title);
       pagesChangedNewContent[title] = newContent;
 
       if (oldContent) {
         pagesChangedOldContent[title] = oldContent;
-        // writeFilePromises.push(
-        //   writeFile(`./output/temp/batchEditCompare/${title.replaceAll(/[:/]/g, "_")}`, newContent),
-        // );
-        // writeFilePromises.push(
-        //   writeFile(`./output/temp/batchEditCompare/${title.replaceAll(/[:/]/g, "_")}_old`, oldContent),
-        // );
       }
     });
     await new Promise(resolve => setTimeout(resolve, 1000));
@@ -110,17 +147,25 @@ export async function wikiBatchEdit(
     logger.infoGray(`...共${pagesChanged.length - 10}个页面未显示`);
   }
 
-  const confirmUpload = await confirm({ message: "是否上传至Wiki？", default: false });
+  const confirmUpload = await confirm({ message: "是否确认上传？", default: false });
   if (!confirmUpload) {
     const showCompare = await confirm({ message: "是否显示一条对比？", default: false });
     if (showCompare) {
       console.info(chalk.bgRed(pagesChangedOldContent[pagesChanged[0]!]));
       console.info(chalk.bgGreen(pagesChangedNewContent[pagesChanged[0]!]));
+      await Bun.write(
+        path.join(__dirname, "../../output/temp/batchEditCompare-old"),
+        pagesChangedOldContent[pagesChanged[0]!]!,
+      );
+      await Bun.write(
+        path.join(__dirname, "../../output/temp/batchEditCompare-new"),
+        pagesChangedNewContent[pagesChanged[0]!]!,
+      );
     }
     return;
   }
 
-  spinnerProgress.start("上传至Wiki", pagesChanged.length);
+  spinnerProgress.start("上传页面", pagesChanged.length);
   const noChangePages: string[] = [];
   for (const title of pagesChanged) {
     const { edit, error } = await wiki.editPage(
@@ -133,13 +178,11 @@ export async function wikiBatchEdit(
       console.error(error);
       process.exit(1);
     }
-    else {
-      if (edit.nochange !== undefined) {
-        noChangePages.push(title);
-      }
-      spinnerProgress.increment();
-      await new Promise(resolve => setTimeout(resolve, 1000));
+    if (edit.nochange !== undefined) {
+      noChangePages.push(title);
     }
+    await Bun.sleep(1000);
+    spinnerProgress.increment();
   }
   spinnerProgress.succeed();
   if (noChangePages.length) {

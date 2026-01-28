@@ -20,7 +20,9 @@ export default async function heroQuotesDataUpload() {
       const data = await Bun.file(path.join(dataDir, file)).json() as WikiHeroQuote;
       singleData[data.fileId] = data;
     }
+    spinnerProgress.increment();
   }
+  spinnerProgress.succeed();
 
   const pages = Object.fromEntries([
     ...Object.entries(tabxData).map(([heroKey, content]) => {
@@ -34,6 +36,8 @@ export default async function heroQuotesDataUpload() {
   ]);
   await wikiBatchEdit(pages, {
     summary: "更新英雄语音数据（ow-huiji-updater）",
+    // compareByJson: true,
     readBatchSize: 10,
+    replaceBy: { namespace: 3500, prefix: "HeroQuotes/" },
   });
 }

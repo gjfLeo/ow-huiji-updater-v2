@@ -4,9 +4,9 @@
   "fileId_n": 407464,
   "hero": "kiriko",
   "heroName": "雾子",
-  "category": "MatchTalk",
   "subtitle": "看，妈妈。我现在是“守望先锋”特工了。",
   "subtitle_en": "Look, Mom. I'm an Overwatch agent.",
+  "category": "MatchTalk",
   "criteria": "{\"type\":\"nested\",\"total\":11,\"needed\":4,\"conditions\":[{\"type\":\"withHero\",\"hero\":\"安娜\"},{\"type\":\"withHero\",\"hero\":\"天使\"},{\"type\":\"withHero\",\"hero\":\"索杰恩\"},{\"type\":\"withHero\",\"hero\":\"猎空\"},{\"type\":\"withHero\",\"hero\":\"温斯顿\"},{\"type\":\"withHero\",\"hero\":\"士兵：76\"},{\"type\":\"withHero\",\"hero\":\"回声\"},{\"type\":\"withHero\",\"hero\":\"源氏\"},{\"type\":\"withHero\",\"hero\":\"卡西迪\"},{\"type\":\"withHero\",\"hero\":\"美\"},{\"type\":\"withHero\",\"hero\":\"莱因哈特\"}]}",
   "weight": 0.85
 }

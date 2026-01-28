@@ -201,6 +201,7 @@ export const HeroQuoteHeroNameMap: Record<string, string> = {
   轰击者: "轰击者",
   切割者: "切割者",
   抑制者: "抑制者",
+  电击轮胎: "电击轮胎",
 
   鲍勃: "鲍勃",
   UnknownF5: "猎空",

@@ -95,7 +95,8 @@ export default async function executeDataToolOnce() {
       [`--out=${path.join(outputPath, "json/subtitles.json")}`, "--json"],
     ],
     "list-subtitles-real": [
-      [`--out=${path.join(outputPath, "json/subtitles-real.json")}`, "--json"],
+      [],
+      ["--language=enUS"],
     ],
     "list-talents": [
       [`--out=${path.join(outputPath, "json/talents.json")}`, "--json"],
@@ -164,7 +165,7 @@ export default async function executeDataToolOnce() {
       [path.join(outputPath, "extract"), "--subtitles-with-sounds", "--skip-sound"],
     ],
     "extract-hero-voice": [
-      [path.join(outputPath, "extract"), "--subtitles-with-sounds", "--skip-sound"],
+      [path.join(outputPath, "extract"), "--voice-group-by-skin", "--subtitles-with-sounds", "--skip-sound"],
     ],
     "extract-npc-voice": [
       [path.join(outputPath, "extract"), "--subtitles-with-sounds", "--skip-sound"],
@@ -183,8 +184,9 @@ export default async function executeDataToolOnce() {
   });
 
   for (const operation of operations) {
-    const logFile = Bun.file(path.join(outputPath, `logs/${operation}.log`));
+    let index = 1;
     for (const singleCommandArgs of operationArgs[operation]) {
+      const logFile = Bun.file(path.join(outputPath, `logs/${operation}-${index++}.log`));
       await handleExecute(logFile, operation, ...singleCommandArgs);
     }
   }

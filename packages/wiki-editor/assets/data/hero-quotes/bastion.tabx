@@ -77,6 +77,13 @@
         "title": {
           "en": "weight"
         }
+      },
+      {
+        "name": "conversations",
+        "type": "string",
+        "title": {
+          "en": "conversations[]"
+        }
       }
     ]
   },
@@ -92,6 +99,7 @@
       "（表示赞同的哔哔声）",
       "(affirmative beeps)",
       null,
+      null,
       null
     ],
     [
@@ -104,6 +112,7 @@
       "Armor",
       "（询问的哔哔声）",
       "(asking beeps)",
+      null,
       null,
       null
     ],
@@ -118,6 +127,7 @@
       "（恳求的哔哔声）",
       "(pleading beeps)",
       null,
+      null,
       null
     ],
     [
@@ -130,6 +140,7 @@
       "BehindYou",
       "（示警的哔哔声）",
       "(warning beep)",
+      null,
       null,
       null
     ],
@@ -144,6 +155,7 @@
       "（示警的哔哔声）",
       "(warning beep)",
       null,
+      null,
       null
     ],
     [
@@ -156,6 +168,7 @@
       "Bye",
       "（再见的哔哔声）",
       "(goodbye beeps)",
+      null,
       null,
       null
     ],
@@ -170,6 +183,7 @@
       "（激进的哔哔声）",
       "(aggressive beeps)",
       null,
+      null,
       null
     ],
     [
@@ -182,6 +196,7 @@
       "CloseCall",
       "（如释重负的哔哔声）",
       "(relieved beeps)",
+      null,
       null,
       null
     ],
@@ -196,6 +211,7 @@
       "（倒计时的哔哔声）",
       "(countdown beeps)",
       null,
+      null,
       null
     ],
     [
@@ -208,6 +224,7 @@
       "CTF/CapturedFlag",
       "（欢欣鼓舞的哔哔声）",
       "(triumphant beeps)",
+      null,
       null,
       null
     ],
@@ -222,6 +239,7 @@
       "（发号施令）",
       "(commanding)",
       null,
+      null,
       null
     ],
     [
@@ -234,6 +252,7 @@
       "CTF/DefendFlag",
       "（命令式的哔哔声）",
       "(commanding beeps)",
+      null,
       null,
       null
     ],
@@ -248,6 +267,7 @@
       "（沮丧的哔哔声）",
       "(disappointed beeps)",
       null,
+      null,
       null
     ],
     [
@@ -260,6 +280,7 @@
       "CTF/EnemyCapturedFlag",
       "（愤怒的哔哔声）",
       "(angry beeps)",
+      null,
       null,
       null
     ],
@@ -274,6 +295,7 @@
       "（持续的哔哔声）",
       "(insistent beeps)",
       null,
+      null,
       null
     ],
     [
@@ -286,6 +308,7 @@
       "CTF/EnemyTakenFlag",
       "（愤怒的哔哔声）",
       "(angry beeps)",
+      null,
       null,
       null
     ],
@@ -300,6 +323,7 @@
       "（嗡鸣的哔哔声）",
       "(humming beeps)",
       null,
+      null,
       null
     ],
     [
@@ -312,6 +336,7 @@
       "CTF/PickedUpFlag",
       "（调皮的哔哔声）",
       "(mischievous beeps)",
+      null,
       null,
       null
     ],
@@ -326,6 +351,7 @@
       "（命令式的哔哔声）",
       "(commanding beeps)",
       null,
+      null,
       null
     ],
     [
@@ -338,6 +364,7 @@
       "DamageBoosted",
       "（有力的哔哔声）",
       "(strong beep)",
+      null,
       null,
       null
     ],
@@ -352,6 +379,7 @@
       "（垂死之声）",
       "(dying sounds)",
       "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      null,
       null
     ],
     [
@@ -365,6 +393,7 @@
       "（垂死之声）",
       "(dying sounds)",
       "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      null,
       null
     ],
     [
@@ -378,6 +407,7 @@
       "（垂死之声）",
       "(dying sounds)",
       "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      null,
       null
     ],
     [
@@ -391,6 +421,7 @@
       "（垂死之声）",
       "(dying sounds)",
       "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      null,
       null
     ],
     [
@@ -404,6 +435,7 @@
       "（垂死之声）",
       "(dying sounds)",
       "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      null,
       null
     ],
     [
@@ -417,6 +449,7 @@
       "（垂死之声）",
       "(dying sounds)",
       "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      null,
       null
     ],
     [
@@ -430,6 +463,7 @@
       "（遭受重压的声音）",
       "(crushed sounds)",
       "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      null,
       null
     ],
     [
@@ -443,6 +477,7 @@
       "（遭受重压的声音）",
       "(crushed sounds)",
       "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      null,
       null
     ],
     [
@@ -456,6 +491,7 @@
       "（大叫）",
       "(screams)",
       "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      null,
       null
     ],
     [
@@ -469,6 +505,7 @@
       "（大叫）",
       "(screams)",
       "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      null,
       null
     ],
     [
@@ -482,6 +519,7 @@
       "（大叫）",
       "(screams)",
       "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      null,
       null
     ],
     [
@@ -495,6 +533,7 @@
       "（大叫）",
       "(screams)",
       "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      null,
       null
     ],
     [
@@ -507,6 +546,7 @@
       "Disagreement",
       "（表示不同意的哔哔声）",
       "(disagreeing beep)",
+      null,
       null,
       null
     ],
@@ -521,6 +561,7 @@
       "（懊恼的哔哔声）",
       "(frustrated beep)",
       null,
+      null,
       null
     ],
     [
@@ -533,6 +574,7 @@
       "EliminateTarget",
       "（激进的哔哔声）",
       "(aggressive beeps)",
+      null,
       null,
       null
     ],
@@ -547,6 +589,7 @@
       "（大笑的哔哔声）",
       "(laughing beeps)",
       null,
+      null,
       null
     ],
     [
@@ -559,6 +602,7 @@
       "Elimination",
       "（满意的哔哔声）",
       "(satisfied beeps)",
+      null,
       null,
       null
     ],
@@ -573,6 +617,7 @@
       "（惊讶的哔哔声）",
       "(surprised beeps)",
       null,
+      null,
       null
     ],
     [
@@ -585,6 +630,7 @@
       "Elimination",
       "（阴险且满足的哔哔声）",
       "(grim, satisfied beeps)",
+      null,
       null,
       null
     ],
@@ -599,6 +645,7 @@
       "（惊讶的哔哔声）",
       "(surprised beeps)",
       null,
+      null,
       null
     ],
     [
@@ -611,6 +658,7 @@
       "Elimination",
       "（大笑的哔哔声）",
       "(laughing beeps)",
+      null,
       null,
       null
     ],
@@ -625,7 +673,8 @@
       "（大笑的哔哔声）",
       "(laughing beeps)",
       null,
-      0.05
+      0.05,
+      null
     ],
     [
       "HeroQuote",
@@ -638,7 +687,8 @@
       "（惊讶的哔哔声）",
       "(surprised beeps)",
       null,
-      0.05
+      0.05,
+      null
     ],
     [
       "HeroQuote",
@@ -651,7 +701,8 @@
       "（阴险且满足的哔哔声）",
       "(grim, satisfied beeps)",
       null,
-      0.05
+      0.05,
+      null
     ],
     [
       "HeroQuote",
@@ -664,7 +715,8 @@
       "（大笑的哔哔声）",
       "(laughing beeps)",
       null,
-      0.05
+      0.05,
+      null
     ],
     [
       "HeroQuote",
@@ -677,7 +729,8 @@
       "（阴险且满足的哔哔声）",
       "(grim, satisfied beeps)",
       null,
-      0.05
+      0.05,
+      null
     ],
     [
       "HeroQuote",
@@ -690,7 +743,8 @@
       "（轻笑）",
       "(chuckles)",
       null,
-      0.05
+      0.05,
+      null
     ],
     [
       "HeroQuote",
@@ -703,7 +757,8 @@
       "（大笑的哔哔声）",
       "(laughing beeps)",
       null,
-      0.05
+      0.05,
+      null
     ],
     [
       "HeroQuote",
@@ -716,7 +771,8 @@
       "（满足的哔哔声）",
       "(satisfied beep)",
       null,
-      0.05
+      0.05,
+      null
     ],
     [
       "HeroQuote",
@@ -729,7 +785,8 @@
       "（惊讶的哔哔声）",
       "(surprised beep)",
       null,
-      0.05
+      0.05,
+      null
     ],
     [
       "HeroQuote",
@@ -742,7 +799,8 @@
       "（大笑的哔哔声）",
       "(laughing beeps)",
       null,
-      0.01
+      0.01,
+      null
     ],
     [
       "HeroQuote",
@@ -755,7 +813,8 @@
       "（大笑的哔哔声）",
       "(laughing beeps)",
       null,
-      0.01
+      0.01,
+      null
     ],
     [
       "HeroQuote",
@@ -768,6 +827,7 @@
       "（伤心的哔哔声）",
       "(sad beeps)",
       "{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"托比昂\"},{\"type\":\"toHero\",\"hero\":\"布丽吉塔\"}]}",
+      null,
       null
     ],
     [
@@ -781,6 +841,7 @@
       "（学舌的哔哔声）",
       "(imitating beeps)",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"法老之鹰\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
+      null,
       null
     ],
     [
@@ -794,6 +855,7 @@
       "（学舌的哔哔声）",
       "(imitating beeps)",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"卡西迪\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
+      null,
       null
     ],
     [
@@ -807,6 +869,7 @@
       "（疑惑的哔哔声）",
       "(confused beeps)",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"莱因哈特\"},{\"type\":\"scripted\",\"script\":\"0092A4\",\"scriptDesc\":\"敌方莱因哈特冲锋\"}]}",
+      null,
       null
     ],
     [
@@ -820,6 +883,7 @@
       "（学舌的哔哔声）",
       "(imitating beeps)",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"死神\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
+      null,
       null
     ],
     [
@@ -833,7 +897,8 @@
       "（骄傲的哔哔声）",
       "(proud beeps)",
       "{\"type\":\"scripted\",\"script\":\"009227\",\"scriptDesc\":\"暴击\"}",
-      0.7
+      0.7,
+      null
     ],
     [
       "HeroQuote",
@@ -846,7 +911,8 @@
       "（嘲讽的哔哔声）",
       "(sarcastic beeps)",
       "{\"type\":\"toHero\",\"hero\":\"士兵：76\"}",
-      0.5
+      0.5,
+      null
     ],
     [
       "HeroQuote",
@@ -858,6 +924,7 @@
       "EnemyResurrect",
       "（示警的哔哔声）",
       "(warning beeps)",
+      null,
       null,
       null
     ],
@@ -872,6 +939,7 @@
       "（示警的哔哔声）",
       "(warning beeps)",
       null,
+      null,
       null
     ],
     [
@@ -884,6 +952,7 @@
       "EnemyResurrect",
       "（示警的哔哔声）",
       "(warning beep)",
+      null,
       null,
       null
     ],
@@ -898,6 +967,7 @@
       "（示警的哔哔声）",
       "(warning beeps)",
       null,
+      null,
       null
     ],
     [
@@ -910,6 +980,7 @@
       "EnemySeen",
       "（危险的哔哔声）",
       "(dangerous beeps)",
+      null,
       null,
       null
     ],
@@ -924,6 +995,7 @@
       "（示警的哔哔声）",
       "(warning beeps)",
       null,
+      null,
       null
     ],
     [
@@ -936,6 +1008,7 @@
       "Fallback",
       "（忧虑的哔哔声）",
       "(worried beep)",
+      null,
       null,
       null
     ],
@@ -950,6 +1023,7 @@
       "（命令式的哔哔声）",
       "(commanding beep)",
       null,
+      null,
       null
     ],
     [
@@ -962,6 +1036,7 @@
       "GetOutOfThere",
       "（示警的哔哔声）",
       "(warning beeps)",
+      null,
       null,
       null
     ],
@@ -976,6 +1051,7 @@
       "（命令式的哔哔声）",
       "(commanding beeps)",
       null,
+      null,
       null
     ],
     [
@@ -988,6 +1064,7 @@
       "GoingIn",
       "（激动的哔哔声）",
       "(excited beeps)",
+      null,
       null,
       null
     ],
@@ -1002,6 +1079,7 @@
       "（命令式的哔哔声）",
       "(commanding beeps)",
       null,
+      null,
       null
     ],
     [
@@ -1014,6 +1092,7 @@
       "GroupUp",
       "（命令式的哔哔声）",
       "(commanding beeps)",
+      null,
       null,
       null
     ],
@@ -1028,6 +1107,7 @@
       "（受伤的伤心哔哔声）",
       "(sad, hurt beeps)",
       null,
+      null,
       null
     ],
     [
@@ -1040,6 +1120,7 @@
       "Healing",
       "（受伤的伤心哔哔声）",
       "(sad, hurt beeps)",
+      null,
       null,
       null
     ],
@@ -1054,6 +1135,7 @@
       "（倒吸气）",
       "(gasps)",
       "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      null,
       null
     ],
     [
@@ -1066,6 +1148,7 @@
       "HealthPack",
       "（如释重负的哔哔声）",
       "(relieved beep)",
+      null,
       null,
       null
     ],
@@ -1080,6 +1163,7 @@
       "（如释重负的哔哔声）",
       "(relieved beep)",
       null,
+      null,
       null
     ],
     [
@@ -1092,6 +1176,7 @@
       "HealthPack",
       "（如释重负的哔哔声）",
       "(relieved beep)",
+      null,
       null,
       null
     ],
@@ -1106,6 +1191,7 @@
       "（温柔的咕噜声）",
       "(affectionate beeps)",
       null,
+      null,
       null
     ],
     [
@@ -1118,6 +1204,7 @@
       "Hello",
       "（欢快地问候）",
       "(cheerful greeting)",
+      null,
       null,
       null
     ],
@@ -1132,6 +1219,7 @@
       "（问候）",
       "(greeting)",
       null,
+      null,
       null
     ],
     [
@@ -1145,7 +1233,8 @@
       "（欢快地问候）",
       "(cheerful greeting)",
       null,
-      0.2
+      0.2,
+      null
     ],
     [
       "HeroQuote",
@@ -1157,6 +1246,7 @@
       "HeroChange",
       "（音调上扬的问候）",
       "(upbeat greeting)",
+      null,
       null,
       null
     ],
@@ -1171,6 +1261,7 @@
       "（思索的哔哔声）",
       "(thoughtful beeps)",
       null,
+      null,
       null
     ],
     [
@@ -1184,6 +1275,7 @@
       "（思索的哔哔声）",
       "(thoughtful beeps)",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -1196,6 +1288,7 @@
       "ImAttacking",
       "（激进的哔哔声）",
       "(aggressive beeps)",
+      null,
       null,
       null
     ],
@@ -1210,6 +1303,7 @@
       "（激进的哔哔声）",
       "(aggressive beeps)",
       null,
+      null,
       null
     ],
     [
@@ -1222,6 +1316,7 @@
       "ImReady",
       "（做好准备的哔哔声）",
       "(ready beep)",
+      null,
       null,
       null
     ],
@@ -1236,6 +1331,7 @@
       "（温柔的哔哔声）",
       "(affectionate beeps)",
       null,
+      null,
       null
     ],
     [
@@ -1248,6 +1344,7 @@
       "Incoming",
       "（示警的哔哔声）",
       "(warning beeps)",
+      null,
       null,
       null
     ],
@@ -1262,6 +1359,7 @@
       "（垂死的伤心哔哔声）",
       "(sad, dying beeps)",
       null,
+      null,
       null
     ],
     [
@@ -1274,6 +1372,7 @@
       "InjuredCallout",
       "（受伤的哔哔声）",
       "(injured beeps)",
+      null,
       null,
       null
     ],
@@ -1288,6 +1387,7 @@
       "（受伤的哔哔声）",
       "(injured beeps)",
       null,
+      null,
       null
     ],
     [
@@ -1300,6 +1400,7 @@
       "Karaoke",
       "（卡拉OK）",
       "(karaoke beeps)",
+      null,
       null,
       null
     ],
@@ -1314,6 +1415,7 @@
       "（BBox的哔哔声）",
       "(beep-boxing)",
       null,
+      null,
       null
     ],
     [
@@ -1326,6 +1428,7 @@
       "Karaoke",
       "（有节奏的哔哔声）",
       "(rhythmic beeps)",
+      null,
       null,
       null
     ],
@@ -1340,6 +1443,7 @@
       "（说唱的哔哔声）",
       "(rapping beeps)",
       null,
+      null,
       null
     ],
     [
@@ -1352,6 +1456,7 @@
       "KillStreak",
       "（骄傲的哔哔声）",
       "(proud beeps)",
+      null,
       null,
       null
     ],
@@ -1366,6 +1471,7 @@
       "（惊叹的哔哔声）",
       "(awed beeps)",
       null,
+      null,
       null
     ],
     [
@@ -1379,7 +1485,8 @@
       "（惊叹的哔哔声）",
       "(awed beeps)",
       null,
-      0.1
+      0.1,
+      null
     ],
     [
       "HeroQuote",
@@ -1391,6 +1498,7 @@
       "Laugh",
       "（大笑）",
       "(laughs)",
+      null,
       null,
       null
     ],
@@ -1405,6 +1513,7 @@
       "（大笑）",
       "(laughs)",
       null,
+      null,
       null
     ],
     [
@@ -1417,6 +1526,7 @@
       "LevelUp",
       "(happy, pleased)",
       "(triumphant beeps)",
+      null,
       null,
       null
     ],
@@ -1431,6 +1541,7 @@
       "(happy, pleased)",
       "(triumphant beeps)",
       null,
+      null,
       null
     ],
     [
@@ -1443,6 +1554,7 @@
       "LookingAtEarth",
       "（惊奇的哔哔声）",
       "(amazed beeps)",
+      null,
       null,
       null
     ],
@@ -1457,6 +1569,7 @@
       "（振奋的哔哔声）",
       "(galvanizing beeps)",
       null,
+      null,
       null
     ],
     [
@@ -1469,6 +1582,7 @@
       "MatchStartTalk",
       "（决心坚定的哔哔声）",
       "(determined beep)",
+      null,
       null,
       null
     ],
@@ -1483,7 +1597,8 @@
       "（决心坚定的哔哔声）",
       "(determined beep)",
       null,
-      0.01
+      0.01,
+      null
     ],
     [
       "HeroQuote",
@@ -1495,6 +1610,7 @@
       "MatchTalk",
       "（口哨式的哔哔声）",
       "(whistling beeps)",
+      null,
       null,
       null
     ],
@@ -1509,6 +1625,7 @@
       "（满足的嗡鸣）",
       "(satisfied beeps)",
       null,
+      null,
       null
     ],
     [
@@ -1522,7 +1639,8 @@
       "（振奋的哔哔声）",
       "(encouraging beep)",
       null,
-      null
+      null,
+      "000000000244.0D0#2"
     ],
     [
       "HeroQuote",
@@ -1535,7 +1653,8 @@
       "（恼怒的哔哔声）",
       "(annoyed beeps)",
       null,
-      null
+      null,
+      "000000000327.0D0#2"
     ],
     [
       "HeroQuote",
@@ -1548,7 +1667,8 @@
       "（困惑的哔哔声）",
       "(quizzical beeps)",
       null,
-      null
+      null,
+      "000000000317.0D0#2"
     ],
     [
       "HeroQuote",
@@ -1561,7 +1681,8 @@
       "（害怕、呜咽般的哔哔声）",
       "(scared, whimpering beeps)",
       null,
-      null
+      null,
+      "000000000323.0D0#2"
     ],
     [
       "HeroQuote",
@@ -1574,7 +1695,8 @@
       "（模仿托比昂）",
       "(Torbjörn impression)",
       null,
-      null
+      null,
+      "0000000002A3.0D0#2"
     ],
     [
       "HeroQuote",
@@ -1587,7 +1709,8 @@
       "（伤心的哔哔声）",
       "(sad beeps)",
       null,
-      null
+      null,
+      "00000000023A.0D0#1"
     ],
     [
       "HeroQuote",
@@ -1600,7 +1723,8 @@
       "（气愤的哔哔声）",
       "(huffy beeps)",
       null,
-      null
+      null,
+      "0000000002E4.0D0#2"
     ],
     [
       "HeroQuote",
@@ -1613,7 +1737,8 @@
       "（惊讶地否认）",
       "(surprised denial)",
       null,
-      null
+      null,
+      "0000000002BF.0D0#2"
     ],
     [
       "HeroQuote",
@@ -1626,7 +1751,8 @@
       "（惊讶的哔哔声）",
       "(impressed beeps)",
       null,
-      null
+      null,
+      "000000000239.0D0#1"
     ],
     [
       "HeroQuote",
@@ -1639,7 +1765,8 @@
       "（害怕的哔哔声）",
       "(scared beeps)",
       null,
-      null
+      null,
+      "000000000323.0D0#2"
     ],
     [
       "HeroQuote",
@@ -1652,7 +1779,8 @@
       "（困惑的哔哔声）",
       "(quizzical beep)",
       null,
-      null
+      null,
+      "000000000322.0D0#2"
     ],
     [
       "HeroQuote",
@@ -1665,7 +1793,8 @@
       "（困惑的哔哔声）",
       "(quizzical beep)",
       null,
-      null
+      null,
+      "000000000321.0D0#2"
     ],
     [
       "HeroQuote",
@@ -1678,7 +1807,8 @@
       "（恼怒的哔哔声）",
       "(annoyed beeps)",
       null,
-      null
+      null,
+      "000000000328.0D0#2"
     ],
     [
       "HeroQuote",
@@ -1691,7 +1821,8 @@
       "（骄傲的哔哔声）",
       "(proud beeps)",
       null,
-      null
+      null,
+      "0000000009F4.0D0#2"
     ],
     [
       "HeroQuote",
@@ -1704,7 +1835,8 @@
       "（羞怯的哔哔声）",
       "(sheepish beeps)",
       null,
-      null
+      null,
+      "000000000A1C.0D0#2"
     ],
     [
       "HeroQuote",
@@ -1717,7 +1849,8 @@
       "（解释的哔哔声）",
       "(explanatory beeps)",
       null,
-      null
+      null,
+      "000000000A62.0D0#2"
     ],
     [
       "HeroQuote",
@@ -1730,7 +1863,8 @@
       "（托比昂式的粗哑哔哔声）",
       "(gruff, Torbjörn-inspired beeps)",
       null,
-      null
+      null,
+      "000000000377.0D0#1"
     ],
     [
       "HeroQuote",
@@ -1743,7 +1877,8 @@
       "（好奇的哔哔声）",
       "(inquisitive beeps)",
       null,
-      null
+      null,
+      "0000000007F7.0D0#2"
     ],
     [
       "HeroQuote",
@@ -1756,7 +1891,8 @@
       "（骄傲的哔哔声）",
       "(proud beeps)",
       null,
-      null
+      null,
+      "0000000007F7.0D0#4"
     ],
     [
       "HeroQuote",
@@ -1769,7 +1905,8 @@
       "（“别担心”的哔哔声）",
       "(Cheersful beeps)",
       null,
-      null
+      null,
+      "000000000AFE.0D0#1"
     ],
     [
       "HeroQuote",
@@ -1782,7 +1919,8 @@
       "（迟疑的哔哔声）",
       "(hesitant beeps)",
       null,
-      null
+      null,
+      "000000000A8B.0D0#2"
     ],
     [
       "HeroQuote",
@@ -1795,7 +1933,8 @@
       "（大象似的哔哔声）",
       "(elephant-esque beeps)",
       null,
-      null
+      null,
+      "000000000BF6.0D0#2"
     ],
     [
       "HeroQuote",
@@ -1808,7 +1947,8 @@
       "（伤心的哔哔声）",
       "(sad beeps)",
       null,
-      null
+      null,
+      "000000000BFB.0D0#1"
     ],
     [
       "HeroQuote",
@@ -1821,7 +1961,8 @@
       "（感激的哔哔声）",
       "(grateful beeps)",
       null,
-      null
+      null,
+      "000000000BFB.0D0#3"
     ],
     [
       "HeroQuote",
@@ -1833,6 +1974,7 @@
       "MatchTalk",
       "（沉思的哔哔声）",
       "(reflective beeps)",
+      null,
       null,
       null
     ],
@@ -1847,7 +1989,8 @@
       "（BBox的哔哔声）",
       "(beep boxing)",
       null,
-      null
+      null,
+      "000000000C43.0D0#2"
     ],
     [
       "HeroQuote",
@@ -1860,7 +2003,8 @@
       "（着迷的哔哔声）",
       "(fascinated beeps)",
       null,
-      null
+      null,
+      "000000000C49.0D0#3"
     ],
     [
       "HeroQuote",
@@ -1873,7 +2017,8 @@
       "（好奇的哔哔声）",
       "(curious beeps)",
       null,
-      null
+      null,
+      "000000000C49.0D0#1"
     ],
     [
       "HeroQuote",
@@ -1886,7 +2031,8 @@
       "（勇猛的哔哔声）",
       "(spirited beeps)",
       null,
-      null
+      null,
+      "000000000C42.0D0#2"
     ],
     [
       "HeroQuote",
@@ -1899,7 +2045,8 @@
       "（忧虑的哔哔声）",
       "(worried beeps)",
       null,
-      null
+      null,
+      "000000000C0B.0D0#2"
     ],
     [
       "HeroQuote",
@@ -1912,7 +2059,8 @@
       "（如释重负的哔哔声）",
       "(relieved beeps)",
       null,
-      null
+      null,
+      "000000000C0B.0D0#4"
     ],
     [
       "HeroQuote",
@@ -1925,7 +2073,8 @@
       "（兴奋而滔滔不绝的哔哔声）",
       "(excited, talkative beeps)",
       null,
-      null
+      null,
+      "000000000C17.0D0#2"
     ],
     [
       "HeroQuote",
@@ -1938,7 +2087,8 @@
       "（沮丧的哔哔声）",
       "(disappointed beeps)",
       null,
-      null
+      null,
+      "000000000B81.0D0#2"
     ],
     [
       "HeroQuote",
@@ -1951,7 +2101,8 @@
       "（遗憾的哔哔声）",
       "(regretful beeps)",
       null,
-      null
+      null,
+      "000000000BD0.0D0#2"
     ],
     [
       "HeroQuote",
@@ -1964,7 +2115,8 @@
       "（惊恐的哔哔声）",
       "(panicky beeps)",
       null,
-      null
+      null,
+      "000000000AE3.0D0#4"
     ],
     [
       "HeroQuote",
@@ -1977,7 +2129,8 @@
       "（担忧且困惑的哔哔声）",
       "(concerned and puzzled beep)",
       null,
-      null
+      null,
+      "000000000B8D.0D0#2"
     ],
     [
       "HeroQuote",
@@ -1990,7 +2143,8 @@
       "（沮丧的哔哔声）",
       "(disappointed beeps)",
       null,
-      null
+      null,
+      "000000000B81.0D0#2"
     ],
     [
       "HeroQuote",
@@ -2002,6 +2156,7 @@
       "MatchTalk",
       "（交谈的哔哔声）",
       "(conversational beeps)",
+      null,
       null,
       null
     ],
@@ -2016,7 +2171,8 @@
       "（直截了当的哔哔声）",
       "(straightforward beeps)",
       null,
-      null
+      null,
+      "000000000ACA.0D0#2"
     ],
     [
       "HeroQuote",
@@ -2029,7 +2185,8 @@
       "（忧虑的哔哔声）",
       "(worried beeps)",
       null,
-      null
+      null,
+      "000000000AE3.0D0#2"
     ],
     [
       "HeroQuote",
@@ -2041,6 +2198,7 @@
       "MatchTalk",
       "（焦虑的哔哔声）",
       "(nervous beeps)",
+      null,
       null,
       null
     ],
@@ -2055,7 +2213,8 @@
       "（羞怯的哔哔声）",
       "(bashful beeps)",
       null,
-      null
+      null,
+      "000000000996.0D0#2"
     ],
     [
       "HeroQuote",
@@ -2068,7 +2227,8 @@
       "（开心的哔哔声）",
       "(happy beeps)",
       null,
-      null
+      null,
+      "000000000B80.0D0#2"
     ],
     [
       "HeroQuote",
@@ -2080,6 +2240,7 @@
       "MatchTalk",
       "（激动的哔哔声）",
       "(excited beeps)",
+      null,
       null,
       null
     ],
@@ -2094,7 +2255,8 @@
       "（BBox的哔哔声）",
       "(beep boxing)",
       null,
-      null
+      null,
+      "000000000C43.0D0#2"
     ],
     [
       "HeroQuote",
@@ -2107,7 +2269,8 @@
       "（疑惑的哔哔声）",
       "(confused beeps)",
       null,
-      null
+      null,
+      "000000000D8E.0D0#2"
     ],
     [
       "HeroQuote",
@@ -2120,7 +2283,8 @@
       "（表示理解的哔哔声）",
       "(understanding beeps)",
       null,
-      null
+      null,
+      "000000000D8E.0D0#4"
     ],
     [
       "HeroQuote",
@@ -2133,7 +2297,8 @@
       "（反驳的哔哔声）",
       "(retorting beeps)",
       null,
-      null
+      null,
+      "000000000D9F.0D0#2"
     ],
     [
       "HeroQuote",
@@ -2145,6 +2310,7 @@
       "MeleeEnemyKilledRemark",
       "（冷酷的哔哔声）",
       "(tough beeps)",
+      null,
       null,
       null
     ],
@@ -2159,6 +2325,7 @@
       "（惊讶的哔哔声）",
       "(surprised beep)",
       null,
+      null,
       null
     ],
     [
@@ -2171,6 +2338,7 @@
       "MeleeEnemyKilledRemark",
       "（有些困惑的哔哔声）",
       "(slightly confused beep)",
+      null,
       null,
       null
     ],
@@ -2185,7 +2353,8 @@
       "（惊讶且尴尬的哔哔声）",
       "(surprised, embarrassed beeps)",
       null,
-      0.01
+      0.01,
+      null
     ],
     [
       "HeroQuote",
@@ -2198,7 +2367,8 @@
       "（惊讶的哔哔声）",
       "(surprised beep)",
       null,
-      0.01
+      0.01,
+      null
     ],
     [
       "HeroQuote",
@@ -2210,6 +2380,7 @@
       "Multikill",
       "（得意且惊讶的哔哔声）",
       "(pleased, impressed beeps)",
+      null,
       null,
       null
     ],
@@ -2224,6 +2395,7 @@
       "（惊讶且开心的哔哔声）",
       "(surprised, happy beeps)",
       null,
+      null,
       null
     ],
     [
@@ -2237,7 +2409,8 @@
       "（得意且惊讶的哔哔声）",
       "(pleased, impressed beeps)",
       null,
-      0.01
+      0.01,
+      null
     ],
     [
       "HeroQuote",
@@ -2249,6 +2422,7 @@
       "NanoBoosted",
       "（激动且激进的哔哔声）",
       "(excited, aggressive beeps)",
+      null,
       null,
       null
     ],
@@ -2263,6 +2437,7 @@
       "（激动且激进的哔哔声）",
       "(excited, aggressive beeps)",
       null,
+      null,
       null
     ],
     [
@@ -2275,6 +2450,7 @@
       "NeedHealer",
       "（恼怒的哔哔声）",
       "(annoyed beeps)",
+      null,
       null,
       null
     ],
@@ -2289,6 +2465,7 @@
       "（询问的哔哔声）",
       "(asking beeps)",
       null,
+      null,
       null
     ],
     [
@@ -2301,6 +2478,7 @@
       "No",
       "（否定的哔哔声）",
       "(negative beep)",
+      null,
       null,
       null
     ],
@@ -2315,6 +2493,7 @@
       "（激进的哔哔声）",
       "(aggressive beeps)",
       null,
+      null,
       null
     ],
     [
@@ -2327,6 +2506,7 @@
       "Objective/CaptureInProgress",
       "（骄傲的哔哔声）",
       "(proud beeps)",
+      null,
       null,
       null
     ],
@@ -2341,6 +2521,7 @@
       "（骄傲的哔哔声）",
       "(proud beeps)",
       null,
+      null,
       null
     ],
     [
@@ -2353,6 +2534,7 @@
       "Objective/Defend",
       "（坚定的哔哔声）",
       "(assertive beeps)",
+      null,
       null,
       null
     ],
@@ -2367,6 +2549,7 @@
       "（决心坚定的哔哔声）",
       "(determined beeps)",
       null,
+      null,
       null
     ],
     [
@@ -2379,6 +2562,7 @@
       "Objective/EnemyCaptureInProgress",
       "（决心坚定的哔哔声）",
       "(determined beeps)",
+      null,
       null,
       null
     ],
@@ -2393,6 +2577,7 @@
       "（决心坚定的哔哔声）",
       "(determined beeps)",
       null,
+      null,
       null
     ],
     [
@@ -2405,6 +2590,7 @@
       "Objective/EnemyRunningOutOfTime",
       "（决心坚定的哔哔声）",
       "(determined beeps)",
+      null,
       null,
       null
     ],
@@ -2419,6 +2605,7 @@
       "（决心坚定的哔哔声）",
       "(determined beeps)",
       null,
+      null,
       null
     ],
     [
@@ -2431,6 +2618,7 @@
       "Objective/PayloadMoving",
       "（决心坚定的哔哔声）",
       "(determined beeps)",
+      null,
       null,
       null
     ],
@@ -2445,6 +2633,7 @@
       "（命令式的哔哔声）",
       "(commanding beeps)",
       null,
+      null,
       null
     ],
     [
@@ -2457,6 +2646,7 @@
       "Objective/PayloadStop",
       "（命令式的哔哔声）",
       "(commanding beeps)",
+      null,
       null,
       null
     ],
@@ -2471,6 +2661,7 @@
       "（懊恼的哔哔声）",
       "(frustrated beeps)",
       null,
+      null,
       null
     ],
     [
@@ -2483,6 +2674,7 @@
       "Objective/RunningOutOfTime",
       "（惊慌的哔哔声）",
       "(panicked beeps)",
+      null,
       null,
       null
     ],
@@ -2497,6 +2689,7 @@
       "（激动的哔哔声）",
       "(excited beeps)",
       null,
+      null,
       null
     ],
     [
@@ -2510,7 +2703,8 @@
       "（激动的哔哔声）",
       "(excited beeps)",
       null,
-      0.1
+      0.1,
+      null
     ],
     [
       "HeroQuote",
@@ -2522,6 +2716,7 @@
       "OnMyWay",
       "（激动的哔哔声）",
       "(excited beeps)",
+      null,
       null,
       null
     ],
@@ -2536,6 +2731,7 @@
       "（进攻的哔哔声）",
       "(attacking beeps)",
       null,
+      null,
       null
     ],
     [
@@ -2548,6 +2744,7 @@
       "PushForward",
       "（决心坚定的哔哔声）",
       "(determined beep)",
+      null,
       null,
       null
     ],
@@ -2562,6 +2759,7 @@
       "（骄傲、致命的哔哔声）",
       "(proud, deadly beeps)",
       null,
+      null,
       null
     ],
     [
@@ -2574,6 +2772,7 @@
       "PVE/ArtilleryDown",
       "（骄傲的哔哔声）",
       "(proud beeps)",
+      null,
       null,
       null
     ],
@@ -2588,6 +2787,7 @@
       "（满意的哔哔声）",
       "(satisfied beeps)",
       null,
+      null,
       null
     ],
     [
@@ -2600,6 +2800,7 @@
       "PVE/DroppedItem",
       "（懊恼的哔哔声）",
       "(chagrined beeps)",
+      null,
       null,
       null
     ],
@@ -2614,6 +2815,7 @@
       "（警告的哔哔声）",
       "(alerting beeps)",
       null,
+      null,
       null
     ],
     [
@@ -2626,6 +2828,7 @@
       "PVE/MeetAtObjective",
       "（坚定的哔哔声）",
       "(purposeful beeps)",
+      null,
       null,
       null
     ],
@@ -2640,7 +2843,8 @@
       "（被冒犯的哔哔声）",
       "(offended beeps)",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"mission\",\"mission\":\"铁甲工匠\"},{\"type\":\"mission\",\"objective\":\"去工坊重新集结\"}]}",
-      null
+      null,
+      "000000000B4A.0D0#4"
     ],
     [
       "HeroQuote",
@@ -2652,6 +2856,7 @@
       "PVE/ThisWay",
       "（请求的哔哔声）",
       "(requesting beeps)",
+      null,
       null,
       null
     ],
@@ -2666,6 +2871,7 @@
       "（非常急迫的哔哔声）",
       "(very urgent beeps)",
       null,
+      null,
       null
     ],
     [
@@ -2678,6 +2884,7 @@
       "PVE/Unknown",
       "（期待的哔哔声）",
       "(expectant beeps)",
+      null,
       null,
       null
     ],
@@ -2692,6 +2899,7 @@
       "（示警的哔哔声）",
       "(warning beeps)",
       null,
+      null,
       null
     ],
     [
@@ -2704,6 +2912,7 @@
       "PVE/Unknown",
       "（劝告的哔哔声）",
       "(Cautionary beeps)",
+      null,
       null,
       null
     ],
@@ -2718,6 +2927,7 @@
       "（急促警告的哔哔声）",
       "(urgent warning beeps)",
       null,
+      null,
       null
     ],
     [
@@ -2730,6 +2940,7 @@
       "PVE/Unknown",
       "（决心坚定的通报哔哔声）",
       "(determined, notifying beeps)",
+      null,
       null,
       null
     ],
@@ -2744,6 +2955,7 @@
       "（示警的哔哔声）",
       "(warning beeps)",
       null,
+      null,
       null
     ],
     [
@@ -2756,6 +2968,7 @@
       "PVE/Unknown",
       "（快速劝告的哔哔声）",
       "(quick cautionary beeps)",
+      null,
       null,
       null
     ],
@@ -2770,6 +2983,7 @@
       "（劝告的哔哔声）",
       "(cautionary beeps)",
       null,
+      null,
       null
     ],
     [
@@ -2782,6 +2996,7 @@
       "PVE/Unknown",
       "（劝阻的哔哔声）",
       "(discouraging beeps)",
+      null,
       null,
       null
     ],
@@ -2796,6 +3011,7 @@
       "（警惕的哔哔声）",
       "(wary beeps)",
       null,
+      null,
       null
     ],
     [
@@ -2808,6 +3024,7 @@
       "PVE/Unknown",
       "（绝望的哔哔声）",
       "(desperate beeps)",
+      null,
       null,
       null
     ],
@@ -2822,6 +3039,7 @@
       "（紧急的哔哔声）",
       "(urgent beeps)",
       null,
+      null,
       null
     ],
     [
@@ -2834,6 +3052,7 @@
       "PVE/Unknown",
       "（劝告的哔哔声）",
       "(cautionary beeps)",
+      null,
       null,
       null
     ],
@@ -2848,6 +3067,7 @@
       "（恳求的哔哔声）",
       "(beseeching beeps)",
       null,
+      null,
       null
     ],
     [
@@ -2860,6 +3080,7 @@
       "PVE/Unknown",
       "（失去耐心的哔哔声）",
       "(impatient beeps)",
+      null,
       null,
       null
     ],
@@ -2874,6 +3095,7 @@
       "（确认的哔哔声）",
       "(confirming beep)",
       null,
+      null,
       null
     ],
     [
@@ -2886,6 +3108,7 @@
       "PVE/Unknown",
       "（疑惑的哔哔声）",
       "(confused beeps)",
+      null,
       null,
       null
     ],
@@ -2900,6 +3123,7 @@
       "（紧急的哔哔声）",
       "(urgent beeps)",
       null,
+      null,
       null
     ],
     [
@@ -2912,6 +3136,7 @@
       "PVE/Unknown",
       "（劝告的哔哔声）",
       "(cautionary beeps)",
+      null,
       null,
       null
     ],
@@ -2926,6 +3151,7 @@
       "（坚持的哔哔声）",
       "(insistent beeps)",
       null,
+      null,
       null
     ],
     [
@@ -2938,6 +3164,7 @@
       "PVE/Unknown",
       "（紧急且忧虑的哔哔声）",
       "(urgent and worried beeps)",
+      null,
       null,
       null
     ],
@@ -2952,6 +3179,7 @@
       "（满意且确定的哔哔声）",
       "(satisfied conclusive beeps)",
       null,
+      null,
       null
     ],
     [
@@ -2964,6 +3192,7 @@
       "PVE/Unknown",
       "（满意的哔哔声）",
       "(satisfied beeps)",
+      null,
       null,
       null
     ],
@@ -2978,6 +3207,7 @@
       "（示警的哔哔声）",
       "(warning beeps)",
       null,
+      null,
       null
     ],
     [
@@ -2990,6 +3220,7 @@
       "PVE/Unknown",
       "（劝告的哔哔声）",
       "(cautionary beeps)",
+      null,
       null,
       null
     ],
@@ -3004,6 +3235,7 @@
       "（忧虑的哔哔声）",
       "(worried beeps)",
       null,
+      null,
       null
     ],
     [
@@ -3016,6 +3248,7 @@
       "PVE/Unknown",
       "（警告的哔哔声）",
       "(alerting beeps)",
+      null,
       null,
       null
     ],
@@ -3030,6 +3263,7 @@
       "（振奋的哔哔声）",
       "(encouraging beeps)",
       null,
+      null,
       null
     ],
     [
@@ -3042,6 +3276,7 @@
       "PVE/Unknown",
       "（警告的哔哔声）",
       "(alerting beeps)",
+      null,
       null,
       null
     ],
@@ -3056,6 +3291,7 @@
       "（期待的哔哔声）",
       "(anticipatory beeps)",
       null,
+      null,
       null
     ],
     [
@@ -3068,6 +3304,7 @@
       "PVE/Unknown",
       "（决心坚定的哔哔声）",
       "(determined beeps)",
+      null,
       null,
       null
     ],
@@ -3082,6 +3319,7 @@
       "（开心的哔哔声）",
       "(happy beeps)",
       null,
+      null,
       null
     ],
     [
@@ -3094,6 +3332,7 @@
       "PVE/Unknown",
       "（轻快的哔哔声）",
       "(brisk beeps)",
+      null,
       null,
       null
     ],
@@ -3108,6 +3347,7 @@
       "（轻快的哔哔声）",
       "(brisk beeps)",
       null,
+      null,
       null
     ],
     [
@@ -3120,6 +3360,7 @@
       "PVE/Unknown",
       "（满意的哔哔声）",
       "(satisfied beeps)",
+      null,
       null,
       null
     ],
@@ -3134,6 +3375,7 @@
       "（忧虑的哔哔声）",
       "(worried beeps)",
       null,
+      null,
       null
     ],
     [
@@ -3147,7 +3389,8 @@
       "（急促警告的哔哔声）",
       "(urgent warning beeps)",
       "{\"type\":\"toHero\",\"hero\":\"轰击者\"}",
-      0.5
+      0.5,
+      null
     ],
     [
       "HeroQuote",
@@ -3160,7 +3403,8 @@
       "（急促警告的哔哔声）",
       "(urgent warning beeps)",
       "{\"type\":\"toHero\",\"hero\":\"轰击者\"}",
-      0.25
+      0.25,
+      null
     ],
     [
       "HeroQuote",
@@ -3172,6 +3416,7 @@
       "PVE/VultureDown",
       "（满意的哔哔声）",
       "(satisfied beeps)",
+      null,
       null,
       null
     ],
@@ -3186,6 +3431,7 @@
       "（骄傲的哔哔声）",
       "(proud beeps)",
       null,
+      null,
       null
     ],
     [
@@ -3198,6 +3444,7 @@
       "PVE/VultureIncoming",
       "（示警的哔哔声）",
       "(warning beeps)",
+      null,
       null,
       null
     ],
@@ -3212,6 +3459,7 @@
       "（思索的哔哔声）",
       "(thoughtful beeps)",
       null,
+      null,
       null
     ],
     [
@@ -3224,6 +3472,7 @@
       "Respawn",
       "（决心坚定的哔哔声）",
       "(determined beeps)",
+      null,
       null,
       null
     ],
@@ -3238,6 +3487,7 @@
       "（深思的哔哔声）",
       "(considering beeps)",
       null,
+      null,
       null
     ],
     [
@@ -3250,6 +3500,7 @@
       "Respawn",
       "（恼怒的哔哔声）",
       "(irritated beep)",
+      null,
       null,
       null
     ],
@@ -3264,6 +3515,7 @@
       "（不屈不挠的哔哔声）",
       "(persevering beeps)",
       null,
+      null,
       null
     ],
     [
@@ -3276,6 +3528,7 @@
       "Respawn",
       "（决心坚定的哔哔声）",
       "(determined beeps)",
+      null,
       null,
       null
     ],
@@ -3290,6 +3543,7 @@
       "（深思的哔哔声）",
       "(considering beeps)",
       null,
+      null,
       null
     ],
     [
@@ -3303,7 +3557,8 @@
       "（沮丧的哔哔声）",
       "(disappointed beep)",
       null,
-      0.01
+      0.01,
+      null
     ],
     [
       "HeroQuote",
@@ -3316,7 +3571,8 @@
       "（恼怒的哔哔声）",
       "(irritated beep)",
       null,
-      0.01
+      0.01,
+      null
     ],
     [
       "HeroQuote",
@@ -3329,7 +3585,8 @@
       "（决心坚定的哔哔声）",
       "(determined beeps)",
       null,
-      0.01
+      0.01,
+      null
     ],
     [
       "HeroQuote",
@@ -3341,6 +3598,7 @@
       "Resurrected",
       "（惊讶且开心的哔哔声）",
       "(surprised, happy beeps)",
+      null,
       null,
       null
     ],
@@ -3355,6 +3613,7 @@
       "（感谢的哔哔声）",
       "(thankful beeps)",
       null,
+      null,
       null
     ],
     [
@@ -3367,6 +3626,7 @@
       "Retribution/EnemiesIncoming",
       "（勇敢且期待的哔哔声）",
       "(brave, anticipatory beeps)",
+      null,
       null,
       null
     ],
@@ -3381,6 +3641,7 @@
       "（示警的哔哔声）",
       "(warning beeps)",
       null,
+      null,
       null
     ],
     [
@@ -3393,6 +3654,7 @@
       "Revenge",
       "（得意地笑）",
       "(smug chuckle)",
+      null,
       null,
       null
     ],
@@ -3407,6 +3669,7 @@
       "pleased, thank you",
       "pleased, thank you",
       null,
+      null,
       null
     ],
     [
@@ -3420,6 +3683,7 @@
       "（大叫）",
       "(screams)",
       "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      null,
       null
     ],
     [
@@ -3433,6 +3697,7 @@
       "（大叫）",
       "(screams)",
       "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      null,
       null
     ],
     [
@@ -3446,6 +3711,7 @@
       "（大叫）",
       "(screams)",
       "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      null,
       null
     ],
     [
@@ -3458,6 +3724,7 @@
       "ScreamFall",
       "（放声大叫）",
       "(prolonged screaming)",
+      null,
       null,
       null
     ],
@@ -3472,6 +3739,7 @@
       "（放声大叫）",
       "(prolonged screaming)",
       null,
+      null,
       null
     ],
     [
@@ -3484,6 +3752,7 @@
       "ScreamFall",
       "（放声大叫）",
       "(prolonged screaming)",
+      null,
       null,
       null
     ],
@@ -3498,6 +3767,7 @@
       "（赞同的哔哔声）",
       "(positive beep)",
       null,
+      null,
       null
     ],
     [
@@ -3510,6 +3780,7 @@
       "ShieldGenerator/EnemyHasShieldGen",
       "（示警的哔哔声）",
       "(alarmed beeps)",
+      null,
       null,
       null
     ],
@@ -3524,6 +3795,7 @@
       "（欢欣鼓舞的嗡嗡声）",
       "(triumphant, whirring beeps)",
       null,
+      null,
       null
     ],
     [
@@ -3536,6 +3808,7 @@
       "ShieldGenerator/FoundEnemyShieldGen",
       "（示警的嗡嗡声）",
       "(alert, whirring beeps)",
+      null,
       null,
       null
     ],
@@ -3550,6 +3823,7 @@
       "(sorry sound)",
       "(sorry beep)",
       null,
+      null,
       null
     ],
     [
@@ -3562,6 +3836,7 @@
       "TakeCover",
       "（示警的哔哔声）",
       "(warning beeps)",
+      null,
       null,
       null
     ],
@@ -3576,6 +3851,7 @@
       "（骄傲的哔哔声）",
       "(proud beeps)",
       null,
+      null,
       null
     ],
     [
@@ -3588,6 +3864,7 @@
       "TeamKill",
       "（骄傲的哔哔声）",
       "(proud beeps)",
+      null,
       null,
       null
     ],
@@ -3602,6 +3879,7 @@
       "（悲痛的哔哔声）",
       "(distressed beeps)",
       null,
+      null,
       null
     ],
     [
@@ -3614,6 +3892,7 @@
       "Teammate/Killed",
       "（伤心且忧虑的哔哔声）",
       "(sad, worried beeps)",
+      null,
       null,
       null
     ],
@@ -3628,6 +3907,7 @@
       "（伤心且忧虑的哔哔声）",
       "(sad, worried beeps)",
       null,
+      null,
       null
     ],
     [
@@ -3640,6 +3920,7 @@
       "Teammate/KillSeen",
       "（振奋的哔哔声）",
       "(encouraging beeps)",
+      null,
       null,
       null
     ],
@@ -3654,6 +3935,7 @@
       "（激动的哔哔声）",
       "(excited beeps)",
       "{\"type\":\"toHero\",\"hero\":\"奥丽莎\"}",
+      null,
       null
     ],
     [
@@ -3667,6 +3949,7 @@
       "（热情的哔哔声）",
       "(warm beeps)",
       "{\"type\":\"toHero\",\"hero\":\"托比昂\"}",
+      null,
       null
     ],
     [
@@ -3679,6 +3962,7 @@
       "Teammate/Location",
       "（叮叮作响的哔哔声）",
       "(pinging beeps)",
+      null,
       null,
       null
     ],
@@ -3693,6 +3977,7 @@
       "（骄傲的哔哔声）",
       "(proud beeps)",
       null,
+      null,
       null
     ],
     [
@@ -3705,6 +3990,7 @@
       "Teammate/Rescue",
       "（安慰的哔哔声）",
       "(reassuring beeps)",
+      null,
       null,
       null
     ],
@@ -3719,6 +4005,7 @@
       "（哔哔着说“不客气”）",
       "(beeps \"You're welcome\")",
       null,
+      null,
       null
     ],
     [
@@ -3731,6 +4018,7 @@
       "Teammate/Revive",
       "（乐意帮助的哔哔声）",
       "(supportive beeps)",
+      null,
       null,
       null
     ],
@@ -3745,6 +4033,7 @@
       "（忧虑的哔哔声）",
       "(worried beeps)",
       "{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"托比昂\"},{\"type\":\"toHero\",\"hero\":\"布丽吉塔\"}]}",
+      null,
       null
     ],
     [
@@ -3758,6 +4047,7 @@
       "（怀疑且勉强的哔哔声）",
       "(distrustful and reluctant beeps)",
       "{\"type\":\"nested\",\"total\":3,\"needed\":1,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"拉玛刹\"},{\"type\":\"toHero\",\"hero\":\"末日铁拳\"},{\"type\":\"toHero\",\"hero\":\"死神\"}]}",
+      null,
       null
     ],
     [
@@ -3770,6 +4060,7 @@
       "Teleporter/EnemyFindTeleporter",
       "（命令式的哔哔声）",
       "(commanding beeps)",
+      null,
       null,
       null
     ],
@@ -3784,6 +4075,7 @@
       "（示警的哔哔声）",
       "(alarmed beeps)",
       null,
+      null,
       null
     ],
     [
@@ -3796,6 +4088,7 @@
       "Teleporter/EnemyTeleporterDestroyed",
       "（欢欣鼓舞的嗡嗡声）",
       "(triumphant, whirring beeps)",
+      null,
       null,
       null
     ],
@@ -3810,6 +4103,7 @@
       "（示警的嗡嗡声）",
       "(alert, whirring beeps)",
       null,
+      null,
       null
     ],
     [
@@ -3822,6 +4116,7 @@
       "Thanks",
       "（温柔的哔哔声）",
       "(affectionate beeps)",
+      null,
       null,
       null
     ],
@@ -3836,6 +4131,7 @@
       "（温柔的哔哔声）",
       "(affectionate beeps)",
       null,
+      null,
       null
     ],
     [
@@ -3848,6 +4144,7 @@
       "Turret/EnemyTurretDestroyed",
       "（轻蔑的哔哔声）",
       "(dismissive beeps)",
+      null,
       null,
       null
     ],
@@ -3862,6 +4159,7 @@
       "（轻蔑的哔哔声）",
       "(dismissive beeps)",
       null,
+      null,
       null
     ],
     [
@@ -3874,6 +4172,7 @@
       "Turret/EnemyTurretDestroyed",
       "（轻蔑的哔哔声）",
       "(dismissive beep)",
+      null,
       null,
       null
     ],
@@ -3888,6 +4187,7 @@
       "（示警的哔哔声）",
       "(warning beeps)",
       null,
+      null,
       null
     ],
     [
@@ -3900,6 +4200,7 @@
       "Ultimate",
       "（奏乐的哔哔声）",
       "(musical beeps)",
+      null,
       null,
       null
     ],
@@ -3914,6 +4215,7 @@
       "（奏乐的哔哔声）",
       "(musical beeps)",
       null,
+      null,
       null
     ],
     [
@@ -3926,6 +4228,7 @@
       "Ultimate",
       "（奏乐的哔哔声）",
       "(musical beeps)",
+      null,
       null,
       null
     ],
@@ -3940,6 +4243,7 @@
       "（奏乐的哔哔声）",
       "(musical beeps)",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      null,
       null
     ],
     [
@@ -3953,6 +4257,7 @@
       "（气喇叭似的哔哔声）",
       "(air horn beeps)",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      null,
       null
     ],
     [
@@ -3966,6 +4271,7 @@
       "（奏乐的哔哔声）",
       "(musical beeps)",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      null,
       null
     ],
     [
@@ -3979,6 +4285,7 @@
       "（模仿雾笛的哔哔声）",
       "(fog horn beeps)",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      null,
       null
     ],
     [
@@ -3992,6 +4299,7 @@
       "（模仿雾笛的哔哔声）",
       "(fog horn beeps)",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      null,
       null
     ],
     [
@@ -4005,6 +4313,7 @@
       "（奏乐的哔哔声）",
       "(musical beeps)",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      null,
       null
     ],
     [
@@ -4018,6 +4327,7 @@
       "（坦克模式）",
       "(Configuration: Tank)",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -4031,6 +4341,7 @@
       "（坦克模式）",
       "(Configuration: Tank)",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -4043,6 +4354,7 @@
       "Ultimate/AlmostReady",
       "（决心坚定的哔哔声）",
       "(determined beeps)",
+      null,
       null,
       null
     ],
@@ -4057,6 +4369,7 @@
       "（激动的哔哔声）",
       "(excited beeps)",
       null,
+      null,
       null
     ],
     [
@@ -4069,6 +4382,7 @@
       "Ultimate/Ready",
       "（宣告的哔哔声）",
       "(announcing beeps)",
+      null,
       null,
       null
     ],
@@ -4083,6 +4397,7 @@
       "（激动的哔哔声）",
       "(excited beeps)",
       null,
+      null,
       null
     ],
     [
@@ -4095,6 +4410,7 @@
       "Understand",
       "（表示收到的哔哔声）",
       "(acknowledging beeps)",
+      null,
       null,
       null
     ],
@@ -4109,6 +4425,7 @@
       "（表示收到的哔哔声）",
       "(acknowledging beeps)",
       null,
+      null,
       null
     ],
     [
@@ -4121,6 +4438,7 @@
       "Unknown/1080.078",
       "（振奋的哔哔声）",
       "(encouraging beeps)",
+      null,
       null,
       null
     ],
@@ -4135,6 +4453,7 @@
       "（开心的哔哔声）",
       "(happy beeps)",
       null,
+      null,
       null
     ],
     [
@@ -4148,6 +4467,7 @@
       "（惊叹的哔哔声）",
       "(awed beep)",
       "{\"type\":\"scripted\",\"script\":\"00A364\",\"scriptDesc\":\"造成至少2个消灭\"}",
+      null,
       null
     ],
     [
@@ -4161,6 +4481,7 @@
       "（沮丧的哔哔声）",
       "(disappointed beep)",
       "{\"type\":\"scripted\",\"script\":\"00A365\",\"scriptDesc\":\"未能造成消灭\"}",
+      null,
       null
     ],
     [
@@ -4174,6 +4495,7 @@
       "（沮丧的哔哔声）",
       "(disappointed beeps)",
       "{\"type\":\"scripted\",\"script\":\"00A365\",\"scriptDesc\":\"未能造成消灭\"}",
+      null,
       null
     ],
     [
@@ -4186,6 +4508,7 @@
       "Unknown/10F8.078",
       "（警告的哔哔声）",
       "(alert beeps)",
+      null,
       null,
       null
     ],
@@ -4200,6 +4523,7 @@
       "（失去耐心的哔哔声）",
       "(impatient beeps)",
       null,
+      null,
       null
     ],
     [
@@ -4212,6 +4536,7 @@
       "Unknown/1117.078",
       "（紧急的哔哔声）",
       "(urgent beeps)",
+      null,
       null,
       null
     ],
@@ -4226,6 +4551,7 @@
       "（示警的哔哔声）",
       "(warning beeps)",
       null,
+      null,
       null
     ],
     [
@@ -4238,6 +4564,7 @@
       "Unknown/1146.078",
       "（示警的哔哔声）",
       "(warning beeps)",
+      null,
       null,
       null
     ],
@@ -4252,6 +4579,7 @@
       "（发射的哔哔声）",
       "(launching beeps)",
       null,
+      null,
       null
     ],
     [
@@ -4265,7 +4593,8 @@
       "（憨笑的哔哔声）",
       "(giggly beeps)",
       null,
-      null
+      null,
+      "000000000D57.0D0#2"
     ],
     [
       "HeroQuote",
@@ -4277,6 +4606,7 @@
       "Unknown/1173.078",
       "（期待的哔哔声）",
       "(expectant beeps)",
+      null,
       null,
       null
     ],
@@ -4291,6 +4621,7 @@
       "（捉迷藏的哔哔声）（窃笑的哔哔声）",
       "(peekaboo beeps) (giggle beeps)",
       null,
+      null,
       null
     ],
     [
@@ -4303,6 +4634,7 @@
       "Unknown/11C0.078",
       "（命令式的哔哔声）",
       "(commanding beeps)",
+      null,
       null,
       null
     ],
@@ -4317,6 +4649,7 @@
       "（命令式的哔哔声）",
       "(commanding beeps)",
       null,
+      null,
       null
     ],
     [
@@ -4329,6 +4662,7 @@
       "Unknown/11C2.078",
       "（忧虑的哔哔声）",
       "(worried beeps)",
+      null,
       null,
       null
     ],
@@ -4343,6 +4677,7 @@
       "（指示的哔哔声）",
       "(instructive beeps)",
       null,
+      null,
       null
     ],
     [
@@ -4355,6 +4690,7 @@
       "Unknown/11D9.078",
       "（指示的哔哔声）",
       "(instructive beeps)",
+      null,
       null,
       null
     ],
@@ -4369,6 +4705,7 @@
       "（示警的哔哔声）",
       "(warning beeps)",
       null,
+      null,
       null
     ],
     [
@@ -4381,6 +4718,7 @@
       "Unknown/12AE.078",
       "（笑起来的哔哔声）",
       "(short laughing beeps)",
+      null,
       null,
       null
     ],
@@ -4395,6 +4733,7 @@
       "（想出主意的哔哔声）",
       "(beeps of an idea)",
       null,
+      null,
       null
     ],
     [
@@ -4408,7 +4747,8 @@
       "（恭敬的哔哔声）",
       "(Reverent beeping)",
       null,
-      null
+      null,
+      "000000001051.0D0#2"
     ],
     [
       "HeroQuote",
@@ -4421,7 +4761,8 @@
       "（表示赞同的哔哔声）",
       "(affirmative beeps)",
       null,
-      null
+      null,
+      "00000000105F.0D0#2"
     ],
     [
       "HeroQuote",
@@ -4434,7 +4775,8 @@
       "（疑惑的哔哔声）",
       "(questioning beeps)",
       null,
-      null
+      null,
+      "000000001060.0D0#1"
     ],
     [
       "HeroQuote",
@@ -4447,7 +4789,8 @@
       "（焦虑的哔哔声）",
       "(Nervous beeps)",
       null,
-      null
+      null,
+      "00000000105C.0D0#2"
     ],
     [
       "HeroQuote",
@@ -4460,7 +4803,8 @@
       "（激进的哔哔声）",
       "(aggressive beeping)",
       null,
-      null
+      null,
+      "000000001059.0D0#2"
     ],
     [
       "HeroQuote",
@@ -4473,7 +4817,8 @@
       "（示警的哔哔声）",
       "(Warning beep)",
       null,
-      null
+      null,
+      "000000001055.0D0#1"
     ],
     [
       "HeroQuote",
@@ -4486,7 +4831,8 @@
       "（惊恐的哔哔声）",
       "(horrified beeps)",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"mission\",\"mission\":\"铁甲工匠\"},{\"type\":\"mission\",\"objective\":\"炮台激活中……\"}]}",
-      null
+      null,
+      "0000000010BF.0D0#2"
     ],
     [
       "HeroQuote",
@@ -4498,6 +4844,7 @@
       "Unknown/1500.078",
       "（好奇的哔哔声）",
       "(inquisitive beeps)",
+      null,
       null,
       null
     ],
@@ -4512,6 +4859,7 @@
       "（好奇的哔哔声）",
       "(inquisitive beeps)",
       null,
+      null,
       null
     ],
     [
@@ -4524,6 +4872,7 @@
       "Unknown/1500.078",
       "（好奇的哔哔声）",
       "(inquisitive beeps)",
+      null,
       null,
       null
     ],
@@ -4538,6 +4887,7 @@
       "（好奇的哔哔声）",
       "(inquisitive beeps)",
       null,
+      null,
       null
     ],
     [
@@ -4550,6 +4900,7 @@
       "Unknown/1500.078",
       "（好奇的哔哔声）",
       "(inquisitive beeps)",
+      null,
       null,
       null
     ],
@@ -4564,6 +4915,7 @@
       "（表示收到的哔哔声）",
       "(acknowledging beep)",
       null,
+      null,
       null
     ],
     [
@@ -4576,6 +4928,7 @@
       "Unknown/1501.078",
       "（表示收到的哔哔声）",
       "(acknowledging beep)",
+      null,
       null,
       null
     ],
@@ -4590,6 +4943,7 @@
       "（表示收到的哔哔声）",
       "(acknowledging beep)",
       null,
+      null,
       null
     ],
     [
@@ -4602,6 +4956,7 @@
       "Unknown/1502.078",
       "（模仿卡车喇叭的哔哔声）",
       "(truck horn beeps)",
+      null,
       null,
       null
     ],
@@ -4616,6 +4971,7 @@
       "（模仿卡车喇叭的哔哔声）",
       "(truck horn beeps)",
       null,
+      null,
       null
     ],
     [
@@ -4628,6 +4984,7 @@
       "Unknown/1502.078",
       "（模仿卡车喇叭的哔哔声）",
       "(truck horn beeps)",
+      null,
       null,
       null
     ],
@@ -4642,6 +4999,7 @@
       "（手枪手势的哔哔声）",
       "(finger gun beeps)",
       null,
+      null,
       null
     ],
     [
@@ -4654,6 +5012,7 @@
       "Unknown/1503.078",
       "（手枪手势的哔哔声）",
       "(finger gun beeps)",
+      null,
       null,
       null
     ],
@@ -4668,6 +5027,7 @@
       "（手枪手势的哔哔声）",
       "(finger gun beeps)",
       null,
+      null,
       null
     ],
     [
@@ -4680,6 +5040,7 @@
       "Unknown/1503.078",
       "（手枪手势的哔哔声）",
       "(finger gun beeps)",
+      null,
       null,
       null
     ],
@@ -4694,6 +5055,7 @@
       "（轻笑的哔哔声）",
       "(chuckling beeps)",
       null,
+      null,
       null
     ],
     [
@@ -4706,6 +5068,7 @@
       "Unknown/1504.078",
       "（轻笑的哔哔声）",
       "(chuckling beeps)",
+      null,
       null,
       null
     ],
@@ -4720,6 +5083,7 @@
       "（轻笑的哔哔声）",
       "(chuckling beeps)",
       null,
+      null,
       null
     ],
     [
@@ -4732,6 +5096,7 @@
       "Unknown/1504.078",
       "（轻笑的哔哔声）",
       "(chuckling beeps)",
+      null,
       null,
       null
     ],
@@ -4746,7 +5111,8 @@
       "（疑惑的哔哔声）",
       "(confused beeps)",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"mission\",\"mission\":\"铁甲工匠\"},{\"type\":\"mission\",\"objective\":\"护送熔岩核心\"}]}",
-      null
+      null,
+      "000000000834.0D0#2"
     ],
     [
       "HeroQuote",
@@ -4759,7 +5125,8 @@
       "（恼怒低吼的哔哔声）",
       "(displeased growl)",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"mission\",\"mission\":\"铁甲工匠\"},{\"type\":\"mission\",\"objective\":\"护送熔岩核心\"}]}",
-      null
+      null,
+      "000000000850.0D0#2"
     ],
     [
       "HeroQuote",
@@ -4771,6 +5138,7 @@
       "Unknown/15E.078",
       "（变形）",
       "(transforms)",
+      null,
       null,
       null
     ],
@@ -4785,6 +5153,7 @@
       "（变形）",
       "(transforms)",
       null,
+      null,
       null
     ],
     [
@@ -4797,6 +5166,7 @@
       "Unknown/15E.078",
       "（变形）",
       "(transforms)",
+      null,
       null,
       null
     ],
@@ -4811,6 +5181,7 @@
       "（变形）",
       "(transforms)",
       null,
+      null,
       null
     ],
     [
@@ -4823,6 +5194,7 @@
       "Unknown/15F.078",
       "（变形）",
       "(transforms)",
+      null,
       null,
       null
     ],
@@ -4837,6 +5209,7 @@
       "（变形）",
       "(transforms)",
       null,
+      null,
       null
     ],
     [
@@ -4849,6 +5222,7 @@
       "Unknown/15F.078",
       "（变形）",
       "(transforms)",
+      null,
       null,
       null
     ],
@@ -4863,6 +5237,7 @@
       "（专注的哔哔声）",
       "(concentrating beeps)",
       null,
+      null,
       null
     ],
     [
@@ -4875,6 +5250,7 @@
       "Unknown/160.078",
       "（专注的哔哔声）",
       "(concentrating beeps)",
+      null,
       null,
       null
     ],
@@ -4889,6 +5265,7 @@
       "（专注的哔哔声）",
       "(concentrating beeps)",
       null,
+      null,
       null
     ],
     [
@@ -4901,6 +5278,7 @@
       "Unknown/160.078",
       "（专注的哔哔声）",
       "(concentrating beeps)",
+      null,
       null,
       null
     ],
@@ -4915,6 +5293,7 @@
       "（如释重负的哔哔声）",
       "(relieved beep)",
       null,
+      null,
       null
     ],
     [
@@ -4927,6 +5306,7 @@
       "Unknown/161.078",
       "（如释重负的哔哔声）",
       "(relieved beep)",
+      null,
       null,
       null
     ],
@@ -4941,6 +5321,7 @@
       "（如释重负的哔哔声）",
       "(relieved beep)",
       null,
+      null,
       null
     ],
     [
@@ -4953,6 +5334,7 @@
       "Unknown/1893.078",
       "（骄傲的哔哔声）",
       "(proud beeps)",
+      null,
       null,
       null
     ],
@@ -4967,6 +5349,7 @@
       "（深思的哔哔声）",
       "(considering beeps)",
       null,
+      null,
       null
     ],
     [
@@ -4979,6 +5362,7 @@
       "Unknown/1893.078",
       "（得意的哔哔声）",
       "(pleased beeps)",
+      null,
       null,
       null
     ],
@@ -4993,6 +5377,7 @@
       "（惊叹的哔哔声）",
       "(satisfied beeps)",
       null,
+      null,
       null
     ],
     [
@@ -5005,6 +5390,7 @@
       "Unknown/1894.078",
       "（SCV的哔哔声）",
       "(determined beeps)",
+      null,
       null,
       null
     ],
@@ -5019,6 +5405,7 @@
       "（热情问候的哔哔声）",
       "(chipper beeps)",
       null,
+      null,
       null
     ],
     [
@@ -5031,6 +5418,7 @@
       "Unknown/769.078",
       "（咯咯笑的哔哔声）",
       "(giggling beeps)",
+      null,
       null,
       null
     ],
@@ -5045,6 +5433,7 @@
       "（渐进的哔哔声）",
       "(approaching beep)",
       null,
+      null,
       null
     ],
     [
@@ -5057,6 +5446,7 @@
       "Unknown/AAE.078",
       "（僵尸呻吟）",
       "(zombie groan)",
+      null,
       null,
       null
     ],
@@ -5071,6 +5461,7 @@
       "（僵尸呻吟）",
       "(zombie groan)",
       null,
+      null,
       null
     ],
     [
@@ -5083,6 +5474,7 @@
       "Unknown/AAE.078",
       "（僵尸呻吟）",
       "(zombie groan)",
+      null,
       null,
       null
     ],
@@ -5097,6 +5489,7 @@
       "（僵尸呻吟）",
       "(zombie groan)",
       null,
+      null,
       null
     ],
     [
@@ -5109,6 +5502,7 @@
       "Unknown/AAE.078",
       "（僵尸呻吟）",
       "(zombie groan)",
+      null,
       null,
       null
     ],
@@ -5123,6 +5517,7 @@
       "（僵尸吼叫）",
       "(zombie growl)",
       null,
+      null,
       null
     ],
     [
@@ -5135,6 +5530,7 @@
       "Unknown/AB0.078",
       "（僵尸吼叫）",
       "(zombie growl)",
+      null,
       null,
       null
     ],
@@ -5149,7 +5545,8 @@
       "（惊讶的哔哔声）",
       "(Impressed beeps)",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"mission\",\"mission\":\"铁甲工匠\"},{\"type\":\"mission\",\"objective\":\"炮台激活中……\"}]}",
-      null
+      null,
+      "000000000657.0D0#4"
     ],
     [
       "HeroQuote",
@@ -5162,7 +5559,8 @@
       "（疑惑的哔哔声）",
       "(confused beeps)",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"mission\",\"mission\":\"铁甲工匠\"},{\"type\":\"mission\",\"objective\":\"炮台激活中……\"}]}",
-      null
+      null,
+      "000000000669.0D0#3"
     ],
     [
       "HeroQuote",
@@ -5175,7 +5573,8 @@
       "（表示赞同的哔哔声）",
       "(affirmative beeps)",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"mission\",\"mission\":\"铁甲工匠\"},{\"type\":\"mission\",\"objective\":\"放置冰冻炮台\"}]}",
-      null
+      null,
+      "000000001104.0D0#2"
     ],
     [
       "HeroQuote",
@@ -5188,7 +5587,8 @@
       "（紧急的哔哔声）",
       "(urgent beeps)",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"mission\",\"mission\":\"铁甲工匠\"},{\"type\":\"mission\",\"objective\":\"准备迎接下一轮进攻\"}]}",
-      null
+      null,
+      "0000000006BC.0D0#1"
     ],
     [
       "HeroQuote",
@@ -5200,6 +5600,7 @@
       "Unknown/DC4.078",
       "（紧急的哔哔声）",
       "(urgent beeps)",
+      null,
       null,
       null
     ],
@@ -5214,6 +5615,7 @@
       "（招呼的哔哔声）",
       "(summoning beeps)",
       null,
+      null,
       null
     ],
     [
@@ -5227,7 +5629,8 @@
       "（示警的哔哔声）",
       "(alarmed beeps)",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"mission\",\"mission\":\"铁甲工匠\"},{\"type\":\"mission\",\"objective\":\"护送最后一个熔岩核心\"}]}",
-      null
+      null,
+      "000000000763.0D0#1"
     ],
     [
       "HeroQuote",
@@ -5240,7 +5643,8 @@
       "（欢欣鼓舞的哔哔声）",
       "(triumphant beeps)",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"mission\",\"mission\":\"铁甲工匠\"},{\"type\":\"mission\",\"objective\":\"炮台激活中……\"}]}",
-      null
+      null,
+      "000000000785.0D0#1"
     ],
     [
       "HeroQuote",
@@ -5253,7 +5657,8 @@
       "（胆怯的哔哔声）",
       "(timid beeps)",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"mission\",\"mission\":\"铁甲工匠\"},{\"type\":\"mission\",\"objective\":\"保护究极巨炮\"}]}",
-      null
+      null,
+      "000000000A18.0D0#2"
     ],
     [
       "HeroQuote",
@@ -5265,6 +5670,7 @@
       "Unknown/E35.078",
       "（略微懊恼的哔哔声）",
       "(mildly frustrated beeps)",
+      null,
       null,
       null
     ],
@@ -5279,7 +5685,8 @@
       "（生气的哔哔声）",
       "(peeved beeps)",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"mission\",\"mission\":\"铁甲工匠\"},{\"type\":\"mission\",\"objective\":\"进入托比昂的工坊\"}]}",
-      null
+      null,
+      "000000000789.0D0#2"
     ],
     [
       "HeroQuote",
@@ -5292,7 +5699,8 @@
       "（友善的哔哔声）",
       "(friendly beep)",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"mission\",\"mission\":\"铁甲工匠\"},{\"type\":\"mission\",\"objective\":\"进入托比昂的工坊\"}]}",
-      null
+      null,
+      "000000000847.0D0#1"
     ],
     [
       "HeroQuote",
@@ -5305,7 +5713,8 @@
       "（调侃的哔哔声）",
       "(teasing beeps)",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"mission\",\"mission\":\"铁甲工匠\"},{\"type\":\"mission\",\"objective\":\"保护究极巨炮\"}]}",
-      null
+      null,
+      "00000000080B.0D0#2"
     ],
     [
       "HeroQuote",
@@ -5318,7 +5727,8 @@
       "（惊恐的哔哔声）",
       "(horrified beeps)",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"mission\",\"mission\":\"铁甲工匠\"},{\"type\":\"mission\",\"objective\":\"保护究极巨炮\"}]}",
-      null
+      null,
+      "00000000080C.0D0#2"
     ],
     [
       "HeroQuote",
@@ -5331,7 +5741,8 @@
       "（试探的哔哔声）",
       "(tentative beeps)",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"mission\",\"mission\":\"铁甲工匠\"},{\"type\":\"mission\",\"objective\":\"保护究极巨炮\"}]}",
-      null
+      null,
+      "000000000812.0D0#2"
     ],
     [
       "HeroQuote",
@@ -5344,7 +5755,8 @@
       "（赞同的哔哔声）",
       "(beeps of agreement)",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"mission\",\"mission\":\"铁甲工匠\"},{\"type\":\"mission\",\"objective\":\"护送熔岩核心\"}]}",
-      null
+      null,
+      "000000000849.0D0#3"
     ],
     [
       "HeroQuote",
@@ -5357,7 +5769,8 @@
       "（疑惑的哔哔声）",
       "(questioning beeps)",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"mission\",\"mission\":\"铁甲工匠\"},{\"type\":\"mission\",\"objective\":\"进入托比昂的工坊\"}]}",
-      null
+      null,
+      "0000000008B2.0D0#1"
     ],
     [
       "HeroQuote",
@@ -5370,7 +5783,8 @@
       "（更加疑惑的哔哔声）",
       "(more questioning beeps)",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"mission\",\"mission\":\"铁甲工匠\"},{\"type\":\"mission\",\"objective\":\"进入托比昂的工坊\"}]}",
-      null
+      null,
+      "0000000008B2.0D0#3"
     ],
     [
       "HeroQuote",
@@ -5382,6 +5796,7 @@
       "Unknown/EC6.078",
       "（坠落的哔哔声）",
       "(falling beeps)",
+      null,
       null,
       null
     ],
@@ -5396,6 +5811,7 @@
       "（坠落的哔哔声）",
       "(falling beeps)",
       null,
+      null,
       null
     ],
     [
@@ -5408,6 +5824,7 @@
       "Unknown/ED9.078",
       "（骄傲且略带疲惫的哔哔声）",
       "(proud and somewhat harried beeps)",
+      null,
       null,
       null
     ],
@@ -5422,6 +5839,7 @@
       "（骄傲的哔哔声）",
       "(proud beeps)",
       null,
+      null,
       null
     ],
     [
@@ -5434,6 +5852,7 @@
       "Unknown/F52.078",
       "（请求的哔哔声）",
       "(requesting beeps)",
+      null,
       null,
       null
     ],
@@ -5448,6 +5867,7 @@
       "（认真确认的哔哔声）",
       "(businesslike confirmation beeps)",
       null,
+      null,
       null
     ],
     [
@@ -5460,6 +5880,7 @@
       "Unknown/F98.078",
       "（提醒的哔哔声）",
       "(reminding beeps)",
+      null,
       null,
       null
     ],
@@ -5474,6 +5895,7 @@
       "（疑惑且眩晕的哔哔声）",
       "(confused, dizzy beeps)",
       null,
+      null,
       null
     ],
     [
@@ -5486,6 +5908,7 @@
       "Unwell",
       "（痛苦的哔哔声）",
       "(afflicted beeps)",
+      null,
       null,
       null
     ],
@@ -5500,6 +5923,7 @@
       "（有趣的哔哔声）",
       "(fun beep)",
       null,
+      null,
       null
     ],
     [
@@ -5512,6 +5936,7 @@
       "Voicelines",
       "（可爱的哔哔声）",
       "(cute beeps)",
+      null,
       null,
       null
     ],
@@ -5526,6 +5951,7 @@
       "（好奇的哔哔声）",
       "(curious beep)",
       null,
+      null,
       null
     ],
     [
@@ -5538,6 +5964,7 @@
       "Voicelines",
       "（欢快的哔哔声）",
       "(cheerful beeps)",
+      null,
       null,
       null
     ],
@@ -5552,6 +5979,7 @@
       "（嘘的哔哔声）",
       "(hushing beeps)",
       null,
+      null,
       null
     ],
     [
@@ -5564,6 +5992,7 @@
       "Voicelines",
       "（蠢萌的哔哔声）",
       "(silly beeps)",
+      null,
       null,
       null
     ],
@@ -5578,6 +6007,7 @@
       "（长哔哔声）",
       "(long beep)",
       null,
+      null,
       null
     ],
     [
@@ -5590,6 +6020,7 @@
       "Voicelines",
       "（嘲讽的哔哔声）",
       "(taunting beeps)",
+      null,
       null,
       null
     ],
@@ -5604,6 +6035,7 @@
       "（激动的哔哔声）",
       "(excited beeps)",
       null,
+      null,
       null
     ],
     [
@@ -5616,6 +6048,7 @@
       "Voicelines",
       "（被闲置时的嗡鸣）",
       "(idle humming)",
+      null,
       null,
       null
     ],
@@ -5630,6 +6063,7 @@
       "（害怕的哔哔声）",
       "(scared beeps)",
       null,
+      null,
       null
     ],
     [
@@ -5642,6 +6076,7 @@
       "Voicelines",
       "（欢闹的哔哔声）",
       "(trumpeting beeps)",
+      null,
       null,
       null
     ],
@@ -5656,6 +6091,7 @@
       "（哔哔声）",
       "(beeps)",
       null,
+      null,
       null
     ],
     [
@@ -5668,6 +6104,7 @@
       "Voicelines",
       "（示警的哔哔声）",
       "(alarmed beeps)",
+      null,
       null,
       null
     ],
@@ -5682,6 +6119,7 @@
       "（颤鸣的哔哔声）",
       "(churring beeps)",
       null,
+      null,
       null
     ],
     [
@@ -5694,6 +6132,7 @@
       "Voicelines",
       "（关卡失败的哔哔声）",
       "(level failed beeps)",
+      null,
       null,
       null
     ],
@@ -5708,6 +6147,7 @@
       "（《欢度节日》的哔哔声）",
       "(beeps \"Deck the Halls\")",
       null,
+      null,
       null
     ],
     [
@@ -5720,6 +6160,7 @@
       "Voicelines",
       "（啾啾的哔哔声）",
       "(tweeting beeps)",
+      null,
       null,
       null
     ],
@@ -5734,6 +6175,7 @@
       "（激动的哔哔声）",
       "(trilling beeps)",
       null,
+      null,
       null
     ],
     [
@@ -5746,6 +6188,7 @@
       "Voicelines",
       "（咏唱的哔哔声）",
       "(chanting beeps)",
+      null,
       null,
       null
     ],
@@ -5760,6 +6203,7 @@
       "（热切的哔哔声）",
       "(enthusiastic beeps)",
       null,
+      null,
       null
     ],
     [
@@ -5772,6 +6216,7 @@
       "Voicelines",
       "（守望先锋主题曲的哔哔声）",
       "(beeps the Overwatch theme)",
+      null,
       null,
       null
     ],
@@ -5786,6 +6231,7 @@
       "（守望先锋主题曲的哔哔声）",
       "(beeps the Overwatch theme)",
       null,
+      null,
       null
     ],
     [
@@ -5798,6 +6244,7 @@
       "Voicelines",
       "（守望先锋主题曲的哔哔声）",
       "(beeps the Overwatch theme)",
+      null,
       null,
       null
     ],
@@ -5812,6 +6259,7 @@
       "（招摇的哔哔声）",
       "(fanfare beeps)",
       null,
+      null,
       null
     ],
     [
@@ -5824,6 +6272,7 @@
       "Voicelines",
       "（庆祝的哔哔声）",
       "(celebrating beeps)",
+      null,
       null,
       null
     ],
@@ -5838,6 +6287,7 @@
       "（激动的哔哔声）",
       "(trilling beeps)",
       null,
+      null,
       null
     ],
     [
@@ -5850,6 +6300,7 @@
       "Voicelines",
       "（《铃儿响叮当》的哔哔声）",
       "(beeps \"Jingle Bells\")",
+      null,
       null,
       null
     ],
@@ -5864,6 +6315,7 @@
       "（强烈、高音调的哔哔声）",
       "(intense, high-pitched beeps)",
       null,
+      null,
       null
     ],
     [
@@ -5876,6 +6328,7 @@
       "Voicelines",
       "（惊讶且愉悦的哔哔声）",
       "(surprised and amused beeps)",
+      null,
       null,
       null
     ],
@@ -5890,6 +6343,7 @@
       "（得意的哔哔声）",
       "(pleased beeps)",
       null,
+      null,
       null
     ],
     [
@@ -5902,6 +6356,7 @@
       "VotedEpic",
       "（害羞且得意的哔哔声）",
       "(shy, flattered beeps)",
+      null,
       null,
       null
     ],
@@ -5916,6 +6371,7 @@
       "（倍感愉悦的哔哔声）",
       "(extremely pleased beeps)",
       null,
+      null,
       null
     ],
     [
@@ -5929,6 +6385,7 @@
       "（赞同的哔哔声）",
       "(positive beeps)",
       null,
+      null,
       null
     ],
     [
@@ -5941,6 +6398,7 @@
       "YourWelcome",
       "（羞怯的哔哔声）",
       "(bashful beeps)",
+      null,
       null,
       null
     ]

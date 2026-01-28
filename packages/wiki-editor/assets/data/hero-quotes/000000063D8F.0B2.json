@@ -4,9 +4,9 @@
   "fileId_n": 408975,
   "hero": "junkrat",
   "heroName": "狂鼠",
-  "category": "KillStreak",
   "subtitle": "干掉多少个能进“守望先锋”？",
   "subtitle_en": "How many kills for an invite to Overwatch?",
+  "category": "KillStreak",
   "criteria": "{\"type\":\"nested\",\"total\":12,\"needed\":4,\"conditions\":[{\"type\":\"withHero\",\"hero\":\"安娜\"},{\"type\":\"withHero\",\"hero\":\"天使\"},{\"type\":\"withHero\",\"hero\":\"索杰恩\"},{\"type\":\"withHero\",\"hero\":\"托比昂\"},{\"type\":\"withHero\",\"hero\":\"莱因哈特\"},{\"type\":\"withHero\",\"hero\":\"温斯顿\"},{\"type\":\"withHero\",\"hero\":\"士兵：76\"},{\"type\":\"withHero\",\"hero\":\"回声\"},{\"type\":\"withHero\",\"hero\":\"源氏\"},{\"type\":\"withHero\",\"hero\":\"卡西迪\"},{\"type\":\"withHero\",\"hero\":\"美\"},{\"type\":\"withHero\",\"hero\":\"猎空\"}]}",
   "weight": 0.66
 }

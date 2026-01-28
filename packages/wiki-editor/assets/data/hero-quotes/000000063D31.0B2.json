@@ -4,9 +4,9 @@
   "fileId_n": 408881,
   "hero": "ashe",
   "heroName": "艾什",
-  "category": "MatchTalk",
   "subtitle": "看看队里这些大善人。我们是不是走错了，鲍勃？",
   "subtitle_en": "Look at all these good Samaritans. What are we doing here, Bob?",
+  "category": "MatchTalk",
   "criteria": "{\"type\":\"nested\",\"total\":14,\"needed\":4,\"conditions\":[{\"type\":\"withHero\",\"hero\":\"温斯顿\"},{\"type\":\"withHero\",\"hero\":\"美\"},{\"type\":\"withHero\",\"hero\":\"天使\"},{\"type\":\"withHero\",\"hero\":\"莱因哈特\"},{\"type\":\"withHero\",\"hero\":\"索杰恩\"},{\"type\":\"withHero\",\"hero\":\"堡垒\"},{\"type\":\"withHero\",\"hero\":\"布丽吉塔\"},{\"type\":\"withHero\",\"hero\":\"回声\"},{\"type\":\"withHero\",\"hero\":\"源氏\"},{\"type\":\"withHero\",\"hero\":\"奥丽莎\"},{\"type\":\"withHero\",\"hero\":\"法老之鹰\"},{\"type\":\"withHero\",\"hero\":\"托比昂\"},{\"type\":\"withHero\",\"hero\":\"猎空\"},{\"type\":\"withHero\",\"hero\":\"禅雅塔\"}]}",
   "weight": 0.9
 }

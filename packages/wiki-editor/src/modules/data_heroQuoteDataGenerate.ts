@@ -1,9 +1,10 @@
 import type { WikiHero } from "../models/hero";
-import type { QuoteCriteriaCondition, QuoteCriteriaSingleCondition, WikiHeroQuote } from "../models/hero-quote";
+import type { QuoteCriteriaCondition, QuoteCriteriaSingleCondition, WikiHeroConversation, WikiHeroQuote } from "../models/hero-quote";
 import path from "node:path";
 import fse from "fs-extra";
 import { convertPathToPattern, glob } from "tinyglobby";
 import { HeroQuoteCelebrationName, HeroQuoteGenderName, HeroQuoteHeroNameMap, HeroQuoteHeroTagNames, HeroQuoteScriptDesc, HeroQuoteScriptDesc_Unknown } from "../data/hero-quote";
+import { zWikiHeroQuote } from "../models/hero-quote";
 import { logger, spinner, spinnerProgress } from "../utils/logger";
 import { Tabx } from "../utils/tabx";
 
@@ -19,23 +20,21 @@ export default async function heroQuoteDataGenerate() {
   const decoder = new TextDecoder("utf-16");
   const zhSubtitles = await readSubtitles(path.join(RAW_DATA_PATH, "logs", "list-subtitles-real-1.log"));
   const enSubtitles = await readSubtitles(path.join(RAW_DATA_PATH, "logs", "list-subtitles-real-2.log"));
-  const voiceFiles = await glob(
-    [
-      "**/*.txt",
-      "!**/*-criteria.txt",
-      "!**/*-weight.txt",
-    ],
-    {
-      cwd: path.join(RAW_DATA_PATH, "extract/HeroVoice"),
-    },
+  const heroVoiceFiles = await glob(
+    ["**/*.txt", "!**/*-criteria.txt", "!**/*-weight.txt"],
+    { cwd: path.join(RAW_DATA_PATH, "extract/HeroVoice") },
+  );
+  const npcVoiceFiles = await glob(
+    ["**/*.txt", "!**/*-criteria.txt", "!**/*-weight.txt"],
+    { cwd: path.join(RAW_DATA_PATH, "extract/NPCVoice") },
   );
   spinner.succeed();
 
   const dataByHero: Record<string, WikiHeroQuote[]> = {};
 
-  // MARK: 处理文件
-  spinnerProgress.start("处理文件", voiceFiles.length);
-  for (const voiceFile of voiceFiles) {
+  // MARK: 处理语音文件
+  spinnerProgress.start("处理语音文件", heroVoiceFiles.length + npcVoiceFiles.length);
+  for (const voiceFile of heroVoiceFiles) {
     const fileId = path.basename(voiceFile).match(/^([0-9A-F]{12}\.0B2)/)?.[0] as `${string}.0B2`;
     if (!fileId) {
       logger.error(`文件名格式错误：${voiceFile}`);
@@ -48,6 +47,7 @@ export default async function heroQuoteDataGenerate() {
     const category = pathSegments.join("/");
     if (!heroName || !skin || !category) {
       logger.error(`目录名格式错误：${voiceFile}`);
+      console.info(heroName, skin, category);
       process.exit(1);
     }
     const hero = heroKeyByName[heroName] ?? "npc";
@@ -84,9 +84,130 @@ export default async function heroQuoteDataGenerate() {
     }
 
     dataByHero[hero] ??= [];
-    dataByHero[hero]!.push(heroQuoteData);
+    dataByHero[hero]!.push(zWikiHeroQuote.parse(heroQuoteData));
     spinnerProgress.increment();
   }
+  for (const voiceFile of npcVoiceFiles) {
+    const fileId = path.basename(voiceFile).match(/^([0-9A-F]{12}\.0B2)/)?.[0] as `${string}.0B2`;
+    if (!fileId) {
+      logger.error(`文件名格式错误：${voiceFile}`);
+      process.exit(1);
+    }
+    const fileId_n = Number.parseInt(fileId.replace(".0B2", ""), 16);
+    const pathSegments = path.dirname(voiceFile).split("/");
+    const heroName = pathSegments.shift();
+    const category = ["NPC", ...pathSegments].join("/");
+    if (!heroName || !category) {
+      logger.error(`目录名格式错误：${voiceFile}`);
+      console.info(heroName, category);
+      process.exit(1);
+    }
+    const hero = heroKeyByName[heroName] ?? "npc";
+    if (dataByHero[hero]?.some(item => item.fileId === fileId)) {
+      spinnerProgress.increment();
+      continue;
+    }
+
+    const zhSubtitle = zhSubtitles[fileId];
+    const enSubtitle = enSubtitles[fileId];
+    if (!zhSubtitle || !enSubtitle) {
+      logger.error(`字幕不存在：${voiceFile}`);
+      process.exit(1);
+    }
+
+    const heroQuoteData: WikiHeroQuote = {
+      _dataType: "HeroQuote",
+      fileId,
+      fileId_n,
+      hero,
+      heroName,
+      category,
+      subtitle: zhSubtitle,
+      subtitle_en: enSubtitle,
+    };
+    currentData = heroQuoteData;
+    const criteriaFile = Bun.file(path.join(RAW_DATA_PATH, "extract/NPCVoice", path.dirname(voiceFile), `${fileId}-criteria.txt`));
+    if (await criteriaFile.exists()) {
+      const criteriaString = decoder.decode(await criteriaFile.arrayBuffer());
+      heroQuoteData.criteria = JSON.stringify(parseCriteria(criteriaString));
+    }
+
+    const weightFile = Bun.file(path.join(RAW_DATA_PATH, "extract/NPCVoice", path.dirname(voiceFile), `${fileId}-weight.txt`));
+    if (await weightFile.exists()) {
+      const weightString = decoder.decode(await weightFile.arrayBuffer());
+      heroQuoteData.weight = Number.parseFloat(weightString);
+    }
+
+    dataByHero[hero] ??= [];
+    dataByHero[hero]!.push(zWikiHeroQuote.parse(heroQuoteData));
+    spinnerProgress.increment();
+  }
+  spinnerProgress.succeed();
+
+  // MARK: 处理对话列表
+  spinner.start("处理对话列表");
+  const conversationData: Record<string, WikiHeroConversation> = {};
+  const conversationFolders = await glob(convertPathToPattern(path.join(RAW_DATA_PATH, "extract/HeroConvo/*/*.0D0")), {
+    onlyDirectories: true,
+    onlyFiles: false,
+  });
+  const conversationListFile = await Bun.file(path.join(RAW_DATA_PATH, "json/conversations.json")).json();
+  const conversationListFileMap = Object.fromEntries(
+    conversationListFile.map((item: any) => [item.GUID, item]),
+  );
+  for (const conversationFolder of conversationFolders) {
+    const conversationId = path.basename(conversationFolder);
+    const conversationListData = conversationListFileMap[conversationId];
+    if (!conversationListData) {
+      throw new Error(`Conversation not found in list: ${conversationId}`);
+    }
+    const conversation: WikiHeroConversation = {
+      conversationId,
+      weight: conversationListData.Weight as number,
+      quotes: [],
+    };
+    const quoteFiles = await fse.readdir(conversationFolder);
+    const quoteFilesByFileNumber: Record<number, string> = {};
+    for (const quoteFile of quoteFiles) {
+      const match = quoteFile.match(/^(?<fileNumber>\d+)-/);
+      if (!match) {
+        throw new Error(`Invalid quote file format: ${quoteFile}`);
+      }
+      const fileNumber = Number(match.groups!.fileNumber!);
+      quoteFilesByFileNumber[fileNumber] = quoteFile;
+    }
+
+    for (let i = 0; i < conversationListData.Voicelines.length; i++) {
+      const quoteFile = quoteFilesByFileNumber[i + 1];
+      const quoteListItem = conversationListData.Voicelines[i]!;
+
+      const conversationQuotes: WikiHeroConversation["quotes"][0] = {
+        voiceLineId: quoteListItem.VoicelineGUID,
+        position: quoteListItem.Position as number,
+      };
+      if (quoteFile) {
+        const match = quoteFile.match(/^(?<fileIndex>\d+)-(?<hero>\S+)-(?<fileId>\w{12}\.0B2)/);
+        if (!match) {
+          throw new Error(`Invalid quote file format: ${quoteFile}`);
+        }
+        const heroName = match.groups!.hero!;
+        const fileId = match.groups!.fileId!;
+        conversationQuotes.fileId = fileId;
+        conversationQuotes.hero = heroName;
+        // 在HeroQuote数据中关联对话信息
+        const heroKey = heroKeyByName[heroName] ?? "npc";
+        const heroQuoteData = dataByHero[heroKey]!.find(item => item.fileId === fileId);
+        if (heroQuoteData) {
+          heroQuoteData.conversations ??= [];
+          heroQuoteData.conversations.push(`${conversationId}#${conversationQuotes.position}`);
+          heroQuoteData.conversations.sort();
+        }
+      }
+      conversation.quotes.push(conversationQuotes);
+    }
+    conversationData[conversationId] = conversation;
+  }
+  spinner.succeed();
 
   // MARK: 输出文件
   spinner.start("输出文件");
@@ -124,6 +245,7 @@ export default async function heroQuoteDataGenerate() {
       { key: "subtitle_en", type: "string" },
       { key: "criteria", type: "string" },
       { key: "weight", type: "number" },
+      { key: "conversations", type: "string", isArray: true },
     ]);
     for (const heroQuote of heroQuotes) {
       if (tabx.isValidItem(heroQuote)) {
@@ -144,6 +266,21 @@ export default async function heroQuoteDataGenerate() {
       JSON.stringify(heroQuote, null, 2),
     );
   }
+
+  // const conversationTabx = Tabx.fromHeaders([
+  //   { key: "_dataType", type: "string" },
+  //   { key: "conversationId", type: "string" },
+  //   { key: "weight", type: "number" },
+  //   { key: "quotes", type: "string", isArray: true },
+  // ]);
+  // for (const conversation of Object.values(conversationData)) {
+  //   conversationTabx.addItem(conversation);
+  // }
+  // await Bun.write(
+  //   path.join(OUTPUT_PATH, "conversations.tabx"),
+  //   JSON.stringify(conversationTabx.toJson(), null, 2),
+  // );
+
   spinner.succeed();
 }
 
@@ -244,10 +381,14 @@ function parseCriteriaNode(
   if (condition) {
     return { condition, nextLineIndex: lineIndex + 1 };
   }
+  if (currentData.category.startsWith("NPC")) {
+    return { condition: { type: "unknown", raw: criteriaString, negative }, nextLineIndex: lineIndex + 1 };
+  }
+  spinnerProgress.fail();
   logger.error("条件解析失败");
   logger.error(`  ${line.trim()}`);
   logger.error(`  ${JSON.stringify(currentData)}`);
-  return { condition: { type: "unknown", raw: criteriaString, negative }, nextLineIndex: lineIndex + 1 };
+  process.exit(1);
 }
 
 /**
@@ -300,7 +441,9 @@ function parseCriteriaSingleNode(criteriaString: string, negative?: boolean): Qu
       return { type: "toHero", heroTag: HeroQuoteHeroTagNames[heroName], negative };
     }
     if (!heroKeyByName[heroName]) {
-      logger.error(`未知的英雄 ${heroName}`);
+      if (!currentData.category.startsWith("NPC")) {
+        logger.error(`未知的英雄 ${heroName}`);
+      }
       return undefined;
     }
     return { type: "toHero", hero: heroName, negative };

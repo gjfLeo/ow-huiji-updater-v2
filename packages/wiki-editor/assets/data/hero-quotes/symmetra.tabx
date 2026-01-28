@@ -77,6 +77,13 @@
         "title": {
           "en": "weight"
         }
+      },
+      {
+        "name": "conversations",
+        "type": "string",
+        "title": {
+          "en": "conversations[]"
+        }
       }
     ]
   },
@@ -92,6 +99,7 @@
       "那就这样。",
       "Just so.",
       null,
+      null,
       null
     ],
     [
@@ -104,6 +112,7 @@
       "Armor",
       "我需要护甲。",
       "I need armor.",
+      null,
       null,
       null
     ],
@@ -118,6 +127,7 @@
       "我需要护甲。",
       "I require armor.",
       null,
+      null,
       null
     ],
     [
@@ -130,6 +140,7 @@
       "AssistanceRequired",
       "我需要帮助。",
       "I require assistance.",
+      null,
       null,
       null
     ],
@@ -144,6 +155,7 @@
       "我需要帮忙！",
       "I need help!",
       null,
+      null,
       null
     ],
     [
@@ -156,6 +168,7 @@
       "BehindYou",
       "当心后面！",
       "Behind you!",
+      null,
       null,
       null
     ],
@@ -170,6 +183,7 @@
       "再见。",
       "Goodbye.",
       null,
+      null,
       null
     ],
     [
@@ -182,6 +196,7 @@
       "Bye",
       "再见。",
       "(Hindi): Goodbye.",
+      null,
       null,
       null
     ],
@@ -196,6 +211,7 @@
       "我们必须肃清这片区域。",
       "We must clear the area.",
       null,
+      null,
       null
     ],
     [
@@ -208,6 +224,7 @@
       "CloseCall",
       "刚才好险。",
       "That was too close.",
+      null,
       null,
       null
     ],
@@ -222,6 +239,7 @@
       "倒计时3... 2... 1...",
       "In 3... 2... 1...",
       null,
+      null,
       null
     ],
     [
@@ -234,6 +252,7 @@
       "Countdown",
       "3……2……1……",
       "3... 2... 1...",
+      null,
       null,
       null
     ],
@@ -248,6 +267,7 @@
       "我拿到敌人的旗帜了。",
       "I have secured the enemy flag.",
       null,
+      null,
       null
     ],
     [
@@ -260,6 +280,7 @@
       "CTF/CapturedFlag",
       "旗帜是我的了。",
       "The flag is mine.",
+      null,
       null,
       null
     ],
@@ -274,6 +295,7 @@
       "一起夺取旗帜。",
       "Let's capture the flag.",
       null,
+      null,
       null
     ],
     [
@@ -286,6 +308,7 @@
       "CTF/CaptureFlag",
       "拿走敌人的旗帜。",
       "Take the enemy flag.",
+      null,
       null,
       null
     ],
@@ -300,6 +323,7 @@
       "在旗帜这里部署防御。",
       "Set up defenses on the flag.",
       null,
+      null,
       null
     ],
     [
@@ -312,6 +336,7 @@
       "CTF/DefendFlag",
       "守住旗帜。",
       "Defend the flag.",
+      null,
       null,
       null
     ],
@@ -326,6 +351,7 @@
       "我扔掉了旗帜。",
       "I have dropped the flag.",
       null,
+      null,
       null
     ],
     [
@@ -338,6 +364,7 @@
       "CTF/DroppedFlag",
       "快来人拿走旗帜！",
       "Someone take the flag!",
+      null,
       null,
       null
     ],
@@ -352,6 +379,7 @@
       "我们必须保护好旗帜，不能让情况再恶化下去了。",
       "We must secure our flag against further incursions.",
       null,
+      null,
       null
     ],
     [
@@ -364,6 +392,7 @@
       "CTF/EnemyCapturedFlag",
       "这只是偶然的失败，不会再有下一次了。",
       "A momentary setback. We should not let it happen again.",
+      null,
       null,
       null
     ],
@@ -378,6 +407,7 @@
       "快来人取回我们的旗帜！",
       "Someone recover our flag!",
       null,
+      null,
       null
     ],
     [
@@ -390,6 +420,7 @@
       "CTF/EnemyDroppedFlag",
       "敌人扔下了我们的旗帜，快取回来！",
       "They have dropped our flag, secure it!",
+      null,
       null,
       null
     ],
@@ -404,6 +435,7 @@
       "我们的旗帜被拿走了。必须把它夺回来！",
       "Our flag has been taken. We must recover it!",
       null,
+      null,
       null
     ],
     [
@@ -416,6 +448,7 @@
       "CTF/EnemyTakenFlag",
       "敌人拿走了我们的旗帜，快去取回来！",
       "The enemy possesses our flag. Secure it!",
+      null,
       null,
       null
     ],
@@ -430,6 +463,7 @@
       "正在归还旗帜。",
       "Returning the flag to base.",
       null,
+      null,
       null
     ],
     [
@@ -442,6 +476,7 @@
       "CTF/FlagReturned",
       "正在把旗帜归回基地。",
       "Sending the flag back to our base.",
+      null,
       null,
       null
     ],
@@ -456,6 +491,7 @@
       "我拿到敌人的旗帜了，保护我！",
       "I have the enemy's flag, protect me!",
       null,
+      null,
       null
     ],
     [
@@ -468,6 +504,7 @@
       "CTF/PickedUpFlag",
       "我拿到敌人的旗帜了。",
       "I have taken the enemy flag.",
+      null,
       null,
       null
     ],
@@ -482,6 +519,7 @@
       "夺回我们的旗帜！",
       "Recover our flag!",
       null,
+      null,
       null
     ],
     [
@@ -494,6 +532,7 @@
       "CTF/RecoverFlag",
       "我们必须夺回旗帜。",
       "We must recover our flag.",
+      null,
       null,
       null
     ],
@@ -508,6 +547,7 @@
       "我们的命运重合在了一起。",
       "Our fates are entwined.",
       null,
+      null,
       null
     ],
     [
@@ -520,6 +560,7 @@
       "DamageBoosted",
       "完美的协同。",
       "Perfect alignment.",
+      null,
       null,
       null
     ],
@@ -534,6 +575,7 @@
       "系统已优化",
       "System optimized.",
       null,
+      null,
       null
     ],
     [
@@ -546,6 +588,7 @@
       "DamageBoosted",
       "我实力大增。",
       "My power grows.",
+      null,
       null,
       null
     ],
@@ -560,6 +603,7 @@
       "我们意见一致。",
       "(Hindi): We are in harmony.",
       null,
+      null,
       null
     ],
     [
@@ -573,6 +617,7 @@
       "（垂死之声）",
       "(dying sounds)",
       "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      null,
       null
     ],
     [
@@ -586,6 +631,7 @@
       "（垂死之声）",
       "(dying sounds)",
       "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      null,
       null
     ],
     [
@@ -599,6 +645,7 @@
       "（垂死之声）",
       "(dying sounds)",
       "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      null,
       null
     ],
     [
@@ -612,6 +659,7 @@
       "（垂死之声）",
       "(dying sounds)",
       "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      null,
       null
     ],
     [
@@ -625,6 +673,7 @@
       "（垂死之声）",
       "(dying sounds)",
       "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      null,
       null
     ],
     [
@@ -638,6 +687,7 @@
       "（垂死之声）",
       "(dying sounds)",
       "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      null,
       null
     ],
     [
@@ -651,6 +701,7 @@
       "（遭受重压的声音）",
       "(crushed sounds)",
       "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      null,
       null
     ],
     [
@@ -664,6 +715,7 @@
       "（遭受重压的声音）",
       "(crushed sounds)",
       "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      null,
       null
     ],
     [
@@ -677,6 +729,7 @@
       "（大叫）",
       "(screams)",
       "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      null,
       null
     ],
     [
@@ -690,6 +743,7 @@
       "（大叫）",
       "(screams)",
       "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      null,
       null
     ],
     [
@@ -703,6 +757,7 @@
       "（大叫）",
       "(screams)",
       "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      null,
       null
     ],
     [
@@ -716,6 +771,7 @@
       "（大叫）",
       "(screams)",
       "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      null,
       null
     ],
     [
@@ -728,6 +784,7 @@
       "Discorded",
       "该死。",
       "Damn.",
+      null,
       null,
       null
     ],
@@ -742,6 +799,7 @@
       "我们必须消灭这个目标。",
       "We must eliminate this target.",
       null,
+      null,
       null
     ],
     [
@@ -754,6 +812,7 @@
       "Elimination",
       "看来你还心有杂念。",
       "I see you have not found clarity.",
+      null,
       null,
       null
     ],
@@ -768,6 +827,7 @@
       "一个丑陋的错误。",
       "An unsightly mistake.",
       null,
+      null,
       null
     ],
     [
@@ -780,6 +840,7 @@
       "Elimination",
       "我会坚持自己的理念。",
       "I will see my ideals through.",
+      null,
       null,
       null
     ],
@@ -794,6 +855,7 @@
       "你的行动尽在我掌控。",
       "You move so predictably.",
       null,
+      null,
       null
     ],
     [
@@ -806,6 +868,7 @@
       "Elimination",
       "总有一天，暴力将没有意义。",
       "Someday, violence will be unnecessary.",
+      null,
       null,
       null
     ],
@@ -820,6 +883,7 @@
       "发挥你的想象力。",
       "Use your imagination.",
       null,
+      null,
       null
     ],
     [
@@ -832,6 +896,7 @@
       "Elimination",
       "这是一种战术策略吗？",
       "Was that an attempt at strategy?",
+      null,
       null,
       null
     ],
@@ -846,6 +911,7 @@
       "我的现实没有你的容身之地。",
       "There is no place for you in my reality.",
       null,
+      null,
       null
     ],
     [
@@ -858,6 +924,7 @@
       "Elimination",
       "我感觉到有人动摇了。",
       "I sense an absence of determination.",
+      null,
       null,
       null
     ],
@@ -872,6 +939,7 @@
       "现实就是这么残酷。",
       "An expression of reality.",
       null,
+      null,
       null
     ],
     [
@@ -884,6 +952,7 @@
       "Elimination",
       "你一定是活在自己的世界里。",
       "You must be living in your own world.",
+      null,
       null,
       null
     ],
@@ -898,6 +967,7 @@
       "瑕疵已清除。",
       "Imperfection dematerialized.",
       null,
+      null,
       null
     ],
     [
@@ -910,6 +980,7 @@
       "Elimination",
       "我不会想念你的存在。",
       "Your presence will not be missed.",
+      null,
       null,
       null
     ],
@@ -924,6 +995,7 @@
       "距离完美又近了一步。",
       "One step closer to perfection.",
       null,
+      null,
       null
     ],
     [
@@ -936,6 +1008,7 @@
       "Elimination",
       "你的幻想已经破灭。",
       "You are disillusioned.",
+      null,
       null,
       null
     ],
@@ -950,6 +1023,7 @@
       "很有启发。",
       "Enlightening.",
       null,
+      null,
       null
     ],
     [
@@ -962,6 +1036,7 @@
       "Elimination",
       "反省一下缺点吧。",
       "Reflect on your flaws.",
+      null,
       null,
       null
     ],
@@ -976,7 +1051,8 @@
       "你为何要对抗命运？",
       "Why do you struggle against your fate?",
       null,
-      0.1
+      0.1,
+      null
     ],
     [
       "HeroQuote",
@@ -989,7 +1065,8 @@
       "一切都在计划之中。",
       "All according to plan.",
       null,
-      0.1
+      0.1,
+      null
     ],
     [
       "HeroQuote",
@@ -1002,7 +1079,8 @@
       "完美的协同。",
       "Perfect alignment.",
       null,
-      0.1
+      0.1,
+      null
     ],
     [
       "HeroQuote",
@@ -1015,7 +1093,8 @@
       "你居然相信这样的事业，愚蠢。",
       "You are a fool to believe in your actions.",
       "{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"拉玛刹\"},{\"type\":\"toHero\",\"hero\":\"末日铁拳\"}]}",
-      0.3
+      0.3,
+      null
     ],
     [
       "HeroQuote",
@@ -1028,6 +1107,7 @@
       "现实真正的样子只能有一个！",
       "There can only be one true reality.",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"秩序之光\"}]}",
+      null,
       null
     ],
     [
@@ -1041,7 +1121,8 @@
       "（叹气）你就不能穿双鞋吗？",
       "(sigh) Put on some shoes. Please.",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A894\",\"scriptDesc\":\"敌方西格玛使用未穿鞋的皮肤\"},{\"type\":\"toHero\",\"hero\":\"西格玛\"}]}",
-      0.1
+      0.1,
+      null
     ],
     [
       "HeroQuote",
@@ -1054,6 +1135,7 @@
       "这是对你罪行的惩罚。",
       "A punishment for your crimes.",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"卢西奥\"},{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}]}",
+      null,
       null
     ],
     [
@@ -1067,7 +1149,8 @@
       "我终于能听到自己的声音了。",
       "Finally, I can hear myself think.",
       "{\"type\":\"nested\",\"total\":3,\"needed\":1,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"莱因哈特\"},{\"type\":\"toHero\",\"hero\":\"狂鼠\"},{\"type\":\"toHero\",\"hero\":\"卢西奥\"}]}",
-      0.3
+      0.3,
+      null
     ],
     [
       "HeroQuote",
@@ -1080,7 +1163,8 @@
       "（叹气）别再吵了。",
       "(sigh) Stop your racket.",
       "{\"type\":\"nested\",\"total\":3,\"needed\":1,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"莱因哈特\"},{\"type\":\"toHero\",\"hero\":\"狂鼠\"},{\"type\":\"toHero\",\"hero\":\"卢西奥\"}]}",
-      0.3
+      0.3,
+      null
     ],
     [
       "HeroQuote",
@@ -1093,6 +1177,7 @@
       "铁甲公会的技术……过时了。",
       "Ironclad technology... how archaic.",
       "{\"type\":\"nested\",\"total\":3,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"托比昂\"},{\"type\":\"toHero\",\"hero\":\"布丽吉塔\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}]}",
+      null,
       null
     ],
     [
@@ -1106,7 +1191,8 @@
       "非要把心里的想法说得那么大声。",
       "You broadcast your intentions so clearly.",
       "{\"type\":\"nested\",\"total\":4,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"卡西迪\"},{\"type\":\"toHero\",\"hero\":\"士兵：76\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"法老之鹰\"}]}",
-      0.5
+      0.5,
+      null
     ],
     [
       "HeroQuote",
@@ -1119,7 +1205,8 @@
       "精细的设计总能战胜蛮力。",
       "Precision always defeats brute force.",
       "{\"type\":\"nested\",\"total\":9,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"莫伊拉\"},{\"type\":\"toHero\",\"hero\":\"奥丽莎\"},{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"},{\"type\":\"toHero\",\"hero\":\"法老之鹰\"},{\"type\":\"toHero\",\"hero\":\"死神\"},{\"type\":\"toHero\",\"hero\":\"路霸\"},{\"type\":\"toHero\",\"hero\":\"索杰恩\"},{\"type\":\"toHero\",\"hero\":\"温斯顿\"},{\"type\":\"toHero\",\"hero\":\"源氏\"}]}",
-      0.75
+      0.75,
+      null
     ],
     [
       "HeroQuote",
@@ -1132,6 +1219,7 @@
       "这一刻属于我。",
       "This moment is mine.",
       "{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}",
+      null,
       null
     ],
     [
@@ -1145,6 +1233,7 @@
       "漏洞百出的行动。",
       "What imprecise movements.",
       "{\"type\":\"scripted\",\"script\":\"00A6FE\",\"scriptDesc\":\"敌人高速移动\"}",
+      null,
       null
     ],
     [
@@ -1158,6 +1247,7 @@
       "我的空间感知。",
       "Spatial awareness.",
       "{\"type\":\"scripted\",\"script\":\"00A776\",\"scriptDesc\":\"在空中时\"}",
+      null,
       null
     ],
     [
@@ -1171,6 +1261,7 @@
       "现在，我看到你了。",
       "I see you now.",
       "{\"type\":\"scripted\",\"script\":\"00A788\",\"scriptDesc\":\"敌方黑影潜行\"}",
+      null,
       null
     ],
     [
@@ -1184,6 +1275,7 @@
       "距离对我的技术没有影响。",
       "My technology cares not for intervening distance.",
       "{\"type\":\"scripted\",\"script\":\"00A809\",\"scriptDesc\":\"远距离\"}",
+      null,
       null
     ],
     [
@@ -1197,6 +1289,7 @@
       "冰的破碎，美轮美奂。",
       "Ice fractures beautifully.",
       "{\"type\":\"scripted\",\"script\":\"00AA26\",\"scriptDesc\":\"敌人被暴雪控制\"}",
+      null,
       null
     ],
     [
@@ -1210,6 +1303,7 @@
       "高尚的做法，涅兰。",
       "A noble attempt, Niran.",
       "{\"type\":\"scripted\",\"script\":\"00B531\",\"scriptDesc\":\"消灭被生命之握的敌人\"}",
+      null,
       null
     ],
     [
@@ -1223,6 +1317,7 @@
       "（叹气）固步自封。",
       "(sighs) You are trapped in your own mind.",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -1236,6 +1331,7 @@
       "那是为你好。",
       "That was for your own good.",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -1249,6 +1345,7 @@
       "你不配迎接真相。",
       "You are unworthy of the true reality.",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -1262,6 +1359,7 @@
       "嗯……感知危险不是你的强项。",
       "Hm... Perception is your weakness.",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -1275,6 +1373,7 @@
       "（叹气）你成不了大事。",
       "(sighs) You were not meant for greatness.",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -1288,6 +1387,7 @@
       "秩序已恢复。",
       "Order is restored.",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -1301,6 +1401,7 @@
       "完美。",
       "Perfection.",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -1314,6 +1415,7 @@
       "这才是一切应有的秩序。",
       "This is the order of things.",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -1327,6 +1429,7 @@
       "自不量力。",
       "Know your place.",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -1340,6 +1443,7 @@
       "你缺乏想象力。",
       "You lack imagination.",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -1353,6 +1457,7 @@
       "一切按部就班。",
       "Everything in its place.",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -1366,6 +1471,7 @@
       "我还以为我们能有更多共同点。",
       "I thought we had more in common.",
       "{\"type\":\"toHero\",\"hero\":\"半藏\"}",
+      null,
       null
     ],
     [
@@ -1379,6 +1485,7 @@
       "结构粗糙，功能匮乏。",
       "Lacking in form, lacking in function.",
       "{\"type\":\"toHero\",\"hero\":\"堡垒\"}",
+      null,
       null
     ],
     [
@@ -1392,6 +1499,7 @@
       "你的心智还困在泡泡里。",
       "Your mentality remains trapped in that bubble.",
       "{\"type\":\"toHero\",\"hero\":\"查莉娅\"}",
+      null,
       null
     ],
     [
@@ -1405,6 +1513,7 @@
       "原谅我，泰哈撒。",
       "Forgive me, Tekhartha.",
       "{\"type\":\"toHero\",\"hero\":\"禅雅塔\"}",
+      null,
       null
     ],
     [
@@ -1418,6 +1527,7 @@
       "秩序永远都会战胜混乱。",
       "Order conquers anarchy, as usual.",
       "{\"type\":\"toHero\",\"hero\":\"骇灾\"}",
+      null,
       null
     ],
     [
@@ -1431,6 +1541,7 @@
       "优雅不复存在。",
       "Not so graceful anymore.",
       "{\"type\":\"toHero\",\"hero\":\"黑百合\"}",
+      null,
       null
     ],
     [
@@ -1444,7 +1555,8 @@
       "你的愿景不过是泡影。",
       "Your vision is delusional.",
       "{\"type\":\"toHero\",\"hero\":\"拉玛刹\"}",
-      0.3
+      0.3,
+      null
     ],
     [
       "HeroQuote",
@@ -1457,6 +1569,7 @@
       "你一如既往地缺乏远见。",
       "As always, you lack perspective.",
       "{\"type\":\"toHero\",\"hero\":\"卢西奥\"}",
+      null,
       null
     ],
     [
@@ -1470,7 +1583,8 @@
       "混乱而残忍……可怕的组合。",
       "Chaos and cruelty... a terrible combination.",
       "{\"type\":\"toHero\",\"hero\":\"毛加\"}",
-      0.25
+      0.25,
+      null
     ],
     [
       "HeroQuote",
@@ -1483,6 +1597,7 @@
       "你永远不会明白。",
       "You will never understand.",
       "{\"type\":\"toHero\",\"hero\":\"末日铁拳\"}",
+      null,
       null
     ],
     [
@@ -1496,6 +1611,7 @@
       "混乱荒废了你的才华。",
       "Brilliance wasted on chaos.",
       "{\"type\":\"toHero\",\"hero\":\"莫伊拉\"}",
+      null,
       null
     ],
     [
@@ -1509,6 +1625,7 @@
       "事情变成这样，我很抱歉，涅兰。",
       "I am sorry it came to this, Niran.",
       "{\"type\":\"toHero\",\"hero\":\"生命之梭\"}",
+      null,
       null
     ],
     [
@@ -1522,6 +1639,7 @@
       "这是在你翘的那堂课上教的。",
       "That was from a class you missed.",
       "{\"type\":\"toHero\",\"hero\":\"生命之梭\"}",
+      null,
       null
     ],
     [
@@ -1535,6 +1653,7 @@
       "你踏上了歧途，我的朋友。",
       "You went astray, my friend.",
       "{\"type\":\"toHero\",\"hero\":\"生命之梭\"}",
+      null,
       null
     ],
     [
@@ -1548,6 +1667,7 @@
       "（叹气）真可惜，明明是个优秀的光子建筑师。",
       "(sigh) A waste of a masterful architech.",
       "{\"type\":\"toHero\",\"hero\":\"生命之梭\"}",
+      null,
       null
     ],
     [
@@ -1561,7 +1681,8 @@
       "（叹气）非要当我的肉中刺。",
       "(sigh) Ever the thorn in my side.",
       "{\"type\":\"toHero\",\"hero\":\"生命之梭\"}",
-      0.2
+      0.2,
+      null
     ],
     [
       "HeroQuote",
@@ -1574,7 +1695,8 @@
       "眼睛要盯着未来。",
       "Look towards the future.",
       "{\"type\":\"toHero\",\"hero\":\"探奇\"}",
-      0.5
+      0.5,
+      null
     ],
     [
       "HeroQuote",
@@ -1587,6 +1709,7 @@
       "打破秩序的下场就是这样。",
       "The result of stepping out of line.",
       "{\"type\":\"toHero\",\"hero\":\"雾子\"}",
+      null,
       null
     ],
     [
@@ -1600,6 +1723,7 @@
       "如此混乱无序的心智。",
       "Such dissonance of the mind.",
       "{\"type\":\"toHero\",\"hero\":\"西格玛\"}",
+      null,
       null
     ],
     [
@@ -1613,6 +1737,7 @@
       "他们从左边打过来了。",
       "They attack from the left.",
       "{\"type\":\"scripted\",\"script\":\"002733\",\"scriptDesc\":\"敌人在左侧\"}",
+      null,
       null
     ],
     [
@@ -1626,6 +1751,7 @@
       "在左边。",
       "On the left.",
       "{\"type\":\"scripted\",\"script\":\"002733\",\"scriptDesc\":\"敌人在左侧\"}",
+      null,
       null
     ],
     [
@@ -1639,6 +1765,7 @@
       "右边！",
       "On the right.",
       "{\"type\":\"scripted\",\"script\":\"002734\",\"scriptDesc\":\"敌人在右侧\"}",
+      null,
       null
     ],
     [
@@ -1652,6 +1779,7 @@
       "他们从右边打过来了。",
       "They are attacking from the right.",
       "{\"type\":\"scripted\",\"script\":\"002734\",\"scriptDesc\":\"敌人在右侧\"}",
+      null,
       null
     ],
     [
@@ -1665,6 +1793,7 @@
       "他们从正面打过来了。",
       "They are attacking from in front of us.",
       "{\"type\":\"scripted\",\"script\":\"002735\",\"scriptDesc\":\"敌人在前方\"}",
+      null,
       null
     ],
     [
@@ -1678,6 +1807,7 @@
       "敌人径直冲过来了。",
       "They're coming straight at us.",
       "{\"type\":\"scripted\",\"script\":\"002735\",\"scriptDesc\":\"敌人在前方\"}",
+      null,
       null
     ],
     [
@@ -1691,6 +1821,7 @@
       "他们从上面打过来了。",
       "They are coming from above.",
       "{\"type\":\"scripted\",\"script\":\"002736\",\"scriptDesc\":\"敌人在上方\"}",
+      null,
       null
     ],
     [
@@ -1704,6 +1835,7 @@
       "小心上面。",
       "Watch above us.",
       "{\"type\":\"scripted\",\"script\":\"002736\",\"scriptDesc\":\"敌人在上方\"}",
+      null,
       null
     ],
     [
@@ -1717,6 +1849,7 @@
       "他们从后面打过来了。",
       "They are attacking from the rear.",
       "{\"type\":\"scripted\",\"script\":\"002737\",\"scriptDesc\":\"敌人在后方\"}",
+      null,
       null
     ],
     [
@@ -1730,6 +1863,7 @@
       "敌人在后面。",
       "The enemy is behind us.",
       "{\"type\":\"scripted\",\"script\":\"002737\",\"scriptDesc\":\"敌人在后方\"}",
+      null,
       null
     ],
     [
@@ -1743,6 +1877,7 @@
       "小心下面。",
       "Watch below us.",
       "{\"type\":\"scripted\",\"script\":\"002738\",\"scriptDesc\":\"敌人在下方\"}",
+      null,
       null
     ],
     [
@@ -1756,6 +1891,7 @@
       "敌人从下面打过来了。",
       "They are attacking from below.",
       "{\"type\":\"scripted\",\"script\":\"002738\",\"scriptDesc\":\"敌人在下方\"}",
+      null,
       null
     ],
     [
@@ -1768,6 +1904,7 @@
       "EnemyDetected",
       "附近有敌人。",
       "Enemy detected.",
+      null,
       null,
       null
     ],
@@ -1782,6 +1919,7 @@
       "有人躲在这里。",
       "There's someone hiding here.",
       null,
+      null,
       null
     ],
     [
@@ -1794,6 +1932,7 @@
       "EnemyGathers",
       "敌人正在这里集合。",
       "The enemy is gathered here.",
+      null,
       null,
       null
     ],
@@ -1808,6 +1947,7 @@
       "敌人复活了！我们的行动被打乱了……",
       "They are being revived! Disrupting our operations...",
       null,
+      null,
       null
     ],
     [
@@ -1820,6 +1960,7 @@
       "EnemyResurrect",
       "敌人复活了！（叹气）我们对此毫无计划。",
       "Enemy revived! (sigh) We did not plan for that.",
+      null,
       null,
       null
     ],
@@ -1834,6 +1975,7 @@
       "我找到敌人了。",
       "I have located the enemy.",
       null,
+      null,
       null
     ],
     [
@@ -1846,6 +1988,7 @@
       "EnemySeen",
       "冲突就在我们眼前！",
       "The conflict has found us!",
+      null,
       null,
       null
     ],
@@ -1860,7 +2003,8 @@
       "真龙需要祭品。",
       "The dragon demands sacrifices.",
       null,
-      0.5
+      0.5,
+      null
     ],
     [
       "HeroQuote",
@@ -1872,6 +2016,7 @@
       "EnemySniper",
       "有狙击手！",
       "Sniper!",
+      null,
       null,
       null
     ],
@@ -1886,6 +2031,7 @@
       "充满美感。",
       "There is beauty in this.",
       null,
+      null,
       null
     ],
     [
@@ -1898,6 +2044,7 @@
       "Fallback",
       "后退。",
       "Fall back.",
+      null,
       null,
       null
     ],
@@ -1912,6 +2059,7 @@
       "走！",
       "Go!",
       null,
+      null,
       null
     ],
     [
@@ -1924,6 +2072,7 @@
       "GetOutOfThere",
       "快离开那儿！",
       "Get out of there!",
+      null,
       null,
       null
     ],
@@ -1938,6 +2087,7 @@
       "准备好！",
       "Get ready!",
       null,
+      null,
       null
     ],
     [
@@ -1950,6 +2100,7 @@
       "GoingIn",
       "我上了。",
       "I'm going in.",
+      null,
       null,
       null
     ],
@@ -1964,6 +2115,7 @@
       "集合！",
       "Form up!",
       null,
+      null,
       null
     ],
     [
@@ -1976,6 +2128,7 @@
       "GroupUp",
       "集合！",
       "Group up!",
+      null,
       null,
       null
     ],
@@ -1990,6 +2143,7 @@
       "在这里集合！",
       "Group up here!",
       null,
+      null,
       null
     ],
     [
@@ -2002,6 +2156,7 @@
       "GroupUp",
       "在我这里集合！",
       "Group up with me!",
+      null,
       null,
       null
     ],
@@ -2016,6 +2171,7 @@
       "在这里集合！",
       "Group up here!",
       null,
+      null,
       null
     ],
     [
@@ -2028,6 +2184,7 @@
       "GroupUp",
       "集合！",
       "Group up!",
+      null,
       null,
       null
     ],
@@ -2042,6 +2199,7 @@
       "在我这里集合！",
       "Group up with me!",
       null,
+      null,
       null
     ],
     [
@@ -2054,6 +2212,7 @@
       "GroupUpContinue",
       "大家集合，然后继续前进。",
       "Everyone group up, then we may proceed.",
+      null,
       null,
       null
     ],
@@ -2068,6 +2227,7 @@
       "我需要治疗。",
       "I need healing.",
       null,
+      null,
       null
     ],
     [
@@ -2080,6 +2240,7 @@
       "Healing",
       "我需要治疗。",
       "I require healing.",
+      null,
       null,
       null
     ],
@@ -2094,6 +2255,7 @@
       "（倒吸气）",
       "(gasps)",
       "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      null,
       null
     ],
     [
@@ -2106,6 +2268,7 @@
       "HealthPack",
       "好多了。",
       "Much better.",
+      null,
       null,
       null
     ],
@@ -2120,6 +2283,7 @@
       "我恢复了。",
       "I am restored.",
       null,
+      null,
       null
     ],
     [
@@ -2132,6 +2296,7 @@
       "HealthPack",
       "（松了口气）",
       "(relieved sigh)",
+      null,
       null,
       null
     ],
@@ -2146,6 +2311,7 @@
       "好极了。",
       "Wonderful.",
       null,
+      null,
       null
     ],
     [
@@ -2158,6 +2324,7 @@
       "HealthRestoredFriendly",
       "我们意见一致。",
       "We are in harmony.",
+      null,
       null,
       null
     ],
@@ -2172,6 +2339,7 @@
       "我的状况好多了。",
       "My condition is improved.",
       null,
+      null,
       null
     ],
     [
@@ -2184,6 +2352,7 @@
       "Hello",
       "你好。",
       "Hello.",
+      null,
       null,
       null
     ],
@@ -2198,6 +2367,7 @@
       "你好。",
       "Greetings.",
       null,
+      null,
       null
     ],
     [
@@ -2210,6 +2380,7 @@
       "Hello",
       "你好。",
       "Hello.",
+      null,
       null,
       null
     ],
@@ -2224,6 +2395,7 @@
       "（印地语）：你好。",
       "(Hindi): Hello.",
       null,
+      null,
       null
     ],
     [
@@ -2236,6 +2408,7 @@
       "Hello",
       "你好。",
       "Hello.",
+      null,
       null,
       null
     ],
@@ -2250,6 +2423,7 @@
       "（印地语）：你好。",
       "(Hindi): Hello.",
       null,
+      null,
       null
     ],
     [
@@ -2263,7 +2437,8 @@
       "你好啊。",
       "Hello there.",
       null,
-      0.4
+      0.4,
+      null
     ],
     [
       "HeroQuote",
@@ -2275,6 +2450,7 @@
       "HeroChange",
       "\"秩序之光\"向你报告。",
       "Symmetra reporting.",
+      null,
       null,
       null
     ],
@@ -2289,6 +2465,7 @@
       "我们在瑕疵中创造新的世界。",
       "From imperfection, we build a new world.",
       null,
+      null,
       null
     ],
     [
@@ -2302,6 +2479,7 @@
       "人类的真正敌人是无序。",
       "The true enemy of humanity is disorder.",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -2314,6 +2492,7 @@
       "ImAttacking",
       "是时候进攻了。",
       "It is time to attack.",
+      null,
       null,
       null
     ],
@@ -2328,6 +2507,7 @@
       "和我一起进攻！",
       "Attack with me!",
       null,
+      null,
       null
     ],
     [
@@ -2340,6 +2520,7 @@
       "ImAttacking",
       "进攻！",
       "Attack!",
+      null,
       null,
       null
     ],
@@ -2354,6 +2535,7 @@
       "和我一起防守。",
       "Defend with me.",
       null,
+      null,
       null
     ],
     [
@@ -2366,6 +2548,7 @@
       "ImDefending",
       "守住这里。",
       "Defend this location.",
+      null,
       null,
       null
     ],
@@ -2380,6 +2563,7 @@
       "我准备好了。",
       "I'm ready.",
       null,
+      null,
       null
     ],
     [
@@ -2392,6 +2576,7 @@
       "ImWithYou",
       "我跟着你。",
       "I am with you.",
+      null,
       null,
       null
     ],
@@ -2406,6 +2591,7 @@
       "我们一起行动。",
       "We are in alignment.",
       null,
+      null,
       null
     ],
     [
@@ -2418,6 +2604,7 @@
       "Incoming",
       "敌人来了！",
       "Incoming!",
+      null,
       null,
       null
     ],
@@ -2432,6 +2619,7 @@
       "我受重伤了。",
       "I am gravely wounded.",
       null,
+      null,
       null
     ],
     [
@@ -2444,6 +2632,7 @@
       "InjuredCallout",
       "我受伤了。",
       "I'm wounded.",
+      null,
       null,
       null
     ],
@@ -2458,6 +2647,7 @@
       "谁能来复活我！",
       "I need to be revived!",
       null,
+      null,
       null
     ],
     [
@@ -2470,6 +2660,7 @@
       "Junkenstein",
       "你们都会熊熊燃烧！",
       "You will all burn.",
+      null,
       null,
       null
     ],
@@ -2484,6 +2675,7 @@
       "站在那儿等死吧。",
       "Stand and die.",
       null,
+      null,
       null
     ],
     [
@@ -2496,6 +2688,7 @@
       "Junkenstein",
       "我会被再次召唤的。",
       "I will be summoned again.",
+      null,
       null,
       null
     ],
@@ -2510,6 +2703,7 @@
       "(laughs)",
       "(laughs)",
       null,
+      null,
       null
     ],
     [
@@ -2522,6 +2716,7 @@
       "Karaoke",
       "（唱）希望现在你能看见，我的世界尽在眼前。计划推进一切顺利，摇摆起来舞出活力。",
       "(singing) Hopefully, by now you see, the result of my reality. Everything according to plan. Move your feet, move your hands.",
+      null,
       null,
       null
     ],
@@ -2536,6 +2731,7 @@
       "（唱）左一炮右一炮 ，遍地都是哨戒炮。传送面板已上线，劝你回去守B点。",
       "(singing) Turrets here, turrets there. Placing turrets everywhere. My teleporter is online. Perhaps it's best if you resign.",
       null,
+      null,
       null
     ],
     [
@@ -2548,6 +2744,7 @@
       "Karaoke",
       "（唱）累死累活不知好歹，浑浑噩噩又蠢又呆。混沌落败秩序归来，（印地语）：这才是现实的终极形态！",
       "(singing) Their actions convey futility. Their minds are closed to possibility. But still, order wins the day. (Hindi): this is the true reality!",
+      null,
       null,
       null
     ],
@@ -2562,6 +2759,7 @@
       "（唱）一切设计都由我来，描线绘角样样明白。秩序现实天生我才，光子设计谁能不爱。",
       "(singing) Everything by my design. Drawing triangles, tracing lines. It's unwise to disrespect, such an efficient architect.",
       null,
+      null,
       null
     ],
     [
@@ -2574,6 +2772,7 @@
       "Karaoke",
       "（模仿打击乐声）",
       "(percussive sounds)",
+      null,
       null,
       null
     ],
@@ -2588,6 +2787,7 @@
       "我太佩服自己了。",
       "I impress myself.",
       null,
+      null,
       null
     ],
     [
@@ -2600,6 +2800,7 @@
       "KillStreak",
       "百灵百验，必然而然。",
       "Certainty and precision.",
+      null,
       null,
       null
     ],
@@ -2614,6 +2815,7 @@
       "图案不断重复。",
       "A motif in the making.",
       null,
+      null,
       null
     ],
     [
@@ -2626,6 +2828,7 @@
       "KillStreak",
       "新的模式开始循环。",
       "A new pattern emerges.",
+      null,
       null,
       null
     ],
@@ -2640,6 +2843,7 @@
       "现实往往会循环往复。",
       "Reality favors repetition.",
       null,
+      null,
       null
     ],
     [
@@ -2653,7 +2857,8 @@
       "胜利的天平已向我倾斜。",
       "The balance shifts in my favor.",
       null,
-      0.1
+      0.1,
+      null
     ],
     [
       "HeroQuote",
@@ -2666,6 +2871,7 @@
       "形势大好。",
       "A pattern develops.",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -2679,6 +2885,7 @@
       "一切按部就班。",
       "Everything in its place.",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -2692,6 +2899,7 @@
       "这就是既定的形式。",
       "This is the shape of things to come.",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -2705,6 +2913,7 @@
       "正如预期。",
       "Just as expected.",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -2717,6 +2926,7 @@
       "Laugh",
       "（大笑）",
       "(laughs)",
+      null,
       null,
       null
     ],
@@ -2731,6 +2941,7 @@
       "（大笑）",
       "(laughs)",
       null,
+      null,
       null
     ],
     [
@@ -2743,6 +2954,7 @@
       "LevelUp",
       "总有进步的空间。",
       "There is always room for improvement.",
+      null,
       null,
       null
     ],
@@ -2757,6 +2969,7 @@
       "啊……从这里看，一切都是那么平静有序。",
       "Ahhh... from here, it all looks to be so orderly and peaceful.",
       null,
+      null,
       null
     ],
     [
@@ -2769,6 +2982,7 @@
       "Match/MatchStartFinalRound",
       "在此关键时刻，我们必须设法取胜。",
       "This is the critical moment, we must construct a path to victory.",
+      null,
       null,
       null
     ],
@@ -2783,6 +2997,7 @@
       "如果我们通力合作，我们将会是胜利者。",
       "If we work in harmony, we will surely be victorious.",
       null,
+      null,
       null
     ],
     [
@@ -2795,6 +3010,7 @@
       "Match/MatchStartFinalRound",
       "成败在此一举。胜利的现实将由我们塑造。",
       "Victory will be decided here. That reality is ours to shape.",
+      null,
       null,
       null
     ],
@@ -2809,6 +3025,7 @@
       "只有我们能将胜利变为现实。",
       "Only we can manifest our victory.",
       null,
+      null,
       null
     ],
     [
@@ -2821,6 +3038,7 @@
       "Match/MatchStartRoundLoss",
       "我们必须纠正错误并夺取胜利。",
       "We must correct our mistakes and seize victory.",
+      null,
       null,
       null
     ],
@@ -2835,6 +3053,7 @@
       "我们不能失败。让我们一起合作。",
       "We must not fail in our efforts. Let us work in harmony.",
       null,
+      null,
       null
     ],
     [
@@ -2847,6 +3066,7 @@
       "Match/MatchStartRoundLoss",
       "胜利并非遥不可及。",
       "Victory is not beyond our reach.",
+      null,
       null,
       null
     ],
@@ -2861,6 +3081,7 @@
       "我们还有时间修正错误。",
       "We still have time to correct our mistakes.",
       null,
+      null,
       null
     ],
     [
@@ -2873,6 +3094,7 @@
       "Match/MatchStartRoundWin",
       "如果我们继续这样合作，胜利就必将属于我们。",
       "If we continue upon this path, victory will be ours.",
+      null,
       null,
       null
     ],
@@ -2887,6 +3109,7 @@
       "我们离胜利越来越近了。",
       "We are well on our way to victory.",
       null,
+      null,
       null
     ],
     [
@@ -2899,6 +3122,7 @@
       "Match/MatchStartRoundWin",
       "就按这个方向继续前进吧。",
       "Let us continue on this path.",
+      null,
       null,
       null
     ],
@@ -2913,6 +3137,7 @@
       "让我们沿着这条轨道继续前进。",
       "Let us continue on this trajectory.",
       null,
+      null,
       null
     ],
     [
@@ -2925,6 +3150,7 @@
       "MatchStartTalk",
       "工作开始了。",
       "Our work begins.",
+      null,
       null,
       null
     ],
@@ -2939,6 +3165,7 @@
       "是时候启动计划了。",
       "Time to set our plan in motion.",
       null,
+      null,
       null
     ],
     [
@@ -2951,6 +3178,7 @@
       "MatchStartTalk",
       "抓紧时间。",
       "Let's not dawdle.",
+      null,
       null,
       null
     ],
@@ -2965,6 +3193,7 @@
       "必须恢复秩序。",
       "Order will be restored.",
       null,
+      null,
       null
     ],
     [
@@ -2977,6 +3206,7 @@
       "MatchTalk",
       "这个世界是个尚未实现的梦想。",
       "The world is a dream not yet realized.",
+      null,
       null,
       null
     ],
@@ -2991,6 +3221,7 @@
       "每个人各司其职，胜利便近在咫尺。",
       "If everyone performs their function, victory is assured.",
       null,
+      null,
       null
     ],
     [
@@ -3003,6 +3234,7 @@
       "MatchTalk",
       "只要按计划进行，胜利便唾手可得。",
       "Do not deviate from the plan, and victory will be ours.",
+      null,
       null,
       null
     ],
@@ -3017,7 +3249,8 @@
       "令我印象深刻。我本以为如此粗糙的设计不会管用。",
       "I am impressed. I would not think such crude creations actually function.",
       null,
-      null
+      null,
+      "0000000002D1.0D0#1"
     ],
     [
       "HeroQuote",
@@ -3030,7 +3263,8 @@
       "护甲……中世纪的老古董。",
       "Armor... how positively medieval.",
       null,
-      null
+      null,
+      "000000000329.0D0#1"
     ],
     [
       "HeroQuote",
@@ -3043,7 +3277,8 @@
       "不，绝对没有。",
       "No. There isn't.",
       null,
-      null
+      null,
+      "0000000002BE.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3056,7 +3291,8 @@
       "我不得不和一切街头混混合作。",
       "To think I should have to work with a street ruffian.",
       null,
-      null
+      null,
+      "0000000002CC.0D0#1"
     ],
     [
       "HeroQuote",
@@ -3069,7 +3305,8 @@
       "费斯卡正在为人类构建一个更好的未来。",
       "Vishkar is building a better future for humanity.",
       null,
-      null
+      null,
+      "0000000002D0.0D0#1"
     ],
     [
       "HeroQuote",
@@ -3082,7 +3319,8 @@
       "你得把你从费斯卡集团这儿偷走的东西还回来。",
       "You should return what you stole from Vishkar.",
       null,
-      null
+      null,
+      "0000000002CD.0D0#1"
     ],
     [
       "HeroQuote",
@@ -3095,7 +3333,8 @@
       "你口中的自由只是一种幻觉，而这种幻觉会造成很多问题。",
       "What you call freedom is an illusion that causes more harm than good.",
       null,
-      null
+      null,
+      "000000000315.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3108,7 +3347,8 @@
       "你父亲是费斯卡的员工。他完全理解公司的理念。真遗憾他没有传授给你。",
       "Your father was a Vishkar employee. He understood our company's vision. A shame he never educated you.",
       null,
-      null
+      null,
+      "000000000316.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3120,6 +3360,7 @@
       "MatchTalk",
       "我会完成任务。",
       "I will see this task completed.",
+      null,
       null,
       null
     ],
@@ -3134,7 +3375,8 @@
       "秩序和纪律是生存的唯一途径。",
       "Order and discipline, that is the only way to live.",
       null,
-      null
+      null,
+      "0000000002CF.0D0#1"
     ],
     [
       "HeroQuote",
@@ -3147,7 +3389,8 @@
       "末日铁拳，你错了。只有秩序才能让人类进步。",
       "Doomfist, you are mistaken: only with order can humanity evolve.",
       null,
-      null
+      null,
+      "0000000002CE.0D0#1"
     ],
     [
       "HeroQuote",
@@ -3160,7 +3403,8 @@
       "看着你的时候，我看到的只有纯粹的混乱。",
       "When I look at you, I see pure unadulterated chaos.",
       null,
-      null
+      null,
+      "00000000039E.0D0#1"
     ],
     [
       "HeroQuote",
@@ -3173,7 +3417,8 @@
       "我的目的是创造秩序。而你则是混乱的化身。",
       "My purpose is to create order. You are the embodiment of chaos.",
       null,
-      null
+      null,
+      "00000000027A.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3186,7 +3431,8 @@
       "当然了。科学要遵循自然规律。这是意料之中的。",
       "Of course. Science obeys the laws of nature. It is only to be expected.",
       null,
-      null
+      null,
+      "0000000003B9.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3199,7 +3445,8 @@
       "我们不需要军队来维护和平。我们有自己的方式。",
       "We do not need an army to keep the peace. We prefer our own methods.",
       null,
-      null
+      null,
+      "0000000002C5.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3212,7 +3459,8 @@
       "你都听说了什么？",
       "What have you heard...",
       null,
-      null
+      null,
+      "000000000340.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3225,7 +3473,8 @@
       "一台机器居然在给我讲什么叫混乱与无序。",
       "To be lectured about chaos and disorder from a machine.",
       null,
-      null
+      null,
+      "00000000024E.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3238,7 +3487,8 @@
       "护甲……中世纪的老古董。",
       "Armor... how positively medieval.",
       null,
-      null
+      null,
+      "00000000032A.0D0#1"
     ],
     [
       "HeroQuote",
@@ -3251,7 +3501,8 @@
       "你多久没看排行榜了？",
       "Have you checked the scoreboard recently?",
       null,
-      null
+      null,
+      "000000000A21.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3264,7 +3515,8 @@
       "你的箭袋歪了。",
       "Your quiver is crooked.",
       null,
-      null
+      null,
+      "00000000097E.0D0#1"
     ],
     [
       "HeroQuote",
@@ -3277,7 +3529,8 @@
       "你总是用“美丽”描述你的发明。",
       "You often call your inventions beautiful.",
       null,
-      null
+      null,
+      "000000000BC6.0D0#1"
     ],
     [
       "HeroQuote",
@@ -3290,7 +3543,8 @@
       "大概这就是“情人眼里出西施”吧。",
       "It seems beauty is in the eye of the beholder.",
       null,
-      null
+      null,
+      "000000000BC6.0D0#3"
     ],
     [
       "HeroQuote",
@@ -3303,7 +3557,8 @@
       "没想到你会来这里做研究。你战斗的意义是什么？",
       "I can't imagine you're here to do research. Why are you fighting?",
       null,
-      null
+      null,
+      "000000000C54.0D0#1"
     ],
     [
       "HeroQuote",
@@ -3316,7 +3571,8 @@
       "我最近一直在听你的新歌。",
       "I've been listening to your new music.",
       null,
-      null
+      null,
+      "000000000C61.0D0#1"
     ],
     [
       "HeroQuote",
@@ -3329,7 +3585,8 @@
       "不。我只是好奇为什么听歌时会感觉声音在眼睛后面来回穿梭。",
       "No. I am intrigued by how the sound moves behind my eyes when I listen.",
       null,
-      null
+      null,
+      "000000000C61.0D0#3"
     ],
     [
       "HeroQuote",
@@ -3342,7 +3599,8 @@
       "你的抓钩看起来很细。它能承受多少重量？",
       "Your grapple looks rather thin. How much weight can it bear?",
       null,
-      null
+      null,
+      "000000000D1F.0D0#1"
     ],
     [
       "HeroQuote",
@@ -3355,7 +3613,8 @@
       "哦，那里面还有一个座位吗？",
       "Oh, is there seating for another in there?",
       null,
-      null
+      null,
+      "000000000D1F.0D0#3"
     ],
     [
       "HeroQuote",
@@ -3368,7 +3627,8 @@
       "形式对功能而言至关重要。两者密不可分，就像运动之于音乐。",
       "Form is vital to function. The two are inseparable, like movement and music.",
       null,
-      null
+      null,
+      "000000000D36.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3381,7 +3641,8 @@
       "你所分享的智慧……就已经是回报了。",
       "With the wisdom you shared... you already have.",
       null,
-      null
+      null,
+      "000000000C89.0D0#3"
     ],
     [
       "HeroQuote",
@@ -3394,7 +3655,8 @@
       "把你的想法如实说出来就好。如果她不愿意聆听，那么她就不值得你操心。",
       "Always say what you believe. If they're not willing to listen, they don't deserve your time.",
       null,
-      null
+      null,
+      "000000000CCB.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3407,7 +3669,8 @@
       "你的武器如果进行一些优化，还可以变得更加轻巧。",
       "With a few optimizations, that weapon of yours could probably be much lighter.",
       null,
-      null
+      null,
+      "000000000CD1.0D0#1"
     ],
     [
       "HeroQuote",
@@ -3420,7 +3683,8 @@
       "是的……难道你有兴趣来吗？",
       "Yes... Are you interested in applying?",
       null,
-      null
+      null,
+      "000000000CD2.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3433,7 +3697,8 @@
       "你发动的入侵搅乱了数百万人的生活。",
       "Your invasion has left millions in disarray.",
       null,
-      null
+      null,
+      "000000000D75.0D0#1"
     ],
     [
       "HeroQuote",
@@ -3446,7 +3711,8 @@
       "是的。要想修复混乱的世界，自然就会伴随这种事情。",
       "Yes. A natural byproduct of repairing a chaotic world.",
       null,
-      null
+      null,
+      "000000000D77.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3459,7 +3725,8 @@
       "我敬佩你的自律能力。这世上能够做到自律的人少之又少。",
       "I admire your discipline. It is a rare quality in the world.",
       null,
-      null
+      null,
+      "000000000D78.0D0#1"
     ],
     [
       "HeroQuote",
@@ -3472,7 +3739,8 @@
       "你呢？两者兼具？",
       "And you are both?",
       null,
-      null
+      null,
+      "000000000D78.0D0#3"
     ],
     [
       "HeroQuote",
@@ -3485,7 +3753,8 @@
       "我经常做。它们不断重复的图案能让我的心灵获得平静。",
       "Regularly. Their repetitive patterns bring peace to my mind.",
       null,
-      null
+      null,
+      "000000000D79.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3498,7 +3767,8 @@
       "你为什么离开了你之前的组织？",
       "Why did you leave your organization?",
       null,
-      null
+      null,
+      "000000000D7B.0D0#1"
     ],
     [
       "HeroQuote",
@@ -3511,7 +3781,8 @@
       "你怎么知道那是正确的决定？",
       "How did you know it was the right decision?",
       null,
-      null
+      null,
+      "000000000D7B.0D0#3"
     ],
     [
       "HeroQuote",
@@ -3524,7 +3795,8 @@
       "（闻）有一股臭味。是你吗，啮齿动物？",
       "(sniffs) Something smells foul. Is it you, rodent?",
       null,
-      null
+      null,
+      "000000000D7D.0D0#1"
     ],
     [
       "HeroQuote",
@@ -3537,7 +3809,8 @@
       "毕竟你的思维他人难以企及。在我眼里，这并不是缺点。",
       "You operate on a level inaccessible to others. I do not see that as a weakness.",
       null,
-      null
+      null,
+      "000000000D85.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3550,7 +3823,8 @@
       "很高兴再次见到你，泰哈撒。",
       "It is good to see you again, Tekhartha.",
       null,
-      null
+      null,
+      "000000000C89.0D0#1"
     ],
     [
       "HeroQuote",
@@ -3563,7 +3837,8 @@
       "我想知道我是变得更好了还是更坏了。",
       "I wonder if I have changed for the better or worse.",
       null,
-      null
+      null,
+      "000000000D82.0D0#1"
     ],
     [
       "HeroQuote",
@@ -3576,7 +3851,8 @@
       "和平的现实触手可及。",
       "A peaceful reality is within our reach.",
       null,
-      null
+      null,
+      "000000000CB2.0D0#1"
     ],
     [
       "HeroQuote",
@@ -3589,7 +3865,8 @@
       "你身上的人造椰子味好浓。",
       "You smell strongly of artificial coconut.",
       null,
-      null
+      null,
+      "000000000D7E.0D0#1"
     ],
     [
       "HeroQuote",
@@ -3602,7 +3879,8 @@
       "（厌恶）味道太冲了。",
       "(disgust) That is excessive.",
       null,
-      null
+      null,
+      "000000000D7E.0D0#3"
     ],
     [
       "HeroQuote",
@@ -3615,7 +3893,8 @@
       "关于光明科创和费斯卡，你还知道些什么？",
       "What more do you know about LumériCo and Vishkar?",
       null,
-      null
+      null,
+      "000000000D7F.0D0#1"
     ],
     [
       "HeroQuote",
@@ -3628,7 +3907,8 @@
       "不要急着妄下定论。",
       "Do not jump to conclusions.",
       null,
-      null
+      null,
+      "000000000D7F.0D0#3"
     ],
     [
       "HeroQuote",
@@ -3641,7 +3921,8 @@
       "你的厨具太容易烧化了，不能怪我。",
       "It is not my fault your kitchenware melts so easily.",
       null,
-      null
+      null,
+      "000000000CBE.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3654,7 +3935,8 @@
       "我们创造的世界里不需要蒙面义警。",
       "Vigilantes have no place in the world we’re building.",
       null,
-      null
+      null,
+      "000000000CC1.0D0#1"
     ],
     [
       "HeroQuote",
@@ -3667,7 +3949,8 @@
       "能做到一千米那么高。但你是挥不动它的。",
       "A kilometer tall? But you would not be able to wield it.",
       null,
-      null
+      null,
+      "000000000CD7.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3679,6 +3962,7 @@
       "MatchTalk",
       "费斯卡的建筑师总会圆满完成任务。",
       "A Vishkar architech always completes her task to perfection.",
+      null,
       null,
       null
     ],
@@ -3693,6 +3977,7 @@
       "按计划行事。分歧的结果只有失败。",
       "Heed the plan. Divergence leads to defeat.",
       null,
+      null,
       null
     ],
     [
@@ -3705,6 +3990,7 @@
       "MatchTalk",
       "（沉重的叹息）这是在滥用我的技术。",
       "(heavy sigh) This is such a misuse of my technology.",
+      null,
       null,
       null
     ],
@@ -3719,7 +4005,8 @@
       "当时你成天抱怨个不停，然后就退学了。",
       "You complained constantly about everything, and then you dropped out.",
       null,
-      null
+      null,
+      "000000000DC9.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3732,7 +4019,8 @@
       "而你只能排第三。另外两位都知道按时睡觉。",
       "You were third-best. The other two went to bed at appropriate times.",
       null,
-      null
+      null,
+      "000000000FBC.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3745,7 +4033,8 @@
       "你的呼噜声。有助眠作用。",
       "Your snoring. It helped me sleep.",
       null,
-      null
+      null,
+      "000000000F51.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3757,6 +4046,7 @@
       "MatchTalk",
       "每一次行动，我的技术都更加精进。",
       "With each mission, my techniques grow more optimized.",
+      null,
       null,
       null
     ],
@@ -3771,6 +4061,7 @@
       "我会打开通往胜利的道路。记得跟上。",
       "I will create pathways to victory. Make sure you follow them.",
       null,
+      null,
       null
     ],
     [
@@ -3784,7 +4075,8 @@
       "可以实现。我会把报价发给你。",
       "That is doable. I will send you a quote.",
       null,
-      null
+      null,
+      "000000001120.0D0#4"
     ],
     [
       "HeroQuote",
@@ -3797,7 +4089,8 @@
       "或许可以。你有什么具体的想法吗？",
       "Potentially. Are you envisioning something in particular?",
       null,
-      null
+      null,
+      "000000001120.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3810,7 +4103,8 @@
       "你的光塔美妙绝伦，精巧又美丽。",
       "Your pylon is marvelous. Efficient and beautiful.",
       null,
-      null
+      null,
+      "000000000FEC.0D0#1"
     ],
     [
       "HeroQuote",
@@ -3823,7 +4117,8 @@
       "我最近学到一句话：“停下脚步，品味花香。”放在这里应该也适用。",
       "I recently learned the phrase, \"stop to smell the roses.\" It applies here, I think.",
       null,
-      null
+      null,
+      "000000000FEC.0D0#3"
     ],
     [
       "HeroQuote",
@@ -3836,7 +4131,8 @@
       "这可真让人意外。你喜欢哪种类型的舞蹈？",
       "That is something of a surprise. What style do you prefer?",
       null,
-      null
+      null,
+      "000000000FCB.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3849,7 +4145,8 @@
       "唉，你想说什么，布阿？",
       "(sigh) What, Bua?",
       null,
-      null
+      null,
+      "0000000010B4.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3862,7 +4159,8 @@
       "（叹气）都放了些什么？",
       "(sigh) What's in it?",
       null,
-      null
+      null,
+      "000000000FE0.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3875,7 +4173,8 @@
       "为了抓捕你，费斯卡悬赏了一大笔钱。",
       "Vishkar is offering a large sum for your arrest.",
       null,
-      null
+      null,
+      "000000000FCC.0D0#1"
     ],
     [
       "HeroQuote",
@@ -3888,7 +4187,8 @@
       "我宁可去死。",
       "I would rather perish.",
       null,
-      null
+      null,
+      "000000000FE0.0D0#4"
     ],
     [
       "HeroQuote",
@@ -3901,7 +4201,8 @@
       "暴力就是在浪费资源。但他们让我们别无选择。",
       "Violence is such a waste of resources. But they've left us no choice.",
       null,
-      0.5
+      0.5,
+      null
     ],
     [
       "HeroQuote",
@@ -3914,7 +4215,8 @@
       "蜻蜓。它们堪称完美。",
       "Dragonflies. Such perfect creatures.",
       null,
-      0.5
+      0.5,
+      "000000000BF6.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3927,7 +4229,8 @@
       "我是不是该小心点？听说你能把摩天大楼夷为平地。",
       "Should I be worried? I heard you leveled skyscrapers.",
       null,
-      0.05
+      0.05,
+      "00000000027A.0D0#2"
     ],
     [
       "HeroQuote",
@@ -3940,6 +4243,7 @@
       "我会在新年带来秩序。",
       "I will bring order to the new year.",
       "{\"type\":\"celebration\",\"celebration\":\"新年\"}",
+      null,
       null
     ],
     [
@@ -3953,7 +4257,8 @@
       "我很欣赏这座城市里的高强度光束雕塑。这里的艺术家很出色。",
       "I admire the hard-light sculptures in this city. There are wonderful artists here.",
       "{\"type\":\"map\",\"map\":\"斗兽场\"}",
-      0.3
+      0.3,
+      null
     ],
     [
       "HeroQuote",
@@ -3966,6 +4271,7 @@
       "这里会是费斯卡集团进行开发的完美位置。",
       "This would be a perfect location for a Vishkar development.",
       "{\"type\":\"map\",\"map\":\"多拉多\"}",
+      null,
       null
     ],
     [
@@ -3979,7 +4285,8 @@
       "我想象不出这里的生活，不管是电影明星还是别的什么人。",
       "I cannot imagine living here, movie stars or no.",
       "{\"type\":\"map\",\"map\":\"好莱坞\"}",
-      0.3
+      0.3,
+      null
     ],
     [
       "HeroQuote",
@@ -3992,7 +4299,8 @@
       "赌博愚蠢至极。只有傻瓜才会相信运气。",
       "Gambling is inane. Only a fool believes in luck.",
       "{\"type\":\"map\",\"map\":\"皇家赛道\"}",
-      0.3
+      0.3,
+      null
     ],
     [
       "HeroQuote",
@@ -4005,6 +4313,7 @@
       "费斯卡会喜欢这里的。",
       "The Vishkar corporation would love to have a presence here.",
       "{\"type\":\"map\",\"map\":\"绿洲城\"}",
+      null,
       null
     ],
     [
@@ -4018,6 +4327,7 @@
       "嗯，我喜欢这个地方。",
       "Hm. This place is to my liking.",
       "{\"type\":\"map\",\"map\":\"绿洲城\"}",
+      null,
       null
     ],
     [
@@ -4031,7 +4341,8 @@
       "费斯卡在这里的行为……令人失望。他们还欠我一个交代。",
       "Vishkar's actions here were… disappointing. I still need answers for them.",
       "{\"type\":\"map\",\"map\":\"帕拉伊苏\"}",
-      0.3
+      0.3,
+      null
     ],
     [
       "HeroQuote",
@@ -4044,7 +4355,8 @@
       "（厌恶）真希望我现在没有嗅觉。",
       "(disgust) I wish I could disable my sense of smell.",
       "{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"map\",\"map\":\"渣客镇\"},{\"type\":\"map\",\"map\":\"新渣客城\"}]}",
-      0.4
+      0.4,
+      null
     ],
     [
       "HeroQuote",
@@ -4057,7 +4369,8 @@
       "难以捉摸的盟友也是盟友。（叹气）姑且算是吧。",
       "Unpredictable allies are still allies. (sigh) Barely.",
       "{\"type\":\"nested\",\"total\":5,\"needed\":2,\"conditions\":[{\"type\":\"withHero\",\"hero\":\"狂鼠\"},{\"type\":\"withHero\",\"hero\":\"路霸\"},{\"type\":\"withHero\",\"hero\":\"渣客女王\"},{\"type\":\"withHero\",\"hero\":\"黑影\"},{\"type\":\"withHero\",\"hero\":\"破坏球\"}]}",
-      0.75
+      0.75,
+      null
     ],
     [
       "HeroQuote",
@@ -4070,7 +4383,8 @@
       "世上没有任何城市能比得过乌托邦。",
       "No city in the world can compare to Utopaea.",
       "{\"type\":\"nested\",\"total\":7,\"needed\":1,\"conditions\":[{\"type\":\"map\",\"map\":\"皇家赛道\"},{\"type\":\"map\",\"map\":\"中城\"},{\"type\":\"map\",\"map\":\"巴黎\"},{\"type\":\"map\",\"map\":\"埃斯佩兰萨\"},{\"type\":\"map\",\"map\":\"多拉多\"},{\"type\":\"map\",\"map\":\"帕拉伊苏\"},{\"type\":\"map\",\"map\":\"好莱坞\"}]}",
-      0.1
+      0.1,
+      null
     ],
     [
       "HeroQuote",
@@ -4083,7 +4397,8 @@
       "这将是一个难忘的傍晚。",
       "This will be an evening to remember.",
       "{\"type\":\"scripted\",\"script\":\"00B87E\",\"scriptDesc\":\"在夜晚地图\"}",
-      0.1
+      0.1,
+      null
     ],
     [
       "HeroQuote",
@@ -4095,6 +4410,7 @@
       "MeleeEnemyKilledRemark",
       "走开。",
       "Get away.",
+      null,
       null,
       null
     ],
@@ -4109,6 +4425,7 @@
       "离我远点。",
       "Out of my space.",
       null,
+      null,
       null
     ],
     [
@@ -4121,6 +4438,7 @@
       "MeleeEnemyKilledRemark",
       "你离得太近了。",
       "You are too close.",
+      null,
       null,
       null
     ],
@@ -4135,6 +4453,7 @@
       "可怜。",
       "Shameful.",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -4148,6 +4467,7 @@
       "滚回去。",
       "Get back.",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -4161,6 +4481,7 @@
       "不要不自量力。",
       "Know your place.",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -4173,6 +4494,7 @@
       "MissionAlmostDone",
       "胜利近在咫尺。",
       "Victory is imminent.",
+      null,
       null,
       null
     ],
@@ -4187,6 +4509,7 @@
       "不要松懈，胜利很快就是我们的了！",
       "Do not let up, victory will soon be ours!",
       null,
+      null,
       null
     ],
     [
@@ -4199,6 +4522,7 @@
       "NanoBoosted",
       "见证我的设计！",
       "Witness my design!",
+      null,
       null,
       null
     ],
@@ -4213,6 +4537,7 @@
       "和谐由我掌控！",
       "Harmony is within my grasp!",
       null,
+      null,
       null
     ],
     [
@@ -4225,6 +4550,7 @@
       "NanoBoosted",
       "我将消除混乱！",
       "I will eliminate chaos!",
+      null,
       null,
       null
     ],
@@ -4239,7 +4565,8 @@
       "没人能阻止我！",
       "I am unstoppable!",
       null,
-      0.05
+      0.05,
+      null
     ],
     [
       "HeroQuote",
@@ -4252,6 +4579,7 @@
       "没东西可以阻碍我了！",
       "There is nothing that will stand in my way!",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -4264,6 +4592,7 @@
       "NeedHealer",
       "我们需要医生。",
       "We need a healer.",
+      null,
       null,
       null
     ],
@@ -4278,6 +4607,7 @@
       "有医生会更好。",
       "A healer would be optimal.",
       null,
+      null,
       null
     ],
     [
@@ -4290,6 +4620,7 @@
       "NeedShields",
       "我需要更多护盾。",
       "I need more shields.",
+      null,
       null,
       null
     ],
@@ -4304,6 +4635,7 @@
       "我的护盾需要加强。",
       "My shields require augmentation.",
       null,
+      null,
       null
     ],
     [
@@ -4316,6 +4648,7 @@
       "No",
       "不行。",
       "No.",
+      null,
       null,
       null
     ],
@@ -4330,6 +4663,7 @@
       "不。",
       "(Hindi): No.",
       null,
+      null,
       null
     ],
     [
@@ -4342,6 +4676,7 @@
       "Objective/Attack",
       "集中攻击目标点！",
       "Focus our attack on the objective!",
+      null,
       null,
       null
     ],
@@ -4356,6 +4691,7 @@
       "我正在目标位置。我们必须快点占领这里。",
       "I am at the objective. We must take it quickly.",
       null,
+      null,
       null
     ],
     [
@@ -4368,6 +4704,7 @@
       "Objective/CaptureInProgress",
       "我正在占领目标。有人一起来吗？",
       "I am taking the objective. Is anyone coming?",
+      null,
       null,
       null
     ],
@@ -4382,6 +4719,7 @@
       "我在夺取目标点。",
       "I claim the objective.",
       null,
+      null,
       null
     ],
     [
@@ -4394,6 +4732,7 @@
       "Objective/CaptureInProgress",
       "我已到达目标位置。请协助我。",
       "I have reached the objective. Come aid me.",
+      null,
       null,
       null
     ],
@@ -4408,6 +4747,7 @@
       "保护目标点！",
       "Secure the objective!",
       null,
+      null,
       null
     ],
     [
@@ -4420,6 +4760,7 @@
       "Objective/Defend",
       "在目标位置强化防御。",
       "Bolster our defenses on the objective.",
+      null,
       null,
       null
     ],
@@ -4434,6 +4775,7 @@
       "保护这个目标。",
       "Secure the objective.",
       null,
+      null,
       null
     ],
     [
@@ -4446,6 +4788,7 @@
       "Objective/Destroy",
       "摧毁目标。",
       "Destroy the objective.",
+      null,
       null,
       null
     ],
@@ -4460,6 +4803,7 @@
       "我们得摧毁目标。",
       "We need to destroy the objective.",
       null,
+      null,
       null
     ],
     [
@@ -4472,6 +4816,7 @@
       "Objective/Eliminated",
       "摧毁目标了。",
       "The objective is no more.",
+      null,
       null,
       null
     ],
@@ -4486,6 +4831,7 @@
       "目标结束抵抗了。",
       "The objective's resistance has ended.",
       null,
+      null,
       null
     ],
     [
@@ -4498,6 +4844,7 @@
       "Objective/EnemyCaptureInProgress",
       "敌人正在向目标点发起挑战！",
       "The enemy is challenging the objective!",
+      null,
       null,
       null
     ],
@@ -4512,6 +4859,7 @@
       "敌人正在攻击目标点。把他们打回去！",
       "They are attacking the objective. Push them back!",
       null,
+      null,
       null
     ],
     [
@@ -4524,6 +4872,7 @@
       "Objective/EnemyCaptureInProgress",
       "必须阻止他们的占领计划。",
       "We must defend against their advancement.",
+      null,
       null,
       null
     ],
@@ -4538,6 +4887,7 @@
       "敌方目标被击中了。",
       "The objective has been damaged.",
       null,
+      null,
       null
     ],
     [
@@ -4550,6 +4900,7 @@
       "Objective/EnemyDamaged",
       "集中火力攻击目标。",
       "Focus your attacks upon the objective.",
+      null,
       null,
       null
     ],
@@ -4564,6 +4915,7 @@
       "敌方目标就要被摧毁了！",
       "The objective is almost destroyed!",
       null,
+      null,
       null
     ],
     [
@@ -4576,6 +4928,7 @@
       "Objective/EnemyDestroyed",
       "敌方目标已严重受损。",
       "The objective has been critically damaged.",
+      null,
       null,
       null
     ],
@@ -4590,6 +4943,7 @@
       "敌人在前进。我们不能容忍！",
       "They are progressing. We cannot allow this!",
       null,
+      null,
       null
     ],
     [
@@ -4602,6 +4956,7 @@
       "Objective/EnemyMovingPayload",
       "不能让他们前进。攻击！",
       "We should not be letting them advance. Attack!",
+      null,
       null,
       null
     ],
@@ -4616,6 +4971,7 @@
       "警惕运载目标的前进速度。阻止他们！",
       "The payload moves at a distressing rate. Stop them!",
       null,
+      null,
       null
     ],
     [
@@ -4628,6 +4984,7 @@
       "Objective/EnemyRunningOutOfTime",
       "敌人的期限就要到了。拦住他们！",
       "Their deadline approaches. We will stand in their way!",
+      null,
       null,
       null
     ],
@@ -4642,6 +4999,7 @@
       "他们时间不多了。坚守阵地！",
       "They are running out of time. Maintain your place!",
       null,
+      null,
       null
     ],
     [
@@ -4654,6 +5012,7 @@
       "Objective/EnemyRunningOutOfTime",
       "他们就要没时间了。一起努力！",
       "Their time is running short. Combine your efforts!",
+      null,
       null,
       null
     ],
@@ -4668,7 +5027,8 @@
       "如果我们团结一致，敌人就无法穿透我们的防御。",
       "If we work in unison, our defense will be impenetrable.",
       null,
-      0.05
+      0.05,
+      null
     ],
     [
       "HeroQuote",
@@ -4680,6 +5040,7 @@
       "Objective/Escort",
       "我们必须引导目标抵达目的地。",
       "We must guide the objective to the destination.",
+      null,
       null,
       null
     ],
@@ -4694,6 +5055,7 @@
       "一同前进。",
       "Let us proceed as one.",
       null,
+      null,
       null
     ],
     [
@@ -4706,6 +5068,7 @@
       "Objective/Kill",
       "集火攻击目标。",
       "Focus your attacks on the objective.",
+      null,
       null,
       null
     ],
@@ -4720,6 +5083,7 @@
       "运动轨迹非常完美。",
       "In perfect motion.",
       null,
+      null,
       null
     ],
     [
@@ -4732,6 +5096,7 @@
       "Objective/PayloadMoving",
       "道路畅通。转移运载目标！",
       "The way is clear. Moving the payload!",
+      null,
       null,
       null
     ],
@@ -4746,6 +5111,7 @@
       "我们要和运载目标一起前进！",
       "We must move with the payload!",
       null,
+      null,
       null
     ],
     [
@@ -4758,6 +5124,7 @@
       "Objective/PayloadNeedsToMove",
       "移动运载目标。",
       "Move the payload.",
+      null,
       null,
       null
     ],
@@ -4772,6 +5139,7 @@
       "我们必须阻止运载目标。",
       "We must stop the payload.",
       null,
+      null,
       null
     ],
     [
@@ -4784,6 +5152,7 @@
       "Objective/PayloadStopped",
       "运载目标停下了。我们得制定配套计划。",
       "The payload has stopped. We must coordinate a plan.",
+      null,
       null,
       null
     ],
@@ -4798,6 +5167,7 @@
       "发生什么事了？运载目标停下来了。",
       "What happened? The payload has stopped.",
       null,
+      null,
       null
     ],
     [
@@ -4810,6 +5180,7 @@
       "Objective/PayloadStopped",
       "运载目标不能停滞不前！",
       "The payload cannot progress like this!",
+      null,
       null,
       null
     ],
@@ -4824,6 +5195,7 @@
       "快！我们不能在这里失败。",
       "Hurry! We must not be defeated here.",
       null,
+      null,
       null
     ],
     [
@@ -4836,6 +5208,7 @@
       "Objective/RunningOutOfTime",
       "时间不多了！别分心！",
       "We are running out of time! Do not lose focus!",
+      null,
       null,
       null
     ],
@@ -4850,6 +5223,7 @@
       "剩下的时间不多了。尽最大努力！",
       "There is little time left. Maximize your efforts!",
       null,
+      null,
       null
     ],
     [
@@ -4863,7 +5237,8 @@
       "时间越来越少，但我们必须战斗到底！",
       "Time grows short, but we will fight to the end!",
       null,
-      0.05
+      0.05,
+      null
     ],
     [
       "HeroQuote",
@@ -4875,6 +5250,7 @@
       "Objective/Take",
       "占领目标。",
       "Capture the objective.",
+      null,
       null,
       null
     ],
@@ -4889,6 +5265,7 @@
       "集中防御我们的目标。",
       "Focus our efforts on the objective.",
       null,
+      null,
       null
     ],
     [
@@ -4901,6 +5278,7 @@
       "OnFire",
       "见证我的独一无二！",
       "Behold my exceptionality.",
+      null,
       null,
       null
     ],
@@ -4915,6 +5293,7 @@
       "这是我成功的证明。",
       "Evidence of my success.",
       null,
+      null,
       null
     ],
     [
@@ -4927,6 +5306,7 @@
       "OnFire",
       "我卓尔不群！",
       "I am outstanding!",
+      null,
       null,
       null
     ],
@@ -4941,7 +5321,8 @@
       "出乎意料的表现水平。",
       "An exceptional performance.",
       null,
-      0.2
+      0.2,
+      null
     ],
     [
       "HeroQuote",
@@ -4954,6 +5335,7 @@
       "我火力全开。",
       "I am on fire.",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -4966,6 +5348,7 @@
       "OnMyWay",
       "我正赶来。",
       "I am on my way.",
+      null,
       null,
       null
     ],
@@ -4980,6 +5363,7 @@
       "向前推进！",
       "Press the attack!",
       null,
+      null,
       null
     ],
     [
@@ -4992,6 +5376,7 @@
       "PushForward",
       "前进！",
       "Push forward!",
+      null,
       null,
       null
     ],
@@ -5006,6 +5391,7 @@
       "轰炮者已解体。",
       "Artillery dismantled.",
       null,
+      null,
       null
     ],
     [
@@ -5018,6 +5404,7 @@
       "PVE/ArtilleryDown",
       "轰炮者已被摧毁。",
       "Artillery destroyed.",
+      null,
       null,
       null
     ],
@@ -5032,6 +5419,7 @@
       "追猎者已被摧毁。",
       "Stalker destroyed.",
       null,
+      null,
       null
     ],
     [
@@ -5044,6 +5432,7 @@
       "PVE/ArtilleryDown",
       "消灭追猎者了。",
       "Stalker eliminated.",
+      null,
       null,
       null
     ],
@@ -5058,7 +5447,8 @@
       "任何问题都可以拆解。",
       "Any problem can be broken down.",
       null,
-      0.2
+      0.2,
+      null
     ],
     [
       "HeroQuote",
@@ -5070,6 +5460,7 @@
       "PVE/ChargerDown",
       "冲锋者已歼灭。",
       "Charger annihilated.",
+      null,
       null,
       null
     ],
@@ -5084,6 +5475,7 @@
       "冲锋者已被摧毁。",
       "Charger destroyed.",
       null,
+      null,
       null
     ],
     [
@@ -5097,7 +5489,8 @@
       "野蛮的造物获得了它应有的结局。",
       "A brutish end for a brutish creation.",
       null,
-      0.2
+      0.2,
+      null
     ],
     [
       "HeroQuote",
@@ -5109,6 +5502,7 @@
       "PVE/DetonatorIncoming",
       "发现“爆破者”。让它离远点。",
       "Detonator detected. Keep it at a distance.",
+      null,
       null,
       null
     ],
@@ -5123,6 +5517,7 @@
       "我把它扔下了。",
       "I dropped it.",
       null,
+      null,
       null
     ],
     [
@@ -5135,6 +5530,7 @@
       "PVE/DroppedItem",
       "它从我的指缝里溜走了。",
       "It slipped through my fingers.",
+      null,
       null,
       null
     ],
@@ -5149,6 +5545,7 @@
       "发现敌方“堡垒”。",
       "Enemy bastion spotted.",
       null,
+      null,
       null
     ],
     [
@@ -5161,6 +5558,7 @@
       "PVE/EradicatorIncoming",
       "发现“灭除者”。",
       "Eradicator detected.",
+      null,
       null,
       null
     ],
@@ -5175,6 +5573,7 @@
       "有飞行机。小心头顶！",
       "Fliers. Watch the skies!",
       null,
+      null,
       null
     ],
     [
@@ -5187,6 +5586,7 @@
       "PVE/FliersIncoming",
       "飞行机进攻了！",
       "Fliers attacking!",
+      null,
       null,
       null
     ],
@@ -5201,6 +5601,7 @@
       "前往目标位置。",
       "Proceed to the objective.",
       null,
+      null,
       null
     ],
     [
@@ -5213,6 +5614,7 @@
       "PVE/MeetAtObjective",
       "去目标那儿集合。",
       "Meet at the objective.",
+      null,
       null,
       null
     ],
@@ -5227,6 +5629,7 @@
       "归零机兵在我这里。",
       "Nulltroopers at my position.",
       null,
+      null,
       null
     ],
     [
@@ -5239,6 +5642,7 @@
       "PVE/NullTrooperIncoming",
       "发现归零机兵了。",
       "Nulltrooper detected.",
+      null,
       null,
       null
     ],
@@ -5253,6 +5657,7 @@
       "OR14来了！",
       "OR14 incoming!",
       null,
+      null,
       null
     ],
     [
@@ -5265,6 +5670,7 @@
       "PVE/SlicerIncoming",
       "“切割者”正在接近。",
       "Slicers approaching.",
+      null,
       null,
       null
     ],
@@ -5279,6 +5685,7 @@
       "“切割者”来了。",
       "Slicer approaching.",
       null,
+      null,
       null
     ],
     [
@@ -5291,6 +5698,7 @@
       "PVE/ThisWay",
       "从这边走！",
       "Through here!",
+      null,
       null,
       null
     ],
@@ -5305,6 +5713,7 @@
       "走这边！",
       "This way!",
       null,
+      null,
       null
     ],
     [
@@ -5317,6 +5726,7 @@
       "PVE/TimeToGetOutOfHere",
       "我们得跑起来了。",
       "We have to run.",
+      null,
       null,
       null
     ],
@@ -5331,6 +5741,7 @@
       "抓紧时间！",
       "Make haste!",
       null,
+      null,
       null
     ],
     [
@@ -5343,6 +5754,7 @@
       "PVE/TimeToGetOutOfHere",
       "快！",
       "Hurry!",
+      null,
       null,
       null
     ],
@@ -5357,6 +5769,7 @@
       "决不能让敌人摧毁我们的目标！",
       "We must not let them destroy our objective!",
       null,
+      null,
       null
     ],
     [
@@ -5369,6 +5782,7 @@
       "PVE/Unknown",
       "我们的目标被严重削弱了！",
       "The objective is critically weakened!",
+      null,
       null,
       null
     ],
@@ -5383,6 +5797,7 @@
       "我们的目标遭到了攻击。",
       "Our objective has taken damage.",
       null,
+      null,
       null
     ],
     [
@@ -5395,6 +5810,7 @@
       "PVE/Unknown",
       "目标遭到攻击。快保护它！",
       "The objective is taking damage. Defend it!",
+      null,
       null,
       null
     ],
@@ -5409,6 +5825,7 @@
       "我们的队友需要复活。",
       "Our ally needs to be revived.",
       null,
+      null,
       null
     ],
     [
@@ -5421,6 +5838,7 @@
       "PVE/Unknown",
       "快把她赶走！",
       "Get it off me!",
+      null,
       null,
       null
     ],
@@ -5435,6 +5853,7 @@
       "敌人要超过我们了！",
       "The enemy is about to surpass us!",
       null,
+      null,
       null
     ],
     [
@@ -5447,6 +5866,7 @@
       "PVE/Unknown",
       "他们即将赶超！",
       "They are catching up!",
+      null,
       null,
       null
     ],
@@ -5461,6 +5881,7 @@
       "敌人的进度就快赶上我们了！",
       "They have nearly matched our progress!",
       null,
+      null,
       null
     ],
     [
@@ -5473,6 +5894,7 @@
       "PVE/Unknown",
       "不能让他们得逞！",
       "Do not let them succeed!",
+      null,
       null,
       null
     ],
@@ -5487,6 +5909,7 @@
       "把他们赶走，我们就赢了！",
       "Push them away and victory is ours!",
       null,
+      null,
       null
     ],
     [
@@ -5499,6 +5922,7 @@
       "PVE/Unknown",
       "要阻止他们，这是最后的机会了！",
       "This is our last chance to stop them!",
+      null,
       null,
       null
     ],
@@ -5513,6 +5937,7 @@
       "敌人领先了。我们得尽快拿回优势。",
       "They took the lead. We must recover quickly.",
       null,
+      null,
       null
     ],
     [
@@ -5525,6 +5950,7 @@
       "PVE/Unknown",
       "他们占据了优势。必须阻止他们！",
       "They have taken the advantage. We must stop them!",
+      null,
       null,
       null
     ],
@@ -5539,6 +5965,7 @@
       "不能再放任他们继续推进了。",
       "We cannot afford to let them progress farther.",
       null,
+      null,
       null
     ],
     [
@@ -5551,6 +5978,7 @@
       "PVE/Unknown",
       "敌方队伍夺取了机器人！",
       "The enemy team has taken the robot!",
+      null,
       null,
       null
     ],
@@ -5565,6 +5993,7 @@
       "敌人控制了机器人！",
       "The enemy has claimed the robot!",
       null,
+      null,
       null
     ],
     [
@@ -5577,6 +6006,7 @@
       "PVE/Unknown",
       "机器人被他们控制住了！",
       "They have taken hold of the robot!",
+      null,
       null,
       null
     ],
@@ -5591,6 +6021,7 @@
       "优势就在眼前！",
       "The advantage is in sight!",
       null,
+      null,
       null
     ],
     [
@@ -5603,6 +6034,7 @@
       "PVE/Unknown",
       "我们就要赶超了！",
       "We have almost caught up!",
+      null,
       null,
       null
     ],
@@ -5617,6 +6049,7 @@
       "我们就要超过他们了。继续保持！",
       "We have nearly surpassed them. Keep going!",
       null,
+      null,
       null
     ],
     [
@@ -5629,6 +6062,7 @@
       "PVE/Unknown",
       "这是最后的机会了。跟紧机器人！",
       "This is our final chance. Stay with the robot!",
+      null,
       null,
       null
     ],
@@ -5643,6 +6077,7 @@
       "看好机器人！我们还有胜利的可能。",
       "Stay near the robot! We have a chance at victory.",
       null,
+      null,
       null
     ],
     [
@@ -5655,6 +6090,7 @@
       "PVE/Unknown",
       "完成任务我们就能取胜！",
       "If we see this task through, we will succeed!",
+      null,
       null,
       null
     ],
@@ -5669,6 +6105,7 @@
       "现在我们领先了，保持这个势头！",
       "We are now ahead. Continue this momentum!",
       null,
+      null,
       null
     ],
     [
@@ -5681,6 +6118,7 @@
       "PVE/Unknown",
       "我们的努力卓有成效！",
       "Our efforts yield progress!",
+      null,
       null,
       null
     ],
@@ -5695,6 +6133,7 @@
       "我们比敌人推进得更远。",
       "We have progressed farther than the enemy.",
       null,
+      null,
       null
     ],
     [
@@ -5707,6 +6146,7 @@
       "PVE/Unknown",
       "挡板前进了。我们必须和它保持同步。",
       "The barricade is advancing. We must move with it.",
+      null,
       null,
       null
     ],
@@ -5721,6 +6161,7 @@
       "开始推进。",
       "Beginning the push.",
       null,
+      null,
       null
     ],
     [
@@ -5733,6 +6174,7 @@
       "PVE/Unknown",
       "挡板正在移动，保持道路畅通。",
       "The barricade is moving. Keep its path clear.",
+      null,
       null,
       null
     ],
@@ -5747,6 +6189,7 @@
       "我们控制了机器人。和它一起移动。",
       "The robot is in our possession. Move with it.",
       null,
+      null,
       null
     ],
     [
@@ -5759,6 +6202,7 @@
       "PVE/Unknown",
       "我在护送机器人。",
       "I am with the robot.",
+      null,
       null,
       null
     ],
@@ -5773,6 +6217,7 @@
       "机器人归我们了。",
       "We have acquired the robot.",
       null,
+      null,
       null
     ],
     [
@@ -5785,6 +6230,7 @@
       "PVE/Unknown",
       "机器人开始推挡板了！",
       "The robot is moving the barricade!",
+      null,
       null,
       null
     ],
@@ -5799,6 +6245,7 @@
       "他们在推进！必须阻止他们！",
       "They are progressing! We must stop them!",
       null,
+      null,
       null
     ],
     [
@@ -5811,6 +6258,7 @@
       "PVE/Unknown",
       "敌人的挡板正在前进。",
       "The enemy barricade is advancing.",
+      null,
       null,
       null
     ],
@@ -5825,6 +6273,7 @@
       "物品已交付。",
       "Item delivered.",
       null,
+      null,
       null
     ],
     [
@@ -5837,6 +6286,7 @@
       "PVE/Unknown",
       "完成了。",
       "Done.",
+      null,
       null,
       null
     ],
@@ -5851,6 +6301,7 @@
       "啊。任务完成。",
       "Ah. Completed the task.",
       null,
+      null,
       null
     ],
     [
@@ -5863,6 +6314,7 @@
       "PVE/Unknown",
       "它由我来控制。",
       "It is in my possession.",
+      null,
       null,
       null
     ],
@@ -5877,6 +6329,7 @@
       "我来保管它。",
       "I will take it.",
       null,
+      null,
       null
     ],
     [
@@ -5889,6 +6342,7 @@
       "PVE/Unknown",
       "获取成功。",
       "Acquired.",
+      null,
       null,
       null
     ],
@@ -5903,6 +6357,7 @@
       "物品已获取。",
       "Item acquired.",
       null,
+      null,
       null
     ],
     [
@@ -5915,6 +6370,7 @@
       "PVE/Unknown",
       "大量敌人正向我们靠近！",
       "Many enemies coming our way!",
+      null,
       null,
       null
     ],
@@ -5929,6 +6385,7 @@
       "我们即将面对更猛烈的抵抗！",
       "We will soon be met with much resistance!",
       null,
+      null,
       null
     ],
     [
@@ -5941,6 +6398,7 @@
       "PVE/Unknown",
       "打破那扇门。",
       "Break down the door.",
+      null,
       null,
       null
     ],
@@ -5955,6 +6413,7 @@
       "摧毁大门！",
       "Destroy the door!",
       null,
+      null,
       null
     ],
     [
@@ -5967,6 +6426,7 @@
       "PVE/Unknown",
       "清理通道！",
       "Clear the path!",
+      null,
       null,
       null
     ],
@@ -5981,6 +6441,7 @@
       "我们在目标位置见。",
       "We should meet at the objective.",
       null,
+      null,
       null
     ],
     [
@@ -5993,6 +6454,7 @@
       "PVE/Unknown",
       "我正在目标位置等候。",
       "I am waiting at the objective.",
+      null,
       null,
       null
     ],
@@ -6007,6 +6469,7 @@
       "到目标位置来。",
       "Come to the objective.",
       null,
+      null,
       null
     ],
     [
@@ -6019,6 +6482,7 @@
       "PVE/Unknown",
       "我们必须挡住敌人。",
       "We must hold them back.",
+      null,
       null,
       null
     ],
@@ -6033,6 +6497,7 @@
       "拦住敌人，给我们争取时间。",
       "Hold them off until we can proceed.",
       null,
+      null,
       null
     ],
     [
@@ -6045,6 +6510,7 @@
       "PVE/Unknown",
       "我们必须拖住敌人。",
       "We need to hold them off.",
+      null,
       null,
       null
     ],
@@ -6059,6 +6525,7 @@
       "都完成了。",
       "All done.",
       null,
+      null,
       null
     ],
     [
@@ -6071,6 +6538,7 @@
       "PVE/Unknown",
       "交给我。",
       "I will do it.",
+      null,
       null,
       null
     ],
@@ -6085,6 +6553,7 @@
       "完成了。",
       "Done.",
       null,
+      null,
       null
     ],
     [
@@ -6097,6 +6566,7 @@
       "PVE/Unknown",
       "它冲过来了！",
       "It is charging!",
+      null,
       null,
       null
     ],
@@ -6111,6 +6581,7 @@
       "闪开！它冲过来了！",
       "Clear the way! It's charging!",
       null,
+      null,
       null
     ],
     [
@@ -6123,6 +6594,7 @@
       "PVE/Unknown",
       "有空投舱！",
       "Drop pods!",
+      null,
       null,
       null
     ],
@@ -6137,6 +6609,7 @@
       "敌军的空投舱来支援了！",
       "Reinforcement pods are dropping!",
       null,
+      null,
       null
     ],
     [
@@ -6149,6 +6622,7 @@
       "PVE/Unknown",
       "归零者来了。",
       "Null sector approaches.",
+      null,
       null,
       null
     ],
@@ -6163,6 +6637,7 @@
       "敌人的援军正在空降！",
       "They drop reinforcements!",
       null,
+      null,
       null
     ],
     [
@@ -6175,6 +6650,7 @@
       "PVE/Unknown",
       "小心追猎者！",
       "Watch out for the Stalker!",
+      null,
       null,
       null
     ],
@@ -6189,6 +6665,7 @@
       "我听到附近埋伏着追猎者。",
       "I hear a Stalker prowling about.",
       null,
+      null,
       null
     ],
     [
@@ -6201,6 +6678,7 @@
       "PVE/Unknown",
       "我听到追猎者的声音了。",
       "I heard a Stalker.",
+      null,
       null,
       null
     ],
@@ -6215,6 +6693,7 @@
       "这是无用功。我们无法击穿它的防御系统。",
       "It's useless. We can't break through its defenses.",
       null,
+      null,
       null
     ],
     [
@@ -6227,6 +6706,7 @@
       "PVE/Unknown",
       "别朝泰坦开火。它的防御太强了。",
       "Don't shoot the Titan. Its defenses are too dense.",
+      null,
       null,
       null
     ],
@@ -6241,6 +6721,7 @@
       "这种攻击毫无用处。它的装甲太厚了。",
       "That is not helpful. Its armor is too thick.",
       null,
+      null,
       null
     ],
     [
@@ -6253,6 +6734,7 @@
       "PVE/Unknown",
       "快！闪开！",
       "Quickly! Move!",
+      null,
       null,
       null
     ],
@@ -6267,6 +6749,7 @@
       "快离开那里！",
       "Get out of there!",
       null,
+      null,
       null
     ],
     [
@@ -6279,6 +6762,7 @@
       "PVE/Unknown",
       "它差不多动弹不得了！",
       "It's struggling to move!",
+      null,
       null,
       null
     ],
@@ -6293,6 +6777,7 @@
       "摧毁腿部了！",
       "Legs destroyed!",
       null,
+      null,
       null
     ],
     [
@@ -6305,6 +6790,7 @@
       "PVE/Unknown",
       "小心！有导弹！",
       "Look out! Missiles!",
+      null,
       null,
       null
     ],
@@ -6319,6 +6805,7 @@
       "导弹飞过来了！",
       "Missiles incoming!",
       null,
+      null,
       null
     ],
     [
@@ -6331,6 +6818,7 @@
       "PVE/Unknown",
       "它发射了导弹！",
       "It's firing missiles!",
+      null,
       null,
       null
     ],
@@ -6345,6 +6833,7 @@
       "敌人接近目标位置了！",
       "Enemies near the objective!",
       null,
+      null,
       null
     ],
     [
@@ -6357,6 +6846,7 @@
       "PVE/Unknown",
       "敌人正在向我们靠近！",
       "Enemies are closing in!",
+      null,
       null,
       null
     ],
@@ -6371,6 +6861,7 @@
       "敌人正在逼近目标位置！",
       "They are nearing the objective!",
       null,
+      null,
       null
     ],
     [
@@ -6384,7 +6875,8 @@
       "任何设计都有缺陷。",
       "Every design has its flaws.",
       null,
-      0.3
+      0.3,
+      null
     ],
     [
       "HeroQuote",
@@ -6397,7 +6889,8 @@
       "（叹气）",
       "(sighs)",
       null,
-      0.1
+      0.1,
+      null
     ],
     [
       "HeroQuote",
@@ -6410,7 +6903,8 @@
       "归零者正在空降！真有“创意”。",
       "Null Sector falling from the sky! How original.",
       null,
-      0.1
+      0.1,
+      null
     ],
     [
       "HeroQuote",
@@ -6423,6 +6917,7 @@
       "运载目标受到了攻击。",
       "The Payload is under fire.",
       "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      null,
       null
     ],
     [
@@ -6436,6 +6931,7 @@
       "敌人在破坏运载目标！",
       "They damage the Payload!",
       "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      null,
       null
     ],
     [
@@ -6449,6 +6945,7 @@
       "运载目标无法承受这样的火力！",
       "The Payload was not designed to withstand this!",
       "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      null,
       null
     ],
     [
@@ -6462,6 +6959,7 @@
       "运载目标受损严重！",
       "The Payload is taking critical damage!",
       "{\"type\":\"scripted\",\"script\":\"00088E\",\"scriptDesc\":\"运载目标受到攻击\"}",
+      null,
       null
     ],
     [
@@ -6475,6 +6973,7 @@
       "渡轮遇袭会危及乘客的安全。我们必须妥善应对。",
       "Direct assaults endanger the Ferry's passengers. We must do better.",
       "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      null,
       null
     ],
     [
@@ -6488,6 +6987,7 @@
       "渡轮正在遭受损害！",
       "The Ferry is sustaining damage!",
       "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      null,
       null
     ],
     [
@@ -6501,6 +7001,7 @@
       "我们必须保护渡轮！",
       "We must defend the Ferry!",
       "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      null,
       null
     ],
     [
@@ -6514,6 +7015,7 @@
       "照这个速度下去，渡轮马上就要沉了。",
       "The Ferry will be breached soon at this rate.",
       "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      null,
       null
     ],
     [
@@ -6527,6 +7029,7 @@
       "渡轮已经严重受损！",
       "The Ferry is heavily damaged!",
       "{\"type\":\"scripted\",\"script\":\"007329\",\"scriptDesc\":\"渡轮受到攻击\"}",
+      null,
       null
     ],
     [
@@ -6540,6 +7043,7 @@
       "传输塔遭到了攻击！",
       "The Uplink is under attack!",
       "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      null,
       null
     ],
     [
@@ -6553,6 +7057,7 @@
       "保护传输塔！",
       "Protect the Uplink!",
       "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      null,
       null
     ],
     [
@@ -6566,6 +7071,7 @@
       "传输塔已严重受损！",
       "The Uplink is severely damaged!",
       "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      null,
       null
     ],
     [
@@ -6579,6 +7085,7 @@
       "传输塔要撑不住了！",
       "The Uplink is failing!",
       "{\"type\":\"scripted\",\"script\":\"00732E\",\"scriptDesc\":\"传输塔受到攻击\"}",
+      null,
       null
     ],
     [
@@ -6592,6 +7099,7 @@
       "敌人在攻击巨炮！",
       "They are attacking the Cannon!",
       "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
+      null,
       null
     ],
     [
@@ -6605,6 +7113,7 @@
       "保护巨炮！",
       "Defend the Cannon!",
       "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
+      null,
       null
     ],
     [
@@ -6618,6 +7127,7 @@
       "巨炮遭到了严重破坏！",
       "The Cannon sustains heavy damage!",
       "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
+      null,
       null
     ],
     [
@@ -6631,6 +7141,7 @@
       "巨炮的结构完整度急剧下降！",
       "The Cannon's structural integrity is failing!",
       "{\"type\":\"scripted\",\"script\":\"0081B6\",\"scriptDesc\":\"巨炮受到攻击\"}",
+      null,
       null
     ],
     [
@@ -6644,6 +7155,7 @@
       "保护修理站！",
       "Protect the Repair Station!",
       "{\"type\":\"scripted\",\"script\":\"0094DB\",\"scriptDesc\":\"修理站受到攻击\"}",
+      null,
       null
     ],
     [
@@ -6657,6 +7169,7 @@
       "修理站受到了攻击！",
       "The Repair Station is being attacked!",
       "{\"type\":\"scripted\",\"script\":\"0094DB\",\"scriptDesc\":\"修理站受到攻击\"}",
+      null,
       null
     ],
     [
@@ -6670,6 +7183,7 @@
       "修理站受到了重创！",
       "The Repair Station is severely damaged!",
       "{\"type\":\"scripted\",\"script\":\"0094DB\",\"scriptDesc\":\"修理站受到攻击\"}",
+      null,
       null
     ],
     [
@@ -6683,6 +7197,7 @@
       "我们必须立即着手保护修理站！",
       "We must defend the Repair Station immediately!",
       "{\"type\":\"scripted\",\"script\":\"0094DB\",\"scriptDesc\":\"修理站受到攻击\"}",
+      null,
       null
     ],
     [
@@ -6696,6 +7211,7 @@
       "轰击者就要进入目标范围了！",
       "Breacher is nearly range!",
       "{\"type\":\"toHero\",\"hero\":\"轰击者\"}",
+      null,
       null
     ],
     [
@@ -6709,6 +7225,7 @@
       "阻止轰击者！",
       "Stop the Breacher!",
       "{\"type\":\"toHero\",\"hero\":\"轰击者\"}",
+      null,
       null
     ],
     [
@@ -6722,7 +7239,8 @@
       "那个轰击者的威胁指数过高。摧毁它！",
       "That Breacher is a massive threat. Destroy it!",
       "{\"type\":\"toHero\",\"hero\":\"轰击者\"}",
-      0.5
+      0.5,
+      null
     ],
     [
       "HeroQuote",
@@ -6735,6 +7253,7 @@
       "切割者正在接近目标！",
       "Slicers are approaching the objective!",
       "{\"type\":\"toHero\",\"hero\":\"切割者\"}",
+      null,
       null
     ],
     [
@@ -6748,6 +7267,7 @@
       "切割者距离目标越来越近了！",
       "The Slicers are getting very close!",
       "{\"type\":\"toHero\",\"hero\":\"切割者\"}",
+      null,
       null
     ],
     [
@@ -6761,7 +7281,8 @@
       "切割者会造成大量伤害。绝不能让它们靠近！",
       "Those Slicers will cause major damage. Don't let them approach!",
       "{\"type\":\"toHero\",\"hero\":\"切割者\"}",
-      0.5
+      0.5,
+      null
     ],
     [
       "HeroQuote",
@@ -6774,6 +7295,7 @@
       "阻止抑制者！",
       "Stop the Subjugator!",
       "{\"type\":\"toHero\",\"hero\":\"抑制者\"}",
+      null,
       null
     ],
     [
@@ -6787,6 +7309,7 @@
       "抑制者离得太近了！",
       "The Subjugator is too close!",
       "{\"type\":\"toHero\",\"hero\":\"抑制者\"}",
+      null,
       null
     ],
     [
@@ -6799,6 +7322,7 @@
       "PVE/VultureDown",
       "秃鹫机已击毁。",
       "Vulture down.",
+      null,
       null,
       null
     ],
@@ -6813,6 +7337,7 @@
       "已摧毁秃鹫机。",
       "Vulture destroyed.",
       null,
+      null,
       null
     ],
     [
@@ -6826,7 +7351,8 @@
       "别再嗡嗡叫了。",
       "Stop your buzzing.",
       null,
-      0.3
+      0.3,
+      null
     ],
     [
       "HeroQuote",
@@ -6838,6 +7364,7 @@
       "PVE/VultureIncoming",
       "秃鹫机来了。",
       "Vulture incoming.",
+      null,
       null,
       null
     ],
@@ -6852,6 +7379,7 @@
       "秃鹫机正在接近。",
       "Vulture approaching.",
       null,
+      null,
       null
     ],
     [
@@ -6864,6 +7392,7 @@
       "RandomLines",
       "想想这能变成什么。",
       "Imagine what this could be.",
+      null,
       null,
       null
     ],
@@ -6878,6 +7407,7 @@
       "每次失败都会带来全新的视角。",
       "With each failure comes new perspective.",
       null,
+      null,
       null
     ],
     [
@@ -6890,6 +7420,7 @@
       "Respawn",
       "趁这个机会实践我的观察。",
       "A chance to act on my observations.",
+      null,
       null,
       null
     ],
@@ -6904,6 +7435,7 @@
       "有始必有终。",
       "I finish my projects.",
       null,
+      null,
       null
     ],
     [
@@ -6916,6 +7448,7 @@
       "Respawn",
       "没有哪条路能够万无一失。",
       "No path is completely certain.",
+      null,
       null,
       null
     ],
@@ -6930,6 +7463,7 @@
       "我不会分心。",
       "I will not lose focus.",
       null,
+      null,
       null
     ],
     [
@@ -6942,6 +7476,7 @@
       "Respawn",
       "通路仍然向我打开。",
       "The way is still open for me.",
+      null,
       null,
       null
     ],
@@ -6956,6 +7491,7 @@
       "学无止境。",
       "There is always more to learn.",
       null,
+      null,
       null
     ],
     [
@@ -6968,6 +7504,7 @@
       "Respawn",
       "光芒揭示了新的真相。",
       "New revelations have come to light.",
+      null,
       null,
       null
     ],
@@ -6982,6 +7519,7 @@
       "有机会迭代设计当然再好不过。",
       "A chance to iterate is always appreciated.",
       null,
+      null,
       null
     ],
     [
@@ -6994,6 +7532,7 @@
       "Respawn",
       "今天，混乱必将被压制。",
       "Chaos will not be unseated in a day.",
+      null,
       null,
       null
     ],
@@ -7008,7 +7547,8 @@
       "完美不是重点。",
       "Perfection was not the point.",
       null,
-      0.2
+      0.2,
+      null
     ],
     [
       "HeroQuote",
@@ -7021,7 +7561,8 @@
       "一时大意。",
       "A momentary lapse.",
       null,
-      0.05
+      0.05,
+      null
     ],
     [
       "HeroQuote",
@@ -7034,7 +7575,8 @@
       "必须修正计划中的瑕疵。",
       "(Hindi): I must correct the flaws in my plan.",
       null,
-      0.02
+      0.02,
+      null
     ],
     [
       "HeroQuote",
@@ -7047,7 +7589,8 @@
       "死亡不过是幻象。",
       "Death is an illusion.",
       null,
-      0.01
+      0.01,
+      null
     ],
     [
       "HeroQuote",
@@ -7060,6 +7603,7 @@
       "哼。计划本来进展得很顺利……",
       "Hmpfh. My plan was going so smoothly...",
       "{\"type\":\"scripted\",\"script\":\"00B404\",\"scriptDesc\":\"连杀后复生\"}",
+      null,
       null
     ],
     [
@@ -7073,7 +7617,8 @@
       "我们依然可以掌控今晚。",
       "The night can still be ours.",
       "{\"type\":\"scripted\",\"script\":\"00B87C\",\"scriptDesc\":\"在夜晚地图\"}",
-      0.15
+      0.15,
+      null
     ],
     [
       "HeroQuote",
@@ -7086,6 +7631,7 @@
       "我的工作尚未完成。",
       "My work is not complete.",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -7099,6 +7645,7 @@
       "我会纠正我的错误。",
       "I will correct my mistakes.",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -7112,6 +7659,7 @@
       "我会按计划行事。",
       "I will follow my path.",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -7125,6 +7673,7 @@
       "还有很多事要做。",
       "There is still much to be done.",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -7138,7 +7687,8 @@
       "那个野蛮人休想再赢过我。",
       "That brute will not best me again.",
       "{\"type\":\"toHero\",\"hero\":\"毛加\"}",
-      0.2
+      0.2,
+      null
     ],
     [
       "HeroQuote",
@@ -7151,7 +7701,8 @@
       "一针见血啊，涅兰。",
       "Touche, Niran.",
       "{\"type\":\"toHero\",\"hero\":\"生命之梭\"}",
-      0.1
+      0.1,
+      null
     ],
     [
       "HeroQuote",
@@ -7163,6 +7714,7 @@
       "Resurrected",
       "第二次机会。",
       "A second chance.",
+      null,
       null,
       null
     ],
@@ -7177,6 +7729,7 @@
       "刺杀者消失了。",
       "The assassin has vanished.",
       null,
+      null,
       null
     ],
     [
@@ -7189,6 +7742,7 @@
       "Retribution/AssassinEliminated",
       "已消灭刺杀者。",
       "Assassin eliminated.",
+      null,
       null,
       null
     ],
@@ -7203,6 +7757,7 @@
       "有刺杀者。",
       "They have an assassin.",
       null,
+      null,
       null
     ],
     [
@@ -7215,6 +7770,7 @@
       "Retribution/AssassinSpotted",
       "发现刺杀者！",
       "I have spotted the assassin!",
+      null,
       null,
       null
     ],
@@ -7229,6 +7785,7 @@
       "攻击刺杀者！",
       "Attack the assassin!",
       null,
+      null,
       null
     ],
     [
@@ -7241,6 +7798,7 @@
       "Retribution/AssassinStillAlive",
       "我们得干掉刺杀者。",
       "We have yet to kill the assassin.",
+      null,
       null,
       null
     ],
@@ -7255,6 +7813,7 @@
       "发现敌方援军。",
       "Enemy reinforcements detected.",
       null,
+      null,
       null
     ],
     [
@@ -7267,6 +7826,7 @@
       "Retribution/EnemiesIncoming",
       "敌人的部队出现了。",
       "Enemy forces incoming.",
+      null,
       null,
       null
     ],
@@ -7281,6 +7841,7 @@
       "敌方威胁正在靠近。",
       "Threats approaching.",
       null,
+      null,
       null
     ],
     [
@@ -7293,6 +7854,7 @@
       "Retribution/EnemyIncomingDoor",
       "他们从过道冲过来了。",
       "They are coming through the doorway.",
+      null,
       null,
       null
     ],
@@ -7307,6 +7869,7 @@
       "敌人从过道打过来了。",
       "Our enemies advance through the doorway.",
       null,
+      null,
       null
     ],
     [
@@ -7319,6 +7882,7 @@
       "Retribution/EnemyIncomingDoor",
       "他们从门那边过来了。",
       "They're coming through the door.",
+      null,
       null,
       null
     ],
@@ -7333,6 +7897,7 @@
       "小心门口！",
       "Watch the door!",
       null,
+      null,
       null
     ],
     [
@@ -7345,6 +7910,7 @@
       "Retribution/HeavyAssaultStillAlive",
       "那个大家伙还活着。",
       "That large creature still lives.",
+      null,
       null,
       null
     ],
@@ -7359,6 +7925,7 @@
       "前方有狙击手！",
       "Sniper up ahead!",
       null,
+      null,
       null
     ],
     [
@@ -7371,6 +7938,7 @@
       "Retribution/TalonTroopersIncoming",
       "黑爪步兵来了。",
       "Talon trooper incoming.",
+      null,
       null,
       null
     ],
@@ -7385,6 +7953,7 @@
       "我没有忘记你。",
       "I had not forgotten you.",
       null,
+      null,
       null
     ],
     [
@@ -7397,6 +7966,7 @@
       "Revenge",
       "你以为我会忘记吗？",
       "Did you think I would forget?",
+      null,
       null,
       null
     ],
@@ -7411,6 +7981,7 @@
       "这都是你自找的。",
       "It was simply what you deserved.",
       null,
+      null,
       null
     ],
     [
@@ -7423,6 +7994,7 @@
       "Reward",
       "给我的礼物。",
       "Huh. Something for me.",
+      null,
       null,
       null
     ],
@@ -7437,6 +8009,7 @@
       "辛苦工作的奖励。",
       "A reward for my hard work.",
       null,
+      null,
       null
     ],
     [
@@ -7449,6 +8022,7 @@
       "Reward",
       "里面有什么好东西？",
       "What treasure lies within?",
+      null,
       null,
       null
     ],
@@ -7463,6 +8037,7 @@
       "（大叫）",
       "(screams)",
       "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      null,
       null
     ],
     [
@@ -7476,6 +8051,7 @@
       "（大叫）",
       "(screams)",
       "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      null,
       null
     ],
     [
@@ -7489,6 +8065,7 @@
       "（大叫）",
       "(screams)",
       "{\"type\":\"scripted\",\"script\":\"00191E\",\"scriptDesc\":\"未知\",\"negative\":true}",
+      null,
       null
     ],
     [
@@ -7501,6 +8078,7 @@
       "ScreamFall",
       "（放声大叫）",
       "(prolonged screaming)",
+      null,
       null,
       null
     ],
@@ -7515,6 +8093,7 @@
       "（放声大叫）",
       "(prolonged screaming)",
       null,
+      null,
       null
     ],
     [
@@ -7527,6 +8106,7 @@
       "ScreamFall",
       "（放声大叫）",
       "(prolonged screaming)",
+      null,
       null,
       null
     ],
@@ -7541,6 +8121,7 @@
       "我们应该在这里做好准备。",
       "We should set up here.",
       null,
+      null,
       null
     ],
     [
@@ -7553,6 +8134,7 @@
       "ShieldGenerator/EnemyHasShieldGen",
       "敌人部署了护盾发生器。我们必须找到它。",
       "The enemy has a shield generator. We must find it.",
+      null,
       null,
       null
     ],
@@ -7567,6 +8149,7 @@
       "摧毁敌人的护盾发生器了。",
       "Enemy shield generator destroyed.",
       null,
+      null,
       null
     ],
     [
@@ -7579,6 +8162,7 @@
       "ShieldGenerator/FoundEnemyShieldGen",
       "敌人的护盾发生器在这里，快摧毁它！",
       "The enemy shield generator is here. Destroy it!",
+      null,
       null,
       null
     ],
@@ -7593,6 +8177,7 @@
       "我很抱歉。",
       "I am sorry.",
       null,
+      null,
       null
     ],
     [
@@ -7605,6 +8190,7 @@
       "Sorry",
       "是我出错了。",
       "I am in error.",
+      null,
       null,
       null
     ],
@@ -7619,6 +8205,7 @@
       "找掩护！",
       "Take cover!",
       null,
+      null,
       null
     ],
     [
@@ -7631,6 +8218,7 @@
       "TeamKill",
       "秩序已经恢复。尽管只有一瞬。",
       "Order restored, if just for a moment.",
+      null,
       null,
       null
     ],
@@ -7645,6 +8233,7 @@
       "重归平衡。",
       "Balance returns.",
       null,
+      null,
       null
     ],
     [
@@ -7658,7 +8247,8 @@
       "终于能清净一会儿了。",
       "Finally, some peace and quiet.",
       null,
-      0.1
+      0.1,
+      null
     ],
     [
       "HeroQuote",
@@ -7671,6 +8261,7 @@
       "敌人被全歼了。",
       "The enemy team has been eliminated.",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -7684,6 +8275,7 @@
       "所有敌人都被消灭了。",
       "All enemies eliminated.",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -7696,6 +8288,7 @@
       "Teammate/Downed",
       "队友倒下了！",
       "Our teammate is down!",
+      null,
       null,
       null
     ],
@@ -7710,6 +8303,7 @@
       "涅兰倒下了！",
       "Niran has fallen!",
       "{\"type\":\"toHero\",\"hero\":\"生命之梭\"}",
+      null,
       null
     ],
     [
@@ -7722,6 +8316,7 @@
       "Teammate/Killed",
       "我习惯独自工作。",
       "I am used to working alone.",
+      null,
       null,
       null
     ],
@@ -7736,6 +8331,7 @@
       "我们的和谐被打破了。",
       "The harmony of our group is disrupted.",
       null,
+      null,
       null
     ],
     [
@@ -7748,6 +8344,7 @@
       "Teammate/KillSeen",
       "（叹气）你的能力令人耳目一新。",
       "(sigh) Your competence is refreshing.",
+      null,
       null,
       null
     ],
@@ -7762,6 +8359,7 @@
       "十分出色。",
       "That was quite admirable.",
       null,
+      null,
       null
     ],
     [
@@ -7774,6 +8372,7 @@
       "Teammate/KillSeen",
       "你的努力得到了回报。",
       "Your efforts are paying off.",
+      null,
       null,
       null
     ],
@@ -7788,6 +8387,7 @@
       "明智的决策。",
       "That was a good decision.",
       null,
+      null,
       null
     ],
     [
@@ -7801,6 +8401,7 @@
       "生命光束还能这么用，真有意思。",
       "What an interesting application of living light.",
       "{\"type\":\"toHero\",\"hero\":\"生命之梭\"}",
+      null,
       null
     ],
     [
@@ -7814,6 +8415,7 @@
       "干得漂亮。",
       "(Hindi): Well done.",
       "{\"type\":\"toHero\",\"hero\":\"秩序之光\"}",
+      null,
       null
     ],
     [
@@ -7826,6 +8428,7 @@
       "Teammate/Location",
       "我在这里。",
       "I am here.",
+      null,
       null,
       null
     ],
@@ -7840,6 +8443,7 @@
       "正在报告当前位置。",
       "I'm over here.",
       null,
+      null,
       null
     ],
     [
@@ -7852,6 +8456,7 @@
       "Teammate/OneRemaining",
       "靠我了。",
       "It falls to me.",
+      null,
       null,
       null
     ],
@@ -7866,6 +8471,7 @@
       "小心。",
       "Be careful.",
       null,
+      null,
       null
     ],
     [
@@ -7878,6 +8484,7 @@
       "Teammate/Rescue",
       "我保护你。",
       "I am looking out for you.",
+      null,
       null,
       null
     ],
@@ -7892,6 +8499,7 @@
       "不是每一次都会有人救你的。",
       "You will not always have a savior.",
       null,
+      null,
       null
     ],
     [
@@ -7904,6 +8512,7 @@
       "Teammate/Rescue",
       "自己小心点。",
       "Watch yourself.",
+      null,
       null,
       null
     ],
@@ -7918,6 +8527,7 @@
       "你平时没这么笨的。",
       "You are not usually this clumsy.",
       "{\"type\":\"toHero\",\"hero\":\"生命之梭\"}",
+      null,
       null
     ],
     [
@@ -7930,6 +8540,7 @@
       "Teammate/Revive",
       "你的任务还没结束。",
       "Your fight is not over yet.",
+      null,
       null,
       null
     ],
@@ -7944,6 +8555,7 @@
       "我们依然需要你。",
       "We still have need of you.",
       null,
+      null,
       null
     ],
     [
@@ -7956,6 +8568,7 @@
       "Teleporter/EnemyFindTeleporter",
       "我们必须找到敌人的传送面板。",
       "We must locate their teleporter.",
+      null,
       null,
       null
     ],
@@ -7970,6 +8583,7 @@
       "敌人部署了传送面板。我们必须找到它。",
       "The enemy possesses a teleporter. We must locate it.",
       null,
+      null,
       null
     ],
     [
@@ -7982,6 +8596,7 @@
       "Teleporter/EnemyTeleporterDestroyed",
       "已摧毁敌方传送面板。",
       "Enemy teleporter destroyed.",
+      null,
       null,
       null
     ],
@@ -7996,6 +8611,7 @@
       "已找到敌方传送面板。我们必须摧毁它！",
       "Enemy teleporter located. We must destroy it!",
       null,
+      null,
       null
     ],
     [
@@ -8008,6 +8624,7 @@
       "Thanks",
       "谢谢你。",
       "Thank you.",
+      null,
       null,
       null
     ],
@@ -8022,6 +8639,7 @@
       "谢谢。",
       "(Hindi): Thank you.",
       null,
+      null,
       null
     ],
     [
@@ -8034,6 +8652,7 @@
       "Thanks",
       "非常感谢。",
       "Many thanks.",
+      null,
       null,
       null
     ],
@@ -8048,6 +8667,7 @@
       "谢谢你。",
       "Thank you.",
       null,
+      null,
       null
     ],
     [
@@ -8060,6 +8680,7 @@
       "Thanks",
       "谢谢。",
       "(Hindi): Thank you.",
+      null,
       null,
       null
     ],
@@ -8074,7 +8695,8 @@
       "感谢你。",
       "You have my thanks.",
       null,
-      0.3
+      0.3,
+      null
     ],
     [
       "HeroQuote",
@@ -8087,7 +8709,8 @@
       "感激不尽。",
       "You have my gratitude.",
       null,
-      0.2
+      0.2,
+      null
     ],
     [
       "HeroQuote",
@@ -8099,6 +8722,7 @@
       "TimeRunningOut",
       "时间越来越少，但我们必须战斗到底！",
       "Time grows short, but we will fight to the end!",
+      null,
       null,
       null
     ],
@@ -8113,6 +8737,7 @@
       "时间不多了，我们决不能失败！",
       "Time is running out. We must not fail!",
       null,
+      null,
       null
     ],
     [
@@ -8125,6 +8750,7 @@
       "Turret/EnemyTurretDestroyed",
       "已摧毁敌人的炮台。",
       "Enemy turret destroyed.",
+      null,
       null,
       null
     ],
@@ -8139,6 +8765,7 @@
       "敌人的炮台已摧毁。真是糟糕的设计。",
       "Enemy turret destroyed. An inferior design.",
       "{\"type\":\"toHero\",\"hero\":\"托比昂\"}",
+      null,
       null
     ],
     [
@@ -8151,6 +8778,7 @@
       "Turret/EnemyTurretSeen",
       "前方有敌人的炮台。",
       "Enemy turret ahead.",
+      null,
       null,
       null
     ],
@@ -8165,6 +8793,7 @@
       "护盾发生器已上线。它会保护你们的。",
       "Shield generator online. You are protected.",
       null,
+      null,
       null
     ],
     [
@@ -8177,6 +8806,7 @@
       "Ultimate",
       "护盾发生器上线。防御阵列已生成。",
       "Shield generator online. Defense matrix established.",
+      null,
       null,
       null
     ],
@@ -8191,6 +8821,7 @@
       "护盾阵列已生成。",
       "Shield matrix established.",
       null,
+      null,
       null
     ],
     [
@@ -8203,6 +8834,7 @@
       "Ultimate",
       "真龙的火焰会烧尽一切。",
       "The dragon's fire consumes all.",
+      null,
       null,
       null
     ],
@@ -8217,6 +8849,7 @@
       "我被召唤了。",
       "I have been summoned.",
       null,
+      null,
       null
     ],
     [
@@ -8229,6 +8862,7 @@
       "Ultimate",
       "（印地语）：这才是现实的终极形态！",
       "(Hindi): This is the true reality!",
+      null,
       null,
       null
     ],
@@ -8243,6 +8877,7 @@
       "现实由我来掌控！",
       "Reality bends to my will!",
       null,
+      null,
       null
     ],
     [
@@ -8255,6 +8890,7 @@
       "Ultimate",
       "（印地语）：这才是现实的终极形态！",
       "(Hindi): This is the true reality!",
+      null,
       null,
       null
     ],
@@ -8269,7 +8905,8 @@
       "护盾发生器上线。它会保护你们的。",
       "Shield generator online. You are protected.",
       null,
-      0.3
+      0.3,
+      null
     ],
     [
       "HeroQuote",
@@ -8282,6 +8919,7 @@
       "护盾反应井已上线。它会保护你们的。",
       "Shield well summoned. You are protected.",
       "{\"type\":\"map\",\"map\":\"怪鼠复仇\"}",
+      null,
       null
     ],
     [
@@ -8295,6 +8933,7 @@
       "这道墙熠熠生辉，令人陶醉。",
       "This wall is incredibly lit!",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      null,
       null
     ],
     [
@@ -8308,6 +8947,7 @@
       "比三原色更高级！",
       "Superior to RGB!",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      null,
       null
     ],
     [
@@ -8321,6 +8961,7 @@
       "我挡住你们了！",
       "I am blocking you!",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      null,
       null
     ],
     [
@@ -8334,6 +8975,7 @@
       "我挡住你们了！",
       "I am blocking you!",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      null,
       null
     ],
     [
@@ -8347,6 +8989,7 @@
       "比三原色更高级！",
       "Superior to RGB!",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      null,
       null
     ],
     [
@@ -8359,6 +9002,7 @@
       "Ultimate/AlmostReady",
       "我的终极技能快准备好了。",
       "My ultimate is almost ready.",
+      null,
       null,
       null
     ],
@@ -8373,6 +9017,7 @@
       "光子屏障即将就绪。",
       "My photon barrier is almost ready.",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\",\"negative\":true},{\"type\":\"gameMode\",\"gameMode\":\"温斯顿的沙滩排球\",\"negative\":true}]}",
+      null,
       null
     ],
     [
@@ -8385,6 +9030,7 @@
       "Ultimate/Charging",
       "我的终极技能还在充能。",
       "My ultimate is charging.",
+      null,
       null,
       null
     ],
@@ -8399,6 +9045,7 @@
       "光子屏障正在充能。",
       "My photon barrier is charging.",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\",\"negative\":true}",
+      null,
       null
     ],
     [
@@ -8411,6 +9058,7 @@
       "Ultimate/Ready",
       "我的终极技能准备好了。",
       "My ultimate ability is ready.",
+      null,
       null,
       null
     ],
@@ -8425,6 +9073,7 @@
       "光子屏障准备完毕。",
       "Photon barrier is ready for deployment.",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\",\"negative\":true},{\"type\":\"gameMode\",\"gameMode\":\"温斯顿的沙滩排球\",\"negative\":true}]}",
+      null,
       null
     ],
     [
@@ -8438,6 +9087,7 @@
       "即将部署光子屏障。快到屏障后面去！",
       "Photon barrier is ready to deploy. Get behind it!",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\",\"negative\":true},{\"type\":\"gameMode\",\"gameMode\":\"温斯顿的沙滩排球\",\"negative\":true}]}",
+      null,
       null
     ],
     [
@@ -8451,6 +9101,7 @@
       "我的传送面板准备就绪。",
       "My teleporter is ready to deploy.",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -8463,6 +9114,7 @@
       "Understand",
       "明白。",
       "Understood.",
+      null,
       null,
       null
     ],
@@ -8477,6 +9129,7 @@
       "我明白了。",
       "I understand.",
       null,
+      null,
       null
     ],
     [
@@ -8489,6 +9142,7 @@
       "Understand",
       "收到。",
       "Acknowledged.",
+      null,
       null,
       null
     ],
@@ -8503,6 +9157,7 @@
       "我正在盯守这里。",
       "Watching this area.",
       null,
+      null,
       null
     ],
     [
@@ -8515,6 +9170,7 @@
       "Unknown/10F8.078",
       "盯住这里了。",
       "Watching here.",
+      null,
       null,
       null
     ],
@@ -8529,6 +9185,7 @@
       "我盯着这里呢。",
       "I am watching here.",
       null,
+      null,
       null
     ],
     [
@@ -8541,6 +9198,7 @@
       "Unknown/110F.078",
       "现在该去下个目标点了。",
       "Now for the next objective.",
+      null,
       null,
       null
     ],
@@ -8555,6 +9213,7 @@
       "去下个目标点会合！",
       "Meet at the next point!",
       null,
+      null,
       null
     ],
     [
@@ -8567,6 +9226,7 @@
       "Unknown/110F.078",
       "我们在下一个点会合。",
       "We should meet at the next point.",
+      null,
       null,
       null
     ],
@@ -8581,6 +9241,7 @@
       "快去穿梭机。",
       "Hurry to the shuttle.",
       null,
+      null,
       null
     ],
     [
@@ -8593,6 +9254,7 @@
       "Unknown/1116.078",
       "穿梭机已抵达！",
       "The shuttle has arrived!",
+      null,
       null,
       null
     ],
@@ -8607,6 +9269,7 @@
       "发现敌人。",
       "Enemy seen.",
       null,
+      null,
       null
     ],
     [
@@ -8619,6 +9282,7 @@
       "Unknown/1117.078",
       "敌人在这。",
       "Enemy here.",
+      null,
       null,
       null
     ],
@@ -8633,6 +9297,7 @@
       "看到敌人了。",
       "Enemy in sight.",
       null,
+      null,
       null
     ],
     [
@@ -8645,6 +9310,7 @@
       "Unknown/1173.078",
       "队友还在悠闲地返回战场……",
       "They are taking their time to return...",
+      null,
       null,
       null
     ],
@@ -8659,6 +9325,7 @@
       "我的增援正在赶来。",
       "My reinforcements are on the way.",
       null,
+      null,
       null
     ],
     [
@@ -8671,6 +9338,7 @@
       "Unknown/1173.078",
       "队友还在恢复状态。",
       "The team is still recovering.",
+      null,
       null,
       null
     ],
@@ -8685,6 +9353,7 @@
       "推动机器人！",
       "Push the robot!",
       null,
+      null,
       null
     ],
     [
@@ -8697,6 +9366,7 @@
       "Unknown/11C0.078",
       "让机器人动起来！",
       "Move the robot!",
+      null,
       null,
       null
     ],
@@ -8711,6 +9381,7 @@
       "拦住机器人！",
       "Stop the robot!",
       null,
+      null,
       null
     ],
     [
@@ -8723,6 +9394,7 @@
       "Unknown/11C1.078",
       "阻止他们前进！",
       "Stop their progress!",
+      null,
       null,
       null
     ],
@@ -8737,6 +9409,7 @@
       "他们人数占优！",
       "They outnumber us!",
       null,
+      null,
       null
     ],
     [
@@ -8749,6 +9422,7 @@
       "Unknown/11C2.078",
       "我们寡不敌众。",
       "We are outnumbered.",
+      null,
       null,
       null
     ],
@@ -8763,6 +9437,7 @@
       "在这里！",
       "Over here!",
       null,
+      null,
       null
     ],
     [
@@ -8775,6 +9450,7 @@
       "Unknown/11D9.078",
       "看那里！",
       "Over there!",
+      null,
       null,
       null
     ],
@@ -8789,6 +9465,7 @@
       "当心点。",
       "Be mindful.",
       null,
+      null,
       null
     ],
     [
@@ -8801,6 +9478,7 @@
       "Unknown/11DA.078",
       "要小心。",
       "Be careful.",
+      null,
       null,
       null
     ],
@@ -8815,6 +9493,7 @@
       "提高警惕。",
       "Watch there.",
       null,
+      null,
       null
     ],
     [
@@ -8827,6 +9506,7 @@
       "Unknown/11E0.078",
       "记得留心周围。",
       "Watch your surroundings.",
+      null,
       null,
       null
     ],
@@ -8841,6 +9521,7 @@
       "真是缺乏意识。",
       "Such a lack of awareness.",
       null,
+      null,
       null
     ],
     [
@@ -8853,6 +9534,7 @@
       "Unknown/11E0.078",
       "高效的防御。",
       "What efficient defenses.",
+      null,
       null,
       null
     ],
@@ -8867,6 +9549,7 @@
       "又一次精准预测。",
       "Another accurate prediction.",
       null,
+      null,
       null
     ],
     [
@@ -8879,6 +9562,7 @@
       "Unknown/11E0.078",
       "十分高效的部署。",
       "Quite an effective placement.",
+      null,
       null,
       null
     ],
@@ -8893,6 +9577,7 @@
       "建设性的空间利用方法。",
       "A constructive use of space.",
       null,
+      null,
       null
     ],
     [
@@ -8905,6 +9590,7 @@
       "Unknown/11E0.078",
       "你走错路了。",
       "You walk the wrong path.",
+      null,
       null,
       null
     ],
@@ -8919,6 +9605,7 @@
       "也许你出手前应该先思考。",
       "Perhaps you should think before you act.",
       "{\"type\":\"scripted\",\"script\":\"00A617\",\"scriptDesc\":\"敌人使用终极技能时\"}",
+      null,
       null
     ],
     [
@@ -8932,6 +9619,7 @@
       "不看路是很危险的。",
       "You should watch where you're going.",
       "{\"type\":\"scripted\",\"script\":\"00A6FE\",\"scriptDesc\":\"敌人高速移动\"}",
+      null,
       null
     ],
     [
@@ -8944,6 +9632,7 @@
       "Unknown/11EB.078",
       "我的传送面板在这里。",
       "My teleporter is here.",
+      null,
       null,
       null
     ],
@@ -8958,6 +9647,7 @@
       "传送面板在这儿。",
       "Teleporter here.",
       null,
+      null,
       null
     ],
     [
@@ -8970,6 +9660,7 @@
       "Unknown/11EB.078",
       "已标记我的传送面板。",
       "Marking my teleporter.",
+      null,
       null,
       null
     ],
@@ -8984,6 +9675,7 @@
       "附近没有医师。",
       "There is no healer nearby.",
       null,
+      null,
       null
     ],
     [
@@ -8996,6 +9688,7 @@
       "Unknown/12E1.078",
       "周围没有医生。",
       "There's no doctor nearby.",
+      null,
       null,
       null
     ],
@@ -9010,6 +9703,7 @@
       "正在校准防御系统。",
       "(Hindi): Aligning defense system.",
       null,
+      null,
       null
     ],
     [
@@ -9022,6 +9716,7 @@
       "Unknown/14D.078",
       "光之所在。",
       "(Hindi): From light into being.",
+      null,
       null,
       null
     ],
@@ -9036,6 +9731,7 @@
       "哨戒炮已实体化。",
       "Turret materialized.",
       null,
+      null,
       null
     ],
     [
@@ -9048,6 +9744,7 @@
       "Unknown/14D.078",
       "正在部署哨戒炮。",
       "Positioning turret.",
+      null,
       null,
       null
     ],
@@ -9062,6 +9759,7 @@
       "正在布置哨戒炮。",
       "Distributing turrets.",
       null,
+      null,
       null
     ],
     [
@@ -9074,6 +9772,7 @@
       "Unknown/14D.078",
       "哨戒炮已就位。",
       "Sentry in position.",
+      null,
       null,
       null
     ],
@@ -9088,6 +9787,7 @@
       "正在调整哨戒位置。",
       "Adjusting turret placement.",
       null,
+      null,
       null
     ],
     [
@@ -9100,6 +9800,7 @@
       "Unknown/14D.078",
       "正在校准哨戒位置。",
       "Aligning sentry positions.",
+      null,
       null,
       null
     ],
@@ -9114,6 +9815,7 @@
       "在这里放置一个哨戒炮。",
       "Placing a turret here.",
       null,
+      null,
       null
     ],
     [
@@ -9127,7 +9829,8 @@
       "光之所在。",
       "From light into being.",
       null,
-      0.1
+      0.1,
+      null
     ],
     [
       "HeroQuote",
@@ -9140,7 +9843,8 @@
       "正在校准防御系统。",
       "Aligning defense system.",
       null,
-      0.1
+      0.1,
+      null
     ],
     [
       "HeroQuote",
@@ -9153,7 +9857,8 @@
       "我应该在这里放一个。",
       "I should put one there.",
       null,
-      0.1
+      0.1,
+      null
     ],
     [
       "HeroQuote",
@@ -9166,7 +9871,8 @@
       "很合适的位置。",
       "That is a decent position.",
       null,
-      0.1
+      0.1,
+      null
     ],
     [
       "HeroQuote",
@@ -9179,6 +9885,7 @@
       "正在部署哨戒警卫。",
       "Casting a sentry ward.",
       "{\"type\":\"map\",\"map\":\"怪鼠复仇\"}",
+      null,
       null
     ],
     [
@@ -9192,6 +9899,7 @@
       "哨戒警卫已就绪。",
       "Sentry ward in place.",
       "{\"type\":\"map\",\"map\":\"怪鼠复仇\"}",
+      null,
       null
     ],
     [
@@ -9205,6 +9913,7 @@
       "哨戒警卫就绪。",
       "Warding in place.",
       "{\"type\":\"map\",\"map\":\"怪鼠复仇\"}",
+      null,
       null
     ],
     [
@@ -9218,6 +9927,7 @@
       "已召唤哨戒警卫。",
       "Sentry summoned.",
       "{\"type\":\"map\",\"map\":\"怪鼠复仇\"}",
+      null,
       null
     ],
     [
@@ -9231,6 +9941,7 @@
       "这个地方很安全。",
       "This place is warded.",
       "{\"type\":\"map\",\"map\":\"怪鼠复仇\"}",
+      null,
       null
     ],
     [
@@ -9244,6 +9955,7 @@
       "炮台已上线。",
       "Turret online.",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -9257,6 +9969,7 @@
       "防御设备已就绪。",
       "Defenses in place.",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -9270,6 +9983,7 @@
       "炮台已部署。",
       "Turret deployed.",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -9283,6 +9997,7 @@
       "哨戒炮就位。",
       "Sentry deployed.",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -9296,6 +10011,7 @@
       "哨戒炮已就位。",
       "Sentry turret placed.",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -9309,6 +10025,7 @@
       "哨戒炮已部署。",
       "Turret in place.",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -9322,6 +10039,7 @@
       "哨戒炮已启动。",
       "Sentry online.",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -9334,6 +10052,7 @@
       "Unknown/14E.078",
       "侦测到入侵者。",
       "(Hindi): Intruder detected.",
+      null,
       null,
       null
     ],
@@ -9348,6 +10067,7 @@
       "我的哨戒炮被拆除了。",
       "My turret was demolished.",
       null,
+      null,
       null
     ],
     [
@@ -9360,6 +10080,7 @@
       "Unknown/14E.078",
       "他们打乱了我的计划。",
       "They have disrupted my plan.",
+      null,
       null,
       null
     ],
@@ -9374,6 +10095,7 @@
       "我的哨戒炮被摧毁了。",
       "My sentry was destroyed.",
       null,
+      null,
       null
     ],
     [
@@ -9386,6 +10108,7 @@
       "Unknown/14E.078",
       "哨戒炮已离线。",
       "My sentry is offline.",
+      null,
       null,
       null
     ],
@@ -9400,6 +10123,7 @@
       "他们摧毁了我的哨戒。",
       "They broke my turret.",
       null,
+      null,
       null
     ],
     [
@@ -9413,6 +10137,7 @@
       "我感觉到了入侵者。",
       "I sense an intruder.",
       "{\"type\":\"map\",\"map\":\"怪鼠复仇\"}",
+      null,
       null
     ],
     [
@@ -9426,6 +10151,7 @@
       "我的炮台被摧毁了。",
       "My turret was destroyed.",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -9439,6 +10165,7 @@
       "我的防御设施被削弱了。",
       "My defenses are weakened.",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -9452,6 +10179,7 @@
       "我的哨戒炮被摧毁了。",
       "My sentry was destroyed.",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -9464,6 +10192,7 @@
       "Unknown/14F.078",
       "护盾启动。",
       "Shield engaged.",
+      null,
       null,
       null
     ],
@@ -9478,6 +10207,7 @@
       "我会保护你。",
       "I will shield you.",
       null,
+      null,
       null
     ],
     [
@@ -9490,6 +10220,7 @@
       "Unknown/14F.078",
       "激活护盾。",
       "Be shielded.",
+      null,
       null,
       null
     ],
@@ -9504,6 +10235,7 @@
       "你已获得护盾。",
       "You are shielded.",
       null,
+      null,
       null
     ],
     [
@@ -9516,6 +10248,7 @@
       "Unknown/150.078",
       "通道已经打开。",
       "(Hindi): The path is opened.",
+      null,
       null,
       null
     ],
@@ -9530,6 +10263,7 @@
       "传送面板实体化完成。",
       "Teleporter materialized.",
       null,
+      null,
       null
     ],
     [
@@ -9542,6 +10276,7 @@
       "Unknown/150.078",
       "我已经打开通路。",
       "I have opened the path.",
+      null,
       null,
       null
     ],
@@ -9556,6 +10291,7 @@
       "传送面板正在成型。",
       "Teleporter taking shape.",
       null,
+      null,
       null
     ],
     [
@@ -9568,6 +10304,7 @@
       "Unknown/150.078",
       "正在构建传送面板。",
       "Constructing my teleporter.",
+      null,
       null,
       null
     ],
@@ -9582,6 +10319,7 @@
       "传送面板开启了。",
       "Teleporter manifested.",
       null,
+      null,
       null
     ],
     [
@@ -9594,6 +10332,7 @@
       "Unknown/150.078",
       "见证我的创造。",
       "Behold my creation.",
+      null,
       null,
       null
     ],
@@ -9608,6 +10347,7 @@
       "传送面板上线。我已经打开通路。",
       "Teleporter online. I have opened the path.",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -9621,6 +10361,7 @@
       "传送面板已上线，我们行动会更加迅捷。",
       "Teleporter online. We move swiftly.",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -9634,6 +10375,7 @@
       "我的传送面板已上线，继续执行任务吧。",
       "My teleporter is online.",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -9646,6 +10388,7 @@
       "Unknown/151.078",
       "传送面板已就绪。",
       "My teleporter is ready.",
+      null,
       null,
       null
     ],
@@ -9660,6 +10403,7 @@
       "我准备好打开通路了。",
       "I am ready to open the way.",
       null,
+      null,
       null
     ],
     [
@@ -9672,6 +10416,7 @@
       "Unknown/151.078",
       "随时可以开启通道。",
       "The path is ready to open.",
+      null,
       null,
       null
     ],
@@ -9686,6 +10431,7 @@
       "传送面板离线，无法传送。",
       "My teleporter is offline. The path is closed.",
       null,
+      null,
       null
     ],
     [
@@ -9698,6 +10444,7 @@
       "Unknown/152.078",
       "我的传送面板已离线。",
       "My teleporter is offline.",
+      null,
       null,
       null
     ],
@@ -9712,6 +10459,7 @@
       "传送面板离线，无法传送。",
       "My teleporter is offline. The way is closed.",
       null,
+      null,
       null
     ],
     [
@@ -9724,6 +10472,7 @@
       "Unknown/153.078",
       "我的传送面板遭到攻击。",
       "My teleporter is under attack.",
+      null,
       null,
       null
     ],
@@ -9738,6 +10487,7 @@
       "保护传送面板！",
       "Protect the teleporter!",
       null,
+      null,
       null
     ],
     [
@@ -9750,6 +10500,7 @@
       "Unknown/153.078",
       "我的传送面板受到了伤害！",
       "My teleporter is being damaged!",
+      null,
       null,
       null
     ],
@@ -9764,6 +10515,7 @@
       "他们在损坏传送面板！快保护它！",
       "They deface my teleporter! Protect it!",
       null,
+      null,
       null
     ],
     [
@@ -9776,6 +10528,7 @@
       "Unknown/154.078",
       "传送面板已被拆除。换条路吧。",
       "Teleporter dismantled. Find another way.",
+      null,
       null,
       null
     ],
@@ -9790,6 +10543,7 @@
       "他们拆除了传送面板。",
       "They demolished my teleporter.",
       null,
+      null,
       null
     ],
     [
@@ -9802,6 +10556,7 @@
       "Unknown/154.078",
       "我的传送面板已被摧毁。我们的通路被中断了！",
       "My teleporter was destroyed. Our path is disrupted!",
+      null,
       null,
       null
     ],
@@ -9816,6 +10571,7 @@
       "我的传送面板被摧毁了。",
       "My teleporter has been ruined.",
       null,
+      null,
       null
     ],
     [
@@ -9829,6 +10585,7 @@
       "我的传送面板被摧毁了。",
       "My teleporter has been destroyed.",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
+      null,
       null
     ],
     [
@@ -9841,6 +10598,7 @@
       "Unknown/1893.078",
       "迭代，迭代，迭代。",
       "Iterate, iterate, iterate.",
+      null,
       null,
       null
     ],
@@ -9855,6 +10613,7 @@
       "This will be useful.",
       "This will be useful.",
       null,
+      null,
       null
     ],
     [
@@ -9867,6 +10626,7 @@
       "Unknown/1893.078",
       "非常好。",
       "Excellent.",
+      null,
       null,
       null
     ],
@@ -9881,6 +10641,7 @@
       "这就是我的实力。",
       "This is what I am capable of.",
       null,
+      null,
       null
     ],
     [
@@ -9893,6 +10654,7 @@
       "Unknown/1894.078",
       "我的现实，由我定义。",
       "My reality, my solutions.",
+      null,
       null,
       null
     ],
@@ -9907,6 +10669,7 @@
       "有两下子。",
       "Delightful.",
       null,
+      null,
       null
     ],
     [
@@ -9919,6 +10682,7 @@
       "Unknown/2FD.078",
       "我会保护所有人。",
       "Everyone is protected.",
+      null,
       null,
       null
     ],
@@ -9933,6 +10697,7 @@
       "护盾序列已生成。",
       "Shield matrix established.",
       null,
+      null,
       null
     ],
     [
@@ -9946,6 +10711,7 @@
       "我会用护盾强化你。",
       "I will augment your shields.",
       "{\"type\":\"nested\",\"total\":3,\"needed\":1,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"查莉娅\"},{\"type\":\"toHero\",\"hero\":\"秩序之光\"},{\"type\":\"toHero\",\"hero\":\"禅雅塔\"}]}",
+      null,
       null
     ],
     [
@@ -9959,6 +10725,7 @@
       "护盾已强化。",
       "Shields boosted.",
       "{\"type\":\"nested\",\"total\":3,\"needed\":1,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"查莉娅\"},{\"type\":\"toHero\",\"hero\":\"秩序之光\"},{\"type\":\"toHero\",\"hero\":\"禅雅塔\"}]}",
+      null,
       null
     ],
     [
@@ -9972,6 +10739,7 @@
       "护盾已加强。",
       "Shields reinforced.",
       "{\"type\":\"nested\",\"total\":3,\"needed\":1,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"查莉娅\"},{\"type\":\"toHero\",\"hero\":\"秩序之光\"},{\"type\":\"toHero\",\"hero\":\"禅雅塔\"}]}",
+      null,
       null
     ],
     [
@@ -9984,6 +10752,7 @@
       "Unknown/588.078",
       "哨戒架构布置完成。",
       "Turret framework arranged.",
+      null,
       null,
       null
     ],
@@ -9998,6 +10767,7 @@
       "哨戒炮准备好了。",
       "My turret is ready.",
       null,
+      null,
       null
     ],
     [
@@ -10010,6 +10780,7 @@
       "Unknown/589.078",
       "可部署哨戒炮。",
       "Sentry ready for deployment.",
+      null,
       null,
       null
     ],
@@ -10024,6 +10795,7 @@
       "准备调整我的防御架构。",
       "Ready to adjust my defensive framework.",
       null,
+      null,
       null
     ],
     [
@@ -10037,7 +10809,8 @@
       "哨戒炮已可部署。",
       "Turret available for deployment.",
       null,
-      0.5
+      0.5,
+      null
     ],
     [
       "HeroQuote",
@@ -10050,7 +10823,8 @@
       "哨戒炮已就绪。",
       "Sentry available.",
       null,
-      0.5
+      0.5,
+      null
     ],
     [
       "HeroQuote",
@@ -10062,6 +10836,7 @@
       "Unknown/5B7.078",
       "还剩9次。",
       "9 charges remaining.",
+      null,
       null,
       null
     ],
@@ -10076,6 +10851,7 @@
       "还剩8次。",
       "8 charges remaining.",
       null,
+      null,
       null
     ],
     [
@@ -10088,6 +10864,7 @@
       "Unknown/5B7.078",
       "还剩7次。",
       "7 charges remaining.",
+      null,
       null,
       null
     ],
@@ -10102,6 +10879,7 @@
       "还剩6次。",
       "6 charges remaining.",
       null,
+      null,
       null
     ],
     [
@@ -10114,6 +10892,7 @@
       "Unknown/5B7.078",
       "还剩5次。",
       "5 charges remaining.",
+      null,
       null,
       null
     ],
@@ -10128,6 +10907,7 @@
       "还剩4次。",
       "4 charges remaining.",
       null,
+      null,
       null
     ],
     [
@@ -10140,6 +10920,7 @@
       "Unknown/5B7.078",
       "还剩3次。",
       "3 charges remaining.",
+      null,
       null,
       null
     ],
@@ -10154,6 +10935,7 @@
       "还剩2次。",
       "2 charges remaining.",
       null,
+      null,
       null
     ],
     [
@@ -10166,6 +10948,7 @@
       "Unknown/5B7.078",
       "还剩1次。",
       "1 charge remaining.",
+      null,
       null,
       null
     ],
@@ -10180,6 +10963,7 @@
       "还剩10次。",
       "10 charges remaining.",
       null,
+      null,
       null
     ],
     [
@@ -10192,6 +10976,7 @@
       "Unknown/73F.078",
       "我的护盾发生器还在运转。",
       "My shield generator is still online.",
+      null,
       null,
       null
     ],
@@ -10206,6 +10991,7 @@
       "我的护盾反应井仍然存在。",
       "My shield well is still in existence.",
       "{\"type\":\"map\",\"map\":\"怪鼠复仇\"}",
+      null,
       null
     ],
     [
@@ -10218,6 +11004,7 @@
       "Unknown/740.078",
       "我的护盾发生器离线了。",
       "My shield generator is offline.",
+      null,
       null,
       null
     ],
@@ -10232,6 +11019,7 @@
       "召回护盾反应井。",
       "Unsummoning my shield well.",
       "{\"type\":\"map\",\"map\":\"怪鼠复仇\"}",
+      null,
       null
     ],
     [
@@ -10244,6 +11032,7 @@
       "Unknown/741.078",
       "我的护盾发生器遭到了攻击！",
       "My shield generator is under attack!",
+      null,
       null,
       null
     ],
@@ -10258,6 +11047,7 @@
       "保护我的护盾发生器！",
       "Protect the shield generator!",
       null,
+      null,
       null
     ],
     [
@@ -10271,6 +11061,7 @@
       "护盾反应井正在受到攻击！",
       "The shield well is under attack!",
       "{\"type\":\"map\",\"map\":\"怪鼠复仇\"}",
+      null,
       null
     ],
     [
@@ -10284,6 +11075,7 @@
       "保护护盾反应井！",
       "Protect the shield well!",
       "{\"type\":\"map\",\"map\":\"怪鼠复仇\"}",
+      null,
       null
     ],
     [
@@ -10296,6 +11088,7 @@
       "Unknown/742.078",
       "我的护盾发生器被摧毁了。",
       "My shield generator has been destroyed.",
+      null,
       null,
       null
     ],
@@ -10310,6 +11103,7 @@
       "我的护盾反应井被摧毁了。",
       "My shield well has been destroyed.",
       "{\"type\":\"map\",\"map\":\"怪鼠复仇\"}",
+      null,
       null
     ],
     [
@@ -10322,6 +11116,7 @@
       "Unknown/746.078",
       "正在投射屏障！",
       "Projecting barrier!",
+      null,
       null,
       null
     ],
@@ -10336,6 +11131,7 @@
       "光子屏障已上线。",
       "Photon barrier deployed.",
       null,
+      null,
       null
     ],
     [
@@ -10348,6 +11144,7 @@
       "Unknown/746.078",
       "我会保护你们的。",
       "I will shield you.",
+      null,
       null,
       null
     ],
@@ -10362,6 +11159,7 @@
       "这可以保护你们。",
       "This will protect you.",
       null,
+      null,
       null
     ],
     [
@@ -10374,6 +11172,7 @@
       "Unknown/746.078",
       "正在部署光子屏障。",
       "Instancing photon barrier.",
+      null,
       null,
       null
     ],
@@ -10388,6 +11187,7 @@
       "屏障启动。",
       "Barrier is on its way.",
       null,
+      null,
       null
     ],
     [
@@ -10400,6 +11200,7 @@
       "Unknown/746.078",
       "这可以保护我们。",
       "This will protect us.",
+      null,
       null,
       null
     ],
@@ -10414,6 +11215,7 @@
       "我会保护大家。",
       "I will shield us.",
       null,
+      null,
       null
     ],
     [
@@ -10426,6 +11228,7 @@
       "Unknown/746.078",
       "正在投射屏障。",
       "Projecting a barrier.",
+      null,
       null,
       null
     ],
@@ -10440,6 +11243,7 @@
       "正在生成屏障。",
       "Creating a barrier.",
       null,
+      null,
       null
     ],
     [
@@ -10452,6 +11256,7 @@
       "Unknown/746.078",
       "这会保护我们。",
       "(Hindi): This will protect us.",
+      null,
       null,
       null
     ],
@@ -10466,7 +11271,8 @@
       "投射屏障！",
       "(Hindi): Projecting barrier.",
       null,
-      0.1
+      0.1,
+      null
     ],
     [
       "HeroQuote",
@@ -10479,6 +11285,7 @@
       "正在召唤屏障。",
       "Summoning a barrier.",
       "{\"type\":\"map\",\"map\":\"怪鼠复仇\"}",
+      null,
       null
     ],
     [
@@ -10492,6 +11299,7 @@
       "部署屏障！",
       "Casting a barrier!",
       "{\"type\":\"map\",\"map\":\"怪鼠复仇\"}",
+      null,
       null
     ],
     [
@@ -10504,6 +11312,7 @@
       "Unknown/DC4.078",
       "小心！",
       "Watch out!",
+      null,
       null,
       null
     ],
@@ -10518,6 +11327,7 @@
       "当心！",
       "Look out!",
       null,
+      null,
       null
     ],
     [
@@ -10530,6 +11340,7 @@
       "Unknown/DDB.078",
       "这边！",
       "This way!",
+      null,
       null,
       null
     ],
@@ -10544,6 +11355,7 @@
       "在这儿！",
       "Over here!",
       null,
+      null,
       null
     ],
     [
@@ -10556,6 +11368,7 @@
       "Unknown/E35.078",
       "我们是在等什么吗？",
       "Are we waiting for something?",
+      null,
       null,
       null
     ],
@@ -10570,6 +11383,7 @@
       "我们的道路在门的另一边。",
       "Our path continues beyond the door.",
       null,
+      null,
       null
     ],
     [
@@ -10582,6 +11396,7 @@
       "Unknown/E35.078",
       "请把门打开。",
       "Please open the door.",
+      null,
       null,
       null
     ],
@@ -10596,7 +11411,8 @@
       "唉，难道就没人想要更进一步吗？",
       "(sigh) Why is no one interested in progress?",
       null,
-      0.2
+      0.2,
+      null
     ],
     [
       "HeroQuote",
@@ -10608,6 +11424,7 @@
       "Unknown/EC6.078",
       "（大笑）",
       "(laughs)",
+      null,
       null,
       null
     ],
@@ -10622,6 +11439,7 @@
       "我建议你观察一下周围的环境。",
       "I recommend observing your surroundings.",
       null,
+      null,
       null
     ],
     [
@@ -10634,6 +11452,7 @@
       "Unknown/EC6.078",
       "要有环境意识。",
       "Environmental awareness.",
+      null,
       null,
       null
     ],
@@ -10648,6 +11467,7 @@
       "抑制者被摧毁了。",
       "Subjugator destroyed.",
       null,
+      null,
       null
     ],
     [
@@ -10660,6 +11480,7 @@
       "Unknown/ED9.078",
       "抑制者倒下了。",
       "Subjugator down.",
+      null,
       null,
       null
     ],
@@ -10674,7 +11495,8 @@
       "呃。如此不堪的造物。",
       "Ugh. So grotesque.",
       null,
-      0.3
+      0.3,
+      null
     ],
     [
       "HeroQuote",
@@ -10686,6 +11508,7 @@
       "Unknown/F52.078",
       "这里有一个！",
       "There is one here!",
+      null,
       null,
       null
     ],
@@ -10700,6 +11523,7 @@
       "帮我摧毁这个装置。",
       "Help me destroy this.",
       null,
+      null,
       null
     ],
     [
@@ -10712,6 +11536,7 @@
       "Unknown/F52.078",
       "把火力对准这个装置。",
       "Focus on this one.",
+      null,
       null,
       null
     ],
@@ -10726,6 +11551,7 @@
       "我在这里找到一个！",
       "I've found one here!",
       null,
+      null,
       null
     ],
     [
@@ -10738,6 +11564,7 @@
       "Unknown/F53.078",
       "已经搞定它了。",
       "That one's taken care of.",
+      null,
       null,
       null
     ],
@@ -10752,6 +11579,7 @@
       "解决掉它了。",
       "That one is down.",
       null,
+      null,
       null
     ],
     [
@@ -10764,6 +11592,7 @@
       "Unknown/F53.078",
       "目标已摧毁。",
       "Destroyed.",
+      null,
       null,
       null
     ],
@@ -10778,6 +11607,7 @@
       "已经拆掉了。",
       "Disrupted.",
       null,
+      null,
       null
     ],
     [
@@ -10790,6 +11620,7 @@
       "Unknown/F98.078",
       "快去交付目标。",
       "Turn in our objective.",
+      null,
       null,
       null
     ],
@@ -10804,6 +11635,7 @@
       "任务正等着我们呢。",
       "Our task awaits.",
       null,
+      null,
       null
     ],
     [
@@ -10816,6 +11648,7 @@
       "Unknown/FE5.078",
       "我……这是怎么回事？",
       "I- What on Earth?",
+      null,
       null,
       null
     ],
@@ -10830,6 +11663,7 @@
       "哦！",
       "Oh!",
       null,
+      null,
       null
     ],
     [
@@ -10842,6 +11676,7 @@
       "Unwell",
       "感觉不对劲。",
       "Something does not feel right.",
+      null,
       null,
       null
     ],
@@ -10856,6 +11691,7 @@
       "我感觉很不好。",
       "I am feeling unwell.",
       null,
+      null,
       null
     ],
     [
@@ -10868,6 +11704,7 @@
       "Voicelines",
       "没有我做不到，只有我想不到。",
       "If I can think it, I can create it.",
+      null,
       null,
       null
     ],
@@ -10882,6 +11719,7 @@
       "欢迎见证我的真相。",
       "Welcome to my reality.",
       null,
+      null,
       null
     ],
     [
@@ -10894,6 +11732,7 @@
       "Voicelines",
       "我会让你知道自己有几斤几两。",
       "I will put you in your place.",
+      null,
       null,
       null
     ],
@@ -10908,6 +11747,7 @@
       "眼见并非为实。",
       "Do not believe everything you see.",
       null,
+      null,
       null
     ],
     [
@@ -10920,6 +11760,7 @@
       "Voicelines",
       "令人印象深刻。",
       "Impressive.",
+      null,
       null,
       null
     ],
@@ -10934,6 +11775,7 @@
       "精准无误。",
       "Precisely.",
       null,
+      null,
       null
     ],
     [
@@ -10946,6 +11788,7 @@
       "Voicelines",
       "有谁能忍受这样的混乱？",
       "How can anyone tolerate such chaos?",
+      null,
       null,
       null
     ],
@@ -10960,6 +11803,7 @@
       "努力学习终有回报。",
       "Hard work and dedication pays off.",
       null,
+      null,
       null
     ],
     [
@@ -10972,6 +11816,7 @@
       "Voicelines",
       "现实就是我的舞台。",
       "Reality is my playground.",
+      null,
       null,
       null
     ],
@@ -10986,6 +11831,7 @@
       "真是不堪入目。",
       "How unsightly.",
       null,
+      null,
       null
     ],
     [
@@ -10998,6 +11844,7 @@
       "Voicelines",
       "我不这么认为。",
       "I don't think so.",
+      null,
       null,
       null
     ],
@@ -11012,6 +11859,7 @@
       "和谐才是美。",
       "Beauty can be found where everything is in harmony.",
       null,
+      null,
       null
     ],
     [
@@ -11024,6 +11872,7 @@
       "Voicelines",
       "完美的和谐。",
       "Perfect harmony.",
+      null,
       null,
       null
     ],
@@ -11038,6 +11887,7 @@
       "你为什么要挣扎？",
       "Why do you struggle?",
       null,
+      null,
       null
     ],
     [
@@ -11050,6 +11900,7 @@
       "Voicelines",
       "真是缺乏想象力。",
       "Such a lack of imagination.",
+      null,
       null,
       null
     ],
@@ -11064,6 +11915,7 @@
       "一切都是设计好的。",
       "Everything by design.",
       null,
+      null,
       null
     ],
     [
@@ -11076,6 +11928,7 @@
       "Voicelines",
       "完美。",
       "Exquisite.",
+      null,
       null,
       null
     ],
@@ -11090,6 +11943,7 @@
       "真是令人害怕的想法。",
       "What a frightening thought.",
       null,
+      null,
       null
     ],
     [
@@ -11102,6 +11956,7 @@
       "Voicelines",
       "我有礼物给你。",
       "I made you something.",
+      null,
       null,
       null
     ],
@@ -11116,6 +11971,7 @@
       "没人知道未来会如何。",
       "Who knows what the future holds?",
       null,
+      null,
       null
     ],
     [
@@ -11128,6 +11984,7 @@
       "Voicelines",
       "帮敌人洗洗车吧。",
       "(laughs) Setting up the car wash.",
+      null,
       null,
       null
     ],
@@ -11142,6 +11999,7 @@
       "你的判断有瑕疵。",
       "Your judgment is flawed.",
       null,
+      null,
       null
     ],
     [
@@ -11154,6 +12012,7 @@
       "Voicelines",
       "大错特错。",
       "So misguided.",
+      null,
       null,
       null
     ],
@@ -11168,6 +12027,7 @@
       "我要表现出很吃惊的样子吗？",
       "Am I supposed to be impressed?",
       null,
+      null,
       null
     ],
     [
@@ -11180,6 +12040,7 @@
       "Voicelines",
       "你的观点我会最后一个考虑。",
       "I've taken your opinion under advisement.",
+      null,
       null,
       null
     ],
@@ -11194,6 +12055,7 @@
       "一起来谈谈你的失败吧。",
       "Let us discuss your failures.",
       null,
+      null,
       null
     ],
     [
@@ -11206,6 +12068,7 @@
       "Voicelines",
       "哼哼哼，万事大吉。",
       "(chuckles) Good fortune.",
+      null,
       null,
       null
     ],
@@ -11220,6 +12083,7 @@
       "你的思路真是奇怪。",
       "What interesting ways your mind works.",
       null,
+      null,
       null
     ],
     [
@@ -11232,6 +12096,7 @@
       "Voicelines",
       "（感叹）光阴似箭。",
       "(sighs) Timepass.",
+      null,
       null,
       null
     ],
@@ -11246,6 +12111,7 @@
       "入乡随俗吧。",
       "Kindly adjust.",
       null,
+      null,
       null
     ],
     [
@@ -11258,6 +12124,7 @@
       "Voicelines",
       "胜利才是最重要的。",
       "Victory is everything.",
+      null,
       null,
       null
     ],
@@ -11272,6 +12139,7 @@
       "糖果是个谎言。",
       "The treat is a lie.",
       null,
+      null,
       null
     ],
     [
@@ -11284,6 +12152,7 @@
       "Voicelines",
       "你难道想看仙女吗？",
       "Were you expecting a miracle?",
+      null,
       null,
       null
     ],
@@ -11298,6 +12167,7 @@
       "（叹气）真不让人省心。",
       "(sighs) So dramatic.",
       null,
+      null,
       null
     ],
     [
@@ -11310,6 +12180,7 @@
       "Voicelines",
       "庆祝时间到了。",
       "Cause for celebration.",
+      null,
       null,
       null
     ],
@@ -11324,6 +12195,7 @@
       "在混沌的世界中播撒秩序的种子。",
       "Sow seeds of order in a world of chaos.",
       null,
+      null,
       null
     ],
     [
@@ -11336,6 +12208,7 @@
       "Voicelines",
       "苍穹之上，群星闪耀。",
       "There are many stars in the sky.",
+      null,
       null,
       null
     ],
@@ -11350,6 +12223,7 @@
       "我可没时间陪你玩这些愚蠢的游戏。",
       "I am not here to play your silly games.",
       null,
+      null,
       null
     ],
     [
@@ -11362,6 +12236,7 @@
       "Voicelines",
       "是不是着魔了？",
       "Enchanting, is it not?",
+      null,
       null,
       null
     ],
@@ -11376,6 +12251,7 @@
       "凡事总有后果。",
       "There are always consequences.",
       null,
+      null,
       null
     ],
     [
@@ -11388,6 +12264,7 @@
       "VotedEpic",
       "就是这样！",
       "That is the way!",
+      null,
       null,
       null
     ],
@@ -11402,6 +12279,7 @@
       "值得复制的表现。",
       "A performance worthy of repetition.",
       null,
+      null,
       null
     ],
     [
@@ -11414,6 +12292,7 @@
       "VotedLegendary",
       "当然。",
       "As it should be.",
+      null,
       null,
       null
     ],
@@ -11428,6 +12307,7 @@
       "是的。",
       "Yes.",
       null,
+      null,
       null
     ],
     [
@@ -11440,6 +12320,7 @@
       "Yes",
       "是的。",
       "(Hindi): Yes.",
+      null,
       null,
       null
     ],
@@ -11454,6 +12335,7 @@
       "不用客气。",
       "You're welcome.",
       null,
+      null,
       null
     ],
     [
@@ -11466,6 +12348,7 @@
       "YourWelcome",
       "我很荣幸。",
       "My pleasure.",
+      null,
       null,
       null
     ],
@@ -11480,6 +12363,7 @@
       "真龙的力量与我同在！",
       "The power of the dragon is within me!",
       null,
+      null,
       null
     ],
     [
@@ -11493,6 +12377,7 @@
       "你不是真龙。",
       "You are no true dragon.",
       "{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"源氏\"},{\"type\":\"toHero\",\"hero\":\"半藏\"}]}",
+      null,
       null
     ],
     [
@@ -11505,6 +12390,7 @@
       "OnFire",
       "真龙的火焰在我体内燃烧。",
       "The dragon's fire burns within me.",
+      null,
       null,
       null
     ],
@@ -11519,6 +12405,7 @@
       "真龙的火焰会烧尽一切。",
       "The dragon's fire consumes all.",
       null,
+      null,
       null
     ],
     [
@@ -11531,6 +12418,7 @@
       "Respawn",
       "我从火中重生。",
       "I am born again from fire.",
+      null,
       null,
       null
     ],
@@ -11545,6 +12433,7 @@
       "真龙的力量！",
       "The dragon strikes!",
       "{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"源氏\"},{\"type\":\"toHero\",\"hero\":\"半藏\"}]}",
+      null,
       null
     ],
     [
@@ -11557,6 +12446,7 @@
       "Ultimate",
       "护盾反应井已上线。它会保护你们的。",
       "Shield well summoned. You are protected.",
+      null,
       null,
       null
     ],
@@ -11571,6 +12461,7 @@
       "哨戒警卫已就绪。",
       "Sentry ward in place.",
       null,
+      null,
       null
     ],
     [
@@ -11583,6 +12474,7 @@
       "Unknown/14D.078",
       "正在部署哨戒警卫。",
       "Casting a sentry ward.",
+      null,
       null,
       null
     ],
@@ -11597,6 +12489,7 @@
       "已召唤哨戒警卫。",
       "Sentry summoned.",
       null,
+      null,
       null
     ],
     [
@@ -11609,6 +12502,7 @@
       "Unknown/14D.078",
       "这个地方很安全。",
       "This place is warded.",
+      null,
       null,
       null
     ],
@@ -11623,6 +12517,7 @@
       "哨戒警卫就绪。",
       "Warding in place.",
       null,
+      null,
       null
     ],
     [
@@ -11635,6 +12530,7 @@
       "Unknown/14E.078",
       "我感觉到了入侵者。",
       "I sense an intruder.",
+      null,
       null,
       null
     ],
@@ -11649,6 +12545,7 @@
       "传送门已经打开。我们行动会更加迅捷。",
       "Teleportation portal opened. We move swiftly.",
       null,
+      null,
       null
     ],
     [
@@ -11661,6 +12558,7 @@
       "Unknown/150.078",
       "传送门已经打开。",
       "Teleportation portal opened.",
+      null,
       null,
       null
     ],
@@ -11675,6 +12573,7 @@
       "我的护盾反应井仍然存在。",
       "My shield well is still in existence.",
       null,
+      null,
       null
     ],
     [
@@ -11687,6 +12586,7 @@
       "Unknown/740.078",
       "召回护盾反应井。",
       "Unsummoning my shield well.",
+      null,
       null,
       null
     ],
@@ -11701,6 +12601,7 @@
       "护盾反应井正在受到攻击！",
       "The shield well is under attack!",
       null,
+      null,
       null
     ],
     [
@@ -11713,6 +12614,7 @@
       "Unknown/741.078",
       "保护护盾反应井！",
       "Protect the shield well!",
+      null,
       null,
       null
     ],
@@ -11727,6 +12629,7 @@
       "我的护盾反应井被摧毁了。",
       "My shield well has been destroyed.",
       null,
+      null,
       null
     ],
     [
@@ -11739,6 +12642,7 @@
       "Unknown/746.078",
       "部署屏障！",
       "Casting a barrier!",
+      null,
       null,
       null
     ],
@@ -11753,6 +12657,7 @@
       "正在召唤屏障！",
       "Summoning a barrier!",
       null,
+      null,
       null
     ],
     [
@@ -11765,6 +12670,7 @@
       "Elimination",
       "只是些小把戏而已。",
       "Just a bunch of hocus pocus.",
+      null,
       null,
       null
     ],
@@ -11779,6 +12685,7 @@
       "魔术师绝不会揭穿自己的戏法。",
       "A magician never reveals her tricks.",
       null,
+      null,
       null
     ],
     [
@@ -11791,6 +12698,7 @@
       "Elimination",
       "看！大变活人。",
       "Voila! I made you disappear.",
+      null,
       null,
       null
     ],
@@ -11805,6 +12713,7 @@
       "没想到吧！",
       "Presto!",
       null,
+      null,
       null
     ],
     [
@@ -11817,6 +12726,7 @@
       "Unknown/14D.078",
       "Abracadabra!",
       "Abracadabra!",
+      null,
       null,
       null
     ],
@@ -11831,6 +12741,7 @@
       "彻底的混乱！",
       "Complete chaos!",
       null,
+      null,
       null
     ],
     [
@@ -11843,6 +12754,7 @@
       "Elimination",
       "本来就脆，现在又碎了。",
       "Brittle and broken.",
+      null,
       null,
       null
     ],
@@ -11857,7 +12769,8 @@
       "废料场多了坨废料。",
       "Scrap for the scrapyard.",
       "{\"type\":\"toHero\",\"heroTag\":\"机械\"}",
-      0.5
+      0.5,
+      null
     ],
     [
       "HeroQuote",
@@ -11869,6 +12782,7 @@
       "Hello",
       "你好啊。",
       "G'day.",
+      null,
       null,
       null
     ],
@@ -11883,6 +12797,7 @@
       "我们在废料中创造新的世界。",
       "From scrap, we build a new world.",
       null,
+      null,
       null
     ],
     [
@@ -11895,6 +12810,7 @@
       "KillStreak",
       "好一场狂野的炫耀！",
       "Such a turbulent display!",
+      null,
       null,
       null
     ],
@@ -11909,6 +12825,7 @@
       "啊，开始破坏吧。",
       "Ah, let the wreckage begin.",
       null,
+      null,
       null
     ],
     [
@@ -11921,6 +12838,7 @@
       "MatchTalk",
       "渣客的艺术家总会圆满塑造废料。",
       "A Junker artiste always shapes her scrap to perfection.",
+      null,
       null,
       null
     ],
@@ -11935,6 +12853,7 @@
       "我上次粉刷这些屋子是什么时候来着？这次，不如……换成放射性涂料吧。",
       "When did I last reimagine these structures? This time, perhaps... radioactive paint.",
       "{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"map\",\"map\":\"渣客镇\"},{\"type\":\"map\",\"map\":\"新渣客城\"}]}",
+      null,
       null
     ],
     [
@@ -11947,6 +12866,7 @@
       "MeleeEnemyKilledRemark",
       "估计得打针破伤风了。",
       "That may require a tetanus shot.",
+      null,
       null,
       null
     ],
@@ -11961,6 +12881,7 @@
       "我会创造混乱！",
       "I will create chaos!",
       null,
+      null,
       null
     ],
     [
@@ -11973,6 +12894,7 @@
       "Respawn",
       "把铁锈打磨干净，然后再来一次。",
       "Sand off the rust and begin again.",
+      null,
       null,
       null
     ],
@@ -11987,6 +12909,7 @@
       "金属折上两下是不会坏的。",
       "Metal bent is not metal broken.",
       null,
+      null,
       null
     ],
     [
@@ -11999,6 +12922,7 @@
       "Unknown/11E0.078",
       "已经熔化了。",
       "Melted down.",
+      null,
       null,
       null
     ],
@@ -12013,6 +12937,7 @@
       "都轰成铁锈了。",
       "Reduced to rust.",
       null,
+      null,
       null
     ],
     [
@@ -12025,6 +12950,7 @@
       "Unknown/14D.078",
       "造了个炮台。",
       "Building a turret.",
+      null,
       null,
       null
     ],
@@ -12039,6 +12965,7 @@
       "废铁也能变哨戒。",
       "Scrap becomes sentry.",
       null,
+      null,
       null
     ],
     [
@@ -12051,6 +12978,7 @@
       "Unknown/150.078",
       "通往混乱的道路已经打开。",
       "The path to mayhem is open.",
+      null,
       null,
       null
     ],
@@ -12065,6 +12993,7 @@
       "传送面板好看吧？",
       "Beaut of a teleporter, no?",
       null,
+      null,
       null
     ],
     [
@@ -12077,6 +13006,7 @@
       "Unknown/154.078",
       "我的传送面板碎成渣了！呃。",
       "My teleporter is in pieces! Ugh.",
+      null,
       null,
       null
     ]
