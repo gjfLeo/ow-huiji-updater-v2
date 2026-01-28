@@ -10,10 +10,18 @@ settings {
             "heroLimit": "off",
             "respawnTime%": 30
         }
+    },
+    "heroes": {
+        "team1": {
+            "wreckingBall": {
+                "jumpVerticalSpeed%": 200
+            }
+        }
     }
 }
 
 globalvar dvaDummy
+globalvar angle = 10
 
 rule "Init D.Va Dummy":
     @Event global
@@ -27,14 +35,14 @@ rule "D.Va Dummy Spawn":
     @Condition eventPlayer.getMaxHealth() > 200
 
     dvaDummy.teleport(vect(0, 0, 0))
-    dvaDummy.setFacing(Vector.FORWARD * 10 + Vector.UP, Relativity.TO_PLAYER)
+    dvaDummy.setFacing(Vector.FORWARD * angle + Vector.UP, Relativity.TO_PLAYER)
     dvaDummy.setAbilityCooldown(Button.ABILITY_1, 0)
     dvaDummy.setUltCharge(100)
 
 rule "D.Va Self-Destruct":
     @Event eachPlayer
     @Condition eventPlayer.isHoldingButton(Button.INTERACT)
-    @Condition raycast(eventPlayer.getEyePosition(), eventPlayer.getEyePosition() + eventPlayer.getFacingDirection() * 100, getAllPlayers(), eventPlayer, true).getPlayerHit() == dvaDummy
+    # @Condition raycast(eventPlayer.getEyePosition(), eventPlayer.getEyePosition() + eventPlayer.getFacingDirection() * 100, getAllPlayers(), eventPlayer, true).getPlayerHit() == dvaDummy
 
     dvaDummy.setAbilityCooldown(Button.ABILITY_1, 0)
     wait()
@@ -45,6 +53,27 @@ rule "D.Va Self-Destruct":
     wait(0.16)
     dvaDummy.setAbilityCooldown(Button.ABILITY_1, 0)
     kill(dvaDummy)
+    wait(0.16)
+    waitUntil(dvaDummy.hasSpawned())
+    wait(1)
+
+rule "Toggle Angles":
+    @Event eachPlayer
+    @Condition eventPlayer.isHoldingButton(Button.RELOAD)
+    if angle == 10:
+        angle = 2
+    else:
+        angle = 10
+    dvaDummy.setFacing(Vector.FORWARD * angle + Vector.UP, Relativity.TO_PLAYER)
+
+rule "Init Player":
+    @Event eachPlayer
+    @Condition eventPlayer.isDummy() == false
+    eventPlayer.disableGamemodeHud()
+    hudSubtext(eventPlayer, "互动：命令D.Va施放自毁", HudPosition.ACTUALLY_LEFT)
+    hudSubtext(eventPlayer, "装填：切换角度", HudPosition.ACTUALLY_LEFT)
+    hudSubtext(eventPlayer, "需要治疗：切换英雄", HudPosition.ACTUALLY_LEFT)
+    hudSubtext(eventPlayer, "按任意技能键重置冷却", HudPosition.ACTUALLY_LEFT)
 
 # MARK: 通用
 
