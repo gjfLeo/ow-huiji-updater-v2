@@ -325,7 +325,8 @@ h4 .mw-headline {
 }
 */
 
-/* table */
+/* MARK: table
+ */
 table.wikitable {
   font-size: 14px;
 }
@@ -339,7 +340,8 @@ table.wikitable > * > tr > td {
   padding: 0.25em 0.5em;
 }
 
-/* navbox */
+/* MARK: navbox
+ */
 .navbox .hlist td dl,
 .navbox .hlist td ol,
 .navbox .hlist td ul,
@@ -377,6 +379,15 @@ table.wikitable > * > tr > td {
 .hlist li dt:last-child::after,
 .hlist li li:last-child::after {
   content: "）";
+}
+
+/* MARK: other
+ */
+#mw-edittools-charinsert a {
+  width: unset;
+}
+#mw-edittools-charinsert a + a {
+  margin-left: 1em;
 }
 
 .thumbinner {
