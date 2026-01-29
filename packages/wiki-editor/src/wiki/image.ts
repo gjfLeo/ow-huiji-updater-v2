@@ -4,6 +4,7 @@ import type { MWPage, MWResponseBase } from "huijiwiki-api/dist/HuijiWiki/typeMW
 import { Buffer } from "node:buffer";
 import { confirm } from "@inquirer/prompts";
 import { ofetch } from "ofetch";
+import sharp from "sharp";
 import { logger, spinner, spinnerProgress } from "../utils/logger";
 import { wikiLogin } from "./login";
 
@@ -31,7 +32,15 @@ export async function wikiUploadRemoteImage(
   const remoteFile = await ofetch(url, {
     responseType: "arrayBuffer",
   });
-  const fileBuffer = Buffer.from(remoteFile);
+  let fileBuffer: Buffer = Buffer.from(remoteFile);
+
+  if (fileBuffer.length > 10 * 1024 * 1024) {
+    const confirmCompress = await confirm({ message: "文件大小超过10MB，是否压缩？" });
+    if (!confirmCompress) {
+      process.exit(1);
+    }
+    fileBuffer = await compressImage(fileBuffer);
+  }
 
   const wiki = await wikiLogin({ userType: "bot" });
 
@@ -164,4 +173,12 @@ interface MWResponseQueryImageInfoSha1 extends MWResponseBase {
       [id: string]: MWPage & { imageinfo?: { sha1: string }[] };
     };
   };
+}
+
+async function compressImage(fileBuffer: Buffer) {
+  const input = sharp(fileBuffer);
+  return input
+    .png({ compressionLevel: 9 })
+    .resize(Math.min((await input.metadata()).width ?? 0, 3840))
+    .toBuffer();
 }
