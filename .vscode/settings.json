@@ -17,7 +17,7 @@
     "Scribunto",
     "tabx",
     "ustring",
-    "wikitable"
+    "wikitable",
   ],
   "Lua.format.defaultConfig": {
     "quote_style": "double",
