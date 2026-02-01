@@ -59,6 +59,7 @@ export default async function executeDataToolOnce() {
     ],
     "dump-lootbox-pools": [
       [path.join(outputPath, "dump")],
+      [path.join(outputPath, "dump_guid"), "--string-guid"],
     ],
     "dump-strings": [
       [`--out=${path.join(outputPath, "json/strings_zh.json")}`, "--json"],
@@ -74,13 +75,15 @@ export default async function executeDataToolOnce() {
       [`--out=${path.join(outputPath, "json/achievements.json")}`, "--json"],
     ],
     "list-all-unlocks": [
-      [`--out=${path.join(outputPath, "json/unlocks-all.json")}`, "--json"],
+      [`--out=${path.join(outputPath, "json/unlocks-all_zh.json")}`, "--json"],
+      [`--out=${path.join(outputPath, "json/unlocks-all_en.json")}`, "--json", "--language=enUS"],
+      [`--out=${path.join(outputPath, "json/unlocks-all_guid.json")}`, "--json", "--string-guid"],
     ],
     "list-general-unlocks": [
       [`--out=${path.join(outputPath, "json/unlocks-general.json")}`, "--json"],
     ],
     "list-unlocks": [
-      [`--out=${path.join(outputPath, "json/unlocks-hero.json")}`, "--json"],
+      [`--out=${path.join(outputPath, "json/unlocks-hero_zh.json")}`, "--json"],
     ],
     "list-heroes": [
       [`--out=${path.join(outputPath, "json/heroes.json")}`, "--json"],
