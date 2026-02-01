@@ -43,7 +43,10 @@ export default async function getStreamerModeNames() {
   const enStrings: Record<string, { Value: string }> = await Bun.file(path.resolve(__dirname, "../../output/owlib/json/strings_en.json")).json();
 
   const newData = streamerModeNamesEn.map<StreamerModeNameData>((en) => {
-    const guid = Object.entries(enStrings).find(([, value]) => value.Value === en)?.[0];
+    const guid = Object.entries(enStrings).find(([guid, value]) => {
+      const id_n = Number.parseInt(guid.split(".")[0]!, 16);
+      return id_n >= 0x213BA && value.Value === en;
+    })?.[0];
     if (!guid) {
       throw new Error(`Streamer mode name "${en}" not found in enStrings`);
     }
