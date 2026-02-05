@@ -20,6 +20,13 @@
       object-fit: contain;
       border-radius: 3px;
     }
+
+    &:empty::before {
+      content: "头像暂缺";
+      font-size: 12px;
+      color: rgb(232 234 234 / 25%);
+      white-space: nowrap;
+    }
   }
 
   .hs-hit-points {
@@ -122,12 +129,11 @@
     justify-content: start;
     font-size: 0.875rem;
 
-    &>:nth-child(odd):not(:first-child) {
+    & > :nth-child(odd):not(:first-child) {
       margin-inline-start: 1rem;
       margin-inline-end: 0.25rem;
     }
   }
-
 
   .hs-icon-hit-points,
   .hs-icon-movement-speed,
