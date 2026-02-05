@@ -1,14 +1,14 @@
 {
   "_hjschema": "Ability",
   "_dataType": "ability",
-  "key": "猎空/闪现急救包",
-  "name": "闪现急救包",
+  "key": "猎空/时空疾冲",
+  "name": "时空疾冲",
   "hero": "猎空",
   "category": "Perk",
   "button": null,
-  "description": "急救包会为闪现恢复1次充能",
+  "description": "闪现距离扩大20%",
   "basicStats": {
-    "perkIndex": "3A"
+    "perkIndex": "2A"
   },
   "keywords": [],
   "detailStats": []

@@ -6,7 +6,7 @@
   "hero": "回声",
   "category": "Perk",
   "button": null,
-  "description": "聚焦光线的射程扩大4米，且使用时移动速度加快10%",
+  "description": "聚焦光线的射程扩大4米，且使用时移动速度加快20%",
   "basicStats": {
     "perkIndex": "2A"
   },

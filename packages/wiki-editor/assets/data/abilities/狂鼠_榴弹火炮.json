@@ -6,7 +6,7 @@
   "hero": "狂鼠",
   "category": "Perk",
   "button": null,
-  "description": "榴弹发射器的弹道速度提高40%，但最大弹药降低1发",
+  "description": "榴弹发射器的弹道速度加快25%",
   "basicStats": {
     "perkIndex": "3B"
   },

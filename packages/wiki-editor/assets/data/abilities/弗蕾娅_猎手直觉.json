@@ -7,6 +7,7 @@
   "category": "Perk",
   "button": null,
   "description": "瞄准射击直接命中会将敌人的位置显示给弗蕾娅，持续3秒",
+  "removed": true,
   "basicStats": {
     "perkIndex": "2A"
   },

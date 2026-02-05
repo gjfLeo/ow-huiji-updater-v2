@@ -1,13 +1,12 @@
 {
   "_hjschema": "Ability",
   "_dataType": "ability",
-  "key": "艾什/响尾蛇行",
-  "name": "响尾蛇行",
+  "key": "艾什/双筒猎枪",
+  "name": "双筒猎枪",
   "hero": "艾什",
   "category": "Perk",
   "button": null,
-  "description": "短筒猎枪对艾什和敌人的击退距离扩大12%",
-  "removed": true,
+  "description": "用短筒猎枪击退敌人后的一小段时间内，可再次使用该技能，此时击退效果降低25%",
   "basicStats": {
     "perkIndex": "2B"
   },

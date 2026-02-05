@@ -1,12 +1,12 @@
 {
   "_hjschema": "Ability",
   "_dataType": "ability",
-  "key": "半藏/神竜之怒",
-  "name": "神竜之怒",
-  "hero": "半藏",
+  "key": "托比昂/核心预热",
+  "name": "核心预热",
+  "hero": "托比昂",
   "category": "Perk",
   "button": null,
-  "description": "主要攻击模式命中敌人后，获得20%攻击速度，持续1.5秒",
+  "description": "熔火核心会激活热力过载",
   "basicStats": {
     "perkIndex": "2B"
   },

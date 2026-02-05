@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "法老之鹰/火箭齐射",
+  "name": "火箭齐射",
+  "hero": "法老之鹰",
+  "category": "Perk",
+  "button": null,
+  "description": "使用位移技能后，下一次主要攻击模式还会发射两发螺旋迷你火箭，每发造成40点爆炸伤害",
+  "basicStats": {
+    "perkIndex": "3B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

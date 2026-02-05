@@ -1,12 +1,12 @@
 {
   "_hjschema": "Ability",
   "_dataType": "ability",
-  "key": "猎空/闪现急救包",
-  "name": "闪现急救包",
-  "hero": "猎空",
+  "key": "卡西迪/翻身愈合",
+  "name": "翻身愈合",
+  "hero": "卡西迪",
   "category": "Perk",
   "button": null,
-  "description": "急救包会为闪现恢复1次充能",
+  "description": "每用战术翻滚装填一颗子弹，还会治疗15点生命值",
   "basicStats": {
     "perkIndex": "3A"
   },
