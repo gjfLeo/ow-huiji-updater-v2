@@ -1,12 +1,12 @@
 {
   "_hjschema": "Ability",
   "_dataType": "ability",
-  "key": "布丽吉塔/战地医疗兵",
-  "name": "战地医疗兵",
-  "hero": "布丽吉塔",
+  "key": "禅雅塔/乱中求存",
+  "name": "乱中求存",
+  "hero": "禅雅塔",
   "category": "Perk",
   "button": null,
-  "description": "对敌人近身攻击使恢复包的冷却时间缩短0.5秒",
+  "description": "攻击带有“乱”法球的敌人时，自身获得10%生命汲取",
   "basicStats": {
     "perkIndex": "2A"
   },

@@ -7,6 +7,7 @@
   "category": "Perk",
   "button": null,
   "description": "主要攻击模式的三连发全部命中会装填一发治疗榴弹。治疗榴弹直接命中会装填3发主要攻击模式弹药",
+  "removed": true,
   "basicStats": {
     "perkIndex": "2A"
   },

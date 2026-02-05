@@ -1,12 +1,12 @@
 {
   "_hjschema": "Ability",
   "_dataType": "ability",
-  "key": "布丽吉塔/战地医疗兵",
-  "name": "战地医疗兵",
-  "hero": "布丽吉塔",
+  "key": "生命之梭/守护花瓣",
+  "name": "守护花瓣",
+  "hero": "生命之梭",
   "category": "Perk",
   "button": null,
-  "description": "对敌人近身攻击使恢复包的冷却时间缩短0.5秒",
+  "description": "盟友站在花瓣平台上时每秒治疗20点生命值",
   "basicStats": {
     "perkIndex": "2A"
   },
