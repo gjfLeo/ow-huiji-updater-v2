@@ -1,13 +1,12 @@
 {
   "_hjschema": "Ability",
   "_dataType": "ability",
-  "key": "温斯顿/屏障投掷",
-  "name": "屏障投掷",
+  "key": "温斯顿/电能快充",
+  "name": "电能快充",
   "hero": "温斯顿",
   "category": "Perk",
   "button": null,
-  "description": "温斯顿使用屏障发射器时会将其向前扔出",
-  "removed": true,
+  "description": "特斯拉炮主要攻击模式每对一名敌人造成伤害，自身移动速度加快10%，最多30%",
   "basicStats": {
     "perkIndex": "2A"
   },

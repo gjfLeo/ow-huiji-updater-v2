@@ -6,9 +6,9 @@
   "hero": "查莉娅",
   "category": "Perk",
   "button": null,
-  "description": "投射屏障会激活盟友的生命值自动恢复效果，并使其移动速度提高25%",
+  "description": "投射屏障会激活盟友的生命值自动恢复效果，并使其移动速度提高20%",
   "basicStats": {
-    "perkIndex": "3B"
+    "perkIndex": "2B"
   },
   "keywords": [],
   "detailStats": []

@@ -1,13 +1,12 @@
 {
   "_hjschema": "Ability",
   "_dataType": "ability",
-  "key": "破坏球/爱包之鼠",
-  "name": "爱包之鼠",
+  "key": "破坏球/多重地雷",
+  "name": "多重地雷",
   "hero": "破坏球",
   "category": "Perk",
   "button": null,
-  "description": "从急救包中获得的治疗量提高100点",
-  "removed": true,
+  "description": "使用地雷禁区后的5秒内按下 <kbd>Q</kbd> 可额外部署7颗地雷",
   "basicStats": {
     "perkIndex": "2B"
   },
