@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "生命之梭/愈疗播种",
+  "name": "愈疗播种",
+  "hero": "生命之梭",
+  "category": "Perk",
+  "button": null,
+  "description": "在愈疗灵花状态下使用快速近身攻击会向前扔出一颗种子。其他盟友拾取种子会获得75点过量生命值和25%速度加成，持续5秒",
+  "basicStats": {
+    "perkIndex": "3A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

@@ -7,6 +7,7 @@
   "category": "Perk",
   "button": null,
   "description": "回春疾行会在3秒内使下一朵愈疗灵花的治疗量提高30点",
+  "removed": true,
   "basicStats": {
     "perkIndex": "2B"
   },

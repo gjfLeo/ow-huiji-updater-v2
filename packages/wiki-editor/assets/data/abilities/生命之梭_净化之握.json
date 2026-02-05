@@ -7,6 +7,7 @@
   "category": "Perk",
   "button": null,
   "description": "生命之握会净化负面效果。净化一项负面效果使生命之握的冷却时间缩短4秒",
+  "removed": true,
   "basicStats": {
     "perkIndex": "2A"
   },

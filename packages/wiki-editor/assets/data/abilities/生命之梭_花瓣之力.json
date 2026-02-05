@@ -7,6 +7,7 @@
   "category": "Perk",
   "button": null,
   "description": "盟友站在升起的花瓣平台上时攻击速度加快30%",
+  "removed": true,
   "basicStats": {
     "perkIndex": "3A"
   },

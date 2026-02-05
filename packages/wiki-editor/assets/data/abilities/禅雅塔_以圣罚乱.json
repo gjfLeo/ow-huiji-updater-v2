@@ -7,6 +7,7 @@
   "category": "Perk",
   "button": null,
   "description": "使用“圣”时，对范围内的所有敌人施加“乱”",
+  "removed": true,
   "basicStats": {
     "perkIndex": "2A"
   },

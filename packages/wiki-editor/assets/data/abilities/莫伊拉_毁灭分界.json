@@ -6,9 +6,9 @@
   "hero": "莫伊拉",
   "category": "Perk",
   "button": null,
-  "description": "聚合射线可以完全造成治疗或伤害，此时效果提高25%",
+  "description": "聚合射线可以完全造成治疗或伤害，此时效果提高30%",
   "basicStats": {
-    "perkIndex": "2B"
+    "perkIndex": "2A"
   },
   "keywords": [],
   "detailStats": []
