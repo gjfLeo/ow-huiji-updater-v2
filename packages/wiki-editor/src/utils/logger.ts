@@ -49,6 +49,9 @@ export const spinnerProgress = {
   increment(value: number = 1) {
     progress.increment(value);
   },
+  setTotal(total: number) {
+    progress.setTotal(total);
+  },
   succeed(message?: string) {
     progress.stop();
     spinnerOra.succeed(message);
