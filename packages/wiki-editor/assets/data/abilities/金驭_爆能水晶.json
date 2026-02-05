@@ -1,0 +1,45 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "金驭/爆能水晶",
+  "name": "爆能水晶",
+  "hero": "金驭",
+  "category": "Ability",
+  "button": "技能 2",
+  "description": "投出一枚爆能水晶，再次激活即可引爆",
+  "basicStats": {
+    "cooldown": 8
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": ""
+    },
+    {
+      "name": "屏障贯穿",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "50（持续伤害）<br />100-50（爆炸）"
+    },
+    {
+      "name": "持续伤害持续时间",
+      "value": "1.00秒"
+    },
+    {
+      "name": "最小-最大半径",
+      "value": "2-4米"
+    },
+    {
+      "name": "最大射程",
+      "value": "100米"
+    }
+  ]
+}

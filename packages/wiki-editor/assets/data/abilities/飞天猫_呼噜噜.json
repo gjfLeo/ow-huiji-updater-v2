@@ -1,0 +1,45 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "飞天猫/呼噜噜",
+  "name": "呼噜噜",
+  "hero": "飞天猫",
+  "category": "Ability",
+  "button": "技能 2",
+  "description": "脉冲式范围治疗，频率随时间提高。激活时击退周围敌人",
+  "basicStats": {
+    "cooldown": 12
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "单次脉冲治疗量",
+      "value": "30"
+    },
+    {
+      "name": "治疗脉冲间隔",
+      "value": "0.95秒"
+    },
+    {
+      "name": "伤害量",
+      "value": "30"
+    },
+    {
+      "name": "半径",
+      "value": "10米（治疗）<br />10米（伤害）"
+    },
+    {
+      "name": "持续时间",
+      "value": "4秒"
+    },
+    {
+      "name": "击退",
+      "value": "16.6米/秒"
+    }
+  ]
+}

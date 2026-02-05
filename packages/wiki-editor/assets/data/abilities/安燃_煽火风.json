@@ -1,0 +1,53 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "安燃/煽火风",
+  "name": "煽火风",
+  "hero": "安燃",
+  "category": "Weapon",
+  "button": "辅助攻击模式",
+  "description": "能强化燃烧伤害的灼热狂风",
+  "basicStats": {
+    "ammo": 8
+  },
+  "keywords": [
+    {
+      "name": "技能暴击",
+      "value": ""
+    },
+    {
+      "name": "光束",
+      "value": ""
+    },
+    {
+      "name": "燃烧",
+      "value": ""
+    },
+    {
+      "name": "贯穿",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "单发齐射伤害量",
+      "value": "24（基础）<br />48（燃烧）"
+    },
+    {
+      "name": "单发齐射弹丸数",
+      "value": "6"
+    },
+    {
+      "name": "射程",
+      "value": "10米"
+    },
+    {
+      "name": "每秒额外燃烧伤害",
+      "value": "20"
+    },
+    {
+      "name": "焚身焰百分比",
+      "value": "25%（基础单发齐射）<br />17%（重装单发齐射）"
+    }
+  ]
+}

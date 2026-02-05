@@ -1,0 +1,21 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "副职责：战术",
+  "name": "副职责：战术",
+  "category": "PassiveAbility",
+  "button": null,
+  "description": "终极技能可过量充能，使用终极技能后过量充能仍会保留",
+  "basicStats": {},
+  "keywords": [],
+  "detailStats": [
+    {
+      "name": "额外终极技能充能上限",
+      "value": "25%"
+    },
+    {
+      "name": "降低后的终极技能充能速度",
+      "value": "高于100%时-25%"
+    }
+  ]
+}

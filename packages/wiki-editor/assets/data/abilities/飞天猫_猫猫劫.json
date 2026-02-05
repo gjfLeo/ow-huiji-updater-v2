@@ -1,0 +1,65 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "飞天猫/猫猫劫",
+  "name": "猫猫劫",
+  "hero": "飞天猫",
+  "category": "UltimateAbility",
+  "button": "技能 3",
+  "description": "冲向地面位置，击倒敌人并拴锁离你最近的敌人",
+  "basicStats": {
+    "ultimateCharge": 2400
+  },
+  "keywords": [
+    {
+      "name": "断锁",
+      "value": ""
+    },
+    {
+      "name": "击倒",
+      "value": ""
+    },
+    {
+      "name": "定身",
+      "value": ""
+    },
+    {
+      "name": "栓锁",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "最大持续时间",
+      "value": "4秒"
+    },
+    {
+      "name": "伤害量",
+      "value": "25"
+    },
+    {
+      "name": "击倒持续时间",
+      "value": "1.5秒"
+    },
+    {
+      "name": "半径",
+      "value": "6米"
+    },
+    {
+      "name": "速度",
+      "value": "30米/秒"
+    },
+    {
+      "name": "射程",
+      "value": "25米"
+    },
+    {
+      "name": "运输重装英雄时移动速度惩罚",
+      "value": "-30%移动速度"
+    },
+    {
+      "name": "击退",
+      "value": "2.8米/秒"
+    }
+  ]
+}

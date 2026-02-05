@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "安燃/长燃之焰",
+  "name": "长燃之焰",
+  "hero": "安燃",
+  "category": "Perk",
+  "button": null,
+  "description": "敌人被点燃后，燃烧持续时间延长1.5秒",
+  "basicStats": {
+    "perkIndex": "2A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

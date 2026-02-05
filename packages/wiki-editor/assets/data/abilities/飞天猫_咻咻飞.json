@@ -1,0 +1,35 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "飞天猫/咻咻飞",
+  "name": "咻咻飞",
+  "hero": "飞天猫",
+  "category": "Ability",
+  "button": "辅助攻击模式",
+  "description": "沿移动方向加速。运输其他玩家时减缓燃料恢复速度",
+  "basicStats": {},
+  "keywords": [
+    {
+      "name": "引导",
+      "value": ""
+    },
+    {
+      "name": "能量",
+      "value": ""
+    },
+    {
+      "name": "位移",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "最大移动速度加成",
+      "value": "240.4%移动速度"
+    },
+    {
+      "name": "能量",
+      "value": "40%/秒（消耗）<br />30%/秒（恢复速度）<br />15%/秒（运输时恢复速度）<br />0.75秒（基础恢复延迟）"
+    }
+  ]
+}

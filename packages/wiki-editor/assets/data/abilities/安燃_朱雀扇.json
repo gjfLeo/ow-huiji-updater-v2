@@ -1,0 +1,42 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "安燃/朱雀扇",
+  "name": "朱雀扇",
+  "hero": "安燃",
+  "category": "Weapon",
+  "button": "主要攻击模式",
+  "description": "能扇出炽烈火焰的折扇",
+  "basicStats": {
+    "ammo": 20,
+    "reloadTime": 1.5
+  },
+  "keywords": [
+    {
+      "name": "燃烧",
+      "value": ""
+    },
+    {
+      "name": "暴击",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "单发齐射伤害量",
+      "value": "40"
+    },
+    {
+      "name": "单发齐射弹丸数",
+      "value": "2"
+    },
+    {
+      "name": "焚身焰百分比",
+      "value": "25%（基础单次命中）<br />17%（重装单次命中）<br />2倍（暴击系数）"
+    }
+  ]
+}

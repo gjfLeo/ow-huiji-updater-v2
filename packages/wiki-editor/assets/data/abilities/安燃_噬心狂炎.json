@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "安燃/噬心狂炎",
+  "name": "噬心狂炎",
+  "hero": "安燃",
+  "category": "Perk",
+  "button": null,
+  "description": "使用熠闪舞每命中一名敌人治疗50点生命值",
+  "basicStats": {
+    "perkIndex": "2A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

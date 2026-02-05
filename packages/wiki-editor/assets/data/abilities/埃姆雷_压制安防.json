@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "埃姆雷/压制安防",
+  "name": "压制安防",
+  "hero": "埃姆雷",
+  "category": "Perk",
+  "button": null,
+  "description": "覆盖协议的轻型弹药会使敌人减速30%，持续1秒",
+  "basicStats": {
+    "perkIndex": "2A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

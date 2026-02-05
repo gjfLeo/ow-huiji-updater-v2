@@ -1,0 +1,17 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "副职责：侦查",
+  "name": "副职责：侦查",
+  "category": "PassiveAbility",
+  "button": null,
+  "description": "对生命值低于一半的敌人造成伤害后，可透过墙体侦测该敌人",
+  "basicStats": {},
+  "keywords": [],
+  "detailStats": [
+    {
+      "name": "显示位置持续时间",
+      "value": "5秒"
+    }
+  ]
+}

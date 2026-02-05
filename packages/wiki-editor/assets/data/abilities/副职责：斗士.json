@@ -1,0 +1,21 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "副职责：斗士",
+  "name": "副职责：斗士",
+  "category": "PassiveAbility",
+  "button": null,
+  "description": "降低受到的暴击伤害。濒死时，移动速度加快",
+  "basicStats": {},
+  "keywords": [],
+  "detailStats": [
+    {
+      "name": "暴击受伤减免",
+      "value": "-25%承受暴击伤害"
+    },
+    {
+      "name": "移动速度加成",
+      "value": "20%移动速度"
+    }
+  ]
+}

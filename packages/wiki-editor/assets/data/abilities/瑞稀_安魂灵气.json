@@ -1,0 +1,43 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "瑞稀/安魂灵气",
+  "name": "安魂灵气",
+  "hero": "瑞稀",
+  "category": "PassiveAbility",
+  "button": null,
+  "description": "治疗周围盟友。造成伤害或治疗会产生资源，资源越多，治疗量越高",
+  "basicStats": {},
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>球形</mark>范围内的目标"
+    },
+    {
+      "name": "灵气",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "最小-最大持续治疗量",
+      "value": "3.5-14/秒（自身）<br />5-20/秒（盟友）"
+    },
+    {
+      "name": "半径",
+      "value": "10米"
+    },
+    {
+      "name": "灵气获取",
+      "value": "对英雄造成伤害的20%<br />对可部署物造成伤害的4%<br />疗魂斗笠治疗量的15%<br />缚魂锁链伤害量的40%<br />护魂结界治疗量的10%"
+    },
+    {
+      "name": "灵气衰减速度",
+      "value": "6%/秒"
+    },
+    {
+      "name": "灵气衰减延迟",
+      "value": "2.0秒"
+    }
+  ]
+}

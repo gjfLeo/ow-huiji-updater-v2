@@ -1,0 +1,57 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "飞天猫/救生索",
+  "name": "救生索",
+  "hero": "飞天猫",
+  "category": "Ability",
+  "button": "技能 1",
+  "description": "切换为运输模式，盟友可抓住救生索任你拖拽。加快移动速度并治疗被拖拽的盟友",
+  "basicStats": {
+    "cooldown": 2
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": ""
+    },
+    {
+      "name": "引导",
+      "value": ""
+    },
+    {
+      "name": "无视屏障",
+      "value": ""
+    },
+    {
+      "name": "位移",
+      "value": ""
+    },
+    {
+      "name": "栓锁",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "移动速度加成",
+      "value": "+40%移动速度"
+    },
+    {
+      "name": "栓锁连接范围",
+      "value": "半径8.5米<br />高度15米"
+    },
+    {
+      "name": "栓锁长度",
+      "value": "4米"
+    },
+    {
+      "name": "栓锁分离启动速度",
+      "value": "13.2米/秒"
+    },
+    {
+      "name": "重连冷却时间",
+      "value": "2秒"
+    }
+  ]
+}

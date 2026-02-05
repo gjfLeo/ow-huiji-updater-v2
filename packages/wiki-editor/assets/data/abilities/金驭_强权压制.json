@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "金驭/强权压制",
+  "name": "强权压制",
+  "hero": "金驭",
+  "category": "Perk",
+  "button": null,
+  "description": "屏障阵列可作为音速斥力场击晕敌人所需的墙壁，此时伤害提升100%",
+  "basicStats": {
+    "perkIndex": "3B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

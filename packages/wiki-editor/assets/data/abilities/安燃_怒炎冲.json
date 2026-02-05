@@ -1,0 +1,53 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "安燃/怒炎冲",
+  "name": "怒炎冲",
+  "hero": "安燃",
+  "category": "Ability",
+  "button": "技能 1",
+  "description": "向前疾行，对击中的敌人造成伤害",
+  "basicStats": {
+    "cooldown": 8.5
+  },
+  "keywords": [
+    {
+      "name": "燃烧",
+      "value": ""
+    },
+    {
+      "name": "闪避",
+      "value": ""
+    },
+    {
+      "name": "位移",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "移动速度加成",
+      "value": "+110%移动速度"
+    },
+    {
+      "name": "伤害量",
+      "value": "50"
+    },
+    {
+      "name": "最大持续时间",
+      "value": "1.3秒"
+    },
+    {
+      "name": "焚身焰百分比",
+      "value": "50%（基础）<br />33%（重装）"
+    },
+    {
+      "name": "启动速度",
+      "value": "18米/秒"
+    },
+    {
+      "name": "击退",
+      "value": "8.5米/秒"
+    }
+  ]
+}

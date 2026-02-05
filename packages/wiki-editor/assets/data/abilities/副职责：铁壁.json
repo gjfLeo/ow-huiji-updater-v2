@@ -1,0 +1,21 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "副职责：铁壁",
+  "name": "副职责：铁壁",
+  "category": "PassiveAbility",
+  "button": null,
+  "description": "降低受到的击退和减速效果",
+  "basicStats": {},
+  "keywords": [],
+  "detailStats": [
+    {
+      "name": "击退抗性",
+      "value": "+40%击退抗性"
+    },
+    {
+      "name": "减速抗性",
+      "value": "+40%减速抗性"
+    }
+  ]
+}

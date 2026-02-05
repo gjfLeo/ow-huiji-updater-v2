@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "瑞稀/灵气奔涌",
+  "name": "灵气奔涌",
+  "hero": "瑞稀",
+  "category": "Perk",
+  "button": null,
+  "description": "安魂灵气资源获取量提高25%",
+  "basicStats": {
+    "perkIndex": "2A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

@@ -1,0 +1,57 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "埃姆雷/虹吸冲击枪",
+  "name": "虹吸冲击枪",
+  "hero": "埃姆雷",
+  "category": "Ability",
+  "button": "技能 1",
+  "description": "临时使用装配生命汲取爆炸子弹的半自动手枪，使用时提高移动速度和跳跃高度",
+  "basicStats": {
+    "cooldown": 11
+  },
+  "keywords": [
+    {
+      "name": "热量",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    },
+    {
+      "name": "变身",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "25（直接命中）<br />15-5（范围伤害）"
+    },
+    {
+      "name": "最小-最大半径",
+      "value": "0.5-2.3米"
+    },
+    {
+      "name": "治疗量",
+      "value": "造成伤害的80%"
+    },
+    {
+      "name": "热量",
+      "value": "射击10发后过热<br />20%-35%/秒（最小-最大散热）<br />0.25秒（散热延迟）"
+    },
+    {
+      "name": "移动速度加成",
+      "value": "+35%移动速度"
+    },
+    {
+      "name": "持续时间",
+      "value": "5秒"
+    },
+    {
+      "name": "跳跃速度",
+      "value": "12.5米/秒"
+    }
+  ]
+}

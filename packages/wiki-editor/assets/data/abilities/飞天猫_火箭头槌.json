@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "飞天猫/火箭头槌",
+  "name": "火箭头槌",
+  "hero": "飞天猫",
+  "category": "Perk",
+  "button": null,
+  "description": "咻咻飞达到足够速度时，击中敌人会将其击退",
+  "basicStats": {
+    "perkIndex": "3A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

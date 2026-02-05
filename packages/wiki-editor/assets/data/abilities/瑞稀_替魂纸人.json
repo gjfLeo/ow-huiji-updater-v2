@@ -1,0 +1,53 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "瑞稀/替魂纸人",
+  "name": "替魂纸人",
+  "hero": "瑞稀",
+  "category": "Ability",
+  "button": "技能 1",
+  "description": "向前一跃，并在原地留下一个纸人。再次激活会返回原地，且在激活期间加快移动速度",
+  "basicStats": {
+    "cooldown": 12
+  },
+  "keywords": [
+    {
+      "name": "无敌",
+      "value": ""
+    },
+    {
+      "name": "相移",
+      "value": ""
+    },
+    {
+      "name": "强位移",
+      "value": ""
+    },
+    {
+      "name": "强射弹",
+      "value": ""
+    },
+    {
+      "name": "变身",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "移动速度爆发",
+      "value": "+35%移动速度"
+    },
+    {
+      "name": "持续时间",
+      "value": "4.5秒"
+    },
+    {
+      "name": "无敌状态持续时间",
+      "value": "0.25秒"
+    },
+    {
+      "name": "移动速度爆发",
+      "value": "+800%移动速度<br />持续0.17秒"
+    }
+  ]
+}

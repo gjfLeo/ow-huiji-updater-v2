@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "瑞稀/魂中破绽",
+  "name": "魂中破绽",
+  "hero": "瑞稀",
+  "category": "Perk",
+  "button": null,
+  "description": "用缚魂锁链命中敌人会使你对其造成的伤害提高30%，持续2秒",
+  "basicStats": {
+    "perkIndex": "2B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

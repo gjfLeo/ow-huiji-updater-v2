@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "金驭/权力扩张",
+  "name": "权力扩张",
+  "hero": "金驭",
+  "category": "Perk",
+  "button": null,
+  "description": "光子马格南的射程扩大20%",
+  "basicStats": {
+    "perkIndex": "2B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

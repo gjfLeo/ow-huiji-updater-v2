@@ -1,0 +1,18 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "飞天猫/喷气背包",
+  "name": "喷气背包",
+  "hero": "飞天猫",
+  "category": "PassiveAbility",
+  "button": null,
+  "description": "永久飞行",
+  "basicStats": {},
+  "keywords": [
+    {
+      "name": "飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": []
+}

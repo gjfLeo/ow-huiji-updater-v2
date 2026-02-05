@@ -1,0 +1,46 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "金驭/光子马格南",
+  "name": "光子马格南",
+  "hero": "金驭",
+  "category": "Weapon",
+  "button": "主要攻击模式",
+  "description": "能汇聚为强力一击的中距离光束",
+  "basicStats": {
+    "ammo": 100,
+    "reloadTime": 1.5
+  },
+  "keywords": [
+    {
+      "name": "光束暴击",
+      "value": ""
+    },
+    {
+      "name": "弱效暴击",
+      "value": ""
+    },
+    {
+      "name": "即时命中",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "60（持续伤害）<br />60（即时命中）"
+    },
+    {
+      "name": "射程",
+      "value": "25米"
+    },
+    {
+      "name": "弹药消耗量",
+      "value": "10"
+    },
+    {
+      "name": "充能持续时间",
+      "value": "0.8秒"
+    }
+  ]
+}

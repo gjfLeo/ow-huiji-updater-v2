@@ -1,0 +1,65 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "埃姆雷/覆盖协议",
+  "name": "覆盖协议",
+  "hero": "埃姆雷",
+  "category": "UltimateAbility",
+  "button": "技能 3",
+  "description": "启动覆盖程序，将你变为人形兵器。快速发射爆炸冲击，或通过充能发射能横扫千军的超级弹药",
+  "basicStats": {
+    "ultimateCharge": 2500
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": ""
+    },
+    {
+      "name": "飞行",
+      "value": ""
+    },
+    {
+      "name": "装填",
+      "value": ""
+    },
+    {
+      "name": "自我伤害",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    },
+    {
+      "name": "变身",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "45（轻型弹药直接命中）<br />30-9（轻型弹药范围伤害）<br />175（重型弹药直接命中）<br />140-70（重型弹药范围伤害）"
+    },
+    {
+      "name": "最小-最大半径",
+      "value": "1-2.3米（轻型弹药）<br />2-6米（重型弹药）"
+    },
+    {
+      "name": "基础速度",
+      "value": "8米/秒"
+    },
+    {
+      "name": "持续时间",
+      "value": "8.8秒"
+    },
+    {
+      "name": "击退",
+      "value": "8米/秒（重型弹药）<br />32米/秒（自身）"
+    },
+    {
+      "name": "飞行击退抗性",
+      "value": "+50%击退抗性"
+    }
+  ]
+}

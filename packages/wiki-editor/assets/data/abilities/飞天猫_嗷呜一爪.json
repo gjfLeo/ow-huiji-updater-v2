@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "飞天猫/嗷呜一爪",
+  "name": "嗷呜一爪",
+  "hero": "飞天猫",
+  "category": "Perk",
+  "button": null,
+  "description": "快速近身攻击每6秒获得一次强化，能创伤敌人，造成40点伤害，并使其减速30%，持续1秒",
+  "basicStats": {
+    "perkIndex": "2A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

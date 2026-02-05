@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "安燃/易燃易爆",
+  "name": "易燃易爆",
+  "hero": "安燃",
+  "category": "Perk",
+  "button": null,
+  "description": "使用怒炎冲每击中一名敌人会使其冷却时间缩短1.5秒",
+  "basicStats": {
+    "perkIndex": "3A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

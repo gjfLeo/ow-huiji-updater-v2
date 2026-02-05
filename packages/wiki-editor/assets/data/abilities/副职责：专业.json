@@ -1,0 +1,21 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "副职责：专业",
+  "name": "副职责：专业",
+  "category": "PassiveAbility",
+  "button": null,
+  "description": "消灭敌人后在短时间内加快装填速度",
+  "basicStats": {},
+  "keywords": [],
+  "detailStats": [
+    {
+      "name": "装填速度加成",
+      "value": "+50%装填速度"
+    },
+    {
+      "name": "持续时间",
+      "value": "3秒"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "副职责：医疗",
+  "name": "副职责：医疗",
+  "category": "PassiveAbility",
+  "button": null,
+  "description": "使用武器治疗盟友也会治疗自己",
+  "basicStats": {},
+  "keywords": [],
+  "detailStats": [
+    {
+      "name": "自我治疗量",
+      "value": "造成治疗的25%"
+    }
+  ]
+}

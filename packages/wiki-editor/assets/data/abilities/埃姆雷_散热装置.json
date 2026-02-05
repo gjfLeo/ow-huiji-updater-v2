@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "埃姆雷/散热装置",
+  "name": "散热装置",
+  "hero": "埃姆雷",
+  "category": "Perk",
+  "button": null,
+  "description": "虹吸冲击枪直接命中会返还热量并使其持续时间延长0.1秒",
+  "basicStats": {
+    "perkIndex": "3A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

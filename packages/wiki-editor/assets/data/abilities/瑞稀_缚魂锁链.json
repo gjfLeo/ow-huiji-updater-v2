@@ -1,0 +1,49 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "瑞稀/缚魂锁链",
+  "name": "缚魂锁链",
+  "hero": "瑞稀",
+  "category": "Ability",
+  "button": "技能 2",
+  "description": "扔出一道束缚锁链，限制命中的第一个敌人",
+  "basicStats": {
+    "cooldown": 12
+  },
+  "keywords": [
+    {
+      "name": "可净化",
+      "value": ""
+    },
+    {
+      "name": "广义近身攻击",
+      "value": ""
+    },
+    {
+      "name": "限制",
+      "value": ""
+    },
+    {
+      "name": "栓锁",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "50"
+    },
+    {
+      "name": "持续时间",
+      "value": "1.6秒（基础）<br />1.2秒（重装）"
+    },
+    {
+      "name": "射程",
+      "value": "20米"
+    },
+    {
+      "name": "栓锁",
+      "value": "2.5米"
+    }
+  ]
+}

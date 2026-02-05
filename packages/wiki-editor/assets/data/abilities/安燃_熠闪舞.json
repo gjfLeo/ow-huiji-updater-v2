@@ -1,0 +1,65 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "安燃/熠闪舞",
+  "name": "熠闪舞",
+  "hero": "安燃",
+  "category": "Ability",
+  "button": "技能 2",
+  "description": "闪避所有伤害并攻击周围敌人",
+  "basicStats": {
+    "cooldown": 10
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": ""
+    },
+    {
+      "name": "燃烧",
+      "value": ""
+    },
+    {
+      "name": "无敌",
+      "value": ""
+    },
+    {
+      "name": "弱效净化",
+      "value": ""
+    },
+    {
+      "name": "近身攻击",
+      "value": ""
+    },
+    {
+      "name": "相移",
+      "value": ""
+    },
+    {
+      "name": "强位移",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "50"
+    },
+    {
+      "name": "半径",
+      "value": "8米"
+    },
+    {
+      "name": "焚身焰百分比",
+      "value": "50%（基础）<br />33%（重装）"
+    },
+    {
+      "name": "持续时间",
+      "value": "0.8秒（基础）<br />+0.16秒（基础时间结束后每个目标的时间加成）"
+    },
+    {
+      "name": "位移范围",
+      "value": "1.5米"
+    }
+  ]
+}

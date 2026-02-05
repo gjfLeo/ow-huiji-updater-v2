@@ -1,0 +1,45 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "金驭/全景牢笼",
+  "name": "全景牢笼",
+  "hero": "金驭",
+  "category": "UltimateAbility",
+  "button": "技能 3",
+  "description": "发射一道高强度光束屏障囚禁敌人，消失时会引爆",
+  "basicStats": {
+    "ultimateCharge": 2100
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": ""
+    },
+    {
+      "name": "屏障",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "75（贯穿命中）<br />300-100（由屏障生命值决定的爆炸）"
+    },
+    {
+      "name": "生命值",
+      "value": "450"
+    },
+    {
+      "name": "持续时间",
+      "value": "5秒"
+    },
+    {
+      "name": "敌方移动速度惩罚",
+      "value": "-40%移动速度"
+    }
+  ]
+}

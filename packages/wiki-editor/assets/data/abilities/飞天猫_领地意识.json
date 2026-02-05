@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "飞天猫/领地意识",
+  "name": "领地意识",
+  "hero": "飞天猫",
+  "category": "Perk",
+  "button": null,
+  "description": "呼噜噜还会对周围敌人造成伤害，数值为治疗量的50%。移除击退效果",
+  "basicStats": {
+    "perkIndex": "3B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

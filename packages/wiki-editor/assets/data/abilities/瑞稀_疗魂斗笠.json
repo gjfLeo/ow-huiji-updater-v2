@@ -1,0 +1,45 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "瑞稀/疗魂斗笠",
+  "name": "疗魂斗笠",
+  "hero": "瑞稀",
+  "category": "Ability",
+  "button": "辅助攻击模式",
+  "description": "扔出斗笠治疗一名盟友，会弹跳至周围盟友并在返回时治疗自身",
+  "basicStats": {
+    "cooldown": 6
+  },
+  "keywords": [
+    {
+      "name": "无视屏障",
+      "value": ""
+    },
+    {
+      "name": "强射弹",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "总持续治疗量",
+      "value": "90（第一跳）<br />70（第二跳）<br />50（第三跳）<br />30（自身）"
+    },
+    {
+      "name": "射程",
+      "value": "25米"
+    },
+    {
+      "name": "充能次数",
+      "value": "2"
+    },
+    {
+      "name": "弹跳",
+      "value": "最多弹跳3次<br />弹跳射程12米"
+    },
+    {
+      "name": "效果持续时间",
+      "value": "0.25秒"
+    }
+  ]
+}

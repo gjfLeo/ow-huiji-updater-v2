@@ -1,0 +1,57 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "金驭/音速斥力场",
+  "name": "音速斥力场",
+  "hero": "金驭",
+  "category": "Ability",
+  "button": "技能 1",
+  "description": "击退敌人，若击退至墙面还可将其击晕",
+  "basicStats": {
+    "cooldown": 7
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": ""
+    },
+    {
+      "name": "定身",
+      "value": ""
+    },
+    {
+      "name": "贯穿",
+      "value": ""
+    },
+    {
+      "name": "击晕",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "40（基础）<br />40（撞墙）"
+    },
+    {
+      "name": "范围",
+      "value": "8.5米"
+    },
+    {
+      "name": "定身持续时间",
+      "value": "0.5秒"
+    },
+    {
+      "name": "击晕持续时间",
+      "value": "0.5秒（撞墙）"
+    },
+    {
+      "name": "击退",
+      "value": "17.5米/秒"
+    },
+    {
+      "name": "撞墙击晕撞击角度",
+      "value": "55度"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "瑞稀/御魂镰刃",
+  "name": "御魂镰刃",
+  "hero": "瑞稀",
+  "category": "Weapon",
+  "button": "主要攻击模式",
+  "description": "扔出飞旋镰刃，击中敌人会快速造成伤害",
+  "basicStats": {
+    "ammo": 15,
+    "reloadTime": 1.5
+  },
+  "keywords": [
+    {
+      "name": "护甲贯穿",
+      "value": ""
+    },
+    {
+      "name": "暴击",
+      "value": ""
+    },
+    {
+      "name": "可净化",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "30（基础）<br />30（总持续伤害量）"
+    },
+    {
+      "name": "射程",
+      "value": "30米"
+    }
+  ]
+}

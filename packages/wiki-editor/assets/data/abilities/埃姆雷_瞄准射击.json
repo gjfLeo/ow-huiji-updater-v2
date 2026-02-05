@@ -1,0 +1,35 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "埃姆雷/瞄准射击",
+  "name": "瞄准射击",
+  "hero": "埃姆雷",
+  "category": "Weapon",
+  "button": "辅助攻击模式",
+  "description": "长按可以开镜瞄准，提高射击精度，扩大衰减射程",
+  "basicStats": {},
+  "keywords": [
+    {
+      "name": "暴击",
+      "value": ""
+    },
+    {
+      "name": "即时命中",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "单发齐射伤害量",
+      "value": "60（基础）<br />18（最大衰减）"
+    },
+    {
+      "name": "最小-最大衰减射程",
+      "value": "30-45米"
+    },
+    {
+      "name": "单发齐射弹丸数",
+      "value": "3"
+    }
+  ]
+}

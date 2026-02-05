@@ -1,0 +1,22 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "安燃/焚身焰",
+  "name": "焚身焰",
+  "hero": "安燃",
+  "category": "PassiveAbility",
+  "button": null,
+  "description": "用火焰攻击命中敌人可将其点燃",
+  "basicStats": {},
+  "keywords": [],
+  "detailStats": [
+    {
+      "name": "每秒伤害量",
+      "value": "10（基础）<br />20（煽火风）"
+    },
+    {
+      "name": "持续时间",
+      "value": "3秒"
+    }
+  ]
+}

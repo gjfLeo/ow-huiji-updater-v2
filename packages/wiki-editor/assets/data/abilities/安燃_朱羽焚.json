@@ -1,0 +1,69 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "安燃/朱羽焚",
+  "name": "朱羽焚",
+  "hero": "安燃",
+  "category": "UltimateAbility",
+  "button": "技能 3",
+  "description": "向前猛冲，击中时爆炸并立即点燃敌人",
+  "basicStats": {
+    "ultimateCharge": 2000
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": ""
+    },
+    {
+      "name": "屏障贯穿",
+      "value": ""
+    },
+    {
+      "name": "燃烧",
+      "value": ""
+    },
+    {
+      "name": "闪避",
+      "value": ""
+    },
+    {
+      "name": "位移",
+      "value": ""
+    },
+    {
+      "name": "装填",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "165-90"
+    },
+    {
+      "name": "目标选择持续时间",
+      "value": "3秒"
+    },
+    {
+      "name": "最小-最大半径",
+      "value": "2.5-10米"
+    },
+    {
+      "name": "速度",
+      "value": "40米/秒（猛冲）<br />13米/秒（启动）<br />0.8米/秒（飞升）"
+    },
+    {
+      "name": "范围",
+      "value": "40米"
+    },
+    {
+      "name": "焚身焰百分比",
+      "value": "100%"
+    },
+    {
+      "name": "最小-最大反向击退",
+      "value": "6.1-10.8米/秒"
+    }
+  ]
+}

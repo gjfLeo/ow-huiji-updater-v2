@@ -1,0 +1,45 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "瑞稀/护魂结界",
+  "name": "护魂结界",
+  "hero": "瑞稀",
+  "category": "UltimateAbility",
+  "button": "技能 3",
+  "description": "生成一道结界，能治疗盟友并吸收结界外发射的敌方射弹",
+  "basicStats": {
+    "ultimateCharge": 2900
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": ""
+    },
+    {
+      "name": "可部署",
+      "value": ""
+    },
+    {
+      "name": "拦截射弹",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "持续治疗量",
+      "value": "50/秒"
+    },
+    {
+      "name": "持续时间",
+      "value": "6秒"
+    },
+    {
+      "name": "效果范围",
+      "value": "半径7米<br />高度8米"
+    },
+    {
+      "name": "效果保留持续时间",
+      "value": "0.3米"
+    }
+  ]
+}

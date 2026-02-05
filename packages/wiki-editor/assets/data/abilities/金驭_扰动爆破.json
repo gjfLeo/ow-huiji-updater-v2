@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "金驭/扰动爆破",
+  "name": "扰动爆破",
+  "hero": "金驭",
+  "category": "Perk",
+  "button": null,
+  "description": "被爆能水晶爆炸命中的敌人会被减速30%，持续2秒",
+  "basicStats": {
+    "perkIndex": "3A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

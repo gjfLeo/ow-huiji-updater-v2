@@ -1,0 +1,41 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "金驭/屏障阵列",
+  "name": "屏障阵列",
+  "hero": "金驭",
+  "category": "Ability",
+  "button": "辅助攻击模式",
+  "description": "构造一道分段式屏障",
+  "basicStats": {
+    "cooldown": 14
+  },
+  "keywords": [
+    {
+      "name": "屏障",
+      "value": ""
+    },
+    {
+      "name": "可部署",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "生命值",
+      "value": "250（每块屏障面板）"
+    },
+    {
+      "name": "持续时间",
+      "value": "8秒"
+    },
+    {
+      "name": "最大射程",
+      "value": "35米"
+    },
+    {
+      "name": "屏障面板总数",
+      "value": "27"
+    }
+  ]
+}

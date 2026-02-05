@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "埃姆雷/敏捷强化",
+  "name": "敏捷强化",
+  "hero": "埃姆雷",
+  "category": "Perk",
+  "button": null,
+  "description": "虹吸冲击枪的移动速度加成在不开火时提高20%",
+  "basicStats": {
+    "perkIndex": "2B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

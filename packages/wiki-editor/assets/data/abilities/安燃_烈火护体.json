@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "安燃/烈火护体",
+  "name": "烈火护体",
+  "hero": "安燃",
+  "category": "Perk",
+  "button": null,
+  "description": "使用终极技能时获得50点过量生命值，用终极技能每点燃一名敌人，也会获得50点过量生命值",
+  "basicStats": {
+    "perkIndex": "2B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

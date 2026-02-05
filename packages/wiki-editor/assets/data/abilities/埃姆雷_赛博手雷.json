@@ -1,0 +1,49 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "埃姆雷/赛博手雷",
+  "name": "赛博手雷",
+  "hero": "埃姆雷",
+  "category": "Ability",
+  "button": "技能 2",
+  "description": "扔出一枚手雷，弹跳后会在短时间内引爆",
+  "basicStats": {
+    "cooldown": 10
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>球形</mark>范围内的目标"
+    },
+    {
+      "name": "自我伤害",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "110-55（范围伤害）"
+    },
+    {
+      "name": "最小-最大半径",
+      "value": "1.3-4米"
+    },
+    {
+      "name": "击退",
+      "value": "3.2米/秒（敌人）<br />+12.3米/秒（自身）<br />+6米/秒（自身使用虹吸冲击枪）"
+    },
+    {
+      "name": "击中后爆炸延迟",
+      "value": "0.6秒"
+    },
+    {
+      "name": "充能次数",
+      "value": "2"
+    }
+  ]
+}

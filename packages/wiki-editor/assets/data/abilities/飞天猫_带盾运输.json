@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "飞天猫/带盾运输",
+  "name": "带盾运输",
+  "hero": "飞天猫",
+  "category": "Perk",
+  "button": null,
+  "description": "运输其他英雄时获得最多75点额外护盾生命值",
+  "basicStats": {
+    "perkIndex": "2B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "瑞稀/共鸣飞返",
+  "name": "共鸣飞返",
+  "hero": "瑞稀",
+  "category": "Perk",
+  "button": null,
+  "description": "疗魂斗笠额外弹跳一次。每弹跳一次，治疗量提高10点",
+  "basicStats": {
+    "perkIndex": "3A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

@@ -1,0 +1,25 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "副职责：先锋",
+  "name": "副职责：先锋",
+  "category": "PassiveAbility",
+  "button": null,
+  "description": "在空中会获得少量治疗",
+  "basicStats": {},
+  "keywords": [],
+  "detailStats": [
+    {
+      "name": "滞空时间要求",
+      "value": "0.8秒"
+    },
+    {
+      "name": "总持续治疗量",
+      "value": "75"
+    },
+    {
+      "name": "治疗持续时间",
+      "value": "1秒"
+    }
+  ]
+}

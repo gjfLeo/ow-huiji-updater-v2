@@ -1,0 +1,22 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "埃姆雷/机变体征",
+  "name": "机变体征",
+  "hero": "埃姆雷",
+  "category": "PassiveAbility",
+  "button": null,
+  "description": "被动生命值恢复激活速度加快，并在激活时立即恢复30点生命值",
+  "basicStats": {},
+  "keywords": [],
+  "detailStats": [
+    {
+      "name": "治疗量",
+      "value": "30"
+    },
+    {
+      "name": "生命恢复延迟",
+      "value": "4.5秒"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "飞天猫/生物猫爪弹",
+  "name": "生物猫爪弹",
+  "hero": "飞天猫",
+  "category": "Weapon",
+  "button": "主要攻击模式",
+  "description": "可治疗盟友并对敌人造成伤害的中距离扩散子弹",
+  "basicStats": {
+    "ammo": 24,
+    "reloadTime": 1.25
+  },
+  "keywords": [
+    {
+      "name": "暴击",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "单发齐射伤害量",
+      "value": "24（基础-中心弹丸无法暴击）"
+    },
+    {
+      "name": "单发齐射治疗量",
+      "value": "24（基础）"
+    },
+    {
+      "name": "散布",
+      "value": "0度（1发中心弹丸）<br />0.3度（2发内侧猫爪弹丸）<br />0.9度（2发外侧猫爪弹丸）"
+    },
+    {
+      "name": "射程",
+      "value": "40米"
+    },
+    {
+      "name": "单发齐射弹丸数",
+      "value": "4发猫爪弹丸<br />1发中心弹丸"
+    }
+  ]
+}
