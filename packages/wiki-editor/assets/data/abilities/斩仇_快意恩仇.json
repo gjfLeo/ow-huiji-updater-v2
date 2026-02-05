@@ -7,6 +7,7 @@
   "category": "Perk",
   "button": null,
   "description": "将上一位对你造成最后一击的敌人作为目标。消灭目标会获得150点过量生命值并重置各项技能的冷却时间",
+  "removed": true,
   "basicStats": {
     "perkIndex": "3A"
   },

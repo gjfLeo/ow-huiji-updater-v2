@@ -1,14 +1,14 @@
 {
   "_hjschema": "Ability",
   "_dataType": "ability",
-  "key": "弗蕾娅/无情弹幕",
-  "name": "无情弹幕",
+  "key": "弗蕾娅/劲风再起",
+  "name": "劲风再起",
   "hero": "弗蕾娅",
   "category": "Perk",
   "button": null,
-  "description": "瞄准射击直接命中返还8发自动弩箭弹药",
+  "description": "上升气流获得一次额外充能，但高度降低20%",
   "basicStats": {
-    "perkIndex": "2A"
+    "perkIndex": "3B"
   },
   "keywords": [],
   "detailStats": []

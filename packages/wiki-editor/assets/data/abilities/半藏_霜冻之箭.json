@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "半藏/霜冻之箭",
+  "name": "霜冻之箭",
+  "hero": "半藏",
+  "category": "Perk",
+  "button": null,
+  "description": "按下 <kbd>R</kbd> 换上一支霜冻爆炸箭，使被命中的敌人减速35%，持续2秒",
+  "basicStats": {
+    "perkIndex": "3A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

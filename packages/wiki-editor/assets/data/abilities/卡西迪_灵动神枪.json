@@ -7,6 +7,7 @@
   "category": "Perk",
   "button": null,
   "description": "主要攻击模式造成暴击会使战术翻滚的冷却时间缩短3秒",
+  "removed": true,
   "basicStats": {
     "perkIndex": "3A"
   },

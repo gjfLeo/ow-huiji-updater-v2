@@ -1,12 +1,12 @@
 {
   "_hjschema": "Ability",
   "_dataType": "ability",
-  "key": "半藏/神竜之怒",
-  "name": "神竜之怒",
-  "hero": "半藏",
+  "key": "斩仇/充盈剑气",
+  "name": "充盈剑气",
+  "hero": "斩仇",
   "category": "Perk",
   "button": null,
-  "description": "主要攻击模式命中敌人后，获得20%攻击速度，持续1.5秒",
+  "description": "锋锐剑气的能量消耗降低25%",
   "basicStats": {
     "perkIndex": "2B"
   },

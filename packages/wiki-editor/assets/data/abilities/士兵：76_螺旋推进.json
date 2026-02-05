@@ -1,13 +1,12 @@
 {
   "_hjschema": "Ability",
   "_dataType": "ability",
-  "key": "士兵：76/循环脉冲弹",
-  "name": "循环脉冲弹",
+  "key": "士兵：76/螺旋推进",
+  "name": "螺旋推进",
   "hero": "士兵：76",
   "category": "Perk",
   "button": null,
-  "description": "螺旋飞弹对敌人造成伤害会装填15发弹药",
-  "removed": true,
+  "description": "螺旋飞弹的弹道速度加快50%",
   "basicStats": {
     "perkIndex": "2A"
   },

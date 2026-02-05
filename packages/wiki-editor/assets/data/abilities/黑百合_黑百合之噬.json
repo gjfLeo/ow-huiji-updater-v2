@@ -1,13 +1,12 @@
 {
   "_hjschema": "Ability",
   "_dataType": "ability",
-  "key": "黑百合/撤离计划",
-  "name": "撤离计划",
+  "key": "黑百合/黑百合之噬",
+  "name": "黑百合之噬",
   "hero": "黑百合",
   "category": "Perk",
   "button": null,
-  "description": "开镜射击命中会使抓钩的冷却时间缩短最多4秒",
-  "removed": true,
+  "description": "开镜射击充能上限提升至125%，完全充能时可贯穿敌人",
   "basicStats": {
     "perkIndex": "3B"
   },

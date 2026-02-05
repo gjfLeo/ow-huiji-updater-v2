@@ -1,13 +1,12 @@
 {
   "_hjschema": "Ability",
   "_dataType": "ability",
-  "key": "黑影/急救黑客",
-  "name": "急救黑客",
+  "key": "黑影/高速带宽",
+  "name": "高速带宽",
   "hero": "黑影",
   "category": "Perk",
   "button": null,
-  "description": "被侵入的急救包为“黑影”提供最多75点过量生命值",
-  "removed": true,
+  "description": "被侵入的急救包能使盟友的移动速度加快25%，并获得50点过量生命值，持续4秒",
   "basicStats": {
     "perkIndex": "3A"
   },
