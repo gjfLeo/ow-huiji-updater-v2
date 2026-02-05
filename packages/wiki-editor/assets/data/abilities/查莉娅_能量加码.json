@@ -1,14 +1,14 @@
 {
   "_hjschema": "Ability",
   "_dataType": "ability",
-  "key": "查莉娅/能量长枪",
-  "name": "能量长枪",
+  "key": "查莉娅/能量加码",
+  "name": "能量加码",
   "hero": "查莉娅",
   "category": "Perk",
   "button": null,
-  "description": "粒子炮的光束会贯穿敌人",
+  "description": "屏障激活时，使用粒子炮的光束造成伤害会产生能量",
   "basicStats": {
-    "perkIndex": "3B"
+    "perkIndex": "3A"
   },
   "keywords": [],
   "detailStats": []

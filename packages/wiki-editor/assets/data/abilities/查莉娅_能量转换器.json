@@ -7,6 +7,7 @@
   "category": "Perk",
   "button": null,
   "description": "粒子炮的辅助攻击模式命中会产生2点能量",
+  "removed": true,
   "basicStats": {
     "perkIndex": "2A"
   },

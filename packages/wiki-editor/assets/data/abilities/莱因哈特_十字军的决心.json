@@ -1,13 +1,12 @@
 {
   "_hjschema": "Ability",
   "_dataType": "ability",
-  "key": "莱因哈特/屏障冲能",
-  "name": "屏障冲能",
+  "key": "莱因哈特/十字军的决心",
+  "name": "十字军的决心",
   "hero": "莱因哈特",
   "category": "Perk",
   "button": null,
-  "description": "使用冲锋行进会为屏障力场每秒恢复200点生命值",
-  "removed": true,
+  "description": "使用屏障力场时，你的被动生命值恢复触发速度加快75%",
   "basicStats": {
     "perkIndex": "2B"
   },
