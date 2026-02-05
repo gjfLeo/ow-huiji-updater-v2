@@ -118,18 +118,15 @@ function getExtension(title: string, contentModel?: string) {
         return extension;
       }
     }
-    if (title.startsWith("模块:") || title.startsWith("Module:")) {
-      return ".lua";
-    }
+    if (title.startsWith("模块:") || title.startsWith("Module:")) return ".lua";
+    if (title.startsWith("Html:")) return ".html";
     return ".wikitext";
   }
   switch (contentModel) {
-    case "wikitext":
-      return ".wikitext";
-    case "GadgetDefinition":
-      return ".json";
-    case "Scribunto":
-      return ".lua";
+    case "wikitext": return ".wikitext";
+    case "GadgetDefinition": return ".json";
+    case "HtmlMustache": return ".html";
+    case "Scribunto": return ".lua";
     default:
       logger.warn(`未知的 contentmodel ${contentModel}，默认使用 wikitext`);
       return ".wikitext";
