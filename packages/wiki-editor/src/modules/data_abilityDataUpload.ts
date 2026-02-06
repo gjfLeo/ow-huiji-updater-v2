@@ -39,5 +39,6 @@ export default async function abilityDataUpload() {
   await wikiBatchEdit(pages, {
     formatter: content => JSON.stringify(zWikiAbility.parse(destr(content))),
     summary: "更新技能数据（ow-huiji-updater）",
+    readBatchSize: 80,
   });
 }
