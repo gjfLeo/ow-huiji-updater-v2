@@ -6,7 +6,7 @@
   "hero": "安燃",
   "category": "Perk",
   "button": null,
-  "description": "使用终极技能时获得50点过量生命值，用终极技能每点燃一名敌人，也会获得50点过量生命值",
+  "description": "终极技能每点燃一名敌人，获得60点过量生命值，可叠加至180点",
   "basicStats": {
     "perkIndex": "2B"
   },
