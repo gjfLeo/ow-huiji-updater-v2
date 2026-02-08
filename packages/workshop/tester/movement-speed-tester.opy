@@ -9,8 +9,15 @@ settings {
         "general": {
             "heroLimit": "off",
             "respawnTime%": 30
-        }
-    }
+        },
+    },
+    "heroes": {
+        "allTeams": {
+            "general": {
+                "abilityCooldown%": 0,
+            },
+        },
+    },
 }
 
 playervar timestamp
@@ -109,6 +116,19 @@ rule "Remove Cooldown":
     eventPlayer.setAbilityCooldown(Button.SECONDARY_FIRE, 0)
     eventPlayer.setUltCharge(100)
 
+rule "Remove Cooldown":
+    @Event eachPlayer
+    @Condition eventPlayer.getAbilityCooldown(Button.ABILITY_1) > 0 or eventPlayer.getAbilityCooldown(Button.ABILITY_2) > 0 or eventPlayer.getAbilityCooldown(Button.SECONDARY_FIRE) > 0 or eventPlayer.getAbilityCooldown(Button.JUMP) > 0 or eventPlayer.getAbilityCooldown(Button.CROUCH) > 0 or eventPlayer.getUltCharge() < 100
+    eventPlayer.setAbilityCooldown(Button.ABILITY_1, 0)
+    eventPlayer.setAbilityCharge(Button.ABILITY_1, Math.INFINITY)
+    eventPlayer.setAbilityCooldown(Button.ABILITY_2, 0)
+    eventPlayer.setAbilityCharge(Button.ABILITY_2, Math.INFINITY)
+    eventPlayer.setAbilityCooldown(Button.SECONDARY_FIRE, 0)
+    eventPlayer.setAbilityCharge(Button.SECONDARY_FIRE, Math.INFINITY)
+    eventPlayer.setAbilityCooldown(Button.JUMP, 0)
+    eventPlayer.setAbilityCooldown(Button.CROUCH, 0)
+    eventPlayer.setUltCharge(100)
+
 # rule "Log movement":
 #     @Event eachPlayer
 #     @Condition eventPlayer == hostPlayer
@@ -155,3 +175,31 @@ rule "Change Hero":
 #     @Condition eventPlayer.getAltitude() > 0 and updateEveryFrame(eventPlayer.getVerticalSpeed()) < 0
 #     eventPlayer.vSpeedMax = 0
 #     eventPlayer.forceButtonPress(Button.ABILITY_1)
+
+rule "Reset Facing":
+    @Event eachPlayer
+    @Condition eventPlayer.isHoldingButton(Button.RELOAD)
+    waitUntil(eventPlayer.isHoldingButton(Button.RELOAD) == false, 3)
+    if (eventPlayer.isHoldingButton(Button.RELOAD)):
+        smallMessage(eventPlayer, "  松开按键后将调整朝向")
+        waitUntil(eventPlayer.isHoldingButton(Button.RELOAD) == false)
+        eventPlayer.setFacing(directionFromAngles(
+            round(horizontalAngleOfDirection(eventPlayer.getFacingDirection()) / 15) * 15,
+            round(verticalAngleOfDirection(eventPlayer.getFacingDirection()) / 15) * 15
+        ), Relativity.TO_WORLD)
+        # smallMessage(eventPlayer, f"  {horizontalAngleOfDirection(eventPlayer.getFacingDirection())}")
+        # smallMessage(eventPlayer, f"  {verticalAngleOfDirection(eventPlayer.getFacingDirection())}")
+
+enum Hero:
+    ANRAN = getAllHeroes()[45]
+
+rule "Anran Ability 1 Test":
+    @Event eachPlayer
+    @Condition eventPlayer.getHero() == Hero.ANRAN
+    @Condition eventPlayer.isHoldingButton(Button.ABILITY_1)
+    eventPlayer.T = 0
+    chaseAtRate(eventPlayer.T, Math.INFINITY, 1000)
+    waitUntil(updateEveryFrame(eventPlayer.getSpeed()) >= 18)
+    waitUntil(updateEveryFrame(eventPlayer.getSpeed()) <= 6 * 2.1)
+    stopChasingVariable(eventPlayer.T)
+    smallMessage(eventPlayer, f"  爆发速度：{updateEveryFrame(eventPlayer.T)}")
