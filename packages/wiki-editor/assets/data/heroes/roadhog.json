@@ -1,10 +1,10 @@
 {
-  "_hjschema": "Hero",
-  "_dataType": "hero",
+  "_dataType": "Hero",
   "key": "roadhog",
   "name": "路霸",
   "nameEn": "Roadhog",
-  "role": "tank",
+  "role": "重装",
+  "subRole": "斗士",
   "revealDate": "2015-09-22",
   "releaseDate": "2016-05-24",
   "releaseDateDescription": "《守望先锋》上线",

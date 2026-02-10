@@ -1,10 +1,10 @@
 {
-  "_hjschema": "Hero",
-  "_dataType": "hero",
+  "_dataType": "Hero",
   "key": "illari",
   "name": "伊拉锐",
   "nameEn": "Illari",
-  "role": "support",
+  "role": "支援",
+  "subRole": "生存",
   "revealDate": "2023-05-16",
   "releaseDate": "2023-08-10",
   "releaseDateDescription": "第6赛季",

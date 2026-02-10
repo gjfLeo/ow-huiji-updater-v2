@@ -1,10 +1,10 @@
 {
-  "_hjschema": "Hero",
-  "_dataType": "hero",
+  "_dataType": "Hero",
   "key": "moira",
   "name": "莫伊拉",
   "nameEn": "Moira",
-  "role": "support",
+  "role": "支援",
+  "subRole": "医疗",
   "revealDate": "2017-11-03",
   "releaseDate": "2017-11-16",
   "color": "#804BE5",

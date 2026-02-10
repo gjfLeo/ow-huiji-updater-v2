@@ -1,10 +1,10 @@
 {
-  "_hjschema": "Hero",
-  "_dataType": "hero",
+  "_dataType": "Hero",
   "key": "orisa",
   "name": "奥丽莎",
   "nameEn": "Orisa",
-  "role": "tank",
+  "role": "重装",
+  "subRole": "斗士",
   "revealDate": "2017-03-02",
   "releaseDate": "2017-03-21",
   "color": "#106F04",

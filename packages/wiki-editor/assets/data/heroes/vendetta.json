@@ -1,10 +1,10 @@
 {
-  "_hjschema": "Hero",
-  "_dataType": "hero",
+  "_dataType": "Hero",
   "key": "vendetta",
   "name": "斩仇",
   "nameEn": "Vendetta",
-  "role": "damage",
+  "role": "输出",
+  "subRole": "奇袭",
   "revealDate": "2025-11-17",
   "releaseDate": "2025-12-09",
   "releaseDateDescription": "第20赛季",

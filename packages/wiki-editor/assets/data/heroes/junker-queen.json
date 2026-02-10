@@ -1,10 +1,10 @@
 {
-  "_hjschema": "Hero",
-  "_dataType": "hero",
+  "_dataType": "Hero",
   "key": "junker-queen",
   "name": "渣客女王",
   "nameEn": "Junker Queen",
-  "role": "tank",
+  "role": "重装",
+  "subRole": "铁壁",
   "revealDate": "2022-06-12",
   "releaseDate": "2022-10-04",
   "releaseDateDescription": "第1赛季",

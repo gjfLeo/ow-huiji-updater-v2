@@ -1,10 +1,10 @@
 {
-  "_hjschema": "Hero",
-  "_dataType": "hero",
+  "_dataType": "Hero",
   "key": "baptiste",
   "name": "巴蒂斯特",
   "nameEn": "Baptiste",
-  "role": "support",
+  "role": "支援",
+  "subRole": "战术",
   "revealDate": "2019-02-25",
   "releaseDate": "2019-03-19",
   "color": "#28A5C3",

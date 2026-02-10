@@ -1,10 +1,10 @@
 {
-  "_hjschema": "Hero",
-  "_dataType": "hero",
+  "_dataType": "Hero",
   "key": "echo",
   "name": "回声",
   "nameEn": "Echo",
-  "role": "damage",
+  "role": "输出",
+  "subRole": "侦查",
   "revealDate": "2020-03-18",
   "releaseDate": "2020-04-14",
   "color": "#89C8FF",

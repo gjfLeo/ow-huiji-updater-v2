@@ -1,10 +1,10 @@
 {
-  "_hjschema": "Hero",
-  "_dataType": "hero",
+  "_dataType": "Hero",
   "key": "kiriko",
   "name": "雾子",
   "nameEn": "Kiriko",
-  "role": "support",
+  "role": "支援",
+  "subRole": "医疗",
   "revealDate": "2022-09-15",
   "releaseDate": "2022-10-04",
   "releaseDateDescription": "第1赛季",

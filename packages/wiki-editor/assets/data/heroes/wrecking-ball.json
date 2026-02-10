@@ -1,10 +1,10 @@
 {
-  "_hjschema": "Hero",
-  "_dataType": "hero",
+  "_dataType": "Hero",
   "key": "wrecking-ball",
   "name": "破坏球",
   "nameEn": "Wrecking Ball",
-  "role": "tank",
+  "role": "重装",
+  "subRole": "先锋",
   "revealDate": "2018-06-28",
   "releaseDate": "2018-07-24",
   "color": "#E2790A",

@@ -1,10 +1,10 @@
 {
-  "_hjschema": "Hero",
-  "_dataType": "hero",
+  "_dataType": "Hero",
   "key": "sojourn",
   "name": "索杰恩",
   "nameEn": "Sojourn",
-  "role": "damage",
+  "role": "输出",
+  "subRole": "神准",
   "revealDate": "2019-11-01",
   "releaseDate": "2022-10-04",
   "releaseDateDescription": "第1赛季",

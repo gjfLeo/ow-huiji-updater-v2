@@ -1,10 +1,10 @@
 {
-  "_hjschema": "Hero",
-  "_dataType": "hero",
+  "_dataType": "Hero",
   "key": "zenyatta",
   "name": "禅雅塔",
   "nameEn": "Zenyatta",
-  "role": "support",
+  "role": "支援",
+  "subRole": "战术",
   "revealDate": "2014-11-07",
   "releaseDate": "2016-05-24",
   "releaseDateDescription": "《守望先锋》上线",

@@ -1,10 +1,10 @@
 {
-  "_hjschema": "Hero",
-  "_dataType": "hero",
+  "_dataType": "Hero",
   "key": "junkrat",
   "name": "狂鼠",
   "nameEn": "Junkrat",
-  "role": "damage",
+  "role": "输出",
+  "subRole": "专业",
   "revealDate": "2015-09-22",
   "releaseDate": "2016-05-24",
   "releaseDateDescription": "《守望先锋》上线",

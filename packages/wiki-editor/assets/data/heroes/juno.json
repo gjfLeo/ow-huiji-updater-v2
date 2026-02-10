@@ -1,10 +1,10 @@
 {
-  "_hjschema": "Hero",
-  "_dataType": "hero",
+  "_dataType": "Hero",
   "key": "juno",
   "name": "朱诺",
   "nameEn": "Juno",
-  "role": "support",
+  "role": "支援",
+  "subRole": "生存",
   "revealDate": "2023-11-03",
   "releaseDate": "2024-08-20",
   "releaseDateDescription": "第12赛季",

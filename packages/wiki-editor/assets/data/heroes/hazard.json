@@ -1,10 +1,10 @@
 {
-  "_hjschema": "Hero",
-  "_dataType": "hero",
+  "_dataType": "Hero",
   "key": "hazard",
   "name": "骇灾",
   "nameEn": "Hazard",
-  "role": "tank",
+  "role": "重装",
+  "subRole": "铁壁",
   "revealDate": "2024-11-19",
   "releaseDate": "2024-12-10",
   "releaseDateDescription": "第14赛季",

@@ -1,10 +1,10 @@
 {
-  "_hjschema": "Hero",
-  "_dataType": "hero",
+  "_dataType": "Hero",
   "key": "genji",
   "name": "源氏",
   "nameEn": "Genji",
-  "role": "damage",
+  "role": "输出",
+  "subRole": "奇袭",
   "revealDate": "2025-11-06",
   "releaseDate": "2016-05-24",
   "releaseDateDescription": "《守望先锋》上线",

@@ -1,10 +1,10 @@
 {
-  "_hjschema": "Hero",
-  "_dataType": "hero",
+  "_dataType": "Hero",
   "key": "hanzo",
   "name": "半藏",
   "nameEn": "Hanzo",
-  "role": "damage",
+  "role": "输出",
+  "subRole": "神准",
   "revealDate": "2014-11-07",
   "releaseDate": "2016-05-24",
   "releaseDateDescription": "《守望先锋》上线",

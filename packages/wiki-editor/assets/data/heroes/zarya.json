@@ -1,10 +1,10 @@
 {
-  "_hjschema": "Hero",
-  "_dataType": "hero",
+  "_dataType": "Hero",
   "key": "zarya",
   "name": "查莉娅",
   "nameEn": "Zarya",
-  "role": "tank",
+  "role": "重装",
+  "subRole": "斗士",
   "revealDate": "2015-03-06",
   "releaseDate": "2016-05-24",
   "releaseDateDescription": "《守望先锋》上线",

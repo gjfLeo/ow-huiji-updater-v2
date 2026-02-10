@@ -1,10 +1,10 @@
 {
-  "_hjschema": "Hero",
-  "_dataType": "hero",
+  "_dataType": "Hero",
   "key": "lifeweaver",
   "name": "生命之梭",
   "nameEn": "Lifeweaver",
-  "role": "support",
+  "role": "支援",
+  "subRole": "医疗",
   "revealDate": "2023-04-03",
   "releaseDate": "2023-04-11",
   "releaseDateDescription": "第4赛季",

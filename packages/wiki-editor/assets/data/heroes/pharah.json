@@ -1,10 +1,10 @@
 {
-  "_hjschema": "Hero",
-  "_dataType": "hero",
+  "_dataType": "Hero",
   "key": "pharah",
   "name": "法老之鹰",
   "nameEn": "Pharah",
-  "role": "damage",
+  "role": "输出",
+  "subRole": "侦查",
   "revealDate": "2014-11-07",
   "releaseDate": "2016-05-24",
   "releaseDateDescription": "《守望先锋》上线",
