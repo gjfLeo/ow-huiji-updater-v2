@@ -126,6 +126,7 @@ function getExtension(title: string, contentModel?: string) {
     case "wikitext": return ".wikitext";
     case "GadgetDefinition": return ".json";
     case "HtmlMustache": return ".html";
+    case "javascript": return ".js";
     case "Scribunto": return ".lua";
     default:
       logger.warn(`未知的 contentmodel ${contentModel}，默认使用 wikitext`);
