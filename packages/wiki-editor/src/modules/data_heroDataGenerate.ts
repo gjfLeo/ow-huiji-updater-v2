@@ -98,7 +98,7 @@ export default async function heroDataUpdate() {
     const heroKey = heroData.key;
     await Bun.write(
       path.resolve(heroDataDir, `${heroKey}.json`),
-      JSON.stringify(zWikiHero.parse(heroData), null, 2),
+      `${JSON.stringify(zWikiHero.parse(heroData), null, 2)}\n`,
     );
     spinnerProgress.increment();
   }

@@ -1,6 +1,6 @@
 import { ofetch } from "ofetch";
 import { z } from "zod";
-import { zRole } from "../models/hero";
+import { zRoleKey } from "../models/hero";
 
 export const overfastApi = ofetch.create({
   baseURL: "https://overfast-api.tekrop.fr/",
@@ -9,7 +9,7 @@ const zOverfastHero = z.object({
   name: z.string(),
   description: z.string(),
   portrait: z.url(),
-  role: zRole,
+  role: zRoleKey,
   location: z.string(),
   age: z.number(),
   birthday: z.string().nullable(),

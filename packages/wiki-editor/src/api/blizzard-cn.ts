@@ -2,7 +2,7 @@ import path from "node:path";
 import { destr } from "destr";
 import { ofetch } from "ofetch";
 import { z } from "zod";
-import { zRole } from "../models/hero";
+import { zRole, zRoleKey } from "../models/hero";
 
 const zBlizzardCnArmoryApiResponse = z.object({
   code: z.number(),
@@ -45,8 +45,8 @@ const zHeroConfigData = z
           return n;
         }, z.string()),
         desc: z.string(),
-        typeName: z.string(),
-        type: z.preprocess(s => String(s).toLowerCase(), zRole),
+        typeName: zRole,
+        type: z.preprocess(s => String(s).toLowerCase(), zRoleKey),
         location: z.string(),
         birthday: z.string(),
         picList: z.url().array().length(3),

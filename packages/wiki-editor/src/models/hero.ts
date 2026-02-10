@@ -1,15 +1,26 @@
 import { z } from "zod";
 
-export const zRole = z.enum(["tank", "damage", "support"]);
-export type Role = z.infer<typeof zRole>;
+export const zRoleKey = z.enum(["tank", "damage", "support"]);
+export const zRole = z.enum([
+  "重装",
+  "输出",
+  "支援",
+]);
+export const zSubRole = z.enum([
+  /* eslint-disable antfu/consistent-list-newline */
+  "斗士", "先锋", "铁壁",
+  "神准", "奇袭", "专业", "侦查",
+  "战术", "医疗", "生存",
+  /* eslint-enable antfu/consistent-list-newline */
+]);
 
 export const zWikiHero = z.object({
-  _hjschema: z.literal("Hero"),
-  _dataType: z.literal("hero"),
+  _dataType: z.literal("Hero"),
   key: z.string(),
   name: z.string(),
   nameEn: z.string(),
   role: zRole,
+  subRole: zSubRole,
   revealDate: z.string().regex(/^\d{4}-\d{2}-\d{2}$/).optional(),
   releaseDate: z.string().regex(/^\d{4}-\d{2}-\d{2}$/).optional(),
   releaseDateDescription: z.string().optional(),
