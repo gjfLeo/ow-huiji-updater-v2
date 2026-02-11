@@ -3,6 +3,7 @@ import type { WikiAbility } from "../models/ability";
 import path from "node:path";
 import destr from "destr";
 import fse from "fs-extra";
+import { abilityKeywords } from "../data/ability-keywords";
 import { zWikiAbility } from "../models/ability";
 import { logger, spinnerProgress } from "../utils/logger";
 import { wikiBatchEdit } from "../wiki/batch";
@@ -20,6 +21,30 @@ export default async function abilityDataUpload() {
       fileErrors.push(error);
       continue;
     }
+
+    for (const keywordItem of parsedData.keywords) {
+      const keywordData = abilityKeywords.find(item => item.name === keywordItem.name);
+      if (!keywordData) {
+        logger.error(`未找到技能关键词 ${keywordItem.name}`);
+        process.exit(1);
+      }
+      if (keywordItem.value === "" && !keywordData.description) {
+        logger.error(`技能关键词 ${keywordItem.name} 缺少描述`);
+        process.exit(1);
+      }
+      if (keywordItem.value) {
+        if (keywordItem.value === keywordData.description) {
+          keywordItem.value = "";
+        }
+        else {
+          if (!keywordData.variations?.find(variation => variation === keywordItem.value)) {
+            logger.error(`技能关键词 ${keywordItem.name} 的值 ${keywordItem.value} 不是描述或变体`);
+            process.exit(1);
+          }
+        }
+      }
+    }
+
     abilityData[data.key] = parsedData;
     spinnerProgress.increment();
   }
@@ -40,5 +65,6 @@ export default async function abilityDataUpload() {
     formatter: content => JSON.stringify(zWikiAbility.parse(destr(content))),
     summary: "更新技能数据（ow-huiji-updater）",
     readBatchSize: 80,
+    replaceBy: { namespace: 3500, prefix: "Ability/" },
   });
 }
