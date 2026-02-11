@@ -8,7 +8,7 @@
   "button": "辅助攻击模式",
   "description": "能强化燃烧伤害的灼热狂风",
   "basicStats": {
-    "ammo": 8
+    "ammo": 10
   },
   "keywords": [
     {
@@ -31,7 +31,7 @@
   "detailStats": [
     {
       "name": "单发齐射伤害量",
-      "value": "24（基础）<br />48（燃烧）"
+      "value": "30（基础）<br />60（燃烧）"
     },
     {
       "name": "单发齐射弹丸数",

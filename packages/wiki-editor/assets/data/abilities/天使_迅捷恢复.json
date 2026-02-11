@@ -1,0 +1,13 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "天使/迅捷恢复",
+  "name": "迅捷恢复",
+  "hero": "天使",
+  "category": "PassiveAbility",
+  "button": null,
+  "description": "快速激活生命恢复效果",
+  "basicStats": {},
+  "keywords": [],
+  "detailStats": []
+}

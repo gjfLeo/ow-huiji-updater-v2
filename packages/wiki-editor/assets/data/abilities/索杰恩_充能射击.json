@@ -1,8 +1,8 @@
 {
   "_hjschema": "Ability",
   "_dataType": "ability",
-  "key": "索杰恩/电磁炮辅助模式",
-  "name": "电磁炮辅助模式",
+  "key": "索杰恩/充能射击",
+  "name": "充能射击",
   "hero": "索杰恩",
   "category": "Weapon",
   "button": "辅助攻击模式",
@@ -11,7 +11,7 @@
   "keywords": [
     {
       "name": "弱效暴击",
-      "value": "命中暴击部位时造成<mark>1.5倍</mark>伤害"
+      "value": ""
     },
     {
       "name": "即时命中",

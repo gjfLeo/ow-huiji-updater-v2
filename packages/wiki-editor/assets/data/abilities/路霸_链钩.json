@@ -12,16 +12,20 @@
   },
   "keywords": [
     {
+      "name": "断锁",
+      "value": ""
+    },
+    {
+      "name": "挪移",
+      "value": ""
+    },
+    {
       "name": "广义近身攻击",
       "value": ""
     },
     {
       "name": "闪避",
       "value": "<mark>受此技能影响的目标</mark>可穿过敌方英雄且不会阻挡位移"
-    },
-    {
-      "name": "击晕",
-      "value": ""
     }
   ],
   "detailStats": [

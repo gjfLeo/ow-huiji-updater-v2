@@ -17,11 +17,11 @@
     },
     {
       "name": "可部署",
-      "value": "一种具有独立生命池的非玩家实体，由<mark>强射弹部署</mark>"
+      "value": "一种具有独立生命池的非玩家实体，<mark>由强射弹部署</mark>"
     },
     {
       "name": "无视屏障",
-      "value": "<mark>选定盟友时</mark>无视屏障"
+      "value": "<mark>对盟友施放此技能时</mark>不会被屏障或英雄阻挡"
     }
   ],
   "detailStats": [

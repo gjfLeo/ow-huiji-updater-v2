@@ -8,7 +8,7 @@
   "button": "技能 2",
   "description": "向面朝方向扔出大剑，接着飞到剑旁",
   "basicStats": {
-    "cooldown": 6
+    "cooldown": 7
   },
   "keywords": [
     {
@@ -42,6 +42,10 @@
       "value": "15米"
     },
     {
+      "name": "移动速度",
+      "value": "25米/秒"
+    },
+    {
       "name": "投掷持续时间",
       "value": "0.50秒"
     },
@@ -54,7 +58,7 @@
       "value": "5秒"
     },
     {
-      "name": "跳跃取消速度",
+      "name": "跳跃取消启动速度",
       "value": "5米/秒"
     }
   ]

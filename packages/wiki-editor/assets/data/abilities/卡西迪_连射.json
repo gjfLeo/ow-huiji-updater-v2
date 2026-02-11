@@ -1,8 +1,8 @@
 {
   "_hjschema": "Ability",
   "_dataType": "ability",
-  "key": "卡西迪/维和者辅助模式",
-  "name": "维和者辅助模式",
+  "key": "卡西迪/连射",
+  "name": "连射",
   "hero": "卡西迪",
   "category": "Weapon",
   "button": "辅助攻击模式",
@@ -20,7 +20,7 @@
   "detailStats": [
     {
       "name": "伤害量",
-      "value": "50（基础）<br />15.0（最大衰减）"
+      "value": "50（基础）<br />15（最大衰减）"
     },
     {
       "name": "最小-最大衰减射程",

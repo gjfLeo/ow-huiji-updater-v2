@@ -8,7 +8,7 @@
   "button": "技能 1",
   "description": "向移动方向翻滚，降低所受伤害<br />并装填子弹",
   "basicStats": {
-    "cooldown": 6
+    "cooldown": 5
   },
   "keywords": [
     {
@@ -31,7 +31,7 @@
     },
     {
       "name": "速度",
-      "value": "15米/秒"
+      "value": "15米/秒（地面）<br />19.5米/秒（空中）"
     }
   ]
 }

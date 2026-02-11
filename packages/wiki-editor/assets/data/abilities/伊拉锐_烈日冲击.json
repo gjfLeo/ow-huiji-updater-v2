@@ -8,7 +8,7 @@
   "button": "技能 1",
   "description": "向移动方向弹射而出，同时击退敌人。按住跳跃键弹射高度更高",
   "basicStats": {
-    "cooldown": 7
+    "cooldown": 8
   },
   "keywords": [
     {
@@ -20,7 +20,7 @@
       "value": ""
     },
     {
-      "name": "无形",
+      "name": "位移",
       "value": ""
     }
   ],

@@ -13,8 +13,8 @@
   "birthday": "02-15",
   "age": "29",
   "hitPoints": {
-    "health": 150,
-    "armor": 125,
+    "health": 175,
+    "armor": 100,
     "shields": 0
   },
   "movementSpeed": 5.5,
