@@ -13,6 +13,7 @@
 ---   @field name string
 ---   @field nameEn string
 ---   @field role Role
+---   @field subRole string?
 ---   @field revealDate string?
 ---   @field releaseDate string?
 ---   @field releaseDateDescription string?
