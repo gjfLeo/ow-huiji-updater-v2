@@ -1,6 +1,7 @@
 import { ofetch } from "ofetch";
 import { z } from "zod";
 import { zRoleKey } from "../models/hero";
+import { logger } from "../utils/logger";
 
 export const overfastApi = ofetch.create({
   baseURL: "https://overfast-api.tekrop.fr/",
@@ -11,7 +12,7 @@ const zOverfastHero = z.object({
   portrait: z.url(),
   role: zRoleKey,
   location: z.string(),
-  age: z.number(),
+  age: z.number().nullable(),
   birthday: z.string().nullable(),
   hitpoints: z.object({
     health: z.number(),
@@ -47,18 +48,25 @@ const zOverfastHero = z.object({
       }),
     ),
   }),
+  stadium_powers: z.array(
+    z.object({
+      name: z.string(),
+      description: z.string(),
+      icon: z.url(),
+    }),
+  ).optional(),
 }).strict();
 export type OverfastHero = z.infer<typeof zOverfastHero>;
 
 export async function fetchOverfastHero(key: string) {
   const response = await overfastApi(`/heroes/${key}`);
-  try {
-    const hero = zOverfastHero.parse(response);
-    return hero;
+  const { data, success, error } = zOverfastHero.safeParse(response);
+  if (success) {
+    return data;
   }
-  catch (error) {
-    console.warn("Failed to fetch OverFast data", error);
-    console.warn(response);
-    return undefined;
+  else {
+    logger.error(`OverFast ${key} 英雄数据解析失败`);
+    console.error(error);
+    process.exit(1);
   }
 }

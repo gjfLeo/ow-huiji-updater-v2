@@ -9,6 +9,22 @@ import { logger, spinnerProgress } from "../utils/logger";
 import { wikiBatchEdit } from "../wiki/batch";
 
 export default async function abilityDataUpload() {
+  const stubDir = path.join(__dirname, "../../assets/data/stubs");
+  await Bun.write(
+    path.join(stubDir, "AbilityKeywords.json"),
+    `${JSON.stringify(
+      Object.fromEntries(
+        abilityKeywords
+          .toSorted((a, b) => a.name.localeCompare(b.name))
+          .map((keyword) => {
+            return [keyword.name, keyword.description];
+          }),
+      ),
+      null,
+      2,
+    )}\n`,
+  );
+
   const dataDir = path.join(__dirname, "../../assets/data/abilities");
   const abilityData: Record<string, WikiAbility> = {};
   const dir = await fse.readdir(dataDir);

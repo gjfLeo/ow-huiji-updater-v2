@@ -1,12 +1,13 @@
 import type { BlizzardCnHero } from "../api/blizzard-cn";
-import type { WikiHero } from "../models/hero";
+import type { WikiHero, WikiHeroUnfinished } from "../models/hero";
 import path from "node:path";
+import { confirm } from "@inquirer/prompts";
 import dayjs from "dayjs";
 import destr from "destr";
 import { emptyDir } from "fs-extra";
-import { fetchBlizzardHero } from "../api/blizzard-cn";
+import { fetchBlizzardHeroData } from "../api/blizzard-cn";
 import { fetchOverfastHero } from "../api/overfast";
-import { zWikiHero } from "../models/hero";
+import { zWikiHero, zWikiHeroUnfinished } from "../models/hero";
 import { zOWLibHero } from "../models/owlib/heroes";
 import { logger, spinnerProgress } from "../utils/logger";
 import { wikiBatchGet } from "../wiki/batch";
@@ -23,30 +24,64 @@ export default async function heroDataUpdate() {
   const wikiHeroDataList = zWikiHero.array().parse(
     Object.values(heroDataPages).map(content => destr(content)),
   );
+  const wikiHeroMap = Object.fromEntries(wikiHeroDataList.map(h => [h.key, h]));
+
+  const unfinishedHeroMap: Record<string, WikiHeroUnfinished> = {};
 
   // MARK: Blizzard CN
 
   spinnerProgress.start("根据国服数据更新", heroCount);
+  const blizzardHeroMap = await fetchBlizzardHeroData();
+  spinnerProgress.setTotal(Object.entries(blizzardHeroMap).length);
   const changedHeroes: string[] = [];
-  for (const heroData of wikiHeroDataList) {
-    const heroKey = heroData.key;
-    const blizzardHero = await fetchBlizzardHero(heroKey);
-    if (!blizzardHero) {
-      spinnerProgress.fail();
-      logger.error(`未找到 ${heroKey} 的Blizzard数据`);
-      process.exit(1);
+  for (const [key, blizzardHero] of Object.entries(blizzardHeroMap)) {
+    if (wikiHeroMap[key]) {
+      const wikiHero = wikiHeroMap[key];
+      let changed = false;
+      changed ||= updateStory(wikiHero, blizzardHero);
+      changed ||= updateBirthday(wikiHero, blizzardHero);
+      if (changed) {
+        changedHeroes.push(key);
+      }
     }
-    let changed = false;
-    changed ||= updateStory(heroData, blizzardHero);
-    changed ||= updateBirthday(heroData, blizzardHero);
-    if (changed) {
-      changedHeroes.push(heroKey);
+    else {
+      const overfastHero = await fetchOverfastHero(key);
+      const wikiHeroUnfinished: Partial<WikiHeroUnfinished> = {
+        _dataType: "Hero",
+        key,
+        name: blizzardHero.name,
+        nameEn: overfastHero.name,
+        role: blizzardHero.typeName,
+        subRole: "未知",
+        revealDate: null,
+        releaseDate: null,
+        releaseDateDescription: null,
+        hitPoints: {
+          health: 0,
+          armor: 0,
+          shields: 0,
+        },
+        movementSpeed: 5.5,
+        meleeDamage: 40,
+        perkXp: {
+          minor: 0,
+          major: 0,
+        },
+        description: blizzardHero.desc,
+      };
+      updateBirthday(wikiHeroUnfinished, blizzardHero);
+      updateStory(wikiHeroUnfinished, blizzardHero);
+      unfinishedHeroMap[key] = zWikiHeroUnfinished.parse(wikiHeroUnfinished);
+      console.log(key, unfinishedHeroMap[key]);
     }
     spinnerProgress.increment();
   }
   spinnerProgress.succeed();
   if (changedHeroes.length) {
     logger.info(`${changedHeroes.length}个英雄需要更新：${changedHeroes.join(", ")}`);
+  }
+  if (Object.keys(unfinishedHeroMap).length) {
+    logger.info(`${Object.keys(unfinishedHeroMap).length}个英雄需要新增：${Object.keys(unfinishedHeroMap).join(", ")}`);
   }
 
   // MARK: OWLib
@@ -58,16 +93,15 @@ export default async function heroDataUpdate() {
       Object.values(await owLibHeroesFile.json()),
     );
     const owLibHeroes = Object.values(owLibHeroesRaw).filter(h => h.IsHero);
-    for (const heroData of wikiHeroDataList) {
-      const heroKey = heroData.key;
-      const owLibHeroesFiltered = owLibHeroes.filter(h => h.Name === heroData.name);
+    for (const [key, wikiHero] of Object.entries(wikiHeroMap)) {
+      const owLibHeroesFiltered = owLibHeroes.filter(h => h.Name === wikiHero.name);
       if (owLibHeroesFiltered.length !== 1) {
         spinnerProgress.fail();
-        logger.error(`未找到 ${heroKey} 的OWLib数据`);
+        logger.error(`未找到 ${key} 的OWLib数据`);
         process.exit(1);
       }
       const owLibHero = owLibHeroesFiltered[0]!;
-      heroData.color = owLibHero.Color.substring(0, 7);
+      wikiHero.color = owLibHero.Color.substring(0, 7);
       spinnerProgress.increment();
     }
     spinnerProgress.succeed();
@@ -75,68 +109,76 @@ export default async function heroDataUpdate() {
 
   // MARK: Overfast
 
-  spinnerProgress.start("根据OverFast更新生命值", heroCount);
-  const changedHeroesHitPoints: string[] = [];
-  for (const heroData of wikiHeroDataList) {
-    const heroKey = heroData.key;
-    const hitPointsUpdated = await updateHeroHitPoints(heroData);
-    if (hitPointsUpdated) {
-      changedHeroesHitPoints.push(heroKey);
+  const confirmUpdateHitPoints = await confirm({ message: "从 OverFast 获取英雄生命值？" });
+  if (confirmUpdateHitPoints) {
+    spinnerProgress.start("根据OverFast更新生命值", heroCount);
+    const changedHeroesHitPoints: string[] = [];
+    for (const [key, wikiHero] of Object.entries(wikiHeroMap)) {
+      const hitPointsUpdated = await updateHeroHitPoints(wikiHero);
+      if (hitPointsUpdated) {
+        changedHeroesHitPoints.push(key);
+      }
+      spinnerProgress.increment();
     }
-    spinnerProgress.increment();
-  }
-  spinnerProgress.succeed();
-  if (changedHeroesHitPoints.length) {
-    logger.info(`${changedHeroesHitPoints.length}个英雄需要更新生命值，请手动检查：${changedHeroesHitPoints.join(", ")}`);
+    spinnerProgress.succeed();
+    if (changedHeroesHitPoints.length) {
+      logger.info(`${changedHeroesHitPoints.length}个英雄需要更新生命值，请手动检查：${changedHeroesHitPoints.join(", ")}`);
+    }
   }
 
   // MARK: 保存文件
 
   spinnerProgress.start("保存文件", heroCount);
   await emptyDir(heroDataDir);
-  for (const heroData of wikiHeroDataList) {
-    const heroKey = heroData.key;
+  for (const [key, wikiHero] of Object.entries(wikiHeroMap)) {
     await Bun.write(
-      path.resolve(heroDataDir, `${heroKey}.json`),
-      `${JSON.stringify(zWikiHero.parse(heroData), null, 2)}\n`,
+      path.resolve(heroDataDir, `${key}.json`),
+      `${JSON.stringify(zWikiHero.parse(wikiHero), null, 2)}\n`,
+    );
+    spinnerProgress.increment();
+  }
+  for (const [key, wikiHeroUnfinished] of Object.entries(unfinishedHeroMap)) {
+    await Bun.write(
+      path.resolve(heroDataDir, `${key}.json`),
+      `${JSON.stringify(wikiHeroUnfinished, null, 2)}\n`,
     );
     spinnerProgress.increment();
   }
   spinnerProgress.succeed();
 }
 
-function updateStory(wikiHeroData: WikiHero, cnHeroData: BlizzardCnHero) {
+function updateStory(wikiHero: WikiHero | Partial<WikiHeroUnfinished>, blizzardHero: BlizzardCnHero) {
   const newStory: WikiHero["story"] = {
-    intro: cnHeroData.storyIntro,
-    chapters: cnHeroData.stories.map((item) => {
+    intro: blizzardHero.storyIntro,
+    chapters: blizzardHero.stories.map((item) => {
       return {
         title: item.title,
         content: item.content
           .replaceAll(/<div class='sep'><\/div>|(?:<br ?\/?>)+/g, "\n\n"),
       };
     }),
-    accessDate: wikiHeroData?.story?.accessDate,
+    accessDate: wikiHero?.story?.accessDate,
   };
-  if (Bun.deepEquals(newStory, wikiHeroData.story)) {
+  if (Bun.deepEquals(newStory, wikiHero.story)) {
     // 无需更新
     return false;
   }
 
   newStory.accessDate = dayjs().format("YYYY-MM-DD");
-  wikiHeroData.story = newStory;
+  wikiHero.story = newStory;
   return true;
 }
 
-function updateBirthday(wikiHeroData: WikiHero, cnHeroData: BlizzardCnHero) {
+function updateBirthday(wikiHero: WikiHero | Partial<WikiHeroUnfinished>, blizzardHero: BlizzardCnHero) {
   let changed = false;
 
-  const rawBirthday = cnHeroData.birthday;
+  const rawBirthday = blizzardHero.birthday;
   const birthdayMatch = rawBirthday.match(/(?<m>\d+)月(?<d>\d+)日/);
   if (birthdayMatch) {
     const { m, d } = birthdayMatch.groups!;
     const birthday = `${m?.padStart(2, "0")}-${d?.padStart(2, "0")}`;
-    if (birthday !== wikiHeroData.birthday) {
-      wikiHeroData.birthday = birthday;
+    if (birthday !== wikiHero.birthday) {
+      wikiHero.birthday = birthday;
       changed = true;
     }
   }
@@ -144,8 +186,8 @@ function updateBirthday(wikiHeroData: WikiHero, cnHeroData: BlizzardCnHero) {
   const ageMatch = rawBirthday.match(/年龄：(?<age>[^（）]+)/);
   if (ageMatch) {
     const { age } = ageMatch.groups!;
-    if (age !== wikiHeroData.age) {
-      wikiHeroData.age = age;
+    if (age !== wikiHero.age) {
+      wikiHero.age = age;
       changed = true;
     }
   }

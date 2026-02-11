@@ -39,6 +39,9 @@ export const spinner = {
   fail(message?: string) {
     spinnerOra.fail(message);
   },
+  info(message?: string) {
+    spinnerOra.info(message);
+  },
 };
 
 export const spinnerProgress = {

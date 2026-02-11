@@ -1,0 +1,7 @@
+### heroes
+
+GET https://overfast-api.tekrop.fr/heroes
+
+### hero
+
+GET https://overfast-api.tekrop.fr/heroes/jetpack-cat

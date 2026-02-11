@@ -6,7 +6,10 @@ import destr from "destr";
 import { logger, spinner, spinnerProgress } from "../utils/logger";
 import { wikiLogin } from "./login";
 
-type BatchGetPages = { titles: string[] } | { namespace?: number; prefix?: string };
+type BatchGetPages
+  = | { titles: string[] }
+    | { namespace?: number; prefix?: string }
+    | { category: string };
 
 export async function wikiBatchGet(options: BatchGetPages & {
   loginOptions?: WikiLoginOptions;
@@ -18,6 +21,12 @@ export async function wikiBatchGet(options: BatchGetPages & {
 
   if ("titles" in pages) {
     titles = pages.titles;
+  }
+  else if ("category" in pages) {
+    spinner.start("获取分类下的页面列表");
+    const categoryPageList = await wiki.getPageListByCategory(pages.category);
+    titles = categoryPageList.pages.map(item => item.title);
+    spinner.succeed(`${spinner.text} ${chalk.gray(`(${titles.length})`)}`);
   }
   else {
     spinner.start("获取页面列表");

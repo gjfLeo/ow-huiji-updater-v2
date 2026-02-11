@@ -52,3 +52,11 @@ export const zWikiHero = z.object({
   }),
 });
 export type WikiHero = z.infer<typeof zWikiHero>;
+
+export const zWikiHeroUnfinished = zWikiHero.extend({
+  subRole: z.enum([...zSubRole.options, "未知"]),
+  revealDate: z.null(),
+  releaseDate: z.null(),
+  releaseDateDescription: z.null(),
+});
+export type WikiHeroUnfinished = z.infer<typeof zWikiHeroUnfinished>;
