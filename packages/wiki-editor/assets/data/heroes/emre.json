@@ -1,0 +1,44 @@
+{
+  "_dataType": "Hero",
+  "key": "emre",
+  "name": "埃姆雷",
+  "nameEn": "Emre",
+  "role": "输出",
+  "subRole": "专业",
+  "revealDate": "2026-02-04",
+  "releaseDate": "2026-02-10",
+  "releaseDateDescription": "{{赛季|2026-1}}",
+  "birthday": "11-08",
+  "age": "44",
+  "hitPoints": {
+    "health": 250,
+    "armor": 0,
+    "shields": 0
+  },
+  "nationality": "土耳其",
+  "movementSpeed": 5.5,
+  "meleeDamage": 40,
+  "perkXp": {
+    "minor": 1900,
+    "major": 4800
+  },
+  "description": "埃姆雷在守望先锋突击小队效力期间广受赞誉，后来竟突然人间蒸发。多年后，他再度现身，躯体和心智却已受到某种未知存在的操控。",
+  "story": {
+    "intro": "前守望先锋干员埃姆雷·萨里奥卢曾下定决心，要用自己的办法为世界做贡献，自那之后的某一天，他突然人间蒸发。后来，他再度现身，谁料却已被一股邪恶的力量腐蚀了头脑，变成一名冷酷无情的半机械改造杀手。埃姆雷调用自己仅剩的自由意志，向他最信赖的盟友弗蕾娅求助，希望她帮忙保住自己的人性，哪怕代价是要和黑爪联手。",
+    "chapters": [
+      {
+        "title": "一走了之",
+        "content": "曾经的埃姆雷是个大名鼎鼎的战术奇才，在家乡也是深受拥戴的大英雄。敏锐的头脑和天生的领袖风范使他广受赞誉，顺理成章地成为了在后智械危机时代首批加入守望先锋突击小队的成员。他对守望先锋帮助他人的使命坚信不疑，并频繁与搜救小队及其他支援团队交流合作。然而多年以来，埃姆雷眼睁睁看着腐败在组织内滋生蔓延，最终做出了此生最艰难的决定：离开守望先锋，以自己的方式帮助世人。"
+      },
+      {
+        "title": "意识覆盖",
+        "content": "VGQKCTUS: DBRQJKOKM-KBCTUS FÄYJJCSTRTTY: x7Q$gP2!mR4 \n\n v@Zt9uE#sK1hW %Jb8^nC0yL* fD3qT&V5pB+oS6 rU=FjH?wA_McN )G(dX;YkO:[I] z>e ee \n\n uE#sK1hW %Jb8^nC%Jb8^nC 0yL*fD3q T&V5pB+o S6rU=FjH ?wA_McN) G(dX;YkO[I]z>e< l/{}|~aQ 8M4#v2P! t7$g5R@w 9S^h1C%u 0K*f3D+J &b6T=FqW ?yUoHjA_ MpN)rG(d X;YkO[I ]z 0 yL*fD3qT &V5pB+oS 6rU=FjH? wA_McN)G (dX;YkO [I]z>eee"
+      },
+      {
+        "title": "悬赏目标",
+        "content": "接下来的数年间，据称埃姆雷一直在为黑爪执行任务。尽管各级报告均提及他在战斗行动中表现得力，但也有不少黑爪成员汇报他很不可靠，时不时就会长时间失联。当他又一次消失后，马克西米里安雇佣了赏金猎手，前守望先锋成员，也是埃姆雷曾经最亲密的朋友，弗蕾娅前往调查。 \n\n弗蕾娅最终成功找到了埃姆雷的踪迹，也得知了他遭遇的困境。原来埃姆雷已被一股未知力量操控，违背他的意愿将他变成了一台杀人机器。弗蕾娅不忍抛下埃姆雷，决心和他站在一边。如今，他们二人在黑爪麾下行事，只为保住埃姆雷残存的人性而战。"
+      }
+    ],
+    "accessDate": "2026-02-11"
+  }
+}

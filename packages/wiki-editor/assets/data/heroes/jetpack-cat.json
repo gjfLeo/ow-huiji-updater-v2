@@ -1,0 +1,41 @@
+{
+  "_dataType": "Hero",
+  "key": "jetpack-cat",
+  "name": "飞天猫",
+  "nameEn": "Jetpack Cat",
+  "role": "支援",
+  "subRole": "战术",
+  "revealDate": "2026-02-04",
+  "releaseDate": "2026-02-10",
+  "releaseDateDescription": "{{赛季|2026-1}}",
+  "hitPoints": {
+    "health": 225,
+    "armor": 0,
+    "shields": 0
+  },
+  "movementSpeed": 5.5,
+  "meleeDamage": 40,
+  "perkXp": {
+    "minor": 2100,
+    "major": 5200
+  },
+  "description": "“飞天猫”是一名英勇无畏的猫咪飞行员，她身穿布丽吉塔最新发明的喷气推进装置，把可爱的空域支援带到战场的每一个角落。",
+  "story": {
+    "intro": "监测站：直布罗陀突然出现了一只流浪猫，作为站内知名爱猫人士，布丽吉塔迫不及待地收养了这只小猫。她从小就拿自己的猫当工坊助理，幻想它们正出现在各种奇特的环境中。而当黑爪袭击直布罗陀时，曾经的空想竟有了用武之地。布丽吉塔打造了一件喷气背包，小猫穿上它就能在战场间穿梭，向任何陷入危难的队友伸出援“爪”。",
+    "chapters": [
+      {
+        "title": "小猫咪",
+        "content": "P;scccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc////////////////////////////////////////////////////////////////////////////drch hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh"
+      },
+      {
+        "title": "乖猫咪",
+        "content": "zxcvdfgxn13Cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccclchg;jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjnnoooooooooooooooo’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’'’’’’’’"
+      },
+      {
+        "title": "机灵猫咪",
+        "content": "有一天，布丽吉塔发现居然有一只小猫在监测站：直布罗陀的停机坪上独自游荡。既然找不到主人，她便决定自己来养。因为这只猫的花色像瑞典肉桂卷，还有着零食永远填不饱的小肚皮，于是她给小猫起名叫“啡咖”。闲暇之余，布丽吉塔又幻想着要给她新认识的猫猫朋友做一件喷气背包了——这个点子听起来傻傻的，却是她小时候的梦想。\n\n黑爪袭击直布罗陀时，布丽吉塔本想把喷气背包的事先放一放。然而很快她便意识到，在如今的新对手面前，守望先锋要想拿出一战之力，就需要一切可能的援助。现在资源充足、理由充分，布丽吉塔终于实现了童年的梦想，给小啡咖造出了喷气背包。\n\n这样一来，啡咖也和其他人一样，能为守望先锋做出贡献了。而考虑到组织即将面对黑爪的考验，这个新的助力更是雪中送炭。当然了，想让“索杰恩”批准一只穿着喷气背包的猫上战场也绝非易事，但布丽吉塔有的是点子（和海量数据支撑），她会让这只小猫一飞冲天的。"
+      }
+    ],
+    "accessDate": "2026-02-11"
+  }
+}
