@@ -13,8 +13,9 @@ type BatchGetPages
 
 export async function wikiBatchGet(options: BatchGetPages & {
   loginOptions?: WikiLoginOptions;
+  batchSize?: number;
 }) {
-  const { loginOptions, ...pages } = options;
+  const { loginOptions, batchSize = 10, ...pages } = options;
   const wiki = await wikiLogin(loginOptions ?? { userType: "bot" });
 
   let titles: string[];
@@ -30,17 +31,24 @@ export async function wikiBatchGet(options: BatchGetPages & {
   }
   else {
     spinner.start("获取页面列表");
-    const allPageList = await wiki.apiQueryListAllPages({ ...pages });
+    let allPageList = await wiki.apiQueryListAllPages({ ...pages });
     titles = allPageList.query.allpages.map(item => item.title);
+    while (allPageList.continue) {
+      await Bun.sleep(1000);
+      allPageList = await wiki.apiQueryListAllPages(
+        { ...pages },
+        { continue: allPageList.continue.apcontinue },
+      );
+      titles.push(...allPageList.query.allpages.map(item => item.title));
+    }
     spinner.succeed(`${spinner.text} ${chalk.gray(`(${titles.length})`)}`);
   }
 
   const pageContentMap: Record<string, string> = {};
-  const BATCH_SIZE = 10;
 
   spinnerProgress.start("获取页面内容", titles.length);
-  for (let i = 0; i < titles.length; i += BATCH_SIZE) {
-    const batchTitles = titles.slice(i, i + BATCH_SIZE);
+  for (let i = 0; i < titles.length; i += batchSize) {
+    const batchTitles = titles.slice(i, i + batchSize);
     await new Promise(resolve => setTimeout(resolve, 1000));
     const result = await wiki.getPageRawTextByTitles(batchTitles);
     Object.values(result)

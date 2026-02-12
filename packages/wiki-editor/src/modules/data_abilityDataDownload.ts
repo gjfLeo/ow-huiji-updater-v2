@@ -9,6 +9,7 @@ export default async function abilityDataDownload() {
   const abilityDataPages = await wikiBatchGet({
     namespace: 3500,
     prefix: "Ability/",
+    batchSize: 80,
   });
 
   const abilityCount = Object.values(abilityDataPages).length;
