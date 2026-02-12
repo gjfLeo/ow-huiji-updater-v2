@@ -8,7 +8,12 @@
   "button": null,
   "description": "技能造成伤害后，自身可生成临时生命值",
   "basicStats": {},
-  "keywords": [],
+  "keywords": [
+    {
+      "name": "过量生命值",
+      "value": ""
+    }
+  ],
   "detailStats": [
     {
       "name": "命中过量生命值",
