@@ -8,13 +8,13 @@
   "revealDate": "2026-02-04",
   "releaseDate": "2026-02-10",
   "releaseDateDescription": "{{赛季|2026-1}}",
+  "nationality": "印度",
   "age": "32",
   "hitPoints": {
     "health": 250,
     "armor": 0,
     "shields": 400
   },
-  "nationality": "印度",
   "movementSpeed": 5.5,
   "meleeDamage": 40,
   "perkXp": {
