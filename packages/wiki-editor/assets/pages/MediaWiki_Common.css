@@ -390,6 +390,12 @@ table.wikitable > * > tr > td {
   margin-left: 1em;
 }
 
+.game-options-table mark {
+  background: transparent;
+  color: var(--brand-success);
+  padding: 0;
+}
+
 .thumbinner {
   border: 1px solid #126787 !important;
   background-color: #0a1c2b !important;

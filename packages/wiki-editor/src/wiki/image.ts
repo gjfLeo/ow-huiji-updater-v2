@@ -177,8 +177,16 @@ interface MWResponseQueryImageInfoSha1 extends MWResponseBase {
 
 async function compressImage(fileBuffer: Buffer) {
   const input = sharp(fileBuffer);
+  const metaData = await input.metadata();
+  let targetWidth = metaData.width;
+  if (metaData.width / metaData.height < 0.5) {
+    targetWidth = Math.min(targetWidth, 1080);
+  }
+  else {
+    targetWidth = Math.min(targetWidth, 3840);
+  }
   return input
     .png({ compressionLevel: 9 })
-    .resize(Math.min((await input.metadata()).width ?? 0, 3840))
+    .resize(targetWidth)
     .toBuffer();
 }

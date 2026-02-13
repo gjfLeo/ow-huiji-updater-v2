@@ -93,12 +93,10 @@ export default async function heroDataUpdate() {
       Object.values(await owLibHeroesFile.json()),
     );
     const owLibHeroes = Object.values(owLibHeroesRaw).filter(h => h.IsHero);
-    for (const [key, wikiHero] of Object.entries(wikiHeroMap)) {
+    for (const [_, wikiHero] of Object.entries(wikiHeroMap)) {
       const owLibHeroesFiltered = owLibHeroes.filter(h => h.Name === wikiHero.name);
       if (owLibHeroesFiltered.length !== 1) {
-        spinnerProgress.fail();
-        logger.error(`未找到 ${key} 的OWLib数据`);
-        process.exit(1);
+        continue;
       }
       const owLibHero = owLibHeroesFiltered[0]!;
       wikiHero.color = owLibHero.Color.substring(0, 7);
@@ -154,7 +152,7 @@ function updateStory(wikiHero: WikiHero | Partial<WikiHeroUnfinished>, blizzardH
       return {
         title: item.title,
         content: item.content
-          .replaceAll(/<div class='sep'><\/div>|(?:<br ?\/?>)+/g, "\n\n"),
+          .replaceAll(/\s*(?:<div class='sep'><\/div>|(?:<br ?\/?>)+)\s*/g, "\n\n"),
       };
     }),
     accessDate: wikiHero?.story?.accessDate,
