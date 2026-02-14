@@ -7,6 +7,7 @@
   "category": "PassiveAbility",
   "button": null,
   "description": "对敌人造成伤害，会暂时降低其受到的治疗效果",
+  "removed": true,
   "basicStats": {},
   "keywords": [
     {
