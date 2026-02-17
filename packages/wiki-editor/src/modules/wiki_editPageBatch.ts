@@ -15,27 +15,49 @@ export default async function editPageBatch() {
     message: "请选择批量编辑模式：",
     choices: [
       { name: "按分类", value: "category" },
+      { name: "按命名空间和前缀", value: "namespace" },
     ],
-  });
+  }) as "category" | "namespace";
 
-  await ensureDir(OUTPUT_DIR);
+  let outputDir: string;
+  let contents: Record<string, string> = {};
+
+  switch (selectBatchMode) {
+    case "category": {
+      const inputCategory = await input({ message: "请输入分类名称：", default: "英雄" });
+      outputDir = path.join(OUTPUT_DIR, `分类_${inputCategory}`);
+      contents = await wikiBatchGet({ category: inputCategory });
+      break;
+    }
+    case "namespace": {
+      const inputNamespace = await select({
+        message: "请选择命名空间：",
+        choices: [
+          { name: "（主）", value: 0 },
+          { name: "模板", value: 10 },
+          { name: "Data", value: 3500 },
+        ],
+      });
+      const inputPrefix = await input({ message: "请输入前缀：", default: "" });
+      outputDir = path.join(OUTPUT_DIR, `${inputNamespace}_${inputPrefix}`);
+      contents = await wikiBatchGet({ namespace: inputNamespace, prefix: inputPrefix });
+      break;
+    }
+  }
+
+  await ensureDir(outputDir);
   const fileNameToPageTitle: Record<string, string> = {};
 
-  if (selectBatchMode === "category") {
-    const inputCategory = await input({ message: "请输入分类名称：", default: "英雄" });
-    const pages = await wikiBatchGet({ category: inputCategory });
-
-    spinnerProgress.start("生成文件", Object.keys(pages).length);
-    for (const [title, content] of Object.entries(pages)) {
-      const fileName = `${title.replace(/[:/\s]/g, "_")}.wikitext`;
-      fileNameToPageTitle[fileName] = title;
-      const filePath = path.join(OUTPUT_DIR, fileName);
-      await Bun.write(filePath, content);
-      spinnerProgress.increment();
-    }
-    spinnerProgress.succeed();
-    spinnerProgress.succeed(`生成文件 ${chalk.blue(path.relative(process.cwd(), OUTPUT_DIR))}`);
+  spinnerProgress.start("生成文件", Object.keys(contents).length);
+  for (const [title, content] of Object.entries(contents)) {
+    const fileName = `${title.replace(/[:/\s]/g, "_")}.wikitext`;
+    fileNameToPageTitle[fileName] = title;
+    const filePath = path.join(outputDir, fileName);
+    await Bun.write(filePath, content);
+    spinnerProgress.increment();
   }
+  spinnerProgress.succeed();
+  spinnerProgress.succeed(`生成文件 ${chalk.blue(path.relative(process.cwd(), outputDir))}`);
 
   const wiki = await wikiLogin({ userType: "user" });
 

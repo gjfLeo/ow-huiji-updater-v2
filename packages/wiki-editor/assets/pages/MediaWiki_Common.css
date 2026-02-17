@@ -207,6 +207,35 @@ h4 .mw-headline {
   object-fit: contain;
   margin-inline-end: 0.1em;
 }
+
+.svg-icon-inline {
+  max-width: 1.6em;
+  height: 1.2em;
+  margin-inline: 0.1em;
+  vertical-align: middle;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.svg-icon-inline-first {
+  max-width: 1.6em;
+  height: 1.2em;
+  margin-inline-end: 0.1em;
+  vertical-align: middle;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.svg-icon-inline svg,
+.svg-icon-inline-first svg {
+  height: 100%;
+  max-width: 100%;
+}
+.svg-container svg {
+  max-height: 100%;
+  max-width: 100%;
+}
+
 @media screen and (min-width: 320px) and (max-width: 566px) {
   #bodyContent img.icon-inline:not(.siteimg):not(.headimg),
   #bodyContent img.inline-icon:not(.siteimg):not(.headimg),
