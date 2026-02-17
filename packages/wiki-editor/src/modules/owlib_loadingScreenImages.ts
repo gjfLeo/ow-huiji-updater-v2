@@ -3,6 +3,7 @@ import fse from "fs-extra";
 import sharp from "sharp";
 import TOML from "smol-toml";
 import z from "zod";
+import imageInfo1920 from "../data/imageInfo-1920.toml";
 import { spinnerProgress } from "../utils/logger";
 
 const dumpImageDir = path.join(__dirname, "../../output/owlib/dump/UITextureDump");
@@ -11,6 +12,7 @@ const outputDir = path.join(__dirname, "../../output/images/1920/");
 const zLoadingScreenInfo = z.object({
   map: z.string(),
   point: z.string().optional(),
+  timeline: z.string().optional(),
   variation: z.string().optional(),
   festival: z.string().optional(),
   duplicate: z.boolean().optional(),
@@ -29,8 +31,8 @@ export default async function filterImages() {
   const files = await fse.readdir(dumpImageDir);
 
   const newUncategorized: string[] = [];
-  const imageInfoFile = Bun.file(path.join(__dirname, "../data/imageInfo.toml"));
-  const imageInfo = zImageInfo.parse(TOML.parse(await imageInfoFile.text()));
+  // const imageInfoFile = Bun.file(path.join(__dirname, "../data/imageInfo-1920.toml"));
+  const imageInfo = zImageInfo.parse(imageInfo1920);
 
   await fse.emptyDir(outputDir);
 
@@ -75,6 +77,7 @@ export default async function filterImages() {
             }
             targetFilename = [
               mapInfo.point ? mapInfo.map + mapInfo.point : mapInfo.map,
+              mapInfo.timeline,
               mapInfo.variation,
               mapInfo.festival,
               "event" in mapInfo ? mapInfo.event : undefined,
