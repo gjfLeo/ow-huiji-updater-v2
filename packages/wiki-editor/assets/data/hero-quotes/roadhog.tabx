@@ -104,22 +104,6 @@
   "data": [
     [
       "HeroQuote",
-      "00000000ACE1.0B2",
-      44257,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/248.078",
-      "（大笑并咕哝）",
-      "(laughs and grunts)",
-      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
       "00000000ACE9.0B2",
       44265,
       "roadhog",
@@ -608,22 +592,6 @@
       "Teammate/Rescue",
       "（大笑）",
       "(laughs)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000B63D.0B2",
-      46653,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/1894.078",
-      "(laugh)",
-      "(laugh)",
       null,
       null,
       null,
@@ -1304,22 +1272,6 @@
     ],
     [
       "HeroQuote",
-      "00000000B682.0B2",
-      46722,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/3DD.078",
-      "（呼吸器）",
-      "(Take a Breather)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
       "00000000B683.0B2",
       46723,
       "roadhog",
@@ -1696,22 +1648,6 @@
       "Objective/EnemyRunningOutOfTime",
       "我们要赢了。",
       "We're going to win.",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000B6B1.0B2",
-      46769,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/EC6.078",
-      "（放声大笑）",
-      "(long laugh)",
       null,
       null,
       null,
@@ -2168,22 +2104,6 @@
     ],
     [
       "HeroQuote",
-      "00000000B6E0.0B2",
-      46816,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/248.078",
-      "(laughs)",
-      "(laughs)",
-      "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
-      0.5,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
       "00000000B6E1.0B2",
       46817,
       "roadhog",
@@ -2440,150 +2360,6 @@
     ],
     [
       "HeroQuote",
-      "00000000B7BD.0B2",
-      47037,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/3DD.078",
-      "（呼吸器）",
-      "(Take a Breather)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000B7BE.0B2",
-      47038,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/3DD.078",
-      "（呼吸器）",
-      "(Take a Breather)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000B91E.0B2",
-      47390,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/482.078",
-      "（吸气）",
-      "(inhales)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000B91F.0B2",
-      47391,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/482.078",
-      "（吸气）",
-      "(inhales)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000B920.0B2",
-      47392,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/482.078",
-      "（吸气）",
-      "(inhales)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000001E085.0B2",
-      123013,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/57D.078",
-      "（鼻息）",
-      "(snorts)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000001E086.0B2",
-      123014,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/57C.078",
-      "（咕哝）",
-      "(grunts)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000001E087.0B2",
-      123015,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/579.078",
-      "（鼻息）",
-      "(snorts)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000001E089.0B2",
-      123017,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/57B.078",
-      "（鼻息）",
-      "(snorts)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
       "00000001E0C0.0B2",
       123072,
       "roadhog",
@@ -2688,22 +2464,6 @@
       "Objective/EnemyMovingPayload",
       "阻止运载目标！",
       "Stop the payload!",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000021677.0B2",
-      136823,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/1893.078",
-      "(laugh)",
-      "(laugh)",
       null,
       null,
       null,
@@ -2928,22 +2688,6 @@
       "Reward",
       "这是给国王的奖励！",
       "A reward fit for a king!",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000021688.0B2",
-      136840,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/3DD.078",
-      "（呼吸器）",
-      "(Take a Breather)",
       null,
       null,
       null,
@@ -3568,54 +3312,6 @@
       "Hello",
       "（咕哝）",
       "(grunts)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000021DE7.0B2",
-      138727,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/597.078",
-      "（大笑）",
-      "(laughs)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000021DE8.0B2",
-      138728,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/598.078",
-      "（从鼻中喷出笑声）",
-      "(snorting laugh)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000002A3BE.0B2",
-      172990,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/5C3.078",
-      "（大笑）",
-      "(laughs)",
       null,
       null,
       null,
@@ -5176,22 +4872,6 @@
     ],
     [
       "HeroQuote",
-      "000000049125.0B2",
-      299301,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/86A.078",
-      "（咕哝）",
-      "(grunts)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
       "00000004A33C.0B2",
       303932,
       "roadhog",
@@ -5284,6 +4964,22 @@
       0.3,
       null,
       null,
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000004A342.0B2",
+      303938,
+      "roadhog",
+      "路霸",
+      null,
+      "MatchTalk",
+      "（大笑）做梦。",
+      "(laughs) You're dreaming.",
+      null,
+      null,
+      "0000000002F2.0D0#2",
+      "2.21",
       null
     ],
     [
@@ -5832,38 +5528,6 @@
     ],
     [
       "HeroQuote",
-      "00000005DB19.0B2",
-      383769,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/F47.078",
-      "（大笑）",
-      "(laugh)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005DB1A.0B2",
-      383770,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/F48.078",
-      "（大笑）",
-      "(laughter)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
       "00000005DC3E.0B2",
       384062,
       "roadhog",
@@ -6344,22 +6008,6 @@
     ],
     [
       "HeroQuote",
-      "00000005ED6D.0B2",
-      388461,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/248.078",
-      "（咕哝并大笑）",
-      "(laughs)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
       "00000005ED6E.0B2",
       388462,
       "roadhog",
@@ -6418,22 +6066,6 @@
       "No running.",
       "{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"猎空\"},{\"type\":\"toHero\",\"hero\":\"士兵：76\"}]}",
       0.8,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005ED72.0B2",
-      388466,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/248.078",
-      "（大笑）",
-      "(laughs)",
-      null,
-      null,
       null,
       null,
       null
@@ -6660,6 +6292,22 @@
       null,
       null,
       null,
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005ED81.0B2",
+      388481,
+      "roadhog",
+      "路霸",
+      null,
+      "Elimination",
+      "又干掉一个。",
+      "That's another.",
+      null,
+      null,
+      null,
+      "2.21",
       null
     ],
     [
@@ -10452,7 +10100,7 @@
       0.7,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -11416,162 +11064,82 @@
     ],
     [
       "HeroQuote",
-      "000000064A42.0B2",
-      412226,
+      "0000000646E5.0B2",
+      411365,
       "roadhog",
       "路霸",
       null,
-      "Unknown/1249.078",
-      "（满足）",
-      "(satisfied grunt)",
+      "Unknown/11E1",
+      "你有的，我也要有。",
+      "I'll have what you're having.",
       null,
       null,
       null,
-      null,
+      "2.21",
       null
     ],
     [
       "HeroQuote",
-      "000000064A43.0B2",
-      412227,
+      "0000000646E6.0B2",
+      411366,
       "roadhog",
       "路霸",
       null,
-      "Unknown/1249.078",
-      "（满足）",
-      "(satisfied grunt)",
+      "Unknown/11E1",
+      "够凶残。",
+      "Ruthless.",
       null,
       null,
       null,
-      null,
+      "2.21",
       null
     ],
     [
       "HeroQuote",
-      "000000064A44.0B2",
-      412228,
+      "0000000646E7.0B2",
+      411367,
       "roadhog",
       "路霸",
       null,
-      "Unknown/1249.078",
-      "（满足）",
-      "(satisfied grunt)",
+      "Unknown/11E1",
+      "干得好，看他们还狂不狂。",
+      "Yeah. Put 'em in their place.",
       null,
       null,
       null,
-      null,
+      "2.21",
       null
     ],
     [
       "HeroQuote",
-      "000000064A45.0B2",
-      412229,
+      "0000000646E8.0B2",
+      411368,
       "roadhog",
       "路霸",
       null,
-      "Unknown/124A.078",
-      "（吸气）",
-      "(breathing In)",
+      "Unknown/11E1",
+      "就是这股狠劲。",
+      "Stay cutthroat.",
       null,
       null,
       null,
-      null,
+      "2.21",
       null
     ],
     [
       "HeroQuote",
-      "000000064C40.0B2",
-      412736,
+      "0000000646E9.0B2",
+      411369,
       "roadhog",
       "路霸",
       null,
-      "Unknown/1278.078",
-      "（快活地笑）",
-      "(hearty laugh)",
+      "Unknown/11E1",
+      "（笑）继续保持。",
+      "(laughter) Keep doing that.",
       null,
       null,
       null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000064CA8.0B2",
-      412840,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/12B6.078",
-      "（咕哝）",
-      "(grunts)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000064CA9.0B2",
-      412841,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/12B6.078",
-      "（咕哝）",
-      "(grunts)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000064CAA.0B2",
-      412842,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/12B6.078",
-      "（咕哝）",
-      "(grunts)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000064CAB.0B2",
-      412843,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/12B6.078",
-      "（咕哝）",
-      "(grunts)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000064CAC.0B2",
-      412844,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/12B6.078",
-      "（咕哝）",
-      "(grunts)",
-      null,
-      null,
-      null,
-      null,
+      "2.21",
       null
     ],
     [
@@ -11584,102 +11152,6 @@
       "Unknown/12CF.078",
       "Boo！",
       "Boo!",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000064D66.0B2",
-      413030,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/12D0.078",
-      "（阴险大笑）",
-      "(sinister laugh)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000064D67.0B2",
-      413031,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/12D1.078",
-      "（大笑）",
-      "(Laugh)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "0000000655CE.0B2",
-      415182,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/130D.078",
-      "（用力）",
-      "(exertion)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "0000000655CF.0B2",
-      415183,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/130E.078",
-      "（用力）",
-      "(exertion)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "0000000655D0.0B2",
-      415184,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/130C.078",
-      "（喘息）",
-      "(breathing)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "0000000655D2.0B2",
-      415186,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/130D.078",
-      "（用力）",
-      "(exertion)",
       null,
       null,
       null,
@@ -13092,7 +12564,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13108,7 +12580,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13124,7 +12596,7 @@
       0.05,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13140,7 +12612,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13156,7 +12628,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13172,7 +12644,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13188,7 +12660,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13204,7 +12676,7 @@
       0.2,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13220,7 +12692,7 @@
       0.2,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13236,7 +12708,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13252,7 +12724,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13268,7 +12740,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13284,7 +12756,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13300,7 +12772,7 @@
       0.1,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13316,7 +12788,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13332,7 +12804,7 @@
       0.2,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13348,7 +12820,7 @@
       0.2,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13364,7 +12836,7 @@
       0.2,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13380,7 +12852,7 @@
       0.2,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13396,7 +12868,7 @@
       0.1,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13412,7 +12884,7 @@
       0.05,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13428,7 +12900,7 @@
       0.05,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13444,7 +12916,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13460,7 +12932,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13476,7 +12948,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13492,7 +12964,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13508,7 +12980,7 @@
       0.25,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13524,7 +12996,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13540,7 +13012,7 @@
       0.1,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13556,7 +13028,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13572,7 +13044,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13588,7 +13060,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13604,7 +13076,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13620,7 +13092,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13636,7 +13108,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13652,7 +13124,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13668,7 +13140,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13684,7 +13156,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13700,7 +13172,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13716,7 +13188,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13732,7 +13204,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13748,7 +13220,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13764,7 +13236,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13780,7 +13252,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13796,7 +13268,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13812,7 +13284,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13828,7 +13300,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13844,7 +13316,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13860,7 +13332,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13876,7 +13348,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13892,7 +13364,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13908,7 +13380,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13924,7 +13396,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13940,7 +13412,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13956,7 +13428,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13972,7 +13444,7 @@
       0.3,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13988,7 +13460,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14004,7 +13476,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14020,7 +13492,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14036,7 +13508,7 @@
       0.05,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14052,7 +13524,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14068,7 +13540,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14084,7 +13556,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14100,7 +13572,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14116,7 +13588,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14132,7 +13604,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14148,7 +13620,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14164,7 +13636,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14180,7 +13652,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14196,7 +13668,7 @@
       0.1,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14212,7 +13684,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14228,7 +13700,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14244,7 +13716,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14260,7 +13732,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14276,7 +13748,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14292,7 +13764,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14308,7 +13780,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14324,7 +13796,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14340,7 +13812,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14356,7 +13828,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14372,7 +13844,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14388,7 +13860,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14404,7 +13876,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14420,7 +13892,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14436,7 +13908,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14452,7 +13924,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14468,7 +13940,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14484,7 +13956,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14500,7 +13972,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14516,7 +13988,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14532,7 +14004,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14548,7 +14020,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14564,7 +14036,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14580,7 +14052,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14596,7 +14068,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14612,7 +14084,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14628,7 +14100,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14644,7 +14116,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14660,7 +14132,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14676,7 +14148,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14692,7 +14164,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14708,7 +14180,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14724,7 +14196,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14740,7 +14212,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14756,7 +14228,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14772,7 +14244,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14788,7 +14260,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14804,7 +14276,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14820,7 +14292,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14836,7 +14308,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14852,7 +14324,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14868,7 +14340,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14884,7 +14356,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14900,7 +14372,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14916,7 +14388,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14932,7 +14404,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14948,7 +14420,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -15011,22 +14483,6 @@
       null,
       null,
       "000000000FD2.0D0#2",
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "0000000679B6.0B2",
-      424374,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/15AE.078",
-      "（咕哝）",
-      "(grunts)",
-      null,
-      null,
-      null,
       null,
       null
     ],
@@ -15112,54 +14568,6 @@
     ],
     [
       "HeroQuote",
-      "0000000679BC.0B2",
-      424380,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/15AE.078",
-      "（咕哝）",
-      "(grunts)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "0000000679BD.0B2",
-      424381,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/15AE.078",
-      "（窃笑）",
-      "(chuckles)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "0000000679BE.0B2",
-      424382,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/15AE.078",
-      "（咕哝）",
-      "(grunts)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
       "0000000679BF.0B2",
       424383,
       "roadhog",
@@ -15168,54 +14576,6 @@
       "Unknown/15AF.078",
       "别想逃。",
       "No escape.",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "0000000679C0.0B2",
-      424384,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/15AE.078",
-      "（咕哝）",
-      "(grunts)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "0000000679C1.0B2",
-      424385,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/15AE.078",
-      "（窃笑）",
-      "(chuckles)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "0000000679C2.0B2",
-      424386,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/15AE.078",
-      "（窃笑）",
-      "(chuckles)",
       null,
       null,
       null,
@@ -15234,22 +14594,6 @@
       "Scopetta Scopetta.",
       "{\"type\":\"toHero\",\"hero\":\"黑百合\"}",
       0.1,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "0000000679C4.0B2",
-      424388,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/15AE.078",
-      "（窃笑）",
-      "(chuckles)",
-      null,
-      null,
       null,
       null,
       null
@@ -15816,22 +15160,6 @@
     ],
     [
       "HeroQuote",
-      "0000000679FA.0B2",
-      424442,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/15AF.078",
-      "（哄笑）",
-      "(guffaw)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
       "0000000679FB.0B2",
       424443,
       "roadhog",
@@ -15938,310 +15266,6 @@
       "No more nanners.",
       "{\"type\":\"toHero\",\"hero\":\"温斯顿\"}",
       0.1,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000067D1C.0B2",
-      425244,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/1666.078",
-      "(grunts)",
-      "(grunts)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000067D1D.0B2",
-      425245,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/1666.078",
-      "(grunts)",
-      "(grunts)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000067D1E.0B2",
-      425246,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/1667.078",
-      "(hums)",
-      "(hums)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000067D1F.0B2",
-      425247,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/1668.078",
-      "(exhales)",
-      "(exhales)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000067D20.0B2",
-      425248,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/1668.078",
-      "(exhales)",
-      "(exhales)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000067D21.0B2",
-      425249,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/166A.078",
-      "(sighs)",
-      "(sighs)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000067D22.0B2",
-      425250,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/166A.078",
-      "(sighs)",
-      "(sighs)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000067D23.0B2",
-      425251,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/166A.078",
-      "(sighs)",
-      "(sighs)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000067D24.0B2",
-      425252,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/1669.078",
-      "(sniffs)",
-      "(sniffs)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "0000000682A0.0B2",
-      426656,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/16FC.078",
-      "（大笑）",
-      "(laugh)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "0000000682A1.0B2",
-      426657,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/16FC.078",
-      "（笑）",
-      "(laugh)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "0000000682A2.0B2",
-      426658,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/16FD.078",
-      "（咕哝）",
-      "(grunt)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "0000000682A3.0B2",
-      426659,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/16FD.078",
-      "（咕哝）",
-      "(grunt)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "0000000682A4.0B2",
-      426660,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/16FD.078",
-      "（咕哝）",
-      "(grunt)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "0000000682A5.0B2",
-      426661,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/16FD.078",
-      "（咕哝）",
-      "(Grunt)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "0000000682A6.0B2",
-      426662,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/16FD.078",
-      "（咕哝）",
-      "(grunt)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000068C42.0B2",
-      429122,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/175C.078",
-      "（沉重的呼吸声）",
-      "(heavy breathing)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000068C43.0B2",
-      429123,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/175E.078",
-      "（沉重的呼气声）",
-      "(heavy exhale)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000068C44.0B2",
-      429124,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/175D.078",
-      "（沉重的呼吸声）",
-      "(heavy breathing)",
-      null,
-      null,
       null,
       null,
       null
@@ -16400,150 +15424,6 @@
       "Ultimate",
       "该扔石头了。",
       "It's bouldering time.",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000006A8DD.0B2",
-      436445,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/1981.078",
-      "（兴奋）",
-      "(excited)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000006A8DE.0B2",
-      436446,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/1982.078",
-      "（狼吞虎咽）",
-      "(hungry eating)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000006A8DF.0B2",
-      436447,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/1982.078",
-      "（狼吞虎咽）",
-      "(hungry eating)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000006A8E1.0B2",
-      436449,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/1982.078",
-      "（狼吞虎咽）",
-      "(hungry eating)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000006A8E2.0B2",
-      436450,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/1982.078",
-      "（狼吞虎咽）",
-      "(hungry eating)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000006A8E3.0B2",
-      436451,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/1981.078",
-      "（兴奋）",
-      "(excited)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000006A8E4.0B2",
-      436452,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/1981.078",
-      "（兴奋）",
-      "(excited)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000006A8E5.0B2",
-      436453,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/1981.078",
-      "（兴奋）",
-      "(excited)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000006A8E6.0B2",
-      436454,
-      "roadhog",
-      "路霸",
-      null,
-      "Unknown/1983.078",
-      "（兴奋）",
-      "(excited)",
       null,
       null,
       null,

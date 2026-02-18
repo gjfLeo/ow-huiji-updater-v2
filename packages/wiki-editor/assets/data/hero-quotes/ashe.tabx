@@ -815,7 +815,7 @@
       null,
       "TakeCover",
       "都趴下！",
-      "Everyone get down!",
+      "Everybody get down!",
       null,
       null,
       null,
@@ -2193,54 +2193,6 @@
       "这可不在计划之内。",
       "That was not in the plan.",
       "{\"type\":\"scripted\",\"script\":\"00E754\",\"scriptDesc\":\"守望先锋经典版\"}",
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005554C.0B2",
-      349516,
-      "ashe",
-      "艾什",
-      null,
-      "Unknown/A92.078",
-      "（短筒猎枪）",
-      "(coach gun)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005554D.0B2",
-      349517,
-      "ashe",
-      "艾什",
-      null,
-      "Unknown/A92.078",
-      "（短筒猎枪）",
-      "(coach gun)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005554E.0B2",
-      349518,
-      "ashe",
-      "艾什",
-      null,
-      "Unknown/A92.078",
-      "（短筒猎枪）",
-      "(coach gun)",
-      null,
       null,
       null,
       null,
@@ -4392,22 +4344,6 @@
     ],
     [
       "HeroQuote",
-      "000000057083.0B2",
-      356483,
-      "ashe",
-      "艾什",
-      null,
-      "Unknown/A97.078",
-      "（大笑）",
-      "(laughs)",
-      null,
-      0.5,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
       "000000057086.0B2",
       356486,
       "ashe",
@@ -5432,38 +5368,6 @@
     ],
     [
       "HeroQuote",
-      "00000005757D.0B2",
-      357757,
-      "ashe",
-      "艾什",
-      null,
-      "Unknown/1FA.078",
-      "（咕哝）",
-      "(grunts)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000005757E.0B2",
-      357758,
-      "ashe",
-      "艾什",
-      null,
-      "Unknown/AC4.078",
-      "（咕哝）",
-      "(grunts)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
       "0000000578F4.0B2",
       358644,
       "ashe",
@@ -5520,38 +5424,6 @@
       "No",
       "不行。",
       "Nuh uh.",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "0000000578FF.0B2",
-      358655,
-      "ashe",
-      "艾什",
-      null,
-      "Unknown/1FA.078",
-      "(cheers sarcastically)",
-      "(cheers sarcastically)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "0000000593C3.0B2",
-      365507,
-      "ashe",
-      "艾什",
-      null,
-      "Unknown/CB3.078",
-      "（因恐惧颤抖）",
-      "(scared shiver)",
       null,
       null,
       null,
@@ -8644,7 +8516,7 @@
       0.3,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -9828,7 +9700,7 @@
       null,
       "000000000C0F.0D0#2",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -9844,7 +9716,7 @@
       null,
       "000000000C0F.0D0#4",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -9860,7 +9732,7 @@
       null,
       "000000000C16.0D0#1",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -9876,7 +9748,7 @@
       null,
       "000000000C16.0D0#3",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -11844,7 +11716,7 @@
       null,
       "000000000A3A.0D0#1",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -11892,7 +11764,7 @@
       null,
       "000000000BCE.0D0#1",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -11908,7 +11780,7 @@
       null,
       "000000000BCE.0D0#3",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -12212,7 +12084,7 @@
       null,
       "000000000CBE.0D0#2",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -12644,7 +12516,7 @@
       null,
       "000000000CF0.0D0#2",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -12708,7 +12580,7 @@
       0.3,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13332,6 +13204,86 @@
       null,
       "000000000DC0.0D0#7",
       null,
+      null
+    ],
+    [
+      "HeroQuote",
+      "0000000645CE.0B2",
+      411086,
+      "ashe",
+      "艾什",
+      null,
+      "Unknown/11E1",
+      "我喜欢你当我的队友。",
+      "I like you on my team.",
+      null,
+      null,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "0000000645CF.0B2",
+      411087,
+      "ashe",
+      "艾什",
+      null,
+      "Unknown/11E1",
+      "回头我得跟鲍勃夸夸你。",
+      "I gotta tell B.O.B. all about you.",
+      null,
+      null,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "0000000645D0.0B2",
+      411088,
+      "ashe",
+      "艾什",
+      null,
+      "Unknown/11E1",
+      "我注意到你了。",
+      "I see you.",
+      null,
+      null,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "0000000645D1.0B2",
+      411089,
+      "ashe",
+      "艾什",
+      null,
+      "Unknown/11E1",
+      "很高兴你是我们这伙的。",
+      "Glad to have you with me.",
+      null,
+      null,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "0000000645D2.0B2",
+      411090,
+      "ashe",
+      "艾什",
+      null,
+      "Unknown/11E1",
+      "你的准头不错嘛！",
+      "You're right on target!",
+      null,
+      null,
+      null,
+      "2.21",
       null
     ],
     [
@@ -15560,22 +15512,6 @@
     ],
     [
       "HeroQuote",
-      "000000066790.0B2",
-      419728,
-      "ashe",
-      "艾什",
-      null,
-      "Unknown/143A.078",
-      "（叹气）",
-      "(sighs)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
       "000000066817.0B2",
       419863,
       "ashe",
@@ -15624,22 +15560,6 @@
     ],
     [
       "HeroQuote",
-      "000000067D2C.0B2",
-      425260,
-      "ashe",
-      "艾什",
-      null,
-      "Unknown/166F.078",
-      "（咕哝）",
-      "(grunt)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
       "000000067D2D.0B2",
       425261,
       "ashe",
@@ -15648,38 +15568,6 @@
       "Unknown/166E.078",
       "嗯哼。",
       "Mmmhmmm.",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000006823E.0B2",
-      426558,
-      "ashe",
-      "艾什",
-      null,
-      "Unknown/16F6.078",
-      "（吹气）",
-      "(blow)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000068242.0B2",
-      426562,
-      "ashe",
-      "艾什",
-      null,
-      "Unknown/16F7.078",
-      "（被激怒）",
-      "(aggravated)",
       null,
       null,
       null,
@@ -16904,38 +16792,6 @@
     ],
     [
       "HeroQuote",
-      "000000068924.0B2",
-      428324,
-      "ashe",
-      "艾什",
-      "灾星女帝",
-      "Unknown/1746.078",
-      "（大笑）",
-      "(laughs)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000068AAF.0B2",
-      428719,
-      "ashe",
-      "艾什",
-      "灾星女帝",
-      "Unknown/174C.078",
-      "（大笑）",
-      "(laughs)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
       "00000006975F.0B2",
       431967,
       "ashe",
@@ -17040,38 +16896,6 @@
       "Unknown/1967.078",
       "吼！",
       "Hoo!",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000006A78E.0B2",
-      436110,
-      "ashe",
-      "艾什",
-      null,
-      "Unknown/197C.078",
-      "（被激怒）",
-      "(aggravated)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000006A78F.0B2",
-      436111,
-      "ashe",
-      "艾什",
-      null,
-      "Unknown/197D.078",
-      "（大喊）",
-      "(yells)",
       null,
       null,
       null,

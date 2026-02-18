@@ -152,70 +152,6 @@
     ],
     [
       "HeroQuote",
-      "00000000A7BF.0B2",
-      42943,
-      "winston",
-      "温斯顿",
-      null,
-      "Unknown/11E.078",
-      "（咕哝）",
-      "(grunts)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000A7C0.0B2",
-      42944,
-      "winston",
-      "温斯顿",
-      null,
-      "Unknown/11E.078",
-      "（咕哝）",
-      "(grunts)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000A7C1.0B2",
-      42945,
-      "winston",
-      "温斯顿",
-      null,
-      "Unknown/11E.078",
-      "（咕哝）",
-      "(grunts)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000A7C2.0B2",
-      42946,
-      "winston",
-      "温斯顿",
-      null,
-      "Unknown/11E.078",
-      "（咕哝）",
-      "(grunts)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
       "00000000A7C3.0B2",
       42947,
       "winston",
@@ -306,22 +242,6 @@
       "Playtime's over.",
       null,
       null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000A7CA.0B2",
-      42954,
-      "winston",
-      "温斯顿",
-      null,
-      "Unknown/C8.078",
-      "（咆哮）",
-      "(roars)",
-      null,
-      0.2,
       null,
       null,
       null
@@ -1336,182 +1256,6 @@
     ],
     [
       "HeroQuote",
-      "00000000A877.0B2",
-      43127,
-      "winston",
-      "温斯顿",
-      null,
-      "NPC/Unknown/12B4.078",
-      "（咕哝）",
-      "(grunts)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000A878.0B2",
-      43128,
-      "winston",
-      "温斯顿",
-      null,
-      "NPC/Unknown/12B4.078",
-      "（咕哝）",
-      "(grunts)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000A879.0B2",
-      43129,
-      "winston",
-      "温斯顿",
-      null,
-      "NPC/Unknown/12B4.078",
-      "（咕哝）",
-      "(grunts)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000A87B.0B2",
-      43131,
-      "winston",
-      "温斯顿",
-      null,
-      "NPC/Unknown/12B4.078",
-      "（咕哝并咆哮）",
-      "(grunts and roars)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000A890.0B2",
-      43152,
-      "winston",
-      "温斯顿",
-      null,
-      "NPC/Unknown/11E.078",
-      "（咆哮）",
-      "(roars)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000A891.0B2",
-      43153,
-      "winston",
-      "温斯顿",
-      null,
-      "NPC/Unknown/11E.078",
-      "（咆哮）",
-      "(roars)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000A892.0B2",
-      43154,
-      "winston",
-      "温斯顿",
-      null,
-      "NPC/Unknown/11E.078",
-      "（咆哮）",
-      "(roars)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000A893.0B2",
-      43155,
-      "winston",
-      "温斯顿",
-      null,
-      "NPC/Unknown/11E.078",
-      "（咆哮）",
-      "(roars)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000A897.0B2",
-      43159,
-      "winston",
-      "温斯顿",
-      null,
-      "NPC/Unknown/12B4.078",
-      "（激动的咕哝）",
-      "(excited grunting)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000A898.0B2",
-      43160,
-      "winston",
-      "温斯顿",
-      null,
-      "NPC/Unknown/12B4.078",
-      "（激动的咕哝）",
-      "(excited grunting)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000A899.0B2",
-      43161,
-      "winston",
-      "温斯顿",
-      null,
-      "NPC/Unknown/12B4.078",
-      "（激动的咕哝）",
-      "(excited grunting)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
       "00000000A8B0.0B2",
       43184,
       "winston",
@@ -1524,7 +1268,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -1540,7 +1284,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -1556,7 +1300,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -1572,7 +1316,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -1588,7 +1332,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -1604,7 +1348,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -2216,22 +1960,6 @@
     ],
     [
       "HeroQuote",
-      "00000000B039.0B2",
-      45113,
-      "winston",
-      "温斯顿",
-      null,
-      "Unknown/EC6.078",
-      "(laughs)",
-      "(laughs)",
-      null,
-      0.1,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
       "00000000B03A.0B2",
       45114,
       "winston",
@@ -2706,22 +2434,6 @@
       "Now that's a moonshot. Heh.",
       null,
       0.1,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000B069.0B2",
-      45161,
-      "winston",
-      "温斯顿",
-      null,
-      "Unknown/1FA.078",
-      "（吼叫）",
-      "(howls)",
-      null,
-      null,
       null,
       null,
       null
@@ -3380,6 +3092,86 @@
       null,
       null,
       null,
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000001DFC1.0B2",
+      122817,
+      "winston",
+      "温斯顿",
+      null,
+      "Unknown/0495",
+      "噢！",
+      "Ow!",
+      null,
+      null,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000001DFC2.0B2",
+      122818,
+      "winston",
+      "温斯顿",
+      null,
+      "Unknown/0495",
+      "哎呀！",
+      "Ouch!",
+      null,
+      null,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000001DFC3.0B2",
+      122819,
+      "winston",
+      "温斯顿",
+      null,
+      "Unknown/0495",
+      "嘿！",
+      "Hey!",
+      null,
+      null,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000001DFC4.0B2",
+      122820,
+      "winston",
+      "温斯顿",
+      null,
+      "Unknown/0495",
+      "那很疼！",
+      "That smarts!",
+      null,
+      null,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000001DFC5.0B2",
+      122821,
+      "winston",
+      "温斯顿",
+      null,
+      "Unknown/0495",
+      "快停下！",
+      "Cut it out!",
+      null,
+      null,
+      null,
+      "2.21",
       null
     ],
     [
@@ -4088,18 +3880,18 @@
     ],
     [
       "HeroQuote",
-      "00000002A1C0.0B2",
-      172480,
+      "00000002ED7F.0B2",
+      191871,
       "winston",
       "温斯顿",
+      "潜水员",
+      "Unknown/00AF",
+      "炸弹跳水！",
+      "Cannonball!",
       null,
-      "Unknown/597.078",
-      "（咕哝并大笑）",
-      "(grunts and laughs)",
+      0.01,
       null,
-      null,
-      null,
-      null,
+      "2.21",
       null
     ],
     [
@@ -6340,7 +6132,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -6356,7 +6148,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -6372,7 +6164,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -6388,7 +6180,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -6404,7 +6196,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -6420,7 +6212,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -6436,7 +6228,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -6612,7 +6404,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -6628,7 +6420,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -6644,7 +6436,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -6660,7 +6452,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -6676,7 +6468,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -6692,7 +6484,7 @@
       0.1,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -6708,7 +6500,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -6724,7 +6516,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -6740,7 +6532,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -6756,7 +6548,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -6772,7 +6564,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -6788,7 +6580,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -6801,198 +6593,6 @@
       "黑爪步兵来了！",
       "Talon troopers incoming!",
       "{\"type\":\"toHero\",\"hero\":\"黑爪步兵\"}",
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000048C6B.0B2",
-      298091,
-      "winston",
-      "温斯顿",
-      null,
-      "NPC/Unknown/942.078",
-      "（咆哮）",
-      "(roars)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000048C6C.0B2",
-      298092,
-      "winston",
-      "温斯顿",
-      null,
-      "NPC/Unknown/943.078",
-      "（惊讶的嚎叫）",
-      "(surprised howl)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000048C6D.0B2",
-      298093,
-      "winston",
-      "温斯顿",
-      null,
-      "NPC/Unknown/943.078",
-      "（惊讶的嚎叫）",
-      "(surprised howl)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000048C6E.0B2",
-      298094,
-      "winston",
-      "温斯顿",
-      null,
-      "NPC/Unknown/942.078",
-      "（咆哮）",
-      "(roars)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000048C73.0B2",
-      298099,
-      "winston",
-      "温斯顿",
-      null,
-      "NPC/Unknown/943.078",
-      "（惊讶的嚎叫）",
-      "(surprised howl)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000048C74.0B2",
-      298100,
-      "winston",
-      "温斯顿",
-      null,
-      "NPC/Unknown/942.078",
-      "（咆哮）",
-      "(roars)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000048C75.0B2",
-      298101,
-      "winston",
-      "温斯顿",
-      null,
-      "NPC/Unknown/943.078",
-      "（惊讶的嚎叫）",
-      "(surprised howl)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000048C77.0B2",
-      298103,
-      "winston",
-      "温斯顿",
-      null,
-      "NPC/Unknown/938.078",
-      "（闻）",
-      "(sniffs)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000048C78.0B2",
-      298104,
-      "winston",
-      "温斯顿",
-      null,
-      "NPC/Unknown/938.078",
-      "（闻）",
-      "(sniffs)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000048C79.0B2",
-      298105,
-      "winston",
-      "温斯顿",
-      null,
-      "NPC/Unknown/938.078",
-      "（闻）",
-      "(sniffs)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000048C7A.0B2",
-      298106,
-      "winston",
-      "温斯顿",
-      null,
-      "NPC/Unknown/938.078",
-      "（闻）",
-      "(sniffs)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000048C7B.0B2",
-      298107,
-      "winston",
-      "温斯顿",
-      null,
-      "NPC/Unknown/938.078",
-      "（闻）",
-      "(sniffs)",
-      null,
       null,
       null,
       null,
@@ -7892,7 +7492,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -8644,7 +8244,7 @@
       null,
       "0000000006EC.0D0#2",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -12856,6 +12456,22 @@
     ],
     [
       "HeroQuote",
+      "000000060CEF.0B2",
+      396527,
+      "winston",
+      "温斯顿",
+      null,
+      "PVE/Unknown",
+      "快去帮帮我们的队友！",
+      "Someone bring back our teammate!",
+      null,
+      null,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
       "000000060CF0.0B2",
       396528,
       "winston",
@@ -13240,6 +12856,22 @@
     ],
     [
       "HeroQuote",
+      "000000060E28.0B2",
+      396840,
+      "winston",
+      "温斯顿",
+      null,
+      "MatchTalk",
+      "齐格勒博士，别忘了，我们也在支持着你。",
+      "Dr. Ziegler, don't forget. We're here to support you too.",
+      null,
+      null,
+      "000000000B63.0D0#2",
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
       "000000060E2A.0B2",
       396842,
       "winston",
@@ -13284,7 +12916,7 @@
       null,
       "000000000B67.0D0#1",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14382,7 +14014,7 @@
       "温斯顿",
       null,
       "Unknown/1894.078",
-      "Very useful!",
+      "非常有用！",
       "Very useful!",
       null,
       null,
@@ -14702,7 +14334,7 @@
       "温斯顿",
       null,
       "Unknown/10EC.078",
-      "Going down!",
+      "下坠喽！",
       "Going down!",
       null,
       null,
@@ -14718,7 +14350,7 @@
       "温斯顿",
       null,
       "Unknown/10EC.078",
-      "Altering vector!",
+      "调整航向！",
       "Altering vector!",
       null,
       null,
@@ -14734,7 +14366,7 @@
       "温斯顿",
       null,
       "Unknown/10EC.078",
-      "Changing trajectory!",
+      "调转轨迹！",
       "Changing trajectory!",
       null,
       null,
@@ -14750,7 +14382,7 @@
       "温斯顿",
       null,
       "Unknown/10EC.078",
-      "Diverting momentum!",
+      "改变动量！",
       "Diverting momentum!",
       null,
       null,
@@ -15064,6 +14696,22 @@
     ],
     [
       "HeroQuote",
+      "0000000620C7.0B2",
+      401607,
+      "winston",
+      "温斯顿",
+      null,
+      "MatchTalk",
+      "当年我们就在这里合作无间，再来一次肯定也没问题！",
+      "We did good work here before. I know we can do it again!",
+      "{\"type\":\"nested\",\"total\":4,\"needed\":4,\"conditions\":[{\"type\":\"map\",\"map\":\"哈瓦那\"},{\"type\":\"withHero\",\"hero\":\"源氏\"},{\"type\":\"withHero\",\"hero\":\"天使\"},{\"type\":\"withHero\",\"hero\":\"猎空\"}]}",
+      0.6,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
       "0000000620CA.0B2",
       401610,
       "winston",
@@ -15140,7 +14788,7 @@
       null,
       "000000000C07.0D0#2",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -15156,7 +14804,7 @@
       null,
       "000000000C07.0D0#4",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -15204,6 +14852,22 @@
       null,
       "000000000C53.0D0#3",
       null,
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000063222.0B2",
+      406050,
+      "winston",
+      "温斯顿",
+      null,
+      "Unknown/00AF",
+      "强力一跳！",
+      "Power jump!",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A5FD\",\"scriptDesc\":\"被纳米激素强化时\"},{\"type\":\"scripted\",\"script\":\"00A5B5\",\"scriptDesc\":\"使用终极技能期间\",\"negative\":true}]}",
+      null,
+      null,
+      "2.21",
       null
     ],
     [
@@ -15428,7 +15092,7 @@
       null,
       "000000000CBE.0D0#2",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -15572,6 +15236,22 @@
       0.75,
       null,
       null,
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000063E7F.0B2",
+      409215,
+      "winston",
+      "温斯顿",
+      null,
+      "Unknown/00AF",
+      "激情一跳！",
+      "Nano jump!",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A5FD\",\"scriptDesc\":\"被纳米激素强化时\"},{\"type\":\"scripted\",\"script\":\"00A5B5\",\"scriptDesc\":\"使用终极技能期间\",\"negative\":true}]}",
+      null,
+      null,
+      "2.21",
       null
     ],
     [
@@ -16120,6 +15800,38 @@
     ],
     [
       "HeroQuote",
+      "000000063EA6.0B2",
+      409254,
+      "winston",
+      "温斯顿",
+      null,
+      "Unknown/00AF",
+      "大显神通！",
+      "Look at me go!",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      null,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000063EA7.0B2",
+      409255,
+      "winston",
+      "温斯顿",
+      null,
+      "Unknown/00AF",
+      "哇哇哇喔！",
+      "Wuh wuh wuh whoa!",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
+      null,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
       "000000063EA8.0B2",
       409256,
       "winston",
@@ -16148,70 +15860,86 @@
       null,
       "000000000D64.0D0#1",
       null,
+      "2.21"
+    ],
+    [
+      "HeroQuote",
+      "00000006473F.0B2",
+      411455,
+      "winston",
+      "温斯顿",
+      null,
+      "Unknown/11E1",
+      "很机灵嘛！",
+      "Nice thinking!",
+      null,
+      null,
+      null,
+      "2.21",
       null
     ],
     [
       "HeroQuote",
-      "000000064A7C.0B2",
-      412284,
+      "000000064740.0B2",
+      411456,
       "winston",
       "温斯顿",
       null,
-      "Unknown/1257.078",
-      "（松了口气）",
-      "(relieved sigh)",
+      "Unknown/11E1",
+      "我真为你骄傲。",
+      "I'm so proud of you.",
       null,
       null,
       null,
-      null,
+      "2.21",
       null
     ],
     [
       "HeroQuote",
-      "000000064A7D.0B2",
-      412285,
+      "000000064741.0B2",
+      411457,
       "winston",
       "温斯顿",
       null,
-      "Unknown/1257.078",
-      "（松了口气）",
-      "(relieved sigh)",
+      "Unknown/11E1",
+      "你干得太漂亮了！",
+      "You're doing a fine job!",
       null,
       null,
       null,
-      null,
+      "2.21",
       null
     ],
     [
       "HeroQuote",
-      "000000064A7E.0B2",
-      412286,
+      "000000064742.0B2",
+      411458,
       "winston",
       "温斯顿",
       null,
-      "Unknown/1257.078",
-      "（松了口气）",
-      "(relieved sigh)",
+      "Unknown/11E1",
+      "配合得很好！",
+      "Good teamwork!",
       null,
       null,
       null,
-      null,
+      "2.21",
       null
     ],
     [
       "HeroQuote",
-      "000000064A7F.0B2",
-      412287,
+      "000000064743.0B2",
+      411459,
       "winston",
       "温斯顿",
       null,
-      "Unknown/1257.078",
-      "（松了口气）",
-      "(relieved sigh)",
+      "Unknown/11E1",
+      "你真了不得！",
+      "You're brilliant!",
       null,
       null,
       null,
-      null,
+      "2.21",
       null
     ],
     [
@@ -16224,262 +15952,6 @@
       "Unknown/1265.078",
       "嘿！",
       "Hey!",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000064C7E.0B2",
-      412798,
-      "winston",
-      "温斯顿",
-      null,
-      "Unknown/12AD.078",
-      "（好奇）",
-      "(intrigued)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000064C7F.0B2",
-      412799,
-      "winston",
-      "温斯顿",
-      null,
-      "Unknown/12AD.078",
-      "（好奇）",
-      "(intrigued)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000064C8F.0B2",
-      412815,
-      "winston",
-      "温斯顿",
-      null,
-      "Unknown/12B4.078",
-      "（咆哮）",
-      "(roars)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000064C90.0B2",
-      412816,
-      "winston",
-      "温斯顿",
-      null,
-      "Unknown/12B4.078",
-      "（咆哮）",
-      "(roars)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000064C91.0B2",
-      412817,
-      "winston",
-      "温斯顿",
-      null,
-      "Unknown/12B4.078",
-      "（咆哮）",
-      "(roars)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000064C92.0B2",
-      412818,
-      "winston",
-      "温斯顿",
-      null,
-      "Unknown/12B4.078",
-      "（咆哮）",
-      "(roars)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000064C93.0B2",
-      412819,
-      "winston",
-      "温斯顿",
-      null,
-      "Unknown/12B4.078",
-      "（咆哮）",
-      "(roars)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000064C94.0B2",
-      412820,
-      "winston",
-      "温斯顿",
-      null,
-      "Unknown/12B4.078",
-      "（咆哮）",
-      "(roars)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000064C95.0B2",
-      412821,
-      "winston",
-      "温斯顿",
-      null,
-      "Unknown/12B4.078",
-      "（急促喘息并咆哮）",
-      "(rapid breathing and roar)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000064C9F.0B2",
-      412831,
-      "winston",
-      "温斯顿",
-      null,
-      "NPC/Unknown/12B4.078",
-      "（咆哮）",
-      "(roars)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000064CA0.0B2",
-      412832,
-      "winston",
-      "温斯顿",
-      null,
-      "NPC/Unknown/12B4.078",
-      "（咆哮）",
-      "(roars)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000064CA1.0B2",
-      412833,
-      "winston",
-      "温斯顿",
-      null,
-      "NPC/Unknown/12B4.078",
-      "（咆哮）",
-      "(roars)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000064CA2.0B2",
-      412834,
-      "winston",
-      "温斯顿",
-      null,
-      "NPC/Unknown/12B4.078",
-      "（咆哮）",
-      "(roars)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000064CA3.0B2",
-      412835,
-      "winston",
-      "温斯顿",
-      null,
-      "NPC/Unknown/12B4.078",
-      "（咆哮）",
-      "(roars)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000064CA4.0B2",
-      412836,
-      "winston",
-      "温斯顿",
-      null,
-      "NPC/Unknown/12B4.078",
-      "（咆哮）",
-      "(roars)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000064CA5.0B2",
-      412837,
-      "winston",
-      "温斯顿",
-      null,
-      "NPC/Unknown/12B4.078",
-      "（咆哮）",
-      "(roars)",
       null,
       null,
       null,
@@ -16723,182 +16195,6 @@
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"mission\",\"mission\":\"绝境反抗\"},{\"type\":\"mission\",\"objective\":\"肃清俱乐部\"}]}",
       null,
       "000000000F48.0D0#1",
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000065B6B.0B2",
-      416619,
-      "winston",
-      "温斯顿",
-      null,
-      "Unknown/136A.078",
-      "（思考）",
-      "(thinking)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000065B6C.0B2",
-      416620,
-      "winston",
-      "温斯顿",
-      null,
-      "Unknown/136C.078",
-      "（思考）",
-      "(thinking)",
-      null,
-      0.3,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000065B6D.0B2",
-      416621,
-      "winston",
-      "温斯顿",
-      null,
-      "Unknown/136B.078",
-      "（思考）",
-      "(thinking)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000065B6E.0B2",
-      416622,
-      "winston",
-      "温斯顿",
-      null,
-      "Unknown/136C.078",
-      "（思考）",
-      "(thinking)",
-      null,
-      0.3,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000065B6F.0B2",
-      416623,
-      "winston",
-      "温斯顿",
-      null,
-      "Unknown/136C.078",
-      "（思考）",
-      "(thinking)",
-      null,
-      0.3,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000065B70.0B2",
-      416624,
-      "winston",
-      "温斯顿",
-      null,
-      "Unknown/136B.078",
-      "（思考）",
-      "(thinking)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000065B71.0B2",
-      416625,
-      "winston",
-      "温斯顿",
-      null,
-      "Unknown/136C.078",
-      "（思考）",
-      "(thinking)",
-      null,
-      0.3,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000065B72.0B2",
-      416626,
-      "winston",
-      "温斯顿",
-      null,
-      "Unknown/136C.078",
-      "（思考）",
-      "(thinking)",
-      null,
-      0.3,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000065B73.0B2",
-      416627,
-      "winston",
-      "温斯顿",
-      null,
-      "Unknown/136C.078",
-      "（思考）",
-      "(thinking)",
-      null,
-      0.3,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000065B74.0B2",
-      416628,
-      "winston",
-      "温斯顿",
-      null,
-      "Unknown/136A.078",
-      "（思考）",
-      "(thinking)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000065B75.0B2",
-      416629,
-      "winston",
-      "温斯顿",
-      null,
-      "Unknown/136C.078",
-      "（思考）",
-      "(thinking)",
-      null,
-      0.3,
-      null,
       null,
       null
     ],
@@ -17300,6 +16596,22 @@
       null,
       null,
       null,
+      null
+    ],
+    [
+      "HeroQuote",
+      "0000000664BD.0B2",
+      419005,
+      "winston",
+      "温斯顿",
+      "异星来客",
+      "Unknown/00AF",
+      "（气声）（外星语）：Grom!",
+      "(exertion) Grom!",
+      null,
+      null,
+      null,
+      "2.21",
       null
     ],
     [
@@ -18068,7 +17380,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18084,7 +17396,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18100,7 +17412,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18116,7 +17428,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18132,7 +17444,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18148,7 +17460,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18164,7 +17476,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18180,7 +17492,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18196,7 +17508,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18212,7 +17524,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18228,7 +17540,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18244,7 +17556,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18260,7 +17572,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18276,7 +17588,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18292,7 +17604,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18308,7 +17620,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18324,7 +17636,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18340,7 +17652,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18356,7 +17668,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18372,7 +17684,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18388,7 +17700,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18404,7 +17716,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18420,7 +17732,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18436,7 +17748,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18452,7 +17764,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18468,7 +17780,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18484,7 +17796,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18500,7 +17812,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18516,7 +17828,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18532,7 +17844,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18548,7 +17860,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18564,7 +17876,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18580,7 +17892,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18596,7 +17908,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18612,7 +17924,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18628,7 +17940,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18644,7 +17956,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18660,7 +17972,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18676,7 +17988,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18692,7 +18004,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18708,7 +18020,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18724,7 +18036,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18740,7 +18052,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18756,7 +18068,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18772,7 +18084,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18788,7 +18100,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18804,7 +18116,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18820,7 +18132,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18836,7 +18148,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18852,7 +18164,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18868,7 +18180,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18884,7 +18196,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18900,7 +18212,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18916,7 +18228,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18932,7 +18244,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18948,7 +18260,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18964,7 +18276,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18980,7 +18292,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18996,7 +18308,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -19012,7 +18324,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -19028,7 +18340,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -19044,7 +18356,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -19060,7 +18372,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -19076,7 +18388,7 @@
       0.1,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -19092,7 +18404,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -19108,7 +18420,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -19124,7 +18436,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -19140,7 +18452,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -19156,7 +18468,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -19172,7 +18484,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -19300,7 +18612,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -19316,7 +18628,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -19332,7 +18644,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -19348,7 +18660,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -19364,7 +18676,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -19380,7 +18692,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -19396,7 +18708,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -19412,7 +18724,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -19428,7 +18740,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -19444,7 +18756,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -19460,7 +18772,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -19476,7 +18788,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -19492,7 +18804,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -19508,7 +18820,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -19524,7 +18836,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -19540,7 +18852,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -19556,7 +18868,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -19572,7 +18884,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -19588,7 +18900,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -19604,7 +18916,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -19620,7 +18932,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -19636,7 +18948,7 @@
       0.001,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -19652,7 +18964,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -19668,7 +18980,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -20340,7 +19652,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -20404,7 +19716,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -20420,7 +19732,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -20436,7 +19748,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -20452,7 +19764,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -20468,7 +19780,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -20484,7 +19796,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -20500,7 +19812,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -20596,7 +19908,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -20728,38 +20040,6 @@
     ],
     [
       "HeroQuote",
-      "000000067258.0B2",
-      422488,
-      "winston",
-      "温斯顿",
-      null,
-      "Unknown/1546.078",
-      "（咀嚼）",
-      "(chewing noises)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000067259.0B2",
-      422489,
-      "winston",
-      "温斯顿",
-      null,
-      "Unknown/1546.078",
-      "（咀嚼）",
-      "(chewing noises)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
       "00000006725A.0B2",
       422490,
       "winston",
@@ -20768,22 +20048,6 @@
       "Unknown/1545.078",
       "啊。",
       "Ahhhh.",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000006725B.0B2",
-      422491,
-      "winston",
-      "温斯顿",
-      null,
-      "Unknown/1547.078",
-      "（咀嚼）",
-      "(chewing noises)",
       null,
       null,
       null,
@@ -20808,50 +20072,18 @@
     ],
     [
       "HeroQuote",
-      "00000006725D.0B2",
-      422493,
+      "0000000676E6.0B2",
+      423654,
       "winston",
       "温斯顿",
       null,
-      "Unknown/1547.078",
-      "（咀嚼）",
-      "(chewing noises)",
+      "MatchTalk",
+      "是担心我会害你着“棘”吗？",
+      "Worried I'll leave you in a thorny situation?",
       null,
       null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000067271.0B2",
-      422513,
-      "winston",
-      "温斯顿",
-      null,
-      "Unknown/1550.078",
-      "（满足）",
-      "(mmmmmh)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000067272.0B2",
-      422514,
-      "winston",
-      "温斯顿",
-      null,
-      "Unknown/1550.078",
-      "（满足）",
-      "(mmmmmh)",
-      null,
-      null,
-      null,
-      null,
+      "00000000117B.0D0#2",
+      "2.21",
       null
     ],
     [
@@ -20904,34 +20136,306 @@
     ],
     [
       "HeroQuote",
-      "0000000682AC.0B2",
-      426668,
+      "00000006ACFA.0B2",
+      437498,
       "winston",
       "温斯顿",
       null,
-      "Unknown/1700.078",
-      "（咕哝）",
-      "(grunts)",
+      "MatchTalk",
+      "知道吗，斯科乌特工……这个世界现在需要拯救，没人比搜救小队的成员更适合迎接这个挑战了！",
+      "You know, Agent Skov... when the world needs saving, there's no one more up to the challenge than search and rescue!",
       null,
       null,
-      null,
-      null,
+      "0000000013C2.0D0#1",
+      "2.21",
       null
     ],
     [
       "HeroQuote",
-      "000000069D4F.0B2",
-      433487,
+      "00000006ACFE.0B2",
+      437502,
       "winston",
       "温斯顿",
       null,
-      "NPC/Unknown/18D5.078",
-      "(enraged roar)",
-      "(enraged roar)",
+      "MatchTalk",
+      "（笑）噢，没关系。我给你找点别的玩具。",
+      "(chuckle) Aww, it's okay. I'll find you something else to play with.",
+      null,
+      null,
+      "0000000013C8.0D0#3",
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006AD00.0B2",
+      437504,
+      "winston",
+      "温斯顿",
+      null,
+      "MatchTalk",
+      "啡咖，你是不是又跑到我桌子上玩了？我的安全系统被你给激活了！",
+      "Fika, were you playing on my desk again? You accidentally tripped my security systems!",
+      null,
+      null,
+      "0000000013C8.0D0#1",
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006AD07.0B2",
+      437511,
+      "winston",
+      "温斯顿",
+      null,
+      "MatchTalk",
+      "你让我想起了一位在月球基地时的老朋友。",
+      "You remind me of an old friend from the Lunar Colony.",
+      null,
+      null,
+      "0000000013CF.0D0#1",
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006AD08.0B2",
+      437512,
+      "winston",
+      "温斯顿",
+      null,
+      "MatchTalk",
+      "每当这种时候，我就会想起一位好朋友的建议。",
+      "At times like this, I remember a good friend's advice.",
+      null,
+      null,
+      "0000000013B8.0D0#2",
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006AD0A.0B2",
+      437514,
+      "winston",
+      "温斯顿",
+      null,
+      "MatchTalk",
+      "永远不要只满足于世界的表象。要敢于探寻未知的可能。",
+      "Never accept the world as it appears to be. Dare to see it for what it could be.",
+      null,
+      null,
+      "0000000013B8.0D0#4",
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006AD0B.0B2",
+      437515,
+      "winston",
+      "温斯顿",
+      null,
+      "MatchTalk",
+      "你们都很聪明，很可爱，也很能惹麻烦！真希望有一天能介绍你们俩认识。",
+      "You're both smart, and cute, and love finding trouble! I hope I can introduce you to him one day.",
+      null,
+      null,
+      "0000000013CF.0D0#3",
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006AD0C.0B2",
+      437516,
+      "winston",
+      "温斯顿",
+      null,
+      "MatchTalk",
+      "一看你就是个天生的考古学家！你可不可以算是……“刻‘古’铭心”？",
+      "You seem like a born archaeologist! Would you say it's... \"in your bones\"?",
+      null,
+      null,
+      "0000000011BC.0D0#1",
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006AD0D.0B2",
+      437517,
+      "winston",
+      "温斯顿",
+      null,
+      "MatchTalk",
+      "因为笑话太冷，“水”也逗不笑？",
+      "Because it doesn't like dry humor?",
+      null,
+      null,
+      "00000000131B.0D0#2",
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006AD0E.0B2",
+      437518,
+      "winston",
+      "温斯顿",
+      null,
+      "MatchTalk",
+      "哈哈才没有，谁叫你还不够“脚滑”！",
+      "No I didn't. You just let it \"slip\" away!",
+      null,
+      null,
+      "00000000131B.0D0#4",
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006AD10.0B2",
+      437520,
+      "winston",
+      "温斯顿",
+      null,
+      "Teammate/KillSeen",
+      "你能加入我们真是太好了！",
+      "I'm so glad you joined our team!",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"安燃\"},{\"type\":\"toHero\",\"hero\":\"无漾\"}]}",
+      null,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006AD11.0B2",
+      437521,
+      "winston",
+      "温斯顿",
+      null,
+      "Elimination",
+      "哎呀。（笑）",
+      "Oops. (chuckle)",
       null,
       null,
       null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006AD14.0B2",
+      437524,
+      "winston",
+      "温斯顿",
       null,
+      "Elimination",
+      "问题解决了。",
+      "Problem solved.",
+      null,
+      null,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006AD15.0B2",
+      437525,
+      "winston",
+      "温斯顿",
+      null,
+      "Elimination",
+      "我管这个叫融化！",
+      "That's what I call a meltdown!",
+      "{\"type\":\"scripted\",\"script\":\"00AA26\",\"scriptDesc\":\"敌人被暴雪控制\"}",
+      null,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006AD16.0B2",
+      437526,
+      "winston",
+      "温斯顿",
+      null,
+      "Elimination",
+      "希望你能别再阴魂不散了。",
+      "I just wish you'd stop coming back.",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00AF43\",\"scriptDesc\":\"敌人被复活后\"},{\"type\":\"toHero\",\"hero\":\"死神\"}]}",
+      null,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006AD18.0B2",
+      437528,
+      "winston",
+      "温斯顿",
+      null,
+      "Elimination",
+      "（叹气）我本来是想热情地欢迎你的……",
+      "(sigh) I'd hoped to give you a warmer welcome…",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"安燃\"},{\"type\":\"toHero\",\"hero\":\"无漾\"}]}",
+      0.2,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006AD19.0B2",
+      437529,
+      "winston",
+      "温斯顿",
+      null,
+      "Teammate/KillSeen",
+      "你这只小猫真够凶的！",
+      "You're one ferocious feline!",
+      "{\"type\":\"toHero\",\"hero\":\"飞天猫\"}",
+      null,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006AD1F.0B2",
+      437535,
+      "winston",
+      "温斯顿",
+      null,
+      "Unknown/12E1",
+      "周围没有治疗者！",
+      "There's no healer nearby!",
+      null,
+      null,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006AD20.0B2",
+      437536,
+      "winston",
+      "温斯顿",
+      null,
+      "Unknown/12E1",
+      "治疗者不在附近。",
+      "No healer in range.",
+      null,
+      null,
+      null,
+      "2.21",
       null
     ]
   ]

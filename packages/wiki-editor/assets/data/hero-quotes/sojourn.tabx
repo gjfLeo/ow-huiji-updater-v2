@@ -1828,7 +1828,7 @@
       null,
       "000000000346.0D0#1",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -2612,6 +2612,22 @@
       null,
       null,
       null,
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005BB02.0B2",
+      375554,
+      "sojourn",
+      "索杰恩",
+      null,
+      "Unknown/0B90",
+      "让开！",
+      "Coming through!",
+      null,
+      0.2,
+      null,
+      "2.21",
       null
     ],
     [
@@ -9928,6 +9944,22 @@
     ],
     [
       "HeroQuote",
+      "00000005DB69.0B2",
+      383849,
+      "sojourn",
+      "索杰恩",
+      null,
+      "Voicelines",
+      "别再来了……",
+      "Not again...",
+      null,
+      null,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
       "00000005DB6B.0B2",
       383851,
       "sojourn",
@@ -12292,7 +12324,7 @@
       null,
       "000000000990.0D0#2",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13384,22 +13416,6 @@
     ],
     [
       "HeroQuote",
-      "000000064554.0B2",
-      410964,
-      "sojourn",
-      "索杰恩",
-      null,
-      "Unknown/1211.078",
-      "（欢呼）",
-      "(cheers)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
       "0000000646A7.0B2",
       411303,
       "sojourn",
@@ -13556,6 +13572,86 @@
       null,
       "000000000DD7.0D0#1",
       null,
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006475D.0B2",
+      411485,
+      "sojourn",
+      "索杰恩",
+      null,
+      "Unknown/11E1",
+      "你还挺有胆量。",
+      "You've got guts.",
+      null,
+      null,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006475E.0B2",
+      411486,
+      "sojourn",
+      "索杰恩",
+      null,
+      "Unknown/11E1",
+      "了不起。",
+      "Impressive.",
+      null,
+      null,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006475F.0B2",
+      411487,
+      "sojourn",
+      "索杰恩",
+      null,
+      "Unknown/11E1",
+      "好样的。",
+      "Good stuff.",
+      null,
+      null,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000064760.0B2",
+      411488,
+      "sojourn",
+      "索杰恩",
+      null,
+      "Unknown/11E1",
+      "我注意到你了。",
+      "You've got my attention.",
+      null,
+      null,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000064761.0B2",
+      411489,
+      "sojourn",
+      "索杰恩",
+      null,
+      "Unknown/11E1",
+      "你的表现非常出色。",
+      "That's some solid work.",
+      null,
+      null,
+      null,
+      "2.21",
       null
     ],
     [
@@ -15252,7 +15348,7 @@
       null,
       "000000000FB0.0D0#2",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -16306,9 +16402,9 @@
       "Team, can you hear me? That was close.",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"mission\",\"mission\":\"宇宙危机\"},{\"type\":\"mission\",\"objective\":\"离开飞船\"}]}",
       null,
-      "00000000119C.0D0#1",
+      "00000000119C.0D0#1;00000000119C.0D0#1",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -16322,9 +16418,9 @@
       "And remember: stick together. Loners don't stand a chance out here.",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"mission\",\"mission\":\"宇宙危机\"},{\"type\":\"mission\",\"objective\":\"离开飞船\"}]}",
       null,
-      "00000000119C.0D0#3",
+      "00000000119C.0D0#3;00000000119C.0D0#3",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -16338,9 +16434,9 @@
       "Get out there and take a look at the ship.",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"mission\",\"mission\":\"宇宙危机\"},{\"type\":\"mission\",\"objective\":\"离开飞船\"}]}",
       null,
-      "00000000119C.0D0#2",
+      "00000000119C.0D0#2;00000000119C.0D0#2",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -16354,9 +16450,9 @@
       "The ship is stable now, but its fuel cells are depleted.",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"mission\",\"mission\":\"宇宙危机\"},{\"type\":\"mission\",\"objective\":\"找到实验室\"}]}",
       null,
-      "00000000119F.0D0#1",
+      "00000000119F.0D0#1;00000000119F.0D0#1",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -16370,9 +16466,9 @@
       "You can't fight the Ravager without backup, so focus on the ship. Keep your distance, and it can't hurt you.",
       null,
       null,
-      "0000000011A1.0D0#3",
+      "0000000011A1.0D0#3;0000000011A1.0D0#3",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -16386,9 +16482,9 @@
       "Records say there's batteries stored in the laboratory at the other end of the station.",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"mission\",\"mission\":\"宇宙危机\"},{\"type\":\"mission\",\"objective\":\"找到实验室\"}]}",
       null,
-      "00000000119F.0D0#2",
+      "00000000119F.0D0#2;00000000119F.0D0#2",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -16402,9 +16498,9 @@
       "The ship's core temp has spiked. Put out any fires you can find, but remember to watch out for Null Sector.",
       null,
       null,
-      "00000000119E.0D0#1",
+      "00000000119E.0D0#1;00000000119E.0D0#1",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -16418,9 +16514,9 @@
       "Watch out for those tentacles. They'll knock you back if you get too close.",
       null,
       null,
-      "0000000011A0.0D0#1",
+      "0000000011A0.0D0#1;0000000011A0.0D0#1",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -16434,9 +16530,9 @@
       "I'm getting readings of a cosmic disturbance in these ruins.",
       null,
       null,
-      "0000000011DD.0D0#1",
+      "0000000011DD.0D0#1;0000000011DD.0D0#1",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -16450,9 +16546,9 @@
       "Shoot them down if you have to, but steer clear of that void miasma.",
       null,
       null,
-      "0000000011A0.0D0#2",
+      "0000000011A0.0D0#2;0000000011A0.0D0#2",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -16466,9 +16562,9 @@
       "The ship's core temp has plummeted. Clear off any snow you can find, but remember to watch out for Null Sector.",
       null,
       null,
-      "00000000119D.0D0#1",
+      "00000000119D.0D0#1;00000000119D.0D0#1",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -16482,9 +16578,9 @@
       "Seismic activity coming from that pit. Can't be good news.",
       null,
       null,
-      "0000000011DE.0D0#1",
+      "0000000011DE.0D0#1;0000000011DE.0D0#1",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -16498,9 +16594,9 @@
       "And team... be careful. Last ship we sent this way never came home.",
       null,
       null,
-      "0000000011DD.0D0#3",
+      "0000000011DD.0D0#3;0000000011DD.0D0#3",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -16514,9 +16610,9 @@
       "You're going to crash! Stay with me.",
       null,
       null,
-      "0000000011DC.0D0#2",
+      "0000000011DC.0D0#2;0000000011DC.0D0#2",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -16530,9 +16626,9 @@
       "That must be what's controlling these Null Sector units.",
       null,
       null,
-      "0000000011A1.0D0#2",
+      "0000000011A1.0D0#2;0000000011A1.0D0#2",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -16546,9 +16642,9 @@
       "Get back to the ship, but be careful. No telling what's in that pit.",
       null,
       null,
-      "0000000011DE.0D0#2",
+      "0000000011DE.0D0#2;0000000011DE.0D0#2",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -16562,9 +16658,9 @@
       "Could just be void static, but it's our duty to check it out.",
       null,
       null,
-      "0000000011DD.0D0#2",
+      "0000000011DD.0D0#2;0000000011DD.0D0#2",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -16578,9 +16674,9 @@
       "Get back to the ship, but watch that null unit. Something's waking them back up.",
       null,
       null,
-      "0000000011DE.0D0#2",
+      "0000000011DE.0D0#2;0000000011DE.0D0#2",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -16594,9 +16690,9 @@
       "Something's wrong with the ship, I'm losing your signal, hang on--",
       null,
       null,
-      "0000000011DC.0D0#1",
+      "0000000011DC.0D0#1;0000000011DC.0D0#1",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -16610,9 +16706,9 @@
       "The Ravager will keep trying to sabotage your escape, so stay focused.",
       null,
       null,
-      "0000000011A4.0D0#2",
+      "0000000011A4.0D0#2;0000000011A4.0D0#2",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -16626,9 +16722,9 @@
       "That's the lab up ahead, but the door's locked.",
       null,
       null,
-      "0000000011A3.0D0#1",
+      "0000000011A3.0D0#1;0000000011A3.0D0#1",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -16642,9 +16738,9 @@
       "That's the lab up ahead, but the door's locked.",
       null,
       null,
-      "0000000011A2.0D0#1",
+      "0000000011A2.0D0#1;0000000011A2.0D0#1",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -16658,9 +16754,9 @@
       "Hunt down those units and collect the access cards to unlock the lab.",
       null,
       null,
-      "0000000011A3.0D0#3",
+      "0000000011A3.0D0#3;0000000011A3.0D0#3",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -16674,9 +16770,9 @@
       "Find and disable those relays to get access to the lab.",
       null,
       null,
-      "0000000011A2.0D0#3",
+      "0000000011A2.0D0#3;0000000011A2.0D0#3",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -16690,9 +16786,9 @@
       "The Ravager has elite null units guarding the access cards.",
       null,
       null,
-      "0000000011A3.0D0#2",
+      "0000000011A3.0D0#2;0000000011A3.0D0#2",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -16706,9 +16802,9 @@
       "The Ravager is diverting all power to relays across the station.",
       null,
       null,
-      "0000000011A2.0D0#2",
+      "0000000011A2.0D0#2;0000000011A2.0D0#2",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -16722,9 +16818,9 @@
       "Nice work everyone. Now get inside and take any batteries you can find back to the ship.",
       null,
       null,
-      "0000000011A4.0D0#1",
+      "0000000011A4.0D0#1;0000000011A4.0D0#1",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -16738,9 +16834,9 @@
       "That's a good start, but we still need more power to get off the ground.",
       null,
       null,
-      "0000000011E0.0D0#1",
+      "0000000011E0.0D0#1;0000000011E0.0D0#1",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -16754,9 +16850,9 @@
       "The Cryonics lab should be open now. Take any batteries you can find there back to the ship.",
       null,
       null,
-      "0000000011E0.0D0#2",
+      "0000000011E0.0D0#2;0000000011E0.0D0#2",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -16770,9 +16866,9 @@
       "Keep those null forces at bay while the ship prepares for takeoff.",
       null,
       null,
-      "0000000011A9.0D0#2",
+      "0000000011A9.0D0#2;0000000011A9.0D0#2",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -16786,9 +16882,9 @@
       "That should do it. Ship's powered up, I'm starting a repair sequence for you.",
       null,
       null,
-      "0000000011A9.0D0#1",
+      "0000000011A9.0D0#1;0000000011A9.0D0#1",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -16802,9 +16898,9 @@
       "The ship is ready for takeoff, everyone get on board!",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"mission\",\"mission\":\"宇宙危机\"},{\"type\":\"mission\",\"objective\":\"Get In Ship\"}]}",
       null,
-      "0000000011AC.0D0#1",
+      "0000000011AC.0D0#1;0000000011AC.0D0#1",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -16818,9 +16914,9 @@
       "The Ravager is relentless... straight out of a nightmare. We'll be back for it someday.",
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"mission\",\"mission\":\"宇宙危机\"},{\"type\":\"mission\",\"objective\":\"Get In Ship\"}]}",
       null,
-      "0000000011AC.0D0#2",
+      "0000000011AC.0D0#2;0000000011AC.0D0#2",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -16836,7 +16932,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -16852,7 +16948,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -16868,7 +16964,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -16884,7 +16980,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -16900,7 +16996,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -16916,7 +17012,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -16932,7 +17028,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -16948,7 +17044,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -16964,7 +17060,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -16980,7 +17076,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -16996,7 +17092,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -17012,7 +17108,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -17028,7 +17124,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -17044,7 +17140,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -17060,7 +17156,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -17076,7 +17172,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -17092,7 +17188,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -17106,9 +17202,9 @@
       "I was hoping those readings were a mistake... but this confirms a cosmic threat.",
       null,
       null,
-      "0000000011DE.0D0#1",
+      "0000000011DE.0D0#1;0000000011DE.0D0#1",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -17122,9 +17218,9 @@
       "There's no hope for them now. Just focus on your escape and take them down if you have to.",
       null,
       null,
-      "0000000011E5.0D0#2",
+      "0000000011E5.0D0#2;0000000011E5.0D0#2",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -17138,9 +17234,9 @@
       "I can't believe it... a Cosmic Ravager.",
       null,
       null,
-      "0000000011A1.0D0#1",
+      "0000000011A1.0D0#1;0000000011A1.0D0#1",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -17156,7 +17252,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -17172,7 +17268,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -17188,7 +17284,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -17204,7 +17300,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -17220,7 +17316,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -17236,7 +17332,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -17252,7 +17348,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -17268,7 +17364,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -17284,7 +17380,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -17300,7 +17396,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -17316,7 +17412,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -17332,7 +17428,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -17348,7 +17444,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -17362,169 +17458,9 @@
       "Damn it! The Ravager got to one of us.",
       null,
       null,
-      "0000000011E5.0D0#1",
+      "0000000011E5.0D0#1;0000000011E5.0D0#1",
       null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000067E26.0B2",
-      425510,
-      "sojourn",
-      "索杰恩",
-      null,
-      "Unknown/16B6.078",
-      "（咕哝）",
-      "(grunt)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000067E27.0B2",
-      425511,
-      "sojourn",
-      "索杰恩",
-      null,
-      "Unknown/16B6.078",
-      "（咕哝）",
-      "(grunt)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000067E28.0B2",
-      425512,
-      "sojourn",
-      "索杰恩",
-      null,
-      "Unknown/16B6.078",
-      "（咕哝）",
-      "(grunt)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000067E29.0B2",
-      425513,
-      "sojourn",
-      "索杰恩",
-      null,
-      "Unknown/16B6.078",
-      "（咕哝）",
-      "(grunt)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000067E2A.0B2",
-      425514,
-      "sojourn",
-      "索杰恩",
-      null,
-      "Unknown/16B6.078",
-      "（咕哝）",
-      "(grunt)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000067E2B.0B2",
-      425515,
-      "sojourn",
-      "索杰恩",
-      null,
-      "Unknown/16B7.078",
-      "（咕哝）",
-      "(grunt)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000067E2C.0B2",
-      425516,
-      "sojourn",
-      "索杰恩",
-      null,
-      "Unknown/16B7.078",
-      "（咕哝）",
-      "(grunt)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000067E2D.0B2",
-      425517,
-      "sojourn",
-      "索杰恩",
-      null,
-      "Unknown/16B7.078",
-      "（咕哝）",
-      "(grunt)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000067E2E.0B2",
-      425518,
-      "sojourn",
-      "索杰恩",
-      null,
-      "Unknown/16B7.078",
-      "（咕哝）",
-      "(grunt)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000067E2F.0B2",
-      425519,
-      "sojourn",
-      "索杰恩",
-      null,
-      "Unknown/16B7.078",
-      "（咕哝）",
-      "(grunt)",
-      null,
-      null,
-      null,
-      null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -17699,22 +17635,6 @@
       null,
       null,
       "000000000FB6.0D0#3",
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000068AAA.0B2",
-      428714,
-      "sojourn",
-      "索杰恩",
-      null,
-      "Unknown/1747.078",
-      "（咕哝）",
-      "(grunt)",
-      null,
-      null,
-      null,
       null,
       null
     ],
@@ -18344,6 +18264,22 @@
     ],
     [
       "HeroQuote",
+      "00000006A3F4.0B2",
+      435188,
+      "sojourn",
+      "索杰恩",
+      "紫外哨兵",
+      "Unknown/11E1",
+      "你的发挥非常出彩。",
+      "You've got solid specs.",
+      null,
+      null,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
       "00000006A3F5.0B2",
       435189,
       "sojourn",
@@ -18424,6 +18360,70 @@
     ],
     [
       "HeroQuote",
+      "00000006A3FB.0B2",
+      435195,
+      "sojourn",
+      "索杰恩",
+      null,
+      "Elimination",
+      "不许偷懒，新兵。",
+      "No slacking off, recruit.",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"无漾\"},{\"type\":\"toHero\",\"hero\":\"安燃\"}]}",
+      null,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006A3FC.0B2",
+      435196,
+      "sojourn",
+      "索杰恩",
+      null,
+      "Elimination",
+      "真正的领袖懂得保持冷静。",
+      "A real leader keeps a cool head.",
+      "{\"type\":\"toHero\",\"hero\":\"斩仇\"}",
+      null,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006A3FD.0B2",
+      435197,
+      "sojourn",
+      "索杰恩",
+      null,
+      "Elimination",
+      "要想把你教好，我可有的忙了。",
+      "I've got my work cut out for me with you.",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"无漾\"},{\"type\":\"toHero\",\"hero\":\"安燃\"}]}",
+      null,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006A3FE.0B2",
+      435198,
+      "sojourn",
+      "索杰恩",
+      null,
+      "Elimination",
+      "你不该是这样的，埃姆雷。",
+      "You're better than this, Emre.",
+      "{\"type\":\"toHero\",\"hero\":\"埃姆雷\"}",
+      null,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
       "00000006A3FF.0B2",
       435199,
       "sojourn",
@@ -18436,6 +18436,22 @@
       null,
       null,
       null,
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006A400.0B2",
+      435200,
+      "sojourn",
+      "索杰恩",
+      null,
+      "Elimination",
+      "叫你再追着墨菲跑。",
+      "That's for chasing Murphy.",
+      "{\"type\":\"toHero\",\"hero\":\"飞天猫\"}",
+      null,
+      null,
+      "2.21",
       null
     ],
     [
@@ -18568,6 +18584,38 @@
     ],
     [
       "HeroQuote",
+      "00000006A416.0B2",
+      435222,
+      "sojourn",
+      "索杰恩",
+      null,
+      "MatchTalk",
+      "因为你在用脚踢。",
+      "You were kicking the ball.",
+      null,
+      null,
+      "00000000134A.0D0#3",
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006A418.0B2",
+      435224,
+      "sojourn",
+      "索杰恩",
+      null,
+      "MatchTalk",
+      "我看到你昨晚跟法芮尔在球场。你是第一次打篮球吗？",
+      "I saw you on the court with Fareeha last night. Your first time playing basketball?",
+      null,
+      null,
+      "00000000134A.0D0#1",
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
       "00000006A419.0B2",
       435225,
       "sojourn",
@@ -18580,7 +18628,7 @@
       null,
       "0000000012F2.0D0#1",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18596,7 +18644,7 @@
       null,
       "0000000012F2.0D0#3",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18628,7 +18676,7 @@
       null,
       "000000001349.0D0#2",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18660,7 +18708,7 @@
       null,
       "000000001349.0D0#4",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18676,7 +18724,7 @@
       null,
       "000000001344.0D0#2",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -18692,6 +18740,38 @@
       null,
       "000000001344.0D0#4",
       null,
+      "2.21"
+    ],
+    [
+      "HeroQuote",
+      "00000006A422.0B2",
+      435234,
+      "sojourn",
+      "索杰恩",
+      null,
+      "MatchTalk",
+      "看来你如愿以偿了。退休生活过得挺舒服吧？",
+      "So, you finally made it. How's retirement going?",
+      "{\"type\":\"map\",\"map\":\"哈瓦那\"}",
+      null,
+      "000000001346.0D0#1",
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006A423.0B2",
+      435235,
+      "sojourn",
+      "索杰恩",
+      null,
+      "MatchTalk",
+      "我看你准备得挺齐全。",
+      "You seem prepared to me.",
+      null,
+      null,
+      "000000001346.0D0#3",
+      "2.21",
       null
     ],
     [
@@ -18708,6 +18788,246 @@
       null,
       "0000000003D9.0D0#3",
       null,
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006A425.0B2",
+      435237,
+      "sojourn",
+      "索杰恩",
+      null,
+      "MatchTalk",
+      "不管“黑爪”对你做了什么……我们都能想办法。你只要告诉我到底是怎么了。",
+      "Whatever Talon has on you... we can help. You just have to tell me what's going on.",
+      null,
+      null,
+      "000000001345.0D0#1",
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006B178.0B2",
+      438648,
+      "sojourn",
+      "索杰恩",
+      null,
+      "Elimination",
+      "最后警告：不许作揖！",
+      "For the last time: no begging!",
+      "{\"type\":\"toHero\",\"hero\":\"飞天猫\"}",
+      0.1,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006B17B.0B2",
+      438651,
+      "sojourn",
+      "索杰恩",
+      null,
+      "Elimination",
+      "别逼我降低要求。",
+      "Don't make me lower the bar.",
+      "{\"type\":\"toHero\",\"hero\":\"安燃\"}",
+      null,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006B182.0B2",
+      438658,
+      "sojourn",
+      "索杰恩",
+      null,
+      "MatchTalk",
+      "说起来，我的双胞胎姐姐也总会为我两肋插刀。",
+      "You know, my twin was always sticking her neck out for me.",
+      null,
+      null,
+      "0000000013E5.0D0#1",
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006B184.0B2",
+      438660,
+      "sojourn",
+      "索杰恩",
+      null,
+      "MatchTalk",
+      "要不是她后来让我还了那份情，我是体会不到那种感觉的，你说是不是？",
+      "If she hadn't let me return the favor, I'd miss out on knowing that feeling. Just some food for thought.",
+      null,
+      null,
+      "0000000013E5.0D0#3",
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006B18B.0B2",
+      438667,
+      "sojourn",
+      "索杰恩",
+      null,
+      "MatchTalk",
+      "你和朱诺帮新兵们很快融入了集体，干得非常好。",
+      "You and Juno have been doing a great job to make the new recruits feel welcome.",
+      null,
+      null,
+      "000000001408.0D0#1",
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006B18C.0B2",
+      438668,
+      "sojourn",
+      "索杰恩",
+      null,
+      "MatchTalk",
+      "布丽吉塔，作为我的顶级特工，给你个机会解释一下，为什么会让一只猫背上喷气背包？",
+      "Brigitte, you're one of my best agents. So I'll give you one chance to explain why you put a cat in a jetpack.",
+      null,
+      null,
+      "00000000140D.0D0#1",
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006B18F.0B2",
+      438671,
+      "sojourn",
+      "索杰恩",
+      null,
+      "MatchTalk",
+      "唉，我真该好好享受退休生活的……",
+      "Ugh. I should've stayed retired...",
+      null,
+      null,
+      "00000000140D.0D0#4",
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006B19C.0B2",
+      438684,
+      "sojourn",
+      "索杰恩",
+      null,
+      "MatchTalk",
+      "你发动这场战争不只是为了盲目制造混乱。你到底有什么企图？",
+      "This war you're waging isn't just aimless chaos. What are you planning?",
+      null,
+      null,
+      "0000000013FF.0D0#1",
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006B19D.0B2",
+      438685,
+      "sojourn",
+      "索杰恩",
+      null,
+      "MatchTalk",
+      "上了战场少去惹麻烦。能听懂吗，新兵？",
+      "You'd better stay out of trouble out there. Understand, recruit?",
+      null,
+      null,
+      "000000001402.0D0#1",
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006B19E.0B2",
+      438686,
+      "sojourn",
+      "索杰恩",
+      null,
+      "MatchTalk",
+      "还有，敢在任务间隙偷吃零食，我都会发现的！",
+      "And I'll know if you've been sneaking treats between missions!",
+      null,
+      null,
+      "000000001402.0D0#3",
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006B1A4.0B2",
+      438692,
+      "sojourn",
+      "索杰恩",
+      null,
+      "MatchTalk",
+      "没想到你这么快就跟上了团队，看来，我对你的要求应该再高一点。",
+      "You're keeping up with the team better than I expected. Maybe I should push you harder.",
+      null,
+      null,
+      "0000000013AB.0D0#1",
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006B1A5.0B2",
+      438693,
+      "sojourn",
+      "索杰恩",
+      null,
+      "MatchTalk",
+      "好大的口气，你是不是自信过头了？",
+      "Careful now. Is that overconfidence I hear?",
+      null,
+      null,
+      "0000000013AB.0D0#3",
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006B1A6.0B2",
+      438694,
+      "sojourn",
+      "索杰恩",
+      null,
+      "MatchTalk",
+      "“黑爪”本来是秘密行动，一夜之间却想统治世界了。",
+      "It feels like Talon has gone from covert ops to world domination overnight.",
+      null,
+      null,
+      "0000000013AD.0D0#1",
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006B1A7.0B2",
+      438695,
+      "sojourn",
+      "索杰恩",
+      null,
+      "MatchTalk",
+      "哦？你跟黑爪交过手？",
+      "Huh. You have experience fighting Talon?",
+      null,
+      null,
+      "0000000013AD.0D0#3",
+      "2.21",
       null
     ]
   ]

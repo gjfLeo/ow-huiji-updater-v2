@@ -4,9 +4,9 @@
   "fileId_n": 401111,
   "hero": "junker-queen",
   "heroName": "渣客女王",
+  "category": "MatchTalk",
   "subtitle": "来吧，姑娘们。咱们教训教训那帮臭小子。",
   "subtitle_en": "Alright, ladies. Let's teach these boys a lesson.",
-  "category": "MatchTalk",
   "criteria": "{\"type\":\"nested\",\"total\":18,\"needed\":4,\"conditions\":[{\"type\":\"withHero\",\"hero\":\"美\"},{\"type\":\"withHero\",\"hero\":\"D.Va\"},{\"type\":\"withHero\",\"hero\":\"安娜\"},{\"type\":\"withHero\",\"hero\":\"布丽吉塔\"},{\"type\":\"withHero\",\"hero\":\"艾什\"},{\"type\":\"withHero\",\"hero\":\"雾子\"},{\"type\":\"withHero\",\"hero\":\"回声\"},{\"type\":\"withHero\",\"hero\":\"索杰恩\"},{\"type\":\"withHero\",\"hero\":\"天使\"},{\"type\":\"withHero\",\"hero\":\"法老之鹰\"},{\"type\":\"withHero\",\"hero\":\"莫伊拉\"},{\"type\":\"withHero\",\"hero\":\"奥丽莎\"},{\"type\":\"withHero\",\"hero\":\"黑影\"},{\"type\":\"withHero\",\"hero\":\"查莉娅\"},{\"type\":\"withHero\",\"hero\":\"秩序之光\"},{\"type\":\"withHero\",\"hero\":\"黑百合\"},{\"type\":\"withHero\",\"hero\":\"猎空\"},{\"type\":\"withHero\",\"hero\":\"伊拉锐\"}]}",
   "weight": 0.5
 }

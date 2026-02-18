@@ -5220,7 +5220,7 @@
       null,
       "000000000ACF.0D0#1",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -5236,7 +5236,7 @@
       null,
       "000000000B8E.0D0#2",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -5572,7 +5572,7 @@
       null,
       "000000000ACF.0D0#3",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -8932,7 +8932,7 @@
       null,
       "000000000D18.0D0#1",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -8948,7 +8948,7 @@
       null,
       "000000000D18.0D0#3",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -9028,7 +9028,7 @@
       null,
       "000000000CE7.0D0#1",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -9332,7 +9332,7 @@
       null,
       "000000000CE7.0D0#3",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -9700,6 +9700,86 @@
       null,
       "000000000C49.0D0#2",
       null,
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000064744.0B2",
+      411460,
+      "wrecking-ball",
+      "破坏球",
+      null,
+      "Unknown/11E1",
+      "（仓鼠叫声）仓鼠表示大受震撼。",
+      "(hamster noises) The hamster is impressed.",
+      null,
+      null,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000064745.0B2",
+      411461,
+      "wrecking-ball",
+      "破坏球",
+      null,
+      "Unknown/11E1",
+      "（仓鼠叫声）干得漂亮。",
+      "(hamster noises) Well done.",
+      null,
+      null,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000064746.0B2",
+      411462,
+      "wrecking-ball",
+      "破坏球",
+      null,
+      "Unknown/11E1",
+      "（仓鼠叫声）他对你的毅力表示称赞。",
+      "(hamster noises) He compliments your tenacity.",
+      null,
+      null,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000064747.0B2",
+      411463,
+      "wrecking-ball",
+      "破坏球",
+      null,
+      "Unknown/11E1",
+      "（仓鼠叫声）他很欣赏你的气势。",
+      "(hamster noises) Your ferocity is appreciated.",
+      null,
+      null,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000064748.0B2",
+      411464,
+      "wrecking-ball",
+      "破坏球",
+      null,
+      "Unknown/11E1",
+      "（仓鼠叫声）他看好你。",
+      "(hamster noises) He likes you.",
+      null,
+      null,
+      null,
+      "2.21",
       null
     ],
     [

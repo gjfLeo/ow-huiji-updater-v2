@@ -12580,7 +12580,7 @@
       null,
       "000000000A8D.0D0#2",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -12900,7 +12900,7 @@
       null,
       "000000000CA2.0D0#1",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -12916,7 +12916,7 @@
       null,
       "000000000CA2.0D0#3",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14004,7 +14004,7 @@
       null,
       "000000000D96.0D0#1",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14036,7 +14036,7 @@
       null,
       "000000000D96.0D0#3",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14052,7 +14052,7 @@
       null,
       "000000000D98.0D0#1",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14068,7 +14068,7 @@
       null,
       "000000000D98.0D0#3",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14084,7 +14084,7 @@
       null,
       "000000000D49.0D0#2",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14132,7 +14132,7 @@
       null,
       "000000000CDF.0D0#1",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14148,7 +14148,7 @@
       null,
       "000000000CDF.0D0#3",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14884,6 +14884,86 @@
       null,
       null,
       null,
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006454E.0B2",
+      410958,
+      "ana",
+      "安娜",
+      null,
+      "Unknown/11E1",
+      "我为你感到骄傲。",
+      "I'm proud of you.",
+      null,
+      null,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006455B.0B2",
+      410971,
+      "ana",
+      "安娜",
+      null,
+      "Unknown/11E1",
+      "再接再厉。",
+      "Keep it up.",
+      null,
+      null,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006455C.0B2",
+      410972,
+      "ana",
+      "安娜",
+      null,
+      "Unknown/11E1",
+      "这支队伍水平不错。",
+      "This team's got it.",
+      null,
+      null,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006455D.0B2",
+      410973,
+      "ana",
+      "安娜",
+      null,
+      "Unknown/11E1",
+      "你很有实力。",
+      "You've got what it takes.",
+      null,
+      null,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006455E.0B2",
+      410974,
+      "ana",
+      "安娜",
+      null,
+      "Unknown/11E1",
+      "你学得不错。",
+      "You have learned well.",
+      null,
+      null,
+      null,
+      "2.21",
       null
     ],
     [
@@ -16336,86 +16416,6 @@
       "HeroSelect",
       "我不会容忍这个和平的世界。",
       "I will not leave a peaceful world behind.",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000068788.0B2",
-      427912,
-      "ana",
-      "安娜",
-      null,
-      "Unknown/1724.078",
-      "（呼气）",
-      "(exhale)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000068C3B.0B2",
-      429115,
-      "ana",
-      "安娜",
-      null,
-      "Unknown/1755.078",
-      "（用力）",
-      "(exertion)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000068C3C.0B2",
-      429116,
-      "ana",
-      "安娜",
-      null,
-      "Unknown/1754.078",
-      "（用力）",
-      "(exertion)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000068C3D.0B2",
-      429117,
-      "ana",
-      "安娜",
-      null,
-      "Unknown/1757.078",
-      "（用力）",
-      "(exertion)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000068C3E.0B2",
-      429118,
-      "ana",
-      "安娜",
-      null,
-      "Unknown/1758.078",
-      "（用力）",
-      "(exertion)",
       null,
       null,
       null,

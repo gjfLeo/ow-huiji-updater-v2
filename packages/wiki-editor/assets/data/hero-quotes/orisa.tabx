@@ -5144,38 +5144,6 @@
     ],
     [
       "HeroQuote",
-      "00000006181B.0B2",
-      399387,
-      "orisa",
-      "奥丽莎",
-      null,
-      "Unknown/111A.078",
-      "（大喝一声）",
-      "(exert)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000006181C.0B2",
-      399388,
-      "orisa",
-      "奥丽莎",
-      null,
-      "Unknown/111A.078",
-      "（大喝一声）",
-      "(exert)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
       "00000006181D.0B2",
       399389,
       "orisa",
@@ -6868,7 +6836,7 @@
       null,
       "000000000B84.0D0#2",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -6916,7 +6884,7 @@
       null,
       "000000000BF4.0D0#2",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -8420,7 +8388,7 @@
       null,
       "000000000C75.0D0#1",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -8436,7 +8404,7 @@
       null,
       "000000000C75.0D0#3",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -9028,7 +8996,7 @@
       null,
       "000000000CBF.0D0#2",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -9044,6 +9012,22 @@
       0.4,
       null,
       null,
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000063337.0B2",
+      406327,
+      "orisa",
+      "奥丽莎",
+      null,
+      "Voicelines",
+      "许个愿吧！",
+      "Make a wish!",
+      null,
+      null,
+      null,
+      "2.21",
       null
     ],
     [
@@ -9796,7 +9780,7 @@
       null,
       "000000000D32.0D0#2",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -9812,6 +9796,86 @@
       null,
       "000000000CE3.0D0#2",
       null,
+      "2.21"
+    ],
+    [
+      "HeroQuote",
+      "0000000646CF.0B2",
+      411343,
+      "orisa",
+      "奥丽莎",
+      null,
+      "Unknown/11E1",
+      "你的毅力值得称赞。",
+      "Your dedication is commendable.",
+      null,
+      null,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "0000000646D0.0B2",
+      411344,
+      "orisa",
+      "奥丽莎",
+      null,
+      "Unknown/11E1",
+      "你的力量激励了我。",
+      "Your strength inspires me.",
+      null,
+      null,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "0000000646D1.0B2",
+      411345,
+      "orisa",
+      "奥丽莎",
+      null,
+      "Unknown/11E1",
+      "我钦佩你的顽强。",
+      "I respect your fortitude.",
+      null,
+      null,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "0000000646D2.0B2",
+      411346,
+      "orisa",
+      "奥丽莎",
+      null,
+      "Unknown/11E1",
+      "你是一位强大的盟友。",
+      "You make a powerful ally.",
+      null,
+      null,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "0000000646D3.0B2",
+      411347,
+      "orisa",
+      "奥丽莎",
+      null,
+      "Unknown/11E1",
+      "很好，向敌人展示你的实力！",
+      "Yes, show them your might!",
+      null,
+      null,
+      null,
+      "2.21",
       null
     ],
     [
@@ -9828,7 +9892,7 @@
       null,
       "000000000D9F.0D0#1",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -9891,86 +9955,6 @@
       null,
       null,
       "000000000DA7.0D0#4",
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000066EA7.0B2",
-      421543,
-      "orisa",
-      "奥丽莎",
-      null,
-      "Unknown/1520.078",
-      "（肯定）",
-      "(affirmative)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000066EA8.0B2",
-      421544,
-      "orisa",
-      "奥丽莎",
-      null,
-      "Unknown/151F.078",
-      "（激进的咆哮）",
-      "(aggressive growl)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000066EA9.0B2",
-      421545,
-      "orisa",
-      "奥丽莎",
-      null,
-      "Unknown/151D.078",
-      "（打哈欠）",
-      "(yawn)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000066EAA.0B2",
-      421546,
-      "orisa",
-      "奥丽莎",
-      null,
-      "Unknown/151E.078",
-      "（好奇的哼声）",
-      "(inquisitive hmm)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000006713D.0B2",
-      422205,
-      "orisa",
-      "奥丽莎",
-      null,
-      "Unknown/1532.078",
-      "（自豪的肯定）",
-      "(proud confirmation)",
-      null,
-      null,
-      null,
       null,
       null
     ],
@@ -10664,22 +10648,6 @@
     ],
     [
       "HeroQuote",
-      "000000067DC3.0B2",
-      425411,
-      "orisa",
-      "奥丽莎",
-      "究极猛兽",
-      "Unknown/1675.078",
-      "（怪物般地笑）",
-      "(laughs in monster)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
       "00000006821F.0B2",
       426527,
       "orisa",
@@ -10689,22 +10657,6 @@
       "啊，不许违反天气变化条例！",
       "No violating weather change regulations!",
       "{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"伊拉锐\"},{\"type\":\"toHero\",\"hero\":\"美\"}]}",
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000068652.0B2",
-      427602,
-      "orisa",
-      "奥丽莎",
-      null,
-      "Unknown/170C.078",
-      "（笑）",
-      "(laugh)",
-      null,
       null,
       null,
       null,
@@ -10724,7 +10676,7 @@
       null,
       "0000000012F2.0D0#2",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -10744,6 +10696,22 @@
     ],
     [
       "HeroQuote",
+      "0000000694B6.0B2",
+      431286,
+      "orisa",
+      "奥丽莎",
+      null,
+      "MatchTalk",
+      "确实感觉太梦幻了。和你并肩战斗是我的荣幸，卢西奥！",
+      "It hardly feels real. I am honored to fight at your side, Lúcio!",
+      null,
+      null,
+      "0000000012F4.0D0#2",
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
       "0000000694B7.0B2",
       431287,
       "orisa",
@@ -10756,7 +10724,7 @@
       null,
       "0000000012F2.0D0#4",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -10772,6 +10740,22 @@
       null,
       "000000000D99.0D0#4",
       null,
+      null
+    ],
+    [
+      "HeroQuote",
+      "0000000694B9.0B2",
+      431289,
+      "orisa",
+      "奥丽莎",
+      null,
+      "MatchTalk",
+      "啊……当然没问题。不好意思。（激动地小声哭）",
+      "Ah... of course. Please excuse me. (hushed, excited cry)",
+      null,
+      null,
+      "0000000012F4.0D0#4",
+      "2.21",
       null
     ],
     [
@@ -10884,7 +10868,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",

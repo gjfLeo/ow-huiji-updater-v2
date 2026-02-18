@@ -1,0 +1,522 @@
+{
+  "schema": {
+    "fields": [
+      {
+        "name": "_dataType",
+        "type": "string",
+        "title": {
+          "en": "_dataType"
+        }
+      },
+      {
+        "name": "fileId",
+        "type": "string",
+        "title": {
+          "en": "fileId"
+        }
+      },
+      {
+        "name": "fileId_n",
+        "type": "number",
+        "title": {
+          "en": "fileId_n"
+        }
+      },
+      {
+        "name": "hero",
+        "type": "string",
+        "title": {
+          "en": "hero"
+        }
+      },
+      {
+        "name": "heroName",
+        "type": "string",
+        "title": {
+          "en": "heroName"
+        }
+      },
+      {
+        "name": "skin",
+        "type": "string",
+        "title": {
+          "en": "skin"
+        }
+      },
+      {
+        "name": "category",
+        "type": "string",
+        "title": {
+          "en": "category"
+        }
+      },
+      {
+        "name": "subtitle",
+        "type": "string",
+        "title": {
+          "en": "subtitle"
+        }
+      },
+      {
+        "name": "subtitle_en",
+        "type": "string",
+        "title": {
+          "en": "subtitle_en"
+        }
+      },
+      {
+        "name": "criteria",
+        "type": "string",
+        "title": {
+          "en": "criteria"
+        }
+      },
+      {
+        "name": "weight",
+        "type": "number",
+        "title": {
+          "en": "weight"
+        }
+      },
+      {
+        "name": "conversations",
+        "type": "string",
+        "title": {
+          "en": "conversations[]"
+        }
+      },
+      {
+        "name": "added",
+        "type": "string",
+        "title": {
+          "en": "added"
+        }
+      },
+      {
+        "name": "removed",
+        "type": "string",
+        "title": {
+          "en": "removed"
+        }
+      }
+    ]
+  },
+  "data": [
+    [
+      "HeroQuote",
+      "00000006AADD.0B2",
+      436957,
+      "jetpack-cat",
+      "飞天猫",
+      null,
+      "HeroSelect",
+      "（瑞典语）：终端已激活。",
+      "(Swedish): Terminal activated.",
+      null,
+      null,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006AADE.0B2",
+      436958,
+      "jetpack-cat",
+      "飞天猫",
+      null,
+      "Health/LowHealthBreathEnd",
+      "（瑞典语）：系统控制正常。",
+      "(Swedish): System control nominal.",
+      null,
+      0.1,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006AADF.0B2",
+      436959,
+      "jetpack-cat",
+      "飞天猫",
+      null,
+      "Health/LowHealthBreathStart",
+      "（瑞典语）：警告警告。",
+      "(Swedish): Warning. Warning.",
+      null,
+      null,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006AAE8.0B2",
+      436968,
+      "jetpack-cat",
+      "飞天猫",
+      null,
+      "Unknown/1994",
+      "（瑞典语）：开始运输。",
+      "(Swedish): Transport active.",
+      null,
+      0.1,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006B475.0B2",
+      439413,
+      "jetpack-cat",
+      "飞天猫",
+      null,
+      "Unknown/19B9",
+      "（瑞典语）：装弹。",
+      "(Swedish): Reloading.",
+      null,
+      0.1,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006B476.0B2",
+      439414,
+      "jetpack-cat",
+      "飞天猫",
+      null,
+      "Unknown/19B9",
+      "（瑞典语）：补充弹药。",
+      "(Swedish): Ammunition full.",
+      null,
+      0.1,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006B478.0B2",
+      439416,
+      "jetpack-cat",
+      "飞天猫",
+      null,
+      "Unknown/19C4",
+      "（瑞典语）：抓钩激活。",
+      "(Swedish): Tether active.",
+      null,
+      null,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006B47A.0B2",
+      439418,
+      "jetpack-cat",
+      "飞天猫",
+      null,
+      "Unknown/19C4",
+      "（瑞典语）：抓钩锁定。",
+      "(Swedish): Tether attached.",
+      null,
+      null,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006B47B.0B2",
+      439419,
+      "jetpack-cat",
+      "飞天猫",
+      null,
+      "Unknown/19B9",
+      "（瑞典语）：补给弹药。",
+      "(Swedish): Resupply.",
+      null,
+      0.1,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006B47C.0B2",
+      439420,
+      "jetpack-cat",
+      "飞天猫",
+      null,
+      "Unknown/19B6",
+      "（瑞典语）：解除抓钩。",
+      "(Swedish): Unlatch tether.",
+      null,
+      0.1,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006B47E.0B2",
+      439422,
+      "jetpack-cat",
+      "飞天猫",
+      null,
+      "DamageBoosted",
+      "（瑞典语）：系统过载。",
+      "(Swedish): System overdrive.",
+      null,
+      0.1,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006B47F.0B2",
+      439423,
+      "jetpack-cat",
+      "飞天猫",
+      null,
+      "Resurrected",
+      "（瑞典语）：重启。",
+      "(Swedish): Restarting.",
+      null,
+      0.1,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006B480.0B2",
+      439424,
+      "jetpack-cat",
+      "飞天猫",
+      null,
+      "Respawn",
+      "（瑞典语）：系统维修。",
+      "(Swedish): System repair.",
+      null,
+      0.1,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006B481.0B2",
+      439425,
+      "jetpack-cat",
+      "飞天猫",
+      null,
+      "Respawn",
+      "（瑞典语）：启动程序。",
+      "(Swedish): Start up sequence.",
+      null,
+      0.1,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006B482.0B2",
+      439426,
+      "jetpack-cat",
+      "飞天猫",
+      null,
+      "Respawn",
+      "（瑞典语）：系统上线。",
+      "(Swedish): System online.",
+      null,
+      0.1,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006B483.0B2",
+      439427,
+      "jetpack-cat",
+      "飞天猫",
+      null,
+      "Unknown/19B8",
+      "（瑞典语）：治疗。",
+      "(Swedish): Health.",
+      null,
+      0.1,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006B484.0B2",
+      439428,
+      "jetpack-cat",
+      "飞天猫",
+      null,
+      "Unknown/19B8",
+      "（瑞典语）：恢复。",
+      "(Swedish): Restore.",
+      null,
+      0.1,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006B485.0B2",
+      439429,
+      "jetpack-cat",
+      "飞天猫",
+      null,
+      "Unknown/19B8",
+      "（瑞典语）：治疗盟友。",
+      "(Swedish): Ally heal.",
+      null,
+      0.1,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006B486.0B2",
+      439430,
+      "jetpack-cat",
+      "飞天猫",
+      null,
+      "Unknown/1994",
+      "（瑞典语）：接受。",
+      "(Swedish): Accept.",
+      null,
+      0.1,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006B487.0B2",
+      439431,
+      "jetpack-cat",
+      "飞天猫",
+      null,
+      "Unknown/1994",
+      "（瑞典语）：接受盟友。",
+      "(Swedish): Accepting ally.",
+      null,
+      0.1,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006B488.0B2",
+      439432,
+      "jetpack-cat",
+      "飞天猫",
+      null,
+      "Discorded",
+      "（瑞典语）：系统警告。",
+      "(Swedish): System warning.",
+      null,
+      null,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006B489.0B2",
+      439433,
+      "jetpack-cat",
+      "飞天猫",
+      null,
+      "Unknown/1893",
+      "（瑞典语）：已升级。",
+      "(Swedish): Upgrade.",
+      null,
+      0.1,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006B48C.0B2",
+      439436,
+      "jetpack-cat",
+      "飞天猫",
+      null,
+      "Unknown/1894",
+      "（瑞典语）：系统完成。",
+      "(Swedish): System complete.",
+      null,
+      0.1,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006B48D.0B2",
+      439437,
+      "jetpack-cat",
+      "飞天猫",
+      null,
+      "HealthPack",
+      "（瑞典语）：生命已恢复。",
+      "(Swedish): Health restored.",
+      null,
+      null,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006B48E.0B2",
+      439438,
+      "jetpack-cat",
+      "飞天猫",
+      null,
+      "Electrocuted",
+      "（瑞典语）：系统受损。",
+      "(Swedish): System compromised.",
+      null,
+      0.1,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006B48F.0B2",
+      439439,
+      "jetpack-cat",
+      "飞天猫",
+      null,
+      "Electrocuted",
+      "（瑞典语）：系统遇到危险。",
+      "(Swedish): System danger.",
+      null,
+      0.1,
+      null,
+      "2.21",
+      null
+    ]
+  ]
+}

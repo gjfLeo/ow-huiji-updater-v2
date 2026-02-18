@@ -104,86 +104,6 @@
   "data": [
     [
       "HeroQuote",
-      "00000000B1BF.0B2",
-      45503,
-      "soldier-76",
-      "士兵：76",
-      null,
-      "Unknown/38B.078",
-      "（呼吸声）",
-      "(breathes)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000B1C0.0B2",
-      45504,
-      "soldier-76",
-      "士兵：76",
-      null,
-      "Unknown/38B.078",
-      "（呼吸声）",
-      "(breathes)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000B1C1.0B2",
-      45505,
-      "soldier-76",
-      "士兵：76",
-      null,
-      "Unknown/38B.078",
-      "（呼吸声）",
-      "(breathes)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000B1C2.0B2",
-      45506,
-      "soldier-76",
-      "士兵：76",
-      null,
-      "Unknown/38B.078",
-      "（呼吸声）",
-      "(breathes)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000B1C3.0B2",
-      45507,
-      "soldier-76",
-      "士兵：76",
-      null,
-      "Unknown/38B.078",
-      "（呼吸声）",
-      "(breathes)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
       "00000000B1C5.0B2",
       45509,
       "soldier-76",
@@ -1272,6 +1192,38 @@
     ],
     [
       "HeroQuote",
+      "00000000B2CE.0B2",
+      45774,
+      "soldier-76",
+      "士兵：76",
+      null,
+      "Unknown/11E1",
+      "印象深刻。",
+      "Impressive.",
+      null,
+      null,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000000B2CF.0B2",
+      45775,
+      "soldier-76",
+      "士兵：76",
+      null,
+      "Unknown/11E1",
+      "很好。",
+      "Nice.",
+      null,
+      null,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
       "00000000B2D0.0B2",
       45776,
       "soldier-76",
@@ -1458,22 +1410,6 @@
       "Would have been better to let this all go.",
       "{\"type\":\"map\",\"map\":\"监测站：直布罗陀\"}",
       null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000000B2E8.0B2",
-      45800,
-      "soldier-76",
-      "士兵：76",
-      null,
-      "Unknown/EC6.078",
-      "（大笑）",
-      "(laughs)",
-      null,
-      0.05,
       null,
       null,
       null
@@ -5524,7 +5460,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -5540,7 +5476,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -5556,7 +5492,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -5572,7 +5508,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -5588,7 +5524,7 @@
       0,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -5604,7 +5540,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -5620,7 +5556,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -5636,7 +5572,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -5652,7 +5588,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -5668,7 +5604,7 @@
       0.01,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -5684,7 +5620,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -5700,7 +5636,7 @@
       0,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -5716,7 +5652,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -5732,7 +5668,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -5748,7 +5684,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -5764,7 +5700,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -5780,7 +5716,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -5796,7 +5732,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -5812,7 +5748,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -5828,7 +5764,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -5844,7 +5780,7 @@
       0,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -5860,7 +5796,7 @@
       0,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -5876,7 +5812,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -5892,7 +5828,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -5908,7 +5844,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -5924,7 +5860,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -5940,7 +5876,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -5956,7 +5892,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -5972,7 +5908,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -5988,7 +5924,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -6004,7 +5940,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -6020,7 +5956,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -6036,7 +5972,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -6052,7 +5988,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -6068,7 +6004,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -6084,7 +6020,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -6100,7 +6036,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -6116,7 +6052,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -6132,7 +6068,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -6148,7 +6084,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -6164,7 +6100,7 @@
       0.05,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -6180,6 +6116,22 @@
       null,
       null,
       null,
+      "2.21"
+    ],
+    [
+      "HeroQuote",
+      "0000000342E8.0B2",
+      213736,
+      "soldier-76",
+      "士兵：76",
+      null,
+      "NPC/Unknown/0723",
+      "敌我双方实力相当。要小心。",
+      "You're evenly matched. Be smart out there.",
+      null,
+      null,
+      null,
+      "2.21",
       null
     ],
     [
@@ -6196,7 +6148,7 @@
       0.1,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -6212,7 +6164,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -6228,7 +6180,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -6244,7 +6196,7 @@
       null,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -8484,7 +8436,7 @@
       0,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -12868,7 +12820,7 @@
       0.2,
       "000000000CBE.0D0#1",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -12884,7 +12836,7 @@
       null,
       "000000000CBE.0D0#3",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -12900,7 +12852,7 @@
       null,
       "000000000CBF.0D0#1",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -12916,7 +12868,7 @@
       null,
       "000000000CBF.0D0#3",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13828,7 +13780,7 @@
       null,
       "000000000D4E.0D0#2",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13844,7 +13796,7 @@
       null,
       "000000000CD0.0D0#1",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -13860,7 +13812,7 @@
       null,
       "000000000CD0.0D0#3",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -14372,7 +14324,7 @@
       0.17,
       null,
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -15528,6 +15480,54 @@
     ],
     [
       "HeroQuote",
+      "000000063F86.0B2",
+      409478,
+      "soldier-76",
+      "士兵：76",
+      null,
+      "Unknown/11E1",
+      "很出色。",
+      "Hell yeah.",
+      null,
+      0.01,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000063F87.0B2",
+      409479,
+      "soldier-76",
+      "士兵：76",
+      null,
+      "Unknown/11E1",
+      "非常好。",
+      "All right.",
+      null,
+      null,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000063F88.0B2",
+      409480,
+      "soldier-76",
+      "士兵：76",
+      null,
+      "Unknown/11E1",
+      "我很欣赏。",
+      "I'm digging it.",
+      null,
+      0.01,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
       "000000063F89.0B2",
       409481,
       "soldier-76",
@@ -15816,6 +15816,86 @@
     ],
     [
       "HeroQuote",
+      "00000006471E.0B2",
+      411422,
+      "soldier-76",
+      "士兵：76",
+      null,
+      "Unknown/11E1",
+      "我向你致敬！",
+      "I salute you!",
+      null,
+      null,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006471F.0B2",
+      411423,
+      "soldier-76",
+      "士兵：76",
+      null,
+      "Unknown/11E1",
+      "真有你的。",
+      "What a champ.",
+      null,
+      null,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000064720.0B2",
+      411424,
+      "soldier-76",
+      "士兵：76",
+      null,
+      "Unknown/11E1",
+      "你挺厉害的？",
+      "Bigshot, huh?",
+      null,
+      null,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000064721.0B2",
+      411425,
+      "soldier-76",
+      "士兵：76",
+      null,
+      "Unknown/11E1",
+      "我为你骄傲，士兵。",
+      "You make me proud, soldier.",
+      null,
+      null,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000064722.0B2",
+      411426,
+      "soldier-76",
+      "士兵：76",
+      null,
+      "Unknown/11E1",
+      "就是这个感觉。",
+      "That's the stuff.",
+      null,
+      null,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
       "000000064AAD.0B2",
       412333,
       "soldier-76",
@@ -15825,38 +15905,6 @@
       "我看你还是躺回去吧？",
       "How 'bout you lay back down again?",
       "{\"type\":\"scripted\",\"script\":\"00AF43\",\"scriptDesc\":\"敌人被复活后\"}",
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000064C8B.0B2",
-      412811,
-      "soldier-76",
-      "士兵：76",
-      null,
-      "Unknown/12B3.078",
-      "（叹气）",
-      "(sigh)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000064C8C.0B2",
-      412812,
-      "soldier-76",
-      "士兵：76",
-      null,
-      "Unknown/12B3.078",
-      "（叹气）",
-      "(sigh)",
-      null,
       null,
       null,
       null,
@@ -16376,54 +16424,6 @@
     ],
     [
       "HeroQuote",
-      "00000006711F.0B2",
-      422175,
-      "soldier-76",
-      "士兵：76",
-      null,
-      "Unknown/1531.078",
-      "（恼怒的叹息）",
-      "(annoyed sigh)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000067120.0B2",
-      422176,
-      "soldier-76",
-      "士兵：76",
-      null,
-      "Unknown/1530.078",
-      "（呼）",
-      "(Pewww)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000067121.0B2",
-      422177,
-      "soldier-76",
-      "士兵：76",
-      null,
-      "Unknown/1531.078",
-      "（恼怒的叹息）",
-      "(annoyed sigh)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
       "000000067244.0B2",
       422468,
       "soldier-76",
@@ -16563,70 +16563,6 @@
       null,
       null,
       "000000000F72.0D0#1",
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000069438.0B2",
-      431160,
-      "soldier-76",
-      "士兵：76",
-      null,
-      "Unknown/17E6.078",
-      "（惊悚叫声）",
-      "(spooky groaning)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "000000069439.0B2",
-      431161,
-      "soldier-76",
-      "士兵：76",
-      null,
-      "Unknown/17E6.078",
-      "（惊悚叫声）",
-      "(spooky groaning)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000006943A.0B2",
-      431162,
-      "soldier-76",
-      "士兵：76",
-      null,
-      "Unknown/17E6.078",
-      "（惊悚叫声）",
-      "(spooky groaning)",
-      null,
-      null,
-      null,
-      null,
-      null
-    ],
-    [
-      "HeroQuote",
-      "00000006943B.0B2",
-      431163,
-      "soldier-76",
-      "士兵：76",
-      null,
-      "Unknown/17E6.078",
-      "（惊悚叫声）",
-      "(spooky groaning)",
-      null,
-      null,
-      null,
       null,
       null
     ],
@@ -16776,6 +16712,22 @@
     ],
     [
       "HeroQuote",
+      "00000006993F.0B2",
+      432447,
+      "soldier-76",
+      "士兵：76",
+      null,
+      "MatchTalk",
+      "我们在追的这个谜，你已经查了多久了？",
+      "How long have you been after this mystery we're chasing?",
+      null,
+      null,
+      "00000000129B.0D0#1",
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
       "000000069940.0B2",
       432448,
       "soldier-76",
@@ -16808,6 +16760,22 @@
     ],
     [
       "HeroQuote",
+      "000000069942.0B2",
+      432450,
+      "soldier-76",
+      "士兵：76",
+      null,
+      "MatchTalk",
+      "我现在已经谁都信不过了。",
+      "I don't trust anyone. Not anymore.",
+      null,
+      null,
+      "00000000129A.0D0#3",
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
       "000000069943.0B2",
       432451,
       "soldier-76",
@@ -16836,7 +16804,7 @@
       null,
       "0000000011D2.0D0#2",
       null,
-      null
+      "2.21"
     ],
     [
       "HeroQuote",
@@ -16852,6 +16820,38 @@
       null,
       "0000000011D1.0D0#2",
       null,
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000069946.0B2",
+      432454,
+      "soldier-76",
+      "士兵：76",
+      null,
+      "MatchTalk",
+      "如果要合作，我是不会容忍你跟我耍那些把戏的。",
+      "If we're working together, I won't tolerate you playing games with me.",
+      null,
+      null,
+      "00000000129A.0D0#1",
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000069949.0B2",
+      432457,
+      "soldier-76",
+      "士兵：76",
+      null,
+      "MatchTalk",
+      "呵，我大概懂你意思。",
+      "Heh. I guess I know what you mean.",
+      null,
+      null,
+      "00000000129B.0D0#3",
+      "2.21",
       null
     ],
     [
@@ -17096,6 +17096,22 @@
     ],
     [
       "HeroQuote",
+      "000000069CE3.0B2",
+      433379,
+      "soldier-76",
+      "士兵：76",
+      null,
+      "MatchTalk",
+      "不管那些绿洲城的科学家想在这里做什么，幸好那孩子阻止了这一切。",
+      "Whatever those Oasis scientists were up to here, I'm glad the kid put a stop to it.",
+      "{\"type\":\"map\",\"map\":\"鲁纳塞彼\"}",
+      0.5,
+      null,
+      "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
       "000000069CE5.0B2",
       433381,
       "soldier-76",
@@ -17156,6 +17172,22 @@
       null,
       null,
       null,
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000069CEA.0B2",
+      433386,
+      "soldier-76",
+      "士兵：76",
+      null,
+      "MatchTalk",
+      "那孩子就住在这里。但愿有人能来看着点她。",
+      "That kid lives around here. I hope someone's checking up on her.",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"withHero\",\"hero\":\"伊拉锐\",\"negative\":true},{\"type\":\"map\",\"map\":\"鲁纳塞彼\"}]}",
+      0.2,
+      null,
+      "2.21",
       null
     ],
     [
