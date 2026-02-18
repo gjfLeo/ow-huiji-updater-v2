@@ -42,6 +42,7 @@ export default async function heroDataUpload() {
     summary: "更新英雄数据（ow-huiji-updater）",
   });
 
+  logger.info("更新英雄故事页面");
   const storyPages = Object.fromEntries(
     Object.values(heroData).map((hero) => {
       const title = `${hero.name}/英雄故事`;

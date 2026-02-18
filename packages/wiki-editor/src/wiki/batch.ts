@@ -15,50 +15,57 @@ export async function wikiBatchGet(options: BatchGetPages & {
   loginOptions?: WikiLoginOptions;
   batchSize?: number;
 }) {
-  const { loginOptions, batchSize = 10, ...pages } = options;
-  const wiki = await wikiLogin(loginOptions ?? { userType: "bot" });
+  try {
+    const { loginOptions, batchSize = 10, ...pages } = options;
+    const wiki = await wikiLogin(loginOptions ?? { userType: "bot" });
 
-  let titles: string[];
+    let titles: string[];
 
-  if ("titles" in pages) {
-    titles = pages.titles;
-  }
-  else if ("category" in pages) {
-    spinner.start("获取分类下的页面列表");
-    const categoryPageList = await wiki.getPageListByCategory(pages.category);
-    titles = categoryPageList.pages.map(item => item.title);
-    spinner.succeed(`${spinner.text} ${chalk.gray(`(${titles.length})`)}`);
-  }
-  else {
-    spinner.start("获取页面列表");
-    let allPageList = await wiki.apiQueryListAllPages({ ...pages });
-    titles = allPageList.query.allpages.map(item => item.title);
-    while (allPageList.continue) {
-      await Bun.sleep(1000);
-      allPageList = await wiki.apiQueryListAllPages(
-        { ...pages },
-        { continue: allPageList.continue.apcontinue },
-      );
-      titles.push(...allPageList.query.allpages.map(item => item.title));
+    if ("titles" in pages) {
+      titles = pages.titles;
     }
-    spinner.succeed(`${spinner.text} ${chalk.gray(`(${titles.length})`)}`);
-  }
+    else if ("category" in pages) {
+      spinner.start("获取分类下的页面列表");
+      const categoryPageList = await wiki.getPageListByCategory(pages.category);
+      titles = categoryPageList.pages.map(item => item.title);
+      spinner.succeed(`${spinner.text} ${chalk.gray(`(${titles.length})`)}`);
+    }
+    else {
+      spinner.start("获取页面列表");
+      let allPageList = await wiki.apiQueryListAllPages({ ...pages });
+      titles = allPageList.query.allpages.map(item => item.title);
+      while (allPageList.continue) {
+        await Bun.sleep(1000);
+        allPageList = await wiki.apiQueryListAllPages(
+          { ...pages },
+          { continue: allPageList.continue.apcontinue },
+        );
+        titles.push(...allPageList.query.allpages.map(item => item.title));
+      }
+      spinner.succeed(`${spinner.text} ${chalk.gray(`(${titles.length})`)}`);
+    }
 
-  const pageContentMap: Record<string, string> = {};
+    const pageContentMap: Record<string, string> = {};
 
-  spinnerProgress.start("获取页面内容", titles.length);
-  for (let i = 0; i < titles.length; i += batchSize) {
-    const batchTitles = titles.slice(i, i + batchSize);
-    await new Promise(resolve => setTimeout(resolve, 1000));
-    const result = await wiki.getPageRawTextByTitles(batchTitles);
-    Object.values(result)
-      .forEach((page) => {
-        pageContentMap[page.pageTitle] = page.content;
-      });
-    spinnerProgress.increment(batchTitles.length);
+    spinnerProgress.start("获取页面内容", titles.length);
+    for (let i = 0; i < titles.length; i += batchSize) {
+      const batchTitles = titles.slice(i, i + batchSize);
+      await new Promise(resolve => setTimeout(resolve, 1000));
+      const result = await wiki.getPageRawTextByTitles(batchTitles);
+      Object.values(result)
+        .forEach((page) => {
+          pageContentMap[page.pageTitle] = page.content;
+        });
+      spinnerProgress.increment(batchTitles.length);
+    }
+    spinnerProgress.succeed();
+    return pageContentMap;
   }
-  spinnerProgress.succeed();
-  return pageContentMap;
+  catch (error) {
+    logger.error("批量获取页面内容失败");
+    console.error(error);
+    process.exit(1);
+  }
 }
 
 export async function wikiBatchEdit(
@@ -68,6 +75,7 @@ export async function wikiBatchEdit(
     compareByJson?: boolean;
     summary: string;
     readBatchSize?: number;
+    skipRedirectPage?: boolean;
     replaceBy?: { namespace?: number; prefix?: string };
   },
 ) {
@@ -77,12 +85,17 @@ export async function wikiBatchEdit(
     summary,
     readBatchSize = 50,
     replaceBy,
+    skipRedirectPage = false,
   } = options;
 
   const wiki = await wikiLogin({ userType: "bot" });
   const pageTitles = Object.keys(pages);
 
   if (replaceBy) {
+    if (skipRedirectPage === true) {
+      logger.error("未适配skipRedirectPage + replaceBy选项");
+      process.exit(1);
+    }
     const pagesToDelete: string[] = [];
     const allPages = await wiki.apiQueryListAllPages(replaceBy);
     allPages?.query.allpages.forEach((page) => {
@@ -137,6 +150,9 @@ export async function wikiBatchEdit(
             return;
           }
         }
+        if (skipRedirectPage && oldContent.match(/#(redirect|重定向)/i)) {
+          return;
+        }
       }
       pagesChanged.push(title);
       pagesChangedNewContent[title] = newContent;
@@ -164,7 +180,7 @@ export async function wikiBatchEdit(
     logger.infoGray(`...共${pagesChanged.length - 10}个页面未显示`);
   }
 
-  const confirmUpload = await confirm({ message: "是否确认上传？", default: false });
+  const confirmUpload = await confirm({ message: "是否确认编辑？", default: false });
   if (!confirmUpload) {
     const showCompare = await confirm({ message: "是否显示一条对比？", default: false });
     if (showCompare) {
@@ -182,7 +198,7 @@ export async function wikiBatchEdit(
     return;
   }
 
-  spinnerProgress.start("上传页面", pagesChanged.length);
+  spinnerProgress.start("编辑页面", pagesChanged.length);
   const noChangePages: string[] = [];
   for (const title of pagesChanged) {
     const { edit, error } = await wiki.editPage(

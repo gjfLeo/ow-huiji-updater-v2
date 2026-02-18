@@ -269,7 +269,7 @@
     }
   }
 
-  &[data-category="PassiveAbility"],
+  &[data-category="PassiveAbility"]:not([data-name^="副职责"]),
   &[data-category="Perk"] {
     .hai-icon {
       padding: 0.5rem;
@@ -278,6 +278,12 @@
       width: 3.5rem;
       height: 3.5rem;
       margin: 0 0.75rem 0.5rem 0.25rem;
+    }
+  }
+
+  &[data-category="PassiveAbility"][data-name^="副职责"] {
+    .hai-icon {
+      padding: 0.25rem;
     }
   }
 }

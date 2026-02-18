@@ -30,13 +30,17 @@ const zTabxInputHeader = z.object({
   type: z.enum(["string", "number", "boolean"]).default("string"),
   isArray: z.boolean().optional(),
 });
-type TabxInputHeader = z.infer<typeof zTabxInputHeader>;
+export type TabxInputHeader = z.infer<typeof zTabxInputHeader>;
 
 export class Tabx<T extends Record<string, any>> {
   private _json: TabxJson;
 
   private constructor(json: TabxJson) {
     this._json = zTabx.parse(json);
+  }
+
+  static fromJson<T extends Record<string, any>>(json: TabxJson) {
+    return new Tabx<T>(json);
   }
 
   static fromHeaders<T extends Record<string, any>>(headers: TabxInputHeader[]) {
