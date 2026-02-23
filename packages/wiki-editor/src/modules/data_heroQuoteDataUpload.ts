@@ -36,7 +36,7 @@ export default async function heroQuotesDataUpload() {
   ]);
   await wikiBatchEdit(pages, {
     summary: "更新英雄语音数据（ow-huiji-updater）",
-    // compareByJson: true,
+    compareByJson: true,
     readBatchSize: 10,
     replaceBy: { namespace: 3500, prefix: "HeroQuotes/" },
   });

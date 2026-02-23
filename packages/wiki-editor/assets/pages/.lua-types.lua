@@ -49,6 +49,96 @@
 ---   @field ultimateCharge number?
 ---   @field perkIndex string?
 
+--- @class HeroQuoteData
+---   @field fileId string
+---   @field fileId_n string
+---   @field hero string
+---   @field heroName string
+---   @field subtitle string
+---   @field subtitle_en string
+---   @field category string
+---   @field skin string?
+---   @field criteria string?
+---   @field weight number?
+---   @field conversations string[]?
+---   @field added string?
+---   @field removed string?
+---   @field criteriaObject HeroQuoteCriteria?
+---   @field conversationId string?
+---   @field position number?
+---
+--- @class HeroQuoteCriteria
+--- @field type string
+--- @field negative boolean?
+
+--- @class HeroQuoteCriteriaNested : HeroQuoteCriteria
+--- @field type '"nested"'
+--- @field total number
+--- @field needed number
+--- @field conditions HeroQuoteCriteria[]
+
+--- @class HeroQuoteCriteriaToHero : HeroQuoteCriteria
+--- @field type '"toHero"'
+--- @field hero string|nil
+--- @field heroTag string|nil
+--- @field negative boolean|nil
+
+--- @class HeroQuoteCriteriaWithHero : HeroQuoteCriteria
+--- @field type '"withHero"'
+--- @field hero string|nil
+--- @field heroTag string|nil
+--- @field negative boolean|nil
+
+--- @class HeroQuoteCriteriaMap : HeroQuoteCriteria
+--- @field type '"map"'
+--- @field map string
+--- @field notEventVariants boolean|nil
+--- @field negative boolean|nil
+
+--- @class HeroQuoteCriteriaTeam : HeroQuoteCriteria
+--- @field type '"team"'
+--- @field team '"attack"'|'"defense"'
+--- @field unknownBool boolean|nil
+--- @field negative boolean|nil
+
+--- @class HeroQuoteCriteriaToGender : HeroQuoteCriteria
+--- @field type '"toGender"'
+--- @field gender '"male"'|'"female"'|'"neutral"'
+--- @field negative boolean|nil
+
+--- @class HeroQuoteCriteriaScripted : HeroQuoteCriteria
+--- @field type '"scripted"'
+--- @field script string
+--- @field scriptDesc string
+--- @field negative boolean|nil
+
+--- @class HeroQuoteCriteriaCelebration : HeroQuoteCriteria
+--- @field type '"celebration"'
+--- @field celebration string
+--- @field negative boolean|nil
+
+--- @class HeroQuoteCriteriaGameMode : HeroQuoteCriteria
+--- @field type '"gameMode"'
+--- @field gameMode string
+--- @field negative boolean|nil
+
+--- @class HeroQuoteCriteriaMission : HeroQuoteCriteria
+--- @field type '"mission"'
+--- @field mission string|nil
+--- @field objective string|nil
+--- @field negative boolean|nil
+
+--- @class HeroQuoteCriteriaTalent : HeroQuoteCriteria
+--- @field type '"talent"'
+--- @field talent string
+--- @field negative boolean|nil
+
+--- @class HeroQuoteCriteriaUnknown : HeroQuoteCriteria
+--- @field type '"unknown"'
+--- @field raw string
+--- @field negative boolean|nil
+
+
 -------------------------------------------------------------------------------
 -- MARK: Scribunto基础
 
@@ -176,6 +266,7 @@ mw.text = {}
 
 ---@param string string
 ---@param flags number? 0 或 `mw.text.JSON_PRESERVE_KEYS`、`mw.text.JSON_TRY_FIXING` 或相加
+---@return any
 function mw.text.jsonDecode(string, flags) end
 
 --- 分隔字符串
@@ -215,6 +306,38 @@ function mw.title.new(text, namespace) end
 --- @field exists boolean 是否存在
 --- @field namespace number 命名空间ID
 local title = {}
+
+mw.html = {}
+
+
+--- @param tagName string?
+--- @param args ScribuntoHtmlCreateArgs?
+--- @return ScribuntoHtmlObject
+function mw.html.create(tagName, args) end
+
+--- @class ScribuntoHtmlCreateArgs
+--- @field selfClosing boolean?
+--- @field parent ScribuntoHtmlObject?
+local htmlCreateArgs = {}
+
+--- @class ScribuntoHtmlObject
+local html = {}
+
+--- @param ... string
+--- @return ScribuntoHtmlObject
+function html:wikitext(...) end
+
+--- @param tagName string
+--- @param args ScribuntoHtmlCreateArgs?
+--- @return ScribuntoHtmlObject
+function html:tag(tagName, args) end
+
+--- @param className string
+--- @return ScribuntoHtmlObject
+function html:addClass(className) end
+
+--- @return ScribuntoHtmlObject
+function html:done() end
 
 -------------------------------------------------------------------------------
 -- MARK: 扩展库
@@ -262,3 +385,51 @@ function mw.huiji.db.count(filter, options) end
 --- @param options table?
 --- @return table[]
 function mw.huiji.db.aggregate(filter, options) end
+
+-------------------------------------------------------------------------------
+-- MARK: 站内
+
+--- @class SiteStringUtils
+local StringUtils = {}
+
+--- @param str string
+--- @param prefix string
+--- @return boolean
+function StringUtils.startWith(str, prefix) end
+
+--- @param str string
+--- @param delimiter string
+--- @return string[]
+function StringUtils.split(str, delimiter) end
+
+--- @class SiteArrayUtils
+local ArrayUtils = {}
+
+--- @generic T
+--- @param array T[]
+--- @param callback fun(value: T, index: number)
+function ArrayUtils.forEach(array, callback) end
+
+--- @generic T, U
+--- @param array T[]
+--- @param callback fun(value: T, index: number): U
+--- @return U[]
+function ArrayUtils.map(array, callback) end
+
+--- @generic T
+--- @param array T[]
+--- @param callback fun(value: T, index: number): boolean?
+--- @return T[]
+function ArrayUtils.filter(array, callback) end
+
+--- @generic T
+--- @param array T[]
+--- @param callback fun(value: T, index: number): boolean?
+--- @return boolean
+function ArrayUtils.some(array, callback) end
+
+--- @generic T
+--- @param array T[]
+--- @param callback fun(value: T, index: number): boolean?
+--- @return boolean
+function ArrayUtils.every(array, callback) end

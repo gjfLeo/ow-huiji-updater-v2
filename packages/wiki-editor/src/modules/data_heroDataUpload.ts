@@ -5,7 +5,7 @@ import path from "node:path";
 import destr from "destr";
 import { zWikiHero } from "../models/hero";
 import { logger, spinnerProgress } from "../utils/logger";
-import { wikiBatchEdit } from "../wiki/batch";
+import { wikiBatchEdit, wikiBatchGet } from "../wiki/batch";
 
 const dataDir = path.resolve(__dirname, "../../assets/data/heroes");
 
@@ -53,4 +53,22 @@ export default async function heroDataUpload() {
     formatter: content => content,
     summary: "更新英雄故事（ow-huiji-updater）",
   });
+
+  logger.info("初始化英雄台词和语音页面");
+  const heroQuotePageTitles = Object.values(heroData).map(hero => `${hero.name}/台词和语音`);
+  const heroQuotePages = await wikiBatchGet({
+    titles: heroQuotePageTitles,
+    batchSize: 20,
+  });
+  const heroQuotePageToUpdate: Record<string, string> = {};
+  for (const title of heroQuotePageTitles) {
+    if (!heroQuotePages[title] || !heroQuotePages[title].startsWith("{{HeroQuotePage")) {
+      heroQuotePageToUpdate[title] = "{{HeroQuotePage\n|hero={{ROOTPAGENAME}}\n}}";
+    }
+  }
+  if (Object.keys(heroQuotePageToUpdate).length > 0) {
+    await wikiBatchEdit(heroQuotePageToUpdate, {
+      summary: "初始化英雄台词和语音页面（ow-huiji-updater）",
+    });
+  }
 }

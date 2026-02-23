@@ -1,20 +1,93 @@
 import type { WikiHero } from "../models/hero";
 import type { QuoteCriteriaCondition, QuoteCriteriaSingleCondition, WikiHeroConversation, WikiHeroQuote } from "../models/hero-quote";
+import type { TabxInputHeader } from "../utils/tabx";
 import path from "node:path";
+import destr from "destr";
 import fse from "fs-extra";
 import { convertPathToPattern, glob } from "tinyglobby";
-import { HeroQuoteCelebrationName, HeroQuoteGenderName, HeroQuoteHeroNameMap, HeroQuoteHeroTagNames, HeroQuoteScriptDesc, HeroQuoteScriptDesc_Unknown } from "../data/hero-quote";
+import { CategoryNameMap, HeroQuoteCelebrationName, HeroQuoteGenderName, HeroQuoteHeroNameMap, HeroQuoteHeroTagNames, HeroQuoteScriptDesc, HeroQuoteScriptDesc_Unknown, NonVoiceLineCategoryNameMap } from "../data/hero-quote";
 import { zWikiHeroQuote } from "../models/hero-quote";
 import { logger, spinner, spinnerProgress } from "../utils/logger";
 import { Tabx } from "../utils/tabx";
+import { wikiBatchGet } from "../wiki/batch";
 
 const RAW_DATA_PATH = path.resolve(__dirname, "../../output/owlib");
 const OUTPUT_PATH = path.resolve(__dirname, "../../assets/data/hero-quotes");
+const CURRENT_VERSION = "2.21";
 const heroKeyByName = await readHeroKeyByName();
+
+const tabxHeaders: TabxInputHeader[] = [
+  { key: "_dataType", type: "string" },
+  { key: "fileId", type: "string" },
+  { key: "fileId_n", type: "number" },
+  { key: "hero", type: "string" },
+  { key: "heroName", type: "string" },
+  { key: "skin", type: "string" },
+  { key: "category", type: "string" },
+  { key: "subtitle", type: "string" },
+  { key: "subtitle_en", type: "string" },
+  { key: "criteria", type: "string" },
+  { key: "weight", type: "number" },
+  { key: "conversations", type: "string", isArray: true },
+  { key: "added", type: "string" },
+  { key: "removed", type: "string" },
+];
 
 let currentData: WikiHeroQuote = {} as WikiHeroQuote;
 
 export default async function heroQuoteDataGenerate() {
+  {
+    const categoryNameSet = new Set<string>();
+    [
+      ...Object.values(NonVoiceLineCategoryNameMap),
+      ...Object.values(CategoryNameMap),
+    ].forEach((categoryName) => {
+      if (categoryNameSet.has(categoryName)) {
+        logger.error(`重复分类：${categoryName}`);
+        process.exit(1);
+      }
+      categoryNameSet.add(categoryName);
+    });
+  }
+
+  // MARK: 读取旧数据
+  const oldPages = await wikiBatchGet({ namespace: 3500, prefix: "HeroQuotes/" });
+  const dataByHero: Record<string, Record<string, WikiHeroQuote>> = {};
+  for (const [pageTitle, pageContent] of Object.entries(oldPages)) {
+    if (pageTitle.endsWith(".json")) {
+      const wikiQuote = zWikiHeroQuote.parse(destr(pageContent));
+      wikiQuote.removed ??= CURRENT_VERSION;
+      dataByHero[wikiQuote.hero] ??= {};
+      dataByHero[wikiQuote.hero]![wikiQuote.fileId] = wikiQuote;
+    }
+    else {
+      const wikiQuoteTabx = Tabx.fromJson<WikiHeroQuote>(destr(pageContent));
+      const heroKey = wikiQuoteTabx.toJson().data[0]![3] as string;
+      dataByHero[heroKey] ??= {};
+
+      wikiQuoteTabx.toJson().data.forEach((item) => {
+        const fileId = item[1] as string;
+        dataByHero[heroKey]![fileId] = zWikiHeroQuote.parse({
+          _dataType: item[0],
+          fileId: item[1],
+          fileId_n: item[2],
+          hero: item[3],
+          heroName: item[4],
+          skin: item[5] ?? undefined,
+          category: item[6],
+          subtitle: item[7],
+          subtitle_en: item[8],
+          criteria: item[9] ?? undefined,
+          weight: item[10] ?? undefined,
+          conversations: item[11] ? (item[11] as string).split(";") : undefined,
+          added: item[12] ?? undefined,
+          removed: item[13] ?? CURRENT_VERSION,
+        });
+      });
+    }
+  }
+  logger.success(`成功加载 ${Object.values(dataByHero).flatMap(Object.values).length} 条旧数据`);
+
   // MARK: 加载资源
   spinner.start("加载资源");
   const decoder = new TextDecoder("utf-16");
@@ -30,8 +103,6 @@ export default async function heroQuoteDataGenerate() {
   );
   spinner.succeed();
 
-  const dataByHero: Record<string, WikiHeroQuote[]> = {};
-
   // MARK: 处理语音文件
   spinnerProgress.start("处理语音文件", heroVoiceFiles.length + npcVoiceFiles.length);
   for (const voiceFile of heroVoiceFiles) {
@@ -44,7 +115,7 @@ export default async function heroQuoteDataGenerate() {
     const pathSegments = path.dirname(voiceFile).split("/");
     const heroName = pathSegments.shift();
     const skin = pathSegments.shift();
-    const category = pathSegments.join("/");
+    let category = pathSegments.join("/");
     if (!heroName || !skin || !category) {
       logger.error(`目录名格式错误：${voiceFile}`);
       console.info(heroName, skin, category);
@@ -52,12 +123,14 @@ export default async function heroQuoteDataGenerate() {
     }
     const hero = heroKeyByName[heroName] ?? "npc";
 
-    const zhSubtitle = zhSubtitles[fileId];
-    const enSubtitle = enSubtitles[fileId];
-    if (!zhSubtitle || !enSubtitle) {
-      logger.error(`字幕不存在：${voiceFile}`);
+    const zhSubtitle = zhSubtitles[fileId] ?? "";
+    const enSubtitle = enSubtitles[fileId] ?? "";
+    if (!category.startsWith("Unknown/")) {
+      logger.error(`未清除分类：${category}`);
       process.exit(1);
     }
+    const categoryGuid = category.substring(8, category.length - 4).padStart(4, "0");
+    category = CategoryNameMap[categoryGuid] ?? NonVoiceLineCategoryNameMap[categoryGuid] ?? `Unknown/${categoryGuid}`;
 
     const heroQuoteData: WikiHeroQuote = {
       _dataType: "HeroQuote",
@@ -83,12 +156,20 @@ export default async function heroQuoteDataGenerate() {
       heroQuoteData.weight = Number.parseFloat(weightString);
     }
 
-    dataByHero[hero] ??= [];
-    dataByHero[hero]!.push(zWikiHeroQuote.parse(heroQuoteData));
+    dataByHero[hero] ??= {};
+    if (dataByHero[hero]![fileId]) {
+      heroQuoteData.added = dataByHero[hero]![fileId]!.added;
+      dataByHero[hero]![fileId] = heroQuoteData;
+    }
+    else {
+      heroQuoteData.added = CURRENT_VERSION;
+      dataByHero[hero]![fileId] = heroQuoteData;
+    }
     spinnerProgress.increment();
   }
   for (const voiceFile of npcVoiceFiles) {
     const fileId = path.basename(voiceFile).match(/^([0-9A-F]{12}\.0B2)/)?.[0] as `${string}.0B2`;
+
     if (!fileId) {
       logger.error(`文件名格式错误：${voiceFile}`);
       process.exit(1);
@@ -96,24 +177,23 @@ export default async function heroQuoteDataGenerate() {
     const fileId_n = Number.parseInt(fileId.replace(".0B2", ""), 16);
     const pathSegments = path.dirname(voiceFile).split("/");
     const heroName = pathSegments.shift();
-    const category = ["NPC", ...pathSegments].join("/");
+    let category = pathSegments.join("/");
     if (!heroName || !category) {
       logger.error(`目录名格式错误：${voiceFile}`);
       console.info(heroName, category);
       process.exit(1);
     }
     const hero = heroKeyByName[heroName] ?? "npc";
-    if (dataByHero[hero]?.some(item => item.fileId === fileId)) {
-      spinnerProgress.increment();
-      continue;
-    }
 
-    const zhSubtitle = zhSubtitles[fileId];
-    const enSubtitle = enSubtitles[fileId];
-    if (!zhSubtitle || !enSubtitle) {
-      logger.error(`字幕不存在：${voiceFile}`);
+    const zhSubtitle = zhSubtitles[fileId] ?? "";
+    const enSubtitle = enSubtitles[fileId] ?? "";
+    if (!category.startsWith("Unknown/")) {
+      logger.error(`未清除分类：${category}`);
       process.exit(1);
     }
+    const categoryGuid = category.substring(8, category.length - 4).padStart(4, "0");
+    category = CategoryNameMap[categoryGuid] ?? NonVoiceLineCategoryNameMap[categoryGuid] ?? `Unknown/${categoryGuid}`;
+    // category = `NPC/${category}`;
 
     const heroQuoteData: WikiHeroQuote = {
       _dataType: "HeroQuote",
@@ -138,8 +218,15 @@ export default async function heroQuoteDataGenerate() {
       heroQuoteData.weight = Number.parseFloat(weightString);
     }
 
-    dataByHero[hero] ??= [];
-    dataByHero[hero]!.push(zWikiHeroQuote.parse(heroQuoteData));
+    dataByHero[hero] ??= {};
+    if (dataByHero[hero]![fileId]) {
+      heroQuoteData.added = dataByHero[hero]![fileId]!.added;
+      dataByHero[hero]![fileId] = heroQuoteData;
+    }
+    else {
+      heroQuoteData.added = CURRENT_VERSION;
+      dataByHero[hero]![fileId] = heroQuoteData;
+    }
     spinnerProgress.increment();
   }
   spinnerProgress.succeed();
@@ -196,7 +283,7 @@ export default async function heroQuoteDataGenerate() {
         conversationQuotes.hero = heroName;
         // 在HeroQuote数据中关联对话信息
         const heroKey = heroKeyByName[heroName] ?? "npc";
-        const heroQuoteData = dataByHero[heroKey]!.find(item => item.fileId === fileId);
+        const heroQuoteData = dataByHero[heroKey]![fileId];
         if (heroQuoteData) {
           heroQuoteData.conversations ??= [];
           heroQuoteData.conversations.push(`${conversationId}#${conversationQuotes.position}`);
@@ -214,40 +301,28 @@ export default async function heroQuoteDataGenerate() {
   await fse.emptyDir(OUTPUT_PATH);
   const invalidListForTabx: WikiHeroQuote[] = [];
   for (const [heroKey, heroQuotes] of Object.entries(dataByHero)) {
-    heroQuotes.sort((a, b) => {
-      if (a.skin !== b.skin) {
-        if (!a.skin) return -1;
-        if (!b.skin) return 1;
-        return a.skin.localeCompare(b.skin);
-      }
-      if (a.category !== b.category) {
-        return a.category.localeCompare(b.category);
-      }
-      if (a.criteria !== b.criteria) {
-        if (!a.criteria) return -1;
-        if (!b.criteria) return 1;
-        return a.criteria.localeCompare(b.criteria);
-      }
-      if ((a.weight ?? 1) !== (b.weight ?? 1)) {
-        return (b.weight ?? 1) - (a.weight ?? 1);
-      }
+    const heroQuoteList = Object.values(heroQuotes);
+    heroQuoteList.sort((a, b) => {
+      // if (a.skin !== b.skin) {
+      //   if (!a.skin) return -1;
+      //   if (!b.skin) return 1;
+      //   return a.skin.localeCompare(b.skin);
+      // }
+      // if (a.category !== b.category) {
+      //   return a.category.localeCompare(b.category);
+      // }
+      // if (a.criteria !== b.criteria) {
+      //   if (!a.criteria) return -1;
+      //   if (!b.criteria) return 1;
+      //   return a.criteria.localeCompare(b.criteria);
+      // }
+      // if ((a.weight ?? 1) !== (b.weight ?? 1)) {
+      //   return (b.weight ?? 1) - (a.weight ?? 1);
+      // }
       return a.fileId_n - b.fileId_n;
     });
-    const tabx = Tabx.fromHeaders([
-      { key: "_dataType", type: "string" },
-      { key: "fileId", type: "string" },
-      { key: "fileId_n", type: "number" },
-      { key: "hero", type: "string" },
-      { key: "heroName", type: "string" },
-      { key: "skin", type: "string" },
-      { key: "category", type: "string" },
-      { key: "subtitle", type: "string" },
-      { key: "subtitle_en", type: "string" },
-      { key: "criteria", type: "string" },
-      { key: "weight", type: "number" },
-      { key: "conversations", type: "string", isArray: true },
-    ]);
-    for (const heroQuote of heroQuotes) {
+    const tabx = Tabx.fromHeaders(tabxHeaders);
+    for (const heroQuote of heroQuoteList) {
       if (tabx.isValidItem(heroQuote)) {
         tabx.addItem(heroQuote);
       }
@@ -257,13 +332,13 @@ export default async function heroQuoteDataGenerate() {
     }
     await Bun.write(
       path.join(OUTPUT_PATH, `${heroKey}.tabx`),
-      JSON.stringify(tabx.toJson(), null, 2),
+      `${JSON.stringify(tabx.toJson(), null, 2)}\n`,
     );
   }
   for (const heroQuote of invalidListForTabx) {
     await Bun.write(
       path.join(OUTPUT_PATH, `${heroQuote.fileId}.json`),
-      JSON.stringify(heroQuote, null, 2),
+      `${JSON.stringify(zWikiHeroQuote.parse(heroQuote), null, 2)}\n`,
     );
   }
 
@@ -282,6 +357,8 @@ export default async function heroQuoteDataGenerate() {
   // );
 
   spinner.succeed();
+
+  logger.success(`已生成 ${Object.values(dataByHero).flatMap(Object.values).flat().length} 条数据`);
 }
 
 async function readHeroKeyByName() {
@@ -328,6 +405,9 @@ async function readSubtitles(filePath: string) {
 function parseCriteria(criteriaString: string): QuoteCriteriaCondition {
   const lines = criteriaString.trim().split(/[\r\n]+/).map(line => line.trimEnd());
   const condition = parseCriteriaNode(lines, 0).condition;
+  if (condition.type === "nested" && condition.total === 1) {
+    return condition.conditions[0]!;
+  }
   return condition;
 }
 function parseCriteriaNode(
@@ -381,7 +461,7 @@ function parseCriteriaNode(
   if (condition) {
     return { condition, nextLineIndex: lineIndex + 1 };
   }
-  if (currentData.category.startsWith("NPC")) {
+  if (currentData.hero === "npc") {
     return { condition: { type: "unknown", raw: criteriaString, negative }, nextLineIndex: lineIndex + 1 };
   }
   spinnerProgress.fail();
@@ -401,9 +481,10 @@ function parseCriteriaSingleNode(criteriaString: string, negative?: boolean): Qu
     || criteriaString.startsWith("STU_A9B89EC9") // PVE相关
     || criteriaString.startsWith("STU_E6EBD07B") // 类似英雄标签 机械/黑爪
     || criteriaString === "Unknown: STU_B1A2B57D"
-    || criteriaString === "Hero Interaction: Unknown664"
+    || criteriaString === "Hero Interaction: Unknown664" // 安娜用
     || criteriaString === "Hero Interaction: Unknown81B"
     || criteriaString === "Hero Interaction: UnknownE41"
+    || criteriaString === "Hero Interaction: Unknown1071"
   ) {
     return { type: "unknown", raw: criteriaString, negative };
   }
@@ -441,7 +522,7 @@ function parseCriteriaSingleNode(criteriaString: string, negative?: boolean): Qu
       return { type: "toHero", heroTag: HeroQuoteHeroTagNames[heroName], negative };
     }
     if (!heroKeyByName[heroName]) {
-      if (!currentData.category.startsWith("NPC")) {
+      if (currentData.hero !== "npc") {
         logger.error(`未知的英雄 ${heroName}`);
       }
       return undefined;

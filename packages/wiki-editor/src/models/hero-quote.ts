@@ -13,6 +13,8 @@ export const zWikiHeroQuote = z.object({
   criteria: z.string().optional(),
   weight: z.number().optional(),
   conversations: z.string().regex(/^[0-9A-F]{12}\.0D0#\d+$/).array().optional(),
+  added: z.string().optional(),
+  removed: z.string().optional(),
 });
 export type WikiHeroQuote = z.infer<typeof zWikiHeroQuote>;
 

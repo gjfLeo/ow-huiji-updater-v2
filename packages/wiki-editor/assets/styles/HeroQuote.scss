@@ -1,25 +1,24 @@
-table.hero-quote-table {
-  font-size: 14px;
+table.wikitable.hero-quote-table {
+  font-size: 0.875rem;
   min-width: 60%;
 
   .group-title-cell {
     text-align: center;
     vertical-align: top;
-    padding-block: 12px;
-    width: 120px;
+    padding-block: 1rem;
+    width: 10rem;
 
     .group-title-text {
-      font-size: 16px;
+      font-size: 1rem;
       font-weight: bold;
     }
 
     .group-title-subtext {
-      font-size: 12px;
+      font-size: 0.75rem;
     }
   }
 
   .quote-cell {
-    padding-block: 6px;
     position: relative;
 
     .sound-file-id {
@@ -38,6 +37,25 @@ table.hero-quote-table {
         opacity: 0.8;
       }
     }
+
+    dl {
+      display: grid;
+      grid-template-columns: minmax(4em, auto) 1fr;
+      margin-bottom: 0;
+    }
+    dd,
+    dt {
+      margin-top: 0;
+      margin-bottom: 0.125rem;
+    }
+    dt {
+      text-align: right;
+      font-weight: normal;
+      opacity: 0.75;
+    }
+    dd {
+      margin-left: 1em;
+    }
   }
 
   .condition-cell {
@@ -48,5 +66,100 @@ table.hero-quote-table {
       opacity: 0.5;
     }
   }
+}
 
+.quote-group-title {
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  // font-weight: bold;
+  margin-block: 1rem 0.5rem;
+}
+
+.quote-group {
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr));
+  gap: 1rem;
+  margin-inline: 1rem;
+
+  &:not(:has([data-masy-complete])) {
+    display: grid;
+  }
+
+  &:has(.quote-item-content dl) {
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 30rem), 1fr));
+  }
+
+  .quote-item {
+    border: 2px solid rgb(192 192 192 / 0.25);
+    border-radius: 4px;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+
+    .quote-item-content {
+      flex-grow: 1;
+      font-size: 1rem;
+      line-height: 1.5;
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+      word-break: normal;
+      overflow-wrap: break-word;
+
+      dl {
+        display: grid;
+        grid-template-columns: minmax(4em, auto) 1fr;
+        margin: 0;
+        gap: 0.25rem 0.5rem;
+      }
+      dd,
+      dt {
+        margin: 0;
+        line-height: unset;
+      }
+      dt {
+        text-align: right;
+        font-weight: normal;
+        opacity: 0.75;
+
+        &.multiple-heroes {
+          font-size: 0.75rem;
+          border-right: 1px solid rgb(192 192 192 / 0.25);
+          padding-right: 0.25rem;
+          padding-top: 0.25rem;
+        }
+      }
+
+      .subtitle-missing {
+        font-size: 0.75rem;
+        opacity: 0.5;
+      }
+
+      &:has(.quote-item-subtitle-original) {
+        .quote-item-subtitle-zh {
+          font-size: 0.875rem;
+          color: rgb(192 192 192);
+        }
+      }
+
+      .quote-item-subtitle-en {
+        font-size: 0.875rem;
+        color: rgb(192 192 192);
+      }
+    }
+
+    .quote-item-info {
+      font-size: 0.75rem;
+      color: rgb(128 128 128);
+      margin-top: 0.5rem;
+
+      & > * {
+        display: flex;
+      }
+      .quote-item-info-label {
+        flex-shrink: 0;
+        display: inline-block;
+        min-width: 4em;
+      }
+    }
+  }
 }
