@@ -4,9 +4,9 @@
   "fileId_n": 407557,
   "hero": "echo",
   "heroName": "回声",
-  "category": "MatchTalk",
   "subtitle": "正在为守望先锋突击小队行动重新配置战斗参数。",
   "subtitle_en": "Reconfiguring combat parameters for Overwatch Strike Team operations.",
+  "category": "赛前对话",
   "criteria": "{\"type\":\"nested\",\"total\":11,\"needed\":4,\"conditions\":[{\"type\":\"withHero\",\"hero\":\"安娜\"},{\"type\":\"withHero\",\"hero\":\"天使\"},{\"type\":\"withHero\",\"hero\":\"索杰恩\"},{\"type\":\"withHero\",\"hero\":\"托比昂\"},{\"type\":\"withHero\",\"hero\":\"莱因哈特\"},{\"type\":\"withHero\",\"hero\":\"温斯顿\"},{\"type\":\"withHero\",\"hero\":\"士兵：76\"},{\"type\":\"withHero\",\"hero\":\"猎空\"},{\"type\":\"withHero\",\"hero\":\"源氏\"},{\"type\":\"withHero\",\"hero\":\"卡西迪\"},{\"type\":\"withHero\",\"hero\":\"美\"}]}",
   "weight": 0.7
 }
