@@ -5,7 +5,9 @@ import path from "node:path";
 import destr from "destr";
 import fse from "fs-extra";
 import { convertPathToPattern, glob } from "tinyglobby";
+import z from "zod";
 import { CategoryNameMap, HeroQuoteCelebrationName, HeroQuoteGenderName, HeroQuoteHeroNameMap, HeroQuoteHeroTagNames, HeroQuoteScriptDesc, HeroQuoteScriptDesc_Unknown, NonVoiceLineCategoryNameMap } from "../data/hero-quote";
+import heroQuoteCategoriesToml from "../data/hero-quote-categories.toml";
 import { zWikiHeroQuote } from "../models/hero-quote";
 import { logger, spinner, spinnerProgress } from "../utils/logger";
 import { Tabx } from "../utils/tabx";
@@ -101,6 +103,14 @@ export default async function heroQuoteDataGenerate() {
     ["**/*.txt", "!**/*-criteria.txt", "!**/*-weight.txt"],
     { cwd: path.join(RAW_DATA_PATH, "extract/NPCVoice") },
   );
+
+  const heroQuoteCategories = z.record(z.string(), z.record(z.string().regex(/^[0-9A-F]{4}$/), z.string())).parse(heroQuoteCategoriesToml);
+  for (const [group, categoryMap] of Object.entries(heroQuoteCategories)) {
+    for (const [categoryGuid, categoryName] of Object.entries(categoryMap)) {
+      CategoryNameMap[categoryGuid] = [...group.split("/"), ...categoryName.split("/")].join("/");
+    }
+  }
+
   spinner.succeed();
 
   // MARK: 处理语音文件
