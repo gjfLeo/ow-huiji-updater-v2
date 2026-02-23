@@ -1,7 +1,8 @@
 import path from "node:path";
 import { checkbox } from "@inquirer/prompts";
 import chalk from "chalk";
-import fse from "fs-extra";
+import fse, { exists } from "fs-extra";
+import { logger, spinner } from "../utils/logger";
 import { getStorage } from "../utils/storage";
 
 const OPERATIONS = [
@@ -53,6 +54,11 @@ export default async function executeDataToolOnce() {
   const gamePath = await getStorage("gamePath");
   const outputPath = path.resolve(__dirname, "../../output/owlib");
   await fse.ensureDir(path.join(outputPath, "logs"));
+
+  if (!await exists(dataToolPath)) {
+    logger.error("工具路径不正确");
+    process.exit(1);
+  }
 
   const operationArgs: Record<(typeof OPERATIONS)[number], string[][]> = {
     "dump-file-lists": [
@@ -172,10 +178,10 @@ export default async function executeDataToolOnce() {
       [path.join(outputPath, "extract"), "--subtitles-with-sounds", "--skip-sound"],
     ],
     "extract-hero-voice": [
-      [path.join(outputPath, "extract"), "--voice-group-by-skin", "--subtitles-with-sounds", "--voice-flat-03F"],
+      [path.join(outputPath, "extract"), "--voice-group-by-skin", "--subtitles-with-sounds"],
     ],
     "extract-npc-voice": [
-      [path.join(outputPath, "extract"), "--subtitles-with-sounds", "--voice-flat-03F"],
+      [path.join(outputPath, "extract"), "--subtitles-with-sounds"],
     ],
     "extract-conversations": [
       [path.join(outputPath, "extract"), "--subtitles-with-sounds"],
@@ -189,6 +195,12 @@ export default async function executeDataToolOnce() {
     message: "请选择操作",
     choices: OPERATIONS.filter(operation => operationArgs[operation].length > 0),
   });
+
+  if (operations.includes("extract-hero-voice")
+    || operations.includes("extract-npc-voice")
+    || operations.includes("extract-conversations")) {
+    await checkVoiceCategoryGuidNames(dataToolPath);
+  }
 
   for (const operation of operations) {
     let index = 1;
@@ -223,4 +235,16 @@ export default async function executeDataToolOnce() {
     await proc.exited;
     return proc.exitCode;
   }
+}
+
+async function checkVoiceCategoryGuidNames(dataToolPath: string) {
+  spinner.start("检查语音分类 GUIDNames.csv");
+  const toolDirectory = path.dirname(dataToolPath);
+  const guidCsvContent = await Bun.file(path.resolve(toolDirectory, "./Static/GUIDNames.csv")).text();
+  const guidCsvLines = guidCsvContent.split("\n");
+  if (guidCsvLines.some(line => line.includes(",078,") || line.includes(",079,"))) {
+    spinner.fail("GUIDNames.csv 中包含 078 或 079，请修改");
+    process.exit(-1);
+  }
+  spinner.succeed();
 }
