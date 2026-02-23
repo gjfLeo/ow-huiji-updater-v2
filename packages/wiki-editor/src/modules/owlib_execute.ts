@@ -23,6 +23,7 @@ const OPERATIONS = [
   "list-arcade-modes",
   "list-brawl-name",
   "list-brawls",
+  "list-challenges",
   "list-chat-replacements",
   "list-chat-settings",
   "list-conversations",
@@ -113,6 +114,9 @@ export default async function executeDataToolOnce() {
     "list-brawls": [
       [`--out=${path.join(outputPath, "json/brawls.json")}`, "--json"],
     ],
+    "list-challenges": [
+      [`--out=${path.join(outputPath, "json/challenges.json")}`, "--json"],
+    ],
     "list-chat-replacements": [
       [`--out=${path.join(outputPath, "json/chat-replacements.json")}`, "--json"],
     ],
@@ -168,13 +172,13 @@ export default async function executeDataToolOnce() {
       [path.join(outputPath, "extract"), "--subtitles-with-sounds", "--skip-sound"],
     ],
     "extract-hero-voice": [
-      [path.join(outputPath, "extract"), "--voice-group-by-skin", "--subtitles-with-sounds", "--skip-sound"],
+      [path.join(outputPath, "extract"), "--voice-group-by-skin", "--subtitles-with-sounds", "--voice-flat-03F"],
     ],
     "extract-npc-voice": [
-      [path.join(outputPath, "extract"), "--subtitles-with-sounds", "--skip-sound"],
+      [path.join(outputPath, "extract"), "--subtitles-with-sounds", "--voice-flat-03F"],
     ],
     "extract-conversations": [
-      [path.join(outputPath, "extract"), "--subtitles-with-sounds", "--skip-sound"],
+      [path.join(outputPath, "extract"), "--subtitles-with-sounds"],
     ],
     "extract-vector-images": [
       [path.join(outputPath, "extract")],
