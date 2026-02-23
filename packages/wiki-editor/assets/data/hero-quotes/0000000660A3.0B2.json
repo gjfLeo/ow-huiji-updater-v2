@@ -6,7 +6,7 @@
   "heroName": "生命之梭",
   "subtitle": "好了，这样我们就能保护彼此了。",
   "subtitle_en": "There, we can protect each other now.",
-  "category": "Unknown/11FF",
+  "category": "技能/生命之梭/生命之握",
   "criteria": "{\"type\":\"nested\",\"total\":12,\"needed\":1,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"查莉娅\"},{\"type\":\"toHero\",\"hero\":\"破坏球\"},{\"type\":\"toHero\",\"hero\":\"D.Va\"},{\"type\":\"toHero\",\"hero\":\"温斯顿\"},{\"type\":\"toHero\",\"hero\":\"末日铁拳\"},{\"type\":\"toHero\",\"hero\":\"西格玛\"},{\"type\":\"toHero\",\"hero\":\"渣客女王\"},{\"type\":\"toHero\",\"hero\":\"路霸\"},{\"type\":\"toHero\",\"hero\":\"奥丽莎\"},{\"type\":\"toHero\",\"hero\":\"拉玛刹\"},{\"type\":\"toHero\",\"hero\":\"莱因哈特\"},{\"type\":\"toHero\",\"hero\":\"毛加\"}]}",
   "weight": 0.2
 }
