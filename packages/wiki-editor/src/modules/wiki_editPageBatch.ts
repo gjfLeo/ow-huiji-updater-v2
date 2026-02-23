@@ -35,6 +35,7 @@ export default async function editPageBatch() {
         choices: [
           { name: "（主）", value: 0 },
           { name: "模板", value: 10 },
+          { name: "Html", value: 274 },
           { name: "Data", value: 3500 },
         ],
       });
