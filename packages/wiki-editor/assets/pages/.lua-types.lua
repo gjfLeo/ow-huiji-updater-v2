@@ -339,6 +339,15 @@ function html:addClass(className) end
 --- @return ScribuntoHtmlObject
 function html:done() end
 
+--- @param name string
+--- @param value any?
+--- @return ScribuntoHtmlObject
+function html:attr(name, value) end
+
+--- @param t table<string, any?>
+--- @return ScribuntoHtmlObject
+function html:attr(t) end
+
 -------------------------------------------------------------------------------
 -- MARK: 扩展库
 
@@ -412,24 +421,41 @@ function ArrayUtils.forEach(array, callback) end
 
 --- @generic T, U
 --- @param array T[]
---- @param callback fun(value: T, index: number): U
+--- @param mapper fun(value: T, index: number): U
 --- @return U[]
-function ArrayUtils.map(array, callback) end
+function ArrayUtils.map(array, mapper) end
 
 --- @generic T
 --- @param array T[]
---- @param callback fun(value: T, index: number): boolean?
+--- @param predicator fun(value: T, index: number): boolean?
 --- @return T[]
-function ArrayUtils.filter(array, callback) end
+function ArrayUtils.filter(array, predicator) end
 
 --- @generic T
 --- @param array T[]
---- @param callback fun(value: T, index: number): boolean?
+--- @param predicator fun(value: T, index: number): boolean?
 --- @return boolean
-function ArrayUtils.some(array, callback) end
+function ArrayUtils.some(array, predicator) end
 
 --- @generic T
 --- @param array T[]
---- @param callback fun(value: T, index: number): boolean?
+--- @param predicator fun(value: T, index: number): boolean?
 --- @return boolean
-function ArrayUtils.every(array, callback) end
+function ArrayUtils.every(array, predicator) end
+
+--- @generic T
+--- @param array T[]
+--- @param sorter fun(a: T, b: T): boolean?
+--- @return T[]
+function ArrayUtils.toSorted(array, sorter) end
+
+--- @class SiteTableUtils
+local TableUtils = {}
+
+--- @param table table
+--- @return string[]
+function TableUtils.keys(table) end
+
+--- @param table table
+--- @return any[]
+function TableUtils.values(table) end
