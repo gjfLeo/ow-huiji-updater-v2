@@ -3,26 +3,24 @@ import type { WikiAbility } from "../models/ability";
 import path from "node:path";
 import destr from "destr";
 import fse from "fs-extra";
+import { STUB_DATA_PATH } from "../constants/paths";
 import { abilityKeywords } from "../data/ability-keywords";
 import { zWikiAbility } from "../models/ability";
 import { logger, spinnerProgress } from "../utils/logger";
 import { wikiBatchEdit } from "../wiki/batch";
 
 export default async function abilityDataUpload() {
-  const stubDir = path.join(__dirname, "../../assets/data/stubs");
+  const abilityKeywordsData = Object.fromEntries([
+    ["_dataType", "Stub"],
+    ...abilityKeywords
+      .toSorted((a, b) => a.name.localeCompare(b.name))
+      .map((keyword) => {
+        return [keyword.name, keyword.description];
+      }),
+  ]);
   await Bun.write(
-    path.join(stubDir, "AbilityKeywords.json"),
-    `${JSON.stringify(
-      Object.fromEntries(
-        abilityKeywords
-          .toSorted((a, b) => a.name.localeCompare(b.name))
-          .map((keyword) => {
-            return [keyword.name, keyword.description];
-          }),
-      ),
-      null,
-      2,
-    )}\n`,
+    path.join(STUB_DATA_PATH, "AbilityKeywords.json"),
+    `${JSON.stringify(abilityKeywordsData, null, 2)}\n`,
   );
 
   const dataDir = path.join(__dirname, "../../assets/data/abilities");
@@ -83,4 +81,9 @@ export default async function abilityDataUpload() {
     readBatchSize: 80,
     replaceBy: { namespace: 3500, prefix: "Ability/" },
   });
+
+  await wikiBatchEdit(
+    { "Data:Stub/AbilityKeywords.json": JSON.stringify(abilityKeywordsData) },
+    { summary: "更新技能数据（ow-huiji-updater）" },
+  );
 }

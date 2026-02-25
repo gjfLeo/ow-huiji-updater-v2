@@ -10,3 +10,6 @@ export const OUTPUT_IMAGE_DIR = path.join(OUTPUT_DIR, "images");
 export const OUTPUT_HERO_IMAGE_DIR = path.join(OUTPUT_IMAGE_DIR, "heroes");
 export const OUTPUT_ABILITY_IMAGE_DIR = path.join(OUTPUT_IMAGE_DIR, "abilities");
 export const OUTPUT_IMAGE_BY_SIZE_DIR = path.join(OUTPUT_IMAGE_DIR, "bySize");
+
+export const DATA_PATH = path.join(__dirname, "../../assets/data");
+export const STUB_DATA_PATH = path.join(DATA_PATH, "stubs");

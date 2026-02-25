@@ -376,20 +376,6 @@ export const HeroQuoteGenderName = {
 //   "交流/需要治疗/没有治疗者": "Unknown/12E1.078",
 //   "交流/需要治疗/到我这来治疗": "ComeForHealing",
 
-//   "交流/倒数": "Countdown",
-//   "交流/我上了": "GoingIn",
-//   "交流/撤退": "Fallback",
-//   "交流/有敌人": "Unknown/11DA.078", // 信号点地面
-//   "交流/盯住这里": "Unknown/10F8.078",
-//   "交流/需要帮助": "AssistanceRequired",
-//   "交流/发现敌人": "Unknown/1117.078", // 中键点人
-//   "交流/看这里": "Unknown/11D8.078", // 中键点地面
-//   "交流/看那里": "Unknown/11D9.078", // 中键点地面
-//   "交流/敌人睡在这里": "Unknown/11EA.078",
-
-//   "特殊互动/唱歌": "Karaoke",
-//   "特殊互动/看地球": "LookingAtEarth",
-
 //   "特殊/盟友倒下": "Teammate/Downed",
 //   "特殊/复活盟友": "Teammate/Revive",
 //   "特殊/EnemiesAttacking": "EnemiesAttacking",
@@ -472,14 +458,6 @@ export const HeroQuoteGenderName = {
 //   // "未分类/Unknown/FE5.078": "Unknown/FE5.078",
 
 // };
-// export const CategoryNameMap: Record<string, string> = Object.fromEntries(
-//   Object.entries(CategoryNames).flatMap(([key, value]) => {
-//     if (Array.isArray(value)) {
-//       return value.map(v => [v, key]);
-//     }
-//     return [[value, key]];
-//   }),
-// );
 
 export const CategoryNameMap: Record<string, string> = {
   "000D": "赛前对话/旧版",
@@ -605,7 +583,9 @@ export const CategoryNameMap: Record<string, string> = {
   "0042": "交流/正在防守",
   "10F8": "交流/盯住这里",
   "0427": "交流/需要帮助",
+  "11EA": "交流/信号/麻醉敌人",
   "11EB": "交流/信号/传送面板",
+  "1762": "交流/信号/侵入急救包",
 
   // MARK: 技能
 
@@ -1468,4 +1448,46 @@ export const NonVoiceLineCategoryNameMap: Record<string, string> = {
   "0939": "Unknown/0939/温斯顿/呼吸声与鼻息声",
   "0943": "Unknown/0943/温斯顿/惊讶的嚎叫",
   "0942": "Unknown/0942/温斯顿/咆哮",
+};
+
+export const NonLanguageStrategyMap = {
+  "技能/艾什/短筒猎枪": "exclude",
+  "技能/安燃/怒炎冲": "exclude",
+  "技能/奥丽莎/标枪旋击": "exclude",
+  "技能/奥丽莎/撼地猛刺/释放": "exclude",
+  "技能/巴蒂斯特/动力战靴": "exclude",
+  "技能/半藏/攀": "exclude",
+  "技能/半藏/跃": "exclude",
+  "技能/布丽吉塔/火箭连枷": "exclude",
+  "技能/布丽吉塔/能量盾击": "exclude",
+  "技能/禅雅塔/灭": "exclude",
+  "技能/禅雅塔/灭/蓄力": "exclude",
+  "技能/禅雅塔/灭/装填": "exclude",
+  "技能/骇灾/翻越": "exclude",
+  "技能/骇灾/狂跃": "exclude",
+  "技能/骇灾/狂跃/劈砍": "exclude",
+  "技能/卡西迪/战术翻滚": "exclude",
+  "技能/拉玛刹/猛拳（天罚形态）": "exclude",
+  "技能/莱因哈特/冲锋": "exclude",
+  "技能/莱因哈特/冲锋/击中墙壁": "exclude",
+  "技能/莱因哈特/冲锋/消灭": "exclude",
+  "技能/莱因哈特/烈焰打击": "exclude",
+  "技能/毛加/蛮力冲撞/重踏1": "exclude",
+  "技能/毛加/蛮力冲撞/重踏2": "exclude",
+  "技能/毛加/心脏过载/用力": "exclude",
+  "技能/末日铁拳/手炮": "exclude",
+  "技能/末日铁拳/火箭重拳/释放": "exclude",
+  "技能/末日铁拳/裂地重拳": "exclude",
+  "未使用/技能/末日铁拳/毁天灭地/来袭": "exclude",
+  "技能/莫伊拉/消散/仅敌方视角": "exclude",
+  "技能/瑞稀/替魂纸人": "exclude",
+  "技能/索杰恩/机动滑铲": "exclude",
+  "技能/温斯顿/喷射背包": "exclude",
+  "技能/温斯顿/喷射背包/着陆": "exclude",
+  "技能/温斯顿/动能俘获": "exclude",
+  "技能/温斯顿/质量吸附": "exclude",
+  "技能/伊拉锐/烈日冲击": "exclude",
+  "技能/渣客女王/锯齿利刃": "exclude",
+  "技能/渣客女王/命令怒吼/结束": "exclude",
+  "技能/渣客女王/血斩": "exclude",
 };

@@ -167,11 +167,6 @@ function mw.isSubsting() end
 --- @return table
 function mw.loadData(module) end
 
---- 加载JSON数据
---- @param page string 页面标题
---- @return table
-function mw.loadJsonData(page) end
-
 --- 循环出对象的所有属性和值
 --- @param object any
 --- @return string
@@ -367,6 +362,10 @@ function mw.ext.mustache.render(templateName, args, flags) end
 
 --- @class Huiji
 mw.huiji = {}
+
+--- @param pageTitle string
+--- @return table
+function mw.huiji.loadJson(pageTitle) end
 
 --- @class HuijiDb
 mw.huiji.db = {}

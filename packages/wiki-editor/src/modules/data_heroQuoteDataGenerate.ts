@@ -6,7 +6,8 @@ import destr from "destr";
 import fse from "fs-extra";
 import { convertPathToPattern, glob } from "tinyglobby";
 import z from "zod";
-import { CategoryNameMap, HeroQuoteCelebrationName, HeroQuoteGenderName, HeroQuoteHeroNameMap, HeroQuoteHeroTagNames, HeroQuoteScriptDesc, HeroQuoteScriptDesc_Unknown, NonVoiceLineCategoryNameMap } from "../data/hero-quote";
+import { STUB_DATA_PATH } from "../constants/paths";
+import { CategoryNameMap, HeroQuoteCelebrationName, HeroQuoteGenderName, HeroQuoteHeroNameMap, HeroQuoteHeroTagNames, HeroQuoteScriptDesc, HeroQuoteScriptDesc_Unknown, NonLanguageStrategyMap, NonVoiceLineCategoryNameMap } from "../data/hero-quote";
 import heroQuoteCategoriesToml from "../data/hero-quote-categories.toml";
 import { zWikiHeroQuote } from "../models/hero-quote";
 import { logger, spinner, spinnerProgress } from "../utils/logger";
@@ -38,20 +39,6 @@ const tabxHeaders: TabxInputHeader[] = [
 let currentData: WikiHeroQuote = {} as WikiHeroQuote;
 
 export default async function heroQuoteDataGenerate() {
-  {
-    const categoryNameSet = new Set<string>();
-    [
-      ...Object.values(NonVoiceLineCategoryNameMap),
-      ...Object.values(CategoryNameMap),
-    ].forEach((categoryName) => {
-      if (categoryNameSet.has(categoryName)) {
-        logger.error(`重复分类：${categoryName}`);
-        process.exit(1);
-      }
-      categoryNameSet.add(categoryName);
-    });
-  }
-
   // MARK: 读取旧数据
   const oldPages = await wikiBatchGet({ namespace: 3500, prefix: "HeroQuotes/" });
   const dataByHero: Record<string, Record<string, WikiHeroQuote>> = {};
@@ -104,11 +91,32 @@ export default async function heroQuoteDataGenerate() {
     { cwd: path.join(RAW_DATA_PATH, "extract/NPCVoice") },
   );
 
-  const heroQuoteCategories = z.record(z.string(), z.record(z.string().regex(/^[0-9A-F]{4}$/), z.string())).parse(heroQuoteCategoriesToml);
-  for (const [group, categoryMap] of Object.entries(heroQuoteCategories)) {
-    for (const [categoryGuid, categoryName] of Object.entries(categoryMap)) {
-      CategoryNameMap[categoryGuid] = [...group.split("/"), ...categoryName.split("/")].join("/");
+  const heroQuoteCategories = z.record(z.string(), z.record(z.string().regex(/^@[0-9A-F]{4}$/), z.string())).parse(heroQuoteCategoriesToml);
+  const heroQuoteCategoriesOrder: Record<string, number> = {};
+  {
+    let currentOrder = 0;
+    for (const [group, categoryMap] of Object.entries(heroQuoteCategories)) {
+      for (const [mapKey, mapValue] of Object.entries(categoryMap)) {
+        const categoryGuid = mapKey.substring(1);
+        const categoryName = [...group.split("/"), ...mapValue.split("/")].join("/");
+        currentOrder++;
+        CategoryNameMap[categoryGuid] = categoryName;
+        heroQuoteCategoriesOrder[categoryName] = currentOrder;
+      }
     }
+  }
+  {
+    const categoryNameSet = new Set<string>();
+    [
+      ...Object.values(NonVoiceLineCategoryNameMap),
+      ...Object.values(CategoryNameMap),
+    ].forEach((categoryName) => {
+      if (categoryNameSet.has(categoryName)) {
+        logger.error(`重复分类：${categoryName}`);
+        process.exit(1);
+      }
+      categoryNameSet.add(categoryName);
+    });
   }
 
   spinner.succeed();
@@ -351,6 +359,16 @@ export default async function heroQuoteDataGenerate() {
       `${JSON.stringify(zWikiHeroQuote.parse(heroQuote), null, 2)}\n`,
     );
   }
+
+  const heroQuoteInfo = {
+    _dataType: "Stub",
+    categoryOrder: heroQuoteCategoriesOrder,
+    nonLanguageStrategy: NonLanguageStrategyMap,
+  };
+  await Bun.write(
+    path.join(STUB_DATA_PATH, "HeroQuoteInfo.json"),
+    `${JSON.stringify(heroQuoteInfo, null, 2)}\n`,
+  );
 
   // const conversationTabx = Tabx.fromHeaders([
   //   { key: "_dataType", type: "string" },

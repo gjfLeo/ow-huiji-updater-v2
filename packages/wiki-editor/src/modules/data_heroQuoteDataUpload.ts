@@ -1,6 +1,7 @@
 import type { WikiHeroQuote } from "../models/hero-quote";
 import path from "node:path";
 import fse from "fs-extra";
+import { STUB_DATA_PATH } from "../constants/paths";
 import { spinnerProgress } from "../utils/logger";
 import { wikiBatchEdit } from "../wiki/batch";
 
@@ -33,6 +34,10 @@ export default async function heroQuotesDataUpload() {
       const title = `Data:HeroQuotes/${data.fileId}.json`;
       return [title, JSON.stringify(data)];
     }),
+    [
+      "Data:Stub/HeroQuoteInfo.json",
+      await Bun.file(path.join(STUB_DATA_PATH, "HeroQuoteInfo.json")).text(),
+    ],
   ]);
   await wikiBatchEdit(pages, {
     summary: "更新英雄语音数据（ow-huiji-updater）",
