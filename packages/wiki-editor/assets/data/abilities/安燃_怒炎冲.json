@@ -8,7 +8,7 @@
   "button": "技能 1",
   "description": "向前疾行，对击中的敌人造成伤害",
   "basicStats": {
-    "cooldown": 8.5
+    "cooldown": 8
   },
   "keywords": [
     {
