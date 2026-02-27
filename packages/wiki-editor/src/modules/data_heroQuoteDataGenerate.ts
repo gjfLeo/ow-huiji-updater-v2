@@ -39,6 +39,25 @@ const tabxHeaders: TabxInputHeader[] = [
 let currentData: WikiHeroQuote = {} as WikiHeroQuote;
 
 export default async function heroQuoteDataGenerate() {
+  const heroQuoteCategories = z.record(z.string(), z.record(z.string().regex(/^@[0-9A-F]{4}$/), z.string())).parse(heroQuoteCategoriesToml);
+  const heroQuoteCategoriesOrder: Record<string, number> = {};
+  {
+    let currentOrder = 0;
+    for (const [group, categoryMap] of Object.entries(heroQuoteCategories)) {
+      for (const [mapKey, mapValue] of Object.entries(categoryMap)) {
+        const categoryGuid = mapKey.substring(1);
+        const categoryName = [...group.split("/"), ...mapValue.split("/")].join("/");
+        currentOrder++;
+        if (categoryGuid in CategoryNameMap) {
+          logger.error(`重复分类：${categoryGuid}`);
+          process.exit(1);
+        }
+        CategoryNameMap[categoryGuid] = categoryName;
+        heroQuoteCategoriesOrder[categoryName] = currentOrder;
+      }
+    }
+  }
+
   // MARK: 读取旧数据
   const oldPages = await wikiBatchGet({ namespace: 3500, prefix: "HeroQuotes/" });
   const dataByHero: Record<string, Record<string, WikiHeroQuote>> = {};
@@ -91,20 +110,6 @@ export default async function heroQuoteDataGenerate() {
     { cwd: path.join(RAW_DATA_PATH, "extract/NPCVoice") },
   );
 
-  const heroQuoteCategories = z.record(z.string(), z.record(z.string().regex(/^@[0-9A-F]{4}$/), z.string())).parse(heroQuoteCategoriesToml);
-  const heroQuoteCategoriesOrder: Record<string, number> = {};
-  {
-    let currentOrder = 0;
-    for (const [group, categoryMap] of Object.entries(heroQuoteCategories)) {
-      for (const [mapKey, mapValue] of Object.entries(categoryMap)) {
-        const categoryGuid = mapKey.substring(1);
-        const categoryName = [...group.split("/"), ...mapValue.split("/")].join("/");
-        currentOrder++;
-        CategoryNameMap[categoryGuid] = categoryName;
-        heroQuoteCategoriesOrder[categoryName] = currentOrder;
-      }
-    }
-  }
   {
     const categoryNameSet = new Set<string>();
     [
