@@ -448,6 +448,12 @@ function ArrayUtils.every(array, predicator) end
 --- @return T[]
 function ArrayUtils.toSorted(array, sorter) end
 
+--- @generic T
+--- @param array T[]
+--- @param keySelector fun(value: T, index: number): string
+--- @return table<string, T[]>
+function ArrayUtils.groupBy(array, keySelector) end
+
 --- @class SiteTableUtils
 local TableUtils = {}
 
