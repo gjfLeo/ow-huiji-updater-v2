@@ -42,4 +42,5 @@
   "wikiparser.inlay": false,
   "wikiparser.linter.severity": "errors and warnings",
   "wikitext.wikiparser.enable": true,
+  "Lua.runtime.version": "Lua 5.1",
 }

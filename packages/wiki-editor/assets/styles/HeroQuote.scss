@@ -6,104 +6,17 @@
 }
 
 .quote-group {
+  display: grid;
   grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr));
   gap: 1rem;
   margin-inline: 1rem;
 
-  &:not(:has([data-masy-complete])) {
-    display: grid;
-  }
-
-  // &:has(.quote-item-content dl),
-  // &:has(dl.quote-item-content) {
-  //   grid-template-columns: repeat(auto-fill, minmax(min(100%, 30rem), 1fr));
-  // }
-
-  .quote-item {
-    border: 2px solid rgb(192 192 192 / 0.25);
-    border-radius: 4px;
-    padding: 0.5rem;
-    display: flex;
-    flex-direction: column;
-
-    dl.quote-item-content {
-      display: grid;
-      grid-template-columns: minmax(4em, auto) 1fr;
-      margin: 0;
-      gap: 0.25rem 0.5rem;
-    }
-
-    .quote-item-content {
-      flex-grow: 1;
-      font-size: 1rem;
-      line-height: 1.5;
-      display: flex;
-      flex-direction: column;
-      gap: 0.25rem;
-      word-break: normal;
-      overflow-wrap: break-word;
-
-      dl {
-        display: grid;
-        grid-template-columns: minmax(4em, auto) 1fr;
-        margin: 0;
-        gap: 0.25rem 0.5rem;
-      }
-      dd,
-      dt {
-        margin: 0;
-        line-height: unset;
-      }
-      dt {
-        text-align: right;
-        font-weight: normal;
-        opacity: 0.75;
-
-        &.multiple-heroes {
-          font-size: 0.75rem;
-          border-right: 1px solid rgb(192 192 192 / 0.25);
-          padding-right: 0.25rem;
-          padding-top: 0.25rem;
-        }
-      }
-
-      .subtitle-missing {
-        font-size: 0.75rem;
-        opacity: 0.5;
-      }
-
-      &:has(.quote-item-subtitle-original) {
-        .quote-item-subtitle-zh {
-          font-size: 0.875rem;
-          color: rgb(192 192 192);
-        }
-      }
-
-      .quote-item-subtitle-en {
-        font-size: 0.875rem;
-        color: rgb(192 192 192);
-      }
-    }
-
-    .quote-item-info {
-      font-size: 0.75rem;
-      color: rgb(128 128 128);
-      margin-top: 0.5rem;
-
-      & > * {
-        display: flex;
-      }
-      .quote-item-info-label {
-        flex-shrink: 0;
-        display: inline-block;
-        min-width: 4em;
-      }
-    }
-  }
-
-  &:has(dl.quote-group-item-content) {
+  &:has(.quote-group-item-content > dl) {
     grid-template-columns: repeat(auto-fill, minmax(min(100%, 30rem), 1fr));
   }
+
+  // &:not(:has([data-masy-complete])) {
+  // }
 
   .quote-group-item {
     border: 2px solid rgb(192 192 192 / 0.25);
@@ -132,8 +45,8 @@
       overflow-wrap: break-word;
     }
 
-    dl.quote-group-item-content,
-    .quote-group-item-content dl {
+    .quote-group-item-content > dl,
+    .quote-di--multiple-heroes > dl {
       display: grid;
       grid-template-columns: minmax(4em, auto) 1fr;
       align-content: start;
@@ -150,7 +63,7 @@
         text-align: right;
         opacity: 0.75;
 
-        &.multiple-heroes {
+        &.quote-di--multiple-heroes {
           font-size: 0.75rem;
           border-right: 1px solid rgb(192 192 192 / 0.25);
           padding-right: 0.25rem;
@@ -162,6 +75,7 @@
     .quote-subtitles {
       :not(:first-child) {
         font-size: 0.875rem;
+        line-height: 1.125rem;
         color: rgb(192 192 192);
       }
     }
@@ -171,7 +85,7 @@
       display: grid;
       grid-template-columns: minmax(4em, auto) 1fr;
       gap: 0.125rem 0.25rem;
-      margin: 0.75rem 0 0;
+      margin: 0.25rem 0 0;
       font-size: 0.75rem;
       line-height: 0.875rem;
       color: rgb(128 128 128);

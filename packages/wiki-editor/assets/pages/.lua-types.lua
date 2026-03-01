@@ -304,43 +304,46 @@ local title = {}
 
 mw.html = {}
 
-
 --- @param tagName string?
 --- @param args ScribuntoHtmlCreateArgs?
---- @return ScribuntoHtmlObject
+--- @return ScribuntoHtmlBuilder
 function mw.html.create(tagName, args) end
 
 --- @class ScribuntoHtmlCreateArgs
 --- @field selfClosing boolean?
---- @field parent ScribuntoHtmlObject?
+--- @field parent ScribuntoHtmlBuilder?
 local htmlCreateArgs = {}
 
---- @class ScribuntoHtmlObject
+--- @class ScribuntoHtmlBuilder
 local html = {}
 
+--- @param builder ScribuntoHtmlBuilder | string | nil
+--- @return ScribuntoHtmlBuilder
+function html:node(builder) end
+
 --- @param ... string
---- @return ScribuntoHtmlObject
+--- @return ScribuntoHtmlBuilder
 function html:wikitext(...) end
 
 --- @param tagName string
 --- @param args ScribuntoHtmlCreateArgs?
---- @return ScribuntoHtmlObject
+--- @return ScribuntoHtmlBuilder
 function html:tag(tagName, args) end
 
 --- @param className string
---- @return ScribuntoHtmlObject
+--- @return ScribuntoHtmlBuilder
 function html:addClass(className) end
 
---- @return ScribuntoHtmlObject
+--- @return ScribuntoHtmlBuilder
 function html:done() end
 
 --- @param name string
 --- @param value any?
---- @return ScribuntoHtmlObject
+--- @return ScribuntoHtmlBuilder
 function html:attr(name, value) end
 
 --- @param t table<string, any?>
---- @return ScribuntoHtmlObject
+--- @return ScribuntoHtmlBuilder
 function html:attr(t) end
 
 -------------------------------------------------------------------------------
@@ -395,28 +398,49 @@ function mw.huiji.db.count(filter, options) end
 function mw.huiji.db.aggregate(filter, options) end
 
 -------------------------------------------------------------------------------
--- MARK: 站内
-
+--- MARK: 站内 StringUtils
 --- @class SiteStringUtils
 local StringUtils = {}
 
---- @param str string
---- @param prefix string
+--- @param str any
 --- @return boolean
-function StringUtils.startWith(str, prefix) end
+function StringUtils.isEmpty(str) end
+
+--- 对于多个字符串，判断是否全部为空（空字符串或`nil`）
+--- @param ... string?
+--- @return boolean
+function StringUtils.isAllEmpty(...) end
 
 --- @param str string
 --- @param delimiter string
 --- @return string[]
 function StringUtils.split(str, delimiter) end
 
+--- @param str string
+--- @param prefix string
+--- @return boolean
+function StringUtils.startWith(str, prefix) end
+
+--- MARK: 站内 ArrayUtils
 --- @class SiteArrayUtils
 local ArrayUtils = {}
+
+-- 元素操作
+
+--- @generic T
+--- @param array T[]
+--- @param ... T
+--- @return number
+function ArrayUtils.push(array, ...) end
+
+-- Iterator
 
 --- @generic T
 --- @param array T[]
 --- @param callback fun(value: T, index: number)
 function ArrayUtils.forEach(array, callback) end
+
+-- Mapper
 
 --- @generic T, U
 --- @param array T[]
@@ -424,11 +448,13 @@ function ArrayUtils.forEach(array, callback) end
 --- @return U[]
 function ArrayUtils.map(array, mapper) end
 
---- @generic T
+--- @generic T, U
 --- @param array T[]
---- @param predicator fun(value: T, index: number): boolean?
---- @return T[]
-function ArrayUtils.filter(array, predicator) end
+--- @param mapper fun(value: T, index: number): U[]
+--- @return U[]
+function ArrayUtils.flatMap(array, mapper) end
+
+-- Predicator
 
 --- @generic T
 --- @param array T[]
@@ -442,18 +468,21 @@ function ArrayUtils.some(array, predicator) end
 --- @return boolean
 function ArrayUtils.every(array, predicator) end
 
+-- 数组运算
+
+--- @generic T
+--- @param array T[]
+--- @param predicator fun(value: T, index: number): boolean?
+--- @return T[]
+function ArrayUtils.filter(array, predicator) end
+
 --- @generic T
 --- @param array T[]
 --- @param sorter fun(a: T, b: T): boolean?
 --- @return T[]
 function ArrayUtils.toSorted(array, sorter) end
 
---- @generic T
---- @param array T[]
---- @param keySelector fun(value: T, index: number): string
---- @return table<string, T[]>
-function ArrayUtils.groupBy(array, keySelector) end
-
+--- MARK: 站内 TableUtils
 --- @class SiteTableUtils
 local TableUtils = {}
 
@@ -464,3 +493,9 @@ function TableUtils.keys(table) end
 --- @param table table
 --- @return any[]
 function TableUtils.values(table) end
+
+--- @generic T
+--- @param items T[]
+--- @param callbackFn fun(element: T, index: number): string
+--- @return table<string, T[]>
+function TableUtils.groupBy(items, callbackFn) end
