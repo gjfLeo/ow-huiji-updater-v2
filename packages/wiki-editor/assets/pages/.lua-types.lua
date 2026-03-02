@@ -473,6 +473,12 @@ function ArrayUtils.every(array, predicator) end
 --- @generic T
 --- @param array T[]
 --- @param predicator fun(value: T, index: number): boolean?
+--- @return T?
+function ArrayUtils.find(array, predicator) end
+
+--- @generic T
+--- @param array T[]
+--- @param predicator fun(value: T, index: number): boolean?
 --- @return T[]
 function ArrayUtils.filter(array, predicator) end
 
