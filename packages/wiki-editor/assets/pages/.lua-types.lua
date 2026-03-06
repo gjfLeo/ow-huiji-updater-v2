@@ -488,6 +488,31 @@ function ArrayUtils.filter(array, predicator) end
 --- @return T[]
 function ArrayUtils.toSorted(array, sorter) end
 
+--- @generic T
+--- @param ... T[]
+--- @return T[]
+function ArrayUtils.concat(...) end
+
+--- @generic T
+--- @param iterable T[]?
+--- @return Set<T>
+function ArrayUtils.createSet(iterable) end
+
+--- @generic T
+--- @class Set<T>
+--- @field size number
+local Set = {}
+
+--- @param value T
+--- @return boolean
+function Set:has(value) end
+
+--- @param value T
+function Set:add(value) end
+
+--- @return T[]
+function Set:toArray() end
+
 --- MARK: 站内 TableUtils
 --- @class SiteTableUtils
 local TableUtils = {}
@@ -505,3 +530,30 @@ function TableUtils.values(table) end
 --- @param callbackFn fun(element: T, index: number): string
 --- @return table<string, T[]>
 function TableUtils.groupBy(items, callbackFn) end
+
+--- @param table table
+--- @param ... any
+--- @return any?
+function TableUtils.optionalGet(table, ...) end
+
+--- MARK: 站内 TextUtils
+--- @class SiteTextUtils
+local TextUtils = {}
+
+--- @return TextBuilder
+function TextUtils.createContentBuilder() end
+
+do
+  --- @class TextBuilder
+  local TextBuilder = {}
+
+  --- @param line string | any
+  --- @param ... any
+  function TextBuilder:addLine(line, ...) end
+
+  --- @param header string
+  function TextBuilder:addH2(header) end
+
+  --- @param header string
+  function TextBuilder:addH3(header) end
+end

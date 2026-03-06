@@ -33,7 +33,7 @@
   // "[css]": {
   //   "editor.minimap.markSectionHeaderRegex": "^/\\* #region (?<label>.+) \\*/",
   // },
-  "typescript.implementationsCodeLens.enabled": true,
+  "js/ts.implementationsCodeLens.enabled": true,
 
   "overpy.workshopLanguage": "zh-CN",
 
