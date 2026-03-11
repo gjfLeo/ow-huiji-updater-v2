@@ -7,6 +7,7 @@
   "category": "Perk",
   "button": null,
   "description": "呼噜噜还会对周围敌人造成伤害，数值为治疗量的33%。移除击退效果",
+  "removed": true,
   "basicStats": {
     "perkIndex": "3B"
   },
