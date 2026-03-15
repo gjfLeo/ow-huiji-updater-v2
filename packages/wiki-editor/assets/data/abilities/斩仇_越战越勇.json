@@ -8,7 +8,12 @@
   "button": null,
   "description": "斩击敌人会加快移动速度和攻击速度",
   "basicStats": {},
-  "keywords": [],
+  "keywords": [
+    {
+      "name": "速度上限",
+      "value": ""
+    }
+  ],
   "detailStats": [
     {
       "name": "攻击速度加成",

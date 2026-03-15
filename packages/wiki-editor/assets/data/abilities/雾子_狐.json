@@ -22,6 +22,10 @@
     {
       "name": "可部署",
       "value": "此可部署物<mark>不会受到伤害</mark>"
+    },
+    {
+      "name": "速度上限",
+      "value": ""
     }
   ],
   "detailStats": [

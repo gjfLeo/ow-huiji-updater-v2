@@ -246,6 +246,11 @@ export const abilityKeywords: AbilityKeyword[] = [
     name_en: "Flight",
     description: "获得自由移动能力，被挪移、侵入、限制、沉睡和击晕时会临时禁用自由移动",
   },
+  {
+    name: "速度上限",
+    name_en: "Speed Cap",
+    description: "此技能提供的移动速度加成在与其他速度上限技能叠加时，无法超过+75%",
+  },
 
   // MARK: 防御效果
   {
@@ -412,5 +417,10 @@ export const abilityKeywords: AbilityKeyword[] = [
     name: "增伤",
     name_en: "AMP",
     description: "提高伤害",
+  },
+  {
+    name: "强恢复",
+    name_en: "Strong Regen",
+    description: "被动生命值恢复始终激活，受到伤害不会被打断",
   },
 ];

@@ -1,12 +1,12 @@
 {
   "_hjschema": "Ability",
   "_dataType": "ability",
-  "key": "斩仇/充盈剑气",
-  "name": "充盈剑气",
-  "hero": "斩仇",
+  "key": "飞天猫/别有用心",
+  "name": "别有用心",
+  "hero": "飞天猫",
   "category": "Perk",
   "button": null,
-  "description": "锋锐剑气的能量消耗降低25%",
+  "description": "生物猫爪弹会恢复燃料，数值为治疗量的15%",
   "basicStats": {
     "perkIndex": "2A"
   },
