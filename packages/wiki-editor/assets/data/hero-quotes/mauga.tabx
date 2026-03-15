@@ -13200,7 +13200,7 @@
       "消灭/0008",
       "别以为我把你给忘了，哥们。",
       "Don't think I forgot about you, buddy.",
-      "{\"type\":\"nested\",\"total\":3,\"needed\":1,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"黑百合\"},{\"type\":\"toHero\",\"hero\":\"死神\"},{\"type\":\"toHero\",\"hero\":\"黑影\"}]}",
+      "{\"type\":\"toHero\",\"heroTag\":\"离开黑爪的成员（黑爪之治）\"}",
       0.2,
       null,
       "2.21",

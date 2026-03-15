@@ -13712,7 +13712,7 @@
       "消灭/0008",
       "你是“黑爪”的精英成员？有意思……",
       "You're one of Talon's best? Interesting...",
-      "{\"type\":\"nested\",\"total\":6,\"needed\":1,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"黑百合\"},{\"type\":\"toHero\",\"hero\":\"死神\"},{\"type\":\"toHero\",\"hero\":\"黑影\"},{\"type\":\"toHero\",\"hero\":\"末日铁拳\"},{\"type\":\"toHero\",\"hero\":\"莫伊拉\"},{\"type\":\"toHero\",\"hero\":\"西格玛\"}]}",
+      "{\"type\":\"toHero\",\"heroTag\":\"黑爪\"}",
       0.45,
       null,
       null,

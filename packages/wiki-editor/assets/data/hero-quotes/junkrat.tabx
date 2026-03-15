@@ -15280,7 +15280,7 @@
       "消灭/0008",
       "“守望先锋”？你们休想活捉我！",
       "Overwatch? You'll never take me alive!",
-      "{\"type\":\"nested\",\"total\":9,\"needed\":1,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"天使\"},{\"type\":\"toHero\",\"hero\":\"卡西迪\"},{\"type\":\"toHero\",\"hero\":\"托比昂\"},{\"type\":\"toHero\",\"hero\":\"莱因哈特\"},{\"type\":\"toHero\",\"hero\":\"士兵：76\"},{\"type\":\"toHero\",\"hero\":\"温斯顿\"},{\"type\":\"toHero\",\"hero\":\"源氏\"},{\"type\":\"toHero\",\"hero\":\"猎空\"},{\"type\":\"toHero\",\"hero\":\"安娜\"}]}",
+      "{\"type\":\"toHero\",\"heroTag\":\"守望先锋\"}",
       0.35,
       null,
       null,

@@ -19152,7 +19152,7 @@
       "消灭/0008",
       "是不是还得再加强训练……",
       "Maybe we should train a little more...",
-      "{\"type\":\"nested\",\"total\":3,\"needed\":1,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"无漾\"},{\"type\":\"toHero\",\"hero\":\"安燃\"},{\"type\":\"toHero\",\"hero\":\"朱诺\"}]}",
+      "{\"type\":\"toHero\",\"heroTag\":\"守望先锋新成员（黑爪之治）\"}",
       0.2,
       null,
       "2.21",

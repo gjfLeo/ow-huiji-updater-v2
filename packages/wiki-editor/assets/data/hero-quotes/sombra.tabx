@@ -7325,14 +7325,14 @@
       "sombra",
       "黑影",
       null,
-      "Hack/Successful",
+      "技能/黑影/黑客入侵/成功",
       "习惯了就好了。",
       "Adapt to this.",
       "{\"type\":\"toHero\",\"hero\":\"末日铁拳\"}",
       0.2,
       null,
       null,
-      "2.21"
+      null
     ],
     [
       "HeroQuote",
@@ -9325,14 +9325,14 @@
       "sombra",
       "黑影",
       null,
-      "Elimination",
+      "消灭/0008",
       "对不起了，老大。",
       "(Spanish): Sorry, boss.",
       "{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"拉玛刹\"},{\"type\":\"toHero\",\"hero\":\"末日铁拳\"}]}",
       null,
       null,
       null,
-      "2.21"
+      null
     ],
     [
       "HeroQuote",
@@ -11309,7 +11309,7 @@
       "sombra",
       "黑影",
       null,
-      "Hack/Successful",
+      "技能/黑影/黑客入侵/成功",
       "现在我才是老大。",
       "I'm the boss now.",
       "{\"type\":\"toHero\",\"hero\":\"末日铁拳\"}",

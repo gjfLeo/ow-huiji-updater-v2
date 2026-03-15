@@ -18016,7 +18016,7 @@
       "赛前对话",
       "“黑爪”？你们还敢露脸，太猖狂了！（停顿）不过我们还是先完成任务再算账吧。",
       "Talon? How dare you show your faces!  (pause) Though perhaps we should finish the mission before we get into that.",
-      "{\"type\":\"nested\",\"total\":7,\"needed\":3,\"conditions\":[{\"type\":\"withHero\",\"hero\":\"末日铁拳\"},{\"type\":\"withHero\",\"hero\":\"死神\"},{\"type\":\"withHero\",\"hero\":\"黑百合\"},{\"type\":\"withHero\",\"hero\":\"黑影\"},{\"type\":\"withHero\",\"hero\":\"西格玛\"},{\"type\":\"withHero\",\"hero\":\"莫伊拉\"},{\"type\":\"withHero\",\"hero\":\"毛加\"}]}",
+      "{\"type\":\"nested\",\"total\":3,\"needed\":3,\"conditions\":[{\"type\":\"withHero\",\"hero\":\"西格玛\"},{\"type\":\"withHero\",\"hero\":\"莫伊拉\"},{\"type\":\"withHero\",\"hero\":\"毛加\"}]}",
       0.85,
       null,
       null,

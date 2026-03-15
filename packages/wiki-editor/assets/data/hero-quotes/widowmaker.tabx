@@ -11608,6 +11608,22 @@
     ],
     [
       "HeroQuote",
+      "000000062145.0B2",
+      401733,
+      "widowmaker",
+      "黑百合",
+      null,
+      "赛前对话",
+      "你连你的朋友们都救不了，凭什么觉得自己能拯救世界？",
+      "You could not save your friends. What makes you think you can save the world?",
+      null,
+      null,
+      "000000000C5B.0D0#1",
+      "2.21.1",
+      null
+    ],
+    [
+      "HeroQuote",
       "000000062A7F.0B2",
       404095,
       "widowmaker",
@@ -11668,7 +11684,7 @@
       null,
       null,
       null,
-      null
+      "2.21.1"
     ],
     [
       "HeroQuote",
@@ -19636,6 +19652,38 @@
       null,
       "0000000013C3.0D0#2",
       "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006BAC8.0B2",
+      441032,
+      "widowmaker",
+      "黑百合",
+      null,
+      "个性化语音/永劫无间联动/19EE",
+      "我会让敌人们……安息！",
+      "When an icy ball of hatred and revenge beats in your chest, anything is possible.",
+      null,
+      null,
+      null,
+      "2.21.1",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006BAC9.0B2",
+      441033,
+      "widowmaker",
+      "黑百合",
+      null,
+      "个性化语音/永劫无间联动/19ED",
+      "见过我的人……还活着的不多。",
+      "Revenge. A science… and an art.",
+      null,
+      null,
+      null,
+      "2.21.1",
       null
     ]
   ]

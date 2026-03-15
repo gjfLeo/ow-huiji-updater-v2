@@ -8592,7 +8592,7 @@
       "消灭/0008",
       "可惜“黑爪”没教会你要守纪律。",
       "Too bad Talon never taught you discipline.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"死神\"},{\"type\":\"toHero\",\"hero\":\"黑影\"}]}",
+      "{\"type\":\"toHero\",\"heroTag\":\"黑爪\"}",
       0.75,
       null,
       null,

@@ -12208,7 +12208,7 @@
       "消灭/0008",
       "你就不该去“守望先锋”，小姑娘。",
       "Shouldn'ae gone to Overwatch, lassie.",
-      "{\"type\":\"toHero\",\"hero\":\"朱诺\"}",
+      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"heroTag\":\"守望先锋新成员（黑爪之治）\"},{\"type\":\"toGender\",\"gender\":\"female\"}]}",
       null,
       null,
       null,
