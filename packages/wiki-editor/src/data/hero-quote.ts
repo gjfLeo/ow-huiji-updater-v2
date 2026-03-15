@@ -825,7 +825,6 @@ export const CategoryNameMap: Record<string, string> = {
   "148F": "未分类/148F/Attacking",
   "153B": "未分类/153B/Charging/Finished",
 
-  "0F5A": "个性化语音/1.59",
   "0F8D": "个性化语音/1.60",
   "0FFB": "个性化语音/1.62",
   "1094": "个性化语音/1.65",
