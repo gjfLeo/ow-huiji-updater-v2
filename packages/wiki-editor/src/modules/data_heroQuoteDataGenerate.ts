@@ -95,7 +95,12 @@ export default async function heroQuoteDataGenerate() {
 
       wikiQuoteTabx.toJson().data.forEach((item) => {
         const fileId = item[1] as string;
-        dataByHero[heroKey]![fileId] = zWikiHeroQuote.parse({
+        const category = item[6] as string;
+        if (fileId.endsWith(".03F") && !heroQuoteCategoriesOrder[category]) {
+          return;
+        }
+        const fileKey = fileId.endsWith(".0B2") ? fileId : `${fileId}-${category}-${item[7]}`;
+        dataByHero[heroKey]![fileKey] = zWikiHeroQuote.parse({
           _dataType: item[0],
           fileId: item[1],
           fileId_n: item[2],

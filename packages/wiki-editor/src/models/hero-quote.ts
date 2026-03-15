@@ -2,7 +2,7 @@ import z from "zod";
 
 export const zWikiHeroQuote = z.object({
   _dataType: z.literal("HeroQuote"),
-  fileId: z.string().regex(/^[0-9A-F]{12}\.0B2$/),
+  fileId: z.string().regex(/^[0-9A-F]{12}\.(?:0B2|03F)$/),
   fileId_n: z.number(),
   hero: z.string(),
   heroName: z.string(),
