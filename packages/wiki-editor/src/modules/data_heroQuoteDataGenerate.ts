@@ -1,12 +1,12 @@
 import type { WikiHero } from "../models/hero";
-import type { QuoteCriteriaCondition, QuoteCriteriaSingleCondition, WikiHeroConversation, WikiHeroQuote } from "../models/hero-quote";
+import type { QuoteCriteriaCondition, QuoteCriteriaSingleCondition, WikiHeroQuote } from "../models/hero-quote";
 import type { TabxInputHeader } from "../utils/tabx";
 import path from "node:path";
 import destr from "destr";
 import fse from "fs-extra";
 import { convertPathToPattern, glob } from "tinyglobby";
 import z from "zod";
-import { STUB_DATA_PATH } from "../constants/paths";
+import { OWLIB_EXTRACT_DIR, STUB_DATA_PATH } from "../constants/paths";
 import { CategoryNameMap, HeroQuoteCelebrationName, HeroQuoteGenderName, HeroQuoteHeroNameMap, HeroQuoteHeroTagNames, HeroQuoteScriptDesc, HeroQuoteScriptDesc_Unknown, NonLanguageStrategyMap, NonVoiceLineCategoryNameMap } from "../data/hero-quote";
 import heroQuoteCategoriesToml from "../data/hero-quote-categories.toml";
 import { zWikiHeroQuote } from "../models/hero-quote";
@@ -16,7 +16,7 @@ import { wikiBatchGet } from "../wiki/batch";
 
 const RAW_DATA_PATH = path.resolve(__dirname, "../../output/owlib");
 const OUTPUT_PATH = path.resolve(__dirname, "../../assets/data/hero-quotes");
-const CURRENT_VERSION = "2.21";
+const CURRENT_VERSION = "2.21.1";
 const heroKeyByName = await readHeroKeyByName();
 
 const tabxHeaders: TabxInputHeader[] = [
@@ -39,6 +39,7 @@ const tabxHeaders: TabxInputHeader[] = [
 let currentData: WikiHeroQuote = {} as WikiHeroQuote;
 
 export default async function heroQuoteDataGenerate() {
+  // MARK: 加载Category数据
   const heroQuoteCategories = z.record(z.string(), z.record(z.string().regex(/^@[0-9A-F]{4}$/), z.string())).parse(heroQuoteCategoriesToml);
   const heroQuoteCategoriesOrder: Record<string, number> = {};
   {
@@ -48,11 +49,30 @@ export default async function heroQuoteDataGenerate() {
         const categoryGuid = mapKey.substring(1);
         const categoryName = [...group.split("/"), ...mapValue.split("/")].join("/");
         currentOrder++;
-        if (categoryGuid in CategoryNameMap) {
+        if (CategoryNameMap[categoryGuid]) {
           logger.error(`重复分类：${categoryGuid}`);
           process.exit(1);
         }
         CategoryNameMap[categoryGuid] = categoryName;
+        heroQuoteCategoriesOrder[categoryName] = currentOrder;
+      }
+    }
+
+    for (const [_, categoryName] of Object.entries(CategoryNameMap)) {
+      if (!heroQuoteCategoriesOrder[categoryName]) {
+        currentOrder++;
+        heroQuoteCategoriesOrder[categoryName] = currentOrder;
+      }
+    }
+
+    for (const [categoryGuid, categoryName] of Object.entries(NonVoiceLineCategoryNameMap)) {
+      if (CategoryNameMap[categoryGuid]) {
+        logger.error(`重复分类：${categoryGuid}`);
+        process.exit(1);
+      }
+      CategoryNameMap[categoryGuid] = categoryName;
+      if (!heroQuoteCategoriesOrder[categoryName]) {
+        currentOrder++;
         heroQuoteCategoriesOrder[categoryName] = currentOrder;
       }
     }
@@ -101,223 +121,257 @@ export default async function heroQuoteDataGenerate() {
   const decoder = new TextDecoder("utf-16");
   const zhSubtitles = await readSubtitles(path.join(RAW_DATA_PATH, "logs", "list-subtitles-real-1.log"));
   const enSubtitles = await readSubtitles(path.join(RAW_DATA_PATH, "logs", "list-subtitles-real-2.log"));
-  const heroVoiceFiles = await glob(
-    ["**/*.txt", "!**/*-criteria.txt", "!**/*-weight.txt"],
-    { cwd: path.join(RAW_DATA_PATH, "extract/HeroVoice") },
-  );
-  const npcVoiceFiles = await glob(
-    ["**/*.txt", "!**/*-criteria.txt", "!**/*-weight.txt"],
-    { cwd: path.join(RAW_DATA_PATH, "extract/NPCVoice") },
-  );
-
-  {
-    const categoryNameSet = new Set<string>();
-    [
-      ...Object.values(NonVoiceLineCategoryNameMap),
-      ...Object.values(CategoryNameMap),
-    ].forEach((categoryName) => {
-      if (categoryNameSet.has(categoryName)) {
-        logger.error(`重复分类：${categoryName}`);
-        process.exit(1);
-      }
-      categoryNameSet.add(categoryName);
-    });
-  }
 
   spinner.succeed();
 
-  // MARK: 处理语音文件
-  spinnerProgress.start("处理语音文件", heroVoiceFiles.length + npcVoiceFiles.length);
-  for (const voiceFile of heroVoiceFiles) {
-    const fileId = path.basename(voiceFile).match(/^([0-9A-F]{12}\.0B2)/)?.[0] as `${string}.0B2`;
-    if (!fileId) {
-      logger.error(`文件名格式错误：${voiceFile}`);
-      process.exit(1);
-    }
-    const fileId_n = Number.parseInt(fileId.replace(".0B2", ""), 16);
-    const pathSegments = path.dirname(voiceFile).split("/");
-    const heroName = pathSegments.shift();
-    const skin = pathSegments.shift();
-    let category = pathSegments.join("/");
-    if (!heroName || !skin || !category) {
-      logger.error(`目录名格式错误：${voiceFile}`);
-      console.info(heroName, skin, category);
-      process.exit(1);
-    }
-    const hero = heroKeyByName[heroName] ?? "npc";
+  // MARK: 处理0B2语音
+  {
+    spinnerProgress.start("处理0B2语音文件", Number.MAX_SAFE_INTEGER);
+    const heroVoiceFiles = await glob(
+      ["**/*.txt", "!**/*-criteria.txt", "!**/*-weight.txt"],
+      { cwd: path.join(OWLIB_EXTRACT_DIR, "HeroVoice") },
+    );
+    const npcVoiceFiles = await glob(
+      ["**/*.txt", "!**/*-criteria.txt", "!**/*-weight.txt"],
+      { cwd: path.join(OWLIB_EXTRACT_DIR, "NPCVoice") },
+    );
+    spinnerProgress.setTotal(heroVoiceFiles.length + npcVoiceFiles.length);
 
-    const zhSubtitle = zhSubtitles[fileId] ?? "";
-    const enSubtitle = enSubtitles[fileId] ?? "";
-    if (!category.startsWith("Unknown/")) {
-      logger.error(`未清除分类：${category}`);
-      process.exit(1);
-    }
-    const categoryGuid = category.substring(8, category.length - 4).padStart(4, "0");
-    category = CategoryNameMap[categoryGuid] ?? NonVoiceLineCategoryNameMap[categoryGuid] ?? `Unknown/${categoryGuid}`;
+    async function handleVoiceFile0B2(voiceFile: string, directory: "HeroVoice" | "NPCVoice") {
+      const fileId = path.basename(voiceFile).match(/^([0-9A-F]{12}\.0B2)/)?.[0] as `${string}.0B2`;
+      if (!fileId) {
+        logger.error(`文件名格式错误：${voiceFile}`);
+        process.exit(1);
+      }
+      const fileId_n = Number.parseInt(fileId.replace(".0B2", ""), 16);
+      const pathSegments = path.dirname(voiceFile).split("/");
+      const heroName = pathSegments.shift();
+      const skin = directory === "HeroVoice" ? pathSegments.shift() : undefined;
+      let category = pathSegments.join("/");
+      if (!heroName || (directory === "HeroVoice" && !skin) || !category) {
+        logger.error(`目录名格式错误：${voiceFile}`);
+        console.info(heroName, skin, category);
+        process.exit(1);
+      }
+      const hero = heroKeyByName[heroName] ?? "npc";
+      const zhSubtitle = zhSubtitles[fileId] ?? "";
+      const enSubtitle = enSubtitles[fileId] ?? "";
+      if (!category.startsWith("Unknown/")) {
+        logger.error(`未清除分类：${category}`);
+        process.exit(1);
+      }
+      const categoryGuid = category.substring(8, category.length - 4).padStart(4, "0");
+      category = CategoryNameMap[categoryGuid] ?? NonVoiceLineCategoryNameMap[categoryGuid] ?? `Unknown/${categoryGuid}`;
 
-    const heroQuoteData: WikiHeroQuote = {
-      _dataType: "HeroQuote",
-      fileId,
-      fileId_n,
-      hero,
-      heroName,
-      skin: skin === "Default" ? undefined : skin,
-      category,
-      subtitle: zhSubtitle,
-      subtitle_en: enSubtitle,
-    };
-    currentData = heroQuoteData;
-    const criteriaFile = Bun.file(path.join(RAW_DATA_PATH, "extract/HeroVoice", path.dirname(voiceFile), `${fileId}-criteria.txt`));
-    if (await criteriaFile.exists()) {
-      const criteriaString = decoder.decode(await criteriaFile.arrayBuffer());
-      heroQuoteData.criteria = JSON.stringify(parseCriteria(criteriaString));
+      const heroQuoteData: WikiHeroQuote = {
+        _dataType: "HeroQuote",
+        fileId,
+        fileId_n,
+        hero,
+        heroName,
+        skin: skin === "Default" ? undefined : skin,
+        category,
+        subtitle: zhSubtitle,
+        subtitle_en: enSubtitle,
+      };
+      currentData = heroQuoteData;
+
+      const criteriaFile = Bun.file(path.join(
+        OWLIB_EXTRACT_DIR,
+        directory,
+        path.dirname(voiceFile),
+        `${fileId}-criteria.txt`,
+      ));
+      if (await criteriaFile.exists()) {
+        const criteriaString = decoder.decode(await criteriaFile.arrayBuffer());
+        heroQuoteData.criteria = JSON.stringify(parseCriteria(criteriaString));
+      }
+      const weightFile = Bun.file(path.join(
+        OWLIB_EXTRACT_DIR,
+        directory,
+        path.dirname(voiceFile),
+        `${fileId}-weight.txt`,
+      ));
+      if (await weightFile.exists()) {
+        const weightString = decoder.decode(await weightFile.arrayBuffer());
+        heroQuoteData.weight = Number.parseFloat(weightString);
+      }
+
+      dataByHero[hero] ??= {};
+      if (dataByHero[hero]![fileId]) {
+        heroQuoteData.added = dataByHero[hero]![fileId]!.added;
+        dataByHero[hero]![fileId] = heroQuoteData;
+      }
+      else {
+        if (skin !== "碎骨者" && skin !== "欧尔麦特") {
+          heroQuoteData.added = CURRENT_VERSION;
+        }
+        dataByHero[hero]![fileId] = heroQuoteData;
+      }
     }
 
-    const weightFile = Bun.file(path.join(RAW_DATA_PATH, "extract/HeroVoice", path.dirname(voiceFile), `${fileId}-weight.txt`));
-    if (await weightFile.exists()) {
-      const weightString = decoder.decode(await weightFile.arrayBuffer());
-      heroQuoteData.weight = Number.parseFloat(weightString);
+    for (const voiceFile of heroVoiceFiles) {
+      await handleVoiceFile0B2(voiceFile, "HeroVoice");
+      spinnerProgress.increment();
     }
-
-    dataByHero[hero] ??= {};
-    if (dataByHero[hero]![fileId]) {
-      heroQuoteData.added = dataByHero[hero]![fileId]!.added;
-      dataByHero[hero]![fileId] = heroQuoteData;
+    for (const voiceFile of npcVoiceFiles) {
+      await handleVoiceFile0B2(voiceFile, "NPCVoice");
+      spinnerProgress.increment();
     }
-    else {
-      heroQuoteData.added = CURRENT_VERSION;
-      dataByHero[hero]![fileId] = heroQuoteData;
-    }
-    spinnerProgress.increment();
+    spinnerProgress.succeed();
   }
-  for (const voiceFile of npcVoiceFiles) {
-    const fileId = path.basename(voiceFile).match(/^([0-9A-F]{12}\.0B2)/)?.[0] as `${string}.0B2`;
+  // MARK: 处理03F声音
+  {
+    spinnerProgress.start("处理03F声音文件", Number.MAX_SAFE_INTEGER);
+    const heroVoice03FFiles = await glob(
+      ["**/*.03F.ogg"],
+      { cwd: path.join(RAW_DATA_PATH, "extract/HeroVoice") },
+    );
+    const npcVoice03FFiles = await glob(
+      ["**/*.03F.ogg"],
+      { cwd: path.join(RAW_DATA_PATH, "extract/NPCVoice") },
+    );
+    spinnerProgress.setTotal(heroVoice03FFiles.length + npcVoice03FFiles.length);
 
-    if (!fileId) {
-      logger.error(`文件名格式错误：${voiceFile}`);
-      process.exit(1);
-    }
-    const fileId_n = Number.parseInt(fileId.replace(".0B2", ""), 16);
-    const pathSegments = path.dirname(voiceFile).split("/");
-    const heroName = pathSegments.shift();
-    let category = pathSegments.join("/");
-    if (!heroName || !category) {
-      logger.error(`目录名格式错误：${voiceFile}`);
-      console.info(heroName, category);
-      process.exit(1);
-    }
-    const hero = heroKeyByName[heroName] ?? "npc";
+    async function handleHeroVoice03F(voiceFile: string, directory: "HeroVoice" | "NPCVoice") {
+      const fileId = path.basename(voiceFile).match(/^([0-9A-F]{12}\.03F)/)?.[0] as `${string}.03F`;
+      if (!fileId) {
+        logger.error(`文件名格式错误：${voiceFile}`);
+        process.exit(1);
+      }
+      const fileId_n = -Number.parseInt(fileId.replace(".03F", ""), 16);
+      const pathSegments = path.dirname(voiceFile).split("/");
+      const heroName = pathSegments.shift();
+      const skin = directory === "HeroVoice" ? pathSegments.shift() : undefined;
+      const zhSubtitle = pathSegments.splice(-1)[0]!;
+      let category = pathSegments.join("/");
+      if (!heroName || (directory === "HeroVoice" && !skin) || !category) {
+        logger.error(`目录名格式错误：${voiceFile}`);
+        console.info(heroName, skin, category);
+        process.exit(1);
+      }
+      if (!category.startsWith("Unknown/")) {
+        logger.error(`未清除分类：${category}`);
+        process.exit(1);
+      }
+      const categoryGuid = category.substring(8, category.length - 4).padStart(4, "0");
+      category = CategoryNameMap[categoryGuid] ?? NonVoiceLineCategoryNameMap[categoryGuid] ?? `Unknown/${categoryGuid}`;
 
-    const zhSubtitle = zhSubtitles[fileId] ?? "";
-    const enSubtitle = enSubtitles[fileId] ?? "";
-    if (!category.startsWith("Unknown/")) {
-      logger.error(`未清除分类：${category}`);
-      process.exit(1);
-    }
-    const categoryGuid = category.substring(8, category.length - 4).padStart(4, "0");
-    category = CategoryNameMap[categoryGuid] ?? NonVoiceLineCategoryNameMap[categoryGuid] ?? `Unknown/${categoryGuid}`;
-    // category = `NPC/${category}`;
+      const hero = heroKeyByName[heroName] ?? "npc";
+      dataByHero[hero] ??= {};
 
-    const heroQuoteData: WikiHeroQuote = {
-      _dataType: "HeroQuote",
-      fileId,
-      fileId_n,
-      hero,
-      heroName,
-      category,
-      subtitle: zhSubtitle,
-      subtitle_en: enSubtitle,
-    };
-    currentData = heroQuoteData;
-    const criteriaFile = Bun.file(path.join(RAW_DATA_PATH, "extract/NPCVoice", path.dirname(voiceFile), `${fileId}-criteria.txt`));
-    if (await criteriaFile.exists()) {
-      const criteriaString = decoder.decode(await criteriaFile.arrayBuffer());
-      heroQuoteData.criteria = JSON.stringify(parseCriteria(criteriaString));
+      // 如果有字幕相同的的0DB文件则不处理
+      if (Object.values(dataByHero[hero]).some(q => q.subtitle === zhSubtitle && q.category === category && !q.fileId.endsWith("03F"))) {
+        // delete dataByHero[hero]![fileId];
+        return;
+      }
+
+      const fileKey03F = `${fileId}-${category}-${zhSubtitle}`;
+      // const oldCategories = dataByHero[hero][fileKey03F]?.category.split(";") ?? [];
+      const heroQuoteData: WikiHeroQuote = {
+        _dataType: "HeroQuote",
+        fileId,
+        fileId_n,
+        hero,
+        heroName,
+        skin: skin === "Default" ? undefined : skin,
+        category,
+        // category: Array.from(new Set(oldCategories).add(category)).toSorted().join(";"),
+        subtitle: zhSubtitle,
+        subtitle_en: "",
+      };
+      if (dataByHero[hero]![fileKey03F]) {
+        heroQuoteData.added = dataByHero[hero]![fileKey03F]!.added;
+        dataByHero[hero]![fileKey03F] = heroQuoteData;
+      }
+      else {
+        // heroQuoteData.added = CURRENT_VERSION;
+        dataByHero[hero]![fileKey03F] = heroQuoteData;
+      }
     }
 
-    const weightFile = Bun.file(path.join(RAW_DATA_PATH, "extract/NPCVoice", path.dirname(voiceFile), `${fileId}-weight.txt`));
-    if (await weightFile.exists()) {
-      const weightString = decoder.decode(await weightFile.arrayBuffer());
-      heroQuoteData.weight = Number.parseFloat(weightString);
+    for (const voiceFile of heroVoice03FFiles) {
+      await handleHeroVoice03F(voiceFile, "HeroVoice");
+      spinnerProgress.increment();
     }
-
-    dataByHero[hero] ??= {};
-    if (dataByHero[hero]![fileId]) {
-      heroQuoteData.added = dataByHero[hero]![fileId]!.added;
-      dataByHero[hero]![fileId] = heroQuoteData;
+    for (const voiceFile of npcVoice03FFiles) {
+      await handleHeroVoice03F(voiceFile, "NPCVoice");
+      spinnerProgress.increment();
     }
-    else {
-      heroQuoteData.added = CURRENT_VERSION;
-      dataByHero[hero]![fileId] = heroQuoteData;
-    }
-    spinnerProgress.increment();
+    spinnerProgress.succeed();
   }
-  spinnerProgress.succeed();
 
   // MARK: 处理对话列表
-  spinner.start("处理对话列表");
-  const conversationData: Record<string, WikiHeroConversation> = {};
-  const conversationFolders = await glob(convertPathToPattern(path.join(RAW_DATA_PATH, "extract/HeroConvo/*/*.0D0")), {
-    onlyDirectories: true,
-    onlyFiles: false,
-  });
-  const conversationListFile = await Bun.file(path.join(RAW_DATA_PATH, "json/conversations.json")).json();
-  const conversationListFileMap = Object.fromEntries(
-    conversationListFile.map((item: any) => [item.GUID, item]),
-  );
-  for (const conversationFolder of conversationFolders) {
-    const conversationId = path.basename(conversationFolder);
-    const conversationListData = conversationListFileMap[conversationId];
-    if (!conversationListData) {
-      throw new Error(`Conversation not found in list: ${conversationId}`);
-    }
-    const conversation: WikiHeroConversation = {
-      conversationId,
-      weight: conversationListData.Weight as number,
-      quotes: [],
-    };
-    const quoteFiles = await fse.readdir(conversationFolder);
-    const quoteFilesByFileNumber: Record<number, string> = {};
-    for (const quoteFile of quoteFiles) {
-      const match = quoteFile.match(/^(?<fileNumber>\d+)-/);
-      if (!match) {
-        throw new Error(`Invalid quote file format: ${quoteFile}`);
+  {
+    spinner.start("处理对话列表");
+    const conversationFolders = await glob(
+      convertPathToPattern(path.join(OWLIB_EXTRACT_DIR, "HeroConvo/*/*.0D0")),
+      { onlyDirectories: true, onlyFiles: false, expandDirectories: false },
+    );
+    const conversationListFile = await Bun.file(path.join(RAW_DATA_PATH, "json/conversations.json")).json();
+    const conversationListFileMap = Object.fromEntries(
+      conversationListFile.map((item: any) => [item.GUID, item]),
+    );
+    for (const conversationFolder of conversationFolders) {
+      const conversationId = path.basename(conversationFolder);
+      const conversationListData = conversationListFileMap[conversationId];
+      if (!conversationListData) {
+        throw new Error(`Conversation not found in list: ${conversationId}`);
       }
-      const fileNumber = Number(match.groups!.fileNumber!);
-      quoteFilesByFileNumber[fileNumber] = quoteFile;
-    }
 
-    for (let i = 0; i < conversationListData.Voicelines.length; i++) {
-      const quoteFile = quoteFilesByFileNumber[i + 1];
-      const quoteListItem = conversationListData.Voicelines[i]!;
-
-      const conversationQuotes: WikiHeroConversation["quotes"][0] = {
-        voiceLineId: quoteListItem.VoicelineGUID,
-        position: quoteListItem.Position as number,
-      };
-      if (quoteFile) {
-        const match = quoteFile.match(/^(?<fileIndex>\d+)-(?<hero>\S+)-(?<fileId>\w{12}\.0B2)/);
+      const quoteFiles = await glob(
+        ["**/*.ogg"],
+        { cwd: conversationFolder },
+      );
+      for (const quoteFile of quoteFiles) {
+        const match = path.basename(quoteFile)
+          .match(/^(?<fileNumber>\d+)-(?<heroName>\S+?)-(?<fileId>\w{12}\.(?:0B2|03F))/);
         if (!match) {
           throw new Error(`Invalid quote file format: ${quoteFile}`);
         }
-        const heroName = match.groups!.hero!;
-        const fileId = match.groups!.fileId!;
-        conversationQuotes.fileId = fileId;
-        conversationQuotes.hero = heroName;
-        // 在HeroQuote数据中关联对话信息
+        const { fileNumber, heroName, fileId } = match.groups!;
+        if (!fileNumber || !heroName || !fileId) {
+          throw new Error(`Invalid quote file format: ${quoteFile}`);
+        }
+
+        const position = conversationListData.Voicelines[Number(fileNumber) - 1]?.Position;
+        if (!position) {
+          throw new Error(`Voiceline index not found in conversation json: ${fileNumber}`);
+        }
         const heroKey = heroKeyByName[heroName] ?? "npc";
-        const heroQuoteData = dataByHero[heroKey]![fileId];
+        const subtitle = await getConversationVoiceFileSubtitle(conversationFolder, quoteFile);
+        let heroQuoteData = dataByHero[heroKey]?.[fileId];
+        if (!heroQuoteData) {
+          const fileIdMatches = Object.entries(dataByHero[heroKey] ?? {})
+            .filter(([key]) => key.startsWith(fileId) && key.endsWith(subtitle));
+          if (fileIdMatches.length === 1) {
+            heroQuoteData = fileIdMatches[0]![1];
+          }
+          else {
+          // 需要优化筛选
+            throw new Error(`Cannot match fileId ${fileId} in hero ${heroKey}`);
+          }
+        }
         if (heroQuoteData) {
           heroQuoteData.conversations ??= [];
-          heroQuoteData.conversations.push(`${conversationId}#${conversationQuotes.position}`);
+          heroQuoteData.conversations.push(`${conversationId}#${position}`);
           heroQuoteData.conversations.sort();
         }
       }
-      conversation.quotes.push(conversationQuotes);
     }
-    conversationData[conversationId] = conversation;
+    spinner.succeed();
+
+    async function getConversationVoiceFileSubtitle(conversationFolder: string, voiceFile: string) {
+      const subtitleFilePath = path.join(conversationFolder, voiceFile.replace(/\.ogg$/, ".txt"));
+      const subtitleFile = Bun.file(subtitleFilePath);
+      if (await subtitleFile.exists()) {
+        return decoder.decode(await subtitleFile.arrayBuffer());
+      }
+      else {
+        return path.basename(path.dirname(voiceFile));
+      }
+    }
   }
-  spinner.succeed();
 
   // MARK: 输出文件
   spinner.start("输出文件");
@@ -326,22 +380,26 @@ export default async function heroQuoteDataGenerate() {
   for (const [heroKey, heroQuotes] of Object.entries(dataByHero)) {
     const heroQuoteList = Object.values(heroQuotes);
     heroQuoteList.sort((a, b) => {
-      // if (a.skin !== b.skin) {
-      //   if (!a.skin) return -1;
-      //   if (!b.skin) return 1;
-      //   return a.skin.localeCompare(b.skin);
-      // }
-      // if (a.category !== b.category) {
-      //   return a.category.localeCompare(b.category);
-      // }
-      // if (a.criteria !== b.criteria) {
-      //   if (!a.criteria) return -1;
-      //   if (!b.criteria) return 1;
-      //   return a.criteria.localeCompare(b.criteria);
-      // }
-      // if ((a.weight ?? 1) !== (b.weight ?? 1)) {
-      //   return (b.weight ?? 1) - (a.weight ?? 1);
-      // }
+      if (a.fileId_n === b.fileId_n) {
+        if (a.category !== b.category) {
+          const aCategoryOrder = heroQuoteCategoriesOrder[a.category] ?? Number.MAX_SAFE_INTEGER;
+          const bCategoryOrder = heroQuoteCategoriesOrder[b.category] ?? Number.MAX_SAFE_INTEGER;
+          if (aCategoryOrder !== bCategoryOrder) {
+            return aCategoryOrder - bCategoryOrder;
+          }
+          return a.category.localeCompare(b.category);
+        }
+        return a.subtitle.localeCompare(b.subtitle);
+      }
+      if (a.fileId_n < 0 && b.fileId_n < 0) {
+        return b.fileId_n - a.fileId_n;
+      }
+      if (a.fileId_n < 0 && b.fileId_n > 0) {
+        return 1;
+      }
+      if (a.fileId_n > 0 && b.fileId_n < 0) {
+        return -1;
+      }
       return a.fileId_n - b.fileId_n;
     });
     const tabx = Tabx.fromHeaders(tabxHeaders);
@@ -375,20 +433,6 @@ export default async function heroQuoteDataGenerate() {
     `${JSON.stringify(heroQuoteInfo, null, 2)}\n`,
   );
 
-  // const conversationTabx = Tabx.fromHeaders([
-  //   { key: "_dataType", type: "string" },
-  //   { key: "conversationId", type: "string" },
-  //   { key: "weight", type: "number" },
-  //   { key: "quotes", type: "string", isArray: true },
-  // ]);
-  // for (const conversation of Object.values(conversationData)) {
-  //   conversationTabx.addItem(conversation);
-  // }
-  // await Bun.write(
-  //   path.join(OUTPUT_PATH, "conversations.tabx"),
-  //   JSON.stringify(conversationTabx.toJson(), null, 2),
-  // );
-
   spinner.succeed();
 
   logger.success(`已生成 ${Object.values(dataByHero).flatMap(Object.values).flat().length} 条数据`);
@@ -401,6 +445,8 @@ async function readHeroKeyByName() {
     const heroData = await Bun.file(filePath).json() as WikiHero;
     map[heroData.name] = heroData.key;
   }
+  // 适配特殊情况
+  map.Roadhog = "roadhog";
   return map;
 }
 
@@ -497,11 +543,13 @@ function parseCriteriaNode(
   if (currentData.hero === "npc") {
     return { condition: { type: "unknown", raw: criteriaString, negative }, nextLineIndex: lineIndex + 1 };
   }
-  spinnerProgress.fail();
+  // spinnerProgress.fail();
   logger.error("条件解析失败");
   logger.error(`  ${line.trim()}`);
   logger.error(`  ${JSON.stringify(currentData)}`);
-  process.exit(1);
+  // logger.error(`  ${currentFile}`);
+  // process.exit(1);
+  return { condition: { type: "unknown", raw: criteriaString, negative }, nextLineIndex: lineIndex + 1 };
 }
 
 /**
@@ -514,10 +562,13 @@ function parseCriteriaSingleNode(criteriaString: string, negative?: boolean): Qu
     || criteriaString.startsWith("STU_A9B89EC9") // PVE相关
     || criteriaString.startsWith("STU_E6EBD07B") // 类似英雄标签 机械/黑爪
     || criteriaString === "Unknown: STU_B1A2B57D"
+    || criteriaString === "Hero Interaction: Unknown0"
     || criteriaString === "Hero Interaction: Unknown664" // 安娜用
-    || criteriaString === "Hero Interaction: Unknown81B"
-    || criteriaString === "Hero Interaction: UnknownE41"
-    || criteriaString === "Hero Interaction: Unknown1071"
+    || criteriaString === "Hero Interaction: Unknown81B" // 安娜用
+    || criteriaString === "Hero Interaction: UnknownE41" // 骇灾用
+    || criteriaString === "Hero Interaction: Unknown1071" // 金驭用
+    || criteriaString === "Hero Interaction: Unknown11EF" // 斩仇用
+    || criteriaString === "Hero Interaction: Unknown11F0" // 安娜用
   ) {
     return { type: "unknown", raw: criteriaString, negative };
   }

@@ -3,6 +3,7 @@ import path from "node:path";
 export const OWLIB_DIR = path.join(__dirname, "../../output/owlib");
 export const OWLIB_UI_TEXTURE_DIR = path.join(OWLIB_DIR, "dump/UITextureDump");
 export const OWLIB_HERO_LIST = path.join(OWLIB_DIR, "json/heroes.json");
+export const OWLIB_EXTRACT_DIR = path.join(OWLIB_DIR, "extract");
 export const OWLIB_EXTRACT_HERO_ICONS_DIR = path.join(OWLIB_DIR, "extract/HeroIcons");
 
 export const OUTPUT_DIR = path.join(__dirname, "../../output");

@@ -51,7 +51,7 @@
 
 --- @class HeroQuoteData
 ---   @field fileId string
----   @field fileId_n string
+---   @field fileId_n number
 ---   @field hero string
 ---   @field heroName string
 ---   @field subtitle string
