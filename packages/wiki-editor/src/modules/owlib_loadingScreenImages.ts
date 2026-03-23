@@ -1,7 +1,6 @@
 import path from "node:path";
 import fse from "fs-extra";
 import sharp from "sharp";
-import TOML from "smol-toml";
 import z from "zod";
 import imageInfo1920 from "../data/imageInfo-1920.toml";
 import { spinnerProgress } from "../utils/logger";
@@ -76,21 +75,33 @@ export default async function filterImages() {
               return;
             }
             targetFilename = [
+              "加载界面",
+              category === "loadingScreens/stadium" ? "角斗领域" : undefined,
+              "event" in mapInfo ? mapInfo.event : undefined,
               mapInfo.point ? mapInfo.map + mapInfo.point : mapInfo.map,
               mapInfo.timeline,
               mapInfo.variation,
               mapInfo.festival,
-              "event" in mapInfo ? mapInfo.event : undefined,
             ].filter(Boolean).join("_");
             break;
           }
           default:
             targetFilename = `${Number.parseInt(fileId, 16).toString(10).padStart(6, "0")}_${fileId}`;
         }
-        return await fse.copy(filepath, path.join(outputDir, category, `${targetFilename}.png`), {
-          overwrite: false,
-          errorOnExist: true,
-        });
+        const targetFilepath = path.join(outputDir, category, `${targetFilename}.png`);
+        if (fse.statSync(filepath).size > 10 * 1024 * 1024) {
+          const image = sharp(filepath);
+          return await image
+            .png({ compressionLevel: 9 })
+            .resize(2560)
+            .toFile(targetFilepath);
+        }
+        else {
+          return await fse.copy(filepath, targetFilepath, {
+            overwrite: false,
+            errorOnExist: true,
+          });
+        }
       }
     }
     newUncategorized.push(fileId);
