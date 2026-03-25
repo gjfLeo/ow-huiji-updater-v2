@@ -40,7 +40,10 @@ let currentData: WikiHeroQuote = {} as WikiHeroQuote;
 
 export default async function heroQuoteDataGenerate() {
   // MARK: 加载Category数据
-  const heroQuoteCategories = z.record(z.string(), z.record(z.string().regex(/^@[0-9A-F]{4}$/), z.string())).parse(heroQuoteCategoriesToml);
+  const heroQuoteCategories = z.record(
+    z.string(),
+    z.record(z.string().regex(/^@[0-9A-F]{4}$/), z.string()),
+  ).parse(heroQuoteCategoriesToml);
   const heroQuoteCategoriesOrder: Record<string, number> = {};
   {
     let currentOrder = 0;
@@ -54,6 +57,10 @@ export default async function heroQuoteDataGenerate() {
           process.exit(1);
         }
         CategoryNameMap[categoryGuid] = categoryName;
+        if (heroQuoteCategoriesOrder[categoryName]) {
+          logger.error(`同名分类：${categoryName}`);
+          process.exit(1);
+        }
         heroQuoteCategoriesOrder[categoryName] = currentOrder;
       }
     }
