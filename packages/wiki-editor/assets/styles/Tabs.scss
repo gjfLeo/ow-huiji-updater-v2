@@ -28,3 +28,31 @@
     }
   }
 }
+
+.nav-tabs {
+  padding-inline: 1rem !important;
+  --tab-border-color: #808080;
+  border-bottom-color: var(--tab-border-color);
+
+  & > li > a {
+    line-height: 1;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+
+    &:hover {
+      background-color: transparent;
+      border-color: var(--tab-border-color);
+      border-bottom-color: transparent;
+    }
+  }
+  & > li.active > a,
+  & > li.active > a:hover,
+  & > li.active > a:focus {
+    color: var(--brand-default);
+    background-color: transparent;
+    border-color: var(--tab-border-color);
+    border-bottom-color: transparent;
+  }
+}

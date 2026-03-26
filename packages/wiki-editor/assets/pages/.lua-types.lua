@@ -345,6 +345,19 @@ function html:tag(tagName, args) end
 --- @return ScribuntoHtmlBuilder
 function html:addClass(className) end
 
+--- @param name string
+--- @param value string
+--- @return ScribuntoHtmlBuilder
+function html:css(name, value) end
+
+--- @param style table<string, string>
+--- @return ScribuntoHtmlBuilder
+function html:css(style) end
+
+--- @param style string
+--- @return ScribuntoHtmlBuilder
+function html:cssText(style) end
+
 --- @return ScribuntoHtmlBuilder
 function html:done() end
 
