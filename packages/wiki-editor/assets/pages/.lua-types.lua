@@ -49,6 +49,17 @@
 ---   @field ultimateCharge number?
 ---   @field perkIndex string?
 
+--- @class MapData
+---   @field id string
+---   @field id_n number
+---   @field name string
+---   @field name_en string
+---   @field mainGameMode string
+---   @field region string?
+---   @field flagName string?
+---   @field variations string[]?
+---   @field celebrationVariations string[]?
+
 --- @class HeroQuoteData
 ---   @field fileId string
 ---   @field fileId_n number
@@ -300,7 +311,7 @@ function mw.title.new(text, namespace) end
 --- @class ScribuntoTitleObject
 --- @field exists boolean 是否存在
 --- @field namespace number 命名空间ID
-local title = {}
+local scribuntoTitle = {}
 
 mw.html = {}
 
@@ -557,3 +568,42 @@ do
   --- @param header string
   function TextBuilder:addH3(header) end
 end
+
+--- MARK: 站内 InfoboxBuilder
+
+--- @class SiteInfoboxBuilder
+local InfoboxBuilder = {}
+
+--- @param title string
+--- @param titleEn string?
+--- @return string
+function InfoboxBuilder.bilingualTitle(title, titleEn) end
+
+--- @return SiteInfoboxBuilderInstance
+function InfoboxBuilder.new(args) end
+
+--- @class SiteInfoboxBuilderInstance
+local InfoboxBuilderInstance = {}
+
+--- @param key string
+--- @param value any
+--- @return SiteInfoboxBuilderInstance
+function InfoboxBuilderInstance:setArg(key, value) end
+
+--- @param header string
+--- @return SiteInfoboxBuilderInstance
+function InfoboxBuilderInstance:addHeader(header) end
+
+--- @param label string?
+--- @param data string
+--- @param class string?
+--- @return SiteInfoboxBuilderInstance
+function InfoboxBuilderInstance:addData(label, data, class) end
+
+--- @param category string
+--- @param sort string?
+--- @return SiteInfoboxBuilderInstance
+function InfoboxBuilderInstance:addCategory(category, sort) end
+
+--- @return string
+function InfoboxBuilderInstance:render() end

@@ -307,6 +307,11 @@ h4 .mw-headline {
   background-color: rgba(0, 195, 255, 0.5);
 }
 
+.huiji-css-hook .infobox .infobox-title .title-en {
+  font-weight: normal;
+  font-size: 0.75em;
+  margin-top: 0.125rem;
+}
 .huiji-css-hook .infobox .infobox-img {
   font-size: unset;
   font-weight: unset;
