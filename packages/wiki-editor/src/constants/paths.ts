@@ -8,6 +8,7 @@ export const OWLIB_EXTRACT_HERO_ICONS_DIR = path.join(OWLIB_DIR, "extract/HeroIc
 
 export const OUTPUT_DIR = path.join(__dirname, "../../output");
 export const OUTPUT_IMAGE_DIR = path.join(OUTPUT_DIR, "images");
+export const OUTPUT_CATEGORIZED_IMAGE_DIR = path.join(OUTPUT_IMAGE_DIR, "categorized");
 export const OUTPUT_HERO_IMAGE_DIR = path.join(OUTPUT_IMAGE_DIR, "heroes");
 export const OUTPUT_ABILITY_IMAGE_DIR = path.join(OUTPUT_IMAGE_DIR, "abilities");
 export const OUTPUT_IMAGE_BY_SIZE_DIR = path.join(OUTPUT_IMAGE_DIR, "bySize");
