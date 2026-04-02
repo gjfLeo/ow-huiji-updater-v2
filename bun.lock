@@ -1,6 +1,5 @@
 {
   "lockfileVersion": 1,
-  "configVersion": 0,
   "workspaces": {
     "": {
       "name": "ow-huiji-updater-v2",
@@ -67,6 +66,7 @@
         "cheerio": "^1.1.2",
         "chokidar": "^5.0.0",
         "cli-progress": "^3.12.0",
+        "cmd-table": "^1.5.0",
         "dayjs": "^1.11.19",
         "destr": "^2.0.5",
         "file-type": "^21.3.0",
@@ -660,6 +660,8 @@
     "cli-spinners": ["cli-spinners@3.3.0", "", {}, "sha512-/+40ljC3ONVnYIttjMWrlL51nItDAbBrq2upN8BPyvGU/2n5Oxw3tbNwORCaNuNqLJnxGqOfjUuhsv7l5Q4IsQ=="],
 
     "cli-width": ["cli-width@4.1.0", "", {}, "sha512-ouuZd4/dm2Sw5Gmqy6bGyNNNe1qt9RpmxveLSO7KcgsTnU7RXfsw+/bukWGo1abgBiMAic068rclZsO4IWmmxQ=="],
+
+    "cmd-table": ["cmd-table@1.5.0", "", { "bin": { "cmd-table": "dist/cli.js" } }, "sha512-pYfHEz5E+HNaiepN+MyUoDb37WBaZeSuE7+7AkTGz0c7EsFs1TOX5aajpCOg58m3lVEOJFWo9m8g8OEbXAeoRg=="],
 
     "color-convert": ["color-convert@2.0.1", "", { "dependencies": { "color-name": "~1.1.4" } }, "sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ=="],
 

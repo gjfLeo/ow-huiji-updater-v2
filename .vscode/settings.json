@@ -1,26 +1,4 @@
 {
-  "cSpell.words": [
-    "cooldown",
-    "gallerygrid",
-    "hjschema",
-    "huiji",
-    "huijiwiki",
-    "infobox",
-    "knockback",
-    "lootbox",
-    "lootboxes",
-    "navbox",
-    "noinclude",
-    "onlyinclude",
-    "overfast",
-    "overwatch",
-    "owlib",
-    "reflist",
-    "Scribunto",
-    "tabx",
-    "ustring",
-    "wikitable",
-  ],
   "Lua.format.defaultConfig": {
     "quote_style": "double",
     "trailing_table_separator": "smart",
@@ -43,4 +21,6 @@
   "wikiparser.linter.severity": "errors and warnings",
   "wikitext.wikiparser.enable": true,
   "Lua.runtime.version": "Lua 5.1",
+
+  "terminal.integrated.rescaleOverlappingGlyphs": true,
 }

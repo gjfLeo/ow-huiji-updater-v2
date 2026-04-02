@@ -1,0 +1,28 @@
+version: "0.2"
+ignorePaths: []
+dictionaryDefinitions: []
+dictionaries: []
+words:
+  - cooldown
+  - gallerygrid
+  - hjschema
+  - huiji
+  - huijiwiki
+  - infobox
+  - knockback
+  - lootbox
+  - lootboxes
+  - navbox
+  - noinclude
+  - onlyinclude
+  - overfast
+  - overwatch
+  - owlib
+  - reflist
+  - Scribunto
+  - tabx
+  - ustring
+  - wikitable
+
+ignoreWords: []
+import: []

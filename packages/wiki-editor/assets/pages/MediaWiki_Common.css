@@ -113,6 +113,13 @@ code {
   text-shadow: none;
 }
 
+.huiji-css-hook .smw-callout-error {
+  background-color: rgb(242 222 222 / 10%);
+}
+.huiji-css-hook .smw-callout-warning {
+  background-color: rgb(252 248 227 / 10%);
+}
+
 .mw-jsonconfig,
 .mw-json {
   font-size: 12px;

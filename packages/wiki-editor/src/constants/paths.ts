@@ -3,6 +3,8 @@ import path from "node:path";
 export const OWLIB_DIR = path.join(__dirname, "../../output/owlib");
 export const OWLIB_UI_TEXTURE_DIR = path.join(OWLIB_DIR, "dump/UITextureDump");
 export const OWLIB_HERO_LIST = path.join(OWLIB_DIR, "json/heroes.json");
+export const OWLIB_STRINGS_ZH = path.join(OWLIB_DIR, "json/strings_zh.json");
+export const OWLIB_STRINGS_EN = path.join(OWLIB_DIR, "json/strings_en.json");
 export const OWLIB_EXTRACT_DIR = path.join(OWLIB_DIR, "extract");
 export const OWLIB_EXTRACT_HERO_ICONS_DIR = path.join(OWLIB_DIR, "extract/HeroIcons");
 
@@ -15,3 +17,5 @@ export const OUTPUT_IMAGE_BY_SIZE_DIR = path.join(OUTPUT_IMAGE_DIR, "bySize");
 
 export const DATA_PATH = path.join(__dirname, "../../assets/data");
 export const STUB_DATA_PATH = path.join(DATA_PATH, "stubs");
+export const HERO_DATA_PATH = path.join(DATA_PATH, "heroes");
+export const ABILITY_DATA_PATH = path.join(DATA_PATH, "abilities");
