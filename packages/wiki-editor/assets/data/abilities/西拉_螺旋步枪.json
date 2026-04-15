@@ -1,0 +1,38 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "西拉/螺旋步枪",
+  "name": "螺旋步枪",
+  "hero": "西拉",
+  "category": "Weapon",
+  "button": "主要攻击模式",
+  "description": "自动突击武器。螺旋射击弹道，持续开火时射击精度逐渐提高。",
+  "basicStats": {
+    "ammo": 80,
+    "reloadTime": 1.5
+  },
+  "keywords": [
+    {
+      "name": "暴击",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "单发齐射伤害量",
+      "value": "14"
+    },
+    {
+      "name": "单发齐射弹丸数",
+      "value": "2"
+    },
+    {
+      "name": "散布",
+      "value": "3度（最大）<br />0.5度（最小）<br />0.75秒后降至最小"
+    }
+  ]
+}

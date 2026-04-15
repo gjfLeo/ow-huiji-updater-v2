@@ -1,0 +1,41 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "西拉/追踪弹",
+  "name": "追踪弹",
+  "hero": "西拉",
+  "category": "Weapon",
+  "button": "辅助攻击模式",
+  "description": "标记一名敌人。螺旋步枪的子弹会自动追踪被标记敌人。",
+  "basicStats": {
+    "cooldown": 10
+  },
+  "keywords": [
+    {
+      "name": "暴击",
+      "value": ""
+    },
+    {
+      "name": "弱效装填",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    },
+    {
+      "name": "附着",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "35"
+    },
+    {
+      "name": "追踪持续时间",
+      "value": "3秒"
+    }
+  ]
+}

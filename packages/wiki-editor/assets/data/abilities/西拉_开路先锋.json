@@ -1,0 +1,53 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "西拉/开路先锋",
+  "name": "开路先锋",
+  "hero": "西拉",
+  "category": "UltimateAbility",
+  "button": "技能 3",
+  "description": "部署一架无人机，向前飞行并空投炸弹",
+  "basicStats": {
+    "ultimateCharge": 1800
+  },
+  "keywords": [
+    {
+      "name": "固定数值",
+      "value": ""
+    },
+    {
+      "name": "无视屏障",
+      "value": "<mark>此可部署物部署期间</mark>不会与屏障<mark>或英雄</mark>碰撞"
+    },
+    {
+      "name": "可部署",
+      "value": "此可部署物<mark>不会受到伤害</mark>"
+    },
+    {
+      "name": "延时飞行",
+      "value": "<mark>此可部署物</mark>的射弹攻击和治疗具有飞行时间。可被拦截"
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "单颗炸弹伤害量",
+      "value": "180-72（范围伤害）"
+    },
+    {
+      "name": "单颗炸弹最小-最大半径",
+      "value": "1-3米"
+    },
+    {
+      "name": "炸弹总数",
+      "value": "23"
+    },
+    {
+      "name": "爆炸延迟",
+      "value": "1秒"
+    },
+    {
+      "name": "向上击退",
+      "value": "6米/秒"
+    }
+  ]
+}

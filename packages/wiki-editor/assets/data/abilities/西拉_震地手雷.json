@@ -1,0 +1,37 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "西拉/震地手雷",
+  "name": "震地手雷",
+  "hero": "西拉",
+  "category": "Ability",
+  "button": "技能 2",
+  "description": "扔出一枚炸弹，击中地形时生成一道冲击波",
+  "basicStats": {
+    "cooldown": 8.5
+  },
+  "keywords": [
+    {
+      "name": "冲击波",
+      "value": ""
+    },
+    {
+      "name": "延时飞行",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "100（内层冲击波）<br />60（外层冲击波）"
+    },
+    {
+      "name": "冲击波",
+      "value": "15度（内层角度）<br />60度（外层角度）<br />12米（射程）<br />1.75米（高度）<br />30米/秒（速度）<br />1.75/1.75米（升/降）"
+    },
+    {
+      "name": "向上击退",
+      "value": "6米/秒（内层冲击波）<br />3米/秒（外层冲击波）"
+    }
+  ]
+}

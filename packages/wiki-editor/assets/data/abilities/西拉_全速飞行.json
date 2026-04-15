@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "西拉/全速飞行",
+  "name": "全速飞行",
+  "hero": "西拉",
+  "category": "Perk",
+  "button": null,
+  "description": "锚点无人机的飞行和抓钩范围扩大25%",
+  "basicStats": {
+    "perkIndex": "2A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

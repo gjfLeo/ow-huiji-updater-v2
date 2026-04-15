@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "西拉/紧盯不放",
+  "name": "紧盯不放",
+  "hero": "西拉",
+  "category": "Perk",
+  "button": null,
+  "description": "螺旋步枪的子弹散布收紧速度加快100%，放宽速度减慢30%",
+  "basicStats": {
+    "perkIndex": "2B"
+  },
+  "keywords": [],
+  "detailStats": []
+}

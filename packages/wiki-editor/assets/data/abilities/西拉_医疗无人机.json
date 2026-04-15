@@ -1,0 +1,15 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "西拉/医疗无人机",
+  "name": "医疗无人机",
+  "hero": "西拉",
+  "category": "Perk",
+  "button": null,
+  "description": "锚点无人机会搭载一个能治疗西拉的医疗包",
+  "basicStats": {
+    "perkIndex": "3A"
+  },
+  "keywords": [],
+  "detailStats": []
+}

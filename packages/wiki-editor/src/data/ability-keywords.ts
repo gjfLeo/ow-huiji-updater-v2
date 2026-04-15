@@ -233,6 +233,11 @@ export const abilityKeywords: AbilityKeyword[] = [
     ],
   },
   {
+    name: "主动位移",
+    name_en: "active movement",
+    description: "受限制时，此技能的再次激活会被沉默。再次激活为英雄提供强化位移，被挪移、侵入、限制、沉睡和击晕打断时会提前结束",
+  },
+  {
     name: "闪避",
     name_en: "Evasive",
     description: "可穿过敌方英雄且不会阻挡位移",
@@ -387,6 +392,11 @@ export const abilityKeywords: AbilityKeyword[] = [
     name: "装填",
     name_en: "Reloads",
     description: "完全装填英雄的武器",
+  },
+  {
+    name: "弱效装填",
+    name_en: "Lesser Reload",
+    description: "达到条件后可完全装填英雄的武器",
   },
   {
     name: "断锁",

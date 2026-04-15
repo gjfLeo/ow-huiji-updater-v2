@@ -1,0 +1,53 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "西拉/锚点无人机",
+  "name": "锚点无人机",
+  "hero": "西拉",
+  "category": "Ability",
+  "button": "技能 1",
+  "description": "发射一架锚点无人机。再次激活可向其发射抓钩。",
+  "basicStats": {
+    "cooldown": 12
+  },
+  "keywords": [
+    {
+      "name": "主动位移",
+      "value": ""
+    },
+    {
+      "name": "可部署",
+      "value": "一种具有独立生命池的非玩家实体，<mark>由强射弹部署</mark>"
+    },
+    {
+      "name": "无视屏障",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "射程",
+      "value": "14米"
+    },
+    {
+      "name": "持续时间",
+      "value": "10秒"
+    },
+    {
+      "name": "生命值",
+      "value": "30"
+    },
+    {
+      "name": "抓钩充能次数",
+      "value": "2"
+    },
+    {
+      "name": "抓钩射程",
+      "value": "17米"
+    },
+    {
+      "name": "抓钩移动速度",
+      "value": "20米/秒"
+    }
+  ]
+}
