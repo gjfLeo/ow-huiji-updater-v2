@@ -6,7 +6,7 @@
   "hero": "拉玛刹",
   "category": "Ability",
   "button": "技能 2",
-  "description": "发射一枚能量球，在地面上生成一股减速漩涡，处于其中的敌人会受到伤害并被拽向地面",
+  "description": "发射一枚能量球，在地面上爆炸，减速敌人并将其拽向地面。再次激活可提前引爆",
   "basicStats": {
     "cooldown": 11
   },
@@ -30,8 +30,12 @@
   ],
   "detailStats": [
     {
-      "name": "总伤害量",
+      "name": "总持续伤害量",
       "value": "70"
+    },
+    {
+      "name": "爆炸伤害量",
+      "value": "15"
     },
     {
       "name": "敌方移动速度惩罚",

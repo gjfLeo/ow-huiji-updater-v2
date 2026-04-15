@@ -1,12 +1,12 @@
 {
   "_hjschema": "Ability",
   "_dataType": "ability",
-  "key": "狂鼠/地雷回收",
-  "name": "地雷回收",
-  "hero": "狂鼠",
+  "key": "路霸/氢气暴露",
+  "name": "氢气暴露",
+  "hero": "路霸",
   "category": "Perk",
   "button": null,
-  "description": "使用震荡地雷造成消灭会恢复一次充能",
+  "description": "呼吸器还可治疗周围盟友，治疗量为对自身治疗量的50%",
   "basicStats": {
     "perkIndex": "3A"
   },

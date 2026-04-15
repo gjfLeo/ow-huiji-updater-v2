@@ -7,6 +7,7 @@
   "category": "Perk",
   "button": null,
   "description": "呼吸器使“路霸”的移动速度快速提高30%",
+  "removed": true,
   "basicStats": {
     "perkIndex": "3A"
   },

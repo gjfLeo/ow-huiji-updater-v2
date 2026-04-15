@@ -6,7 +6,7 @@
   "hero": "布丽吉塔",
   "category": "Perk",
   "button": null,
-  "description": "对敌人近身攻击使恢复包的冷却时间缩短0.5秒",
+  "description": "对敌人近身攻击使恢复包的冷却时间缩短0.75秒",
   "basicStats": {
     "perkIndex": "2A"
   },

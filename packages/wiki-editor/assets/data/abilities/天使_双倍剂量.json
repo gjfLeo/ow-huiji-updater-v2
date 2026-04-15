@@ -1,12 +1,12 @@
 {
   "_hjschema": "Ability",
   "_dataType": "ability",
-  "key": "安燃/噬心狂炎",
-  "name": "噬心狂炎",
-  "hero": "安燃",
+  "key": "天使/双倍剂量",
+  "name": "双倍剂量",
+  "hero": "天使",
   "category": "Perk",
   "button": null,
-  "description": "熠闪舞后续打击的治疗量提高25点",
+  "description": "快速治疗获得一次额外充能，但基础治疗量降低10点",
   "basicStats": {
     "perkIndex": "3B"
   },

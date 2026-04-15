@@ -23,7 +23,7 @@ export const abilityKeywords: AbilityKeyword[] = [
     name_en: "Travel Time",
     description: "射弹攻击和治疗具有飞行时间。可被拦截",
     variations: [
-      "<mark>此可部署物</mark>的射弹攻击和治疗具有飞行时间。可被拦截",
+      "<mark>此可部署物</mark>的射弹攻击和治疗具有飞行时间，并可被拦截",
     ],
   },
   {
@@ -87,6 +87,11 @@ export const abilityKeywords: AbilityKeyword[] = [
     name: "泡泡盾",
     name_en: "Bubble",
     description: "一种在破裂前能吸收所有伤害并阻挡大部分控制效果的屏障",
+  },
+  {
+    name: "附加",
+    name_en: "Attached",
+    description: "此泡泡盾或屏障无法施加给具有另一个已激活附加技能的英雄",
   },
 
   // MARK: 攻击属性
@@ -185,6 +190,11 @@ export const abilityKeywords: AbilityKeyword[] = [
     name_en: "Burning",
     description: "施加一种可净化的负面状态效果，无视护甲并造成持续伤害",
   },
+  {
+    name: "创伤",
+    name_en: "Wound",
+    description: "一种可净化的负面状态效果，无视护甲并造成持续伤害，根据造成的伤害提供持续治疗。带有此效果的英雄被消灭时立即提供所有剩余治疗量",
+  },
 
   // MARK: 消耗
   {
@@ -252,9 +262,19 @@ export const abilityKeywords: AbilityKeyword[] = [
     description: "获得自由移动能力，被挪移、侵入、限制、沉睡和击晕时会临时禁用自由移动",
   },
   {
+    name: "强飞行",
+    name_en: "Strong Flight",
+    description: "获得自由移动能力，被挪移、限制、沉睡和击晕时会临时禁用自由移动。无视侵入",
+  },
+  {
     name: "速度上限",
     name_en: "Speed Cap",
     description: "此技能提供的移动速度加成在与其他速度上限技能叠加时，无法超过+75%",
+  },
+  {
+    name: "部分速度上限",
+    name_en: "Partial Speed Cap",
+    description: "此技能提供的部分移动速度加成在与其他速度上限技能叠加时，无法超过+75%",
   },
 
   // MARK: 防御效果
@@ -297,6 +317,11 @@ export const abilityKeywords: AbilityKeyword[] = [
     variations: [
       "无视近身攻击<mark>但无法无视</mark>广义近身攻击",
     ],
+  },
+  {
+    name: "招架近身攻击",
+    name_en: "Deflect Melee",
+    description: "无视近身攻击<mark>但无法无视</mark>广义近身攻击",
   },
   {
     name: "护甲",
@@ -370,6 +395,11 @@ export const abilityKeywords: AbilityKeyword[] = [
       "具有此属性的两个技能撞在一起时，英雄<mark>和可部署物</mark>均被击倒",
     ],
   },
+  {
+    name: "可侵入技能",
+    name_en: "Hackable Ability",
+    description: "被侵入效果打断时会提前结束的技能。无视其他控制",
+  },
 
   // MARK: 特殊效果
   {
@@ -384,9 +414,11 @@ export const abilityKeywords: AbilityKeyword[] = [
     name: "强效净化",
     name_en: "Greater Cleanse",
     description: "移除可净化的状态效果和击晕。对击倒和挪移无效",
-    variations: [
-      "移除可净化的状态效果<mark>以及击晕、击倒、挪移</mark>",
-    ],
+  },
+  {
+    name: "完美净化",
+    name_en: "Perfect Cleanse",
+    description: "移除可净化的状态效果<mark>以及击晕、击倒、挪移</mark>",
   },
   {
     name: "装填",

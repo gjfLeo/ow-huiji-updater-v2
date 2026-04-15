@@ -8,7 +8,7 @@
   "button": "技能 1",
   "description": "将一个目标拉向身边",
   "basicStats": {
-    "cooldown": 6
+    "cooldown": 8
   },
   "keywords": [
     {

@@ -8,7 +8,7 @@
   "button": "技能 2",
   "description": "扔出一枚手雷，治疗盟友并提高其受到的治疗量，同时还可以对敌人造成伤害并使其无法受到治疗",
   "basicStats": {
-    "cooldown": 14
+    "cooldown": 12
   },
   "keywords": [
     {

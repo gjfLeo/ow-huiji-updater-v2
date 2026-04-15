@@ -1,12 +1,12 @@
 {
   "_hjschema": "Ability",
   "_dataType": "ability",
-  "key": "狂鼠/地雷回收",
-  "name": "地雷回收",
-  "hero": "狂鼠",
+  "key": "士兵：76/敏捷训练",
+  "name": "敏捷训练",
+  "hero": "士兵：76",
   "category": "Perk",
   "button": null,
-  "description": "使用震荡地雷造成消灭会恢复一次充能",
+  "description": "疾跑的移动速度加成在2秒内逐渐额外提高25%",
   "basicStats": {
     "perkIndex": "3A"
   },

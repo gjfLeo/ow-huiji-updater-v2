@@ -1,14 +1,14 @@
 {
   "_hjschema": "Ability",
   "_dataType": "ability",
-  "key": "拉玛刹/铁血形态",
-  "name": "铁血形态",
+  "key": "拉玛刹/持久屏障",
+  "name": "持久屏障",
   "hero": "拉玛刹",
   "category": "Perk",
   "button": null,
-  "description": "天罚形态激活时，造成消灭会使其持续时间延长1秒",
+  "description": "虚空屏障的持续时间延长25%，尺寸增大25%",
   "basicStats": {
-    "perkIndex": "2A"
+    "perkIndex": "2B"
   },
   "keywords": [],
   "detailStats": []

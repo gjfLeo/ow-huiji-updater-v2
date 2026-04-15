@@ -4,12 +4,42 @@
   "key": "死神/恐怖扳机",
   "name": "恐怖扳机",
   "hero": "死神",
-  "category": "Perk",
+  "category": "Ability",
   "button": "辅助攻击模式",
-  "description": "使用 <kbd>鼠标右键</kbd> 让两把地狱火霰弹枪打出具有远距离精准度的齐射",
+  "description": "用两把地狱火霰弹枪打出具有远距离精准度的齐射",
   "basicStats": {
-    "perkIndex": "3B"
+    "cooldown": 6
   },
-  "keywords": [],
-  "detailStats": []
+  "keywords": [
+    {
+      "name": "暴击",
+      "value": ""
+    },
+    {
+      "name": "即时命中",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "单发齐射伤害量",
+      "value": "69（基础）<br />20.7（最大衰减）"
+    },
+    {
+      "name": "散布",
+      "value": "3度"
+    },
+    {
+      "name": "最小-最大衰减射程",
+      "value": "25-35米"
+    },
+    {
+      "name": "单发齐射弹丸数",
+      "value": "2"
+    },
+    {
+      "name": "弹药消耗量",
+      "value": "2"
+    }
+  ]
 }

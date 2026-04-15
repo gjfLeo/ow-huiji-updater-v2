@@ -1,12 +1,13 @@
 {
   "_hjschema": "Ability",
   "_dataType": "ability",
-  "key": "安燃/噬心狂炎",
-  "name": "噬心狂炎",
-  "hero": "安燃",
+  "key": "死神/开火冲动",
+  "name": "开火冲动",
+  "hero": "死神",
   "category": "Perk",
   "button": null,
-  "description": "熠闪舞后续打击的治疗量提高25点",
+  "description": "使用技能或装填会刷新恐怖扳机的冷却时间",
+  "removed": true,
   "basicStats": {
     "perkIndex": "3B"
   },

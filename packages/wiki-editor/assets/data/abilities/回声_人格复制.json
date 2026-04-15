@@ -6,7 +6,7 @@
   "hero": "回声",
   "category": "UltimateAbility",
   "button": "技能 3",
-  "description": "选择一个敌方英雄，成为其复制。技能持续期间该目标无法更换英雄",
+  "description": "选择一个英雄，成为其复制。技能持续期间该目标无法更换英雄",
   "basicStats": {
     "ultimateCharge": 1850
   },
