@@ -9,6 +9,10 @@ export const overfastApi = ofetch.create({
 const zOverfastHero = z.object({
   name: z.string(),
   description: z.string(),
+  backgrounds: z.array(z.object({
+    url: z.url(),
+    sizes: z.string().array(),
+  })),
   portrait: z.url(),
   role: zRoleKey,
   location: z.string(),
@@ -54,7 +58,7 @@ const zOverfastHero = z.object({
       description: z.string(),
       icon: z.url(),
     }),
-  ).optional(),
+  ).nullish(),
 }).strict();
 export type OverfastHero = z.infer<typeof zOverfastHero>;
 

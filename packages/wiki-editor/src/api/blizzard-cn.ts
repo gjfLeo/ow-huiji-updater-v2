@@ -58,7 +58,9 @@ const zHeroConfigData = z
             videoPoster: z.string(),
             name: z.string(),
             desc: z.string(),
-            icon: z.string(),
+            icon: z.string().optional(),
+            icon1: z.string().optional(),
+            icon2: z.string().optional(),
           }),
         ),
         storyIntro: z.string(),
@@ -107,7 +109,9 @@ export async function fetchBlizzardHeroData() {
     );
     const indexData = zIndex.parse(response);
 
-    const heroConfigResponse = await ofetch(indexData.hero_configs);
+    const heroConfigResponse = await ofetch(indexData.hero_configs, {
+      query: { t: Date.now() },
+    });
     await Bun.write(
       path.resolve(__dirname, "../../output/temp/blizzardCnArmoryApiHeroConfig.json"),
       JSON.stringify(heroConfigResponse, null, 2),
