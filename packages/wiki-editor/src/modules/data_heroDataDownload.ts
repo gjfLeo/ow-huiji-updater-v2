@@ -1,30 +1,11 @@
-import path from "node:path";
-import destr from "destr";
-import fse from "fs-extra";
+import { HERO_DATA_PATH } from "../constants/paths";
 import { zWikiHero } from "../models/hero";
-import { spinnerProgress } from "../utils/logger";
-import { wikiBatchGet } from "../wiki/batch";
+import { wikiDownloadData } from "../utils/data";
 
 export default async function heroDataDownload() {
-  const heroDataPages = await wikiBatchGet({
-    namespace: 3500,
+  return wikiDownloadData({
     prefix: "Hero/",
+    outputDir: HERO_DATA_PATH,
+    schema: zWikiHero,
   });
-
-  const heroCount = Object.values(heroDataPages).length;
-
-  const outputDir = path.resolve(__dirname, "../../assets/data/heroes");
-  await fse.emptyDir(outputDir);
-  spinnerProgress.start("保存文件", heroCount);
-  for (const content of Object.values(heroDataPages)) {
-    const heroData = zWikiHero.parse(destr(content));
-    const file = Bun.file(path.join(outputDir, `${heroData.key}.json`));
-    await file.write(JSON.stringify(heroData, null, 2));
-    await Bun.write(
-      path.join(outputDir, `${heroData.key}.json`),
-      JSON.stringify(heroData, null, 2),
-    );
-    spinnerProgress.increment();
-  }
-  spinnerProgress.succeed();
 }

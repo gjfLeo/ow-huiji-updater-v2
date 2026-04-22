@@ -59,7 +59,7 @@ export async function wikiUploadRemoteImage(
   const { upload, error } = await wiki.apiUpload(fileBuffer, filename, { text });
   if (error) {
     spinner.fail();
-    console.error();
+    console.error(error);
     process.exit(1);
   }
   spinner.succeed();

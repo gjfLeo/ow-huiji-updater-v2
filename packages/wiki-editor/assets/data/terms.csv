@@ -1,0 +1,696 @@
+source,target,desc
+Overwatch,守望先锋,游戏名称
+Hero,英雄,游戏中的英雄（可选角色）
+Map,地图,游戏中的地图
+# 组织
+Overwatch,守望先锋,组织
+Talon,黑爪,组织
+Blackwatch,暗影守望,守望先锋下属组织
+Null Sector,归零者,组织
+Omnic,智械,种族
+God Program,神明计划,一系列人工智能程序
+Crusader,十字军,德国组织
+Soldier Enhancement Program,士兵强化计划,美国项目
+Project Naughton,诺顿计划,士兵强化计划的曾用代号
+# 角色（英雄）
+Ana,安娜,支援英雄
+Anran,安燃,输出英雄
+Ashe,艾什,输出英雄
+Baptiste,巴蒂斯特,支援英雄
+Bastion,堡垒,输出英雄
+Brigitte,布丽吉塔,支援英雄
+Cassidy,卡西迪,输出英雄
+D.Va,D.Va,重装英雄
+Domina,金驭,重装英雄
+Doomfist,末日铁拳,重装英雄
+Echo,回声,输出英雄
+Emre,埃姆雷,输出英雄
+Freja,弗蕾娅,输出英雄
+Genji,源氏,输出英雄
+Hanzo,半藏,输出英雄
+Hazard,骇灾,重装英雄
+Illari,伊拉锐,支援英雄
+Jetpack Cat,飞天猫,支援英雄
+Junker Queen,渣客女王,重装英雄
+Junkrat,狂鼠,输出英雄
+Juno,朱诺,支援英雄
+Kiriko,雾子,支援英雄
+Lifeweaver,生命之梭,支援英雄
+Lúcio,卢西奥,支援英雄
+Mauga,毛加,重装英雄
+Mei,美,输出英雄
+Mercy,天使,支援英雄
+Mizuki,瑞稀,支援英雄
+Moira,莫伊拉,支援英雄
+Orisa,奥丽莎,重装英雄
+Pharah,法老之鹰,输出英雄
+Ramattra,拉玛刹,重装英雄
+Reaper,死神,输出英雄
+Reinhardt,莱因哈特,重装英雄
+Roadhog,路霸,重装英雄
+Sierra,西拉,输出英雄
+Sigma,西格玛,重装英雄
+Sojourn,索杰恩,输出英雄
+Soldier: 76,士兵：76,输出英雄
+Sombra,黑影,输出英雄
+Symmetra,秩序之光,输出英雄
+Torbjörn,托比昂,输出英雄
+Tracer,猎空,输出英雄
+Vendetta,斩仇,输出英雄
+Venture,探奇,输出英雄
+Widowmaker,黑百合,输出英雄
+Winston,温斯顿,重装英雄
+Wrecking Ball,破坏球,重装英雄
+Wuyang,无漾,支援英雄
+Zarya,查莉娅,重装英雄
+Zenyatta,禅雅塔,支援英雄
+# 角色（英雄） END
+# 角色（其他）
+Ana Amari,安娜·艾玛莉,安娜的全名
+Anran Ye,叶安燃,安燃的全名
+Elizabeth Ashe,伊丽莎白·艾什,艾什的全名
+Jean-Baptiste Augustin,让-巴蒂斯特·奥古斯汀,巴蒂斯特的全名
+Siege Automaton E54,攻城机兵E54型,堡垒的机械型号
+Brigitte Lindholm,布丽吉塔·林德霍姆,布丽吉塔的全名
+Cole Cassidy,科尔·卡西迪,卡西迪的全名
+Jesse McCree,杰西·麦克雷,卡西迪的曾用名
+Hana Song,宋哈娜,D.Va的本名
+Vaira Singhania,瓦伊拉·辛加尼亚,金驭的本名
+Akande Ogundimu,阿坎·奥古迪姆,末日铁拳的本名
+Emre Sarioglu,埃姆雷·萨里奥卢,埃姆雷的全名
+Freja Skov,弗蕾娅·斯科乌,弗蕾娅的全名
+Genji Shimada,岛田源氏,源氏的全名
+Hanzo Shimada,岛田半藏,半藏的全名
+Findlay Docherty,芬德利·多彻蒂,骇灾的本名
+Illari Quispe Ruiz,伊拉锐·基斯佩·鲁伊斯,伊拉锐的全名
+Fika,啡咔,飞天猫的名字
+Mei-Ling Zhou,周美灵,美的全名
+Angela Ziegler,安吉拉·齐格勒,天使的本名
+Mizuki Kawano,河野瑞稀,瑞稀的全名
+Moira O'Deorain,莫伊拉·奥德莱恩,莫伊拉的全名
+Fareeha Amari,法芮尔·艾玛莉,法老之鹰的本名
+R-7000 Ravager,R-7000毁灭者,拉玛刹的机械型号
+Gabriel Reyes,加布里尔·莱耶斯,死神的本名
+Soldier: 24,士兵：24,死神的曾用代号
+Reinhardt Willhelm,莱因哈特·威尔海姆,莱因哈特的全名
+Mako Rutledge,马可·拉特莱奇,路霸的本名
+Sierra Turner Woods,西拉·特纳·伍兹,西拉的全名
+Kendra Woods,肯德拉·伍兹,西拉的母亲
+Kendra Banks,肯德拉·班克斯,肯德拉·伍兹的本名
+James Turner,詹姆斯·特纳,西拉的父亲
+Siebren de Kuiper,希尔伯伦·德·柯伊伯,西格玛的本名
+Vivian Chase,维维安·蔡斯,索杰恩的本名
+Jack Morrison,杰克·莫里森,士兵：76的名字
+Olivia Colomar,奥利维娅·科罗玛,黑影的本名
+Satya Vaswani,塞特娅·法斯瓦尼,秩序之光的本名
+Torbjörn Lindholm,托比昂·林德霍姆,托比昂的全名
+Lena Oxton,莉娜·奥克斯顿,猎空的本名
+Marzia Bartalotti,马尔齐亚·巴塔罗蒂,斩仇的本名
+Antonio Bartalotti,安东尼奥·巴塔罗蒂,斩仇的父亲
+Sloan Cameron,斯隆·卡梅隆,探奇的本名
+Amélie Lacroix,艾米丽·拉克瓦,黑百合的本名
+Gérard Lacroix,杰哈·拉克瓦,黑百合的丈夫
+Amélie Guillard,艾米丽·吉拉德,黑百合的婚前名
+Hammond,哈蒙德,破坏球的名字
+Wuyang Ye,叶无漾,无漾的全名
+Aleksandra Zaryanova,亚历山德拉·查莉娅诺娃,查莉娅的全名
+Tekhartha Zenyatta,泰哈撒禅雅塔,禅雅塔的全名
+Tekhartha Mondatta,泰哈撒孟达塔,禅雅塔的同门，香巴里寺院的智械领袖
+Anubis,阿努比斯,神明计划之一
+Victoria Naughton,维多利亚·诺顿,士兵强化计划的负责人
+# 地图/地点
+King's Row,国王大道,位于英国伦敦
+# 事件
+The Omnic Crisis,智械危机,事件
+# 游戏术语
+Role,职责,即英雄的分类
+Subrole,副职责,职责下的细分分类
+Tank,重装,职责
+Damage,输出,职责
+Support,支援,职责
+Stalwart,铁壁,重装副职责
+Initiator,先锋,重装副职责
+Bruiser,斗士,重装副职责
+Flanker,奇袭,输出副职责
+Recon,侦察,输出副职责
+Sharpshooter,神准,输出副职责
+Specialist,专业,输出副职责
+Medic,医疗,支援副职责
+Survivor,生存,支援副职责
+Tactician,战术,支援副职责
+Weapon,武器,英雄能力
+Ability,技能,英雄能力
+Ultimate Ability,终极技能,英雄能力
+Ultimate Charge,终极技能充能,终极技能的充能进度
+Ultimate Cost,终极技能消耗,终极技能的所需充能消耗
+Passive Ability,被动技能,英雄能力
+Perk,威能,英雄能力
+Minor Perk,次级威能,英雄能力
+Major Perk,主要威能,英雄能力
+Quick Melee,快速近身攻击,英雄能力
+Flag,旗帜,夺旗模式中的目标
+Payload,运载目标,护送模式中的目标
+Objective,目标点,占点模式中的目标
+Control,占领要点,游戏模式（占点）
+Assault,攻防作战,游戏模式（占点）
+Clash,攻防阵线,游戏模式（占点）
+Flashpoint,闪点作战,游戏模式（占点）
+Flashpoint,闪点,闪点作战模式中的目标点
+Hybrid,攻击/护送,游戏模式（占点+护送）
+Payload,运载目标,游戏模式（护送）
+Escort the Payload,护送运载目标,术语
+Stop the Payload,阻止运载目标,术语
+Move the Payload,转移运载目标,术语
+Defend the Payload,保护运载目标,术语
+# 游戏术语（技能机制）
+Life,总生命值,英雄的生命值，由多种类型的生命值组成
+Health,生命值,一种生命值
+Shield,护盾,一种生命值
+Armor,护甲,一种生命值
+Overhealth,过量生命值,一种生命值
+Move Speed,移动速度,英雄属性
+Ammo,弹药,英雄属性，武器需要消耗弹药
+Heal,治疗,动词
+Damage Reduction,受伤减免,伤害调整效果
+Unstoppable,不可阻挡,状态效果
+# 游戏术语（英雄技能）
+Biotic Rifle,生物步枪,安娜的武器
+Zoom,开镜,安娜的武器（生物步枪的辅助攻击模式）
+Biotic Grenade,生物手雷,安娜的技能
+Wrist Launcher,麻醉镖,安娜的技能
+Nano Boost,纳米激素,安娜的终极技能
+Biotic Bounce,弹跳手雷,安娜的威能
+Groggy,头晕目眩,安娜的威能
+Headhunter,猎头精英,安娜的威能
+Speed Serum,加速血清,安娜的威能
+Ignition,焚身焰,安燃的被动技能
+Zhuque Fan,朱雀扇,安燃的武器
+Fan the Flames,煽火风,安燃的武器
+Inferno Rush,怒炎冲,安燃的技能
+Dancing Blaze,熠闪舞,安燃的技能
+Vermillion Ascent,朱羽焚,安燃的终极技能
+Vermillion Revival,朱魂返,安燃的终极技能
+Heat Shield,烈火护体,安燃的威能
+Hungering Blaze,噬心狂炎,安燃的威能
+Short Fuse,易燃易爆,安燃的威能
+Smoulder,长燃之焰,安燃的威能
+The Viper,毒蛇,艾什的武器
+Take Aim,瞄准射击,艾什的武器（毒蛇的辅助攻击模式）
+Dynamite,延时雷管,艾什的技能
+Coach Gun,短筒猎枪,艾什的技能
+B.O.B.,召唤鲍勃,艾什的终极技能
+Double-Barreled,双筒猎枪,艾什的威能
+Sidewinder,响尾蛇行,艾什的威能
+Viper's Sting,毒蛇之刺,艾什的威能
+Airburst,空爆雷管,艾什的威能
+Remote Detonator,远程引爆器,艾什的威能
+Exo Boots,动力战靴,巴蒂斯特的被动技能
+Biotic Launcher,生化榴弹枪,巴蒂斯特的武器
+Regenerative Burst,愈合冲击,巴蒂斯特的技能
+Immortality Field,维生力场,巴蒂斯特的技能
+Amplification Matrix,增幅矩阵,巴蒂斯特的终极技能
+Expanded Field,广域力场,巴蒂斯特的威能
+Assault Burst,强攻冲击,巴蒂斯特的威能
+Rocket Boots,火箭战靴,巴蒂斯特的威能
+Biotic Reloader,生化装填器,巴蒂斯特的威能
+Automated Healing,自动治疗,巴蒂斯特的威能
+Ironclad,抗击装甲,堡垒的被动技能
+Configuration: Recon,侦察模式,堡垒的武器
+Configuration: Assault,强攻模式,堡垒的武器
+A-36 Tactical Grenade,A-36战术榴弹,堡垒的技能
+Reconfigure,切换模式,堡垒的技能
+Configuration: Artillery,火炮模式,堡垒的终极技能
+Lindholm Explosives,林德霍姆炸药,堡垒的威能
+Self-Repair,自我修复,堡垒的威能
+Configuration Reload,装弹模式,堡垒的威能
+Armored Artillery,重甲火炮,堡垒的威能
+Inspire,鼓舞士气,布丽吉塔的被动技能
+Rocket Flail,火箭连枷,布丽吉塔的武器
+Barrier Shield,屏障护盾,布丽吉塔的技能
+Repair Pack,恢复包,布丽吉塔的技能
+Whip Shot,流星飞锤,布丽吉塔的技能
+Shield Bash,能量盾击,布丽吉塔的技能
+Rally,集结号令,布丽吉塔的终极技能
+Morale Boost,士气高昂,布丽吉塔的威能
+Combat Medic,战地医疗兵,布丽吉塔的威能
+Whiplash,流星重鞭,布丽吉塔的威能
+Inspiring Strike,鼓舞盾击,布丽吉塔的威能
+Peacekeeper,维和者,卡西迪的武器
+Fan the Hammer,连射,卡西迪的武器（维和者的辅助攻击模式）
+Combat Roll,战术翻滚,卡西迪的技能
+Flashbang,闪光弹,卡西迪的技能
+Deadeye,神射手,卡西迪的终极技能
+Bang Bang,双发连闪,卡西迪的威能
+Gun Slingin',灵动神枪,卡西迪的威能
+Even The Odds,绝处逢生,卡西迪的威能
+Rollin' Round-Up,翻身愈合,卡西迪的威能
+Silver Bullet,银质子弹,卡西迪的威能
+Eject!,弹射！,D.Va的被动技能
+Light Gun,光枪,D.Va的武器
+Fusion Cannons,聚变机炮,D.Va的武器
+Micro Missiles,微型飞弹,D.Va的技能
+Boosters,推进器,D.Va的技能
+Defense Matrix,防御矩阵,D.Va的技能
+Call Mech,呼叫机甲,D.Va的终极技能
+Self-Destruct,自毁,D.Va的终极技能
+Bunny Power,小兔之力,D.Va的威能
+Extended Boosters,延时推进器,D.Va的威能
+Shield System,护盾系统,D.Va的威能
+Precision Fusion,精准聚变,D.Va的威能
+Reconstruction,护盾重构,金驭的被动技能
+Photon Magnum,光子马格南,金驭的武器
+Barrier Array,屏障阵列,金驭的技能
+Crystal Charge,爆能水晶,金驭的技能
+Sonic Repulsors,音速斥力场,金驭的技能
+Panopticon,全景牢笼,金驭的终极技能
+Power Move,强权压制,金驭的威能
+Disruptive Detonation,扰动爆破,金驭的威能
+Extended Power,权力扩张,金驭的威能
+Efficient Design,高效设计,金驭的威能
+The Best Defense...,最佳防守……,末日铁拳的被动技能
+Hand Cannon,手炮,末日铁拳的武器
+Power Block,悍猛格挡,末日铁拳的技能
+Rocket Punch,火箭重拳,末日铁拳的技能
+Seismic Slam,裂地重拳,末日铁拳的技能
+Meteor Strike,毁天灭地,末日铁拳的终极技能
+Survival of the Fittest,优胜劣汰,末日铁拳的威能
+Aftershock,地震余波,末日铁拳的威能
+One-Two,左右开攻,末日铁拳的威能
+Power Matrix,悍猛矩阵,末日铁拳的威能
+Glide,滑翔,回声的被动技能
+Tri-Shot,三角射击,回声的武器
+Focusing Beam,聚焦光线,回声的技能
+Flight,飞行,回声的技能
+Sticky Bombs,黏性炸弹,回声的技能
+DUPLICATE,人格复制,回声的终极技能
+Partial Scan,局部扫描,回声的威能
+High Beams,机动远光,回声的威能
+Full Salvo,炸弹齐射,回声的威能
+Focused Rush,聚焦机动,回声的威能
+Altered Vitals,机变体征,埃姆雷的被动技能
+Synthetic Burst Rifle,合成连发步枪,埃姆雷的武器
+Siphon Blaster,虹吸冲击枪,埃姆雷的技能
+Cyber Frag,赛博手雷,埃姆雷的技能
+Override Protocol,覆盖协议,埃姆雷的终极技能
+Suppressive Security,压制安防,埃姆雷的威能
+Enhanced Agility,敏捷强化,埃姆雷的威能
+Heat Sink,散热装置,埃姆雷的威能
+Cyber Adhesion,赛博黏附,埃姆雷的威能
+Bounty Hunting,赏金狩猎,弗蕾娅的被动技能
+Revdraw Crossbow,速射弩,弗蕾娅的武器
+Take Aim,瞄准射击,弗蕾娅的武器（速射弩的辅助攻击模式）
+Updraft,上升气流,弗蕾娅的技能
+Quick Dash,疾冲,弗蕾娅的技能
+Bola Shot,流星索,弗蕾娅的终极技能
+Rising Winds,劲风再起,弗蕾娅的威能
+Relentless Barrage,无情弹幕,弗蕾娅的威能
+Hunters Instinct,猎手直觉,弗蕾娅的威能
+Momentum Boost,疾奔之势,弗蕾娅的威能
+Aerial Recovery,飞空愈疗,弗蕾娅的威能
+Cyber-Agility,灵,源氏的被动技能
+Shuriken,镖,源氏的武器
+Fan of Blades,霰,源氏的武器
+Sigil,影,源氏的技能
+Deflect,闪,源氏的技能
+Ryugekiken,斩,源氏的终极技能
+Meditation,冥思一闪,源氏的威能
+Swift Cuts,刃至影随,源氏的威能
+Blade Twisting,扭转刃影,源氏的威能
+Dragon's Thirst,神竜之渴,源氏的威能
+Wall Climb,攀,半藏的被动技能
+Storm,风,半藏的武器
+Storm Arrows,岚,半藏的技能
+Lunge,跃,半藏的技能
+Sonic Arrow,音,半藏的技能
+Dragon,竜,半藏的终极技能
+Sonic Disruption,干扰之音,半藏的威能
+Scatter Arrows,狂岚尽散,半藏的威能
+Dragon Fury,神竜之怒,半藏的威能
+Swift Lunge,迅捷之跃,半藏的威能
+Frost Arrow,霜冻之箭,半藏的威能
+Vault,翻越,骇灾的被动技能
+Bonespur,骨刺,骇灾的武器
+Jagged Wall,尖刺墙,骇灾的技能
+Spike Guard,尖刺护体,骇灾的技能
+Violent Leap,狂跃,骇灾的技能
+Downpour,千针雨,骇灾的终极技能
+Reconstitution,尖刺重构,骇灾的威能
+Deep Leap,强劲狂跃,骇灾的威能
+Anarchic Zeal,激进狂热,骇灾的威能
+Explosive Impalements,爆炸穿刺,骇灾的威能
+Secondary Fire,辅助攻击模式,伊拉锐的武器
+Solar Rifle,阳焰步枪,伊拉锐的武器
+Healing Pylon,治疗光塔,伊拉锐的技能
+Outburst,烈日冲击,伊拉锐的技能
+Captive Sun,桎梏灼日,伊拉锐的终极技能
+Summer Solstice,夏至骄阳,伊拉锐的威能
+Solar Flare,太阳耀斑,伊拉锐的威能
+Rapid Construction,快速建造,伊拉锐的威能
+Sunburn,烈日燎灼,伊拉锐的威能
+Jetpack,喷气背包,飞天猫的被动技能
+Biotic Pawjectiles,生物猫爪弹,飞天猫的武器
+Purr,呼噜噜,飞天猫的技能
+Frenetic Flight,咻咻飞,飞天猫的技能
+Lifeline,救生索,飞天猫的技能
+Catnapper,猫猫劫,飞天猫的终极技能
+Ulterior Motive,别有用心,飞天猫的威能
+Claws Out,嗷呜一爪,飞天猫的威能
+Transport Shielding,带盾运输,飞天猫的威能
+Headbutt,火箭头槌,飞天猫的威能
+Territorial,领地意识,飞天猫的威能
+Adrenaline Rush,狂血奔涌,渣客女王的被动技能
+Scattergun,散弹枪,渣客女王的武器
+Commanding Shout,命令怒吼,渣客女王的技能
+Carnage,血斩,渣客女王的技能
+Jagged Blade,锯齿利刃,渣客女王的技能
+Rampage,轰翻天,渣客女王的终极技能
+Savage Satiation,凶残狂噬,渣客女王的威能
+Battle Shout,战斗怒吼,渣客女王的威能
+Rampant Charge,轰翻爆冲,渣客女王的威能
+Willy-Willy,飞沙利刃,渣客女王的威能
+Total Mayhem,临别礼物,狂鼠的被动技能
+Frag,榴弹发射器,狂鼠的武器
+Steel Trap,捕兽夹,狂鼠的技能
+Concussion Mine,震荡地雷,狂鼠的技能
+RIP-Tire,炸弹轮胎,狂鼠的终极技能
+Bomb Voyage,一炸冲天,狂鼠的威能
+Mine Recycling,地雷回收,狂鼠的威能
+Frag Cannon,榴弹火炮,狂鼠的威能
+Nitro Boost,氮气推进,狂鼠的威能
+Martian Overboots,火星套靴,朱诺的被动技能
+Mediblaster,医疗冲击枪,朱诺的武器
+Glide Boost,滑翔推进,朱诺的技能
+Pulsar Torpedo,脉冲星飞雷,朱诺的技能
+Hyper Ring,超能环域,朱诺的技能
+Orbital Ray,轨道射线,朱诺的终极技能
+Familiar Vitals,急救优先,朱诺的威能
+Locked On,锁定打击,朱诺的威能
+Lift Off,飞上新高,朱诺的威能
+Faster Blaster,高速冲击枪,朱诺的威能
+Wall Climb,攀,雾子的被动技能
+Healing Ofuda,符,雾子的武器
+Kunai,锥,雾子的武器
+Swift Step,瞬,雾子的技能
+Protection Suzu,铃,雾子的技能
+Kitsune Rush,狐,雾子的终极技能
+Ready Step,备战瞬步,雾子的威能
+Urgent Care,救死急符,雾子的威能
+Fortune Teller,灵利卜师,雾子的威能
+Foxtrot,狐步漫舞,雾子的威能
+Healing Blossom,愈疗灵花,生命之梭的武器
+Thorn Volley,棘刺箭雨,生命之梭的武器
+Rejuvenating Dash,回春疾行,生命之梭的技能
+Life Grip,生命之握,生命之梭的技能
+Petal Platform,花瓣平台,生命之梭的技能
+Tree of Life,生命之树,生命之梭的终极技能
+Cleansing Grasp,净化之握,生命之梭的威能
+Petal Protection,守护花瓣,生命之梭的威能
+Sow the Seed,愈疗播种,生命之梭的威能
+Life Weaving,梭织生命,生命之梭的威能
+Dashing Escape,疾行脱身,生命之梭的威能
+Petal Power,花瓣之力,生命之梭的威能
+Superbloom,超然盛放,生命之梭的威能
+Wall Ride,滑墙,卢西奥的被动技能
+Sonic Amplifier,音速扩音器,卢西奥的武器
+Crossfade,切歌,卢西奥的技能
+Speed Boost,加速音效,切歌的其中一种效果
+Healing Boost,治愈音效,切歌的其中一种效果
+Amp It Up,强音,卢西奥的技能
+Soundwave,音波,卢西奥的技能
+Sound Barrier,音障,卢西奥的终极技能
+Accelerando,急速乐章,卢西奥的威能
+Beat Drop,来点节拍,卢西奥的威能
+Noise Violation,违规噪音,卢西奥的威能
+Soundwave Rider,音波滑手,卢西奥的威能
+Berserker,狂战士,毛加的被动技能
+Incendiary Chaingun (Gunny),燃火链式机枪（老枪）,毛加的武器
+Volatile Chaingun (Cha-cha),爆烈链式机枪（恰恰）,毛加的武器
+Cardiac Overdrive,心脏过载,毛加的技能
+Overrun,蛮力冲撞,毛加的技能
+Cage Fight,笼中斗,毛加的终极技能
+Kinetic Bandolier,动力弹带,毛加的威能
+Combat Fuel,战斗燃料,毛加的威能
+Firewalker,烈火奔踏,毛加的威能
+Pyromaniac,纵情燃烧,毛加的威能
+Endothermic Blaster,冰霜冲击枪,美的武器
+Icicle,冰锥,美的武器（冰霜冲击枪的辅助攻击模式）
+Ice Wall,冰墙,美的技能
+Cryo-Freeze,急冻,美的技能
+Blizzard,暴雪,美的终极技能
+Skating Rink,冰上畅滑,美的威能
+Glacial Propulsion,寒冰疾涌,美的威能
+Cryo-Storm,急冻风暴,美的威能
+Deep Freeze,深度冰冻,美的威能
+Sympathetic Recovery,同情愈疗,天使的被动技能
+Angelic Descent,天使降临,天使的被动技能
+Swift Recovery,迅捷恢复,天使的被动技能
+Caduceus Staff,天使之杖,天使的武器
+Caduceus Blaster,天使冲击枪,天使的武器
+The Guardian,守护天使,天使的技能
+Flash Heal,快速治疗,天使的技能
+Resurrect,重生,天使的技能
+Valkyrie,女武神,天使的终极技能
+Double Dose,双倍剂量,天使的威能
+Angelic Resurrection,天使重生,天使的威能
+Divine Momentum,神圣动能,天使的威能
+Chain Boost,连锁强化,天使的威能
+Remedy Aura,安魂灵气,瑞稀的被动技能
+Spirit Glaive,御魂镰刃,瑞稀的武器
+Katashiro Return,替魂纸人,瑞稀的技能
+Healing Kasa,疗魂斗笠,瑞稀的技能
+Binding Chain,缚魂锁链,瑞稀的技能
+Kekkai Sanctuary,护魂结界,瑞稀的终极技能
+Resonant Return,共鸣飞返,瑞稀的威能
+Wellspring,灵气奔涌,瑞稀的威能
+Quickstep,飞魂迅步,瑞稀的威能
+Exposed Soul,魂中破绽,瑞稀的威能
+Biotic Grasp,生化之触,莫伊拉的武器
+Fade,消散,莫伊拉的技能
+Biotic Orb,生化之球,莫伊拉的技能
+Coalescence,聚合射线,莫伊拉的终极技能
+Ethical Nourishment,合德滋养,莫伊拉的威能
+Phantom Step,幽影幻步,莫伊拉的威能
+Destruction's Divide,毁灭分界,莫伊拉的威能
+Reversal,魔球逆动,莫伊拉的威能
+Augmented Fusion Driver,强化聚变驱动器,奥丽莎的武器
+Fortify,强固防御,奥丽莎的技能
+Javelin Spin,标枪旋击,奥丽莎的技能
+Energy Javelin,能量标枪,奥丽莎的技能
+Terra Surge,撼地猛刺,奥丽莎的终极技能
+Charged Javelin,充能标枪,奥丽莎的威能
+Mobile Fortification,机动强固,奥丽莎的威能
+Defense Protocol,防御协议,奥丽莎的威能
+Protective Barrier,防护屏障,奥丽莎的威能
+Hover Jets,悬浮背包,法老之鹰的被动技能
+Rocket Launcher,火箭发射器,法老之鹰的武器
+Jump Jet,推进背包,法老之鹰的技能
+Jet Dash,疾冲背包,法老之鹰的技能
+Concussive Blast,震荡冲击,法老之鹰的技能
+Barrage,火箭弹幕,法老之鹰的终极技能
+Helix Shields,海力士护盾,法老之鹰的威能
+Drift Thrusters,漂移推进器,法老之鹰的威能
+Rocket Salvo,火箭齐射,法老之鹰的威能
+Fuel Stores,燃油储备,法老之鹰的威能
+Sky Spy,空天鹰眼,法老之鹰的威能
+Concussive Force,震荡爆冲,法老之鹰的威能
+Pummel,猛拳,拉玛刹的武器
+Void Accelerator,虚空加速器,拉玛刹的武器
+Ravenous Vortex,吞噬漩涡,拉玛刹的技能
+Nemesis Form,天罚形态,拉玛刹的技能
+Omnic Form,智械形态,拉玛刹的技能
+Void Barrier,虚空屏障,拉玛刹的技能
+Block,铁臂,拉玛刹的技能
+Annihilation,诛,拉玛刹的终极技能
+Vengeful Vortex,复仇旋涡,拉玛刹的威能
+Prolonged Barrier,持久屏障,拉玛刹的威能
+Nanite Repair,纳米修复,拉玛刹的威能
+Void Surge,虚空涌动,拉玛刹的威能
+Relentless Form,铁血形态,拉玛刹的威能
+The Reaping,收割,死神的被动技能
+Hellfire Shotguns,地狱火霰弹枪,死神的武器
+Wraith Form,幽灵形态,死神的技能
+Dire Triggers,恐怖扳机,死神的技能
+Shadow Step,暗影步,死神的技能
+Death Blossom,死亡绽放,死神的终极技能
+Trigger Finger,开火冲动,死神的威能
+Shadow Blink,暗影闪现,死神的威能
+Soul Harvest,灵魂收割,死神的威能
+Ravenous Wraith,狂噬幽灵,死神的威能
+Lingering Wraith,萦绕幽灵,死神的威能
+Rocket Hammer,火箭重锤,莱因哈特的武器
+Charge,冲锋,莱因哈特的技能
+Barrier Field,屏障力场,莱因哈特的技能
+Fire Strike,烈焰打击,莱因哈特的技能
+Earthshatter,裂地猛击,莱因哈特的终极技能
+Crusader's Resolve,十字军的决心,莱因哈特的威能
+Crusader's Fire,十字军的烈焰,莱因哈特的威能
+Barrier Re-charge,屏障冲能,莱因哈特的威能
+Ignited Fury,盛燃怒火,莱因哈特的威能
+Shield Slam,盾牌猛击,莱因哈特的威能
+Scrap Gun,爆裂枪,路霸的武器
+Take a Breather,呼吸器,路霸的技能
+Chain Hook,链钩,路霸的技能
+WHOLE HOG,鸡飞狗跳,路霸的终极技能
+Scrap Hook,废料链钩,路霸的威能
+Shrapnel Launcher,弹片迸射枪,路霸的威能
+Pulled Pork,来口猪肉,路霸的威能
+Hogdrogen Exposure,氢气暴露,路霸的威能
+Invigorate,活力迸发,路霸的威能
+Helix Rifle,螺旋步枪,西拉的武器
+Tracking Shot,追踪弹,西拉的武器
+Anchor Drone,锚点无人机,西拉的技能
+Tremor Charge,震地手雷,西拉的技能
+Trailblazer,开路先锋,西拉的终极技能
+Full Flight,全速飞行,西拉的威能
+Tight Grip,紧盯不放,西拉的威能
+Medi-Drone,医疗无人机,西拉的威能
+Locked In,锁定猛攻,西拉的威能
+Hypersphere,超能之球,西格玛的武器
+Kinetic Grasp,动能俘获,西格玛的技能
+Experimental Barrier,实验屏障,西格玛的技能
+Accretion,质量吸附,西格玛的技能
+What comes up,引力乱流,西格玛的终极技能
+Kinetic Cycle,动能循环,西格玛的威能
+Levitation,空间漂浮,西格玛的威能
+Hyper Regeneration,超能恢复,西格玛的威能
+Hyper Strike,超能打击,西格玛的威能
+Charged Shot,充能射击,索杰恩的武器
+Railgun,电磁炮,索杰恩的武器
+Disruptor Shot,干扰弹,索杰恩的技能
+Power Slide,机动滑铲,索杰恩的技能
+Overclock,机体超频,索杰恩的终极技能
+Deceleration Field,减速力场,索杰恩的威能
+Dual Thrusters,双重推进器,索杰恩的威能
+Friction Generators,摩擦供能,索杰恩的威能
+Overcharge,机体过载,索杰恩的威能
+Heavy Pulse Rifle,重型脉冲步枪,士兵：76的武器
+Biotic Field,生物力场,士兵：76的技能
+Sprint,疾跑,士兵：76的技能
+Helix Rockets,螺旋飞弹,士兵：76的技能
+Tactical Visor,战术目镜,士兵：76的终极技能
+Full Stride,全速疾奔,士兵：76的威能
+Stim Pack,强化药剂,士兵：76的威能
+Recycled Pulse Munitions,循环脉冲弹,士兵：76的威能
+Tactical Salvo,战术齐射,士兵：76的威能
+Agility Training,敏捷训练,士兵：76的威能
+Helix Propulsion,螺旋推进,士兵：76的威能
+Opportunist,相时而动,黑影的被动技能
+Machine Pistol,自动手枪,黑影的武器
+Translocator,位移传动,黑影的技能
+Virus,病毒侵染,黑影的技能
+Hack,黑客入侵,黑影的技能
+EMP,电磁脉冲,黑影的终极技能
+CTRL ALT ESC,CTRL+ALT+ESC,黑影的威能
+Encrypted Upload,加密上传,黑影的威能
+Healthy Hacker,急救黑客,黑影的威能
+Viral Replication,病毒复制,黑影的威能
+High-Speed Bandwidth,高速带宽,黑影的威能
+Photon Projector,光子发射器,秩序之光的武器
+Teleporter Pad,传送面板,秩序之光的技能
+Sentry Turret,哨戒炮,秩序之光的技能
+Photon Barrier,光子屏障,秩序之光的终极技能
+Sentry Capacity,哨戒容限,秩序之光的威能
+Perfect Alignment,完美协同,秩序之光的威能
+Hovering Barrier,悬浮屏障,秩序之光的威能
+Shield Battery,护盾充能,秩序之光的威能
+Rivet Gun,铆钉枪,托比昂的武器
+Forge Hammer,锻造锤,托比昂的武器
+Overload,热力过载,托比昂的技能
+Deploy Turret,部署炮台,托比昂的技能
+Molten Cores,熔火核心,托比昂的终极技能
+Pre-Heated,核心预热,托比昂的威能
+Fully Loaded,热力满载,托比昂的威能
+Overloaded Turret,过载炮台,托比昂的威能
+Hammer Time,铁锤快抡,托比昂的威能
+Anchor Bolts,锚固螺栓,托比昂的威能
+Pulse Pistols,脉冲双枪,猎空的武器
+Recall,闪回,猎空的技能
+Blink,闪现,猎空的技能
+Pulse Bomb,脉冲炸弹,猎空的终极技能
+Kinetic Reload,动能装填,猎空的威能
+Chronal Dash,时空疾冲,猎空的威能
+Quantum Entanglement,量子纠缠,猎空的威能
+Blink Packs,闪现急救包,猎空的威能
+Flashback,飞速闪回,猎空的威能
+Onslaught,越战越勇,斩仇的被动技能
+Palatine Fang,帕拉蒂尼之牙,斩仇的武器
+Overhead swing,竖直劈斩,帕拉蒂尼之牙的连击之一
+Warding Stance,招架姿态,斩仇的技能
+Whirlwind Dash,旋风疾步,斩仇的技能
+Projected Edge,锋锐剑气,斩仇的技能
+Soaring Slice,飞空斩击,斩仇的技能
+Sundering Blade,斩地巨剑,斩仇的终极技能
+Extra Edge,充盈剑气,斩仇的威能
+Swift Vengeance,快意恩仇,斩仇的威能
+Relentless,无情君威,斩仇的威能
+Raging Storm,狂怒风暴,斩仇的威能
+Siphoning Strike,虹吸斩击,斩仇的威能
+Explorer's Resolve,探险家的决心,探奇的被动技能
+Clobber,猛钻,探奇的被动技能
+SMART Excavator,智能挖掘钻,探奇的武器
+Burrow,钻地,探奇的技能
+Drill Dash,钻头突刺,探奇的技能
+Tectonic Shock,地壳震击,探奇的终极技能
+Covered In Dirt,尘土满身,探奇的威能
+SMART Extender,智能延展器,探奇的威能
+Deep Burrow,深岩掘地,探奇的威能
+Excavation Exhilaration,轰轰钻机汹汹来袭,探奇的威能
+Take Aim,瞄准射击,黑百合的武器
+Widow's Kiss,黑百合之吻,黑百合的武器
+Venom Mine,剧毒诡雷,黑百合的技能
+Hooked,抓钩,黑百合的技能
+Infra-Sight,红外侦测,黑百合的终极技能
+Seeker Mine,寻敌诡雷,黑百合的威能
+Escape Plan,撤离计划,黑百合的威能
+Sniper's Instinct,狙击手的直觉,黑百合的威能
+Scoped Efficiency,高效开镜,黑百合的威能
+Widow's Bite,黑百合之噬,黑百合的威能
+Tesla Cannon,特斯拉炮,温斯顿的武器
+Jump Pack,喷射背包,温斯顿的技能
+Barrier Projector,屏障发射器,温斯顿的技能
+Primal Rage,原始暴怒,温斯顿的终极技能
+Revitalizing Barrier,复苏屏障,温斯顿的威能
+Heavy Landing,天降巨猩,温斯顿的威能
+Barrier Toss,屏障投掷,温斯顿的威能
+Electric Charge,电能快充,温斯顿的威能
+Chain Lightning,连锁闪电,温斯顿的威能
+Quad Cannons,四联火炮,破坏球的武器
+Roll,动力铁球,破坏球的技能
+Grappling Claw,工程抓钩,破坏球的技能
+Adaptive Shield,感应护盾,破坏球的技能
+Piledriver,重力坠击,破坏球的技能
+Minefield,地雷禁区,破坏球的终极技能
+Multi-Ball,多重地雷,破坏球的威能
+Adaptive Barrier,感应屏障,破坏球的威能
+Hang Time,滞空时间,破坏球的威能
+Pack Rat,爱包之鼠,破坏球的威能
+Steamroller,重装压路机,破坏球的威能
+Restorative Stream,养神泉,无漾的武器
+Xuanwu Staff,玄武杖,无漾的武器
+Guardian Wave,翻江浪,无漾的技能
+Rushing Torrent,飞流步,无漾的技能
+Tidal Blast,惊涛破,无漾的终极技能
+Falling Rain,暴雨倾盆,无漾的威能
+Overflow,水满则溢,无漾的威能
+Ebb and Flow,潮涨潮落,无漾的威能
+Balance,阴阳平衡,无漾的威能
+Energy,能量转换,查莉娅的被动技能
+Particle Cannon,粒子炮,查莉娅的武器
+Projected Barrier,投射屏障,查莉娅的技能
+Particle Barrier,粒子屏障,查莉娅的技能
+Graviton Surge,重力喷涌,查莉娅的终极技能
+Spotter,前线哨兵,查莉娅的威能
+Jump-Ups,弹跳训练,查莉娅的威能
+Extra Oomph,能量加码,查莉娅的威能
+Energy Converter,能量转换器,查莉娅的威能
+Energy Lance,能量长枪,查莉娅的威能
+Snap Kick,蹬,禅雅塔的被动技能
+Orb of Destruction,灭,禅雅塔的武器
+Orb of Discord,乱,禅雅塔的技能
+Orb of Harmony,谐,禅雅塔的技能
+Transcendence,圣,禅雅塔的终极技能
+Discordant Repair,乱中求存,禅雅塔的威能
+Transcendent Condemnation,以圣罚乱,禅雅塔的威能
+Focused Destruction,凝神寂灭,禅雅塔的威能
+Dual Harmony,双音谐奏,禅雅塔的威能
+Ascendance,悬空参禅,禅雅塔的威能
