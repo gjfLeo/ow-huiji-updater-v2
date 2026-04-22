@@ -220,6 +220,11 @@ export const abilityKeywords: AbilityKeyword[] = [
     description: "一种持续行动，被挪移、侵入、沉睡或击晕效果打断时会提前结束",
   },
   {
+    name: "强引导",
+    name_en: "Strong Channel",
+    description: "一种持续行动，被挪移、沉睡或击晕效果打断时会提前结束。无视侵入",
+  },
+  {
     name: "变身",
     name_en: "Transformation",
     description: "一种具有独特功能的变化状态，受到挪移、侵入、沉睡或击晕时不会提前结束",
