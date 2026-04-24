@@ -158,6 +158,7 @@ Flashpoint,闪点作战,游戏模式（占点）
 Flashpoint,闪点,闪点作战模式中的目标点
 Hybrid,攻击/护送,游戏模式（占点+护送）
 Payload,运载目标,游戏模式（护送）
+Stadium,角斗领域,主要模式之一
 Escort the Payload,护送运载目标,术语
 Stop the Payload,阻止运载目标,术语
 Move the Payload,转移运载目标,术语
@@ -173,6 +174,16 @@ Ammo,弹药,英雄属性，武器需要消耗弹药
 Heal,治疗,动词
 Damage Reduction,受伤减免,伤害调整效果
 Unstoppable,不可阻挡,状态效果
+Patch Notes,补丁说明,补丁说明
+General Updates,综合更新,补丁说明中的章节
+Hero Updates,英雄更新,补丁说明中的章节
+Roster Updates,阵容更新,补丁说明中的章节
+XXX Updates,XXX更新,补丁说明中的章节，XXX为各种游戏内容
+General Changes,综合改动,补丁说明中的章节
+Bug Fixes,错误修复,补丁说明中的章节
+General,综合,补丁说明中的章节
+Hotfix,在线修复,补丁说明中的章节
+mid‑season changes,季中更新,定期更新
 # 游戏术语（英雄技能）
 Biotic Rifle,生物步枪,安娜的武器
 Zoom,开镜,安娜的武器（生物步枪的辅助攻击模式）
