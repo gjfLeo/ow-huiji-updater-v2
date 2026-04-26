@@ -89,6 +89,7 @@ export const HeroQuoteScriptDesc: Record<string, string> = {
   "00AD79": "使用增幅矩阵",
   "00AD8E": "近距离",
   "00ADCB": "敌人被裂地猛击控制",
+  "00AE5A": "敌方埃姆雷覆盖协议期间",
   "00AE5B": "被侵入时",
   "00AF41": "被复活后",
   "00AF43": "敌人被复活后",
@@ -145,11 +146,12 @@ export const HeroQuoteScriptDesc: Record<string, string> = {
   "01085F": "复制无漾后使用终极技能",
   "011AF8": "复制斩仇后使用终极技能",
   "011D39": "复制安燃后使用终极技能",
-  "0120F8": "复制瑞稀后使用终极技能",
+  "011E2B": "被流星索消灭",
   "0120F5": "复制埃姆雷后使用终极技能",
-  "0120F7": "复制飞天猫后使用终极技能",
   "0120F6": "复制金驭后使用终极技能",
-  "00AE5A": "敌方埃姆雷覆盖协议期间",
+  "0120F7": "复制飞天猫后使用终极技能",
+  "0120F8": "复制瑞稀后使用终极技能",
+  "01270F": "复制西拉后使用终极技能",
 };
 
 export const HeroQuoteScriptDesc_Unknown: Record<string, string> = {
@@ -188,6 +190,7 @@ export const HeroQuoteScriptDesc_Unknown: Record<string, string> = {
   "00AACA": "", // 温斯顿 疑似机动推进
   "00B3AD": "", // 地形消灭
   "00B41D": "", // 奥林匹斯之战
+  "00B4C4": "", // 埃姆雷
   "00B4E0": "使用花瓣平台起跳", // 生命之梭、黑百合
   "00B83D": "", // 莱因哈特 奥林匹斯之战相关
   "00B844": "", // 奥林匹斯之战 马匹之神
