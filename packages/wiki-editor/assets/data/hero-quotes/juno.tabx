@@ -6029,7 +6029,7 @@
       "juno",
       "朱诺",
       null,
-      "Unknown/1116",
+      "PVE/未分类/快上运输机",
       "飞船来了！快走吧！",
       "The ship is here! Let's go!",
       null,
@@ -6045,7 +6045,7 @@
       "juno",
       "朱诺",
       null,
-      "Unknown/1116",
+      "PVE/未分类/快上运输机",
       "快上运输机！",
       "Get into the dropship!",
       null,
@@ -8324,6 +8324,22 @@
       null,
       null,
       null,
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000068BAE.0B2",
+      428974,
+      "juno",
+      "朱诺",
+      null,
+      "个性化语音/2026S2/战令",
+      "我仔细比较了青草的两面，可还是说不清到底哪一面更绿。",
+      "I have compared grass from both sides, but I cannot decide which is more green.",
+      null,
+      null,
+      null,
+      "2.22",
       null
     ],
     [
@@ -13620,6 +13636,22 @@
       null,
       "0000000013B6.0D0#2",
       "2.21",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006AE3A.0B2",
+      437818,
+      "juno",
+      "朱诺",
+      null,
+      "赛前对话",
+      "我到现在还总是惦记着监测站。真不想这么快又抛下一个家。",
+      "I cannot stop thinking about the Watchpoint. I am sad to leave another home behind so soon.",
+      null,
+      null,
+      "0000000013B7.0D0#2",
+      "2.22",
       null
     ],
     [

@@ -8996,7 +8996,7 @@
       null,
       "0000000002F2.0D0#1",
       null,
-      null
+      "2.22"
     ],
     [
       "HeroQuote",
@@ -12708,6 +12708,22 @@
       null,
       null,
       null,
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005E080.0B2",
+      385152,
+      "junkrat",
+      "狂鼠",
+      null,
+      "个性化语音/2026S2/战令",
+      "疯起来就像袜子里的青蛙！",
+      "Going off like a frog in a sock!",
+      null,
+      null,
+      null,
+      "2.22",
       null
     ],
     [
@@ -17197,7 +17213,7 @@
       "junkrat",
       "狂鼠",
       null,
-      "Unknown/1116",
+      "PVE/未分类/快上运输机",
       "噢，我现在就想上那架运输机，哈哈。",
       "Ooh, I can't wait to ride that dropship.",
       null,
@@ -17213,7 +17229,7 @@
       "junkrat",
       "狂鼠",
       null,
-      "Unknown/1116",
+      "PVE/未分类/快上运输机",
       "我是老詹，我是老詹。我方部队正在赶往撤离点。",
       "Juliet Foxtrot here. We are Oyster Manticore Whimsy for extract.",
       null,
@@ -17229,7 +17245,7 @@
       "junkrat",
       "狂鼠",
       null,
-      "Unknown/1116",
+      "PVE/未分类/快上运输机",
       "运输机来了！脚底抹油，赶紧开溜！",
       "Dropship's here! Make like an entomologist and bug out!",
       null,
@@ -17245,7 +17261,7 @@
       "junkrat",
       "狂鼠",
       null,
-      "Unknown/1116",
+      "PVE/未分类/快上运输机",
       "运输机来了！",
       "Dropship's here!",
       null,
@@ -17261,7 +17277,7 @@
       "junkrat",
       "狂鼠",
       null,
-      "Unknown/1116",
+      "PVE/未分类/快上运输机",
       "运输机来了！噢，我要坐副驾驶！",
       "Dropship's here! Ooh, I call shotgun!",
       null,
@@ -17652,7 +17668,7 @@
       null,
       "000000000C27.0D0#2",
       null,
-      "2.21"
+      null
     ],
     [
       "HeroQuote",
@@ -21278,7 +21294,7 @@
       "狂鼠",
       null,
       "非台词/未分类/19BD",
-      "(festive ho-ho-ho)",
+      "（节庆笑声）",
       "(festive ho-ho-ho)",
       null,
       null,

@@ -16036,7 +16036,7 @@
       null,
       "000000000CEE.0D0#2",
       null,
-      null
+      "2.22"
     ],
     [
       "HeroQuote",
@@ -16525,7 +16525,7 @@
       "genji",
       "源氏",
       null,
-      "Unknown/1116",
+      "PVE/未分类/快上运输机",
       "穿梭机来了，我们走！",
       "The shuttle has arrived. Let's go!",
       null,
@@ -16541,7 +16541,7 @@
       "genji",
       "源氏",
       null,
-      "Unknown/1116",
+      "PVE/未分类/快上运输机",
       "我们该登机了！",
       "We should board the shuttle!",
       null,
@@ -20584,6 +20584,22 @@
     ],
     [
       "HeroQuote",
+      "00000006B707.0B2",
+      440071,
+      "genji",
+      "源氏",
+      null,
+      "复生",
+      "当年的小忍者已经长大了。",
+      "She is a fully fledged ninja now.",
+      "{\"type\":\"toHero\",\"hero\":\"雾子\"}",
+      null,
+      null,
+      "2.22",
+      null
+    ],
+    [
+      "HeroQuote",
       "00000006B70A.0B2",
       440074,
       "genji",
@@ -20734,7 +20750,7 @@
       "源氏",
       null,
       "赛前对话",
-      "（日语）：真是的。",
+      "（日语）：哎，真是的。",
       "(Japanese): (sigh) Good grief.",
       null,
       null,

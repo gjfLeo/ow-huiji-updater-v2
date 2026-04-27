@@ -152,6 +152,7 @@ export const HeroQuoteScriptDesc: Record<string, string> = {
   "0120F7": "复制飞天猫后使用终极技能",
   "0120F8": "复制瑞稀后使用终极技能",
   "01270F": "复制西拉后使用终极技能",
+  "012713": "敌方弗蕾娅使用流星索",
 };
 
 export const HeroQuoteScriptDesc_Unknown: Record<string, string> = {
@@ -910,41 +911,11 @@ export const CategoryNameMap: Record<string, string> = {
   "1961": "个性化语音/S18/1961", // (s18 - persona)",
   "1972": "个性化语音/S19/1972", // (s19)",
   "19B2": "个性化语音/S20/19B2", // (s20)",
-  "19D0": "个性化语音/2026S1/19D0", // (2026 - s1)",
   "19D1": "个性化语音/2026S1/19D1", // (2026 - s1 - hello kitty)",
   "19D2": "个性化语音/2026S1/19D2", // (2026 - s1 - hello kitty)",
   "19D4": "个性化语音/2026S1/19D4", // (2026 - s1 - hello kitty)",
   "19D7": "个性化语音/2026S1/19D7", // (2026 - s1 - hello kitty)",
-  "19D8": "个性化语音/2026S1/19D8", // (2026 - s1)",
-  "19E5": "个性化语音/2026S1/19E5", // (2026 - s1 - hero progression)",
-  "19E7": "个性化语音/2026S1/19E7", // (2026 - s1 - hero progression)",
-
   "110D": "行动任务/通讯/雷吉的语音邮件",
-};
-
-export const NonVoiceLineCategoryNameMap: Record<string, string> = {
-  "0001": "死亡",
-  "0003": "受伤1",
-  "0004": "受伤2",
-  "0027": "咳嗽",
-  "001E": "死亡/爆炸",
-  "001F": "呼吸/低生命呼吸开始",
-  "0020": "呼吸/低生命呼吸结束",
-  "0021": "呼吸/低生命呼吸",
-  "0022": "死亡/重压",
-  "0023": "近身攻击",
-  "0026": "跳跃/落地",
-  "0054": "跳跃",
-  "00B7": "Stagger",
-  "00B6": "Knockdown",
-  "0113": "Scream/0113",
-  "012F": "Electrocuted",
-  "0283": "DamageOverTime/0283",
-  "0284": "DamageOverTime/0284",
-  "0285": "DamageOverTime/0285",
-  "02C8": "Laugh/02C8",
-  "05B2": "ScreamFall",
-  "06A1": "Laugh/06A1",
 };
 
 export const NonLanguageStrategyMap = {
@@ -988,4 +959,5 @@ export const NonLanguageStrategyMap = {
   "技能/渣客女王/命令怒吼/结束": "exclude",
   "技能/渣客女王/血斩": "exclude",
   "未使用/技能/末日铁拳/毁天灭地/来袭": "exclude",
+  "技能/西拉/锚点无人机/抓钩": "exclude",
 };

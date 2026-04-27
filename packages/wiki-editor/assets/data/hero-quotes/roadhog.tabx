@@ -7444,7 +7444,7 @@
       null,
       "0000000002F2.0D0#2",
       null,
-      null
+      "2.22"
     ],
     [
       "HeroQuote",
@@ -8260,6 +8260,22 @@
       null,
       null,
       null,
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000005E03A.0B2",
+      385082,
+      "roadhog",
+      "路霸",
+      null,
+      "个性化语音/2026S2/战令",
+      "我养过兔子。没什么特别的。",
+      "I've had rabbit. Nothing special.",
+      null,
+      null,
+      null,
+      "2.22",
       null
     ],
     [
@@ -18884,6 +18900,70 @@
       null,
       null,
       null,
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006BE73.0B2",
+      441971,
+      "roadhog",
+      "路霸",
+      null,
+      "非台词/未分类/186B",
+      "（快乐地哼唱）",
+      "(happy humming)",
+      null,
+      null,
+      null,
+      "2.22",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006BE74.0B2",
+      441972,
+      "roadhog",
+      "路霸",
+      null,
+      "非台词/未分类/186B",
+      "（快乐地哼唱）",
+      "(happy humming)",
+      null,
+      null,
+      null,
+      "2.22",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006BE75.0B2",
+      441973,
+      "roadhog",
+      "路霸",
+      null,
+      "非台词/未分类/186B",
+      "（快乐地哼唱）",
+      "(happy humming)",
+      null,
+      null,
+      null,
+      "2.22",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006BE76.0B2",
+      441974,
+      "roadhog",
+      "路霸",
+      null,
+      "非台词/未分类/186B",
+      "（快乐地哼唱）",
+      "(happy humming)",
+      null,
+      null,
+      null,
+      "2.22",
       null
     ]
   ]
