@@ -1,22 +1,24 @@
 import type { WikiHero } from "../models/hero";
 import type { QuoteCriteriaCondition, QuoteCriteriaSingleCondition, WikiHeroQuote } from "../models/hero-quote";
+import type { OwLibConversationList } from "../models/owlib/quotes";
 import type { TabxInputHeader } from "../utils/tabx";
 import path from "node:path";
 import destr from "destr";
 import fse from "fs-extra";
 import { convertPathToPattern, glob } from "tinyglobby";
 import z from "zod";
-import { OWLIB_EXTRACT_DIR, STUB_DATA_PATH } from "../constants/paths";
-import { CategoryNameMap, HeroQuoteCelebrationName, HeroQuoteGenderName, HeroQuoteHeroNameMap, HeroQuoteHeroTagNames, HeroQuoteScriptDesc, HeroQuoteScriptDesc_Unknown, NonLanguageStrategyMap, NonVoiceLineCategoryNameMap } from "../data/hero-quote";
+import { OWLIB_DIR, OWLIB_EXTRACT_DIR, STUB_DATA_PATH } from "../constants/paths";
+import { CategoryNameMap, HeroQuoteCelebrationName, HeroQuoteGenderName, HeroQuoteHeroNameMap, HeroQuoteHeroTagNames, HeroQuoteScriptDesc, HeroQuoteScriptDesc_Unknown, NonLanguageStrategyMap } from "../data/hero-quote";
 import heroQuoteCategoriesToml from "../data/hero-quote-categories.toml";
 import { zWikiHeroQuote } from "../models/hero-quote";
+import { OwLibConversationListSchema } from "../models/owlib/quotes";
 import { logger, spinner, spinnerProgress } from "../utils/logger";
 import { Tabx } from "../utils/tabx";
 import { wikiBatchGet } from "../wiki/batch";
 
 const RAW_DATA_PATH = path.resolve(__dirname, "../../output/owlib");
 const OUTPUT_PATH = path.resolve(__dirname, "../../assets/data/hero-quotes");
-const CURRENT_VERSION = "2.21.1";
+const CURRENT_VERSION = "2.22";
 const heroKeyByName = await readHeroKeyByName();
 
 const tabxHeaders: TabxInputHeader[] = [
@@ -39,94 +41,8 @@ const tabxHeaders: TabxInputHeader[] = [
 let currentData: WikiHeroQuote = {} as WikiHeroQuote;
 
 export default async function heroQuoteDataGenerate() {
-  // MARK: 加载Category数据
-  const heroQuoteCategories = z.record(
-    z.string(),
-    z.record(z.string().regex(/^@[0-9A-F]{4}$/), z.string()),
-  ).parse(heroQuoteCategoriesToml);
-  const heroQuoteCategoriesOrder: Record<string, number> = {};
-  {
-    let currentOrder = 0;
-    for (const [group, categoryMap] of Object.entries(heroQuoteCategories)) {
-      for (const [mapKey, mapValue] of Object.entries(categoryMap)) {
-        const categoryGuid = mapKey.substring(1);
-        const categoryName = [...group.split("/"), ...mapValue.split("/")].join("/");
-        currentOrder++;
-        if (CategoryNameMap[categoryGuid]) {
-          logger.error(`重复分类：${categoryGuid}`);
-          process.exit(1);
-        }
-        CategoryNameMap[categoryGuid] = categoryName;
-        if (heroQuoteCategoriesOrder[categoryName]) {
-          logger.error(`同名分类：${categoryName}`);
-          process.exit(1);
-        }
-        heroQuoteCategoriesOrder[categoryName] = currentOrder;
-      }
-    }
-
-    for (const [_, categoryName] of Object.entries(CategoryNameMap)) {
-      if (!heroQuoteCategoriesOrder[categoryName]) {
-        currentOrder++;
-        heroQuoteCategoriesOrder[categoryName] = currentOrder;
-      }
-    }
-
-    for (const [categoryGuid, categoryName] of Object.entries(NonVoiceLineCategoryNameMap)) {
-      if (CategoryNameMap[categoryGuid]) {
-        logger.error(`重复分类：${categoryGuid}`);
-        process.exit(1);
-      }
-      CategoryNameMap[categoryGuid] = categoryName;
-      if (!heroQuoteCategoriesOrder[categoryName]) {
-        currentOrder++;
-        heroQuoteCategoriesOrder[categoryName] = currentOrder;
-      }
-    }
-  }
-
-  // MARK: 读取旧数据
-  const oldPages = await wikiBatchGet({ namespace: 3500, prefix: "HeroQuotes/" });
-  const dataByHero: Record<string, Record<string, WikiHeroQuote>> = {};
-  for (const [pageTitle, pageContent] of Object.entries(oldPages)) {
-    if (pageTitle.endsWith(".json")) {
-      const wikiQuote = zWikiHeroQuote.parse(destr(pageContent));
-      wikiQuote.removed ??= CURRENT_VERSION;
-      dataByHero[wikiQuote.hero] ??= {};
-      dataByHero[wikiQuote.hero]![wikiQuote.fileId] = wikiQuote;
-    }
-    else {
-      const wikiQuoteTabx = Tabx.fromJson<WikiHeroQuote>(destr(pageContent));
-      const heroKey = wikiQuoteTabx.toJson().data[0]![3] as string;
-      dataByHero[heroKey] ??= {};
-
-      wikiQuoteTabx.toJson().data.forEach((item) => {
-        const fileId = item[1] as string;
-        const category = item[6] as string;
-        if (fileId.endsWith(".03F") && !heroQuoteCategoriesOrder[category]) {
-          return;
-        }
-        const fileKey = fileId.endsWith(".0B2") ? fileId : `${fileId}-${category}-${item[7]}`;
-        dataByHero[heroKey]![fileKey] = zWikiHeroQuote.parse({
-          _dataType: item[0],
-          fileId: item[1],
-          fileId_n: item[2],
-          hero: item[3],
-          heroName: item[4],
-          skin: item[5] ?? undefined,
-          category: item[6],
-          subtitle: item[7],
-          subtitle_en: item[8],
-          criteria: item[9] ?? undefined,
-          weight: item[10] ?? undefined,
-          conversations: item[11] ? (item[11] as string).split(";") : undefined,
-          added: item[12] ?? undefined,
-          removed: item[13] ?? CURRENT_VERSION,
-        });
-      });
-    }
-  }
-  logger.success(`成功加载 ${Object.values(dataByHero).flatMap(Object.values).length} 条旧数据`);
+  const categoryOrder = readHeroQuoteCategoriesOrder();
+  const dataByHero = await readOldDataByHero({ categoryOrder });
 
   // MARK: 加载资源
   spinner.start("加载资源");
@@ -138,7 +54,7 @@ export default async function heroQuoteDataGenerate() {
 
   // MARK: 处理0B2语音
   {
-    spinnerProgress.start("处理0B2语音文件", Number.MAX_SAFE_INTEGER);
+    spinnerProgress.start("处理0B2语音文件", Infinity);
     const heroVoiceFiles = await glob(
       ["**/*.txt", "!**/*-criteria.txt", "!**/*-weight.txt"],
       { cwd: path.join(OWLIB_EXTRACT_DIR, "HeroVoice") },
@@ -150,8 +66,17 @@ export default async function heroQuoteDataGenerate() {
     spinnerProgress.setTotal(heroVoiceFiles.length + npcVoiceFiles.length);
 
     async function handleVoiceFile0B2(voiceFile: string, directory: "HeroVoice" | "NPCVoice") {
+      const file = Bun.file(path.join(
+        OWLIB_EXTRACT_DIR,
+        directory,
+        voiceFile,
+      ));
+      if (file.lastModified < Date.parse("2026-04-01T00:00:00Z")) {
+        return;
+      }
       const fileId = path.basename(voiceFile).match(/^([0-9A-F]{12}\.0B2)/)?.[0] as `${string}.0B2`;
       if (!fileId) {
+        spinnerProgress.fail();
         logger.error(`文件名格式错误：${voiceFile}`);
         process.exit(1);
       }
@@ -161,19 +86,22 @@ export default async function heroQuoteDataGenerate() {
       const skin = directory === "HeroVoice" ? pathSegments.shift() : undefined;
       let category = pathSegments.join("/");
       if (!heroName || (directory === "HeroVoice" && !skin) || !category) {
+        spinnerProgress.fail();
         logger.error(`目录名格式错误：${voiceFile}`);
         console.info(heroName, skin, category);
         process.exit(1);
       }
+
       const hero = heroKeyByName[heroName] ?? "npc";
       const zhSubtitle = zhSubtitles[fileId] ?? "";
       const enSubtitle = enSubtitles[fileId] ?? "";
       if (!category.startsWith("Unknown/")) {
-        logger.error(`未清除分类：${category}`);
+        spinnerProgress.fail();
+        logger.error(`未清除OWLib分类：${category}`);
         process.exit(1);
       }
       const categoryGuid = category.substring(8, category.length - 4).padStart(4, "0");
-      category = CategoryNameMap[categoryGuid] ?? NonVoiceLineCategoryNameMap[categoryGuid] ?? `Unknown/${categoryGuid}`;
+      category = CategoryNameMap[categoryGuid] ?? `Unknown/${categoryGuid}`;
 
       const heroQuoteData: WikiHeroQuote = {
         _dataType: "HeroQuote",
@@ -212,14 +140,14 @@ export default async function heroQuoteDataGenerate() {
       dataByHero[hero] ??= {};
       if (dataByHero[hero]![fileId]) {
         heroQuoteData.added = dataByHero[hero]![fileId]!.added;
-        dataByHero[hero]![fileId] = heroQuoteData;
       }
       else {
+        // 单独处理国服不存在的皮肤
         if (skin !== "碎骨者" && skin !== "欧尔麦特") {
           heroQuoteData.added = CURRENT_VERSION;
         }
-        dataByHero[hero]![fileId] = heroQuoteData;
       }
+      dataByHero[hero]![fileId] = heroQuoteData;
     }
 
     for (const voiceFile of heroVoiceFiles) {
@@ -234,7 +162,7 @@ export default async function heroQuoteDataGenerate() {
   }
   // MARK: 处理03F声音
   {
-    spinnerProgress.start("处理03F声音文件", Number.MAX_SAFE_INTEGER);
+    spinnerProgress.start("处理03F声音文件", Infinity);
     const heroVoice03FFiles = await glob(
       ["**/*.03F.ogg"],
       { cwd: path.join(RAW_DATA_PATH, "extract/HeroVoice") },
@@ -267,7 +195,7 @@ export default async function heroQuoteDataGenerate() {
         process.exit(1);
       }
       const categoryGuid = category.substring(8, category.length - 4).padStart(4, "0");
-      category = CategoryNameMap[categoryGuid] ?? NonVoiceLineCategoryNameMap[categoryGuid] ?? `Unknown/${categoryGuid}`;
+      category = CategoryNameMap[categoryGuid] ?? `Unknown/${categoryGuid}`;
 
       const hero = heroKeyByName[heroName] ?? "npc";
       dataByHero[hero] ??= {};
@@ -320,15 +248,21 @@ export default async function heroQuoteDataGenerate() {
       convertPathToPattern(path.join(OWLIB_EXTRACT_DIR, "HeroConvo/*/*.0D0")),
       { onlyDirectories: true, onlyFiles: false, expandDirectories: false },
     );
-    const conversationListFile = await Bun.file(path.join(RAW_DATA_PATH, "json/conversations.json")).json();
+    const conversationListFile = OwLibConversationListSchema.parse(
+      await Bun.file(path.join(OWLIB_DIR, "json/conversations.json")).json(),
+    );
     const conversationListFileMap = Object.fromEntries(
       conversationListFile.map((item: any) => [item.GUID, item]),
-    );
+    ) as Record<string, OwLibConversationList[0]>;
+
     for (const conversationFolder of conversationFolders) {
       const conversationId = path.basename(conversationFolder);
       const conversationListData = conversationListFileMap[conversationId];
       if (!conversationListData) {
-        throw new Error(`Conversation not found in list: ${conversationId}`);
+        spinner.pause(() => {
+          logger.error(`Conversation not found in list: ${conversationId}`);
+        });
+        continue;
       }
 
       const quoteFiles = await glob(
@@ -346,7 +280,9 @@ export default async function heroQuoteDataGenerate() {
           throw new Error(`Invalid quote file format: ${quoteFile}`);
         }
 
-        const position = conversationListData.Voicelines[Number(fileNumber) - 1]?.Position;
+        // 卢西奥的动物，疑似是因为飞天猫
+        const quoteIndex = Number(fileNumber) > 52 ? Number(fileNumber) : Number(fileNumber) - 1;
+        const position = conversationListData.Voicelines[quoteIndex]?.Position;
         if (!position) {
           throw new Error(`Voiceline index not found in conversation json: ${fileNumber}`);
         }
@@ -365,9 +301,18 @@ export default async function heroQuoteDataGenerate() {
           }
         }
         if (heroQuoteData) {
-          heroQuoteData.conversations ??= [];
-          heroQuoteData.conversations.push(`${conversationId}#${position}`);
-          heroQuoteData.conversations.sort();
+          const conversationKey = `${conversationId}#${position}`;
+          heroQuoteData.conversations = Array.from(
+            new Set([
+              ...heroQuoteData.conversations ?? [],
+              conversationKey,
+            ]),
+          ).toSorted();
+          if (Array.from(new Set(heroQuoteData.conversations.map(c => c.split("#")[0]))).length !== heroQuoteData.conversations.length) {
+            spinner.pause(() => {
+              logger.warn(`Conversation ${conversationKey} duplicated for hero ${heroKey} fileId ${fileId}`);
+            });
+          }
         }
       }
     }
@@ -394,8 +339,8 @@ export default async function heroQuoteDataGenerate() {
     heroQuoteList.sort((a, b) => {
       if (a.fileId_n === b.fileId_n) {
         if (a.category !== b.category) {
-          const aCategoryOrder = heroQuoteCategoriesOrder[a.category] ?? Number.MAX_SAFE_INTEGER;
-          const bCategoryOrder = heroQuoteCategoriesOrder[b.category] ?? Number.MAX_SAFE_INTEGER;
+          const aCategoryOrder = categoryOrder[a.category] ?? Number.MAX_SAFE_INTEGER;
+          const bCategoryOrder = categoryOrder[b.category] ?? Number.MAX_SAFE_INTEGER;
           if (aCategoryOrder !== bCategoryOrder) {
             return aCategoryOrder - bCategoryOrder;
           }
@@ -437,7 +382,7 @@ export default async function heroQuoteDataGenerate() {
 
   const heroQuoteInfo = {
     _dataType: "Stub",
-    categoryOrder: heroQuoteCategoriesOrder,
+    categoryOrder,
     nonLanguageStrategy: NonLanguageStrategyMap,
   };
   await Bun.write(
@@ -448,6 +393,96 @@ export default async function heroQuoteDataGenerate() {
   spinner.succeed();
 
   logger.success(`已生成 ${Object.values(dataByHero).flatMap(Object.values).flat().length} 条数据`);
+}
+
+function readHeroQuoteCategoriesOrder() {
+  const heroQuoteCategoriesOrder: Record<string, number> = {};
+  const heroQuoteCategories = z.record(
+    z.string(),
+    z.record(z.string().regex(/^@[0-9A-F]{4}$/), z.string()),
+  ).parse(heroQuoteCategoriesToml);
+  let currentOrder = 0;
+  for (const [group, categoryMap] of Object.entries(heroQuoteCategories)) {
+    for (const [mapKey, mapValue] of Object.entries(categoryMap)) {
+      const categoryGuid = mapKey.substring(1);
+      const categoryName = [...group.split("/"), ...mapValue.split("/")].filter(Boolean).join("/");
+      currentOrder++;
+      if (CategoryNameMap[categoryGuid]) {
+        logger.error(`重复分类：${categoryGuid}`);
+        process.exit(1);
+      }
+      CategoryNameMap[categoryGuid] = categoryName;
+      if (heroQuoteCategoriesOrder[categoryName]) {
+        logger.error(`同名分类：${categoryName}`);
+        process.exit(1);
+      }
+      heroQuoteCategoriesOrder[categoryName] = currentOrder;
+    }
+  }
+
+  for (const [_, categoryName] of Object.entries(CategoryNameMap)) {
+    if (!heroQuoteCategoriesOrder[categoryName]) {
+      currentOrder++;
+      heroQuoteCategoriesOrder[categoryName] = currentOrder;
+    }
+  }
+
+  return heroQuoteCategoriesOrder;
+}
+
+async function readOldDataByHero({
+  categoryOrder,
+}: { categoryOrder: Record<string, number> }) {
+  const oldPages = await wikiBatchGet({ namespace: 3500, prefix: "HeroQuotes/" });
+  const dataByHero: Record<string, Record<string, WikiHeroQuote>> = {};
+  for (const [pageTitle, pageContent] of Object.entries(oldPages)) {
+    if (pageTitle.endsWith(".json")) {
+      const wikiQuote = zWikiHeroQuote.parse(destr(pageContent));
+      dataByHero[wikiQuote.hero] ??= {};
+      dataByHero[wikiQuote.hero]![wikiQuote.fileId] = wikiQuote;
+    }
+    else {
+      const wikiQuoteTabx = Tabx.fromJson<WikiHeroQuote>(destr(pageContent));
+      const heroKey = wikiQuoteTabx.toJson().data[0]![3] as string;
+      dataByHero[heroKey] ??= {};
+
+      wikiQuoteTabx.toJson().data.forEach((item) => {
+        const fileId = item[1] as string;
+        const category = item[6] as string;
+        if (fileId.endsWith(".03F") && !categoryOrder[category]) {
+          return;
+        }
+        const fileKey = fileId.endsWith(".0B2") ? fileId : `${fileId}-${category}-${item[7]}`;
+        dataByHero[heroKey]![fileKey] = zWikiHeroQuote.parse({
+          _dataType: item[0],
+          fileId: item[1],
+          fileId_n: item[2],
+          hero: item[3],
+          heroName: item[4],
+          skin: item[5] ?? undefined,
+          category: item[6],
+          subtitle: item[7],
+          subtitle_en: item[8],
+          criteria: item[9] ?? undefined,
+          weight: item[10] ?? undefined,
+          conversations: item[11] ? (item[11] as string).split(";") : undefined,
+          added: item[12] ?? undefined,
+          removed: item[13] ?? undefined,
+        });
+      });
+    }
+  }
+  for (const heroQuotes of Object.values(dataByHero)) {
+    for (const quote of Object.values(heroQuotes)) {
+      if (quote.skin === "碎骨者" || quote.skin === "欧尔麦特") {
+        continue;
+      }
+      if (quote.added === CURRENT_VERSION) delete quote.added;
+      quote.removed ??= CURRENT_VERSION;
+    }
+  }
+  logger.success(`成功加载 ${Object.values(dataByHero).flatMap(Object.values).length} 条旧数据`);
+  return dataByHero;
 }
 
 async function readHeroKeyByName() {
@@ -555,12 +590,12 @@ function parseCriteriaNode(
   if (currentData.hero === "npc") {
     return { condition: { type: "unknown", raw: criteriaString, negative }, nextLineIndex: lineIndex + 1 };
   }
-  // spinnerProgress.fail();
-  logger.error("条件解析失败");
-  logger.error(`  ${line.trim()}`);
-  logger.error(`  ${JSON.stringify(currentData)}`);
+  spinnerProgress.pause(() => {
+    logger.error("条件解析失败");
+    logger.error(`  ${line.trim()}`);
+    logger.error(`  ${JSON.stringify(currentData)}`);
+  });
   // logger.error(`  ${currentFile}`);
-  // process.exit(1);
   return { condition: { type: "unknown", raw: criteriaString, negative }, nextLineIndex: lineIndex + 1 };
 }
 

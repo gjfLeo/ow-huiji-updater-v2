@@ -23,4 +23,8 @@
   "Lua.runtime.version": "Lua 5.1",
 
   "terminal.integrated.rescaleOverlappingGlyphs": true,
+  "cSpell.words": [
+    "voiceline",
+    "voicelines",
+  ],
 }

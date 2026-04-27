@@ -42,6 +42,12 @@ export const spinner = {
   info(message?: string) {
     spinnerOra.info(message);
   },
+  pause(func: () => void) {
+    const m = spinnerOra.text;
+    spinnerOra.stop();
+    func();
+    spinnerOra.start(m);
+  },
 };
 
 export const spinnerProgress = {
@@ -62,6 +68,13 @@ export const spinnerProgress = {
   fail(message?: string) {
     progress.stop();
     spinnerOra.fail(message);
+  },
+  pause(func: () => void) {
+    const p = progress.getProgress();
+    const t = progress.getTotal();
+    progress.stop();
+    func();
+    progress.start(t, p);
   },
 };
 
