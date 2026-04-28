@@ -59,7 +59,7 @@
         font-weight: normal;
       }
 
-      dt {
+      & > dt {
         text-align: right;
         opacity: 0.75;
 
@@ -68,6 +68,13 @@
           border-right: 1px solid rgb(192 192 192 / 0.25);
           padding-right: 0.25rem;
           padding-top: 0.25rem;
+        }
+      }
+
+      .quote-info {
+        grid-template-columns: auto 1fr;
+        dt {
+          text-align: left;
         }
       }
     }
@@ -105,6 +112,10 @@
       .info-value--conversation-id {
         font: var(--font-monospace);
         user-select: all;
+      }
+
+      .info-value--version a {
+        font-weight: normal;
       }
     }
   }
