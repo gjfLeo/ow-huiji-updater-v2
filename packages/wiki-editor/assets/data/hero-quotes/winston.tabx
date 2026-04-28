@@ -11124,7 +11124,7 @@
       null,
       "0000000006EC.0D0#2",
       null,
-      "2.21"
+      "2.21.0"
     ],
     [
       "HeroQuote",
@@ -15796,7 +15796,7 @@
       null,
       "000000000B67.0D0#1",
       null,
-      "2.21"
+      "2.21.0"
     ],
     [
       "HeroQuote",
@@ -17587,7 +17587,7 @@
       "{\"type\":\"nested\",\"total\":4,\"needed\":4,\"conditions\":[{\"type\":\"map\",\"map\":\"哈瓦那\"},{\"type\":\"withHero\",\"hero\":\"源氏\"},{\"type\":\"withHero\",\"hero\":\"天使\"},{\"type\":\"withHero\",\"hero\":\"猎空\"}]}",
       0.6,
       null,
-      "2.21",
+      "2.21.0",
       null
     ],
     [
@@ -17668,7 +17668,7 @@
       null,
       "000000000C07.0D0#2",
       null,
-      "2.21"
+      "2.21.0"
     ],
     [
       "HeroQuote",
@@ -17684,7 +17684,7 @@
       null,
       "000000000C07.0D0#4",
       null,
-      "2.21"
+      "2.21.0"
     ],
     [
       "HeroQuote",
@@ -17747,7 +17747,7 @@
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A5FD\",\"scriptDesc\":\"被纳米激素强化时\"},{\"type\":\"scripted\",\"script\":\"00A5B5\",\"scriptDesc\":\"使用终极技能期间\",\"negative\":true}]}",
       null,
       null,
-      "2.21",
+      "2.21.0",
       null
     ],
     [
@@ -17972,7 +17972,7 @@
       null,
       "000000000CBE.0D0#2",
       null,
-      "2.21"
+      "2.21.0"
     ],
     [
       "HeroQuote",
@@ -18131,7 +18131,7 @@
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00A5FD\",\"scriptDesc\":\"被纳米激素强化时\"},{\"type\":\"scripted\",\"script\":\"00A5B5\",\"scriptDesc\":\"使用终极技能期间\",\"negative\":true}]}",
       null,
       null,
-      "2.21",
+      "2.21.0",
       null
     ],
     [
@@ -18691,7 +18691,7 @@
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null,
       null,
-      "2.21",
+      "2.21.0",
       null
     ],
     [
@@ -18707,7 +18707,7 @@
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"celebration\",\"celebration\":\"愚人节\"},{\"type\":\"scripted\",\"script\":\"00E8CA\",\"scriptDesc\":\"愚人节活动模式\"}]},{\"type\":\"scripted\",\"script\":\"00BB2C\",\"scriptDesc\":\"非竞技比赛\"}]}",
       null,
       null,
-      "2.21",
+      "2.21.0",
       null
     ],
     [
@@ -18740,7 +18740,7 @@
       null,
       "000000000D64.0D0#1",
       null,
-      "2.21"
+      "2.21.0"
     ],
     [
       "HeroQuote",
@@ -18755,7 +18755,7 @@
       null,
       null,
       null,
-      "2.21",
+      "2.21.0",
       null
     ],
     [
@@ -18771,7 +18771,7 @@
       null,
       null,
       null,
-      "2.21",
+      "2.21.0",
       null
     ],
     [
@@ -18787,7 +18787,7 @@
       null,
       null,
       null,
-      "2.21",
+      "2.21.0",
       null
     ],
     [
@@ -18803,7 +18803,7 @@
       null,
       null,
       null,
-      "2.21",
+      "2.21.0",
       null
     ],
     [
@@ -18819,7 +18819,7 @@
       null,
       null,
       null,
-      "2.21",
+      "2.21.0",
       null
     ],
     [
@@ -18835,7 +18835,7 @@
       null,
       null,
       null,
-      "2.21",
+      "2.21.0",
       null
     ],
     [
@@ -18851,7 +18851,7 @@
       null,
       null,
       null,
-      "2.21",
+      "2.21.0",
       null
     ],
     [
@@ -18867,7 +18867,7 @@
       null,
       null,
       null,
-      "2.21",
+      "2.21.0",
       null
     ],
     [
@@ -20035,7 +20035,7 @@
       null,
       null,
       null,
-      "2.21",
+      "2.21.0",
       null
     ],
     [
@@ -23603,7 +23603,7 @@
       null,
       null,
       "00000000117B.0D0#2",
-      "2.21",
+      "2.21.0",
       null
     ],
     [
@@ -23699,7 +23699,7 @@
       null,
       null,
       "0000000013C2.0D0#1",
-      "2.21",
+      "2.21.0",
       null
     ],
     [
@@ -23715,7 +23715,7 @@
       null,
       null,
       "0000000013C6.0D0#4",
-      "2.22",
+      "2.22.0",
       null
     ],
     [
@@ -23731,7 +23731,7 @@
       null,
       null,
       "0000000013C8.0D0#3",
-      "2.21",
+      "2.21.0",
       null
     ],
     [
@@ -23747,7 +23747,7 @@
       null,
       null,
       "0000000013C8.0D0#1",
-      "2.21",
+      "2.21.0",
       null
     ],
     [
@@ -23763,7 +23763,7 @@
       null,
       null,
       "0000000013C6.0D0#2",
-      "2.22",
+      "2.22.0",
       null
     ],
     [
@@ -23779,7 +23779,7 @@
       null,
       null,
       "0000000013B7.0D0#1",
-      "2.22",
+      "2.22.0",
       null
     ],
     [
@@ -23795,7 +23795,7 @@
       null,
       null,
       "0000000013CF.0D0#1",
-      "2.21",
+      "2.21.0",
       null
     ],
     [
@@ -23811,7 +23811,7 @@
       null,
       null,
       "0000000013B8.0D0#2",
-      "2.21",
+      "2.21.0",
       null
     ],
     [
@@ -23827,7 +23827,7 @@
       null,
       null,
       "0000000013B7.0D0#3",
-      "2.22",
+      "2.22.0",
       null
     ],
     [
@@ -23843,7 +23843,7 @@
       null,
       null,
       "0000000013B8.0D0#4",
-      "2.21",
+      "2.21.0",
       null
     ],
     [
@@ -23859,7 +23859,7 @@
       null,
       null,
       "0000000013CF.0D0#3",
-      "2.21",
+      "2.21.0",
       null
     ],
     [
@@ -23875,7 +23875,7 @@
       null,
       null,
       "0000000011BC.0D0#1",
-      "2.21",
+      "2.21.0",
       null
     ],
     [
@@ -23891,7 +23891,7 @@
       null,
       null,
       "00000000131B.0D0#2",
-      "2.21",
+      "2.21.0",
       null
     ],
     [
@@ -23907,7 +23907,7 @@
       null,
       null,
       "00000000131B.0D0#4",
-      "2.21",
+      "2.21.0",
       null
     ],
     [
@@ -23923,7 +23923,7 @@
       "{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"安燃\"},{\"type\":\"toHero\",\"hero\":\"无漾\"}]}",
       null,
       null,
-      "2.21",
+      "2.21.0",
       null
     ],
     [
@@ -23939,7 +23939,7 @@
       null,
       null,
       null,
-      "2.21",
+      "2.21.0",
       null
     ],
     [
@@ -23955,7 +23955,7 @@
       null,
       null,
       null,
-      "2.21",
+      "2.21.0",
       null
     ],
     [
@@ -23971,7 +23971,7 @@
       "{\"type\":\"scripted\",\"script\":\"00AA26\",\"scriptDesc\":\"敌人被暴雪控制\"}",
       null,
       null,
-      "2.21",
+      "2.21.0",
       null
     ],
     [
@@ -23987,7 +23987,7 @@
       "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"scripted\",\"script\":\"00AF43\",\"scriptDesc\":\"敌人被复活后\"},{\"type\":\"toHero\",\"hero\":\"死神\"}]}",
       null,
       null,
-      "2.21",
+      "2.21.0",
       null
     ],
     [
@@ -24003,7 +24003,7 @@
       "{\"type\":\"nested\",\"total\":2,\"needed\":1,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"安燃\"},{\"type\":\"toHero\",\"hero\":\"无漾\"}]}",
       0.2,
       null,
-      "2.21",
+      "2.21.0",
       null
     ],
     [
@@ -24019,7 +24019,7 @@
       "{\"type\":\"toHero\",\"hero\":\"飞天猫\"}",
       null,
       null,
-      "2.21",
+      "2.21.0",
       null
     ],
     [
@@ -24035,7 +24035,7 @@
       null,
       null,
       null,
-      "2.21",
+      "2.21.0",
       null
     ],
     [
@@ -24051,7 +24051,7 @@
       null,
       null,
       null,
-      "2.21",
+      "2.21.0",
       null
     ]
   ]
