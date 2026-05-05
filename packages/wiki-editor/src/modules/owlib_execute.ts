@@ -54,6 +54,7 @@ export default async function executeDataToolOnce() {
   const gamePath = await getStorage("gamePath");
   const outputPath = path.resolve(__dirname, "../../output/owlib");
   await fse.ensureDir(path.join(outputPath, "logs"));
+  console.info(dataToolPath, gamePath, outputPath);
 
   if (!await exists(dataToolPath)) {
     logger.error("工具路径不正确");
