@@ -1,12 +1,12 @@
 {
   "_hjschema": "Ability",
   "_dataType": "ability",
-  "key": "天使/神圣动能",
-  "name": "神圣动能",
+  "key": "天使/展翅飞翔",
+  "name": "展翅飞翔",
   "hero": "天使",
   "category": "Perk",
   "button": null,
-  "description": "取消守护天使后，“天使”的飞行速度加快15%",
+  "description": "守护天使的范围扩大30%",
   "removed": true,
   "basicStats": {
     "perkIndex": "2B"

@@ -5,17 +5,19 @@
   "name": "副职责：先锋",
   "category": "PassiveAbility",
   "button": null,
-  "description": "在空中时获得持续治疗",
-  "basicStats": {},
+  "description": "使用特定位移技能后获得持续治疗",
+  "basicStats": {
+    "cooldown": 5
+  },
   "keywords": [],
   "detailStats": [
     {
-      "name": "滞空时间要求",
-      "value": "0.8秒"
+      "name": "位移技能",
+      "value": "喷射背包、推进器、狂跃、工程抓钩、火箭重拳"
     },
     {
       "name": "总持续治疗量",
-      "value": "60"
+      "value": "50"
     },
     {
       "name": "治疗持续时间",

@@ -6,7 +6,7 @@
   "hero": "瑞稀",
   "category": "UltimateAbility",
   "button": "技能 3",
-  "description": "生成一道结界，能治疗盟友并吸收结界外发射的敌方射弹",
+  "description": "生成一道结界，能治疗位于其中的盟友并吸收穿过结界的敌方射弹",
   "basicStats": {
     "ultimateCharge": 3100
   },
@@ -27,11 +27,11 @@
   "detailStats": [
     {
       "name": "治疗量",
-      "value": "100（初始）<br />50（每秒治疗量）"
+      "value": "100（初始）<br />40（每秒治疗量）"
     },
     {
       "name": "持续时间",
-      "value": "7秒"
+      "value": "6秒"
     },
     {
       "name": "效果范围",
