@@ -428,7 +428,12 @@ export const abilityKeywords: AbilityKeyword[] = [
   {
     name: "装填",
     name_en: "Reloads",
-    description: "完全装填英雄的武器",
+    description: "立即完全装填英雄的武器",
+  },
+  {
+    name: "切换装填",
+    name_en: "Swap Reloads",
+    description: "使用另一武器、辅助攻击模式或变身一小段时间后，完全装填英雄的武器",
   },
   {
     name: "弱效装填",
