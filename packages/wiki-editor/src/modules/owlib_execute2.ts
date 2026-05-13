@@ -24,12 +24,23 @@ export default async function owlib_execute2() {
     args?: string[];
     outputDirName?: string;
     outputJsonFilename?: string;
-    logFilename: string;
-  }, rawFlags: OwLibFlags = {}) {
+    logFileName?: string;
+  } = {}, rawFlags: OwLibFlags = {}) {
+    if (command.startsWith("list-")) {
+      options.outputJsonFilename ??= `${command.substring(5)}.json`;
+    }
+    if (command.startsWith("extract-")) {
+      options.outputDirName ??= "extract";
+    }
+    options.logFileName ??= `${command}.log`;
+
     rawFlags.language = rawFlags.language ?? "zhCN";
     rawFlags.speechLanguage = rawFlags.speechLanguage ?? "zhCN";
     rawFlags.online ??= false;
     rawFlags.disableLanguageRegistry ??= true;
+    rawFlags.skipAnimationEffects ??= true;
+    rawFlags.skipAnimations ??= true;
+    rawFlags.skipModels ??= true;
 
     const finalArgs: string[] = [];
 
@@ -47,7 +58,7 @@ export default async function owlib_execute2() {
       return `--${kebabCase(key)}=${value}`;
     }));
 
-    const logFile = Bun.file(path.join(outputPath, "logs", options.logFilename));
+    const logFile = Bun.file(path.join(outputPath, "logs", options.logFileName));
     if (await logFile.exists()) {
       await logFile.delete();
     }
@@ -64,61 +75,88 @@ export default async function owlib_execute2() {
     const proc = Bun.spawn([dataToolPath, gamePath, command, ...finalArgs], {});
     proc.stdout!.pipeTo(writable);
     await proc.exited;
-    return proc.exitCode;
   }
 
   const commands: Record<string, () => Promise<void>> = {
     "dump-ui-textures": async () => {
       await executeOwLibCommand(
         "dump-ui-textures",
-        { outputDirName: "dump", logFilename: "dump-ui-textures.log" },
+        { outputDirName: "dump", logFileName: "dump-ui-textures.log" },
       );
     },
     "dump-strings": async () => {
       await executeOwLibCommand(
         "dump-strings",
-        { outputJsonFilename: "strings_zh.json", logFilename: "dump-strings-zh.log" },
+        { outputJsonFilename: "strings_zh.json", logFileName: "dump-strings_zh.log" },
       );
       await executeOwLibCommand(
         "dump-strings",
-        { outputJsonFilename: "strings_en.json", logFilename: "dump-strings-en.log" },
+        { outputJsonFilename: "strings_en.json", logFileName: "dump-strings_en.log" },
         { language: "enUS", disableLanguageRegistry: false, online: true },
       );
     },
     "extract-hero-icons": async () => {
       await executeOwLibCommand(
         "extract-hero-icons",
-        { outputDirName: "extract", logFilename: "extract-hero-icons.log" },
+        { outputDirName: "extract", logFileName: "extract-hero-icons.log" },
+      );
+    },
+    "extract-abilities": async () => {
+      await executeOwLibCommand(
+        "extract-abilities",
+        { outputDirName: "extract", logFileName: "extract-extract-abilities.log" },
       );
     },
 
-    "extract-general": async () => {
-      await executeOwLibCommand(
-        "extract-general",
-        { outputDirName: "extract", logFilename: "extract-general.log" },
-        { stringGuid: true, skipModels: true, skipAnimations: true },
-      );
-    },
     "extract-unlocks": async () => {
       await executeOwLibCommand(
         "extract-unlocks",
-        { args: ["*|spray=*"], outputDirName: "extract", logFilename: "extract-unlocks.log" },
+        { args: ["*|spray=*"], outputDirName: "extract", logFileName: "extract-unlocks.log" },
         { stringGuid: true },
       );
     },
+    "extract-sprays": () => executeOwLibCommand("extract-sprays", {}, { stringGuid: true }),
+    "extract-player-icons": () => executeOwLibCommand("extract-player-icons", {}, { stringGuid: true }),
+    "extract-name-cards": () => executeOwLibCommand("extract-name-cards", {}, { stringGuid: true }),
 
-    "list-maps": async () => {
-      await executeOwLibCommand(
-        "list-maps",
-        { outputJsonFilename: "maps.json", logFilename: "list-maps.log" },
-      );
-    },
+    "extract-intel-database": () => executeOwLibCommand("extract-intel-database"),
+
+    "list-heroes": () => executeOwLibCommand("list-heroes"),
+    "list-abilities": () => executeOwLibCommand("list-abilities"),
+    "list-talents": () => executeOwLibCommand("list-talents"),
+    "list-maps": () => executeOwLibCommand("list-maps"),
+    "list-achievements": () => executeOwLibCommand("list-achievements"),
+    "list-challenges": () => executeOwLibCommand("list-challenges"),
     "list-all-unlocks": async () => {
       await executeOwLibCommand(
         "list-all-unlocks",
-        { outputJsonFilename: "unlocks.json", logFilename: "list-unlocks.log" },
+        { outputJsonFilename: "unlocks.json", logFileName: "list-unlocks.log" },
+      );
+      await executeOwLibCommand(
+        "list-all-unlocks",
+        { outputJsonFilename: "unlocks_guid.json", logFileName: "list-unlocks_guid.log" },
+        { stringGuid: true, noGuidNames: true },
       );
     },
+    "list-conversations": () => executeOwLibCommand("list-conversations"),
+
+    "list-arcade-modes": () => executeOwLibCommand("list-arcade-modes"),
+    "list-brawls": () => executeOwLibCommand("list-brawls"),
+    "list-brawl-names": () => executeOwLibCommand("list-brawl-names"),
+    "list-game-modes": () => executeOwLibCommand("list-game-modes"),
+    "list-game-rulesets": () => executeOwLibCommand("list-game-rulesets"),
+    "list-game-ruleset-schemas": () => executeOwLibCommand("list-game-ruleset-schemas"),
+    "list-hero-rulesets": () => executeOwLibCommand("list-hero-rulesets"),
+    "list-workshop": () => executeOwLibCommand("list-workshop"),
+    "list-debug-herosettings": () => executeOwLibCommand("list-debug-herosettings"),
+
+    "list-chat-replacements": () => executeOwLibCommand("list-chat-replacements"),
+    "list-chat-settings": () => executeOwLibCommand("list-chat-settings"),
+    "list-profanity-filters": () => executeOwLibCommand("list-profanity-filters"),
+    "list-report-responses": () => executeOwLibCommand("list-report-responses"),
+    "list-tips": () => executeOwLibCommand("list-tips"),
+    "list-esport-teams": () => executeOwLibCommand("list-esport-teams"),
+    "list-lootbox": () => executeOwLibCommand("list-lootbox"),
   };
 
   const operations: string[] = await checkbox({
