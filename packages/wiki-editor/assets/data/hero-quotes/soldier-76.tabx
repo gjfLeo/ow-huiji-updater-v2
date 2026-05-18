@@ -14788,7 +14788,7 @@
       null,
       "000000000CBD.0D0#2",
       null,
-      null
+      "2.22.1"
     ],
     [
       "HeroQuote",
@@ -19016,6 +19016,38 @@
     ],
     [
       "HeroQuote",
+      "000000069947.0B2",
+      432455,
+      "soldier-76",
+      "士兵：76",
+      null,
+      "赛前对话",
+      "不阻止当年毁了“守望先锋”的家伙，我们谁都安全不了。",
+      "None of us will be safe until we stop whoever took down Overwatch.",
+      null,
+      null,
+      "00000000129D.0D0#3",
+      "2.22.1",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000069948.0B2",
+      432456,
+      "soldier-76",
+      "士兵：76",
+      null,
+      "赛前对话",
+      "怎么，你不劝我别打必败的仗吗，安娜？",
+      "What? No lectures on how I'm fighting a losing battle, Ana?",
+      null,
+      null,
+      "00000000129C.0D0#1",
+      "2.22.1",
+      null
+    ],
+    [
+      "HeroQuote",
       "000000069949.0B2",
       432457,
       "soldier-76",
@@ -19028,6 +19060,22 @@
       null,
       "00000000129B.0D0#3",
       "2.21.0",
+      null
+    ],
+    [
+      "HeroQuote",
+      "00000006994A.0B2",
+      432458,
+      "soldier-76",
+      "士兵：76",
+      null,
+      "赛前对话",
+      "遭受“黑爪”袭击后，米雷贝还好吗？",
+      "How's Mirembe holding up after the Talon attack?",
+      null,
+      null,
+      "00000000129D.0D0#1",
+      "2.22.1",
       null
     ],
     [
@@ -19236,6 +19284,38 @@
       null,
       "000000001329.0D0#3",
       null,
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000069CDE.0B2",
+      433374,
+      "soldier-76",
+      "士兵：76",
+      null,
+      "赛前对话",
+      "是个小姑娘。他们可能要把她加到名单上。",
+      "There's a girl. I think they're going to add her to their list.",
+      null,
+      null,
+      "00000000132A.0D0#3",
+      "2.22.1",
+      null
+    ],
+    [
+      "HeroQuote",
+      "000000069CDF.0B2",
+      433375,
+      "soldier-76",
+      "士兵：76",
+      null,
+      "赛前对话",
+      "我在秘鲁的时候有个发现，你或许会想调查一下。",
+      "When I was in Peru, I found something you might want to look into.",
+      null,
+      null,
+      "00000000132A.0D0#1",
+      "2.22.1",
       null
     ],
     [

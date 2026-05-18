@@ -12720,8 +12720,8 @@
       "消灭/11D7",
       "你的问题，或许是鞋穿得太紧了。",
       "Perhaps your problem was that restricting footwear.",
-      "{\"type\":\"nested\",\"total\":2,\"needed\":2,\"conditions\":[{\"type\":\"toHero\",\"hero\":\"西格玛\"},{\"type\":\"scripted\",\"script\":\"00A893\",\"scriptDesc\":\"敌方西格玛使用穿鞋的皮肤\"}]}",
-      0.1,
+      "{\"type\":\"scripted\",\"script\":\"00A893\",\"scriptDesc\":\"敌方西格玛使用穿鞋的皮肤\"}",
+      null,
       null,
       null,
       null
