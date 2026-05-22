@@ -78,12 +78,7 @@ export default async function owlib_execute2() {
   }
 
   const commands: Record<string, () => Promise<void>> = {
-    "dump-ui-textures": async () => {
-      await executeOwLibCommand(
-        "dump-ui-textures",
-        { outputDirName: "dump", logFileName: "dump-ui-textures.log" },
-      );
-    },
+    "dump-ui-textures": () => executeOwLibCommand("dump-ui-textures", { outputDirName: "dump" }),
     "dump-strings": async () => {
       await executeOwLibCommand(
         "dump-strings",
@@ -95,31 +90,25 @@ export default async function owlib_execute2() {
         { language: "enUS", disableLanguageRegistry: false, online: true },
       );
     },
-    "extract-hero-icons": async () => {
-      await executeOwLibCommand(
-        "extract-hero-icons",
-        { outputDirName: "extract", logFileName: "extract-hero-icons.log" },
-      );
-    },
-    "extract-abilities": async () => {
-      await executeOwLibCommand(
-        "extract-abilities",
-        { outputDirName: "extract", logFileName: "extract-extract-abilities.log" },
-      );
-    },
+    "extract-hero-icons": () => executeOwLibCommand("extract-hero-icons"),
+    "extract-abilities": () => executeOwLibCommand("extract-abilities"),
 
-    "extract-unlocks": async () => {
-      await executeOwLibCommand(
-        "extract-unlocks",
-        { args: ["*|spray=*"], outputDirName: "extract", logFileName: "extract-unlocks.log" },
-        { stringGuid: true },
-      );
-    },
+    // "extract-unlocks": async () => {
+    //   await executeOwLibCommand(
+    //     "extract-unlocks",
+    //     { args: ["*|spray=*"], outputDirName: "extract", logFileName: "extract-unlocks.log" },
+    //     { stringGuid: true },
+    //   );
+    // },
     "extract-sprays": () => executeOwLibCommand("extract-sprays", {}, { stringGuid: true }),
     "extract-player-icons": () => executeOwLibCommand("extract-player-icons", {}, { stringGuid: true }),
     "extract-name-cards": () => executeOwLibCommand("extract-name-cards", {}, { stringGuid: true }),
 
     "extract-intel-database": () => executeOwLibCommand("extract-intel-database"),
+
+    "extract-hero-voice": () => executeOwLibCommand("extract-hero-voice", {}, { voiceGroupBySkin: true, subtitlesWithSounds: true }),
+    "extract-npc-voice": () => executeOwLibCommand("extract-npc-voice", {}, { subtitlesWithSounds: true }),
+    "extract-conversations": () => executeOwLibCommand("extract-conversations", {}, { subtitlesWithSounds: true }),
 
     "list-heroes": () => executeOwLibCommand("list-heroes"),
     "list-abilities": () => executeOwLibCommand("list-abilities"),
@@ -142,11 +131,11 @@ export default async function owlib_execute2() {
 
     "list-arcade-modes": () => executeOwLibCommand("list-arcade-modes"),
     "list-brawls": () => executeOwLibCommand("list-brawls"),
-    "list-brawl-names": () => executeOwLibCommand("list-brawl-names"),
-    "list-game-modes": () => executeOwLibCommand("list-game-modes"),
+    "list-brawl-name": () => executeOwLibCommand("list-brawl-name"),
+    "list-gamemodes": () => executeOwLibCommand("list-gamemodes"),
     "list-game-rulesets": () => executeOwLibCommand("list-game-rulesets"),
     "list-game-ruleset-schemas": () => executeOwLibCommand("list-game-ruleset-schemas"),
-    "list-hero-rulesets": () => executeOwLibCommand("list-hero-rulesets"),
+    "list-heroes-rulesets": () => executeOwLibCommand("list-heroes-rulesets"),
     "list-workshop": () => executeOwLibCommand("list-workshop"),
     "list-debug-herosettings": () => executeOwLibCommand("list-debug-herosettings"),
 
@@ -157,6 +146,17 @@ export default async function owlib_execute2() {
     "list-tips": () => executeOwLibCommand("list-tips"),
     "list-esport-teams": () => executeOwLibCommand("list-esport-teams"),
     "list-lootbox": () => executeOwLibCommand("list-lootbox"),
+    "list-subtitles-real": async () => {
+      await executeOwLibCommand(
+        "list-subtitles-real",
+        { logFileName: "list-subtitles-real_zh.log" },
+      );
+      await executeOwLibCommand(
+        "list-subtitles-real",
+        { logFileName: "list-subtitles-real_en.log" },
+        { language: "enUS", disableLanguageRegistry: false, online: true },
+      );
+    },
   };
 
   const operations: string[] = await checkbox({

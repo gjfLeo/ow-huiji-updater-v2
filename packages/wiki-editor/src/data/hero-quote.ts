@@ -239,6 +239,7 @@ export const HeroQuoteHeroTagNames: Record<string, string> = {
   Unknown1019: "镜影守望守望先锋皮肤",
   Unknown11F1: "守望先锋新成员（黑爪之治）",
   Unknown11F2: "离开黑爪的成员（黑爪之治）",
+  Unknown1200: "太阳神主题皮肤",
 };
 
 export const HeroQuoteCelebrationName: Record<string, string> = {

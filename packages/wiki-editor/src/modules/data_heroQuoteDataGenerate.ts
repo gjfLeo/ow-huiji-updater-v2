@@ -18,7 +18,7 @@ import { wikiBatchGet } from "../wiki/batch";
 
 const RAW_DATA_PATH = path.resolve(__dirname, "../../output/owlib");
 const OUTPUT_PATH = path.resolve(__dirname, "../../assets/data/hero-quotes");
-const CURRENT_VERSION = "2.22";
+const CURRENT_VERSION = "2.22.1";
 const heroKeyByName = await readHeroKeyByName();
 
 const tabxHeaders: TabxInputHeader[] = [
@@ -47,8 +47,8 @@ export default async function heroQuoteDataGenerate() {
   // MARK: 加载资源
   spinner.start("加载资源");
   const decoder = new TextDecoder("utf-16");
-  const zhSubtitles = await readSubtitles(path.join(RAW_DATA_PATH, "logs", "list-subtitles-real-1.log"));
-  const enSubtitles = await readSubtitles(path.join(RAW_DATA_PATH, "logs", "list-subtitles-real-2.log"));
+  const zhSubtitles = await readSubtitles(path.join(RAW_DATA_PATH, "logs", "list-subtitles-real_zh.log"));
+  const enSubtitles = await readSubtitles(path.join(RAW_DATA_PATH, "logs", "list-subtitles-real_en.log"));
 
   spinner.succeed();
 
@@ -220,14 +220,7 @@ export default async function heroQuoteDataGenerate() {
         subtitle: zhSubtitle,
         subtitle_en: "",
       };
-      if (dataByHero[hero]![fileKey03F]) {
-        heroQuoteData.added = dataByHero[hero]![fileKey03F]!.added;
-        dataByHero[hero]![fileKey03F] = heroQuoteData;
-      }
-      else {
-        // heroQuoteData.added = CURRENT_VERSION;
-        dataByHero[hero]![fileKey03F] = heroQuoteData;
-      }
+      dataByHero[hero]![fileKey03F] = heroQuoteData;
     }
 
     for (const voiceFile of heroVoice03FFiles) {
@@ -269,6 +262,7 @@ export default async function heroQuoteDataGenerate() {
         ["**/*.ogg"],
         { cwd: conversationFolder },
       );
+      let category: string;
       for (const quoteFile of quoteFiles) {
         const match = path.basename(quoteFile)
           .match(/^(?<fileNumber>\d+)-(?<heroName>\S+?)-(?<fileId>\w{12}\.(?:0B2|03F))/);
@@ -280,7 +274,7 @@ export default async function heroQuoteDataGenerate() {
           throw new Error(`Invalid quote file format: ${quoteFile}`);
         }
 
-        // 卢西奥的动物，疑似是因为飞天猫
+        // 卢西奥的动物，疑似是因为飞天猫错位
         const quoteIndex = Number(fileNumber) > 52 ? Number(fileNumber) : Number(fileNumber) - 1;
         const position = conversationListData.Voicelines[quoteIndex]?.Position;
         if (!position) {
@@ -290,17 +284,25 @@ export default async function heroQuoteDataGenerate() {
         const subtitle = await getConversationVoiceFileSubtitle(conversationFolder, quoteFile);
         let heroQuoteData = dataByHero[heroKey]?.[fileId];
         if (!heroQuoteData) {
-          const fileIdMatches = Object.entries(dataByHero[heroKey] ?? {})
+          // fileId - quoteData
+          let fileIdMatches = Object.entries(dataByHero[heroKey] ?? {})
             .filter(([key]) => key.startsWith(fileId) && key.endsWith(subtitle));
           if (fileIdMatches.length === 1) {
             heroQuoteData = fileIdMatches[0]![1];
           }
           else {
-          // 需要优化筛选
-            throw new Error(`Cannot match fileId ${fileId} in hero ${heroKey}`);
+            fileIdMatches = fileIdMatches.filter(([_, quote]) => quote.category === category);
+            if (fileIdMatches.length === 1) {
+              heroQuoteData = fileIdMatches[0]![1];
+            }
+            else {
+              // 需要优化筛选
+              throw new Error(`Cannot match fileId ${fileId} in hero ${heroKey}, conversation ${conversationId}`);
+            }
           }
         }
         if (heroQuoteData) {
+          category = heroQuoteData.category;
           const conversationKey = `${conversationId}#${position}`;
           heroQuoteData.conversations = Array.from(
             new Set([
@@ -449,7 +451,7 @@ async function readOldDataByHero({
       wikiQuoteTabx.toJson().data.forEach((item) => {
         const fileId = item[1] as string;
         const category = item[6] as string;
-        if (fileId.endsWith(".03F") && !categoryOrder[category]) {
+        if (fileId.endsWith(".03F") /* && !categoryOrder[category] */) {
           return;
         }
         const fileKey = fileId.endsWith(".0B2") ? fileId : `${fileId}-${category}-${item[7]}`;

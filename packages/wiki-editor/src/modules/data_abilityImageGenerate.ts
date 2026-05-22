@@ -1,7 +1,7 @@
 import path from "node:path";
-import { copy, emptyDir } from "fs-extra";
+import { copy, emptyDir, exists } from "fs-extra";
 import { glob } from "tinyglobby";
-import { OUTPUT_ABILITY_IMAGE_DIR, OWLIB_EXTRACT_HERO_ICONS_DIR, OWLIB_HERO_LIST } from "../constants/paths";
+import { OUTPUT_ABILITY_IMAGE_DIR, OWLIB_EXTRACT_HERO_ICONS_DIR, OWLIB_HERO_LIST, OWLIB_UI_TEXTURE_DIR } from "../constants/paths";
 import { zOWLibHero } from "../models/owlib/heroes";
 import { logger, spinnerProgress } from "../utils/logger";
 
@@ -11,8 +11,6 @@ export default async function data_abilityImageGenerate() {
     .filter(item => item.IsHero);
 
   await emptyDir(OUTPUT_ABILITY_IMAGE_DIR);
-
-  const iconFiles = await glob("**/*.png", { cwd: OWLIB_EXTRACT_HERO_ICONS_DIR });
 
   spinnerProgress.start("生成技能图标", owlibHeroList.flatMap(hero => [
     ...hero.Loadouts,
@@ -30,13 +28,13 @@ export default async function data_abilityImageGenerate() {
         process.exit(1);
       }
 
-      const sourceFile = iconFiles.find(item => item.endsWith(`${filename}.png`));
-      if (!sourceFile) {
+      const sourceFile = path.join(OWLIB_UI_TEXTURE_DIR, `${filename}.png`);
+      if (!await exists(sourceFile)) {
         logger.error(`技能${ability.Name}的图标${filename}.png不存在`);
         process.exit(1);
       }
       await copy(
-        path.join(OWLIB_EXTRACT_HERO_ICONS_DIR, sourceFile),
+        sourceFile,
         path.join(OUTPUT_ABILITY_IMAGE_DIR, `${owlibHero.Name}_${ability.Name}_图标.png`),
       );
       spinnerProgress.increment();
