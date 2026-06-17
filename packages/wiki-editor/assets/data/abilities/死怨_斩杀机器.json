@@ -1,12 +1,12 @@
 {
   "_hjschema": "Ability",
   "_dataType": "ability",
-  "key": "艾什/双筒猎枪",
-  "name": "双筒猎枪",
-  "hero": "艾什",
+  "key": "死怨/斩杀机器",
+  "name": "斩杀机器",
+  "hero": "死怨",
   "category": "Perk",
   "button": null,
-  "description": "用短筒猎枪击退敌人后，可在2秒内再次使用该技能%",
+  "description": "交叉枪决对生命值低于50%的敌人造成的伤害提高20%",
   "basicStats": {
     "perkIndex": "2B"
   },

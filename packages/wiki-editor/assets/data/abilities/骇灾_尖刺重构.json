@@ -6,9 +6,9 @@
   "hero": "骇灾",
   "category": "Perk",
   "button": null,
-  "description": "尖刺墙命中会为尖刺护体充能25点能量，最多额外充能50点",
+  "description": "尖刺墙命中会为尖刺护体过量充能25%额外能量",
   "basicStats": {
-    "perkIndex": "3A"
+    "perkIndex": "2A"
   },
   "keywords": [],
   "detailStats": []

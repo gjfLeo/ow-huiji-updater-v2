@@ -8,7 +8,7 @@
   "button": "技能 1",
   "description": "向前一跃，并在原地留下一个纸人。再次激活会返回原地，且在激活期间加快移动速度",
   "basicStats": {
-    "cooldown": 12
+    "cooldown": 11
   },
   "keywords": [
     {
@@ -43,7 +43,7 @@
     },
     {
       "name": "持续时间",
-      "value": "4.5秒"
+      "value": "5.5秒"
     },
     {
       "name": "无敌状态持续时间",

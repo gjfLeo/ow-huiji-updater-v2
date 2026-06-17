@@ -154,6 +154,7 @@ export const abilityKeywords: AbilityKeyword[] = [
     variations: [
       "<mark>给此可部署物的拥有者施加</mark>增伤时，此可部署物的伤害不受影响",
       "此技能的<mark>百分比</mark>伤害不受增伤影响",
+      "此技能的<mark>爆炸</mark>伤害不受增伤影响",
     ],
   },
   {
@@ -343,6 +344,11 @@ export const abilityKeywords: AbilityKeyword[] = [
     name_en: "Overhealth",
     description: "此技能会提供不可治疗的额外生命值，且敌人对此类额外生命值造成伤害时获得的终极技能充能降低50%",
   },
+  {
+    name: "强减免",
+    name_en: "",
+    description: "此技能提供的受伤减免效果超过-50%的受伤减免上限，但不可与其他受伤减免效果叠加",
+  },
 
   // MARK: 控制效果
   {
@@ -474,5 +480,23 @@ export const abilityKeywords: AbilityKeyword[] = [
     name: "强恢复",
     name_en: "Strong Regen",
     description: "被动生命值恢复始终激活，受到伤害不会被打断",
+  },
+  {
+    name: "粉碎",
+    name_en: "",
+    description: "此可部署物在放置时立即摧毀周围的可部署墙体、炮台及其他实体",
+  },
+  {
+    name: "治疗强化上限",
+    name_en: "",
+    description: "此可部署物在放置时立即摧毀周围的可部署墙体、炮台及其他实体",
+  },
+  {
+    name: "部分位移",
+    name_en: "",
+    description: "",
+    variations: [
+      "受限制时<mark>冲刺爆发</mark>会被沉默",
+    ]
   },
 ];

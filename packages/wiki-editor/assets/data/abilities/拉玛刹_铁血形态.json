@@ -6,7 +6,7 @@
   "hero": "拉玛刹",
   "category": "Perk",
   "button": null,
-  "description": "天罚形态激活时，造成消灭会使其持续时间延长1秒",
+  "description": "天罚形态激活时，造成消灭会使其持续时间延长2秒。在“诛”期间延长的持续时间减半",
   "basicStats": {
     "perkIndex": "2A"
   },

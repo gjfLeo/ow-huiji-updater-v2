@@ -7,6 +7,7 @@
   "category": "Perk",
   "button": null,
   "description": "火炮模式提供300点临时过量生命值",
+  "removed": true,
   "basicStats": {
     "perkIndex": "2A"
   },

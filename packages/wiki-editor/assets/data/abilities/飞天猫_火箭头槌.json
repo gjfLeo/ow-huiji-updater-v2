@@ -6,7 +6,7 @@
   "hero": "飞天猫",
   "category": "Perk",
   "button": null,
-  "description": "咻咻飞达到足够速度时，击中敌人会将其击退",
+  "description": "咻咻飞达到足够速度可击退敌人，击中时造成50点伤害",
   "basicStats": {
     "perkIndex": "3A"
   },

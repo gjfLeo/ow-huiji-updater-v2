@@ -8,12 +8,16 @@
   "button": "技能 3",
   "description": "种植一棵树，发芽时立即治疗盟友，<br />树木存活时会持续产生周期性治疗",
   "basicStats": {
-    "ultimateCharge": 2200
+    "ultimateCharge": 2400
   },
   "keywords": [
     {
       "name": "范围效果",
       "value": "影响<mark>球形</mark>范围内的目标"
+    },
+    {
+      "name": "粉碎",
+      "value": ""
     },
     {
       "name": "无视屏障",
@@ -35,7 +39,7 @@
     },
     {
       "name": "过量生命值",
-      "value": "过量治疗量的100%转换为过量生命值<br />最大过量生命值100"
+      "value": "过量治疗量的50%转换为过量生命值<br />最大过量生命值100"
     },
     {
       "name": "治疗脉冲间隔",

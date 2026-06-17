@@ -1,12 +1,12 @@
 {
   "_hjschema": "Ability",
   "_dataType": "ability",
-  "key": "西拉/锁定猛攻",
-  "name": "锁定猛攻",
-  "hero": "西拉",
+  "key": "金驭/战略转移",
+  "name": "战略转移",
+  "hero": "金驭",
   "category": "Perk",
   "button": null,
-  "description": "追踪弹命中敌人会使你的攻击速度加快20%，持续2秒",
+  "description": "屏障阵列激活时，可移动一次位置",
   "basicStats": {
     "perkIndex": "3B"
   },

@@ -1,0 +1,61 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "死怨/杀戮狂宴",
+  "name": "杀戮狂宴",
+  "hero": "死怨",
+  "category": "UltimateAbility",
+  "button": "技能 3",
+  "description": "尽情倾泻火力并向前冲刺3次",
+  "basicStats": {
+    "ultimateCharge": 2400
+  },
+  "keywords": [
+    {
+      "name": "范围效果",
+      "value": "影响<mark>球形</mark>范围内的目标"
+    },
+    {
+      "name": "即时命中",
+      "value": ""
+    },
+    {
+      "name": "部分位移",
+      "value": "受限制时<mark>冲刺爆发</mark>会被沉默"
+    },
+    {
+      "name": "装填",
+      "value": ""
+    },
+    {
+      "name": "变身",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "单发齐射伤害量",
+      "value": "180-90"
+    },
+    {
+      "name": "持续时间",
+      "value": "6秒（最大）<br />0.4秒（爆发）"
+    },
+    {
+      "name": "最小-最大半径",
+      "value": "5-7米"
+    },
+    {
+      "name": "冲刺范围",
+      "value": "12米"
+    },
+    {
+      "name": "冲刺速度",
+      "value": "20米/秒"
+    },
+    {
+      "name": "充能次数",
+      "value": "3"
+    }
+  ]
+}

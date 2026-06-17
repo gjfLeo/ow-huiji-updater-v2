@@ -1,0 +1,45 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "死怨/交叉枪决",
+  "name": "交叉枪决",
+  "hero": "死怨",
+  "category": "Ability",
+  "button": "辅助攻击模式",
+  "description": "发射X形的齐射，长按可收紧散布",
+  "basicStats": {
+    "cooldown": 5
+  },
+  "keywords": [
+    {
+      "name": "暴击",
+      "value": ""
+    },
+    {
+      "name": "即时命中",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "单发齐射伤害量",
+      "value": "140（基础）<br />42（最大衰减）"
+    },
+    {
+      "name": "散布",
+      "value": "8.5/4.6度（最大宽度/高度）<br />1.3/0.7度（最小宽度/高度）"
+    },
+    {
+      "name": "蓄力时间",
+      "value": "0.7/1.3秒（满蓄力/额外蓄力）"
+    },
+    {
+      "name": "最小-最大衰减射程",
+      "value": "20-30米"
+    },
+    {
+      "name": "单发齐射弹丸数",
+      "value": "14"
+    }
+  ]
+}

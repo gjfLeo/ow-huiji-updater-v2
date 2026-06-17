@@ -1,0 +1,41 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "死怨/机动闪避",
+  "name": "机动闪避",
+  "hero": "死怨",
+  "category": "Ability",
+  "button": "技能 1",
+  "description": "疾冲并在短时间内获得过量生命值",
+  "basicStats": {
+    "cooldown": 6
+  },
+  "keywords": [
+    {
+      "name": "闪避",
+      "value": ""
+    },
+    {
+      "name": "过量生命值",
+      "value": ""
+    },
+    {
+      "name": "强位移",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "范围",
+      "value": "8米"
+    },
+    {
+      "name": "速度",
+      "value": "20米/秒"
+    },
+    {
+      "name": "过量生命值",
+      "value": "75（数值）<br />0.5秒（持续时间）<br />1.2秒（衰减时间）"
+    }
+  ]
+}

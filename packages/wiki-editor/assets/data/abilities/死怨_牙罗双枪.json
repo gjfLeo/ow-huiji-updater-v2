@@ -1,0 +1,34 @@
+{
+  "_hjschema": "Ability",
+  "_dataType": "ability",
+  "key": "死怨/牙罗双枪",
+  "name": "牙罗双枪",
+  "hero": "死怨",
+  "category": "Weapon",
+  "button": "主要攻击模式",
+  "description": "速射幻灵手枪",
+  "basicStats": {
+    "ammo": 18,
+    "reloadTime": 1.5
+  },
+  "keywords": [
+    {
+      "name": "暴击",
+      "value": ""
+    },
+    {
+      "name": "即时命中",
+      "value": ""
+    }
+  ],
+  "detailStats": [
+    {
+      "name": "伤害量",
+      "value": "35（基础）<br />10.5（最大衰减）"
+    },
+    {
+      "name": "最小-最大衰减射程",
+      "value": "20-30米"
+    }
+  ]
+}

@@ -8,7 +8,7 @@
   "button": "技能 2",
   "description": "格挡向你射来的飞弹并将其向你瞄准方向反弹回去，同时还能招架近战攻击",
   "basicStats": {
-    "cooldown": 10
+    "cooldown": 8
   },
   "keywords": [
     {

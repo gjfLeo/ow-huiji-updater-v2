@@ -6,7 +6,7 @@
   "hero": "卡西迪",
   "category": "Perk",
   "button": null,
-  "description": "每有一名敌人成为神射手的目标，每秒恢复30点生命值",
+  "description": "每有一名敌人成为神射手的目标，每秒恢复40点生命值",
   "basicStats": {
     "perkIndex": "2B"
   },

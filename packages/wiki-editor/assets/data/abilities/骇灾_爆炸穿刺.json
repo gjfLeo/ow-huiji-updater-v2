@@ -6,7 +6,7 @@
   "hero": "骇灾",
   "category": "Perk",
   "button": null,
-  "description": "骨刺命中后会在目标身上留下尖刺。快速近身攻击和狂跃的劈砍会引爆尖刺，造成40点爆炸伤害",
+  "description": "骨刺命中后会在目标身上留下尖刺。快速近身攻击和狂跃的劈砍会引爆尖刺，造成30点爆炸伤害",
   "basicStats": {
     "perkIndex": "3B"
   },

@@ -71,6 +71,15 @@ const zHeroConfigData = z
             content: z.string(),
           }),
         ),
+        subRole: z.object({
+          key: z.string(),
+          displayName: z.string(),
+          description: z.string(),
+        }),
+        MinorPerk1: z.any(),
+        MinorPerk2: z.any(),
+        MajorPerk1: z.any(),
+        MajorPerk2: z.any(),
         storyVideo: z.object({
           cover: z.union([z.url(), z.literal("")]),
           src: z.union([z.url(), z.literal("")]),

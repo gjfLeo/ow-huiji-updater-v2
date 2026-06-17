@@ -59,6 +59,8 @@ const zOverfastHero = z.object({
       icon: z.url(),
     }),
   ).nullish(),
+  subrole: z.any(),
+  perks: z.any(),
 }).strict();
 export type OverfastHero = z.infer<typeof zOverfastHero>;
 
